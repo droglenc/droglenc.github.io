@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Derek H. Ogle
-subtitle: Hello / Hello / Hello
+subtitle: Professor / R Coder / Blues Lovers
 css: "/css/index.css"
 meta-title: "Derek H. Ogle"
 meta-description: "Professor of Mathemetical Sciences and Natural Resources at Northland College."
