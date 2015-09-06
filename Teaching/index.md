@@ -1,40 +1,28 @@
 ---
 layout: page
-title: Doing Science!
+title: Helping Students Learn!
 ---
 
-1. *R-related Books, Websites, and Packages*
-  * Introduction to Fisheries Analyses with R (book)
-  * fishR website
-  * FSA (Fisheries Stock Assessment) package
-  * FSAdata package (data files for FSA package)
-  * GitHub page (with other R packags and unpublished books)
-  
-2. *Miscellaneous Recent Publications*
-  * Mayfly populations in Chequamegon Bay: 2002 and 2012 (with student)
-  * Misuse of “Gender” in Fisheries Publications
-  * Clarification of Somer’s Seasonal Growth Model
-  * Crayfish Trap Defense (with student)
-  * Community and Place in Outdoor Orientation Programs (with student)
-  
-3. *Ruffe Research*
-  * Effect of Removing Ruffe on Ruffe Populations
-  * Ruffe Weight-Length Relationships with a Proposed Standard Weight Equation
-  * Freezing Effect on Ruffe Length-Weight Relationships
-  * Larval Ruffe Diet (with student)
-  * Overview of Ruffe
-  * Ruffe Diet and Diel Movements
-  * Predation on Ruffe
-  
-4. *Temporal Signature Research*
-  * Technique Introduction
-  * Probabilistic Age Assignments
-  * Hatchery Lake Trout Scale Characteristics
-  
-5. *Fish Community Assessments (with Students)*
-  * Inch Lake Baseline Fish Community
-    * Presentations — Delta Diner 2013 (21 mb)
-    * Reports — 2013 Summary Update
-  * Chequamegon Bay Sucker Populations
-  * Happles Lake Baseline Fish Community
-  * Beaver and Nymphia Lakes Trout Population Assessment
+I teach the following courses on a regular basis.
+
+* Statistical Concepts & Analysis (MTH107) — Fall, Winter
+* Biometry (MTH207) — Winter
+* Fisheries Science & Management (NRS349) — Winter
+* Fisheries & Wildlife Techniques — May
+
+I regularly advise students in the following experiences.  [Contact me](mailto:dogle@northland.edu) if you are interested in one of these opportunities.
+
+* Senior Capstones / Theses
+* Field Experiences
+* Internships
+
+The following are examples of students students conducting field work in my classes.
+
+* Zach Woiak and Kelsey Norton describes electrofishing trout on Schacte Creek.
+[![Zach & Kelsey](Resources/ZachKelsey.JPG)](https://youtu.be/PTyf8p1decI)
+
+* Gabby Jukkula describes our work at the Iron River National Fish Hatchery.
+[![Gabby](Resources/Gabby.JPG)](https://youtu.be/NUH70p9CdNQ)
+
+* Katie Lancaster describes fyke-netting on Inch Lake.
+[![Zach & Kelsey](Resources/ZachKelsey.JPG)](https://youtu.be/kbAQ0mpQZWE)
