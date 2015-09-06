@@ -17,9 +17,9 @@ description: Professor of Mathemetical Sciences and Natural Resources at Northla
 
 # List of links in the navigation bar
 navbar-links:
-  Teaching: ""
-  Research: ""
-  Personal: ""
+  Teaching: "Teaching"
+  Research: "Research"
+  Personal: "Personal"
   About/Contact: "aboutme"
   Home: ""
 
