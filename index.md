@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Derek Ogle
-subtitle: Professor / R Coder / Blues Lover
+subtitle: Fisheries & Stats Professor / R Enthusiast
 css: "/css/index.css"
 meta-title: "Derek Ogle"
 meta-description: "Professor of Mathemetical Sciences and Natural Resources at Northland College."
@@ -9,8 +9,8 @@ bigimg:
   - "/img/big-imgs/AIFishing1.JPG" : "Fishing Apostle Islands"
   - "/img/big-imgs/Alaska2011a.jpg" : "Alaska"
   - "/img/big-imgs/Alaska2011b.jpg" : "Fishing Alaska"
-  - "/img/big-imgs/Banff2013a.JPG" : "Banff"
-  - "/img/big-imgs/Banff2013b.JPG" : "Banff"
+  - "/img/big-imgs/Banff2013a.JPG" : "Banff, Canada"
+  - "/img/big-imgs/Banff2013b.JPG" : "Banff, Canada"
   - "/img/big-imgs/BayfieldCo2008.jpg" : "Fall at Home"
   - "/img/big-imgs/Bluegill.JPG" : "Bluegill"
   - "/img/big-imgs/Canyonlands.JPG" : "Canyonlands, Utah"
@@ -24,11 +24,11 @@ bigimg:
   - "/img/big-imgs/NorthShore2013b.JPG" : "North Shore, Lake Superior"
   - "/img/big-imgs/Pathfinders.JPG" : "Sampling Lake Superior"
   - "/img/big-imgs/Pumpkinseed.JPG" : "Pumpkinseed"
-  - "/img/big-imgs/RedRocksAmphitheatre.JPG" : "Red Rocks Amphitheatre (2015)"
+  - "/img/big-imgs/RedRocksAmphitheatre.JPG" : "Red Rocks Amphitheatre"
   - "/img/big-imgs/RuffeCrew.jpg" : "Ruffe Crew"
   - "/img/big-imgs/RustyCrayfish.JPG" : "Rusty Crayfish"
   - "/img/big-imgs/ShortBridge2007.JPG" : "Sampling Chequamegon Bay"
   - "/img/big-imgs/StPetersDome2006.JPG" : "St. Peters Dome"
-  - "/img/big-imgs/SuckerSeining.JPG" : "Sucker Seining (2014)"
+  - "/img/big-imgs/SuckerSeining.JPG" : "Sucker Seining"
 ---
 
