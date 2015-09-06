@@ -14,8 +14,8 @@ p {
   margin: 30px 0;
 }
 p a {
-  text-decoration: underline;
-  color: #404040;
+  text-decoration: none;
+  color: #3d7ece;
 }
 code {
   word-break: break-word;
