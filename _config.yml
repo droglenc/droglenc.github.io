@@ -18,8 +18,10 @@ avatar: "/img/avatar-icon.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About Me: "aboutme"
-  Contact: "contact"
+  Teaching: ""
+  Research: ""
+  Personal: ""
+  About/Contact: "aboutme"
 
 # --- Footer options --- #
 
@@ -93,4 +95,3 @@ prose:
     - /css
     - /img
     - /js
-
