@@ -1,7 +1,7 @@
 ---
 layout: page
-subtitle: Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
 ---
+##  Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
 
 ### Contact
 * Center for Science and the Environment 239
