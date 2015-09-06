@@ -1,0 +1,96 @@
+# --- Serving options --- #
+# If you are building a simple GitHub user page (username.github.io) then use these settings:
+# url is the full website URL
+url: "http://droglenc.github.io"
+# baseurl is the website's URL without the hostname
+baseurl: ""
+
+# Name of website
+title: Derek H. Ogle
+# Short description of your site
+description: A virtual proof that name is awesome!
+
+# --- Navigation bar options --- #
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/avatar-icon.png"
+
+# List of links in the navigation bar
+navbar-links:
+  Home: ""
+  About Me: "aboutme"
+  Contact: "contact"
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Derek H. Ogle
+  email: "dogle@northland.edu"
+  github: droglenc
+  twitter: droglenc
+
+# Select which links to show in the footer
+footer-links-active:
+  rss: false
+  facebook: false
+  email: true
+  twitter: true
+  github: true
+  linkedin: false
+  stackoverflow: false
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+
+# --- Misc --- #
+
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+#disqus: ""
+
+# Fill in your Google Analytics ID to track your website using GA
+#google_analytics: ""
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: pygments
+permalink: /:year-:month-:day-:title
+paginate: 5
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true  # add comments to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
+
+# Exclude these files from production site
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
+
+# prose.io options
+prose:
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - /_includes
+    - /_layouts
+    - /css
+    - /img
+    - /js
+
