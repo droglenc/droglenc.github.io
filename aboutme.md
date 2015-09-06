@@ -1,16 +1,21 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Derek
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+##  Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Contact
+* Center for Science and the Environment 239
+* 715-682-1300
+* [dogle@northland.edu](mailto:dogle@northland.edu)
 
-What else do you need?
+### Profiles
+* CV
+* [Northland College Faculty Profile](http://www.northland.edu/academics-faculty-profiles.htm?id=111)
+* [ResearchGate](https://www.researchgate.net/profile/Derek_Ogle/) / [Google Scholar](http://scholar.google.com/citations?user=Xt9IgGkAAAAJ) / [Microsoft Academic Search](http://academic.research.microsoft.com/Author/34361005/derek-h-ogle) / [Academia.edu](http://northland.academia.edu/DerekOgle)
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Education
+* Ph.D (1996), Fisheries & Wildlife, [University of Minnesota](http://fwcb.cfans.umn.edu/)
+* M.Sc (1992), Fisheries & Wildlife, [University of Minnesota](http://fwcb.cfans.umn.edu/)
+* B.Sc (1989), Environmental Studies, [Northland College](http://www.northland.edu/)
