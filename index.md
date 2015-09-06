@@ -2,12 +2,12 @@
 layout: page
 title: Derek H. Ogle
 subtitle: Hello / Hello / Hello
-css: "css/index.css"
+css: "/css/index.css"
 meta-title: "Derek H. Ogle"
 meta-description: "Professor of Mathemetical Sciences and Natural Resources at Northland College."
 bigimg:
-  - "img/big-imgs/costa-rica-house.jpeg" : "Montezuma, Costa Rica (2011)"
-  - "img/big-imgs/grouse-grind.jpeg" : "Vancouver, Canada (2014)"
+  - "/img/big-imgs/costa-rica-house.jpeg" : "Montezuma, Costa Rica (2011)"
+  - "/img/big-imgs/grouse-grind.jpeg" : "Vancouver, Canada (2014)"
 ---
 
 ##  Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
