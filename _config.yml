@@ -6,7 +6,7 @@ url: "http://droglenc.github.io"
 baseurl: ""
 
 # Name of website
-title: Derek H. Ogle
+title: Derek Ogle
 # Short description of your site
 description: Professor of Mathemetical Sciences and Natural Resources at Northland College.
 
@@ -17,11 +17,11 @@ description: Professor of Mathemetical Sciences and Natural Resources at Northla
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
   Teaching: ""
   Research: ""
   Personal: ""
   About/Contact: "aboutme"
+  Home: ""
 
 # --- Footer options --- #
 
