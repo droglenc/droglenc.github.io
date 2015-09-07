@@ -12,7 +12,7 @@ I teach the following courses on a regular basis.
 
 I regularly advise students in the following experiences.  [Contact me](mailto:dogle@northland.edu) if you are interested in one of these opportunities.
 
-* Senior Capstones / Theses
+* [Senior Capstones / Theses](capstones)
 * Field Experiences
 * Internships
 
