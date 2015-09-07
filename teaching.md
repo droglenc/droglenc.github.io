@@ -19,10 +19,10 @@ I regularly advise students in the following experiences.  [Contact me](mailto:d
 The following are examples of students students conducting field work in my classes.
 
 * Zach Woiak and Kelsey Norton describes electrofishing trout on Schacte Creek.
-[![Zach & Kelsey](Resources/ZachKelsey.JPG)](https://youtu.be/PTyf8p1decI)
+[![Zach & Kelsey](img/Video_ZachKelsey.JPG)](https://youtu.be/PTyf8p1decI)
 
 * Gabby Jukkula describes our work at the Iron River National Fish Hatchery.
-[![Gabby](Resources/Gabby.JPG)](https://youtu.be/NUH70p9CdNQ)
+[![Gabby](img/Video_Gabby.JPG)](https://youtu.be/NUH70p9CdNQ)
 
 * Katie Lancaster describes fyke-netting on Inch Lake.
-[![Zach & Kelsey](Resources/ZachKelsey.JPG)](https://youtu.be/kbAQ0mpQZWE)
+[![Zach & Kelsey](img/Video_ZachKelsey.JPG)](https://youtu.be/kbAQ0mpQZWE)

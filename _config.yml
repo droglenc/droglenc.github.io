@@ -17,9 +17,9 @@ description: Professor of Mathemetical Sciences and Natural Resources at Northla
 
 # List of links in the navigation bar
 navbar-links:
-  Teaching: "Teaching"
-  Research: "Research"
-  Personal: "Personal"
+  Teaching: "teaching"
+  Research: "research"
+  Personal: "personal"
   About/Contact: "aboutme"
   Home: ""
 
@@ -45,7 +45,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "http://droglenc.github.io"
+url-pretty: "derekogle.com"
 
 # --- Misc --- #
 
