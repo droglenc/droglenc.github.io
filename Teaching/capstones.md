@@ -5,6 +5,7 @@ title: Students Do Science!
 Research opportunities for students interested in fisheries are available at Northland College.  These opportunities allow a student to work closely with a professor or personnel from a local resource agency and to develop research skills in preparation for graduate school or future employment.  Finished projects may result in publication in professional journals or an agency completion report.  If you are interested in conducting independent research related to fisheries, then contact [Dr. Derek Ogle](mailto:dogle@northland.edu) or Dr. Andrew Goyke during (preferably) your Sophomore or Junior year.
 
 ## Current Students [supervisor and partners shown in brackets]
+
 ### 2016
 * **Joseph Mrnak**, Smelt [Ogle; [[USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 * **Kaitlyn Windschitl**, Burbot [Ogle; [McNair Scholars Program @ UW-Superior](http://www.uwsuper.edu/mcnair/index.cfm)]
@@ -12,6 +13,7 @@ Research opportunities for students interested in fisheries are available at Nor
 
 
 ## Past Students
+
 ### 2015
 * **Jamie Goethlich**, The effects of experimental lake fertilization on condition and diet of Slimy Sculpin (*Cottus cognatus*) in Oligotrophic Arctic Lakes, North Slope, AK -- [AFS Presentation](Resources/Goethlich_AFS_sculpins_Final.pdf) / [Poster](Resources/Goethlich_Poster_Final.pdf) [Ogle; Utah State REU]
 * **Taylor Lepak**, Age and Growth of Lake Superior Kiyi -- [AFS Presentation](Resources/Lepak_Kiyi_AFS.pdf) / [Poster](Resources/Lepaketal_Kiyi_Poster.pdf) [Ogle; [[USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
