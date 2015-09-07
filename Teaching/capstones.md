@@ -33,7 +33,7 @@ Research opportunities for students interested in fisheries are available at Nor
 * 2011 — **Laura Schmidt**, [Summer spatial distributions of lake whitefish (*Coregonus clupeaformis*) in the Apostle Islands, 2007-2009.](Resources/schmidt_LWF_poster.pdf) [Ogle; WiDNR-Bayfield]
 
 * 2010w — **Steve Whitlock**, Density and size structure comparison among lake trout (*Salvelinus namaycush*) and rainbow smelt (*Osmerus mordax*) using summer gillnet indices between 1959-2010 from the Apostle Islands of Lake Superior [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
-* 2010 — **Patrick Blanchard**, The Efficacy of Underwater Fish Cameras [Ogle]
+* 2010 — **Patrick Blanchard**, [The Efficacy of Underwater Fish Cameras](http://pikelakefishcribs.webs.com/) [Ogle]
 
 * 2009w — **April BeBault**, [Baseline Monitoring Results for Bad River Watershed Association.](Resources/bebault_finalreport.pdf) [Ogle; [BRWA](http://www.badriverwatershed.org/)]
 * 2009w — **Tony Young**, [Characteristics of Whittlesey Creek trout redds.](Resources/young_BKT_finalreport.pdf) [Ogle; [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
