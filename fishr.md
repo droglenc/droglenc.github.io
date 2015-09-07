@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Derek Ogle
+title: fishR Typo
 ---
 
-The fishR webpage is located at (derekogle.com/fishR) [note the capital "R"].
+The fishR webpage is located at [derekogle.com/fishR](http://derekogle.com/fishr) [note the capital "R"].
