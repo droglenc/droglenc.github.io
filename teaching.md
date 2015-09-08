@@ -5,7 +5,7 @@ title: Helping Students Learn!
 
 I teach the following courses on a regular basis.
 
-* Statistical Concepts & Analysis (MTH107) — Fall, Winter
+* [Statistical Concepts & Analysis (MTH107)]({{site-url}}/NCMTH107/) — Fall, Winter
 * Biometry (MTH207) — Winter
 * Fisheries Science & Management (NRS349) — Winter
 * Fisheries & Wildlife Techniques — May
