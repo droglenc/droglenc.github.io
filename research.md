@@ -4,7 +4,7 @@ title: Doing Science!
 ---
 
 1. **Books and Book Chapters**
-  * Introduction to Fisheries Analyses with R (projected late 2015)
+  * [Introduction to Fisheries Analyses with R]({{site.url}}/IFAR/) (projected late 2015)
   * Growth Estimation: Growth Models and Statistical Inference in AFS Age & Growth Book (project for 2016)
 
 1. **R Websites and Packages**
