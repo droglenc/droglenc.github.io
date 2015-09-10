@@ -18,5 +18,5 @@ When I am not working, I very much enjoy spending time with my wife Kim and our 
     * [JJ Grey & Mofro](http://www.jjgrey.com/) ([YouTube playlist](http://www.youtube.com/playlist?list=PLQke-OARNtwS89p5IcBG283E2Mm05YHCE))
     * [Corey Carlson](http://coreycarlsonmusic.com/) ([YouTube playlist](http://www.youtube.com/playlist?list=PLQke-OARNtwQVWEeyVPSPdEbQGEOSZ_PT))
 
-Not surprisingly, I also make occasional TV appearances.  The most of of these is my work on Diners, Drive-Ins, and Dives. 
-[![Derek on Triple-D](img/Video_DDD.JPG)](http://www.foodnetwork.com/videos/delta-diner-0235415.html)
+Not surprisingly, I also make occasional TV appearances.  The most famous of these is my work on **Diners, Drive-Ins, and Dives**. 
+<div text-align: center><a href="http://www.foodnetwork.com/videos/delta-diner-0235415.html"><img src="img/Video_DDD.JPG" alt="Derek on Triple-D" height="150"</a></div>
