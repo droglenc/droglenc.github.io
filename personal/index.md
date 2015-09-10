@@ -3,9 +3,9 @@ layout: page
 title: Having Fun!
 ---
 
-When I am not working, I very much enjoy spending time with my wife Kim and our dog Jem (and previous dog Jordan). In addition, I enjoy tending to our property on the Muskeg Creek; fishing, boating, and underwater photography in the summer; and cross-country skiing in the winter.  I also dig the blues.
+When I am not working, I very much enjoy spending time with my wife Kim and our sheltie Jem (and previous dog Jordan). In addition, I enjoy tending to our property on the Muskeg Creek; fishing, boating, and underwater photography in the summer; and cross-country skiing in the winter.  I also dig the blues.
 
-* Dogs — Jem, Jordan
+* Dogs — Jem, [Jordan](Jordan)
 * Muskeg Property ([A](https://picasaweb.google.com/dogle.nc/Muskeg_2007?authuser=0&feat=directlink),[B](https://picasaweb.google.com/dogle.nc/Muskeg_2008?authuser=0&feat=directlink),[C](https://picasaweb.google.com/dogle.nc/Muskeg_2010))
 * [Boating](https://picasaweb.google.com/dogle.nc/IslandJem02?authuser=0&authkey=Gv1sRgCInn54iGmcmt9gE&feat=directlink)
 * Fishing
