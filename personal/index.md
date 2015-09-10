@@ -22,6 +22,6 @@ Not surprisingly, I also make occasional TV appearances.  The most famous of the
 
 <div style="text-align:center">
   <a href="http://www.foodnetwork.com/videos/delta-diner-0235415.html">
-    <img src="../img/Video_DDD.JPG" alt="Derek on Triple-D" height="150px">
+    <img src="../img/Video_DDD.JPG" alt="Derek on Triple-D" width="450px">
   </a>
 </div>
