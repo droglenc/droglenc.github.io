@@ -32,6 +32,6 @@ bigimg:
   - "/img/big-imgs/SuckerSeining.JPG" : "Sucker Seining"
 ---
 
-<div "text=align:center">
+<div "text-align:center">
   **Quick Links:** <a href="http://derekogle.com/fishR/">fishR website</a> / <a href="http://derekogle.com/IFAR/">Introductory Fisheries Analyses with R</a>
 </div>
