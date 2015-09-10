@@ -20,4 +20,4 @@ When I am not working, I very much enjoy spending time with my wife Kim and our 
 
 Not surprisingly, I also make occasional TV appearances.  The most famous of these is my appearance on **Diners, Drive-Ins, and Dives**.
 
-<div text-align: center><a href="http://www.foodnetwork.com/videos/delta-diner-0235415.html"><img src="../img/Video_DDD.JPG" alt="Derek on Triple-D" height="150"></a></div>
+<div text-align: center;><a href="http://www.foodnetwork.com/videos/delta-diner-0235415.html"><img src="../img/Video_DDD.JPG" alt="Derek on Triple-D" height="150"></a></div>
