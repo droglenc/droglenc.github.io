@@ -14,12 +14,14 @@ When I am not working, I very much enjoy spending time with my wife Kim and our 
 * [Underwater Pictures](https://picasaweb.google.com/dogle.nc/UnderwaterPictures?authuser=0&feat=directlink)
 * Musical Interests
     * [Big Top Chautauqua](http://www.bigtop.org/)
-    * [Blues Muscians that We Have Met](https://picasaweb.google.com/dogle.nc/Blues?authuser=0&authkey=Gv1sRgCMGH7euwxIW5wQE&feat=directlink)
+    * [Blues Musicians that We Have Met](https://picasaweb.google.com/dogle.nc/Blues?authuser=0&authkey=Gv1sRgCMGH7euwxIW5wQE&feat=directlink)
     * [JJ Grey & Mofro](http://www.jjgrey.com/) ([YouTube playlist](http://www.youtube.com/playlist?list=PLQke-OARNtwS89p5IcBG283E2Mm05YHCE))
     * [Corey Carlson](http://coreycarlsonmusic.com/) ([YouTube playlist](http://www.youtube.com/playlist?list=PLQke-OARNtwQVWEeyVPSPdEbQGEOSZ_PT))
 
 Not surprisingly, I also make occasional TV appearances.  The most famous of these is my appearance on **Diners, Drive-Ins, and Dives**.
 
 <div style="text-align:center">
-<a href="http://www.foodnetwork.com/videos/delta-diner-0235415.html"><img src="../img/Video_DDD.JPG" alt="Derek on Triple-D" height="150"></a>
+  <a href="http://www.foodnetwork.com/videos/delta-diner-0235415.html">
+    <img src="../img/Video_DDD.JPG" alt="Derek on Triple-D" height="150px">
+  </a>
 </div>
