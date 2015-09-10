@@ -33,5 +33,5 @@ bigimg:
 ---
 
 <div style="text-align:center">
-  **Quick Links:** <a href="http://derekogle.com/fishR/">fishR website</a> / <a href="http://derekogle.com/IFAR/">Introductory Fisheries Analyses with R</a>
+  <strong>Quick Links:</strong> <a href="http://derekogle.com/fishR/">fishR website</a> / <a href="http://derekogle.com/IFAR/">Introductory Fisheries Analyses with R</a>
 </div>
