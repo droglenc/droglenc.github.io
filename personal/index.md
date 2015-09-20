@@ -6,10 +6,10 @@ title: Having Fun!
 When I am not working, I very much enjoy spending time with my wife Kim and our sheltie Jem (and previous dog Jordan). In addition, I enjoy tending to our property on the Muskeg Creek; fishing, boating, and underwater photography in the summer; and cross-country skiing in the winter.  I also dig the blues.
 
 * Dogs — [Jem](Jem), [Jordan](Jordan)
-* Muskeg Property ([A](https://picasaweb.google.com/dogle.nc/Muskeg_2007?authuser=0&feat=directlink),[B](https://picasaweb.google.com/dogle.nc/Muskeg_2008?authuser=0&feat=directlink),[C](https://picasaweb.google.com/dogle.nc/Muskeg_2010))
+* [Muskeg Property](https://picasaweb.google.com/107081804861686762583/Muskeg?authuser=0&authkey=Gv1sRgCOTGkMWKqM2WlAE&feat=directlink)
 * [Boating](https://picasaweb.google.com/dogle.nc/IslandJem02?authuser=0&authkey=Gv1sRgCInn54iGmcmt9gE&feat=directlink)
 * Fishing
-    Lake Superior ([A](https://picasaweb.google.com/dogle.nc/Fall11_Fishing?authuser=0&authkey=Gv1sRgCMKI_OHD3cuq9wE&feat=directlink),[B](https://picasaweb.google.com/dogle.nc/Fall12_Fishing?authuser=0&authkey=Gv1sRgCKG_1ovEt4uCzAE&feat=directlink))
+    * [Lake Superior](https://picasaweb.google.com/107081804861686762583/Fishing02?authuser=0&authkey=Gv1sRgCLun1dTYjt-oeg&feat=directlink)
     * [Old Pictures](https://picasaweb.google.com/dogle.nc/Fishing?authuser=0&authkey=Gv1sRgCJuihNaA56Crbw&feat=directlink)
 * [Underwater Pictures](https://picasaweb.google.com/dogle.nc/UnderwaterPictures?authuser=0&feat=directlink)
 * Musical Interests

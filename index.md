@@ -18,7 +18,6 @@ bigimg:
   - "/img/big-imgs/CheqBaySamplingb.JPG" : "Sampling Chequamegon Bay"
   - "/img/big-imgs/CrappieTagged.jpg" : "Tagged Crappie"
   - "/img/big-imgs/FishFry.JPG" : "School of Juvenile Fish"
-  - "/img/big-imgs/Jemerald_May09.jpg" : "Jem"
   - "/img/big-imgs/LakeMichigan2009.jpg" : "Lake Michigan"
   - "/img/big-imgs/MeyersBeach2008.JPG" : "Meyers Beach, Lake Superior"
   - "/img/big-imgs/MuskegFlowers.JPG" : "Muskeg Wetlands"
