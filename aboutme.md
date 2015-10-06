@@ -10,7 +10,7 @@ layout: page
 * [dogle@northland.edu](mailto:dogle@northland.edu)
 
 ### Profiles
-* CV
+* [CV](resources/CV.pdf)
 * [Northland College Faculty Profile](http://www.northland.edu/academics-faculty-profiles.htm?id=111)
 * [ResearchGate](https://www.researchgate.net/profile/Derek_Ogle/) / [Google Scholar](http://scholar.google.com/citations?user=Xt9IgGkAAAAJ) / [Microsoft Academic Search](http://academic.research.microsoft.com/Author/34361005/derek-h-ogle) / [Academia.edu](http://northland.academia.edu/DerekOgle)
 
