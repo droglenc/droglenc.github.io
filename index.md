@@ -19,6 +19,7 @@ bigimg:
   - "/img/big-imgs/CrappieTagged.jpg" : "Tagged Black Crappie"
   - "/img/big-imgs/FishFry.JPG" : "School of Juvenile Fish"
   - "/img/big-imgs/JemRunning.jpg" : "Jem"
+  - "/img/big-imgs/Home_2015.JPG" : "Home on the Lake"
   - "/img/big-imgs/LakeMichigan2009.jpg" : "Lake Michigan"
   - "/img/big-imgs/MeyersBeach2008.JPG" : "Meyers Beach, Lake Superior"
   - "/img/big-imgs/MuskegFlowers.JPG" : "Muskeg Wetlands"
@@ -37,6 +38,7 @@ bigimg:
   - "/img/big-imgs/ShortBridge2007.JPG" : "Sampling Chequamegon Bay"
   - "/img/big-imgs/Smallmouth.JPG" : "Smallmouth Bass"
   - "/img/big-imgs/StPetersDome2006.JPG" : "St. Peters Dome"
+  - "/img/big-imgs/StPetersDome2015.JPG" : "St. Peters Dome, 2015"
   - "/img/big-imgs/SuckerSeining.JPG" : "Sucker Seining"
 ---
 
