@@ -27,6 +27,7 @@ bigimg:
   - "/img/big-imgs/Muskeg_Winter.JPG" : "Muskeg in Winter"
   - "/img/big-imgs/NorthShore2013a.JPG" : "North Shore, Lake Superior"
   - "/img/big-imgs/NorthShore2013b.JPG" : "North Shore, Lake Superior"
+  - "/img/big-imgs/Ogle_BCC.jpg" : "Sampling Bay City Creek"
   - "/img/big-imgs/Ogle_Sign_UK.jpg" : "Ogle, England"
   - "/img/big-imgs/Pathfinders.JPG" : "Sampling Lake Superior"
   - "/img/big-imgs/Pumpkinseed.JPG" : "Pumpkinseed"
