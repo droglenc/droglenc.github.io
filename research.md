@@ -21,7 +21,7 @@ title: Doing Science!
     * [Community and Place in Outdoor Orientation Programs](resources/pubs/Austin_etal_2010.pdf) (with student)
 1. **Ruffe Research**
     * [Effect of Removing Ruffe on Ruffe Populations](resources/pubs/CzypinskiOgle_2011.pdf)
-    * [Ruffe Weight-Length Relationships with a Proposed Standard Weight Equation](resources/pubs/OgleWinfield2009repro.pdf)
+    * [Ruffe Weight-Length Relationships with a Proposed Standard Weight Equation](resources/pubs/OgleWinfield2009.pdf)
     * [Freezing Effect on Ruffe Length-Weight Relationships](resources/pubs/Ogle_2009.pdf)
     * [Larval Ruffe Diet](resources/pubs/Ogle_et_al_2004.pdf) (with student)
     * [Overview of Ruffe](resources/pubs/Ogle_1998.pdf)
