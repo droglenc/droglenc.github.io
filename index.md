@@ -40,6 +40,7 @@ bigimg:
   - "/img/big-imgs/StPetersDome2006.JPG" : "St. Peters Dome"
   - "/img/big-imgs/StPetersDome2015.JPG" : "St. Peters Dome, 2015"
   - "/img/big-imgs/SuckerSeining.JPG" : "Sucker Seining"
+  - "/img/big-imgs/SuperiorShip15.jpg" : "Ship on Lake Superior"
 ---
 
 <div style="text-align:center">
