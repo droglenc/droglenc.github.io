@@ -7,7 +7,7 @@ I teach the following courses on a regular basis.
 
 * [Statistical Concepts & Analysis (MTH107)]({{site-url}}/NCMTH107/) — Fall, Winter
 * [Biometry (MTH207)]({{site-url}}/NCMTH207/) — Winter
-* Fisheries Science & Management (NRS349) — Winter
+* [Fisheries Science & Management (NRS349)]({{site-url}}/NCNRS349/) — Winter
 * Fisheries & Wildlife Techniques — May
 
 I regularly advise students in the following experiences.  [Contact me](mailto:dogle@northland.edu) if you are interested in one of these opportunities.
