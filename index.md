@@ -45,6 +45,10 @@ bigimg:
 ---
 
 <div style="text-align:center">
+<a href="http://derekogle.com/fishR/" role="button" class="btn btn-primary">fishR</a> <a href="http://derekogle.com/IFAR/" role="button" class="btn btn-primary">IFAR Book</a>
+</div>
+
+<div style="text-align:center">
 <strong>Quick Links:</strong> <a href="http://derekogle.com/fishR/">fishR website</a> | <a href="http://derekogle.com/IFAR/">Introductory Fisheries Analyses with R</a><br>
-<strong>Classes:</strong> <a href="http://derekogle.com/NCMTH107/">Stat Concepts & Analysis</a> / <a href="http://derekogle.com/NCMTH207/">Biometry</a> / <a href="http://derekogle.com/NCNRS349/">Fish Science & Management</a>
+<strong>Classes:</strong> <a href="http://derekogle.com/NCMTH107/">Stat Concepts & Analysis</a> | <a href="http://derekogle.com/NCMTH207/">Biometry</a> | <a href="http://derekogle.com/NCNRS349/">Fish Science & Management</a>
 </div>
