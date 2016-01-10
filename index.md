@@ -45,5 +45,5 @@ bigimg:
 ---
 
 <div style="text-align:center">
-<strong>Quick Links:</strong> <div class="btn-group"><a href="http://derekogle.com/fishR/" role="button" class="btn btn-primary">fishR</a> <a href="http://derekogle.com/IFAR/" role="button" class="btn btn-primary">IFAR Book</a> <a href="http://derekogle.com/NCMTH107/" role="button" class="btn btn-primary">MTH107</a> <a href="http://derekogle.com/NCMTH207/" role="button" class="btn btn-primary">MTH207</a> <a href="http://derekogle.com/NCNRS349/" role="button" class="btn btn-primary">NRS349</a>
-</div></div>
+<strong>Quick Links:</strong><a href="http://derekogle.com/fishR/" role="button" class="btn btn-primary">fishR</a> <a href="http://derekogle.com/IFAR/" role="button" class="btn btn-primary">IFAR Book</a> <a href="http://derekogle.com/NCMTH107/" role="button" class="btn btn-primary">MTH107</a> <a href="http://derekogle.com/NCMTH207/" role="button" class="btn btn-primary">MTH207</a> <a href="http://derekogle.com/NCNRS349/" role="button" class="btn btn-primary">NRS349</a>
+</div>
