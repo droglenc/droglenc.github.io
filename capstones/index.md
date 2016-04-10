@@ -10,25 +10,25 @@ Research opportunities for students interested in fisheries are available at Nor
 ## Past Students
 
 ### 2016
-* **Kevin Johnson**, Efishing gloves -- [Poster]()/[Paper]() [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
+* **Kevin Johnson**, Effectiveness of Smith-Root’s Fish Handling Gloves to Immobilize Lake Trout and Rainbow Trout -- [Poster]()/[Paper]() [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
 * **Joseph Mrnak**, Smelt -- [Poster]()/[Paper]() [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
-* **Kaitlyn Windschitl**, Burbot -- [Poster]()/[Paper]() [Ogle; [McNair Scholars Program @ UW-Superior](http://www.uwsuper.edu/mcnair/index.cfm)]
-* **Ian Woest** and **Kert Wuestenhagen**, Ruffe -- [Poster]()/[Paper]() [Ogle]
+* **Kaitlyn Windschitl**, Burbot -- [Poster]()/[Paper]() [Ogle; [McNair Scholars Program @ UW-Superior; Minnesota DNR; Wisconsin DNR](http://www.uwsuper.edu/mcnair/index.cfm)]
+* **Ian Woest** and **Kert Wuestenhagen**, An Assessment of Otoliths, Spines, and Scales for Assigning Ages to Ruffe -- [Poster]()/[Paper]() [Ogle]
 
 ### 2015
 * **Jamie Goethlich**, The effects of experimental lake fertilization on condition and diet of Slimy Sculpin (*Cottus cognatus*) in Oligotrophic Arctic Lakes, North Slope, AK -- [AFS Presentation](goethlich_sculpins_afspresentation.pdf) / [Poster](goethlich_sculpins_poster.pdf) [Ogle; Utah State REU]
-* **Taylor Lepak**, Age and Growth of Lake Superior Kiyi -- [AFS Presentation](lepak_kiyi_afspresentation.pdf) / [Poster](Lepak_kiyi_poster.pdf) [Ogle; [[USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* **Taylor Lepak**, Age and Growth of Lake Superior Kiyi -- [AFS Presentation](lepak_kiyi_afspresentation.pdf) / [Poster](Lepak_kiyi_poster.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 * **Ryan Menebroeker**, Comparing the relative abundance of Lake Whitefish (*Coregonus clupeaformis*) caught in areas exposed to differential rates of fishing pressure [Ogle; WiDNR-Bayfield]
 
 ### 2014
 * **Dalton Lebeda**, Consistency of scale increments on Black Crappie at times of capture and re-capture. [Ogle]
 * **Allison DeRose**, Evaluating the total catch, release and gillnetting mortality rates of lean Lake Trout by-catch in commercial fisheries in the Apostle Islands of Lake Superior. [Ogle; WiDNR-Bayfield]
 * **Hanna Fiorio**, Comparison of transverse sectioning and grinding methods of otoliths to determine age of Lake Superior Lake Trout. [Ogle; [GLIFWC](http://www.glifwc.org/)]
-* **Dalton Lebeda**, Can a FatmeterTM be Used to Determine the Sex of Lake Sturgeon (*Acipenser fulvescens*)? --[Paper](lebeda_LKS_finalreport.pdf) [Ogle; [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
-* **Taylor Stewart**, Age and growth of the pygmy whitefish, *Prosopium coulterii*, in Lake Superior.  [Poster](stewart_PWF_afsposter.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* **Dalton Lebeda**, Can a FatmeterTM be Used to Determine the Sex of Lake Sturgeon (*Acipenser fulvescens*)? -- [Paper](lebeda_LKS_finalreport.pdf) [Ogle; [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
+* **Taylor Stewart**, Age and growth of the pygmy whitefish, *Prosopium coulterii*, in Lake Superior. -- [Poster](stewart_PWF_afsposter.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 
 ### 2013
-* **Kristin Brunk**, Burrowing mayflies as indicators of ecosystem health in the Chequamegon Bay. [Published Paper]({{site-url}}/Research/Ogle_2009.pdf) / [Poster](brunk_mayfly_poster.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* **Kristin Brunk**, Burrowing mayflies as indicators of ecosystem health in the Chequamegon Bay. -- [Published Paper]({{site-url}}/Research/Ogle_2009.pdf) / [Poster](brunk_mayfly_poster.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 * **Kristin Brunk**, Establishing baseline macroinvertebrate monitoring after course woody debris additions at Whittlesey Creek NWR. [Goyke; [USFWS-WCNWR](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDsQFjAB&url=http%3A%2F%2Fwww.fws.gov%2Fmidwest%2FWhittleseyCreek%2F&ei=4kD9UK24MdLSqAGI14H4Ag&usg=AFQjCNFeMYo0Cj1gQNIweQTLW59icoec3g&sig2=lQCCO8qG99IcTBcUazLNQA&bvm=bv.41248874,d.aWM)]
 * **Kevin Grand**, Factors related to the assemblage of brook trout (*Salvelinus fontinalis*) and non-native salmonid species in Lake Superior tributaries. -- [Poster](grand_BKT_poster.pdf)  [Ogle; [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
 * **Drew Negangard**, Effects of a minimum length limit on bluegill (*Lepomis macrochirus*) and largemouth bass (*Micropterus salmoides*) size structure in a small lake in Illinois. -- [Poster](negengard_BGLMB_poster.pdf) [Ogle; INHS]
@@ -70,8 +70,8 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ### 2003
 * **Cory Goldsworthy**, Age structure of Lake Superior ninespine stickleback. [Goyke; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
-* **Lori Kret**, Evidence for trap defense by rusty crayfish (*Orconectes rusticus*).  [Published Paper]({{site-url}}/Research/OgleKret_JFE_Web.pdf) [Ogle]
+* **Lori Kret**, Evidence for trap defense by rusty crayfish (*Orconectes rusticus*). --  [Published Paper]({{site-url}}/Research/OgleKret_JFE_Web.pdf) [Ogle]
 * **Julie Nieland**, Changes in siscowet abundance within the Wisconsin waters of Lake Superior. [Goyke; WiDNR-Bayfield]
 
 ### 2002
-* **Brad Ray**, Diet of larval ruffe (*Gymnocephalus cernuus*) in the St. Louis River Harbor, Lake Superior.  [Published Paper]({{site-url}}/Research/Ogle_etal_2004.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* **Brad Ray**, Diet of larval ruffe (*Gymnocephalus cernuus*) in the St. Louis River Harbor, Lake Superior. -- [Published Paper]({{site-url}}/Research/Ogle_etal_2004.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
