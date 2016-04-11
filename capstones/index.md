@@ -10,10 +10,10 @@ Research opportunities for students interested in fisheries are available at Nor
 ## Past Students
 
 ### 2016
-* **Kevin Johnson**, Effectiveness of Smith-Root’s Fish Handling Gloves to Immobilize Lake Trout and Rainbow Trout -- [Poster]()/[Paper]() [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
-* **Joseph Mrnak**, Smelt -- [Poster]()/[Paper]() [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
-* **Kaitlyn Windschitl**, Burbot -- [Poster]()/[Paper]() [Ogle; [McNair Scholars Program @ UW-Superior; Minnesota DNR; Wisconsin DNR](http://www.uwsuper.edu/mcnair/index.cfm)]
-* **Ian Woest** and **Kert Wuestenhagen**, An Assessment of Otoliths, Spines, and Scales for Assigning Ages to Ruffe -- [Poster]()/[Paper]() [Ogle]
+* **Kevin Johnson**, Effectiveness of Smith-Root’s Fish Handling Gloves to Immobilize Lake Trout and Rainbow Trout -- [Poster]/[Paper] [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
+* **Joseph Mrnak**, Smelt -- [Poster]/[Paper] [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* **Kaitlyn Windschitl**,Size and Age Characteristics of Leech Lake Burbot in 2002 and 2015 -- [Poster](Windschitl_2016_poster.pdf)/[Paper] [Ogle; [McNair Scholars Program @ UW-Superior](http://www.uwsuper.edu/mcnair/index.cfm); Minnesota DNR; Wisconsin DNR]
+* **Ian Woest** and **Kert Wuestenhagen**, An Assessment of Otoliths, Spines, and Scales for Assigning Ages to Ruffe -- [Poster](WoestWuestenhagen_2016_poster.pdf)/[Paper] [Ogle]
 
 ### 2015
 * **Jamie Goethlich**, The effects of experimental lake fertilization on condition and diet of Slimy Sculpin (*Cottus cognatus*) in Oligotrophic Arctic Lakes, North Slope, AK -- [AFS Presentation](goethlich_sculpins_afspresentation.pdf) / [Poster](goethlich_sculpins_poster.pdf) [Ogle; Utah State REU]
