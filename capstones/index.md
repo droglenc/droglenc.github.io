@@ -11,7 +11,7 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ### 2016
 * **Kevin Johnson**, Effectiveness of Smith-Root’s Fish Handling Gloves to Immobilize Lake Trout and Rainbow Trout -- [Poster]/[Paper] [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
-* **Joseph Mrnak**, Smelt -- [Poster](Mrnak_RBS_poster.pdf)/[Paper] [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* **Joseph Mrnak**, Smelt -- [Poster](Mrnak_RBS_Poster.pdf)/[Paper] [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 * **Kaitlyn Windschitl**,Size and Age Characteristics of Leech Lake Burbot in 2002 and 2015 -- [Poster](Windschitl_2016_poster.pdf)/[Paper] [Ogle; [McNair Scholars Program @ UW-Superior](http://www.uwsuper.edu/mcnair/index.cfm); Minnesota DNR; Wisconsin DNR]
 * **Ian Woest** and **Kert Wuestenhagen**, An Assessment of Otoliths, Spines, and Scales for Assigning Ages to Ruffe -- [Poster](WoestWuestenhagen_2016_poster.pdf)/[Paper] [Ogle]
 
