@@ -22,6 +22,7 @@ bigimg:
   - "/img/big-imgs/Jemerald_Dec15.JPG" : "Jem, Dec 2015"
   - "/img/big-imgs/Home_2015.JPG" : "Home on the Lake"
   - "/img/big-imgs/LakeMichigan2009.jpg" : "Lake Michigan"
+  - "/img/big-imgs/Marsh_Marigold.JPG" : "Muskeg Marsh Marigolds"
   - "/img/big-imgs/MeyersBeach2008.JPG" : "Meyers Beach, Lake Superior"
   - "/img/big-imgs/MuskegFlowers.JPG" : "Muskeg Wetlands"
   - "/img/big-imgs/MuskegCreekSummer.JPG" : "Muskeg Creek"
