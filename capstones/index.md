@@ -6,8 +6,10 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ## Current Students [supervisor and partners shown in brackets]
 
+* **Callie Kopp**, Sea Lamprey Fecundity -- [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
 ## Past Students
+
 
 ### 2016
 * **Ritchie Granger**, Can Ratios of Linear Morphometric Measurements Delineate among Lake Trout Morphotypes? -- [Poster](Granger_LKTMorphometrics_Poster.pdf) / [Paper](Granger_LKT_Morphometrics_paper.pdf) [Ogle;  [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
