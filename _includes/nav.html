@@ -7,28 +7,33 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
-	    {% for link in site.navbar-links %}
-        <li>
-		  <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a>
-		</li>
-		{% endfor %}
-
-		{% if site.nav-search %}
-		<li>
-		  <a href="{{ site.baseurl }}/{{ site.nav-search }}" class="nav-search-link" title="Search">
-		    <span class="fa fa-search nav-search-icon"></span>
-			<span class="nav-search-text">Search</span>
-		  </a>
-		</li>
-		{% endif %}
+      {% for link in site.navbar-links %}
+        {% if link[1].first %}
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+            <div class="navlinks-children">
+              {% for childlink in link[1] %}
+                {% for linkparts in childlink %}
+                  {% include navbarlink.html link=linkparts %}
+                {% endfor %}
+              {% endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li>
+            {% include navbarlink.html link=link %}
+          </li>
+        {% endif %}
+        {% endfor %}
       </ul>
     </div>
 
-	{% if site.avatar %}
+	{% if site.avatar and (layout.show-avatar or page.show-avatar) %}
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
 	    <a href="{{ site.url }} ">
