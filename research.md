@@ -4,16 +4,16 @@ title: Doing Science!
 ---
 
 1. **Books and Book Chapters**
-    * [*Introductory Fisheries Analyses with R*]({{site.url}}/IFAR/) (projected December, 2015)
-    * Growth Estimation: Growth Models and Statistical Inference in AFS Age & Growth Book (projected for 2016)
+    * [*Introductory Fisheries Analyses with R*]({{site.url}}/IFAR/)
+    * Growth Estimation: Growth Models and Statistical Inference in AFS Age & Growth Book (projected for 2017)
 1. **R Websites and Packages**
     * [fishR website]({{ site.url}}/fishR/)
     * [FSA (Fisheries Stock Assessment) package](https://github.com/droglenc/FSA)
     * [FSAdata package](https://github.com/droglenc/FSAdata) (data files for FSA package)
-    * [GitHub page](https://github.com/droglenc) (with other R packags and unpublished books)
+    * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
 1. **Miscellaneous Recent Publications**
-    * Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin  (with student)
-    * Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)  (with student)
+    * [Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin](resources/pubs/Menebroeker_et_al_2016.pdf) (with student)
+    * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (with student)
     * [Mayfly Populations in Chequamegon Bay: 2002 and 2012](resources/pubs/Brunk_et_al_2014.pdf)  (with student)
     * [Misuse of “Gender” in Fisheries Publications](resources/pubs/OgleSchanning_2012.pdf)
     * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)

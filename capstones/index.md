@@ -10,7 +10,6 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ## Past Students
 
-
 ### 2016
 * **Ritchie Granger**, Can Ratios of Linear Morphometric Measurements Delineate among Lake Trout Morphotypes? -- [Poster](Granger_LKTMorphometrics_Poster.pdf) / [Paper](Granger_LKT_Morphometrics_paper.pdf) [Ogle;  [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
 * **Kevin Johnson**, Effectiveness of Smith-Root’s Fish Handling Gloves to Immobilize Lake Trout and Rainbow Trout -- [Poster](KJohnson_EGloves_Poster.pdf)/[Paper](Johnson_EffectivenessFishGloves_paper.pdf) [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
