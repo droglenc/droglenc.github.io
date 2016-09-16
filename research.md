@@ -12,6 +12,7 @@ title: Doing Science!
     * [FSAdata package](https://github.com/droglenc/FSAdata) (data files for FSA package)
     * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
 1. **Miscellaneous Recent Publications**
+    * An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992) {accepted for Fisheries Review}
     * [Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin](resources/pubs/Menebroeker_et_al_2016.pdf) (with student)
     * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (with student)
     * [Mayfly Populations in Chequamegon Bay: 2002 and 2012](resources/pubs/Brunk_et_al_2014.pdf)  (with student)
