@@ -11,15 +11,16 @@ title: Doing Science!
     * [FSA (Fisheries Stock Assessment) package](https://github.com/droglenc/FSA)
     * [FSAdata package](https://github.com/droglenc/FSAdata) (data files for FSA package)
     * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
-1. **Miscellaneous Recent Publications**
-    * An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992) {accepted for Fisheries Review}
+1. **Miscellaneous**
     * [Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin](resources/pubs/Menebroeker_et_al_2016.pdf) (with student)
-    * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (with student)
     * [Mayfly Populations in Chequamegon Bay: 2002 and 2012](resources/pubs/Brunk_et_al_2014.pdf)  (with student)
-    * [Misuse of “Gender” in Fisheries Publications](resources/pubs/OgleSchanning_2012.pdf)
-    * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)
+    * [Misuse of "Gender"" in Fisheries Publications](resources/pubs/OgleSchanning_2012.pdf)
     * [Crayfish Trap Defense](resources/pubs/OgleKret_JFE_Web.pdf) (with student)
     * [Community and Place in Outdoor Orientation Programs](resources/pubs/Austin_etal_2010.pdf) (with student)
+1. **Age and Growth (Including Modeling)**
+    * An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992) {accepted for Fisheries Review}
+    * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)
+    * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (with student)
 1. **Ruffe Research**
     * [Effect of Removing Ruffe on Ruffe Populations](resources/pubs/CzypinskiOgle_2011.pdf)
     * [Ruffe Weight-Length Relationships with a Proposed Standard Weight Equation](resources/pubs/OgleWinfield2009.pdf)
