@@ -3,9 +3,9 @@ layout: page
 title: Doing Science!
 ---
 
-----
-
-[ResearchGate](https://www.researchgate.net/profile/Derek_Ogle/) / [Orcid](http://orcid.org/0000-0002-0370-9299) / [Google Scholar](http://scholar.google.com/citations?user=Xt9IgGkAAAAJ)
+<div align="center">
+<a href="https://www.researchgate.net/profile/Derek_Ogle/" target="_blank">ResearchGate</a> / <a href="http://orcid.org/0000-0002-0370-9299" target="_blank">Orcid</a> / <a href="http://scholar.google.com/citations?user=Xt9IgGkAAAAJ" target="_blank">Google Scholar</a>
+</div>
 
 ----
 

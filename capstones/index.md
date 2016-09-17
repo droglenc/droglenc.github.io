@@ -10,7 +10,7 @@ Research opportunities for students interested in fisheries are available at Nor
 * **Callie Kopp**, Sea Lamprey Fecundity -- [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 * **Logan Sikora** Walleye Age and Growth -- [Ogle]
 
-====
+----
 
 ## Past Students
 
