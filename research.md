@@ -3,6 +3,12 @@ layout: page
 title: Doing Science!
 ---
 
+----
+
+[ResearchGate](https://www.researchgate.net/profile/Derek_Ogle/) / [Orcid](http://orcid.org/0000-0002-0370-9299) / [Google Scholar](http://scholar.google.com/citations?user=Xt9IgGkAAAAJ)
+
+----
+
 1. **Books and Book Chapters**
     * [*Introductory Fisheries Analyses with R*]({{site.url}}/IFAR/)
     * Growth Estimation: Growth Models and Statistical Inference in AFS Age & Growth Book (projected for 2017)

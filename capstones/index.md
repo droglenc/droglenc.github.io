@@ -6,8 +6,11 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ## Current Students [supervisor and partners shown in brackets]
 
+* **Erin Gilligan**, Bluegill/Bass Growth from Recaptures -- [Ogle]
 * **Callie Kopp**, Sea Lamprey Fecundity -- [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 * **Logan Sikora** Walleye Age and Growth -- [Ogle]
+
+====
 
 ## Past Students
 
