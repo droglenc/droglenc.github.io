@@ -24,7 +24,7 @@ title: Doing Science!
     * [Crayfish Trap Defense](resources/pubs/OgleKret_JFE_Web.pdf) (with student)
     * [Community and Place in Outdoor Orientation Programs](resources/pubs/Austin_etal_2010.pdf) (with student)
 1. **Age and Growth (Including Modeling)**
-    * An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992) {accepted for Fisheries Review}
+    * [An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992)](resources/pubs/Ogle_2017_PaulyetalModel.pdf), with [R Supplement](resources/pubs/SeasonalGrowth_Analysis.R) 
     * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)
     * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (with student)
 1. **Ruffe Research**
