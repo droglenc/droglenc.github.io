@@ -6,7 +6,7 @@ css: "/css/index.css"
 meta-title: "Derek Ogle"
 meta-description: "Professor of Mathemetical Sciences and Natural Resources at Northland College."
 bigimg:
-  - "/img/big-imgs/MuskegSunset17.jpg" : "Winter Sunset, Muskeg, 2017"
+  - "/img/big-imgs/MuskegSunset17.JPG" : "Winter Sunset, Muskeg, 2017"
   - "/img/big-imgs/Vancouver2.jpg" : "Vancouver Island, 2016"
   - "/img/big-imgs/Vancouver1.jpg" : "Vancouver Island, 2016"
   - "/img/big-imgs/RickersCurve.jpg" : "Ricker's Curve, Nanaimo, BC"
