@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 
 ---
 
 ##  Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
