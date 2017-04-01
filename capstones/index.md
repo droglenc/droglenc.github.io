@@ -13,13 +13,13 @@ Research opportunities for students interested in fisheries are available at Nor
 ## Past Students
 
 ### 2017
-* **Erin Gilligan**, Bluegill/Bass Growth from Recaptures -- [Ogle]
-* **Callie Kopp**, Sea Lamprey Fecundity -- [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
+* **Erin Gilligan**, Uaing Models for Tag-Recapture Data to Assess Growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) / Paper [Ogle]
+* **Callie Kopp**, An Historical Comparison of Lake Superior Sea Lamprey Fecundity and Egg Size -- [Poster](Kopp_SeaLamprey_poster.pdf) / Paper [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
 ### 2016
 * [**Ritchie Granger**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters10-1498x1000.jpg), Can Ratios of Linear Morphometric Measurements Delineate among Lake Trout Morphotypes? -- [Poster](Granger_LKTMorphometrics_Poster.pdf) / [Paper](Granger_LKT_Morphometrics_paper.pdf) [Ogle;  [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
 * [**Kevin Johnson**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters17-1498x1000.jpg), Effectiveness of Smith-Root’s Fish Handling Gloves to Immobilize Lake Trout and Rainbow Trout -- [Poster](KJohnson_EGloves_Poster.pdf)/[Paper](Johnson_EffectivenessFishGloves_paper.pdf) [Ogle; [Northern Aquaculture Demonstration Facility](http://www.uwsp.edu/cols-ap/nadf/Pages/UWSP%20Northern%20Aquaculture%20Demonstration%20Facility%20Home%20Page.aspx)]
-* [**Joseph Mrnak**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters31-1498x1000.jpg), Rainbow Smelt (*Osmerus mordax*) age and growth in Whitefish Bay, Lake Superior, with an analysis of age estimation effort. -- [Poster](Mrnak_RBS_Poster.pdf)/[Paper](Mrnak_WFB_RBS.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
+* [**Joseph Mrnak**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters31-1498x1000.jpg), Rainbow Smelt (*Osmerus mordax*) Age and Growth in Whitefish Bay, Lake Superior, With an Analysis of Age Estimation Effort. -- [Poster](Mrnak_RBS_Poster.pdf)/[Paper](Mrnak_WFB_RBS.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 * [**Kaitlyn Windschitl**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters49-1498x1000.jpg),Size and Age Characteristics of Leech Lake Burbot in 2002 and 2015 -- [Poster](Windschitl_2016_poster.pdf)/[Paper] [Ogle; [McNair Scholars Program @ UW-Superior](http://www.uwsuper.edu/mcnair/index.cfm); Minnesota DNR; Wisconsin DNR]
 * [**Ian Woest** and **Kert Wuestenhagen**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters50-1498x1000.jpg), An Assessment of Otoliths, Spines, and Scales for Assigning Ages to Ruffe -- [Poster](WoestWuestenhagen_2016_poster.pdf)/[Paper](WoestWuestenhagen_paper.pdf) [Ogle]
 
