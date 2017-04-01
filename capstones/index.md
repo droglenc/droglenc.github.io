@@ -6,13 +6,15 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ## Current Students [supervisor and partners shown in brackets]
 
-* **Erin Gilligan**, Bluegill/Bass Growth from Recaptures -- [Ogle]
-* **Callie Kopp**, Sea Lamprey Fecundity -- [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 * **Logan Sikora** Walleye Age and Growth -- [Ogle]
 
 ----
 
 ## Past Students
+
+### 2017
+* **Erin Gilligan**, Bluegill/Bass Growth from Recaptures -- [Ogle]
+* **Callie Kopp**, Sea Lamprey Fecundity -- [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
 ### 2016
 * [**Ritchie Granger**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters10-1498x1000.jpg), Can Ratios of Linear Morphometric Measurements Delineate among Lake Trout Morphotypes? -- [Poster](Granger_LKTMorphometrics_Poster.pdf) / [Paper](Granger_LKT_Morphometrics_paper.pdf) [Ogle;  [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]

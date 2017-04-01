@@ -5,7 +5,7 @@ layout: page
 ##  Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
 
 ### Contact
-* Center for Science and the Environment 239
+* Center for Science and the Environment 228
 * 715-682-1300
 * [dogle@northland.edu](mailto:dogle@northland.edu)
 
