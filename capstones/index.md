@@ -6,7 +6,7 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ## Current Students [supervisor and partners shown in brackets]
 
-* **Logan Sikora** Walleye Age and Growth -- [Ogle]
+* **Logan Sikora** XXX -- [Ogle]
 
 ----
 
@@ -14,7 +14,8 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ### 2017
 * **Erin Gilligan**, Uaing Models for Tag-Recapture Data to Assess Growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) / Paper [Ogle]
-* **Callie Kopp**, An Historical Comparison of Lake Superior Sea Lamprey Fecundity and Egg Size -- [Poster](Kopp_SeaLamprey_poster.pdf) / Paper [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
+* **Thomas Jansen**, Interactive Visualization for Analysis of Northland’s Energy Usage -- [Poster](Jansen_Poster.pdf)
+* **Callie Kopp**, An Historical Comparison of Lake Superior Sea Lamprey Fecundity and Egg Size -- [Poster](Kopp_SeaLamprey_poster.pdf) / [Paper](Kopp_manuscript.pdf) [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
 ### 2016
 * [**Ritchie Granger**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters10-1498x1000.jpg), Can Ratios of Linear Morphometric Measurements Delineate among Lake Trout Morphotypes? -- [Poster](Granger_LKTMorphometrics_Poster.pdf) / [Paper](Granger_LKT_Morphometrics_paper.pdf) [Ogle;  [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
