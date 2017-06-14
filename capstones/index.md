@@ -13,9 +13,9 @@ Research opportunities for students interested in fisheries are available at Nor
 ## Past Students
 
 ### 2017
-* **Erin Gilligan**, Uaing Models for Tag-Recapture Data to Assess Growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) / Paper [Ogle]
-* **Thomas Jansen**, Interactive Visualization for Analysis of Northland’s Energy Usage -- [Poster](Jansen_Poster.pdf)
-* **Callie Kopp**, An Historical Comparison of Lake Superior Sea Lamprey Fecundity and Egg Size -- [Poster](Kopp_SeaLamprey_poster.pdf) / [Paper](Kopp_manuscript.pdf) [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
+* [**Erin Gilligan**](Gilligan_HonorsDay.jpg), Uaing Models for Tag-Recapture Data to Assess Growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) / Paper [Ogle]
+* [**Thomas Jansen**](Jansen_HonorsDay.jpg), Interactive Visualization for Analysis of Northland’s Energy Usage -- [Poster](Jansen_Poster.pdf)
+* [**Callie Kopp**](Poster_Kopp.jpg), An Historical Comparison of Lake Superior Sea Lamprey Fecundity and Egg Size -- [Poster](Kopp_SeaLamprey_poster.pdf) / [Paper](Kopp_manuscript.pdf) [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
 ### 2016
 * [**Ritchie Granger**](https://www.northland.edu/wp-content/uploads/2016/05/HonorsDayPosters10-1498x1000.jpg), Can Ratios of Linear Morphometric Measurements Delineate among Lake Trout Morphotypes? -- [Poster](Granger_LKTMorphometrics_Poster.pdf) / [Paper](Granger_LKT_Morphometrics_paper.pdf) [Ogle;  [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
@@ -40,7 +40,7 @@ Research opportunities for students interested in fisheries are available at Nor
 * **Kristin Brunk**, Burrowing mayflies as indicators of ecosystem health in the Chequamegon Bay. -- [Published Paper]({{site-url}}/resources/pubs/Brunk_et_al_2014.pdf) / [Poster](brunk_mayfly_poster.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 * **Kristin Brunk**, Establishing baseline macroinvertebrate monitoring after course woody debris additions at Whittlesey Creek NWR. [Goyke; [USFWS-WCNWR](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDsQFjAB&url=http%3A%2F%2Fwww.fws.gov%2Fmidwest%2FWhittleseyCreek%2F&ei=4kD9UK24MdLSqAGI14H4Ag&usg=AFQjCNFeMYo0Cj1gQNIweQTLW59icoec3g&sig2=lQCCO8qG99IcTBcUazLNQA&bvm=bv.41248874,d.aWM)]
 * **Kevin Grand**, Factors related to the assemblage of brook trout (*Salvelinus fontinalis*) and non-native salmonid species in Lake Superior tributaries. -- [Poster](grand_BKT_poster.pdf)  [Ogle; [USFWS-Ashland](http://www.fws.gov/midwest/ashland/)]
-* **Drew Negangard**, Effects of a minimum length limit on bluegill (*Lepomis macrochirus*) and largemouth bass (*Micropterus salmoides*) size structure in a small lake in Illinois. -- [Poster](negengard_BGLMB_poster.pdf) [Ogle; INHS]
+* **Drew Negangard**, Effects of a minimum length limit on bluegill (*Lepomis macrochirus*) and largemouth bass (*Micropterus salmoides*) size structure in a small lake in Illinois. -- [Poster](negangard_BGLMB_poster.pdf) [Ogle; INHS]
 * **David Thompson**, Mapping and dissolved oxygen limitations of a private two acre pond. -- [Poster](thompson_pond_poster.pdf) [Ogle; [USFWS-WCNWR](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDsQFjAB&url=http%3A%2F%2Fwww.fws.gov%2Fmidwest%2FWhittleseyCreek%2F&ei=4kD9UK24MdLSqAGI14H4Ag&usg=AFQjCNFeMYo0Cj1gQNIweQTLW59icoec3g&sig2=lQCCO8qG99IcTBcUazLNQA&bvm=bv.41248874,d.aWM)]
 
 ### 2012
