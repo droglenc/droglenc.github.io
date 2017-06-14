@@ -14,7 +14,7 @@ Research opportunities for students interested in fisheries are available at Nor
 
 ### 2017
 * [**Erin Gilligan**](Gilligan_HonorsDay.jpg), Uaing Models for Tag-Recapture Data to Assess Growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) / Paper [Ogle]
-* [**Thomas Jansen**](Jansen_HonorsDay.jpg), Interactive Visualization for Analysis of Northland’s Energy Usage -- [Poster](Jansen_Poster.pdf)
+* [**Thomas Jansen**](Jansen_HonorsDay.jpg), Interactive Visualization for Analysis of Northland’s Energy Usage -- [Poster](Jansen_Poster.pdf) [Ogle]
 * [**Callie Kopp**](Poster_Kopp.jpg), An Historical Comparison of Lake Superior Sea Lamprey Fecundity and Egg Size -- [Poster](Kopp_SeaLamprey_poster.pdf) / [Paper](Kopp_manuscript.pdf) [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
 ### 2016
