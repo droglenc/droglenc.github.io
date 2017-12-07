@@ -11,15 +11,15 @@ title: Doing Science!
 
 1. **Books and Book Chapters**
     * [*Introductory Fisheries Analyses with R*]({{site.url}}/IFAR/)
-    * Growth Estimation: Growth Models and Statistical Inference in Age and Growth of Fishes: Principles and Techniques 
+    * Growth Estimation: Growth Models and Statistical Inference in [*Age and Growth of Fishes: Principles and Techniques*](https://fisheries.org/bookstore/all-titles/professional-and-trade/55078c/)
 1. **R Websites and Packages**
     * [fishR website]({{ site.url}}/fishR/)
     * [FSA (Fisheries Stock Assessment) package](https://github.com/droglenc/FSA)
     * [FSAdata package](https://github.com/droglenc/FSAdata) (data files for FSA package)
     * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
 1. **Age and Growth (Including Modeling)**
-    * Estimating age at a specified length from the von Bertalanffy growth function, with R Supplement
-    * Age, year-class strength variability, and partial age validation of *Coregonus kiyi* from Lake Superior (*with student*)
+    * [Estimating age at a specified length from the von Bertalanffy growth function, with R Supplement](resources/pubs/OgleIsermann_2017.pdf)
+    * [Age, year-class strength variability, and partial age validation of *Coregonus kiyi* from Lake Superior](resources/pubs/Lepak_et_al_2017.pdf) (*with student*)
     * [An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992)](resources/pubs/Ogle_2017_PaulyetalModel.pdf), with [R Supplement](resources/pubs/SeasonalGrowth_Analysis.R) 
     * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)
     * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (*with student*)
