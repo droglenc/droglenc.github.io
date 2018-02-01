@@ -19,7 +19,7 @@ title: Doing Science!
     * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
 1. **Age and Growth (Including Modeling)**
     * [Estimating age at a specified length from the von Bertalanffy growth function, with R Supplement](resources/pubs/OgleIsermann_2017.pdf)
-    * [Age, year-class strength variability, and partial age validation of *Coregonus kiyi* from Lake Superior](resources/pubs/Lepak_et_al_2017.pdf) (*with student*)
+    * [Age, year-class strength variability, and partial age validation of *Coregonus kiyi* from Lake Superior](resources/pubs/Lepak_et_al_2017.pdf) [Data repository](https://www.sciencebase.gov/catalog/item/59a423afe4b077f005673262) (*with student*)
     * [An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992)](resources/pubs/Ogle_2017_PaulyetalModel.pdf), with [R Supplement](resources/pubs/SeasonalGrowth_Analysis.R) 
     * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)
     * [Age, Growth, and Size of Lake Superior Pygmy Whitefish (*Prosopium coulterii*)](resources/pubs/Stewart_et_al_2016.pdf) (*with student*)
