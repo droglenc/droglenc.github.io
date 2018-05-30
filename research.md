@@ -4,7 +4,7 @@ title: Doing Science!
 ---
 
 <div align="center">
-<a href="https://www.researchgate.net/profile/Derek_Ogle/" target="_blank"><img src="img/researchgate.png" alt="Research Gate" height="100"></a> / <a href="http://orcid.org/0000-0002-0370-9299" target="_blank"><img src="img/ORCID.png" alt="ORCID" height="100"></a> / <a href="http://scholar.google.com/citations?user=Xt9IgGkAAAAJ" target="_blank"><img src="img/GoogleScholar.jpg" alt="Google Scholar" height="100"></a>
+<a href="https://www.researchgate.net/profile/Derek_Ogle/" target="_blank"><img src="img/researchgate.png" alt="Research Gate" height="50"></a> / <a href="http://orcid.org/0000-0002-0370-9299" target="_blank"><img src="img/ORCID.png" alt="ORCID" height="50"></a> / <a href="http://scholar.google.com/citations?user=Xt9IgGkAAAAJ" target="_blank"><img src="img/GoogleScholar.jpg" alt="Google Scholar" height="50"></a>
 </div>
 
 ----
