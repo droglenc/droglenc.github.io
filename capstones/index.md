@@ -5,17 +5,18 @@ title: Students Do Science!
 Research opportunities for students interested in fisheries are available at Northland College.  These opportunities allow a student to work closely with a professor or personnel from a local resource agency and to develop research skills in preparation for graduate school or future employment.  Finished projects may result in publication in professional journals or an agency completion report.  If you are interested in conducting independent research related to fisheries, then contact [Dr. Derek Ogle](mailto:dogle@northland.edu) or Dr. Andrew Goyke during (preferably) your Sophomore or Junior year.
 
 ## Current Students [supervisor and partners shown in brackets]
-* **Will Otte**, Age and Growth Deepwater Sculpin 
+* **Joshua Lyons**, Modeling growth from tag-recapture data using hierarchical models. Poster / Paper [Ogle]
+* **Will Otte**, Age and growth of Deepwater Sculpin. Poster / Paper [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 
 ----
 
 ## Past Students
 
 ### 2018
-* **Logan Sikora**, Gamefish locations in relation to depth, bottom hardness, and macrophyte biovolume in Sanford Lake, Wisconsin -- Poster / Paper [Ogle/WiDNR-Escanaba Lake Research Station]
+* **Logan Sikora**, Gamefish locations in relation to depth, bottom hardness, and macrophyte biovolume in Sanford Lake, Wisconsin -- [Poster](Sikora_FinalPoster.pdf) / [Paper](Sikora_CapstoneLS_Final.pdf) [Ogle/WiDNR-Escanaba Lake Research Station]
 
 ### 2017
-* [**Erin Gilligan**](Gilligan_HonorsDay.jpg), Uaing models for tag-recapture data to assess growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) / Paper [Ogle]
+* [**Erin Gilligan**](Gilligan_HonorsDay.jpg), Uaing models for tag-recapture data to assess growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) [Ogle]
 * [**Thomas Jansen**](Jansen_HonorsDay.jpg), Interactive visualization for analysis of Northland’s energy usage -- [Poster](Jansen_Poster.pdf) [Ogle]
 * [**Callie Kopp**](Poster_Kopp.jpg), An historical comparison of Lake Superior Sea Lamprey fecundity and egg size -- [Poster](Kopp_SeaLamprey_poster.pdf) / [Paper](Kopp_manuscript.pdf) [Ogle/Goyke; [GLIFWC](http://www.glifwc.org/)]
 
