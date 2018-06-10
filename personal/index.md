@@ -6,15 +6,15 @@ title: Having Fun!
 When I am not working, I very much enjoy spending time with my wife Kim and our sheltie Jem (and previous dog Jordan). In addition, I enjoy tending to our property on the Muskeg Creek; fishing, boating, and underwater photography in the summer; and cross-country skiing in the winter.  I also dig the blues.
 
 * Dogs — [Jem](Jem), [Jordan](Jordan)
-* [Muskeg Property](https://picasaweb.google.com/107081804861686762583/Muskeg?authuser=0&authkey=Gv1sRgCOTGkMWKqM2WlAE&feat=directlink)
-* [Boating](https://picasaweb.google.com/dogle.nc/IslandJem02?authuser=0&authkey=Gv1sRgCInn54iGmcmt9gE&feat=directlink)
+* [Muskeg Property](https://photos.app.goo.gl/Y8VE19Nk13fBM1Lk6)
+* [Boating](https://photos.app.goo.gl/gMoFD7f8xvskYs6x8)
 * Fishing
-    * [Lake Superior](https://picasaweb.google.com/107081804861686762583/Fishing02?authuser=0&authkey=Gv1sRgCLun1dTYjt-oeg&feat=directlink)
-    * [Old Pictures](https://picasaweb.google.com/dogle.nc/Fishing?authuser=0&authkey=Gv1sRgCJuihNaA56Crbw&feat=directlink)
-* [Underwater Pictures](https://picasaweb.google.com/dogle.nc/UnderwaterPictures?authuser=0&feat=directlink)
+    * [Lake Superior](https://photos.app.goo.gl/3UJQURzQNdBo1ZfC9)
+    * [Old Pictures](https://photos.app.goo.gl/n27fsHhwbx7FF7vB8)
+* [Underwater Pictures](https://photos.app.goo.gl/BM1PqA2PU6TbDsyaA)
 * Musical Interests
     * [Big Top Chautauqua](http://www.bigtop.org/) (also see the note further below)
-    * [Blues Musicians that We Have Met](https://picasaweb.google.com/dogle.nc/Blues?authuser=0&authkey=Gv1sRgCMGH7euwxIW5wQE&feat=directlink)
+    * [Blues Musicians that We Have Met](https://photos.app.goo.gl/F6qWMNFWdCB8Mc2y8)
     * [JJ Grey & Mofro](http://www.jjgrey.com/) ([YouTube playlist](http://www.youtube.com/playlist?list=PLQke-OARNtwS89p5IcBG283E2Mm05YHCE))
     * [Corey Carlson](http://coreycarlsonmusic.com/) ([YouTube playlist](http://www.youtube.com/playlist?list=PLQke-OARNtwQVWEeyVPSPdEbQGEOSZ_PT))
 
