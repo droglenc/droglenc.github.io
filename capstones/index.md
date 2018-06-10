@@ -13,7 +13,7 @@ Research opportunities for students interested in fisheries are available at Nor
 ## Past Students
 
 ### 2018
-* **Logan Sikora**, Gamefish locations in relation to depth, bottom hardness, and macrophyte biovolume in Sanford Lake, Wisconsin -- [Poster](Sikora_FinalPoster.pdf) / [Paper](Sikora_CapstoneLS_Final.pdf) [Ogle/WiDNR-Escanaba Lake Research Station]
+* [**Logan Sikora**](Sikora_HonorsDay.jpg), Gamefish locations in relation to depth, bottom hardness, and macrophyte biovolume in Sanford Lake, Wisconsin -- [Poster](Sikora_FinalPoster.pdf) / [Paper](Sikora_CapstoneLS_Final.pdf) [Ogle/WiDNR-Escanaba Lake Research Station]
 
 ### 2017
 * [**Erin Gilligan**](Gilligan_HonorsDay.jpg), Uaing models for tag-recapture data to assess growth of Bluegill and Largemouth Bass in Inch Lake, Wisconsin -- [Poster](Gilligan_InchLake_Poster.pdf) [Ogle]
