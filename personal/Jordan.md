@@ -2,9 +2,6 @@
 layout: page
 title: Jordan
 ---
-Jordan was the [sheltie](http://www.wisheltierescue.com/) that Kim and I got soon after we were married.  “Jordo” enriched our lives from April, 1991 until March 2006. We miss the walks and boat rides.  RIP “Bordo Dog”!!!
+Jordan was the [sheltie](http://www.wisheltierescue.com/) that Kim and I got soon after we were married.  “Jordo” enriched our lives from April, 1991 until March 2006. We miss the walks and boat rides.  RIP “Bordo Dog”!!! [Here is a link to more photos of Jordan](https://photos.app.goo.gl/NE4EQwuArYUweC356).
 
-There should be a slide show below.  If not, then [see the pictures here](https://picasaweb.google.com/107081804861686762583/Jordan02?authuser=0&authkey=Gv1sRgCIuChLXimretdA&feat=directlink).
-
-<embed type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="288" height="192" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F107081804861686762583%2Falbumid%2F6196708691778223153%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCIuChLXimretdA%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer">
-
+<a href='https://photos.google.com/share/AF1QipOTD0eENJK3vzuHA8b6lHQaTsRRKW2LPmPUbty_6ofNyJcA2gCNx2wQVHnOut-gig?key=b3ZEdmlKNXZ0QlhGeHNFRXV1d0sxV0NEcm8xSWtB&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/s_MNo4zfLetnEm2wysVG4R1c3sWpBLNiicT0WXv7kBzvnLYE4DROiho8HZiWcqBN9zfeq5LD3gZYsbCQGMi77kL-OhyD_X_HurcfC1KZ8QmRCB4nqqeUfPLPw7hZnmdIlP13Uj6JHw=w2400' /></a>
