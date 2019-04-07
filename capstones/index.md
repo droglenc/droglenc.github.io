@@ -2,15 +2,17 @@
 layout: page
 title: Students Do Science!
 ---
-Research opportunities for students interested in fisheries are available at Northland College.  These opportunities allow a student to work closely with a professor or personnel from a local resource agency and to develop research skills in preparation for graduate school or future employment.  Finished projects may result in publication in professional journals or an agency completion report.  If you are interested in conducting independent research related to fisheries, then contact [Dr. Derek Ogle](mailto:dogle@northland.edu) or Dr. Andrew Goyke during (preferably) your Sophomore or Junior year.
+Research opportunities for students interested in fisheries are available at Northland College. These opportunities allow a student to work closely with a professor or personnel from a local resource agency and to develop research skills in preparation for graduate school or future employment. Projects may result in publication in professional journals or an agency completion report. If you are interested in conducting independent research related to fisheries, then contact [Dr. Derek Ogle](mailto:dogle@northland.edu) or Dr. Matthew Cooper during (preferably) your sophomore or junior year.
 
 ## Current Students [supervisor and partners shown in brackets]
-* **Joshua Lyons**, Modeling growth from tag-recapture data using hierarchical models. Poster / Paper [Ogle]
-* **Will Otte**, Age and growth of Deepwater Sculpin. Poster / Paper [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 
 ----
 
 ## Past Students
+
+### 2019
+* **Joshua Lyons**, Precision metrics summarized from 20+ years of fish age estimation studies. Poster / Paper [Ogle]
+* **Will Otte**, Age and growth of Deepwater Sculpin. [Paper](Otte_DWS.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 
 ### 2018
 * [**Logan Sikora**](Sikora_HonorsDay.jpg), Gamefish locations in relation to depth, bottom hardness, and macrophyte biovolume in Sanford Lake, Wisconsin -- [Poster](Sikora_FinalPoster.pdf) / [Paper](Sikora_CapstoneLS_Final.pdf) [Ogle/WiDNR-Escanaba Lake Research Station]
