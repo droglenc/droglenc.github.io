@@ -11,7 +11,7 @@ Research opportunities for students interested in fisheries are available at Nor
 ## Past Students
 
 ### 2019
-* **Joshua Lyons**, Precision metrics summarized from 20+ years of fish age estimation studies. [Poster](Lyons_Poster.pdf) / Paper [Ogle]
+* **Joshua Lyons**, Precision metrics summarized from 20+ years of fish age estimation studies. [Poster](Lyons_Poster.pdf) / [Paper](Lyons_Capstone_Paper_FINAL.pdf) [Ogle]
 * **Will Otte**, Age and growth of Deepwater Sculpin. [Paper](Otte_DWS.pdf) [Ogle; [USGS-Ashland](http://www.glsc.usgs.gov/_files/factsheets/Stations%202002-4%20LSBS.pdf)]
 
 ### 2018
