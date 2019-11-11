@@ -19,6 +19,7 @@ title: Doing Science!
     * [RFishBC package]({{ site.url}}/RFishBC/)
     * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
 1. **Age and Growth (Including Modeling)**
+    * Use and misuse of a common growth metric: guidance for appropriately calculating and reporting specific growth rate
     * [Estimating age at a specified length from the von Bertalanffy growth function, with R Supplement](resources/pubs/OgleIsermann_2017.pdf)
     * [An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992)](resources/pubs/Ogle_2017_PaulyetalModel.pdf), with [R Supplement](resources/pubs/SeasonalGrowth_Analysis.R) 
     * [Clarification of Somer’s Seasonal Growth Model](resources/pubs/Garcia-Berthou_etal_RFBF12.pdf)
@@ -38,6 +39,7 @@ title: Doing Science!
     * [Probabilistic Age Assignments](resources/pubs/Ogle_et_al_1996b.pdf)
     * [Hatchery Lake Trout Scale Characteristics](resources/pubs/Ogle_Spangler_1996.pdf)
 1. **Miscellaneous**
+    * Production dynamics reveal hidden overharvest of inland recreational fisheries
     * [Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin](resources/pubs/Menebroeker_et_al_2016.pdf) (*with student*)
     * [Mayfly Populations in Chequamegon Bay: 2002 and 2012](resources/pubs/Brunk_et_al_2014.pdf)  (*with student*)
     * [Misuse of "Gender"" in Fisheries Publications](resources/pubs/OgleSchanning_2012.pdf)
