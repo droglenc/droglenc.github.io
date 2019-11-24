@@ -18,7 +18,7 @@ bigimg:
   - "/img/big-imgs/SylviaGrinnell_2016.jpg" : "Sylvia Grinnell, Nunavut, 2016"
   - "/img/big-imgs/AIFishing1.JPG" : "Fishing Apostle Islands"
   - "/img/big-imgs/AIFishing2.jpg" : "Fishing Apostle Islands"
-  - "/img/big-imgs/AIFishing19.jpg" : "A Good Day, 2019"
+  - "/img/big-imgs/AIFishingF19.jpg" : "A Good Day, 2019"
   - "/img/big-imgs/Alaska2011a.jpg" : "Sockeyes in Alaska"
   - "/img/big-imgs/Alaska2011b.jpg" : "Halibut Fishing Alaska"
   - "/img/big-imgs/Banff2013a.JPG" : "Banff Canada, 2013"
