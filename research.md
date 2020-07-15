@@ -39,7 +39,9 @@ title: Doing Science!
     * [Probabilistic Age Assignments](resources/pubs/Ogle_et_al_1996b.pdf)
     * [Hatchery Lake Trout Scale Characteristics](resources/pubs/Ogle_Spangler_1996.pdf)
 1. **Miscellaneous**
-    * [Production] dynamics reveal hidden overharvest of inland recreational fisheries](resources/pubs/Embke-etal_Walleye-Production+Harvest+SI_PNAS2019.pdf)
+    * A synthesis of the biology and ecology of sculpin species in the Laurentian Great Lakes and implications for the adaptive capacity of the
+benthic ecosystem (*with student*)
+    * [Production dynamics reveal hidden overharvest of inland recreational fisheries](resources/pubs/Embke-etal_Walleye-Production+Harvest+SI_PNAS2019.pdf)
     * [Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin](resources/pubs/Menebroeker_et_al_2016.pdf) (*with student*)
     * [Mayfly Populations in Chequamegon Bay: 2002 and 2012](resources/pubs/Brunk_et_al_2014.pdf)  (*with student*)
     * [Misuse of "Gender"" in Fisheries Publications](resources/pubs/OgleSchanning_2012.pdf)
