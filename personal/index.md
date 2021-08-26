@@ -3,9 +3,9 @@ layout: page
 title: Having Fun!
 ---
 
-When I am not working, I very much enjoy spending time with my wife Kim and our sheltie Jem (and previous dog Jordan). In addition, I enjoy tending to our property on the Muskeg Creek; fishing, boating, and underwater photography in the summer; and cross-country skiing in the winter.  I also dig the blues.
+When I am not working, I very much enjoy spending time with my wife Kim and our sheltie Cash (and previous dogs Jem and Jordan). In addition, I enjoy tending to our property on the Muskeg Creek; fishing, boating, and underwater photography in the summer; and cross-country skiing in the winter.  I also dig the blues and the music of JJ Grey, Michael Franti, and Corey Carlson.
 
-* Dogs — [Jem](Jem), [Jordan](Jordan)
+* Dogs — Cash, [Jem](Jem), [Jordan](Jordan)
 * [Muskeg Property](https://photos.app.goo.gl/Y8VE19Nk13fBM1Lk6)
 * [Boating](https://photos.app.goo.gl/gMoFD7f8xvskYs6x8)
 * Fishing
