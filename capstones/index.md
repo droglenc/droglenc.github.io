@@ -2,13 +2,17 @@
 layout: page
 title: Students Do Science!
 ---
-Research opportunities for students interested in fisheries are available at Northland College. These opportunities allow a student to work closely with a professor or personnel from a local resource agency and to develop research skills in preparation for graduate school or future employment. Projects may result in publication in professional journals or an agency completion report. If you are interested in conducting independent research related to fisheries, then contact [Dr. Derek Ogle](mailto:dogle@northland.edu) or Dr. Matthew Cooper during (preferably) your sophomore or junior year.
+Research opportunities for students interested in fisheries are available at Northland College. These opportunities allow a student to work closely with a professor or personnel from a local resource agency and to develop research skills in preparation for graduate school or future employment. Projects may result in publication in professional journals or an agency completion report.
 
 ## Current Students [supervisor and partners shown in brackets]
 
 ----
 
 ## Past Students
+
+### 2020
+
+* **Michael Lant**, Anglersheds  [Ogle/WiDNR-Escanaba Lake Research Station]
 
 ### 2019
 * **Joshua Lyons**, Precision metrics summarized from 20+ years of fish age estimation studies. [Poster](Lyons_Poster.pdf) / [Paper](Lyons_Capstone_Paper_FINAL.pdf) [Ogle]

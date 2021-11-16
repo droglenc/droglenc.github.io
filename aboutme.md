@@ -6,9 +6,7 @@ title: Dr. Derek H. Ogle
 ##  Professor of Mathematical Sciences and Natural Resources, [Northland College](http://www.northland.edu/)
 
 ### Contact
-* Center for Science and the Environment 228
-* 715-682-1300
-* [dogle@northland.edu](mailto:dogle@northland.edu)
+* [DerekOgle51@gmail.com](mailto:DerekOgle51@gmail.com)
 
 ### Profiles
 * [CV](resources/CV.pdf)
