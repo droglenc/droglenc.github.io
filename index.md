@@ -64,7 +64,5 @@ bigimg:
 <a href="http://derekogle.com/IFAR/" role="button" class="btn btn-primary">IFAR Book</a> 
 <a href="http://derekogle.com/NCMTH107/" role="button" class="btn btn-primary">MTH107</a> 
 <a href="http://derekogle.com/NCMTH207/" role="button" class="btn btn-primary">MTH207</a> 
-<a href="http://derekogle.com/NCGraphing/" role="button" class="btn btn-primary">Graphing</a> 
-<a href="http://derekogle.com/NCWrangling/" role="button" class="btn btn-primary">Wrangling</a> 
-<a href="http://derekogle.com/NCHighways/" role="button" class="btn btn-primary">Highways</a> 
+<a href="http://derekogle.com/NCNRS349/" role="button" class="btn btn-primary">NRS349</a> 
 </div>
