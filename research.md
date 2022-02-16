@@ -14,9 +14,9 @@ title: Doing Science!
     * Growth Estimation: Growth Models and Statistical Inference in [*Age and Growth of Fishes: Principles and Techniques*](https://fisheries.org/bookstore/all-titles/professional-and-trade/55078c/)
 1. **R Websites and Packages**
     * [fishR website]({{ site.url}}/fishR/)
-    * [FSA (Fisheries Stock Assessment) package]({{ site.url}}/FSA/)
-    * [FSAdata package](https://github.com/droglenc/FSAdata) (data files for FSA package)
-    * [RFishBC package]({{ site.url}}/RFishBC/)
+    * [FSA (Fisheries Stock Assessment) package](https://fishr-core-team.github.io/FSA/)
+    * [FSAdata package](https://fishr-core-team.github.io/FSAdata) (data files for FSA package)
+    * [RFishBC package](https://fishr-core-team.github.io/RFishBC/)
     * [GitHub page](https://github.com/droglenc) (with other R packages and unpublished books)
 1. **Age and Growth (Including Modeling)**
     * [Use and misuse of a common growth metric: guidance for appropriately calculating and reporting specific growth rate](resources/pubs/Crane_et_al-2019-Reviews_in_Aquaculture.pdf)
