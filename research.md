@@ -47,9 +47,3 @@ benthic ecosystem (*with student*)
     * [Misuse of "Gender"" in Fisheries Publications](resources/pubs/OgleSchanning_2012.pdf)
     * [Crayfish Trap Defense](resources/pubs/OgleKret_JFE_Web.pdf) (*with student*)
     * [Community and Place in Outdoor Orientation Programs](resources/pubs/Austin_etal_2010.pdf) (*with student*)
-1. **Fish Community Assessments (with Students)**
-    * Inch Lake Baseline Fish  -- 2013 Report / Presentation (21 mb)
-    * Whittlesey Creek Assessments -- Dusenbery / Wickstrom
-    * Pikes Creek Sucker Populations
-    * Happles Lake Baseline Fish Community
-    * Beaver and Nymphia Lakes Trout Population Assessment
