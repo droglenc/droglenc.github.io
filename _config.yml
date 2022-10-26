@@ -8,7 +8,7 @@ baseurl: ""
 # Name of website
 title: Derek Ogle
 # Short description of your site
-description: Professor of Mathemetical Sciences and Natural Resources at Northland College.
+description: Former professor at Northland College.
 
 # --- Navigation bar options --- #
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -17,10 +17,8 @@ avatar: "/img/DerekOgle.jpg"
 
 # List of links in the navigation bar
 navbar-links:
-  Teaching: "teaching"
   Research: "research"
   Personal: "personal"
-  About/Contact: "aboutme"
   Home: ""
 
 # --- Footer options --- #
@@ -38,7 +36,7 @@ footer-links-active:
   rss: false
   facebook: false
   email: true
-  twitter: true
+  twitter: false
   github: true
   linkedin: false
   stackoverflow: false

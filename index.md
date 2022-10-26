@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Derek Ogle
-subtitle: Fisheries & Stats Professor / R Enthusiast
+subtitle: Former Professor / R Enthusiast
 css: "/css/index.css"
 meta-title: "Derek Ogle"
-meta-description: "Professor of Mathemetical Sciences and Natural Resources at Northland College."
+meta-description: "Former professor at Northland College."
 bigimg:
   - "/img/big-imgs/Arizona_2017a.jpg" : "Arizona, 2017"
   - "/img/big-imgs/Arizona_2017b.jpg" : "Arizona, 2017"
@@ -61,8 +61,5 @@ bigimg:
 <div style="text-align:center">
 <strong>Quick Links:</strong> &nbsp;&nbsp; 
 <a href="http://derekogle.com/fishR/" role="button" class="btn btn-primary">fishR</a> 
-<a href="http://derekogle.com/IFAR/" role="button" class="btn btn-primary">IFAR Book</a> 
-<a href="http://derekogle.com/NCMTH107/" role="button" class="btn btn-primary">MTH107</a> 
-<a href="http://derekogle.com/NCMTH207/" role="button" class="btn btn-primary">MTH207</a> 
-<a href="http://derekogle.com/NCNRS349/" role="button" class="btn btn-primary">NRS349</a> 
+<a href="http://derekogle.com/IFAR/" role="button" class="btn btn-primary">IFAR Book</a>
 </div>
