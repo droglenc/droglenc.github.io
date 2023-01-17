@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Derek Ogle"
+  favicon: zresources/img/DerekOgle1.jpg
+  site-url: https://derekogle.com/
+  repo-url: https://github.com/droglenc/droglenc.github.io
+  navbar:
+    title: Derek H. Ogle
+    background: "#25383C"
+    foreground: "#E5E4E2"
+    pinned: true
+    left:
+      - sidebar:Professional
+      - sidebar:Personal
+  sidebar:
+    - id: "Professional"
+      title: "Professional"
+      style: "docked"
+      contents:
+        - professional/about.qmd
+        - professional/publications.qmd
+        - professional/software.qmd
+    - id: "Personal"
+      title: "Personal"
+      style: "docked"
+      contents:
+        - personal/about.qmd
+        - personal/shelties.qmd
+        - personal/hiking.qmd
+        - personal/fishing.qmd
+  page-footer:
+    background: "#25383C"
+    foreground: "#E5E4E2"
+    left: "Copyright 2023, Derek H. Ogle"
+    right:
+      - icon: github
+        href: https://github.com/droglenc/droglenc.github.io
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/DerekOgle51
+        aria-label: Twitter
+  search: false
+  comments: false
+  open-graph: true
+format:
+  html:
+    theme: [litera, zhelpers/custom.scss]
+    css: zhelpers/styles.css
+    backgroundcolor: "#FEFCFF"
+    linkcolor: "#571B7E"
+    link-external-icon: false
+    link-external-newwindow: true
+    smooth-scroll: true
+    title-block-banner: false
+    toc: true
+    email-obfuscation: references
+highlight-style: github
+date-format: medium
+execute:
+  freeze: auto

@@ -1,0 +1,14 @@
+{
+  "hash": "c9a6badd90e617313892b1eb54ae5c5a",
+  "result": {
+    "markdown": "---\ntitle: \"Untitled\"\n---\n\n<div id='carouselTestCaptions' class='carousel slide w-50' data-bs-ride='carousel'>\n<div class='carousel-inner'>\n<div class='carousel-item active' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_1.jpg' class='d-block w-100' alt='Jordan_1'>\n</div>\n<div class='carousel-item' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_2.jpg' class='d-block w-100' alt='Jordan_2'>\n</div>\n<div class='carousel-item' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_3.jpg' class='d-block w-100' alt='Jordan_3'>\n</div>\n<div class='carousel-item' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_4.jpg' class='d-block w-100' alt='Jordan_4'>\n</div>\n<div class='carousel-item' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_5.jpg' class='d-block w-100' alt='Jordan_5'>\n</div>\n<div class='carousel-item' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_6.jpg' class='d-block w-100' alt='Jordan_6'>\n</div>\n<div class='carousel-item' data-bs-pause='hover' data-bs-interval='2500'>\n<img src='../zresources/img/Jordan/Jordan_7.jpg' class='d-block w-100' alt='Jordan_7'>\n</div>\n</div>\n<button class='carousel-control-prev' type='button' data-bs-target='#carouselTestCaptions' data-bs-slide='prev'>\n<span class='carousel-control-prev-icon' aria-hidden='true'></span>\n<span class='visually-hidden'>Previous</span>\n</button>\n<button class='carousel-control-next' type='button' data-bs-target='#carouselTestCaptions' data-bs-slide='next'>\n<span class='carousel-control-next-icon' aria-hidden='true'></span>\n<span class='visually-hidden'>Next</span>\n</button>\n</div>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

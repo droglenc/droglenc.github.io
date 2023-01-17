@@ -1,0 +1,260 @@
+---
+title: "Camp Nine Research Area East"
+---
+
+On 6-Jun-2022 [Cash](../shelties.html#cash) and I mapped the trails at the Camp Nine Research Area east of Beck Rd. This was a beautiful walk in an interesting area. Details are below.
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+#| cache: true
+
+# Make vector of colors for Iron River Area
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+project <- "Iron River Area"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("FR40007","FR40008","FR40009","FR39904","FR39801","FR400A01","BECK06")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Overview Map
+The extent of this walk is highlighted by the blue box in this map.
+
+```{r}
+#| label: overviewMap
+#| echo: false
+gpxhelpers::allTracksMap(trkdat,clrs,walk=awalk,verbose=FALSE)
+```
+
+:::{.callout-info appearance="simple"}
+## Map Key
+See [Iron River Area Overview page](Iron River Area.html) for key to segment color coding.
+:::
+
+## Walk-Specific Map
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevation
+#| echo: false
+gpxhelpers::walkElevation(awalk)
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk)
+```
+
+
+```{r results="asis"}
+#| echo: false
+#| results: asis
+if (npix>0) cat("## Images from These Tracks")
+i <- 1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+
+```{r}
+#| echo: false
+#| eval: !expr i<=npix
+#| out.width: "50%"
+#| fig.cap: !expr walkPix$Caption[i-1]
+suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
+i <- i+1
+```
+

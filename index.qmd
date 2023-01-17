@@ -1,0 +1,132 @@
+---
+---
+
+I worked for [Northland College](https://www.northland.edu/) as a fisheries and statistics professor for 26 years until 2022, when I decided to pursue my interests in a different manner. Please use the menu above to see my professional achievements and personal interests.
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Ogle_Sign_UK.jpg" class="d-block w-100" alt="Ogle, Northumberland, England">
+<div class="carousel-caption d-none d-md-block">
+<h5>Ogle, Northumberland, England</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Iceland_2022.jpg" class="d-block w-100" alt="Kim and I on a glacier, Iceland, 2022">
+<div class="carousel-caption d-none d-md-block">
+<h5>Kim and I On a Glacier, Iceland, 2022</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/WeaversNeedle_2022.jpg" class="d-block w-100" alt="Kim and I at Weaver's Needle, AZ, 2022">
+<div class="carousel-caption d-none d-md-block">
+<h5>Kim and I at Weaver's Needle, AZ, 2022</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/MeyersBeach2008.jpg" class="d-block w-100" alt="Meyer's Beach, Lake Superior, 2008">
+<div class="carousel-caption d-none d-md-block">
+<h5>Ice Caves at Meyer's Beach, Lake Superior, 2008</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/AIFishing1.jpg" class="d-block w-100" alt="Fishing in the Apostle Islands">
+<div class="carousel-caption d-none d-md-block">
+<h5>Trolling in the Apostle Islands, Lake Superior</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Alaska2011b.jpg" class="d-block w-100" alt="Halibut Fishing, Homer Alaska, 2011">
+<div class="carousel-caption d-none d-md-block">
+<h5>Halibut Fishing, Homer, Alaska, 2011</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Arizona_2017a.jpg" class="d-block w-100" alt="Superstition Mountain, Apache Junction, AZ, 2017">
+<div class="carousel-caption d-none d-md-block">
+<h5>Superstition Mountain, Apache Junction, AZ, 2017</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Banff2013b.jpg" class="d-block w-100" alt="Banff, Aberta, Canada, 2013">
+<div class="carousel-caption d-none d-md-block">
+<h5>Banff, Aberta, Canada, 2013</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/BayfieldCo2008.jpg" class="d-block w-100" alt="Road to Home, Bayfield County, WI, 2008">
+<div class="carousel-caption d-none d-md-block">
+<h5>Road to Home, Bayfield County, WI, 2008</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Canyonlands.jpg" class="d-block w-100" alt="Canyonlands Scenery">
+<div class="carousel-caption d-none d-md-block">
+<h5>Canyonlands, Utah</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Home_2015.jpg" class="d-block w-100" alt="Home, Bayfield County, 2015">
+<div class="carousel-caption d-none d-md-block">
+<h5>Home, Bayfield County, 2015</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Iqaluit_Sunset_2016.jpg" class="d-block w-100" alt="Sunset over Iqaluit, Nunavut, 2016">
+<div class="carousel-caption d-none d-md-block">
+<h5>Sunset over Iqaluit, Nunavut, 2016</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Muskeg_Winter.jpg" class="d-block w-100" alt="Muskeg Property, Oulu, WI">
+<div class="carousel-caption d-none d-md-block">
+<h5>Muskeg Property, Oulu, WI</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/MuskegFlowers.jpg" class="d-block w-100" alt="Flowers at Muskeg Property, Oulu, WI">
+<div class="carousel-caption d-none d-md-block">
+<h5>Flowers at Muskeg Property, Oulu, WI</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/NorthShore2013b.jpg" class="d-block w-100" alt="Lake Superior Storm, North Shore, MN, 2013">
+<div class="carousel-caption d-none d-md-block">
+<h5>Lake Superior Storm, North Shore, MN, 2013</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+<img src="zresources/img/big-imgs/Vancouver2.jpg" class="d-block w-100" alt="Home, Bayfield County, 2015">
+<div class="carousel-caption d-none d-md-block">
+<h5>Carved Sockeye, Vancouver, BC, Canada</h5>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+
