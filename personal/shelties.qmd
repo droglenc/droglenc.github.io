@@ -2,20 +2,14 @@
 title: "Our Shelties"
 ---
 
-```{r}
-#| echo: false
-#| results: hide
-source("../zhelpers/makeCarousel.R")
-```
-
 ## Cash
-Cash is our current sheltie who we have had since September 2021. He is a spirited "big pony.
+Cash is our current sheltie who we have had since September 2021. He is a spirited "big pony."
 
 ```{r}
 #| echo: false
 #| results: asis
-makeCarousel(id="Cash",path="../zresources/img/Cash/",
-             width=50,captions=TRUE,controls=FALSE)
+gpxhelpers::makeCarousel(id="Cash",path="../zresources/img/Cash/",
+                         width=50,captions=TRUE,controls=FALSE)
 ```
 
 &nbsp;
@@ -28,8 +22,8 @@ Jem was taken from us way too early, though we know he is now with his ["grandpa
 ```{r}
 #| echo: false
 #| results: asis
-makeCarousel(id="Jem",path="../zresources/img/Jem/",
-             width=50,captions=FALSE,controls=FALSE)
+gpxhelpers::makeCarousel(id="Jem",path="../zresources/img/Jem/",
+                         width=50,captions=FALSE,controls=FALSE)
 ```
 
 &nbsp;
@@ -42,8 +36,8 @@ We miss the walks and boat rides. RIP "Bordo Dog"!!!
 ```{r}
 #| echo: false
 #| results: asis
-makeCarousel(id="Jordan",path="../zresources/img/Jordan/",
-             width=50,captions=FALSE,controls=FALSE)
+gpxhelpers::makeCarousel(id="Jordan",path="../zresources/img/Jordan/",
+                         width=50,captions=FALSE,controls=FALSE)
 ```
 
 &nbsp;

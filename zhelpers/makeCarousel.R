@@ -9,22 +9,29 @@
 #' @param fade Logical for whether there is a slide (\code{FALSE}) or fade between images.
 #' @param hover Logical for whether the carousel should stop on a mouseover.
 
-makeCarousel <- function(id,path,width=c("100","75","50"),center=TRUE,
+makeCarousel <- function(id,path,imgs=NULL,caps=NULL,
+                         width=c("100","75","50"),center=TRUE,
                          captions=TRUE,controls=TRUE,indicators=FALSE,
                          interval=2500,fade=FALSE,hover=TRUE) {
+
+  ## If imgs is NULL, use all files in path folder, otherwise given in imgs
+  if (is.null(imgs)) imgs <- list.files(path=path)
+  ## If caps is NULL, use filename as caps, otherwise given in caps
+  if (is.null(caps)) caps <- tools::file_path_sans_ext(imgs)
+  ## Make sure imgs and caps is same length
+  if (length(imgs)!=length(caps)) stop("'imgs' and 'caps' not same length!",call.=FALSE)
+
+  ## Get the width for the carousel container
   width <- as.character(width)
   width <- match.arg(width)
-  ## Get filenames out of path folder, make captions from file names
-  files <- list.files(path=path)
-  caps <- tools::file_path_sans_ext(files)
 
-  ## start the carousel container
+    ## start the carousel container
   tmp <- paste0("<div id='carousel",id,"Captions' class='carousel slide",ifelse(fade," carousel-fade","")," w-",width,"' data-bs-ride='carousel'>","\n")
 
   ## create the indicators/buttons (if asked for)
   if (indicators) {
     tmp <- paste0(tmp,"<div class='carousel-indicators'>","\n")
-    for (i in seq_along(files)) {
+    for (i in seq_along(imgs)) {
       tmp <- paste0(tmp,"<button type='button' data-bs-target='#carousel",id,"Captions' data-bs-slide-to='",i-1,"' class='active' aria-current='true' aria-label='Slide ",i,"'></button>","\n")
     }
     tmp <- paste0(tmp,"</div>","\n")
@@ -32,10 +39,10 @@ makeCarousel <- function(id,path,width=c("100","75","50"),center=TRUE,
 
   ## add the images for each slide
   tmp <- paste0(tmp,"<div class='carousel-inner'>","\n")
-  for (i in seq_along(files)) {
+  for (i in seq_along(imgs)) {
     if (i==1) tmp <- paste0(tmp,"<div class='carousel-item active' data-bs-pause='hover' data-bs-interval='",interval,"'>","\n")
     else tmp <- paste0(tmp,"<div class='carousel-item' data-bs-pause='hover' data-bs-interval='",interval,"'>","\n")
-    tmp <- paste0(tmp,"<img src='",path,files[i],"' class='d-block w-100' alt='",caps[i],"'>","\n")
+    tmp <- paste0(tmp,"<img src='",path,imgs[i],"' class='d-block w-100' alt='",caps[i],"'>","\n")
     ## add captions (if asked for)
     if (captions) {
       tmp <- paste0(tmp,"<div class='carousel-caption d-none d-md-block'>","\n")

@@ -35,12 +35,12 @@ The extent of this walk is highlighted by the blue box in this map.
 ```{r}
 #| label: overviewMap
 #| echo: false
-gpxhelpers::allTracksMap(trkdat,clrs,walk=awalk,verbose=FALSE)
+gpxhelpers::allTracksMap(trkdat,clrs,walk=awalk,verbose=FALSE,map_bufr=0.0008)
 ```
 
 :::{.callout-info appearance="simple"}
 ## Map Key
-See [Iron River Area Overview page](Iron River Area.html) for key to segment color coding.
+See [Iron River Area Overview page](Iron River Area.html) for segment color coding key and description for use of controls.
 :::
 
 ## Walk-Specific Map
@@ -70,191 +70,11 @@ gpxhelpers::walkElevation(awalk)
 gpxhelpers::walkSummary(awalk)
 ```
 
-
-```{r results="asis"}
+## Images
+```{r}
 #| echo: false
 #| results: asis
-if (npix>0) cat("## Images from These Tracks")
-i <- 1
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
 ```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
-```{r}
-#| echo: false
-#| eval: !expr i<=npix
-#| out.width: "50%"
-#| fig.cap: !expr walkPix$Caption[i-1]
-suppressWarnings(knitr::include_graphics(walkPix$Photo[i]))
-i <- i+1
-```
-
