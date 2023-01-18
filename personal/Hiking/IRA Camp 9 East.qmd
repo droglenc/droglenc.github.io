@@ -7,7 +7,6 @@ On 6-Jun-2022 [Cash](../shelties.html#cash) and I mapped the trails at the Camp 
 ```{r setup, include=FALSE}
 #| label: setup
 #| include: false
-#| cache: true
 
 # Make vector of colors for Iron River Area
 clrs <- c("Highway"="#CC0000","Paved"="#336666",

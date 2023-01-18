@@ -7,7 +7,8 @@ For exercise and for getting to know the area in which I have lived for the last
 ```{r setup, include=FALSE}
 #| label: setup
 #| include: false
-#| cache: true
+
+project <- "Iron River Area"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
@@ -19,7 +20,6 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
           "Trail"="#999933", "ATV"="#663300")
 
 # Read in CSV file will all track info needed for the map
-project <- "Iron River Area"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 ```
 

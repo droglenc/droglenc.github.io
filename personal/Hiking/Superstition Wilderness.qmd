@@ -1,0 +1,40 @@
+---
+title: "Superstition Wilderness Hiking"
+---
+
+Kim's Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from [my main hiking page](../hiking.html).
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+
+project <- "Superstition Wilderness"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
+# Make vector of colors for Iron River Area
+clrs <- c("2022"="#CC0000","2023"="#CC6600")
+
+# Read in CSV file will all track info needed for the map
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+```
+
+```{r}
+#| label: makeMap
+#| echo: false
+#| fig.width: 7
+#| fig.height: 7
+gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
+```
+
+#### Notes
+
+* <span style="color: #CC0000">Red</span> were from 2022 and <span style="color: #CC6600">Orange</span> is from 2023.
+* Hover on track to see track abbreviation.
+* Click on track to get track information.
+* Use +/- in upper-left to zoom.
+* Use object in upper-right to change base map type.
+* Use object in lower-left to make measurements on map.
+

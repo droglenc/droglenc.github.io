@@ -77,11 +77,263 @@
     "text": "For exercise and for getting to know the area in which I have lived for the last three decades, Cash and I have been walking may of the roads and back-country trails in the Iron River WI area. Below are the places we have walked thusfar. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from my main hiking page.\n\n\n\n\n\n\n\nNotes\n\nRed is highway, Blue is paved road, Orange is gravel road, Yellow is offroad (ATV but possible 4WD vehicle), Green is trail (hiking but some ATV), and Brown is designated ATV/Snowmobile (only) trail.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
   },
   {
+    "objectID": "personal/Hiking/Superstition Wilderness.html",
+    "href": "personal/Hiking/Superstition Wilderness.html",
+    "title": "Superstition Wilderness Hiking",
+    "section": "",
+    "text": "Kim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from my main hiking page.\n\n\n\n\n\n\n\nNotes\n\nRed were from 2022 and Orange is from 2023.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "",
+    "text": "On March 9, 2022 Kim and I hiked to Black Top Mesa from the First Water trailhead via Dutchman’s and Bull Pass trails. This was a long walk for us (~12.5 mi) but offered stunning views of Weaver’s Needle from the north, which we had not seen before. The climb up to the top was steep but the trail was fairly easy to navigate. We returned to the trailhead via the Black Mesa and Second Water trails. There were many more cacti no the trail back. Fun hike. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#overview-map",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#overview-map",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "Overview Map",
+    "text": "Overview Map\nThe extent of this walk is highlighted by the blue box in this map.\n\n\n\n\n\n\n\n\n\n\n\n\nMap Key\n\n\n\nSee Superstition Wilderness Overview page for segment color coding key and description for use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#walk-specific-map",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#walk-specific-map",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#elevation-profile",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#elevation-profile",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#summary-information",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#summary-information",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BMSA01 \n    Black Mesa Hike (Dutchman's Tr 104) \n    First Water TH parking to Second Water Tr (236) \n    NA \n    Public \n    0.29 \n    0.29 \n    -53 \n  \n  \n    2 \n    BMSA02 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Second Water Tr (236) to Tim's Saddle Tr \n    NA \n    Public \n    2.31 \n    2.60 \n    428 \n  \n  \n    3 \n    BMSA03 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Tim's Saddle Tr to W Boulder Canyon Tr \n    NA \n    Public \n    1.24 \n    3.84 \n    -297 \n  \n  \n    4 \n    BMSA04 \n    Black Mesa Hike (Dutchman's Tr 104) \n    W Boulder Canyon Tr to Black Mesa Tr (241) \n    NA \n    Public \n    0.54 \n    4.39 \n    -66 \n  \n  \n    5 \n    BMSA05 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Black Mesa Tr (241) to Boulder Canyon Tr (103) \n    NA \n    Public \n    0.20 \n    4.59 \n    5 \n  \n  \n    6 \n    BMSA06 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Boulder Canyon Tr (103) to leave Dutchman's Tr / start Bull Pass Tr \n    NA \n    Public \n    0.11 \n    4.71 \n    1 \n  \n  \n    7 \n    BMSA07 \n    Black Mesa Hike (Bull Pass Tr 129) \n    leave Dutchman's Tr / start Bull Pass Tr to leave Bull Pass Tr / Black Top Mesa Tr \n    NA \n    Public \n    0.58 \n    5.28 \n    423 \n  \n  \n    8 \n    BMSA08 \n    Black Mesa Hike (Black Top Mesa Tr) \n    leave Bull Pass Tr / start Black Top Mesa Tr to Black Top Mesa \n    NA \n    Public \n    0.72 \n    6.00 \n    628 \n  \n  \n    9 \n    BMSA08 \n    Black Mesa Hike (Black Top Mesa Tr) \n    Black Top Mesa to leave Bull Pass Tr / start Black Top Mesa Tr \n    NA \n    Public \n    0.72 \n    6.72 \n    -628 \n  \n  \n    10 \n    BMSA07 \n    Black Mesa Hike (Bull Pass Tr 129) \n    leave Bull Pass Tr / Black Top Mesa Tr to leave Dutchman's Tr / start Bull Pass Tr \n    NA \n    Public \n    0.58 \n    7.30 \n    -423 \n  \n  \n    11 \n    BMSA06 \n    Black Mesa Hike (Dutchman's Tr 104) \n    leave Dutchman's Tr / start Bull Pass Tr to Boulder Canyon Tr (103) \n    NA \n    Public \n    0.11 \n    7.41 \n    -1 \n  \n  \n    12 \n    BMSA05 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Boulder Canyon Tr (103) to Black Mesa Tr (241) \n    NA \n    Public \n    0.20 \n    7.62 \n    -5 \n  \n  \n    13 \n    BMSA10 \n    Black Mesa Hike (Black Mesa Tr 241) \n    leave Dutchman's Tr / start Black Mesa Tr to leave Black Mesa Tr / start Second Water Tr \n    NA \n    Public \n    3.07 \n    10.69 \n    122 \n  \n  \n    14 \n    BMSA11 \n    Black Mesa Hike (Second Water Tr 236) \n    leave Black Mesa Tr / start Second Water Tr to Hackberry Springs Tr [North] \n    NA \n    Public \n    0.74 \n    11.43 \n    -176 \n  \n  \n    15 \n    BMSA12 \n    Black Mesa Hike (Second Water Tr 236) \n    Hackberry Springs Tr [North] to Hackberry Springs Tr [South] \n    NA \n    Public \n    0.60 \n    12.03 \n    -26 \n  \n  \n    16 \n    BMSA13 \n    Black Mesa Hike (Second Water Tr 236) \n    Hackberry Springs Tr [South] to Dutchman's Tr (104) \n    NA \n    Public \n    0.19 \n    12.23 \n    12 \n  \n  \n    17 \n    BMSA01 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Second Water Tr (236) to First Water TH parking \n    NA \n    Public \n    0.29 \n    12.52 \n    53"
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#images",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#images",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nBMSA01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nBMSA01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nBMSA02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nBMSA02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nBMSA02: Tiny view of Weavers Needle\n\n\n\n\n\n\n\nBMSA03: A reminder\n\n\n\n\n\n\n\nBMSA05: Black Top Mesa\n\n\n\n\n\n\n\nBMSA06: Sign to Bull Pass Tr\n\n\n\n\n\n\n\nBMSA08: Climbing to Black Top Mesa\n\n\n\n\n\n\n\nBMSA08: Nearing the top of Black Top Mesa\n\n\n\n\n\n\n\nBMSA08: Weavers Needle from Black Top Mesa\n\n\n\n\n\n\n\nBMSA08: Black Top Mesa\n\n\n\n\n\n\n\nBMSA08: Black Top Mesa\n\n\n\n\n\n\n\nBMSA08: Grazing horses on Black Top Mesa\n\n\n\n\n\n\n\nBMSA08: Looking back on Black Top Mesa\n\n\n\n\n\n\n\nBMSA10: Switching trails for return trip\n\n\n\n\n\n\n\nBMSA10: Something blooming\n\n\n\n\n\n\n\nBMSA10: Kim with Weavers Needle\n\n\n\n\n\n\n\nBMSA10: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nBMSA10: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nBMSA11: Switching trails on return trip\n\n\n\n\n\n\n\nBMSA11: Typical scenery in Spring 2022\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#gpx-download",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#gpx-download",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html",
+    "title": "Hieroglphyics Canyon",
+    "section": "",
+    "text": "On March 7, 2022 Kim and I hiked the Heiroglyphics Trail. This is a popular trail that goes to Heiroglyphics Canyon. A variety of petroglyhs can be seen on the canyon walls. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#overview-map",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#overview-map",
+    "title": "Hieroglphyics Canyon",
+    "section": "Overview Map",
+    "text": "Overview Map\nThe extent of this walk is highlighted by the blue box in this map.\n\n\n\n\n\n\n\n\n\n\n\n\nMap Key\n\n\n\nSee Superstition Wilderness Overview page for segment color coding key and description for use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#walk-specific-map",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#walk-specific-map",
+    "title": "Hieroglphyics Canyon",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#elevation-profile",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#elevation-profile",
+    "title": "Hieroglphyics Canyon",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#summary-information",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#summary-information",
+    "title": "Hieroglphyics Canyon",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    HGPH01 \n    Heiroglyphics Tr \n    Heiroglphics TH parking to Lost Goldmine Tr East \n    NA \n    Public \n    0.11 \n    0.11 \n    46 \n  \n  \n    2 \n    HGPH02 \n    Heiroglyphics Tr \n    Lost Goldmine Tr East to Heiroglyphics Canyon \n    NA \n    Public \n    1.36 \n    1.47 \n    531 \n  \n  \n    3 \n    HGPH02 \n    Heiroglyphics Tr \n    Heiroglyphics Canyon to Lost Goldmine Tr East \n    NA \n    Public \n    1.36 \n    2.82 \n    -531 \n  \n  \n    4 \n    HGPH01 \n    Heiroglyphics Tr \n    Lost Goldmine Tr East to Heiroglphics TH parking \n    NA \n    Public \n    0.11 \n    2.93 \n    -46"
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#images",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#images",
+    "title": "Hieroglphyics Canyon",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nHGPH02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nHGPH02: Petroglyphs\n\n\n\n\n\n\n\nHGPH02: Petroglyphs\n\n\n\n\n\n\n\nHGPH02: Petroglyphs\n\n\n\n\n\n\n\nHGPH02: Looking further up the canyon\n\n\n\n\n\n\n\nHGPH02: Kim and I in the canyon\n\n\n\n\n\n\n\nHGPH02: Petroglyphs\n\n\n\n\n\n\n\nHGPH02: Petroglyphs\n\n\n\n\n\n\n\nHGPH02: Petroglyphs\n\n\n\n\n\n\n\nHGPH02: Saguaro Cactus\n\n\n\n\n\n\n\nHGPH02: Old-man Cactus (?)\n\n\n\n\n\n\n\nHGPH02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nHGPH02: Blooming something(?)\n\n\n\n\n\n\n\nHGPH02: Ocotillo\n\n\n\n\n\n\n\nHGPH02: Prickly Pear Cactus\n\n\n\n\n\n\n\nHGPH02: Old-man Cactus (?)\n\n\n\n\n\n\n\nHGPH02: Blooming Poppy spp.\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#gpx-download",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#gpx-download",
+    "title": "Hieroglphyics Canyon",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html",
+    "href": "personal/Hiking/SW Massacre Grounds.html",
+    "title": "Massacre Falls",
+    "section": "",
+    "text": "On March 10, 2022 Kim and I hiked the Massacre Grounds trail to an impressive cliff and then to Massacre Falls. There was some water coming over the falls which was neat to see in the desert. Nice hike. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#overview-map",
+    "href": "personal/Hiking/SW Massacre Grounds.html#overview-map",
+    "title": "Massacre Falls",
+    "section": "Overview Map",
+    "text": "Overview Map\nThe extent of this walk is highlighted by the blue box in this map.\n\n\n\n\n\n\n\n\n\n\n\n\nMap Key\n\n\n\nSee Superstition Wilderness Overview page for segment color coding key and description for use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#walk-specific-map",
+    "href": "personal/Hiking/SW Massacre Grounds.html#walk-specific-map",
+    "title": "Massacre Falls",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#elevation-profile",
+    "href": "personal/Hiking/SW Massacre Grounds.html#elevation-profile",
+    "title": "Massacre Falls",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#summary-information",
+    "href": "personal/Hiking/SW Massacre Grounds.html#summary-information",
+    "title": "Massacre Falls",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    MSCR01 \n    Massacre Grounds Tr \n    Crosscut TH parking to Massacre Grounds Tr (Waterfall spur) \n    NA \n    Public \n    2.63 \n    2.63 \n    1036 \n  \n  \n    2 \n    MSCR02 \n    Massacre Grounds Tr \n    Massacre Grounds Tr (Waterfall spur) to Massacre Grounds Peak \n    NA \n    Public \n    0.04 \n    2.67 \n    32 \n  \n  \n    3 \n    MSCR02 \n    Massacre Grounds Tr \n    Massacre Grounds Peak to Massacre Grounds Tr (Waterfall spur) \n    NA \n    Public \n    0.04 \n    2.70 \n    -32 \n  \n  \n    4 \n    MSCR03 \n    Massacre Grounds Tr (Waterfall spur) \n    Massacre Grounds Tr to Massacre Grounds Waterfall \n    NA \n    Public \n    0.21 \n    2.91 \n    99 \n  \n  \n    5 \n    MSCR03 \n    Massacre Grounds Tr (Waterfall spur) \n    Massacre Grounds Waterfall to Massacre Grounds Tr \n    NA \n    Public \n    0.21 \n    3.12 \n    -99 \n  \n  \n    6 \n    MSCR01 \n    Massacre Grounds Tr \n    Massacre Grounds Tr (Waterfall spur) to Crosscut TH parking \n    NA \n    Public \n    2.63 \n    5.75 \n    -1036"
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#images",
+    "href": "personal/Hiking/SW Massacre Grounds.html#images",
+    "title": "Massacre Falls",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nMSCR01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nMSCR01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nMSCR02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nMSCR02: Cliff at end of trail\n\n\n\n\n\n\n\nMSCR02: Cliff at end of trail\n\n\n\n\n\n\n\nMSCR02: Cliff at end of trail\n\n\n\n\n\n\n\nMSCR02: Cliff at end of trail\n\n\n\n\n\n\n\nMSCR03: Massacre Falls\n\n\n\n\n\n\n\nMSCR03: Kim and I at Massacre Falls\n\n\n\n\n\n\n\nMSCR01: Me with Prickly Pear Cactus\n\n\n\n\n\n\n\nMSCR01: Me with ??? Cactus\n\n\n\n\n\n\n\nMSCR01: Me with Ocotilla\n\n\n\n\n\n\n\nMSCR01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nMSCR01: Kim on the trail\n\n\n\n\n\n\n\nMSCR01: Me with ??? Cactus\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#gpx-download",
+    "href": "personal/Hiking/SW Massacre Grounds.html#gpx-download",
+    "title": "Massacre Falls",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html",
+    "title": "Weaver’s Needle",
+    "section": "",
+    "text": "On March 8, 2022 Kim and I hiked out to see Weaver’s Needle from Fremont Saddle. The Peralta Trail (102) portion is a steep climb to Fremont Saddle for a great view of Weaver’s Needle. We took a short walk out to a Pinion tree for a closer view of the Needle. The Cave Trail portion was a challenge to find and included some scrambling. A fun trail all around. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#overview-map",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#overview-map",
+    "title": "Weaver’s Needle",
+    "section": "Overview Map",
+    "text": "Overview Map\nThe extent of this walk is highlighted by the blue box in this map.\n\n\n\n\n\n\n\n\n\n\n\n\nMap Key\n\n\n\nSee Superstition Wilderness Overview page for segment color coding key and description for use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#walk-specific-map",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#walk-specific-map",
+    "title": "Weaver’s Needle",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#elevation-profile",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#elevation-profile",
+    "title": "Weaver’s Needle",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#summary-information",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#summary-information",
+    "title": "Weaver’s Needle",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    PFMT01 \n    Peralto Tr (102) to Fremont Saddle \n    leave Peralta TH parking to arrive Fremont Saddle \n    NA \n    Public \n    2.28 \n    2.28 \n    1353 \n  \n  \n    2 \n    CVFS01 \n    Cave Trail Hike (across Fremont Saddle) \n    leave Peralta Tr (102) to leave Fremont Saddle \n    NA \n    Public \n    0.18 \n    2.45 \n    44 \n  \n  \n    3 \n    PNNT01 \n    Fremont Saddle to Weaver's Needle Pinion Tree \n    leave Fremont Saddle to arrive Pinion Tree \n    NA \n    Public \n    0.36 \n    2.81 \n    2 \n  \n  \n    4 \n    PNNT01 \n    Fremont Saddle to Weaver's Needle Pinion Tree \n    arrive Pinion Tree to leave Fremont Saddle \n    NA \n    Public \n    0.36 \n    3.17 \n    -2 \n  \n  \n    5 \n    CVFS02 \n    Cave Trail Hike (Cave TR) \n    leave Fremont Saddle to merge Bluff Spring Tr (235) \n    NA \n    Public \n    1.83 \n    5.00 \n    -885 \n  \n  \n    6 \n    CVFS03 \n    Cave Trail Hike (Bluff Spring Tr) \n    merge Bluff Spring Tr (235) to merge Dutchman's Tr (104) \n    NA \n    Public \n    0.70 \n    5.70 \n    -501 \n  \n  \n    7 \n    CVFS04 \n    Cave Trail Hike (Dutchman's Tr) \n    merge Dutchman's Tr (104) to arrive Peralta TH \n    NA \n    Public \n    0.05 \n    5.76 \n    -11"
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#images",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#images",
+    "title": "Weaver’s Needle",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nPFMT01: Sign near trailhead\n\n\n\n\n\n\n\nPFMT01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nPFMT01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nPFMT01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nPFMT01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nPFMT01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nCVFS01: Kim and I on Fremont Saddle\n\n\n\n\n\n\n\nCVFS01: Weavers Needle from Fremont Saddle\n\n\n\n\n\n\n\nCVFS01: Weavers Needle on way to Pinion tree\n\n\n\n\n\n\n\nPNNT01: Pinion tree\n\n\n\n\n\n\n\nCVFS02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nCVFS02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nCVFS02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nCVFS02: Kim scrambling\n\n\n\n\n\n\n\nCVFS02: Kim scrambling\n\n\n\n\n\n\n\nCVFS02: Kim scrambling\n\n\n\n\n\n\n\nCVFS02: Thankful for cairns\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#gpx-download",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#gpx-download",
+    "title": "Weaver’s Needle",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html",
+    "href": "personal/Hiking/SW Wave Cave.html",
+    "title": "Wave Cave",
+    "section": "",
+    "text": "On March 6, 2022 Kim and I hiked from the first Peralta Trailhead parking area to the “Wave Cave” via the Lost Goldmine, Carney Springs, and Wave Cave trails. The trail was fairly flat until the Wave Cave trail portion, which ascended quickly. The actual cave was larger than I expected and offered up some great photos. There were a decent number of people on the trail on this beautiful day. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#overview-map",
+    "href": "personal/Hiking/SW Wave Cave.html#overview-map",
+    "title": "Wave Cave",
+    "section": "Overview Map",
+    "text": "Overview Map\nThe extent of this walk is highlighted by the blue box in this map.\n\n\n\n\n\n\n\n\n\n\n\n\nMap Key\n\n\n\nSee Superstition Wilderness Overview page for segment color coding key and description for use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#walk-specific-map",
+    "href": "personal/Hiking/SW Wave Cave.html#walk-specific-map",
+    "title": "Wave Cave",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#elevation-profile",
+    "href": "personal/Hiking/SW Wave Cave.html#elevation-profile",
+    "title": "Wave Cave",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#summary-information",
+    "href": "personal/Hiking/SW Wave Cave.html#summary-information",
+    "title": "Wave Cave",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    WVCV01 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Carney Springs TH parking to Dacite Cliff Mine Tr \n    NA \n    Public \n    0.80 \n    0.80 \n    14 \n  \n  \n    2 \n    WVCV02 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Dacite Cliff Mine Tr to merge Carney Springs Tr \n    NA \n    Public \n    0.34 \n    1.14 \n    16 \n  \n  \n    3 \n    WVCV03 \n    Wave Cave Hike (Carney Springs Tr) \n    merge Carney Springs Tr to leave Carney Springs Tr / start Wave Cave Tr \n    NA \n    Public \n    0.16 \n    1.31 \n    47 \n  \n  \n    4 \n    WVCV04 \n    Wave Cave Hike (Wave Cave Tr) \n    leave Carney Springs Tr / start Wave Cave Tr to arrive Wave Cave \n    NA \n    Public \n    0.79 \n    2.09 \n    731 \n  \n  \n    5 \n    WVCV04 \n    Wave Cave Hike (Wave Cave Tr) \n    arrive Wave Cave to leave Carney Springs Tr / start Wave Cave Tr \n    NA \n    Public \n    0.79 \n    2.88 \n    -731 \n  \n  \n    6 \n    WVCV03 \n    Wave Cave Hike (Carney Springs Tr) \n    leave Carney Springs Tr / start Wave Cave Tr to merge Carney Springs Tr \n    NA \n    Public \n    0.16 \n    3.04 \n    -47 \n  \n  \n    7 \n    WVCV02 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    merge Carney Springs Tr to Dacite Cliff Mine Tr \n    NA \n    Public \n    0.34 \n    3.38 \n    -16 \n  \n  \n    8 \n    WVCV01 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Dacite Cliff Mine Tr to Carney Springs TH parking \n    NA \n    Public \n    0.80 \n    4.19 \n    -14"
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#images",
+    "href": "personal/Hiking/SW Wave Cave.html#images",
+    "title": "Wave Cave",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nWVCV01: Kim with a Saguaro Cactus\n\n\n\n\n\n\n\nWVCV01: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nWVCV03: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nWVCV04: Kim climbing to the Wave Cave\n\n\n\n\n\n\n\nWVCV04: Kim climbing to the Wave Cave\n\n\n\n\n\n\n\nWVCV04: Us at the Wave Cave\n\n\n\n\n\n\n\nWVCV04: Wave Cave\n\n\n\n\n\n\n\nWVCV04: Us at the Wave Cave\n\n\n\n\n\n\n\nWVCV04: Us at the Wave Cave\n\n\n\n\n\n\n\nWVCV04: Looking back to the Wave Cave\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#gpx-download",
+    "href": "personal/Hiking/SW Wave Cave.html#gpx-download",
+    "title": "Wave Cave",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
     "objectID": "personal/hiking.html",
     "href": "personal/hiking.html",
     "title": "Hikes/Walks",
     "section": "",
-    "text": "Warning\n\n\n\nUnder Construction\n\n\n\nIron River Area – Overview\n\nCamp Nine Research Area East\n\nSuperstition Wilderness Area\n\nXXX"
+    "text": "Warning\n\n\n\nUnder Construction\n\n\n\nIron River Area – Overview\n\nCamp Nine Research Area East\n\nSuperstition Wilderness Area – Overview\n\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
   },
   {
     "objectID": "personal/music.html",

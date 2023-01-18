@@ -8,5 +8,9 @@ Under Construction
 
 - Iron River Area -- [Overview](Hiking/Iron River Area.html)
     - [Camp Nine Research Area East](Hiking/IRA Camp 9 East.html)
-- Superstition Wilderness Area
-    - XXX
+- Superstition Wilderness Area -- [Overview](Hiking/Superstition Wilderness.html)
+    - [Wave Cave, 2022](Hiking/SW Wave Cave.html)
+    - [Hieroglyphics Trail, 2022](Hiking/SW Hieroglyphics Trail.html)
+    - [Weaver's Needle (Peralta & Cave Trail Loop), 2022](Hiking/SW Peralta Cave Trail.html)
+    - [Black Top Mesa (from First Waters TH), 2022](Hiking/SW Black Top Mesa FW TH.html)
+    - [Massacre Grounds, 2022](Hiking/SW Massacre Grounds.html)
