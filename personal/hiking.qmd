@@ -1,16 +1,21 @@
 ---
-title: "Hikes/Walks"
+title: "Walks/Hikes"
+title-block-style: none
+title-block-banner: false
 ---
 
-:::{.callout-warning}
-Under Construction
-:::
+![](../zresources/img/hiking1.jpg){fig-align="center"}
 
-- Iron River Area -- [Overview](Hiking/Iron River Area.html)
-    - [Camp Nine Research Area East](Hiking/IRA Camp 9 East.html)
-- Superstition Wilderness Area -- [Overview](Hiking/Superstition Wilderness.html)
-    - [Wave Cave, 2022](Hiking/SW Wave Cave.html)
-    - [Hieroglyphics Trail, 2022](Hiking/SW Hieroglyphics Trail.html)
-    - [Weaver's Needle (Peralta & Cave Trail Loop), 2022](Hiking/SW Peralta Cave Trail.html)
-    - [Black Top Mesa (from First Waters TH), 2022](Hiking/SW Black Top Mesa FW TH.html)
-    - [Massacre Grounds, 2022](Hiking/SW Massacre Grounds.html)
+I have "mapped" our hikes/walks since getting an iPhone for Christimas, 2021. The primary areas we have hiked and some specific hikes are shown below. Follow the links for hike maps and specifics.
+
+## Iron River Area
+- [Overview](Hiking/Iron River Area.html)
+- [Camp Nine Research Area East](Hiking/IRA Camp 9 East.html)
+
+## Superstition Wilderness
+- [Overview](Hiking/Superstition Wilderness.html)
+- [Wave Cave, 2022](Hiking/SW Wave Cave.html)
+- [Hieroglyphics Trail, 2022](Hiking/SW Hieroglyphics Trail.html)
+- [Weaver's Needle (Peralta & Cave Trail Loop), 2022](Hiking/SW Peralta Cave Trail.html)
+- [Black Top Mesa (from First Waters TH), 2022](Hiking/SW Black Top Mesa FW TH.html)
+- [Massacre Grounds, 2022](Hiking/SW Massacre Grounds.html)

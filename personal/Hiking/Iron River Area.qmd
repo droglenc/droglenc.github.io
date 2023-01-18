@@ -12,7 +12,7 @@ project <- "Iron River Area"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
-#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
 
 # Make vector of colors for Iron River Area
 clrs <- c("Highway"="#CC0000","Paved"="#336666",

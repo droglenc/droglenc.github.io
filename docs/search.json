@@ -331,9 +331,9 @@
   {
     "objectID": "personal/hiking.html",
     "href": "personal/hiking.html",
-    "title": "Hikes/Walks",
+    "title": "Walks/Hikes",
     "section": "",
-    "text": "Warning\n\n\n\nUnder Construction\n\n\n\nIron River Area – Overview\n\nCamp Nine Research Area East\n\nSuperstition Wilderness Area – Overview\n\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
+    "text": "I have “mapped” our hikes/walks since getting an iPhone for Christimas, 2021. The primary areas we have hiked and some specific hikes are shown below. Follow the links for hike maps and specifics."
   },
   {
     "objectID": "personal/music.html",
@@ -446,5 +446,26 @@
     "title": "Software",
     "section": "Websites",
     "text": "Websites\n\nfishR website\n\n\n\n\n\n\n\nImportant\n\n\n\nThis website is now maintained by the fishR-Core-Team, of which I am a member."
+  },
+  {
+    "objectID": "personal/hiking.html#iron-river-area",
+    "href": "personal/hiking.html#iron-river-area",
+    "title": "Walks/Hikes",
+    "section": "Iron River Area",
+    "text": "Iron River Area\n\nOverview\nCamp Nine Research Area East"
+  },
+  {
+    "objectID": "personal/hiking.html#superstition-wilderness-area",
+    "href": "personal/hiking.html#superstition-wilderness-area",
+    "title": "Hikes/Walks",
+    "section": "Superstition Wilderness Area",
+    "text": "Superstition Wilderness Area\n\nOverview\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
+  },
+  {
+    "objectID": "personal/hiking.html#superstition-wilderness",
+    "href": "personal/hiking.html#superstition-wilderness",
+    "title": "Walks/Hikes",
+    "section": "Superstition Wilderness",
+    "text": "Superstition Wilderness\n\nOverview\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
   }
 ]
