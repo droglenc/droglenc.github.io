@@ -4,7 +4,9 @@ title: "About"
 
 I worked for [Northland College](https://www.northland.edu/) as a fisheries and statistics professor for 26 years until 2022. I believe in [Northland's mission and core values](https://www.northland.edu/sustainability/) surrounding the environment, sustainability, and social justice. I very much enjoyed helping students to reach their academic and career goals.
 
-While at Northland (and both before and since) I had opportunities to pursue my own scholarly interests. Towards that end I [authored a fisheries-related book, book chapter, and several journal articles](publications), and [developed software](software) mostly related to fisheries analyses.
+While at Northland (and both before and since) I had opportunities to pursue my own scholarly interests. Towards that end I [authored a fisheries-related book, book chapter, and several journal articles](publications.html), and [developed software](software.html) mostly related to fisheries analyses.
+
+Though retired from that career I still, as part of the [fishR core team](https://github.com/fishR-Core-Team), actively maintain the [fishR webpage](https://fishr-core-team.github.io/fishR/)^[Resources for performing fisheries analyses in R.] and several [fisheries-related R packages](software.html).
 
 My professional record is recorded on my [CV](../zresources/CV.pdf) and in the links above and below.
 

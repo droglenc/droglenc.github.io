@@ -25,7 +25,7 @@
     "href": "personal/fishing.html",
     "title": "Fishing",
     "section": "",
-    "text": "TBD"
+    "text": "I will be adding content."
   },
   {
     "objectID": "personal/Hiking/IRA Camp 9 East.html",
@@ -361,7 +361,7 @@
     "href": "personal/shelties.html",
     "title": "Our Shelties",
     "section": "",
-    "text": "Cash is our current sheltie who we have had since September 2021. He is a spirited “big pony.”"
+    "text": "Cash is our current sheltie who we have had since September 2021. He is a spirited “big pony” who loves to be outside, especially on walks/hikes."
   },
   {
     "objectID": "personal/shelties.html#jem",
@@ -403,7 +403,7 @@
     "href": "professional/about.html",
     "title": "About",
     "section": "",
-    "text": "I worked for Northland College as a fisheries and statistics professor for 26 years until 2022. I believe in Northland’s mission and core values surrounding the environment, sustainability, and social justice. I very much enjoyed helping students to reach their academic and career goals.\nWhile at Northland (and both before and since) I had opportunities to pursue my own scholarly interests. Towards that end I authored a fisheries-related book, book chapter, and several journal articles, and developed software mostly related to fisheries analyses.\nMy professional record is recorded on my CV and in the links above and below."
+    "text": "I worked for Northland College as a fisheries and statistics professor for 26 years until 2022. I believe in Northland’s mission and core values surrounding the environment, sustainability, and social justice. I very much enjoyed helping students to reach their academic and career goals.\nWhile at Northland (and both before and since) I had opportunities to pursue my own scholarly interests. Towards that end I authored a fisheries-related book, book chapter, and several journal articles, and developed software mostly related to fisheries analyses.\nThough retired from that career I still, as part of the fishR core team, actively maintain the fishR webpage1 and several fisheries-related R packages.\nMy professional record is recorded on my CV and in the links above and below.\n\n        \n\n\n\n\n\nFootnotes\n\n\nResources for performing fisheries analyses in R.↩︎"
   },
   {
     "objectID": "professional/publications.html",
@@ -424,7 +424,7 @@
     "href": "professional/software.html",
     "title": "Software",
     "section": "",
-    "text": "FSA (Fisheries Stock Assessment): R functions to conduct typical introductory fisheries analyses. Example analyses that use FSA are in the Introductory Fisheries Analyses with R book.\nFSAdata: A companion to FSA with data sets for use in common fisheries analyses.\nRFishBC: Helps collect measurements from calcified structures and back-calculate estimated lengths at previous ages.\n\n\n\n\n\n\n\nImportant\n\n\n\nThese packages are now maintained by the fishR-Core-Team, of which I am a member."
+    "text": "FSA (Fisheries Stock Assessment): R functions to conduct typical introductory fisheries analyses. Example analyses that use FSA are in the Introductory Fisheries Analyses with R book.\nFSAdata: A companion to FSA with data sets for use in common fisheries analyses.\nRFishBC: Helps collect measurements from calcified structures and back-calculate estimated lengths at previous ages.\n\n\n\n\n\n\n\nThese packages are now maintained by the fishR-Core-Team, of which I am a member."
   },
   {
     "objectID": "professional/software.html#unreleased-r-packages",
@@ -445,7 +445,7 @@
     "href": "professional/software.html#websites",
     "title": "Software",
     "section": "Websites",
-    "text": "Websites\n\nfishR website\n\n\n\n\n\n\n\nImportant\n\n\n\nThis website is now maintained by the fishR-Core-Team, of which I am a member."
+    "text": "Websites\n\nfishR website\n\n\n\n\n\n\n\nThis website is now maintained by the fishR-Core-Team, of which I am a member."
   },
   {
     "objectID": "personal/hiking.html#iron-river-area",

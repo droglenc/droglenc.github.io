@@ -1,7 +1,5 @@
 ---
 title: "Walks/Hikes"
-title-block-style: none
-title-block-banner: false
 ---
 
 ![](../zresources/img/hiking1.jpg){fig-align="center"}

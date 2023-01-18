@@ -3,7 +3,7 @@ title: "Our Shelties"
 ---
 
 ## Cash
-Cash is our current sheltie who we have had since September 2021. He is a spirited "big pony."
+Cash is our current sheltie who we have had since September 2021. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](hiking.html).
 
 ```{r}
 #| echo: false

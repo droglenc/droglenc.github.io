@@ -7,7 +7,7 @@ title: "Software"
 - [FSAdata](https://fishr-core-team.github.io/FSAdata): *A companion to FSA with data sets for use in common fisheries analyses.*
 - [RFishBC](https://fishr-core-team.github.io/RFishBC/): *Helps collect measurements from calcified structures and back-calculate estimated lengths at previous ages.*
 
-::: {.callout-important appearnace="simple"}
+::: {.callout-important appearance="simple"}
 These packages are now maintained by the [fishR-Core-Team](https://github.com/fishR-Core-Team), of which I am a member.
 :::
 
@@ -34,6 +34,6 @@ Other packages that are less well-developed or maintained are available on [my G
 ## Websites
 - [fishR website](https://fishr-core-team.github.io/fishR/)
 
-::: {.callout-important appearnace="simple"}
+::: {.callout-important appearance="simple"}
 This website is now maintained by the [fishR-Core-Team](https://github.com/fishR-Core-Team), of which I am a member.
 :::
