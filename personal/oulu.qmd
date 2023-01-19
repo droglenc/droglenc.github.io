@@ -1,0 +1,10 @@
+---
+title: "Oulu Property"
+---
+
+![](../zresources/img/oulu1.webp){fig-align="center"}
+
+:::{.callout-warning appearance="simple"}
+I will be adding content.
+:::
+

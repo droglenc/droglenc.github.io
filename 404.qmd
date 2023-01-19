@@ -7,5 +7,5 @@ format:
 ---
 
 ::: notfound-text
-Sorry! We can't find that page. Press the book title name in the upper-left to return home.
+Sorry! We can't find that page. Click on my name in the upper-left to return home.
 :::

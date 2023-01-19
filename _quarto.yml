@@ -13,24 +13,47 @@ website:
     foreground: "#E5E4E2"
     pinned: true
     left:
-      - sidebar:Professional
-      - sidebar:Personal
+      - text: "Professional"
+        href: professional/index.qmd
+      - text: "Personal"
+        href: personal/index.qmd
   sidebar:
-    - id: "Professional"
+    - id: professional
       title: "Professional"
       style: "docked"
+      collapse-level: 2
+      align: left
       contents:
-        - professional/about.qmd
-        - professional/publications.qmd
-        - professional/software.qmd
-    - id: "Personal"
+        - text: "Professional"
+          href: professional/index.qmd
+        - text: "Publications"
+          href: professional/publications.qmd
+        - text: "Software"
+          href: professional/software.qmd
+    - id: personal
       title: "Personal"
       style: "docked"
+      collapse-level: 2
+      align: left
       contents:
-        - personal/about.qmd
-        - personal/shelties.qmd
-        - personal/hiking.qmd
-        - personal/fishing.qmd
+        - text: "Personal"
+          href: personal/index.qmd
+        - text: "Shelties"
+          href: personal/shelties.qmd
+        - section: "Hiking/Walking"
+          contents:
+            - text: "Iron River Area"
+              href: personal/Hiking/Iron River Area.qmd
+            - text: "Superstition Wilderness"
+              href: personal/Hiking/Superstition Wilderness.qmd
+        - text: "Fishing"
+          href: personal/fishing.qmd
+        - text: "Live Music"
+          href: personal/music.qmd
+        - text: "Oulu Property"
+          href: personal/oulu.qmd
+        - text: "TV Appearances"
+          href: personal/tv.qmd
   page-footer:
     background: "#25383C"
     foreground: "#E5E4E2"
