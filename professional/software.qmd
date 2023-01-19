@@ -1,0 +1,39 @@
+---
+title: "Software"
+---
+
+## CRAN-Released R Packages
+- [FSA (Fisheries Stock Assessment)](https://fishr-core-team.github.io/FSA/): *R functions to conduct typical introductory fisheries analyses. Example analyses that use FSA are in the [Introductory Fisheries Analyses with R book](https://derekogle.com/IFAR/).*
+- [FSAdata](https://fishr-core-team.github.io/FSAdata): *A companion to FSA with data sets for use in common fisheries analyses.*
+- [RFishBC](https://fishr-core-team.github.io/RFishBC/): *Helps collect measurements from calcified structures and back-calculate estimated lengths at previous ages.*
+
+::: {.callout-important appearance="simple"}
+These packages are now maintained by the [fishR-Core-Team](https://github.com/fishR-Core-Team), of which I am a member.
+:::
+
+&nbsp;
+
+## Unreleased R Packages
+- [FSAWs](https://github.com/droglenc/FSAWs): *For constructing and validating standard weight (Ws) equations for fish.*
+- [NCStats](https://github.com/droglenc/NCStats): *Helper functions for statistics courses at Northland College.*
+
+::: {.callout-tip appearance="simple"}
+Other packages that are less well-developed or maintained are available on [my Github page](https://github.com/droglenc)
+:::
+
+&nbsp;
+
+## Contributions to Other R Packages
+- [`plotrix::histStack()`](https://www.rdocumentation.org/packages/plotrix/versions/3.8-2/topics/histStack): Construct histograms with bars stacked according to a categorical variable.
+- [`pgirmess::kruskalmc()`](https://www.rdocumentation.org/packages/pgirmess/versions/2.0.0/topics/kruskalmc): A generic wrapper function for performing multiple comparisons for a Kruskal-Wallis test.
+- [`car::leveneTest()`](https://www.rdocumentation.org/packages/car/versions/3.1-1/topics/leveneTest): A generic wrapper function for performing Levene’s homogeneity of variances test.
+- [`plotrix::plotH()`](https://www.rdocumentation.org/packages/plotrix/versions/3.8-2/topics/plotH): Construct histogram-like modifications of scatterplots.
+
+&nbsp;
+
+## Websites
+- [fishR website](https://fishr-core-team.github.io/fishR/)
+
+::: {.callout-important appearance="simple"}
+This website is now maintained by the [fishR-Core-Team](https://github.com/fishR-Core-Team), of which I am a member.
+:::

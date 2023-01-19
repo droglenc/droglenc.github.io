@@ -1,0 +1,34 @@
+---
+---
+
+I was a fisheries and statistics professor at [Northland College](https://www.northland.edu/) for 26 years until 2022, when I decided to pursue other interests. Use the menu above to see my professional achievements and personal interests.
+
+
+```{r}
+#| echo: false
+#| results: asis
+d <- tibble::tribble(
+  ~imgs, ~caps,
+  "Ogle_Sign_UK.jpg", "Ogle, Northumberland, England",
+  "Iceland_2022.jpg", "Kim and I on a glacier, Iceland, 2022",
+  "WeaversNeedle_2022.jpg", "Kim and I at Weaver's Needle, AZ, 2022",
+  "MeyersBeach2008.jpg", "Ice Caves at Meyer's Beach, Lake Superior, 2008",
+  "AIFishing1.jpg", "Trolling in the Apostle Islands, Lake Superior",
+  "Alaska2011b.jpg", "Halibut Fishing, Homer, Alaska, 2011",
+  "Arizona_2017a.jpg", "Superstition Mountain, Apache Junction, AZ, 2017",
+  "Banff2013b.jpg", "Banff, Aberta, Canada, 2013",
+  "BayfieldCo2008.jpg", "Road to Home, Bayfield County, WI, 2008",
+  "Canyonlands.jpg", "Canyonlands, Utah",
+  "Home_2015.jpg", "Home, Bayfield County, 2015",
+  "Iqaluit_Sunset_2016.jpg", "Sunset over Iqaluit, Nunavut, 2016",
+  "Muskeg_Winter.jpg", "Muskeg Property, Oulu, WI",
+  "MuskegFlowers.jpg", "Flowers at Muskeg Property, Oulu, WI",
+  "NorthShore2013b.jpg", "Lake Superior Storm, North Shore, MN, 2013",
+  "Vancouver2.jpg", "Carved Sockeye, Vancouver, BC, Canada"
+)
+
+d <- d[sample(1:nrow(d),replace=FALSE),]
+
+gpxhelpers::makeCarousel(id="Home",path="zresources/img/home/",
+                         imgs=d$imgs,caps=d$caps,width=75)
+```

@@ -1,0 +1,12 @@
+/*-- scss:defaults --*/
+$carousel-transition-duration:       .6s;
+
+/*-- scss:rules --*/
+
+
+/* this adjusts chunk output look */
+/* use class-output: output in _metadata.yml */
+.output {
+  color: lighten(black,5%);
+  background-color: #FFF5EE;
+}

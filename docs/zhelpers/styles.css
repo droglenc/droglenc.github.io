@@ -1,0 +1,22 @@
+/* css styles */
+
+/* #### DHO added the following #### */
+
+/* Makes the text on the 404 page a little larger */
+.notfound-text {
+  font-size: 125%;
+  padding-bottom: 50px;
+}
+
+/* Creates a transparent background on carousel caption so text is visible */
+/* Reduces padding around caption box and moves it to the botom of image   */
+.carousel-caption{
+  background: rgba(0,0,0,0.25);
+  padding: 5px 0px 0px 0px;
+  bottom: 0;
+}
+
+/* Reduces size of caption text slightly */
+.carousel-caption h5{
+  font-size: 1rem;
+}

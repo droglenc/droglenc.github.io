@@ -1,0 +1,61 @@
+---
+title: "Publications"
+---
+
+## Books and Book Chapters
+
+::: {.callout-important appearance="simple"}
+I am sorry that I cannot provide full access to these books.
+:::
+
+- [*Introductory Fisheries Analyses with R*](https://derekogle.com/IFAR/)
+- Growth Estimation: Growth Models and Statistical Inference in [*Age and Growth of Fishes: Principles and Techniques*](https://fisheries.org/bookstore/all-titles/professional-and-trade/55078c/)
+
+&nbsp;
+
+## Journal Articles
+
+::: {.callout-important appearance="simple"}
+Most links below are to paywalled sites. Please [contact me via e-mail](mailto: DerekOgle51@gmail.com) for a PDF of the article.
+:::
+
+### Age and Growth - Modeling
+
+* [Evaluating the performance of methods used to estimate growth parameters from subsampled age data](https://doi.org/10.1002/nafm.10570)
+* [Use and misuse of a common growth metric: guidance for appropriately calculating and reporting specific growth rate](https://doi.org/10.1111/raq.12396)
+* [Estimating age at a specified length from the von Bertalanffy growth function, with R Supplement](https://doi.org/10.1080/02755947.2017.1342725)
+* [An Algorithm for the von Bertalanffy Seasonal Cessation in Growth Function of Pauly et al. (1992)](https://doi.org/10.1016/j.fishres.2016.09.020), with [R Supplement](../zresources/pubs/SeasonalGrowth_Analysis.R) 
+* [Clarification of Somer’s Seasonal Growth Model](http://dx.doi.org/10.1007/s11160-012-9262-x)
+* [Temporal Signatured Introduction](https://doi.org/10.1139/f94-173)
+* [Probabilistic Age Assignments with Temporal Signatures](https://doi.org/10.1139/f96-110)
+
+### Age and Growth - Life History
+
+* [A synthesis of the biology and ecology of sculpin species in the Great Lakes](https://doi.org/10.1080/23308249.2020.1782341) (*with student*)
+* [Size and Age of Stonecats in Lake Champlain](https://doi.org/10.1002/nafm.10230)
+* [Age, year-class strength variability, and partial age validation of *Coregonus kiyi* from Lake Superior](https://doi.org/10.1080/02755947.2017.1350222) [Data repository](https://www.sciencebase.gov) (*with student*)
+* [Age, Growth, and Size of Lake Superior Pygmy Whitefish](https://doi.org/10.1674/amid-175-01-24-36.1) (*with student*)
+* [Hatchery Lake Trout Scale Characteristics](https://doi.org/10.1577/1548-8675(1996)016%3C0896:CFOTSO%3E2.3.CO;2)
+
+
+### Ruffe Research
+
+* [Effect of Removing Ruffe on Ruffe Populations](https://doi.org/10.1080/02705060.2011.569336)
+* [Ruffe Weight-Length Relationships with a Proposed Standard Weight Equation](https://doi.org/10.1577/M08-176.1)
+* [Freezing Effect on Ruffe Length-Weight Relationships](https://doi.org/10.1016/j.fishres.2009.06.009)
+* [Larval Ruffe Diet](https://doi.org/10.1016/S0380-1330(04)70346-9) (*with student*)
+* [Overview of Ruffe](https://doi.org/10.1016/S0380-1330(98)70811-1)
+* [Ruffe Diet and Diel Movements](https://doi.org/10.1577/1548-8659(1995)124%3C0356:DAFPOR%3E2.3.CO;2)
+* [Predation on Ruffe](https://doi.org/10.1577/1548-8675(1996)016%3C0115:PORBNF%3E2.3.CO;2)
+
+
+### Miscellaneous
+
+* [A comparison of fish catch rates among local, non-local, and non-resident anglers of three northern Wisconsin lakes](https://doi.org/10.1016/j.fishres.2022.106286) (*with student*)
+* [Life history variation in Arctic charr from Cumberland Sound, Nunavut](https://doi.org/10.1139/as-2019-0036)
+* [Production dynamics reveal hidden overharvest of inland recreational fisheries](https://doi.org/10.1073/pnas.1913196116)
+* [Recent Declines in Gray Jays on Christmas Bird Counts in Northern Wisconsin](https://www.researchgate.net/publication/305323184_Recent_declines_in_Gray_Jays_on_Christmas_Bird_Counts_in_northern_Wisconsin) (*with student*)
+* [Mayfly Populations in Chequamegon Bay: 2002 and 2012](https://doi.org/10.1080/02705060.2014.896294)  (*with student*)
+* [Misuse of "Gender"" in Fisheries Publications](https://doi.org/10.1080/03632415.2012.687265)
+* [Crayfish Trap Defense](https://doi.org/10.1080/02705060.2008.9664563) (*with student*)
+* Community and Place in Outdoor Orientation Programs - [pub 1](https://www.researchgate.net/publication/43768886_The_Intersection_of_Community_and_Place_in_an_Outdoor_Orientation_Program), [pub 2](https://www.researchgate.net/publication/234690220_Outdoor_Orientation_Program_Effects_Sense_of_Place_and_Social_Benefits) (*with student*)
