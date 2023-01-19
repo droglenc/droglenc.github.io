@@ -29,12 +29,27 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 ```
 
-#### Notes
-
+:::{.callout-tips appearance="simple"}
+## Interactions with Map
 * <span style="color: #CC0000">Red</span> were from 2022 and <span style="color: #CC6600">Orange</span> is from 2023.
 * Hover on track to see track abbreviation.
 * Click on track to get track information.
 * Use +/- in upper-left to zoom.
 * Use object in upper-right to change base map type.
 * Use object in lower-left to make measurements on map.
+:::
 
+&nbsp;
+
+## Other Resources
+
+* Superstition (and Mazatzal) Wilderness on [ArizonaHiking.org](http://arizonahiking.org/jreviews-directory/jreviews-listings-module-6)
+* Superstition Wilderness Hiking Trails on [TrailForks](https://www.trailforks.com/region/superstition-wilderness-38267/)
+* Tonto National Forest on [TrailForks](https://www.trailforks.com/region/tonto-national-forest/map/?activitytype=6&z=10.2&lat=33.41031&lon=-111.27550) ... *largely the same as above*
+* Hikes in Tonto National Forest on [10 Adventures](https://www.10adventures.com/hikes/tonto-national-forest/) ... *search on "Superstition"*
+* [Best Hiking Trails in the Superstition Mountains](https://destinations.rei.com/local-tips/best-hiking-trails-in-the-superstition-mountains)
+* [20 Superstition Mountains Hiking Trails You Can’t Miss](https://www.territorysupply.com/superstition-mountains-hikes)
+* Superstition Wilderness Hikes on [HikeArizona.com](https://hikearizona.com/traildex.php?SHOW=YES&ID=34&sRID=65) ... *fairly dated*
+* [6 Superstition Mountain Hikes You Won't Want to Miss](https://www.outdoorproject.com/travel/6-superstition-mountain-hikes-you-wont-want-miss)
+* Superstition Wilderness on [AllTrails](https://www.alltrails.com/parks/us/arizona/superstition-wilderness) ... *need an account*
+* GPX files for Superstition Wilderness by [Michael Thorne](https://home.chpc.utah.edu/~thorne/personal.html)

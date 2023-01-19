@@ -81,7 +81,7 @@
     "href": "personal/Hiking/Superstition Wilderness.html",
     "title": "Superstition Wilderness Hiking",
     "section": "",
-    "text": "Kim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from my main hiking page.\n\n\n\n\n\n\n\nNotes\n\nRed were from 2022 and Orange is from 2023.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
+    "text": "Kim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from my main hiking page."
   },
   {
     "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html",
@@ -336,6 +336,20 @@
     "text": "I have “mapped” our hikes/walks since getting an iPhone for Christimas, 2021. The primary areas we have hiked and some specific hikes are shown below. Follow the links for hike maps and specifics."
   },
   {
+    "objectID": "personal/hiking.html#iron-river-area",
+    "href": "personal/hiking.html#iron-river-area",
+    "title": "Walks/Hikes",
+    "section": "Iron River Area",
+    "text": "Iron River Area\n\nOverview\nCamp Nine Research Area East"
+  },
+  {
+    "objectID": "personal/hiking.html#superstition-wilderness",
+    "href": "personal/hiking.html#superstition-wilderness",
+    "title": "Walks/Hikes",
+    "section": "Superstition Wilderness",
+    "text": "Superstition Wilderness\n\nOverview\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
+  },
+  {
     "objectID": "personal/music.html",
     "href": "personal/music.html",
     "title": "Music",
@@ -448,24 +462,10 @@
     "text": "Websites\n\nfishR website\n\n\n\n\n\n\n\nThis website is now maintained by the fishR-Core-Team, of which I am a member."
   },
   {
-    "objectID": "personal/hiking.html#iron-river-area",
-    "href": "personal/hiking.html#iron-river-area",
-    "title": "Walks/Hikes",
-    "section": "Iron River Area",
-    "text": "Iron River Area\n\nOverview\nCamp Nine Research Area East"
-  },
-  {
-    "objectID": "personal/hiking.html#superstition-wilderness-area",
-    "href": "personal/hiking.html#superstition-wilderness-area",
-    "title": "Hikes/Walks",
-    "section": "Superstition Wilderness Area",
-    "text": "Superstition Wilderness Area\n\nOverview\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
-  },
-  {
-    "objectID": "personal/hiking.html#superstition-wilderness",
-    "href": "personal/hiking.html#superstition-wilderness",
-    "title": "Walks/Hikes",
-    "section": "Superstition Wilderness",
-    "text": "Superstition Wilderness\n\nOverview\nWave Cave, 2022\nHieroglyphics Trail, 2022\nWeaver’s Needle (Peralta & Cave Trail Loop), 2022\nBlack Top Mesa (from First Waters TH), 2022\nMassacre Grounds, 2022"
+    "objectID": "personal/Hiking/Superstition Wilderness.html#other-resources",
+    "href": "personal/Hiking/Superstition Wilderness.html#other-resources",
+    "title": "Superstition Wilderness Hiking",
+    "section": "Other Resources",
+    "text": "Other Resources\n\nSuperstition (and Mazatzal) Wilderness on ArizonaHiking.org\nSuperstition Wilderness Hiking Trails on TrailForks\nTonto National Forest on TrailForks … largely the same as above\nHikes in Tonto National Forest on 10 Adventures … search on “Superstition”\nBest Hiking Trails in the Superstition Mountains\n20 Superstition Mountains Hiking Trails You Can’t Miss\nSuperstition Wilderness Hikes on HikeArizona.com … fairly dated\n6 Superstition Mountain Hikes You Won’t Want to Miss\nSuperstition Wilderness on AllTrails … need an account\nGPX files for Superstition Wilderness by Michael Thorne"
   }
 ]
