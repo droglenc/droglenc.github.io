@@ -1,12 +1,15 @@
 ---
-title: "Iron River Area Hiking/Walking"
 ---
 
-For exercise and for getting to know the area in which I have lived for the last three decades, [Cash](../shelties.html#cash) and I have been walking may of the roads and back-country trails in the [Iron River](https://visitironriver.com/) WI area. Below are the places we have walked thusfar. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from [my main hiking page](../hiking.html).
+# Iron River Area Hiking
+![](../../zresources/img/IRhiking1.jpg){fig-align="center"}
+
+For exercise and for getting to know the area in which I have lived for the last three decades, [Cash](../shelties.html#cash) and I have been walking many of the roads and back-country trails in the [Iron River](https://visitironriver.com/) WI area. Below are the places we have walked thusfar. Some specific walks are highlighted in the next section.
 
 ```{r setup, include=FALSE}
 #| label: setup
 #| include: false
+#| out.width: 90%
 
 project <- "Iron River Area"
 
@@ -40,3 +43,10 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 * Use object in upper-right to change base map type.
 * Use object in lower-left to make measurements on map.
 :::
+
+&nbsp;
+
+# Specific Hikes
+Below are some specific hikes that we found interesting.
+
+- [Camp Nine Research Area East](IRA Camp 9 East.html)

@@ -1,8 +1,10 @@
 ---
-title: "Superstition Wilderness Hiking"
 ---
 
-Kim's Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. See the notes below the map for how to interact with the map. More information on specific walks can be accessed from [my main hiking page](../hiking.html).
+# Superstition Wilderness Hiking
+![](../../zresources/img/SWhiking1.webp){fig-align="center"}
+
+Kim's Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. More information on some specific walks is in the next section.
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -41,7 +43,18 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 
 &nbsp;
 
-## Other Resources
+# Specific Hikes
+Specific hikes that we have enjoyed are highlighted below.
+
+- [Wave Cave, 2022](SW Wave Cave.html)
+- [Hieroglyphics Trail, 2022](SW Hieroglyphics Trail.html)
+- [Weaver's Needle (Peralta & Cave Trail Loop), 2022](SW Peralta Cave Trail.html)
+- [Black Top Mesa (from First Waters TH), 2022](SW Black Top Mesa FW TH.html)
+- [Massacre Grounds, 2022](SW Massacre Grounds.html)
+
+&nbsp;
+
+# Other Resources
 
 * Superstition (and Mazatzal) Wilderness on [ArizonaHiking.org](http://arizonahiking.org/jreviews-directory/jreviews-listings-module-6)
 * Superstition Wilderness Hiking Trails on [TrailForks](https://www.trailforks.com/region/superstition-wilderness-38267/)
