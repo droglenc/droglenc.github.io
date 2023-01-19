@@ -35,6 +35,13 @@ website:
     background: "#25383C"
     foreground: "#E5E4E2"
     left: "Copyright 2023, Derek H. Ogle"
+    center:
+      - text: fishR
+        href: https://fishr-core-team.github.io/fishR/
+        aria-label: fishR webpage
+      - text: IFAR
+        href: https://derekogle.com/IFAR/
+        aria-label: IFAR book
     right:
       - icon: github
         href: https://github.com/droglenc/droglenc.github.io
