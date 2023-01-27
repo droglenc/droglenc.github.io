@@ -30,5 +30,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 Below are some specific hikes that we found interesting.
 
 - [Pulpit Rock](IA Pulpit Rock.html)
+- [Echo Valley Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)
+
+*coming*
 - [Backbone 2022](IA Backbone 2022.html)
 - [Bighorn Rd](IA Bighorn Road.html)
