@@ -1,0 +1,90 @@
+---
+title: "Pony Hollow Trail"
+subtitle: "Elkader to Grape Rd"
+---
+
+[Cash](../shelties.html#cash) and I walked the first part of the [Pony Hollow Trail](https://www.claytoncountyconservation.org/pony-hollow-trail) near Elkader, IA on 4-Jul-22. The was a flat well-maintained trail that started in Elkader and followed the Turkey River. We stopped at Grape Rd, but the trail continues along Roberts Creek. Details are below.
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+
+# Make vector of colors for Iron River Area
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+project <- "Iowa"
+walkID <- "IA_PNYHTR"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("PNYH01","PNYH01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk)
+```

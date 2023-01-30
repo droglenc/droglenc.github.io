@@ -29,9 +29,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 # Specific Hikes
 Below are some specific hikes that we found interesting.
 
-- [Pulpit Rock](IA Pulpit Rock.html)
-- [Echo Valley Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)
-
-*coming*
-- [Backbone 2022](IA Backbone 2022.html)
-- [Bighorn Rd](IA Bighorn Road.html)
+- [Echo Valley Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html) - West Union
+- [Pulpit Rock](IA Pulpit Rock.html) - Decorah
+- [Backbone SP North Gate Rd](IA BBSP_North Gate Road.html) - Dundee
+- [Pony Hollow Trail I](IA Pony HOllow Trail.html) - Elkader

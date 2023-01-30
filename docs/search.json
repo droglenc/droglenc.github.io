@@ -14,6 +14,48 @@
     "text": "I will be adding content."
   },
   {
+    "objectID": "personal/Hiking/IA BBSP_North Gate Road.html",
+    "href": "personal/Hiking/IA BBSP_North Gate Road.html",
+    "title": "Backbone State Park",
+    "section": "",
+    "text": "Cash and I walked “North Gate Road” in Backbone State Park on 24-Jan-23. The park and gates were closed, but we walked in from the north gate to have the entire park to ourselves. The scenery was beautiful with a fairly fresh snow, Richmond Springs and the Maquoketa River running open, and dimming sunlight. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/IA BBSP_North Gate Road.html#walk-specific-map",
+    "href": "personal/Hiking/IA BBSP_North Gate Road.html#walk-specific-map",
+    "title": "Backbone State Park",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA BBSP_North Gate Road.html#elevation-profile",
+    "href": "personal/Hiking/IA BBSP_North Gate Road.html#elevation-profile",
+    "title": "Backbone State Park",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA BBSP_North Gate Road.html#images",
+    "href": "personal/Hiking/IA BBSP_North Gate Road.html#images",
+    "title": "Backbone State Park",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nBBNGR01: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nBBNGR03: Balance Rock\n\n\n\n\n\n\n\nBBNGR05: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nBBNGR05: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nBBNGR02: Cash near Richmond Springs\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IA BBSP_North Gate Road.html#gpx-download",
+    "href": "personal/Hiking/IA BBSP_North Gate Road.html#gpx-download",
+    "title": "Backbone State Park",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA BBSP_North Gate Road.html#summary-information",
+    "href": "personal/Hiking/IA BBSP_North Gate Road.html#summary-information",
+    "title": "Backbone State Park",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BBNGR01 \n    Backbone SP - North Gate Rd \n    North Gate to Richmond Springs trail \n    Paved \n    Public \n    0.50 \n    0.50 \n    -84 \n  \n  \n    2 \n    BBNGR02 \n    Backbone SP - North Gate Rd \n    Richmond Springs trail to Barred Owl trail [North] \n    Paved \n    Public \n    0.17 \n    0.67 \n    -11 \n  \n  \n    3 \n    BBNGR03 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [North] to Cave trail \n    Paved \n    Public \n    0.18 \n    0.85 \n    -4 \n  \n  \n    4 \n    BBNGR04 \n    Backbone SP - North Gate Rd \n    Cave trail to Barred Owl trail [South] \n    Paved \n    Public \n    0.63 \n    1.48 \n    40 \n  \n  \n    5 \n    BBNGR05 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [South] to South Flats trail \n    Paved \n    Public \n    1.40 \n    2.88 \n    -56 \n  \n  \n    6 \n    BBNGR05 \n    Backbone SP - North Gate Rd \n    South Flats trail to Barred Owl trail [South] \n    Paved \n    Public \n    1.40 \n    4.28 \n    56 \n  \n  \n    7 \n    BBNGR04 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [South] to Cave trail \n    Paved \n    Public \n    0.63 \n    4.91 \n    -40 \n  \n  \n    8 \n    BBNGR03 \n    Backbone SP - North Gate Rd \n    Cave trail to Barred Owl trail [North] \n    Paved \n    Public \n    0.18 \n    5.09 \n    4 \n  \n  \n    9 \n    BBNGR02 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [North] to Richmond Springs trail \n    Paved \n    Public \n    0.17 \n    5.26 \n    11 \n  \n  \n    10 \n    BBNGR01 \n    Backbone SP - North Gate Rd \n    Richmond Springs trail to North Gate \n    Paved \n    Public \n    0.50 \n    5.76 \n    84"
+  },
+  {
     "objectID": "personal/Hiking/IA Echo Valley Environmental Nature Trail.html",
     "href": "personal/Hiking/IA Echo Valley Environmental Nature Trail.html",
     "title": "Echo Valley Enviromental Nature Trail",
@@ -54,6 +96,48 @@
     "title": "Echo Valley Enviromental Nature Trail",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    EVET01 \n    Echo Valley Environmental Nature Trail \n    Parking area (near Echo Valley SP) to Echo Valley SP road \n    Trail \n    Public \n    0.10 \n    0.10 \n    -20 \n  \n  \n    2 \n    EVET02 \n    Echo Valley Environmental Nature Trail \n    Echo Valley SP road to Unnamed trail \n    Trail \n    Public \n    0.09 \n    0.19 \n    -10 \n  \n  \n    3 \n    EVET03 \n    Echo Valley Environmental Nature Trail \n    Unnamed trail to Glover's Creek trail \n    Trail \n    Public \n    0.27 \n    0.46 \n    -31 \n  \n  \n    4 \n    EVET04 \n    Echo Valley Environmental Nature Trail \n    Glover's Creek trail to Picnic area \n    Trail \n    Public \n    0.25 \n    0.71 \n    -12 \n  \n  \n    5 \n    EVET05 \n    Echo Valley Environmental Nature Trail \n    Picnic area to Parking area \n    Trail \n    Public \n    0.84 \n    1.55 \n    -28 \n  \n  \n    6 \n    EVET05 \n    Echo Valley Environmental Nature Trail \n    Parking area to Picnic area \n    Trail \n    Public \n    0.84 \n    2.39 \n    28 \n  \n  \n    7 \n    EVET04 \n    Echo Valley Environmental Nature Trail \n    Picnic area to Glover's Creek trail \n    Trail \n    Public \n    0.25 \n    2.64 \n    12 \n  \n  \n    8 \n    EVET03 \n    Echo Valley Environmental Nature Trail \n    Glover's Creek trail to Unnamed trail \n    Trail \n    Public \n    0.27 \n    2.91 \n    31 \n  \n  \n    9 \n    EVET02 \n    Echo Valley Environmental Nature Trail \n    Unnamed trail to Echo Valley SP road \n    Trail \n    Public \n    0.09 \n    3.01 \n    10 \n  \n  \n    10 \n    EVET01 \n    Echo Valley Environmental Nature Trail \n    Echo Valley SP road to Parking area (near Echo Valley SP) \n    Trail \n    Public \n    0.10 \n    3.10 \n    20"
+  },
+  {
+    "objectID": "personal/Hiking/IA Pony Hollow Trail.html",
+    "href": "personal/Hiking/IA Pony Hollow Trail.html",
+    "title": "Pony Hollow Trail",
+    "section": "",
+    "text": "Cash and I walked the first part of the Pony Hollow Trail near Elkader, IA on 4-Jul-22. The was a flat well-maintained trail that started in Elkader and followed the Turkey River. We stopped at Grape Rd, but the trail continues along Roberts Creek. Details are below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Pony Hollow Trail.html#walk-specific-map",
+    "href": "personal/Hiking/IA Pony Hollow Trail.html#walk-specific-map",
+    "title": "Pony Hollow Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Pony Hollow Trail.html#elevation-profile",
+    "href": "personal/Hiking/IA Pony Hollow Trail.html#elevation-profile",
+    "title": "Pony Hollow Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA Pony Hollow Trail.html#images",
+    "href": "personal/Hiking/IA Pony Hollow Trail.html#images",
+    "title": "Pony Hollow Trail",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nPNYH01: Typical scenery in Summer 2022\n\n\n\n\n\n\n\nPNYH01: Typical scenery in Summer 2022\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IA Pony Hollow Trail.html#gpx-download",
+    "href": "personal/Hiking/IA Pony Hollow Trail.html#gpx-download",
+    "title": "Pony Hollow Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA Pony Hollow Trail.html#summary-information",
+    "href": "personal/Hiking/IA Pony Hollow Trail.html#summary-information",
+    "title": "Pony Hollow Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    PNYH01 \n    Pony Hollow Tr \n    Grape Rd to South High St (Elkader) \n    Trail \n    Public \n    1.62 \n    1.62 \n    16 \n  \n  \n    2 \n    PNYH01 \n    Pony Hollow Tr \n    South High St (Elkader) to Grape Rd \n    Trail \n    Public \n    1.62 \n    3.24 \n    -16"
   },
   {
     "objectID": "personal/Hiking/IA Pulpit Rock.html",
@@ -102,7 +186,7 @@
     "href": "personal/Hiking/Iowa.html",
     "title": "Derek Ogle",
     "section": "",
-    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\n\nSpecific Hikes\nBelow are some specific hikes that we found interesting.\n\nPulpit Rock\nEcho Valley Environmental Nature Trail\n\ncoming - Backbone 2022 - Bighorn Rd"
+    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\n\nSpecific Hikes\nBelow are some specific hikes that we found interesting.\n\nEcho Valley Environmental Nature Trail - West Union\nPulpit Rock - Decorah\nBackbone SP North Gate Rd - Dundee\nPony Hollow Trail I - Elkader"
   },
   {
     "objectID": "personal/Hiking/IRA Camp 9 East.html",
