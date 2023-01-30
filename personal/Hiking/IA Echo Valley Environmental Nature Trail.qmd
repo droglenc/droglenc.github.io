@@ -71,6 +71,7 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 ```{r}
 #| label: gpxdownload
 #| echo: false
+#| message: false
 #| results: asis
 fnm <- paste0(walkID,".gpx")
 gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),

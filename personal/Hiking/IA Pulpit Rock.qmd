@@ -57,7 +57,6 @@ dev.off()
 #| echo: false
 knitr::include_graphics(fnm)
 ```
-```
 
 ## Images
 ```{r}
