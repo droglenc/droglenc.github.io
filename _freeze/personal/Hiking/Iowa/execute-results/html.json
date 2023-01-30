@@ -2,9 +2,7 @@
   "hash": "478827eab3cf69e65557b75630822ac7",
   "result": {
     "markdown": "---\n---\n\n\n# Iowa Hiking\n![](../../zresources/img/IAhiking1.webp){fig-align=\"center\"}\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\n\n\n\n\n# Specific Hikes\nBelow are some specific hikes that we found interesting.\n\n- [Pulpit Rock](IA Pulpit Rock.html)\n- [Echo Valley Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)\n\n*coming*\n- [Backbone 2022](IA Backbone 2022.html)\n- [Bighorn Rd](IA Bighorn Road.html)\n",
-    "supporting": [
-      "Iowa_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

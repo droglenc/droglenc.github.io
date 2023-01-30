@@ -133,18 +133,25 @@
     "text": "Elevation Profile"
   },
   {
-    "objectID": "personal/Hiking/IRA Camp 9 East.html#summary-information",
-    "href": "personal/Hiking/IRA Camp 9 East.html#summary-information",
-    "title": "Camp Nine Research Area East",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    FR40007 \n    FR400 \n    Beck Rd to Unnamed trail off FR400 \n    Offroad \n    Public \n    0.44 \n    0.44 \n    7 \n  \n  \n    2 \n    FR40008 \n    FR400 \n    at Unnamed trail off FR400 \n    Offroad \n    Public \n    0.59 \n    1.03 \n    38 \n  \n  \n    3 \n    FR40009 \n    FR400 \n    at FR399 \n    Offroad \n    Public \n    0.89 \n    1.92 \n    32 \n  \n  \n    4 \n    FR39904 \n    FR399 \n    FR400 to FR398 \n    Offroad \n    Public \n    0.22 \n    2.14 \n    -25 \n  \n  \n    5 \n    FR39801 \n    FR398 \n    FR399 to FR400A \n    Offroad \n    Public \n    1.27 \n    3.41 \n    29 \n  \n  \n    6 \n    FR400A01 \n    FR400A \n    FR398 to Beck Rd \n    Offroad \n    Public \n    1.45 \n    4.87 \n    -89 \n  \n  \n    7 \n    BECK06 \n    Beck Rd \n    FR400A to FR400 \n    Gravel \n    Public \n    0.11 \n    4.97 \n    -22"
-  },
-  {
     "objectID": "personal/Hiking/IRA Camp 9 East.html#images",
     "href": "personal/Hiking/IRA Camp 9 East.html#images",
     "title": "Camp Nine Research Area East",
     "section": "Images",
     "text": "Images\n\n\n\n\n\n\n\nFR40007: Where trail meets FR399\n\n\n\n\n\n\n\nFR39801: Where trail meets FR399\n\n\n\n\n\n\n\nFR400A01: Where trail meets FR398\n\n\n\n\n\n\n\nFR400A01: Typical scenery in Sprng 2022\n\n\n\n\n\n\n\nFR39904: Typical scenery in Sprng 2022\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IRA Camp 9 East.html#gpx-download",
+    "href": "personal/Hiking/IRA Camp 9 East.html#gpx-download",
+    "title": "Camp Nine Research Area East",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IRA Camp 9 East.html#summary-information",
+    "href": "personal/Hiking/IRA Camp 9 East.html#summary-information",
+    "title": "Camp Nine Research Area East",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    FR40007 \n    FR400 \n    Beck Rd to Unnamed trail off FR400 \n    Offroad \n    Public \n    0.44 \n    0.44 \n    7 \n  \n  \n    2 \n    FR40008 \n    FR400 \n    at Unnamed trail off FR400 \n    Offroad \n    Public \n    0.59 \n    1.03 \n    38 \n  \n  \n    3 \n    FR40009 \n    FR400 \n    at FR399 \n    Offroad \n    Public \n    0.89 \n    1.92 \n    32 \n  \n  \n    4 \n    FR39904 \n    FR399 \n    FR400 to FR398 \n    Offroad \n    Public \n    0.22 \n    2.14 \n    -25 \n  \n  \n    5 \n    FR39801 \n    FR398 \n    FR399 to FR400A \n    Offroad \n    Public \n    1.27 \n    3.41 \n    29 \n  \n  \n    6 \n    FR400A01 \n    FR400A \n    FR398 to Beck Rd \n    Offroad \n    Public \n    1.45 \n    4.87 \n    -89 \n  \n  \n    7 \n    BECK06 \n    Beck Rd \n    FR400A to FR400 \n    Gravel \n    Public \n    0.11 \n    4.97 \n    -22"
   },
   {
     "objectID": "personal/Hiking/Iron River Area.html",
@@ -189,13 +196,6 @@
     "text": "Elevation Profile"
   },
   {
-    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#summary-information",
-    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#summary-information",
-    "title": "Black Top Mesa from First Water TH",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BMSA01 \n    Black Mesa Hike (Dutchman's Tr 104) \n    First Water TH parking to Second Water Tr (236) \n    NA \n    Public \n    0.29 \n    0.29 \n    -53 \n  \n  \n    2 \n    BMSA02 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Second Water Tr (236) to Tim's Saddle Tr \n    NA \n    Public \n    2.31 \n    2.60 \n    428 \n  \n  \n    3 \n    BMSA03 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Tim's Saddle Tr to W Boulder Canyon Tr \n    NA \n    Public \n    1.24 \n    3.84 \n    -297 \n  \n  \n    4 \n    BMSA04 \n    Black Mesa Hike (Dutchman's Tr 104) \n    W Boulder Canyon Tr to Black Mesa Tr (241) \n    NA \n    Public \n    0.54 \n    4.39 \n    -66 \n  \n  \n    5 \n    BMSA05 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Black Mesa Tr (241) to Boulder Canyon Tr (103) \n    NA \n    Public \n    0.20 \n    4.59 \n    5 \n  \n  \n    6 \n    BMSA06 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Boulder Canyon Tr (103) to leave Dutchman's Tr / start Bull Pass Tr \n    NA \n    Public \n    0.11 \n    4.71 \n    1 \n  \n  \n    7 \n    BMSA07 \n    Black Mesa Hike (Bull Pass Tr 129) \n    leave Dutchman's Tr / start Bull Pass Tr to leave Bull Pass Tr / Black Top Mesa Tr \n    NA \n    Public \n    0.58 \n    5.28 \n    423 \n  \n  \n    8 \n    BMSA08 \n    Black Mesa Hike (Black Top Mesa Tr) \n    leave Bull Pass Tr / start Black Top Mesa Tr to Black Top Mesa \n    NA \n    Public \n    0.72 \n    6.00 \n    628 \n  \n  \n    9 \n    BMSA08 \n    Black Mesa Hike (Black Top Mesa Tr) \n    Black Top Mesa to leave Bull Pass Tr / start Black Top Mesa Tr \n    NA \n    Public \n    0.72 \n    6.72 \n    -628 \n  \n  \n    10 \n    BMSA07 \n    Black Mesa Hike (Bull Pass Tr 129) \n    leave Bull Pass Tr / Black Top Mesa Tr to leave Dutchman's Tr / start Bull Pass Tr \n    NA \n    Public \n    0.58 \n    7.30 \n    -423 \n  \n  \n    11 \n    BMSA06 \n    Black Mesa Hike (Dutchman's Tr 104) \n    leave Dutchman's Tr / start Bull Pass Tr to Boulder Canyon Tr (103) \n    NA \n    Public \n    0.11 \n    7.41 \n    -1 \n  \n  \n    12 \n    BMSA05 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Boulder Canyon Tr (103) to Black Mesa Tr (241) \n    NA \n    Public \n    0.20 \n    7.62 \n    -5 \n  \n  \n    13 \n    BMSA10 \n    Black Mesa Hike (Black Mesa Tr 241) \n    leave Dutchman's Tr / start Black Mesa Tr to leave Black Mesa Tr / start Second Water Tr \n    NA \n    Public \n    3.07 \n    10.69 \n    122 \n  \n  \n    14 \n    BMSA11 \n    Black Mesa Hike (Second Water Tr 236) \n    leave Black Mesa Tr / start Second Water Tr to Hackberry Springs Tr [North] \n    NA \n    Public \n    0.74 \n    11.43 \n    -176 \n  \n  \n    15 \n    BMSA12 \n    Black Mesa Hike (Second Water Tr 236) \n    Hackberry Springs Tr [North] to Hackberry Springs Tr [South] \n    NA \n    Public \n    0.60 \n    12.03 \n    -26 \n  \n  \n    16 \n    BMSA13 \n    Black Mesa Hike (Second Water Tr 236) \n    Hackberry Springs Tr [South] to Dutchman's Tr (104) \n    NA \n    Public \n    0.19 \n    12.23 \n    12 \n  \n  \n    17 \n    BMSA01 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Second Water Tr (236) to First Water TH parking \n    NA \n    Public \n    0.29 \n    12.52 \n    53"
-  },
-  {
     "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#images",
     "href": "personal/Hiking/SW Black Top Mesa FW TH.html#images",
     "title": "Black Top Mesa from First Water TH",
@@ -208,6 +208,13 @@
     "title": "Black Top Mesa from First Water TH",
     "section": "GPX Download",
     "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html#summary-information",
+    "href": "personal/Hiking/SW Black Top Mesa FW TH.html#summary-information",
+    "title": "Black Top Mesa from First Water TH",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BMSA01 \n    Black Mesa Hike (Dutchman's Tr 104) \n    First Water TH parking to Second Water Tr (236) \n    NA \n    Public \n    0.29 \n    0.29 \n    -53 \n  \n  \n    2 \n    BMSA02 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Second Water Tr (236) to Tim's Saddle Tr \n    NA \n    Public \n    2.31 \n    2.60 \n    428 \n  \n  \n    3 \n    BMSA03 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Tim's Saddle Tr to W Boulder Canyon Tr \n    NA \n    Public \n    1.24 \n    3.84 \n    -297 \n  \n  \n    4 \n    BMSA04 \n    Black Mesa Hike (Dutchman's Tr 104) \n    W Boulder Canyon Tr to Black Mesa Tr (241) \n    NA \n    Public \n    0.54 \n    4.39 \n    -66 \n  \n  \n    5 \n    BMSA05 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Black Mesa Tr (241) to Boulder Canyon Tr (103) \n    NA \n    Public \n    0.20 \n    4.59 \n    5 \n  \n  \n    6 \n    BMSA06 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Boulder Canyon Tr (103) to leave Dutchman's Tr / start Bull Pass Tr \n    NA \n    Public \n    0.11 \n    4.71 \n    1 \n  \n  \n    7 \n    BMSA07 \n    Black Mesa Hike (Bull Pass Tr 129) \n    leave Dutchman's Tr / start Bull Pass Tr to leave Bull Pass Tr / Black Top Mesa Tr \n    NA \n    Public \n    0.58 \n    5.28 \n    423 \n  \n  \n    8 \n    BMSA08 \n    Black Mesa Hike (Black Top Mesa Tr) \n    leave Bull Pass Tr / start Black Top Mesa Tr to Black Top Mesa \n    NA \n    Public \n    0.72 \n    6.00 \n    628 \n  \n  \n    9 \n    BMSA08 \n    Black Mesa Hike (Black Top Mesa Tr) \n    Black Top Mesa to leave Bull Pass Tr / start Black Top Mesa Tr \n    NA \n    Public \n    0.72 \n    6.72 \n    -628 \n  \n  \n    10 \n    BMSA07 \n    Black Mesa Hike (Bull Pass Tr 129) \n    leave Bull Pass Tr / Black Top Mesa Tr to leave Dutchman's Tr / start Bull Pass Tr \n    NA \n    Public \n    0.58 \n    7.30 \n    -423 \n  \n  \n    11 \n    BMSA06 \n    Black Mesa Hike (Dutchman's Tr 104) \n    leave Dutchman's Tr / start Bull Pass Tr to Boulder Canyon Tr (103) \n    NA \n    Public \n    0.11 \n    7.41 \n    -1 \n  \n  \n    12 \n    BMSA05 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Boulder Canyon Tr (103) to Black Mesa Tr (241) \n    NA \n    Public \n    0.20 \n    7.62 \n    -5 \n  \n  \n    13 \n    BMSA10 \n    Black Mesa Hike (Black Mesa Tr 241) \n    leave Dutchman's Tr / start Black Mesa Tr to leave Black Mesa Tr / start Second Water Tr \n    NA \n    Public \n    3.07 \n    10.69 \n    122 \n  \n  \n    14 \n    BMSA11 \n    Black Mesa Hike (Second Water Tr 236) \n    leave Black Mesa Tr / start Second Water Tr to Hackberry Springs Tr [North] \n    NA \n    Public \n    0.74 \n    11.43 \n    -176 \n  \n  \n    15 \n    BMSA12 \n    Black Mesa Hike (Second Water Tr 236) \n    Hackberry Springs Tr [North] to Hackberry Springs Tr [South] \n    NA \n    Public \n    0.60 \n    12.03 \n    -26 \n  \n  \n    16 \n    BMSA13 \n    Black Mesa Hike (Second Water Tr 236) \n    Hackberry Springs Tr [South] to Dutchman's Tr (104) \n    NA \n    Public \n    0.19 \n    12.23 \n    12 \n  \n  \n    17 \n    BMSA01 \n    Black Mesa Hike (Dutchman's Tr 104) \n    Second Water Tr (236) to First Water TH parking \n    NA \n    Public \n    0.29 \n    12.52 \n    53"
   },
   {
     "objectID": "personal/Hiking/SW Hieroglyphics Trail.html",
@@ -238,13 +245,6 @@
     "text": "Elevation Profile"
   },
   {
-    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#summary-information",
-    "href": "personal/Hiking/SW Hieroglyphics Trail.html#summary-information",
-    "title": "Hieroglphyics Canyon",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    HGPH01 \n    Heiroglyphics Tr \n    Heiroglphics TH parking to Lost Goldmine Tr East \n    NA \n    Public \n    0.11 \n    0.11 \n    46 \n  \n  \n    2 \n    HGPH02 \n    Heiroglyphics Tr \n    Lost Goldmine Tr East to Heiroglyphics Canyon \n    NA \n    Public \n    1.36 \n    1.47 \n    531 \n  \n  \n    3 \n    HGPH02 \n    Heiroglyphics Tr \n    Heiroglyphics Canyon to Lost Goldmine Tr East \n    NA \n    Public \n    1.36 \n    2.82 \n    -531 \n  \n  \n    4 \n    HGPH01 \n    Heiroglyphics Tr \n    Lost Goldmine Tr East to Heiroglphics TH parking \n    NA \n    Public \n    0.11 \n    2.93 \n    -46"
-  },
-  {
     "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#images",
     "href": "personal/Hiking/SW Hieroglyphics Trail.html#images",
     "title": "Hieroglphyics Canyon",
@@ -257,6 +257,13 @@
     "title": "Hieroglphyics Canyon",
     "section": "GPX Download",
     "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Hieroglyphics Trail.html#summary-information",
+    "href": "personal/Hiking/SW Hieroglyphics Trail.html#summary-information",
+    "title": "Hieroglphyics Canyon",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    HGPH01 \n    Heiroglyphics Tr \n    Heiroglphics TH parking to Lost Goldmine Tr East \n    NA \n    Public \n    0.11 \n    0.11 \n    46 \n  \n  \n    2 \n    HGPH02 \n    Heiroglyphics Tr \n    Lost Goldmine Tr East to Heiroglyphics Canyon \n    NA \n    Public \n    1.36 \n    1.47 \n    531 \n  \n  \n    3 \n    HGPH02 \n    Heiroglyphics Tr \n    Heiroglyphics Canyon to Lost Goldmine Tr East \n    NA \n    Public \n    1.36 \n    2.82 \n    -531 \n  \n  \n    4 \n    HGPH01 \n    Heiroglyphics Tr \n    Lost Goldmine Tr East to Heiroglphics TH parking \n    NA \n    Public \n    0.11 \n    2.93 \n    -46"
   },
   {
     "objectID": "personal/Hiking/SW Massacre Grounds.html",
@@ -287,13 +294,6 @@
     "text": "Elevation Profile"
   },
   {
-    "objectID": "personal/Hiking/SW Massacre Grounds.html#summary-information",
-    "href": "personal/Hiking/SW Massacre Grounds.html#summary-information",
-    "title": "Massacre Falls",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    MSCR01 \n    Massacre Grounds Tr \n    Crosscut TH parking to Massacre Grounds Tr (Waterfall spur) \n    NA \n    Public \n    2.63 \n    2.63 \n    1036 \n  \n  \n    2 \n    MSCR02 \n    Massacre Grounds Tr \n    Massacre Grounds Tr (Waterfall spur) to Massacre Grounds Peak \n    NA \n    Public \n    0.04 \n    2.67 \n    32 \n  \n  \n    3 \n    MSCR02 \n    Massacre Grounds Tr \n    Massacre Grounds Peak to Massacre Grounds Tr (Waterfall spur) \n    NA \n    Public \n    0.04 \n    2.70 \n    -32 \n  \n  \n    4 \n    MSCR03 \n    Massacre Grounds Tr (Waterfall spur) \n    Massacre Grounds Tr to Massacre Grounds Waterfall \n    NA \n    Public \n    0.21 \n    2.91 \n    99 \n  \n  \n    5 \n    MSCR03 \n    Massacre Grounds Tr (Waterfall spur) \n    Massacre Grounds Waterfall to Massacre Grounds Tr \n    NA \n    Public \n    0.21 \n    3.12 \n    -99 \n  \n  \n    6 \n    MSCR01 \n    Massacre Grounds Tr \n    Massacre Grounds Tr (Waterfall spur) to Crosscut TH parking \n    NA \n    Public \n    2.63 \n    5.75 \n    -1036"
-  },
-  {
     "objectID": "personal/Hiking/SW Massacre Grounds.html#images",
     "href": "personal/Hiking/SW Massacre Grounds.html#images",
     "title": "Massacre Falls",
@@ -306,6 +306,13 @@
     "title": "Massacre Falls",
     "section": "GPX Download",
     "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Massacre Grounds.html#summary-information",
+    "href": "personal/Hiking/SW Massacre Grounds.html#summary-information",
+    "title": "Massacre Falls",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    MSCR01 \n    Massacre Grounds Tr \n    Crosscut TH parking to Massacre Grounds Tr (Waterfall spur) \n    NA \n    Public \n    2.63 \n    2.63 \n    1036 \n  \n  \n    2 \n    MSCR02 \n    Massacre Grounds Tr \n    Massacre Grounds Tr (Waterfall spur) to Massacre Grounds Peak \n    NA \n    Public \n    0.04 \n    2.67 \n    32 \n  \n  \n    3 \n    MSCR02 \n    Massacre Grounds Tr \n    Massacre Grounds Peak to Massacre Grounds Tr (Waterfall spur) \n    NA \n    Public \n    0.04 \n    2.70 \n    -32 \n  \n  \n    4 \n    MSCR03 \n    Massacre Grounds Tr (Waterfall spur) \n    Massacre Grounds Tr to Massacre Grounds Waterfall \n    NA \n    Public \n    0.21 \n    2.91 \n    99 \n  \n  \n    5 \n    MSCR03 \n    Massacre Grounds Tr (Waterfall spur) \n    Massacre Grounds Waterfall to Massacre Grounds Tr \n    NA \n    Public \n    0.21 \n    3.12 \n    -99 \n  \n  \n    6 \n    MSCR01 \n    Massacre Grounds Tr \n    Massacre Grounds Tr (Waterfall spur) to Crosscut TH parking \n    NA \n    Public \n    2.63 \n    5.75 \n    -1036"
   },
   {
     "objectID": "personal/Hiking/SW Peralta Cave Trail.html",
@@ -336,13 +343,6 @@
     "text": "Elevation Profile"
   },
   {
-    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#summary-information",
-    "href": "personal/Hiking/SW Peralta Cave Trail.html#summary-information",
-    "title": "Weaver’s Needle",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    PFMT01 \n    Peralto Tr (102) to Fremont Saddle \n    leave Peralta TH parking to arrive Fremont Saddle \n    NA \n    Public \n    2.28 \n    2.28 \n    1353 \n  \n  \n    2 \n    CVFS01 \n    Cave Trail Hike (across Fremont Saddle) \n    leave Peralta Tr (102) to leave Fremont Saddle \n    NA \n    Public \n    0.18 \n    2.45 \n    44 \n  \n  \n    3 \n    PNNT01 \n    Fremont Saddle to Weaver's Needle Pinion Tree \n    leave Fremont Saddle to arrive Pinion Tree \n    NA \n    Public \n    0.36 \n    2.81 \n    2 \n  \n  \n    4 \n    PNNT01 \n    Fremont Saddle to Weaver's Needle Pinion Tree \n    arrive Pinion Tree to leave Fremont Saddle \n    NA \n    Public \n    0.36 \n    3.17 \n    -2 \n  \n  \n    5 \n    CVFS02 \n    Cave Trail Hike (Cave TR) \n    leave Fremont Saddle to merge Bluff Spring Tr (235) \n    NA \n    Public \n    1.83 \n    5.00 \n    -885 \n  \n  \n    6 \n    CVFS03 \n    Cave Trail Hike (Bluff Spring Tr) \n    merge Bluff Spring Tr (235) to merge Dutchman's Tr (104) \n    NA \n    Public \n    0.70 \n    5.70 \n    -501 \n  \n  \n    7 \n    CVFS04 \n    Cave Trail Hike (Dutchman's Tr) \n    merge Dutchman's Tr (104) to arrive Peralta TH \n    NA \n    Public \n    0.05 \n    5.76 \n    -11"
-  },
-  {
     "objectID": "personal/Hiking/SW Peralta Cave Trail.html#images",
     "href": "personal/Hiking/SW Peralta Cave Trail.html#images",
     "title": "Weaver’s Needle",
@@ -355,6 +355,13 @@
     "title": "Weaver’s Needle",
     "section": "GPX Download",
     "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Peralta Cave Trail.html#summary-information",
+    "href": "personal/Hiking/SW Peralta Cave Trail.html#summary-information",
+    "title": "Weaver’s Needle",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    PFMT01 \n    Peralto Tr (102) to Fremont Saddle \n    leave Peralta TH parking to arrive Fremont Saddle \n    NA \n    Public \n    2.28 \n    2.28 \n    1353 \n  \n  \n    2 \n    CVFS01 \n    Cave Trail Hike (across Fremont Saddle) \n    leave Peralta Tr (102) to leave Fremont Saddle \n    NA \n    Public \n    0.18 \n    2.45 \n    44 \n  \n  \n    3 \n    PNNT01 \n    Fremont Saddle to Weaver's Needle Pinion Tree \n    leave Fremont Saddle to arrive Pinion Tree \n    NA \n    Public \n    0.36 \n    2.81 \n    2 \n  \n  \n    4 \n    PNNT01 \n    Fremont Saddle to Weaver's Needle Pinion Tree \n    arrive Pinion Tree to leave Fremont Saddle \n    NA \n    Public \n    0.36 \n    3.17 \n    -2 \n  \n  \n    5 \n    CVFS02 \n    Cave Trail Hike (Cave TR) \n    leave Fremont Saddle to merge Bluff Spring Tr (235) \n    NA \n    Public \n    1.83 \n    5.00 \n    -885 \n  \n  \n    6 \n    CVFS03 \n    Cave Trail Hike (Bluff Spring Tr) \n    merge Bluff Spring Tr (235) to merge Dutchman's Tr (104) \n    NA \n    Public \n    0.70 \n    5.70 \n    -501 \n  \n  \n    7 \n    CVFS04 \n    Cave Trail Hike (Dutchman's Tr) \n    merge Dutchman's Tr (104) to arrive Peralta TH \n    NA \n    Public \n    0.05 \n    5.76 \n    -11"
   },
   {
     "objectID": "personal/Hiking/SW Wave Cave.html",
@@ -385,13 +392,6 @@
     "text": "Elevation Profile"
   },
   {
-    "objectID": "personal/Hiking/SW Wave Cave.html#summary-information",
-    "href": "personal/Hiking/SW Wave Cave.html#summary-information",
-    "title": "Wave Cave",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    WVCV01 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Carney Springs TH parking to Dacite Cliff Mine Tr \n    NA \n    Public \n    0.80 \n    0.80 \n    14 \n  \n  \n    2 \n    WVCV02 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Dacite Cliff Mine Tr to merge Carney Springs Tr \n    NA \n    Public \n    0.34 \n    1.14 \n    16 \n  \n  \n    3 \n    WVCV03 \n    Wave Cave Hike (Carney Springs Tr) \n    merge Carney Springs Tr to leave Carney Springs Tr / start Wave Cave Tr \n    NA \n    Public \n    0.16 \n    1.31 \n    47 \n  \n  \n    4 \n    WVCV04 \n    Wave Cave Hike (Wave Cave Tr) \n    leave Carney Springs Tr / start Wave Cave Tr to arrive Wave Cave \n    NA \n    Public \n    0.79 \n    2.09 \n    731 \n  \n  \n    5 \n    WVCV04 \n    Wave Cave Hike (Wave Cave Tr) \n    arrive Wave Cave to leave Carney Springs Tr / start Wave Cave Tr \n    NA \n    Public \n    0.79 \n    2.88 \n    -731 \n  \n  \n    6 \n    WVCV03 \n    Wave Cave Hike (Carney Springs Tr) \n    leave Carney Springs Tr / start Wave Cave Tr to merge Carney Springs Tr \n    NA \n    Public \n    0.16 \n    3.04 \n    -47 \n  \n  \n    7 \n    WVCV02 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    merge Carney Springs Tr to Dacite Cliff Mine Tr \n    NA \n    Public \n    0.34 \n    3.38 \n    -16 \n  \n  \n    8 \n    WVCV01 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Dacite Cliff Mine Tr to Carney Springs TH parking \n    NA \n    Public \n    0.80 \n    4.19 \n    -14"
-  },
-  {
     "objectID": "personal/Hiking/SW Wave Cave.html#images",
     "href": "personal/Hiking/SW Wave Cave.html#images",
     "title": "Wave Cave",
@@ -404,6 +404,13 @@
     "title": "Wave Cave",
     "section": "GPX Download",
     "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Wave Cave.html#summary-information",
+    "href": "personal/Hiking/SW Wave Cave.html#summary-information",
+    "title": "Wave Cave",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    WVCV01 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Carney Springs TH parking to Dacite Cliff Mine Tr \n    NA \n    Public \n    0.80 \n    0.80 \n    14 \n  \n  \n    2 \n    WVCV02 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Dacite Cliff Mine Tr to merge Carney Springs Tr \n    NA \n    Public \n    0.34 \n    1.14 \n    16 \n  \n  \n    3 \n    WVCV03 \n    Wave Cave Hike (Carney Springs Tr) \n    merge Carney Springs Tr to leave Carney Springs Tr / start Wave Cave Tr \n    NA \n    Public \n    0.16 \n    1.31 \n    47 \n  \n  \n    4 \n    WVCV04 \n    Wave Cave Hike (Wave Cave Tr) \n    leave Carney Springs Tr / start Wave Cave Tr to arrive Wave Cave \n    NA \n    Public \n    0.79 \n    2.09 \n    731 \n  \n  \n    5 \n    WVCV04 \n    Wave Cave Hike (Wave Cave Tr) \n    arrive Wave Cave to leave Carney Springs Tr / start Wave Cave Tr \n    NA \n    Public \n    0.79 \n    2.88 \n    -731 \n  \n  \n    6 \n    WVCV03 \n    Wave Cave Hike (Carney Springs Tr) \n    leave Carney Springs Tr / start Wave Cave Tr to merge Carney Springs Tr \n    NA \n    Public \n    0.16 \n    3.04 \n    -47 \n  \n  \n    7 \n    WVCV02 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    merge Carney Springs Tr to Dacite Cliff Mine Tr \n    NA \n    Public \n    0.34 \n    3.38 \n    -16 \n  \n  \n    8 \n    WVCV01 \n    Wave Cave Hike (Lost Goldmine Tr East) \n    Dacite Cliff Mine Tr to Carney Springs TH parking \n    NA \n    Public \n    0.80 \n    4.19 \n    -14"
   },
   {
     "objectID": "personal/index.html",

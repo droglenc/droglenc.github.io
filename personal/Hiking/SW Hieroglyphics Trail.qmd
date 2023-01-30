@@ -14,6 +14,7 @@ clrs <- c("2022"="#CC0000","2023"="#CC6600")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
+walkID <- "SW_HRGLYPHCS"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
@@ -62,16 +63,18 @@ gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 
 ## Elevation Profile
 ```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
 #| label: walkElevation
 #| echo: false
-gpxhelpers::walkElevation(awalk)
-```
-
-## Summary Information
-```{r}
-#| label: walkSummary
-#| echo: false
-gpxhelpers::walkSummary(awalk)
+knitr::include_graphics(fnm)
 ```
 
 ## Images
@@ -84,4 +87,22 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 ```
 
 ## GPX Download
-A sanitized GPX file of our hike [is here](gpx/SW_Hieroglyphics_Trail_2022.gpx).
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk)
+```

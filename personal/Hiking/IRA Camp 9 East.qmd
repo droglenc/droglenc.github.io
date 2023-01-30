@@ -15,6 +15,7 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iron River Area"
+walkID <- "IRA_CAMP9E"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
@@ -57,16 +58,18 @@ gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 
 ## Elevation Profile
 ```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
 #| label: walkElevation
 #| echo: false
-gpxhelpers::walkElevation(awalk)
-```
-
-## Summary Information
-```{r}
-#| label: walkSummary
-#| echo: false
-gpxhelpers::walkSummary(awalk)
+knitr::include_graphics(fnm)
 ```
 
 ## Images
@@ -77,3 +80,25 @@ gpxhelpers::makeCarousel(id="Walk",path="",
                          imgs=walkPix$Photo,caps=walkPix$Caption,
                          width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
 ```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk)
+```
+
