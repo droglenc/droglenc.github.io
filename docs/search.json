@@ -56,6 +56,48 @@
     "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BBNGR01 \n    Backbone SP - North Gate Rd \n    North Gate to Richmond Springs trail \n    Paved \n    Public \n    0.50 \n    0.50 \n    -84 \n  \n  \n    2 \n    BBNGR02 \n    Backbone SP - North Gate Rd \n    Richmond Springs trail to Barred Owl trail [North] \n    Paved \n    Public \n    0.17 \n    0.67 \n    -11 \n  \n  \n    3 \n    BBNGR03 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [North] to Cave trail \n    Paved \n    Public \n    0.18 \n    0.85 \n    -4 \n  \n  \n    4 \n    BBNGR04 \n    Backbone SP - North Gate Rd \n    Cave trail to Barred Owl trail [South] \n    Paved \n    Public \n    0.63 \n    1.48 \n    40 \n  \n  \n    5 \n    BBNGR05 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [South] to South Flats trail \n    Paved \n    Public \n    1.40 \n    2.88 \n    -56 \n  \n  \n    6 \n    BBNGR05 \n    Backbone SP - North Gate Rd \n    South Flats trail to Barred Owl trail [South] \n    Paved \n    Public \n    1.40 \n    4.28 \n    56 \n  \n  \n    7 \n    BBNGR04 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [South] to Cave trail \n    Paved \n    Public \n    0.63 \n    4.91 \n    -40 \n  \n  \n    8 \n    BBNGR03 \n    Backbone SP - North Gate Rd \n    Cave trail to Barred Owl trail [North] \n    Paved \n    Public \n    0.18 \n    5.09 \n    4 \n  \n  \n    9 \n    BBNGR02 \n    Backbone SP - North Gate Rd \n    Barred Owl trail [North] to Richmond Springs trail \n    Paved \n    Public \n    0.17 \n    5.26 \n    11 \n  \n  \n    10 \n    BBNGR01 \n    Backbone SP - North Gate Rd \n    Richmond Springs trail to North Gate \n    Paved \n    Public \n    0.50 \n    5.76 \n    84"
   },
   {
+    "objectID": "personal/Hiking/IA Dunning Springs.html",
+    "href": "personal/Hiking/IA Dunning Springs.html",
+    "title": "Dunning Springs Trail & Connector",
+    "section": "",
+    "text": "Cash and I explored Dunning Springs Park in Decorah on 27-Jan-23. The trail to the springs is easy (and paved). The springs emanate from a limestone bluff and immediately cascade over a beautiful falls. You can walk right up to the falls or see them from above, along with the opening in the bluff, via wooded steps and an observation platform. There is also a steeply-ascending trail, the Dunning Springs Connector, that connects this area to the broader set of trails behind the Decorah Ice Cave."
+  },
+  {
+    "objectID": "personal/Hiking/IA Dunning Springs.html#walk-specific-map",
+    "href": "personal/Hiking/IA Dunning Springs.html#walk-specific-map",
+    "title": "Dunning Springs Trail & Connector",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Dunning Springs.html#elevation-profile",
+    "href": "personal/Hiking/IA Dunning Springs.html#elevation-profile",
+    "title": "Dunning Springs Trail & Connector",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA Dunning Springs.html#images",
+    "href": "personal/Hiking/IA Dunning Springs.html#images",
+    "title": "Dunning Springs Trail & Connector",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nDNGSP01: Sign at Ice Cave Rd\n\n\n\n\n\n\n\nDNGSP01: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nDNGSP02: Looking up at falls below the springs\n\n\n\n\n\n\n\nDNGSP02: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nDNGSP03: Looking down from platform above springs\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IA Dunning Springs.html#gpx-download",
+    "href": "personal/Hiking/IA Dunning Springs.html#gpx-download",
+    "title": "Dunning Springs Trail & Connector",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA Dunning Springs.html#summary-information",
+    "href": "personal/Hiking/IA Dunning Springs.html#summary-information",
+    "title": "Dunning Springs Trail & Connector",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    DNGSP01 \n    Dunning Springs Tr \n    Ice Cave Rd to Dunning Springs Connector \n    Paved \n    Public \n    0.14 \n    0.14 \n    32 \n  \n  \n    2 \n    DNGSP02 \n    Dunning Springs Tr \n    Dunning Springs Connector to Dunning Springs \n    Trail \n    Public \n    0.03 \n    0.17 \n    22 \n  \n  \n    3 \n    DNGSP02 \n    Dunning Springs Tr \n    Dunning Springs to Dunning Springs Connector \n    Trail \n    Public \n    0.03 \n    0.19 \n    -22 \n  \n  \n    4 \n    DNGSP03 \n    Dunning Springs Tr \n    Dunning Springs Connector to Dunning Springs Overlook \n    Trail \n    Public \n    0.08 \n    0.27 \n    65 \n  \n  \n    5 \n    DNGSP03 \n    Dunning Springs Tr \n    Dunning Springs Overlook to Dunning Springs Connector \n    Trail \n    Public \n    0.08 \n    0.34 \n    -65 \n  \n  \n    6 \n    DNGSC01 \n    Dunning Springs Connector \n    Dunning Springs Tr to Wold's Peak Tr \n    Trail \n    Public \n    0.10 \n    0.45 \n    85 \n  \n  \n    7 \n    DNGSC01 \n    Dunning Springs Connector \n    Wold's Peak Tr to Dunning Springs Tr \n    Trail \n    Public \n    0.10 \n    0.55 \n    -85 \n  \n  \n    8 \n    DNGSP01 \n    Dunning Springs Tr \n    Dunning Springs Connector to Ice Cave Rd \n    Paved \n    Public \n    0.14 \n    0.69 \n    -32"
+  },
+  {
     "objectID": "personal/Hiking/IA Echo Valley Environmental Nature Trail.html",
     "href": "personal/Hiking/IA Echo Valley Environmental Nature Trail.html",
     "title": "Echo Valley Enviromental Nature Trail",
@@ -579,47 +621,5 @@
     "title": "Software",
     "section": "Websites",
     "text": "Websites\n\nfishR website\n\n\n\n\n\n\n\nThis website is now maintained by the fishR-Core-Team, of which I am a member."
-  },
-  {
-    "objectID": "personal/Hiking/IA Dunning Springs.html",
-    "href": "personal/Hiking/IA Dunning Springs.html",
-    "title": "Dunning Springs Trail & Connector",
-    "section": "",
-    "text": "Cash and I explored Dunning Springs Park in Decorah on 27-Jan-23. The trail to the springs is easy (and paved). The springs emanate from a limestone bluff and immediately cascade over a beautiful falls. You can walk right up to the falls or see them from above, along with the opening in the bluff, via wooded steps and an observation platform. There is also a steeply-ascending trail, the Dunning Springs Connector, that connects this area to the broader set of trails behind the Decorah Ice Cave."
-  },
-  {
-    "objectID": "personal/Hiking/IA Dunning Springs.html#walk-specific-map",
-    "href": "personal/Hiking/IA Dunning Springs.html#walk-specific-map",
-    "title": "Dunning Springs Trail & Connector",
-    "section": "Walk-Specific Map",
-    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
-  },
-  {
-    "objectID": "personal/Hiking/IA Dunning Springs.html#elevation-profile",
-    "href": "personal/Hiking/IA Dunning Springs.html#elevation-profile",
-    "title": "Dunning Springs Trail & Connector",
-    "section": "Elevation Profile",
-    "text": "Elevation Profile"
-  },
-  {
-    "objectID": "personal/Hiking/IA Dunning Springs.html#images",
-    "href": "personal/Hiking/IA Dunning Springs.html#images",
-    "title": "Dunning Springs Trail & Connector",
-    "section": "Images",
-    "text": "Images\n\n\n\n\n\n\n\nDNGSP01: Sign at Ice Cave Rd\n\n\n\n\n\n\n\nDNGSP01: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nDNGSP02: Looking up at falls below the springs\n\n\n\n\n\n\n\nDNGSP02: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nDNGSP03: Looking down from platform above springs\n\n\n\n\n\n Previous\n\n\n Next"
-  },
-  {
-    "objectID": "personal/Hiking/IA Dunning Springs.html#gpx-download",
-    "href": "personal/Hiking/IA Dunning Springs.html#gpx-download",
-    "title": "Dunning Springs Trail & Connector",
-    "section": "GPX Download",
-    "text": "GPX Download\nA sanitized GPX file of our hike is here."
-  },
-  {
-    "objectID": "personal/Hiking/IA Dunning Springs.html#summary-information",
-    "href": "personal/Hiking/IA Dunning Springs.html#summary-information",
-    "title": "Dunning Springs Trail & Connector",
-    "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Type \n    Owner \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    DNGSP01 \n    Dunning Springs Tr \n    Ice Cave Rd to Dunning Springs Connector \n    Paved \n    Public \n    0.14 \n    0.14 \n    32 \n  \n  \n    2 \n    DNGSP02 \n    Dunning Springs Tr \n    Dunning Springs Connector to Dunning Springs \n    Trail \n    Public \n    0.03 \n    0.17 \n    22 \n  \n  \n    3 \n    DNGSP02 \n    Dunning Springs Tr \n    Dunning Springs to Dunning Springs Connector \n    Trail \n    Public \n    0.03 \n    0.19 \n    -22 \n  \n  \n    4 \n    DNGSP03 \n    Dunning Springs Tr \n    Dunning Springs Connector to Dunning Springs Overlook \n    Trail \n    Public \n    0.08 \n    0.27 \n    65 \n  \n  \n    5 \n    DNGSP03 \n    Dunning Springs Tr \n    Dunning Springs Overlook to Dunning Springs Connector \n    Trail \n    Public \n    0.08 \n    0.34 \n    -65 \n  \n  \n    6 \n    DNGSC01 \n    Dunning Springs Connector \n    Dunning Springs Tr to Wold's Peak Tr \n    Trail \n    Public \n    0.10 \n    0.45 \n    85 \n  \n  \n    7 \n    DNGSC01 \n    Dunning Springs Connector \n    Wold's Peak Tr to Dunning Springs Tr \n    Trail \n    Public \n    0.10 \n    0.55 \n    -85 \n  \n  \n    8 \n    DNGSP01 \n    Dunning Springs Tr \n    Dunning Springs Connector to Ice Cave Rd \n    Paved \n    Public \n    0.14 \n    0.69 \n    -32"
   }
 ]
