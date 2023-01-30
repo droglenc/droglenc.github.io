@@ -15,6 +15,7 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iowa"
+walkID <- "IA_PLPT"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
@@ -62,4 +63,18 @@ gpxhelpers::walkSummary(awalk)
 gpxhelpers::makeCarousel(id="Walk",path="",
                          imgs=walkPix$Photo,caps=walkPix$Caption,
                          width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
