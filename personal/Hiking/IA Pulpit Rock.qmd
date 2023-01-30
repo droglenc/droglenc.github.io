@@ -44,16 +44,19 @@ gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 
 ## Elevation Profile
 ```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
 #| label: walkElevation
 #| echo: false
-gpxhelpers::walkElevation(awalk)
+knitr::include_graphics(fnm)
 ```
-
-## Summary Information
-```{r}
-#| label: walkSummary
-#| echo: false
-gpxhelpers::walkSummary(awalk)
 ```
 
 ## Images
@@ -77,4 +80,11 @@ gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",projec
                               fnm=fnm,
                               IDs=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk)
 ```
