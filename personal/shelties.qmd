@@ -8,7 +8,7 @@ Cash is our current sheltie who we have had since September 2021. He is a spirit
 #| echo: false
 #| results: asis
 gpxhelpers::makeCarousel(id="Cash",path="../zresources/img/Cash/",
-                         width=50,captions=TRUE,controls=FALSE)
+                         width=50,captions=TRUE,controls=FALSE,interval=2000)
 ```
 
 &nbsp;
@@ -22,7 +22,7 @@ Jem was taken from us way too early, though we know he is now with his ["grandpa
 #| echo: false
 #| results: asis
 gpxhelpers::makeCarousel(id="Jem",path="../zresources/img/Jem/",
-                         width=50,captions=FALSE,controls=FALSE)
+                         width=50,captions=FALSE,controls=FALSE,interval=2000)
 ```
 
 &nbsp;
@@ -36,7 +36,7 @@ We miss the walks and boat rides. RIP "Bordo Dog"!!!
 #| echo: false
 #| results: asis
 gpxhelpers::makeCarousel(id="Jordan",path="../zresources/img/Jordan/",
-                         width=50,captions=FALSE,controls=FALSE)
+                         width=50,captions=FALSE,controls=FALSE,interval=2000)
 ```
 
 &nbsp;
