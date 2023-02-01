@@ -2,19 +2,19 @@
 ---
 
 # Cash
-Cash is our current sheltie who we have had since September 2021. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](hiking.html).
+We have had Cash since September 2020. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](hiking.html).
 
 ```{r}
 #| echo: false
 #| results: asis
 gpxhelpers::makeCarousel(id="Cash",path="../zresources/img/Cash/",
-                         width=50,captions=TRUE,controls=FALSE,interval=2000)
+                         width=50,captions=TRUE,controls=FALSE,interval=1000)
 ```
 
 &nbsp;
 
 # Jem
-Jem was our sheltie who graced our lives from April(ish) 2009 to almost August 2018. Many people knew Jem from seeing him around the Science Center during the school year. Jem was such a special dog ... very smart, incredibly loyal, and always watching over and protecting us. While he was a little snooty and often turned up his nose at "strangers", he also melted your heart if he decided to give you the time of day. [Here is a short piece that I wrote about Jem](http://sheltiespandp.weebly.com/jem.html) a few years ago.
+Jem graced our lives from April(ish) 2009 to almost August 2018. Many people knew Jem from seeing him around the Science Center during the school year. Jem was such a special dog ... very smart, incredibly loyal, and always watching over and protecting us. While he was a little snooty and often turned up his nose at "strangers", he also melted your heart if he decided to give you the time of day. [Here is a short piece that I wrote about Jem](http://sheltiespandp.weebly.com/jem.html) a few years ago.
 
 Jem was taken from us way too early, though we know he is now with his ["grandpa owner"](http://www.apg-wi.com/ashland_daily_press/obituaries/lloyd-sellung/article_f4167abc-1e92-11e8-87a0-17b0ec3869f9.html) taking walks, sitting on the couch together, and scheming to get those chippies. RIP "poundy", I wish we would have had more time together, you were such a special little guy!! We will [see you again](https://www.youtube.com/watch?v=mj37_Rqsec4) (*Thanks [Ronnie](http://www.ronniebakerbrooks.com/) ... beautiful song*).
 
@@ -28,9 +28,7 @@ gpxhelpers::makeCarousel(id="Jem",path="../zresources/img/Jem/",
 &nbsp;
 
 # Jordan
-Jordan was the sheltie that Kim and I got soon after we were married. "Jordo" enriched our lives from April, 1991 until March 2006.
-
-We miss the walks and boat rides. RIP "Bordo Dog"!!!
+Kim and I got Jordan soon in 1991, soon after we were married. "Jordo" enriched our lives until March 2006. We miss the walks and boat rides. RIP "Bordo Dog"!!!
 
 ```{r}
 #| echo: false
