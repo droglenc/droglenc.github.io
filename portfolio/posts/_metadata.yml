@@ -1,0 +1,42 @@
+# options apply to all posts in this folder
+
+#
+date-modified: last-modified
+
+# freeze computational output
+freeze: true
+
+# set the creative commons license
+license: "CC BY"
+
+# set the preview image
+image: preview.png
+
+# have footnotes and figure captions appear in the margin
+reference-location: margin
+cap-location: margin
+
+# set some default knitr options
+execute:
+  echo: false
+  message: false
+  warning: false
+
+# set some other default knitr options
+knitr:
+  opts_chunk:
+    dev: "png"
+    fig.width: 3.5
+    fig.height: 3.5
+    fig.align: center
+    comment: "#R| "
+    class-output: output
+    r.options:
+      show.signif.stars: false
+
+format:
+  html:
+    code-link: false
+    link-external-icon: false
+    link-external-newwindow: true
+    title-block-banner: true

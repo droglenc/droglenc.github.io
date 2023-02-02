@@ -1,0 +1,16 @@
+{
+  "hash": "449ca8c9e0d4a363ab9b6207c72b8717",
+  "result": {
+    "markdown": "---\ntitle: Derek Ogle Lineage\ndescription: My patriarchical lineage for 29 generations.\nauthor: Derek H. Ogle\ndate: 2/1/2023\nimage: preview.png\ncategories:\n  - Personal\n---\n\n::: {.cell layout-align=\"center\"}\n\n:::\n\n::: {.cell layout-align=\"center\"}\n\n:::\n\n\n&nbsp;\n\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Patriarchical lineage from Derek Hugh Ogle showing birth to death years and location of birth.](index_files/figure-html/fig-lineage-1.png){#fig-lineage fig-align='center' width=672}\n:::\n:::\n\n::: {.cell layout-align=\"center\"}\n\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

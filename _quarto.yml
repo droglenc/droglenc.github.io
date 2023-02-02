@@ -17,6 +17,8 @@ website:
         href: professional/index.qmd
       - text: "Personal"
         href: personal/index.qmd
+      - text: "Portfolio"
+        href: portfolio/index.qmd
   sidebar:
     - id: professional
       title: "Professional"

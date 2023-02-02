@@ -1,0 +1,96 @@
+---
+title: Derek Ogle Lineage
+description: My patriarchical lineage for 29 generations.
+author: Derek H. Ogle
+date: 2/1/2023
+image: DHO_n_WEO.jpg
+categories:
+  - Personal
+---
+
+```{r}
+#| label: packages
+library(tidyverse)
+```
+```{r}
+#| label: dataprep
+#| results: hide
+dho <- readxl::read_excel("DOgle_Lineage.xlsx",na=c("","?")) |>
+  filter(relDHO=="YES") |>
+  mutate(dyear=ifelse(is.na(dyear),lubridate::year(lubridate::today()),dyear),
+         first=forcats::fct_reorder(first,byear,.fun=min),
+         first=forcats::fct_rev(first),
+         bloc=case_when(
+           bwhere2=="Ogle Castle" ~ "Ogle Castle",
+           bwhere2=="Northumberland" ~ "Northumberland",
+           TRUE ~ "USA"
+         ),
+         bloc=factor(bloc,levels=c("Northumberland","Ogle Castle","USA"))) |>
+  select(first,byear,dyear,bloc)
+head(dho)
+```
+
+```{r}
+#| label: fig-dhoweo
+#| fig-cap: Derek Hugh and Will Edwin Ogle ca 1980.
+#| out-width: 33%
+knitr::include_graphics("DHO_n_WEO.jpg")
+```
+
+A few years ago [Ron Flynn](https://www.ronflynn.com/) published a manuscript^[See the Table of Contents [here](https://www.ronflynn.com/OGLE/contents.htm))] that detailed the genealogy and family history of the Ogle's. I was listed in "Generation A2A" of the book!
+
+I found it interesting to trace my roots back through my father (Will Edwin, @fig-dhoweo), his father, and so on. @fig-lineage shows that tracing back through 29 generations.
+
+```{r}
+#| label: fig-lineage
+#| fig-cap: Patriarchical lineage from Derek Hugh Ogle showing birth to death years and location of birth.
+#| fig-width: 7
+#| fig-height: 6
+dholin <- ggplot(data=dho,mapping=aes(x=byear,y=first)) +
+  geom_segment(mapping=aes(xend=dyear,yend=first,color=bloc),linewidth=3) +
+  geom_text(mapping=aes(x=ifelse(bloc=="USA",byear,dyear),label=first),
+            hjust=ifelse(dho$bloc=="USA",1.05,-0.05),vjust=0.4,
+            color=ifelse(dho$first=="Derek Hugh","cyan4","gray90"),
+            fontface=ifelse(dho$first=="Derek Hugh","bold","plain"),
+            size=3.5) +
+  scale_x_continuous(name=NULL,expand=expansion(mult=0),
+                     breaks=seq(1000,2100,100),
+                     minor_breaks=seq(1050,2050,100)) +
+  scale_color_manual(values=c("goldenrod2","royalblue3","firebrick2")) +
+  scale_y_discrete(name=NULL) +
+  labs(title="Lineage for Derek Hugh Ogle",
+       color="Where Born") +
+  coord_cartesian(xlim=c(1050,2020)) +
+  theme_bw(base_size=10) +
+  theme(plot.background=element_rect(fill="gray5"),
+        plot.title=element_text(color="cyan4",face="bold"),
+        plot.margin=margin(t=5,b=5,l=5,r=5,unit="mm"),
+        panel.border=element_rect(color="gray5"),
+        panel.background=element_rect(fill="gray5"),
+        legend.background=element_rect(fill="gray5"),
+        legend.key=element_rect(fill="gray5"),
+        legend.key.size=unit(4,units="mm"),
+        legend.text=element_text(color="gray90",size=rel(0.9)),
+        legend.title=element_text(color="gray90",size=rel(0.9)),
+        panel.grid.major.y=element_blank(),
+        panel.grid.minor.y=element_blank(),
+        panel.grid.major.x=element_line(color="gray25",linetype="dashed"),
+        panel.grid.minor.x=element_line(color="gray15",linetype="dashed"),
+        axis.ticks.length.y=unit(0,units="mm"),
+        axis.text.y=element_blank(),
+        axis.text.x=element_text(size=rel(1.2),color="gray90"),
+        legend.position=c(0.02,0.02),legend.justification=c(0,0))
+dholin
+```
+
+&nbsp;
+
+## Other Ogle-Related Resources
+
+- [John Ogle (1649-1683)](http://donaldaogle.com/john.elizabeth.ogle.html) ... *first Ogle in America*.
+- [Thomas Ogle (1668(?)-1734)](http://donaldaogle.com/Thomas.Mary.Ogle.html) ... *John's son.*
+- [Joseph Ogle (1707-1756)](http://donaldaogle.com/Joseph.Sarah.Ogle.html) ... *Thomas' son.*
+- [Ogletown, Delaware](https://en.wikipedia.org/wiki/Ogletown,_Delaware)
+- Ogle Castle [I](https://en.wikipedia.org/wiki/Ogle_Castle), [II](https://www.northofthetyne.co.uk/OgleCastle.html), [III](https://www.markeaton.co.uk/oglecastle.php)
+- Ogle, Northumberland -- [I](https://en.wikipedia.org/wiki/Ogle%2C_Northumberland), [II](https://ukga.org/index.php?pageid=14423)
+- [English Ogle Family Tree](http://donaldaogle.com/English.Ogle.Family.Tree.html)

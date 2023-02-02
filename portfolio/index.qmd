@@ -1,0 +1,18 @@
+---
+title: Portfolio of Fun Analyses
+listing:
+  contents: posts
+  type: grid
+  fields: [image,title,description,reading-time,date,file-modified]
+  sort: date desc
+  sort-ui: [date,file-modified]
+  categories: true
+  table-hover: true
+  field-display-names: 
+    reading-time: Time
+    date: Published
+    file-modifid: Modified
+comments: false
+page-layout: full
+date-modified: ""
+---
