@@ -8,7 +8,7 @@ We have had Cash since September 2020. He is a spirited "big pony" who loves to 
 #| echo: false
 #| results: asis
 gpxhelpers::makeCarousel(id="Cash",path="../zresources/img/Cash/",
-                         width=50,captions=TRUE,controls=FALSE,interval=1000)
+                         width=50,captions=TRUE,controls=FALSE,interval=2000)
 ```
 
 &nbsp;
