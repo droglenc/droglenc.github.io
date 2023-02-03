@@ -5,7 +5,8 @@ author: Derek H. Ogle
 date: 2/1/2023
 image: DHO_n_WEO.jpg
 categories:
-  - Personal
+  - Genealogy
+  - Vis
 ---
 
 ```{r}

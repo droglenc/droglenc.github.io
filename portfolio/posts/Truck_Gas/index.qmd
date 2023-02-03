@@ -1,0 +1,331 @@
+---
+title: Gas Data for my Truck
+description: An analysis of every tank of gas that I have put in my truck.
+author: Derek H. Ogle
+date: 2/2/2023
+image: DHO_F150.jpg
+categories:
+  - Gas
+  - Vis
+knitr:
+  opts_chunk:
+    fig.width: 6
+    fig.height: 4
+---
+
+```{r}
+#| label: packages
+library(dplyr)
+library(forcats)
+library(ggplot2)
+library(patchwork)
+```
+```{r}
+#| label: themes
+## Overall
+theme_main <- function() {
+  theme_bw() %+replace%
+    theme(
+      axis.title=element_text(size=14),
+      axis.text=element_text(size=11,color="black"),
+      panel.grid.major=element_line(color="gray90",linetype=2),
+      panel.grid.minor=element_blank()
+    )
+}
+
+## For the plots of totals
+theme_totals <- function() {
+  theme_main() %+replace%
+    theme(panel.grid.major.x=element_blank(),
+          panel.grid.minor.x=element_blank(),
+          axis.title.x=element_blank(),
+          legend.position=c(0.01,0.995),legend.justification=c(0,1),
+          legend.margin=margin(t=0.25,l=0.25,r=0.25,b=0.25,unit="mm"),
+          legend.key.size=unit(4,"mm"),
+          legend.title=element_blank())
+}
+
+## Colors for separations
+pulled_colors <- c("#4575b4","#91bfdb","#fee090","#fc8d59","#d73027")
+season_colors <- c("#67a9cf","#ef8a62")
+```
+```{r}
+#| label: data-prep
+#| results: hide
+d <- readxl::read_xlsx("TRUCK_RECORDS.xlsx",sheet="GAS") |>
+  mutate(
+    date=as.Date(date),
+    # miles driven on a tank of gas
+    miles_driven=miles-lag(miles),
+    # miles per gallon
+    mpg=miles_driven/gallons,
+    # calculated per gallon cost (a check for cost and total variables
+    # as calc_cost and cost should be very close)
+    calc_cost=total/gallons,
+    # handle dates
+    year=lubridate::year(date),
+    month=lubridate::month(date,label=TRUE),
+    # compute a season (warm and cold)
+    season=ifelse(month %in% c("Nov","Dec","Jan","Feb","Mar","Apr"),
+                  "Nov-Apr","May-Oct"),
+    season=factor(season,levels=c("Nov-Apr","May-Oct")),
+    # find town where gas was bought
+    town=stringr::word(location,1),
+    town2=case_when(
+      town=="IR" ~ "Iron River",
+      town=="Ashland" ~ "Ashland",
+      town=="Washburn" ~ "Washburn",
+      town=="Superior" ~ "Superior",
+      TRUE ~ "Other"),
+    town2=factor(town2,levels=c("Ashland","Iron River","Washburn",
+                                "Superior","Other")),
+    # find station where gas was bought
+    station=stringr::word(location,2),
+    station2=case_when(
+      station=="Holiday" ~ "Holiday",
+      station=="Cenex" ~ "Cenex",
+      TRUE ~ "Other"),
+    station2=factor(station2,levels=c("Holiday","Cenex","Other")),
+    pulledc=cut(pulled,breaks=c(0,1,40,80,120,Inf),
+                labels=c("0","1-39","40-79","80-119","120+"),right=FALSE),
+    premium=factor(premium)) |>
+  # select and order variables
+  select(date,year,month,season,location,town2,station2,
+         miles,miles_driven,gallons,mpg,cost,calc_cost,total,discount,premium,
+         pulled,pulledc,four_wd,car_wash,receipt,other_notes) |>
+  # remove first two records (truck was bought, tank might not have been full)
+  slice(-(1:2)) |>
+  # removed incomplete year (assumes last year is incomplete ... comment if not)
+  filter(year<max(year)) |>
+  # should be arranged, but just to make sure
+  arrange(date)
+```
+```{r}
+#| label: data-check
+#| eval: false
+#| results: hide
+## Use these to check data
+### Used as a check of cost, total, and gallons ... helps find some errors
+tmp <- which((round(d$calc_cost,3)-d$cost)>0)
+d[tmp,c("date","miles","cost","calc_cost")]
+tmp <- which(d$mpg>24 | d$mpg<12)
+d[tmp,c("date","miles","mpg")]
+```
+```{r}
+#| label: data-sum
+sum_bySeason <- d |>
+  filter(year>2016) |>     # reduce to complete years
+  group_by(year,season) |>
+  summarize(ttl_miles=sum(miles_driven),
+            ttl_pulled=sum(pulled),
+            ttl_gas=sum(gallons),
+            ttl_cost=sum(total),
+            ttl_discount=sum(discount),
+            avg_cpg=mean(cost),
+            num_car_wash=sum(as.numeric(factor(car_wash))-1)) |>
+  mutate(avg_mpg=ttl_miles/ttl_gas) |>
+  as.data.frame()
+
+sum_byYear <- d |>
+  filter(year>2016) |>     # reduce to complete years
+  group_by(year) |>
+  summarize(ttl_miles=sum(miles_driven),
+            ttl_pulled=sum(pulled),
+            ttl_gas=sum(gallons),
+            ttl_cost=sum(total),
+            ttl_discount=sum(discount),
+            avg_cpg=mean(cost),
+            num_car_wash=sum(as.numeric(factor(car_wash))-1)) |>
+  mutate(avg_mpg=ttl_miles/ttl_gas) |>
+  as.data.frame()
+
+yrlbls <- 2017:max(sum_byYear$year)
+
+minppg <- d |> filter(cost==min(cost)) |> select(date,cost)
+maxppg <- d |> filter(cost==max(cost)) |> select(date,cost)
+```
+
+In late September 2016 I bought a Ford F-150 (@fig-F150). This was one of the first versions of the aluminum bodied trucks. For that reason, and just out of curiosity, I kept data relative to every tank of gas that I have put into the truck. A few facts as of `r format(d$date[nrow(d)],format="%B %d, %Y")`.
+
+- `r formatC(d$miles[nrow(d)],format="f",digits=0,big.mark=",")` miles driven (see @fig-ttlmiles)
+- `r formatC(sum(d$gallons),format="f",digits=1,big.mark=",")` gallons of gas purchased at a total of \$`r formatC(sum(d$total),format="f",digits=2,big.mark=",")` (see @fig-ttlgas and @fig-ttlgascost)
+- The price of gas ranged from \$`r formatC(minppg$cost,format="f",digits=2)` on `r format(minppg$date,format="%B %d, %Y")` to \$`r formatC(maxppg$cost,format="f",digits=2)` on `r format(maxppg$date,format="%B %d, %Y")` (see @fig-cpgtank)
+- Overall, averaged `r formatC(d$miles[nrow(d)]/sum(d$gallons),format="f",digits=1)` miles per gallon (see @fig-avgmpgyr and @fig-mpgtank)
+
+More detailed results are below.
+
+```{r}
+#| label: fig-F150
+#| fig-cap: My 2016 Ford F-150.
+#| out-width: 67%
+knitr::include_graphics("DHO_F150.jpg")
+```
+
+&nbsp;
+
+## Miles Driven
+
+```{r}
+#| label: fig-ttlmiles
+#| fig-cap: Total miles driven per year separated by 'warm' and 'cold' months. Note that 2020 was the 'Covid' year.
+ttl_miles <- ggplot() +
+  geom_bar(data=sum_bySeason,aes(x=year,y=ttl_miles,fill=season),
+           stat="identity",alpha=0.9) +
+  geom_text(data=sum_byYear,
+            aes(x=year,y=ttl_miles,label=round(ttl_miles,0)),
+            vjust=-0.5,size=4) +
+  scale_y_continuous(name="Miles driven",limits=c(0,17000),
+                     expand=expansion(mult=c(0,0.03)))+
+  scale_x_continuous(breaks=yrlbls) +
+  scale_fill_manual(name="Months",values=season_colors) +
+  theme_totals()
+ttl_miles
+```
+
+```{r}
+#| label: fig-ttlpull
+#| fig-cap: Total miles driven per year pulling something (boat, tractor, etc.) separated by 'warm' and 'cold' months. Note that 2020 was the 'Covid' year.
+ttl_pulled <- ggplot() +
+  geom_bar(data=sum_bySeason,aes(x=year,y=ttl_pulled,fill=season),
+           stat="identity",alpha=0.9) +
+  scale_y_continuous(name="Miles driven",expand=expansion(mult=c(0,0.08)))+
+  scale_x_continuous(breaks=yrlbls) +
+  scale_fill_manual(name="Months",values=season_colors) +
+  geom_text(data=sum_byYear,
+            aes(x=year,y=ttl_pulled,label=round(ttl_pulled,0)),
+            vjust=-0.5,size=4) +
+  theme_totals()
+ttl_pulled
+```
+
+
+## Gas Costs
+
+```{r}
+#| label: fig-ttlgas
+#| fig-cap: Total gallons of gas purchased per year separated by 'warm' and 'cold' months. Note that 2020 was the 'Covid' year.
+ttl_gas <- ggplot() +
+  geom_bar(data=sum_bySeason,aes(x=year,y=ttl_gas,fill=season),
+           stat="identity",alpha=0.9) +
+  geom_text(data=sum_byYear,
+            aes(x=year,y=ttl_gas,label=round(ttl_gas,0)),
+            vjust=-0.5,size=4) +
+  scale_y_continuous(name="Gallons of gas",expand=expansion(mult=c(0,0.10)))+
+  scale_x_continuous(breaks=yrlbls) +
+  scale_fill_manual(name="Months",values=season_colors) +
+  theme_totals()
+ttl_gas
+```
+
+```{r}
+#| label: fig-ttlgascost
+#| fig-cap: Total cost of gas purchased per year separated by 'warm' and 'cold' months. Note that 2020 was the 'Covid' year.
+ttl_cost <- ggplot() +
+  geom_bar(data=sum_bySeason,aes(x=year,y=ttl_cost,fill=season),
+           stat="identity",alpha=0.9) +
+  geom_text(data=sum_byYear,
+            aes(x=year,y=ttl_cost,label=paste0("$",round(ttl_cost,0))),
+            vjust=-0.5,size=4) +
+  scale_y_continuous(name="Cost of gas",expand=expansion(mult=c(0,0.08)),
+                     labels=scales::label_dollar(big.mark=""))+
+  scale_x_continuous(breaks=yrlbls) +
+  scale_fill_manual(name="Months",values=season_colors) +
+  theme_totals()
+ttl_cost
+```
+
+```{r}
+#| label: fig-fillups
+#| fig-cap: Number of 'fill-ups' per year separated into major towns. Note that 2020 was the 'Covid' year.
+sum_town <- d %>%
+  filter(year>2016) |>     # reduce to complete years
+  count(town2,year) %>% 
+  ggplot(aes(x=year,y=n,fill=town2,color=town2,group=fct_rev(town2))) +
+  geom_bar(stat="identity",alpha=0.9) +
+  scale_y_continuous(name="Number of 'fill-ups'",expand=expansion(mult=c(0,0.08))) +
+  scale_x_continuous(breaks=yrlbls) +
+  scale_color_manual(name="Town",values=pulled_colors,
+                     aesthetics=c("fill","color")) +
+  theme_totals() +
+  theme(legend.direction="horizontal")
+sum_town
+```
+```{r}
+#| label: fig-cpgtank
+#| fig-cap: Cost per gallon of gas by individual tank of gas. Tanks where premium gas was purchased are highlighted. Note that 2020 was the 'Covid' year.
+#| fig.height: 4.5
+cpg_by_date <- ggplot(data=d,aes(x=date,y=cost)) +
+  geom_line(linewidth=1,color="gray85") +
+  geom_point(aes(color=premium),size=1) + 
+  scale_x_date(date_breaks="1 year",
+               date_minor_breaks="3 months",date_labels="%b-%y") +
+  scale_y_continuous(name="Cost of gallon of gas",labels=scales::label_dollar()) +
+  scale_color_manual(name="Premium Gas",values=c("black","red")) +
+  theme_main() +
+  theme(panel.grid.major.x=element_line(color="gray80",linetype=1),
+        panel.grid.minor.x=element_line(color="gray90",linetype=2),
+        legend.position="none",
+        axis.text.x=element_text(angle=45,hjust=1),
+        axis.title.x=element_blank())
+cpg_by_date
+```
+
+
+## Gas Mileage
+
+```{r}
+#| label: fig-avgmpgyr
+#| fig-cap: Average miles per gallon by year.
+avg_mpg <- ggplot(data=sum_byYear,aes(x=year,y=avg_mpg)) +
+  geom_bar(stat="identity",alpha=0.9,
+           color=pulled_colors[1],fill=pulled_colors[1]) +
+  scale_y_continuous(name="Miles per gallon",expand=expansion(mult=c(0,0.08)))+
+  scale_x_continuous(breaks=yrlbls) +
+  geom_text(aes(label=formatC(avg_mpg,format="f",digits=1)),vjust=-0.5,size=4) +
+  theme_totals()
+avg_mpg
+```
+
+```{r}
+#| label: fig-mpgtank
+#| fig-cap: Miles per gallon for individual tanks of gas separated by categories of miles pulling something. The red dashed line is the overall average miles per gallon.
+#| fig-width: 8
+#| fig.height: 5
+# Compute total_mpg
+total_mpg <- sum(d$miles_driven)/sum(d$gallons)
+
+mpg_by_date <- ggplot(data=d,aes(x=date,y=mpg)) +
+  geom_line(size=1,color="gray85") +
+  geom_point(aes(color=pulledc),size=2) + 
+  scale_color_manual(name="Miles\nPulling",values=pulled_colors) +
+  geom_hline(yintercept=total_mpg,color="red3",alpha=0.75,lty=2,lwd=1) +
+  scale_x_date(date_breaks="1 year",
+               date_minor_breaks="6 months",date_labels="%b-%y") +
+  scale_y_continuous(name="Miles per gallon",limits=c(11,24),
+                     expand=expansion(mult=0.03)) +
+  theme_main() +
+  theme(panel.grid.major.x=element_line(color="gray80",linetype=1),
+        panel.grid.minor.x=element_line(color="gray90",linetype=2),
+        legend.position="none",
+        axis.title.x=element_blank(),
+        axis.text.x=element_text(angle=45,hjust=1))
+
+mpg_hist <- ggplot(data=d,aes(x=mpg,group=fct_rev(pulledc),
+                              color=pulledc,fill=pulledc)) +
+  geom_histogram(binwidth=0.5,alpha=0.80,position="stack") +
+  scale_x_continuous(limits=c(11,24),expand=expansion(mult=0.03)) +
+  scale_y_continuous(name="Number of fill-ups",
+                     expand=expansion(mult=c(0,0.05))) +
+  scale_color_manual(name="Miles Pulling",values=pulled_colors,
+                     aesthetics=c("fill","color")) +
+  coord_flip() +
+  theme_main() +
+  theme(axis.text.y=element_blank(),
+        axis.title.y=element_blank(),
+        legend.position=c(0.995,0.005),legend.justification=c(1,0),
+        legend.margin = margin(t=0.25,l=0.25,r=0.25,b=0.25,unit="mm"),
+        legend.key.size=unit(4,"mm"))
+
+mpg_by_date + mpg_hist +
+  plot_layout(ncol=2,nrow=1,widths=c(0.75,0.25))
+```
