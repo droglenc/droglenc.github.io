@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Derek Ogle"
+  title: "Derek H. Ogle"
   favicon: zresources/img/DerekOgle1.jpg
   site-url: https://derekogle.com/
   repo-url: https://github.com/droglenc/droglenc.github.io

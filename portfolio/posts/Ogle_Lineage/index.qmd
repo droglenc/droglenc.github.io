@@ -16,7 +16,7 @@ library(tidyverse)
 ```{r}
 #| label: dataprep
 #| results: hide
-dho <- readxl::read_excel("DOgle_Lineage.xlsx",na=c("","?")) |>
+dho <- readxl::read_excel("../_data/DOgle_Lineage.xlsx",na=c("","?")) |>
   filter(relDHO=="YES") |>
   mutate(dyear=ifelse(is.na(dyear),lubridate::year(lubridate::today()),dyear),
          first=forcats::fct_reorder(first,byear,.fun=min),

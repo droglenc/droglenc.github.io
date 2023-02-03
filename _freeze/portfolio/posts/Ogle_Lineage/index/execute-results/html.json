@@ -1,0 +1,16 @@
+{
+  "hash": "19489da5d47f1231b882faa39302da4b",
+  "result": {
+    "markdown": "---\ntitle: Derek Ogle Lineage\ndescription: My patriarchical lineage for 29 generations.\nauthor: Derek H. Ogle\ndate: 2/1/2023\nimage: DHO_n_WEO.jpg\ncategories:\n  - Genealogy\n  - Vis\n---\n\n::: {.cell layout-align=\"center\"}\n\n:::\n\n::: {.cell layout-align=\"center\"}\n\n:::\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Derek Hugh and Will Edwin Ogle ca 1980.](DHO_n_WEO.jpg){#fig-dhoweo fig-align='center' width=33%}\n:::\n:::\n\n\nA few years ago [Ron Flynn](https://www.ronflynn.com/) published a manuscript^[See the Table of Contents [here](https://www.ronflynn.com/OGLE/contents.htm))] that detailed the genealogy and family history of the Ogle's. I was listed in \"Generation A2A\" of the book!\n\nI found it interesting to trace my roots back through my father (Will Edwin, @fig-dhoweo), his father, and so on. @fig-lineage shows that tracing back through 29 generations.\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Patriarchical lineage from Derek Hugh Ogle showing birth to death years and location of birth.](index_files/figure-html/fig-lineage-1.png){#fig-lineage fig-align='center' width=672}\n:::\n:::\n\n\n&nbsp;\n\n## Other Ogle-Related Resources\n\n- [John Ogle (1649-1683)](http://donaldaogle.com/john.elizabeth.ogle.html) ... *first Ogle in America*.\n- [Thomas Ogle (1668(?)-1734)](http://donaldaogle.com/Thomas.Mary.Ogle.html) ... *John's son.*\n- [Joseph Ogle (1707-1756)](http://donaldaogle.com/Joseph.Sarah.Ogle.html) ... *Thomas' son.*\n- [Ogletown, Delaware](https://en.wikipedia.org/wiki/Ogletown,_Delaware)\n- Ogle Castle [I](https://en.wikipedia.org/wiki/Ogle_Castle), [II](https://www.northofthetyne.co.uk/OgleCastle.html), [III](https://www.markeaton.co.uk/oglecastle.php)\n- Ogle, Northumberland -- [I](https://en.wikipedia.org/wiki/Ogle%2C_Northumberland), [II](https://ukga.org/index.php?pageid=14423)\n- [English Ogle Family Tree](http://donaldaogle.com/English.Ogle.Family.Tree.html)\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

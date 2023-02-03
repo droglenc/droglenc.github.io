@@ -52,7 +52,7 @@ season_colors <- c("#67a9cf","#ef8a62")
 ```{r}
 #| label: data-prep
 #| results: hide
-d <- readxl::read_xlsx("TRUCK_RECORDS.xlsx",sheet="GAS") |>
+d <- readxl::read_xlsx("../_data/TRUCK_RECORDS.xlsx",sheet="GAS") |>
   mutate(
     date=as.Date(date),
     # miles driven on a tank of gas
