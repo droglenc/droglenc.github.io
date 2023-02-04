@@ -1,29 +1,31 @@
 ---
-title: "Lake Nebagamon Ice, 1943-2021"
-author: "Derek Ogle"
-date: today
+title: Lake Nebagamon Ice
+description: An analysis of ice-in and out data for Lake Nebagamon, WI since 1943.
+author: Derek H. Ogle
+date: 2/4/2023
+image: Ice.jpg
+categories:
+  - Climate/Weather
+  - Limnology
+  - Vis
+knitr:
+  opts_chunk:
+    fig.width: 6
+    fig.height: 4
 format: 
   html:
-    embed-resources: true
-    code-fold: true
-    code-line-numbers: true
     df-print: kable
-fig-cap-location: bottom
-tbl-cap-location: top
-evaluate:
-  warning: false
 ---
 
-## Setup
-The following code loads relevant packages and prepares the ice-in^[Earliest date where lake is completely covered until the following spring.] and ice-out^[Earliest date where lake is completely devoid of ice in the spring.] dates data for [Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000), WI from 1943 to 2021 as recorded by citizen observers.^[Data were provided to me by Gary Hagstrom who received the data from XXX. The original data acknowledged J Arthur, G DeBrunye, W Kiefer, A Mack, M Laskkowski, J Snydle.]
 
-```{r setup}
-#| message: FALSE
-#| results: "hide"
+```{r}
+#| label: setup
+source("../_helpers/iceHelpers.R")
+```
 
-source("iceHelpers.R")
-
-dat <- prepIceData(sheet="Nebagamon")
+```{r}
+#| label: data-prep
+dat <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Nebagamon")
 sum <- sumIceData(dat) %>%
   mutate(inEarlyYr=dat$fyr[dat$inDay==inEarlyDay],
          inLateYr=dat$fyr[dat$inDay==inLateDay],
@@ -34,14 +36,34 @@ sum <- sumIceData(dat) %>%
          durLongYr=dat$fyr[dat$daysIced==durLong])
 ```
 
-## Ice In and Out Dates
-
-The range for both ice-in (`r sum$inEarlyDate` to `r sum$inLateDate`) and ice-out (`r sum$outEarlyDate` to `r sum$outLateDate`) dates is considerable, at approximately six weeks for each (@fig-inouthist). There are *weak* indications for a slightly later ice-in date and, *possibly*, a slightly earlier ice-out date in the last two decades (@fig-inout).
 
 ```{r}
-#| message: FALSE
+#| label: EagleIce
+#| out-width: 67%
+knitr::include_graphics("Ice.jpg")
+```
+
+:::{.callout-warning icon=false}
+# Summary
+
+- [Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000), in Douglas County, is 986 acres with a maximum depth of 56 feet.
+- Ice-out dates recorded from `r min(dat$fyr)` to `r max(dat$fyr)`.
+- The average ice-in date is `r sum$inAvgDate` and the average ice-out date is `r sum$outAvgDate` (see @fig-inouthist).
+- The range for both ice-in (`r sum$inEarlyDate` to `r sum$inLateDate`) and ice-out (`r sum$outEarlyDate` to `r sum$outLateDate`) dates is considerable, at approximately six weeks for each (see @fig-inouthist).
+- There are *weak* indications for a slightly later ice-in date and, *possibly*, a slightly earlier ice-out date in the last two decades (see @fig-inout).
+- Since 1943 the average days of ice coverage was `r sum$durAvg` days, though the range was considerable from `r sum$durShort` to `r sum$durLong` days (see @fig-durhist).
+- There is an indication that the length of ice duration has declined, on average, by a little over a week in the last two decades (see @fig-dur).
+- Seven of the ten shortest ice duration seasons have occurred since 2000 (see @tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (see @tbl-durLong).
+- Data were provided by Gary Hagstrom who received it from XXX. The original data acknowledged J Arthur, G DeBrunye, W Kiefer, A Mack, M Laskkowski, J Snydle.
+:::
+
+&nbsp;
+
+## Ice In and Out Dates
+
+```{r}
 #| label: fig-inouthist
-#| fig-cap: Lake Nebagamon ice in and out dates.
+#| fig-cap: !expr paste0("Lake Nebagamon ice in and out dates, 1943-",max(dat$fyr),".")
 #| fig-width: 8
 #| fig-height: 4
 
@@ -80,7 +102,6 @@ p_inhist + p_outhist
 ```
 
 ```{r}
-#| message: FALSE
 #| label: fig-inout
 #| fig-cap: Lake Nebagamon ice in and out dates by year.
 
@@ -136,12 +157,9 @@ p_inout +
 
 ## Ice Duration
 
-Since 1943 the average days of ice coverage on Lake Nebagamon was `r sum$durAvg` days, though the range was considerable from `r sum$durShort` to `r sum$durLong` days (@fig-durhist). There is an indication that the length of ice duration has declined, on average, by a little over a week in the last two decades (@fig-dur). Seven of the ten shortest ice duration seasons have occurred since 2000 (@tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (@tbl-durLong).
-
 ```{r}
-#| message: FALSE
 #| label: fig-durhist
-#| fig-cap: Lake Nebagamon ice durations, 1943-2021.
+#| fig-cap: !expr paste0("Lake Nebagamon ice durations, 1943-",max(dat$fyr),".")
 #| fig-width: 5
 #| fig-height: 4
 
@@ -162,7 +180,6 @@ p_durhist +
 ```
 
 ```{r}
-#| message: FALSE
 #| label: fig-dur
 #| fig-cap: Lake Nebagamon ice duration by year.
 
@@ -205,9 +222,11 @@ p_durat +
            arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
 ```
 
+&nbsp;
+
 ```{r}
 #| label: tbl-durShort
-#| tbl-cap: Winter seasons with the 10 **shortest** ice durations.
+#| tbl-cap: !expr paste0("Winter seasons with the 10 **shortest** ice durations, 1943-",max(dat$fyr),".")
 
 tmp <- dat %>%
   select(season,inDate,outDate,daysIced) %>%
@@ -218,9 +237,11 @@ tmp %>% slice_min(order_by=daysIced,n=10) %>%
   rename("Season"=season,"In"=inDate,"Out"=outDate,"Duration"=daysIced)
 ```
 
+&nbsp;
+
 ```{r}
 #| label: tbl-durLong
-#| tbl-cap: Winter seasons with the 10 **longest** ice durations.
+#| tbl-cap: !expr paste0("Winter seasons with the 10 **longest** ice durations, 1943-",max(dat$fyr),".")
 
 tmp %>% slice_max(order_by=daysIced,n=10) %>%
   rename("Season"=season,"In"=inDate,"Out"=outDate,"Duration"=daysIced)
