@@ -1,0 +1,142 @@
+---
+title: Eagle Lake Ice-Out
+description: An analysis of ice-out data for Eagle Lake, WI since 1999.
+author: Derek H. Ogle
+date: 2/3/2023
+image: Eagle_Ice.jpg
+categories:
+  - Pike Chain
+  - Climate/Weather
+  - Limnology
+  - Vis
+knitr:
+  opts_chunk:
+    fig.width: 6
+    fig.height: 4
+format: 
+  html:
+    df-print: kable
+---
+
+```{r}
+#| label: setup
+source("../_helpers/iceHelpers.R")
+```
+
+```{r}
+#| label: data-prep
+dat <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Eagle")
+sum <- sumIceData(dat) |>
+  mutate(outEarlyYr=dat$fyr[which(dat$outDay==outEarlyDay)],
+         outLateYr=dat$fyr[which(dat$outDay==outLateDay)])
+
+tmp1 <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Nebagamon")
+tmp2 <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Mendota")
+
+dat2 <- bind_rows(dat,tmp1,tmp2) |>
+  select(lake,season,fyr,outDate,outDay) |>
+  mutate(lake=factor(lake,levels=c("Eagle","Nebagamon","Mendota")))
+```
+
+```{r}
+#| label: EagleIce
+#| out-width: 67%
+knitr::include_graphics("Eagle_Ice.jpg")
+```
+
+:::{.callout-warning icon=false}
+# Summary
+
+- [Eagle Lake, in Bayfield County](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2902900), is 163 acres with a maximum depth of 52 feet.
+- Ice-out dates recorded from `r min(dat$fyr)` to `r max(dat$fyr)`.
+- Average ice-out date is `r sum$outAvgDate`.
+- Range of ice-out dates is approximately eight weeks from `r sum$outEarlyDate` (in `r sum$outEarlyYr`) to `r sum$outLateDate` (in `r sum$outLateYr`)  (see @fig-outhist).
+- There are *weak* indications for a slightly later ice-out date in the last decade (see @fig-out).
+- Ice-out dates were mostly similar to those from a nearby similarly-sized lake (see @fig-compare).
+:::
+
+&nbsp;
+
+## Ice-Out Dates
+
+```{r}
+#| label: fig-outhist
+#| fig-cap: !expr paste0("Eagle Lake ice out dates, 1999-",max(dat$fyr),".")
+#| fig-width: 5
+#| fig-height: 4
+
+p_outhist <- ggplot(data=dat,mapping=aes(x=outDay)) +
+  geom_histogram(binwidth=5,boundary=0,fill=FSA::col2rgbt(outclr,0.5),color="black") +
+  scale_y_continuous(expand=expansion(mult=c(0,0.02))) +
+  scale_x_continuous(name="Day of Ice-Out",
+                     breaks=date_breaks2,labels=date_labels2) +
+  theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
+        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+
+p_outhist +
+  annotate(geom="text",hjust="right",color=outclr,
+           x=92,y=3.5,label=paste0("Average (",sum$outAvgDate,")")) +
+  annotate(geom="curve",x=92.5,y=3.5,xend=sum$outAvgDay,yend=0,
+           linewidth=0.75,curvature=-0.1,color=outclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-out
+#| fig-cap: Eagle Lake ice out dates by year. Note no data for 1998.
+
+p_out <- ggplot(data=dat,mapping=aes(x=fyr)) +
+  geom_smooth(mapping=aes(y=outDay),se=FALSE,color=outclr) +
+  geom_line(mapping=aes(y=outDay),linewidth=main_lw,color=main_clr) +
+  geom_point(mapping=aes(y=outDay),size=1,shape=21,fill="white") +
+  scale_y_continuous(expand=expansion(mult=0.08),
+                     breaks=date_breaks2,labels=date_labels2) +
+  scale_x_continuous(name="Season Starting Year",
+                     breaks=yr_breaks5,
+                     expand=expansion(mult=0.01)) +
+  theme(axis.title.y=element_blank(),
+        panel.grid.minor.y=element_blank())
+
+p_out +
+  annotate(geom="text",vjust=1.5,color=outclr,
+           x=sum$outEarlyYr,y=sum$outEarlyDay,
+           label=paste0("Earliest (",sum$outEarlyDate,")")) +
+  annotate(geom="text",vjust=-0.5,color=outclr,
+           x=sum$outLateYr,y=sum$outLateDay,
+           label=paste0("Latest (",sum$outLateDate,")")) +
+  annotate(geom="point",x=1998.5,y=sum$outAvgDay,
+           shape="-",color=outclr,size=10) +
+  annotate(geom="text",hjust="left",color=outclr,
+           x=2002,y=90,label=paste0("Average Out (",sum$outAvgDate,")")) +
+  annotate(geom="curve",x=2001.5,y=90,xend=1998.5,yend=sum$outAvgDay,
+           linewidth=0.75,curvature=-0.3,color=outclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+```
+
+&nbsp;
+
+## Comparison to Other Lakes
+
+[Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000) is much larger (986 acres) but with a similar maximum depth (56 ft) as Eagle Lake that is approximately 20 miles nearly straight west of Eagle Lake. With the exception of a few notable years, the ice-out dates between these two lakes are quite similar. [Lake Mendota](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=805400) is a very large (9781 acres) and deep (83 ft maximum) lake that is approximately 350 miles south of Eagle Lake. The ice-out dates for Mendota are always before those for Eagle Lake, but the very generally track together.
+
+```{r}
+#| label: fig-compare
+#| fig-cap: Eagle Lake ice out dates by year with other lakes shown for comparison.
+
+ggplot(data=dat2,mapping=aes(x=fyr,color=lake)) +
+  geom_line(mapping=aes(y=outDay),linewidth=main_lw) +
+  geom_point(mapping=aes(y=outDay),size=1,shape=21,fill="white") +
+  scale_y_continuous(breaks=date_breaks2,labels=date_labels2,
+                     expand=expansion(mult=0.08)) +
+  scale_x_continuous(name="Season Starting Year",
+                     limits=c(1999,2022),
+                     breaks=yr_breaks5,
+                     expand=expansion(mult=0.01)) +
+  theme(panel.grid.minor.y=element_blank(),
+        axis.title.y=element_blank(),
+        legend.position=c(0.1,0.90),
+        legend.title=element_blank(),legend.text=element_text(size=10))
+```
+

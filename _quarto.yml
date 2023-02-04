@@ -83,6 +83,7 @@ format:
   html:
     theme: [litera, zhelpers/custom.scss]
     css: zhelpers/styles.css
+    mainfont: sans-serif
     backgroundcolor: "#FEFCFF"
     linkcolor: "#571B7E"
     link-external-icon: false

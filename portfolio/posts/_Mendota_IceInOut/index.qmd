@@ -1,0 +1,211 @@
+---
+title: "Lake Mendota Ice, 1853-2021"
+author: "Derek Ogle"
+date: today
+format: 
+  html:
+    embed-resources: true
+    code-fold: true
+    code-line-numbers: true
+    df-print: kable
+fig-cap-location: bottom
+tbl-cap-location: top
+evaluate:
+  warning: false
+---
+
+## Setup
+The following code loads relevant packages and prepares the ice-in^[Earliest date where lake is completely covered until the following spring.] and ice-out^[Earliest date where lake is completely devoid of ice in the spring.] dates data for [Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000), WI from 1943 to 2021 as recorded by citizen observers.^[Data were provided to me by Gary Hagstrom who received the data from XXX. The original data acknowledged J Arthur, G DeBrunye, W Kiefer, A Mack, M Laskkowski, J Snydle.]
+
+```{r setup}
+#| message: FALSE
+#| results: "hide"
+
+source("iceHelpers.R")
+
+dat <- prepIceData(sheet="Mendota")
+sum <- sumIceData(dat) %>%
+  mutate(inEarlyYr=dat$fyr[dat$inDay==inEarlyDay],
+         inLateYr=dat$fyr[dat$inDay==inLateDay],
+         outEarlyYr=dat$fyr[dat$outDay==outEarlyDay],
+         outLateYr=dat$fyr[dat$outDay==outLateDay],
+         durShortYr1=dat$fyr[dat$daysIced==durShort][1],
+         durShortYr2=dat$fyr[dat$daysIced==durShort][2],
+         durLongYr=dat$fyr[dat$daysIced==durLong])
+```
+
+## Ice In and Out Dates
+
+The range for both ice-in (`r sum$inEarlyDate` to `r sum$inLateDate`) and ice-out (`r sum$outEarlyDate` to `r sum$outLateDate`) dates is considerable, at approximately six weeks for each (@fig-inouthist). There are *weak* indications for a slightly later ice-in date and, *possibly*, a slightly earlier ice-out date in the last two decades (@fig-inout).
+
+```{r}
+#| message: FALSE
+#| label: fig-inouthist
+#| fig-cap: Lake Mendota ice in and out dates.
+#| fig-width: 8
+#| fig-height: 4
+
+p_inhist <- ggplot(data=dat,mapping=aes(x=inDay)) +
+  geom_histogram(binwidth=2,boundary=0,fill=FSA::col2rgbt(inclr,0.5),color="black") +
+  scale_y_continuous(expand=expansion(mult=c(0,0.02))) +
+  scale_x_continuous(name="Day of Ice-In",
+                     breaks=date_breaks2,labels=date_labels2) +
+  theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
+        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+
+p_inhist <- p_inhist +
+  annotate(geom="text",hjust="left",color=inclr,
+           x=15,y=9,label=paste0("Average (",sum$inAvgDate,")")) +
+  annotate(geom="curve",x=14.5,y=9,xend=sum$inAvgDay,yend=0,
+           linewidth=0.75,curvature=0.1,color=inclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+
+p_outhist <- ggplot(data=dat,mapping=aes(x=outDay)) +
+  geom_histogram(binwidth=2,boundary=0,fill=FSA::col2rgbt(outclr,0.5),color="black") +
+  scale_y_continuous(expand=expansion(mult=c(0,0.02))) +
+  scale_x_continuous(name="Day of Ice-Out",
+                     breaks=date_breaks2,labels=date_labels2) +
+  theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
+        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+
+p_outhist <- p_outhist +
+  annotate(geom="text",hjust="right",color=outclr,
+           x=80,y=8.5,label=paste0("Average (",sum$outAvgDate,")")) +
+  annotate(geom="curve",x=80.5,y=8.5,xend=sum$outAvgDay,yend=0,
+           linewidth=0.75,curvature=-0.1,color=outclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+p_inhist + p_outhist
+```
+
+```{r}
+#| message: FALSE
+#| label: fig-inout
+#| fig-cap: Lake Nebagamon ice in and out dates by year.
+
+p_inout <- ggplot(data=dat,mapping=aes(x=fyr)) +
+  geom_smooth(mapping=aes(y=inDay),se=FALSE,color=inclr) +
+  geom_smooth(mapping=aes(y=outDay),se=FALSE,color=outclr) +
+  geom_ribbon(mapping=aes(ymin=inDay,ymax=outDay),fill=icefillclr) +
+  geom_line(mapping=aes(y=inDay),linewidth=main_lw,color=main_clr) +
+  geom_line(mapping=aes(y=outDay),linewidth=main_lw,color=main_clr) +
+  geom_point(mapping=aes(y=inDay),size=1,shape=21,fill="white") +
+  geom_point(mapping=aes(y=outDay),size=1,shape=21,fill="white") +
+  scale_y_continuous(breaks=date_breaks1,labels=date_labels1,
+                     expand=expansion(mult=0.08)) +
+  scale_x_continuous(name="Ice Season Start Year",
+                     breaks=yr_breaks10,minor_breaks=yr_breaks5,
+                     expand=expansion(mult=0.01)) +
+  theme(axis.title.y=element_blank(),
+        panel.grid.minor.y=element_blank())
+
+p_inout +
+  annotate(geom="point",x=1852.5,y=sum$inAvgDay,
+           shape="-",color=inclr,size=10) +
+  annotate(geom="text",hjust="left",color=inclr,
+           x=1870,y=30,label=paste0("Average In (",sum$inAvgDate,")")) +
+  annotate(geom="curve",x=1869.5,y=30,xend=1852.5,yend=sum$inAvgDay,
+           linewidth=0.75,curvature=0.3,color=inclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
+  annotate(geom="point",x=1852.5,y=sum$outAvgDay,
+           shape="-",color=outclr,size=10) +
+  annotate(geom="text",hjust="left",color=outclr,
+           x=1870,y=60,label=paste0("Average Out (",sum$outAvgDate,")")) +
+  annotate(geom="curve",x=1869.5,y=60,xend=1852.5,yend=sum$outAvgDay,
+           linewidth=0.75,curvature=-0.3,color=outclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
+  annotate(geom="text",x=mean(dat$fyr),y=45,
+           label=paste0("Average duration of ice is ",sum$durAvg," days"))
+```
+
+
+## Ice Duration
+
+Since 1943 the average days of ice coverage on Lake Nebagamon was `r sum$durAvg` days, though the range was considerable from `r sum$durShort` to `r sum$durLong` days (@fig-durhist). There is an indication that the length of ice duration has declined, on average, by a little over a week in the last two decades (@fig-dur). Seven of the ten shortest ice duration seasons have occurred since 2000 (@tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (@tbl-durLong).
+
+```{r}
+#| message: FALSE
+#| label: fig-durhist
+#| fig-cap: Lake Nebagamon ice durations, 1943-2021.
+#| fig-width: 5
+#| fig-height: 4
+
+p_durhist <- ggplot(data=dat,mapping=aes(x=daysIced)) +
+  geom_histogram(binwidth=10,boundary=0,
+                 fill=FSA::col2rgbt(icefillclr,0.5),color="black") +
+  scale_y_continuous(expand=expansion(mult=c(0,0.02))) +
+  scale_x_continuous(name="Days of Ice Coverage") +
+  theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
+        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+
+p_durhist +
+  annotate(geom="text",hjust="right",
+           x=70,y=20,label=paste0("Average (",sum$durAvg," days)")) +
+  annotate(geom="curve",x=70.5,y=20,xend=sum$durAvg,yend=0,
+           linewidth=0.75,curvature=-0.2,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+```
+
+```{r}
+#| message: FALSE
+#| label: fig-dur
+#| fig-cap: Lake Nebagamon ice duration by year.
+
+p_durat <- ggplot(data=dat,mapping=aes(x=inYr,y=daysIced)) +
+  geom_smooth(color="darkred",se=FALSE) +
+  geom_line(linewidth=main_lw,color=main_clr) +
+  geom_point(size=1,shape=21,fill="white") +
+  scale_y_continuous(name="Days Ice Coverage",
+                     breaks=seq(30,160,10),
+                     expand=expansion(add=5)) +
+  scale_x_continuous(name="Ice Season Start Year",
+                     breaks=yr_breaks10,minor_breaks=yr_breaks5,
+                     expand=expansion(mult=0.01)) +
+  theme(panel.grid.minor.y=element_blank())
+
+p_durat +
+  annotate(geom="point",x=1942.5,y=sum$durAvg,
+           shape="-",color="black",size=10) +
+  annotate(geom="text",hjust="left",color="black",
+           x=1945,y=111,label=paste0("Average (",sum$durAvg," days)")) +
+  annotate(geom="curve",x=1944.5,y=111,xend=1942.5,yend=sum$durAvg,
+           linewidth=0.75,curvature=-0.1,color="black",
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
+  annotate(geom="text",hjust="right",color="darkblue",
+           x=1985,y=sum$durLong,label=paste0("Longest (",sum$durLong," days)")) +
+  annotate(geom="segment",x=1985.5,y=sum$durLong,
+           xend=sum$durLongYr,yend=sum$durLong,
+           linewidth=0.75,color="darkblue",
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
+  annotate(geom="text",hjust="right",color="darkred",
+           x=2000,y=sum$durShort,label=paste0("Shortest (",sum$durShort," days)")) +
+  annotate(geom="curve",x=2000.5,y=sum$durShort,
+           xend=sum$durShortYr1,yend=sum$durShort,
+           linewidth=0.75,curvature=-0.2,color="darkred",
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
+  annotate(geom="curve",x=2000.5,y=sum$durShort,
+           xend=sum$durShortYr2,yend=sum$durShort,
+           linewidth=0.75,curvature=+0.2,color="darkred",
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+```
+
+```{r}
+#| label: tbl-durShort
+#| tbl-cap: Winter seasons with the 10 **shortest** ice durations.
+
+tmp <- dat %>%
+  select(season,inDate,outDate,daysIced) %>%
+  mutate(inDate=format(inDate,"%b %e"),
+         outDate=format(outDate,"%b %e"))
+
+tmp %>% slice_min(order_by=daysIced,n=10) %>%
+  rename("Season"=season,"In"=inDate,"Out"=outDate,"Duration"=daysIced)
+```
+
+```{r}
+#| label: tbl-durLong
+#| tbl-cap: Winter seasons with the 10 **longest** ice durations.
+
+tmp %>% slice_max(order_by=daysIced,n=10) %>%
+  rename("Season"=season,"In"=inDate,"Out"=outDate,"Duration"=daysIced)
+```
+

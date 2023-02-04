@@ -578,7 +578,7 @@
     "href": "portfolio/index.html",
     "title": "Portfolio of Fun Analyses",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Published - Oldest\n        \n         \n          Published - Newest\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nGas Data for my Truck\n\n\n8 min\n\n\nAn analysis of every tank of gas that I have put in my truck.\n\n\n\nFeb 2, 2023\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerek Ogle Lineage\n\n\n2 min\n\n\nMy patriarchical lineage for 29 generations.\n\n\n\nFeb 1, 2023\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Published - Oldest\n        \n         \n          Published - Newest\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nEagle Lake Ice-Out\n\n\n3 min\n\n\nAn analysis of ice-out data for Eagle Lake, WI since 1999.\n\n\n\nFeb 3, 2023\n\n\n\n\n\nFeb 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nGas Data for my Truck\n\n\n8 min\n\n\nAn analysis of every tank of gas that I have put in my truck.\n\n\n\nFeb 2, 2023\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerek Ogle Lineage\n\n\n2 min\n\n\nMy patriarchical lineage for 29 generations.\n\n\n\nFeb 1, 2023\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/posts/Ogle_Lineage/index.html",
@@ -597,7 +597,7 @@
   {
     "objectID": "professional/index.html",
     "href": "professional/index.html",
-    "title": "Derek Ogle",
+    "title": "Derek H. Ogle",
     "section": "",
     "text": "I worked for Northland College as a fisheries and statistics professor for 26 years until 2022. I believe in Northland’s mission and core values surrounding the environment, sustainability, and social justice. I very much enjoyed helping students to reach their academic and career goals.\nWhile at Northland (and both before and since) I had opportunities to pursue my own scholarly interests. Towards that end I authored a fisheries-related book, book chapter, and several journal articles, and developed software mostly related to fisheries analyses.\nThough retired from that career I still, as part of the fishR core team, actively maintain the fishR webpage1 and several fisheries-related R packages.\nMy professional record is recorded on my CV and in the links above and below.\n\n        \n\n\n\n\n\nFootnotes\n\n\nResources for performing fisheries analyses in R.↩︎"
   },
@@ -719,5 +719,26 @@
     "title": "Gas Data for my Truck",
     "section": "Gas Mileage",
     "text": "Gas Mileage\n\n\n\n\n\nFigure 8: Average miles per gallon by year.\n\n\n\n\n\n\n\n\n\nFigure 9: Miles per gallon for individual tanks of gas separated by categories of miles pulling something. The red dashed line is the overall average miles per gallon."
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_IceOut/index.html",
+    "href": "portfolio/posts/Eagle_IceOut/index.html",
+    "title": "Eagle Lake Ice-Out",
+    "section": "",
+    "text": "My neighbor has recorded the ice-out dates for Eagle Lake, WI since 2012. He provided the data for me to “play with,” which I did below."
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_IceOut/index.html#ice-out-dates",
+    "href": "portfolio/posts/Eagle_IceOut/index.html#ice-out-dates",
+    "title": "Eagle Lake Ice-Out",
+    "section": "Ice-Out Dates",
+    "text": "Ice-Out Dates\n\n\n\n\n\nFigure 1: Eagle Lake ice out dates, 1999-2021.\n\n\n\n\n \n\n\n\n\n\nFigure 2: Eagle Lake ice out dates by year. Note no data for 1998."
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_IceOut/index.html#comparison-to-other-lakes",
+    "href": "portfolio/posts/Eagle_IceOut/index.html#comparison-to-other-lakes",
+    "title": "Eagle Lake Ice-Out",
+    "section": "Comparison to Other Lakes",
+    "text": "Comparison to Other Lakes\nLake Nebagamon is much larger (986 acres) but with a similar maximum depth (56 ft) as Eagle Lake that is approximately 20 miles nearly straight west of Eagle Lake. With the exception of a few notable years, the ice-out dates between these two lakes are quite similar. Lake Mendota is a very large (9781 acres) and deep (83 ft maximum) lake that is approximately 350 miles south of Eagle Lake. The ice-out dates for Mendota are always before those for Eagle Lake, but the very generally track together.\n\n\n\n\n\nFigure 3: Eagle Lake ice out dates by year with other lakes shown for comparison."
   }
 ]
