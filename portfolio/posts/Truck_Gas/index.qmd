@@ -144,7 +144,9 @@ minppg <- d |> filter(cost==min(cost)) |> select(date,cost)
 maxppg <- d |> filter(cost==max(cost)) |> select(date,cost)
 ```
 
-In late September 2016 I bought a Ford F-150 (@fig-F150). This was one of the first versions of the aluminum bodied trucks. For that reason, and just out of curiosity, I kept data relative to every tank of gas that I have put into the truck. A few facts as of `r format(d$date[nrow(d)],format="%B %d, %Y")`.
+In late September 2016 I bought a Ford F-150 (@fig-F150). This was one of the first versions of the aluminum bodied trucks. For that reason, and just out of curiosity, I kept data relative to every tank of gas that I have put into the truck.
+
+A few results as of `r format(d$date[nrow(d)],format="%B %d, %Y")`.
 
 - `r formatC(d$miles[nrow(d)],format="f",digits=0,big.mark=",")` miles driven (see @fig-ttlmiles)
 - `r formatC(sum(d$gallons),format="f",digits=1,big.mark=",")` gallons of gas purchased at a total of \$`r formatC(sum(d$total),format="f",digits=2,big.mark=",")` (see @fig-ttlgas and @fig-ttlgascost)
