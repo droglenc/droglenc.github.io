@@ -75,7 +75,8 @@ p_inhist <- ggplot(data=dat,mapping=aes(x=inDay)) +
   theme(axis.title.y=element_blank(),
         axis.text.y=element_blank(),
         panel.grid.major.y=element_blank(),
-        panel.grid.minor.y=element_blank())
+        panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF"))
 
 p_inhist <- p_inhist +
   annotate(geom="text",hjust="left",color=inclr,
@@ -90,7 +91,8 @@ p_outhist <- ggplot(data=dat,mapping=aes(x=outDay)) +
   scale_x_continuous(name="Day of Ice-Out",
                      breaks=date_breaks2,labels=date_labels2) +
   theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
-        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF"))
 
 p_outhist <- p_outhist +
   annotate(geom="text",hjust="right",color=outclr,
@@ -119,7 +121,8 @@ p_inout <- ggplot(data=dat,mapping=aes(x=fyr)) +
                      breaks=yr_breaks10,minor_breaks=yr_breaks5,
                      expand=expansion(mult=0.01)) +
   theme(axis.title.y=element_blank(),
-        panel.grid.minor.y=element_blank())
+        panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF"))
 
 p_inout <- p_inout +
   annotate(geom="text",vjust=1.5,color=inclr,
@@ -169,7 +172,8 @@ p_durhist <- ggplot(data=dat,mapping=aes(x=daysIced)) +
   scale_y_continuous(expand=expansion(mult=c(0,0.02))) +
   scale_x_continuous(name="Days of Ice Coverage") +
   theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
-        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank())
+        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF"))
 
 p_durhist +
   annotate(geom="text",hjust="left",
@@ -194,7 +198,8 @@ p_durat <- ggplot(data=dat,mapping=aes(x=inYr,y=daysIced)) +
   scale_x_continuous(name="Ice Season Start Year",
                      breaks=yr_breaks10,minor_breaks=yr_breaks5,
                      expand=expansion(mult=0.01)) +
-  theme(panel.grid.minor.y=element_blank())
+  theme(panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF"))
 
 p_durat +
   annotate(geom="point",x=1942.5,y=sum$durAvg,

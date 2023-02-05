@@ -29,7 +29,8 @@ theme_main <- function() {
       axis.title=element_text(size=14),
       axis.text=element_text(size=11,color="black"),
       panel.grid.major=element_line(color="gray90",linetype=2),
-      panel.grid.minor=element_blank()
+      panel.grid.minor=element_blank(),
+      plot.background=element_rect(fill="#FEFCFF")
     )
 }
 
@@ -42,7 +43,8 @@ theme_totals <- function() {
           legend.position=c(0.01,0.995),legend.justification=c(0,1),
           legend.margin=margin(t=0.25,l=0.25,r=0.25,b=0.25,unit="mm"),
           legend.key.size=unit(4,"mm"),
-          legend.title=element_blank())
+          legend.title=element_blank(),
+          plot.background=element_rect(fill="#FEFCFF"))
 }
 
 ## Colors for separations
