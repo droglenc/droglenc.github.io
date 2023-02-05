@@ -47,7 +47,7 @@ knitr::include_graphics("Ice.jpg")
 # Summary
 
 - [Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000), in Douglas County, is 986 acres with a maximum depth of 56 feet.
-- Ice-out dates recorded from `r min(dat$fyr)` to `r max(dat$fyr)`.
+- Ice-in and out dates recorded from `r min(dat$fyr)` to `r max(dat$fyr)`.
 - The average ice-in date is `r sum$inAvgDate` and the average ice-out date is `r sum$outAvgDate` (see @fig-inouthist).
 - The range for both ice-in (`r sum$inEarlyDate` to `r sum$inLateDate`) and ice-out (`r sum$outEarlyDate` to `r sum$outLateDate`) dates is considerable, at approximately six weeks for each (see @fig-inouthist).
 - There are *weak* indications for a slightly later ice-in date and, *possibly*, a slightly earlier ice-out date in the last two decades (see @fig-inout).
@@ -76,7 +76,7 @@ p_inhist <- ggplot(data=dat,mapping=aes(x=inDay)) +
         axis.text.y=element_blank(),
         panel.grid.major.y=element_blank(),
         panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 
 p_inhist <- p_inhist +
   annotate(geom="text",hjust="left",color=inclr,
@@ -92,7 +92,7 @@ p_outhist <- ggplot(data=dat,mapping=aes(x=outDay)) +
                      breaks=date_breaks2,labels=date_labels2) +
   theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
         panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 
 p_outhist <- p_outhist +
   annotate(geom="text",hjust="right",color=outclr,
@@ -122,7 +122,7 @@ p_inout <- ggplot(data=dat,mapping=aes(x=fyr)) +
                      expand=expansion(mult=0.01)) +
   theme(axis.title.y=element_blank(),
         panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 
 p_inout <- p_inout +
   annotate(geom="text",vjust=1.5,color=inclr,
@@ -173,7 +173,7 @@ p_durhist <- ggplot(data=dat,mapping=aes(x=daysIced)) +
   scale_x_continuous(name="Days of Ice Coverage") +
   theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
         panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 
 p_durhist +
   annotate(geom="text",hjust="left",
@@ -199,7 +199,7 @@ p_durat <- ggplot(data=dat,mapping=aes(x=inYr,y=daysIced)) +
                      breaks=yr_breaks10,minor_breaks=yr_breaks5,
                      expand=expansion(mult=0.01)) +
   theme(panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 
 p_durat +
   annotate(geom="point",x=1942.5,y=sum$durAvg,

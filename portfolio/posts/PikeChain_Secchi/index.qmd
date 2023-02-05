@@ -55,7 +55,7 @@ plotSecchi <- function(d,maxdepth=NA,strip.fill="gray30") {
           strip.text=element_text(color="white",face="bold",
                                   margin=margin(t=0.5,b=0.5,r=0.5,l=0.5,
                                                 unit="mm")),
-          plot.background=element_rect(fill="#FEFCFF"))
+          plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
   p
 }
 ```
@@ -165,7 +165,7 @@ ggplot(data=s_by_lake,aes(x=lake,y=mnsecchi)) +
         panel.grid.major.x=element_blank(),
         panel.grid.minor.x=element_blank(),
         panel.spacing=unit(1,unit="mm"),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 ```
 
 ```{r}
@@ -190,7 +190,7 @@ ggplot(s_by_yr_lake,aes(x=year,y=mnsecchi,color=lake)) +
         axis.title.x=element_blank(),
         axis.text.x=element_text(angle=45,hjust=1),
         legend.title=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF"))
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 
 ```
 

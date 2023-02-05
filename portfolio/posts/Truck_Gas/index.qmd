@@ -15,9 +15,7 @@ knitr:
 
 ```{r}
 #| label: packages
-library(dplyr)
-library(forcats)
-library(ggplot2)
+library(tidyverse)
 library(patchwork)
 ```
 ```{r}
@@ -30,7 +28,7 @@ theme_main <- function() {
       axis.text=element_text(size=11,color="black"),
       panel.grid.major=element_line(color="gray90",linetype=2),
       panel.grid.minor=element_blank(),
-      plot.background=element_rect(fill="#FEFCFF")
+      plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF")
     )
 }
 
@@ -43,8 +41,7 @@ theme_totals <- function() {
           legend.position=c(0.01,0.995),legend.justification=c(0,1),
           legend.margin=margin(t=0.25,l=0.25,r=0.25,b=0.25,unit="mm"),
           legend.key.size=unit(4,"mm"),
-          legend.title=element_blank(),
-          plot.background=element_rect(fill="#FEFCFF"))
+          legend.title=element_blank())
 }
 
 ## Colors for separations

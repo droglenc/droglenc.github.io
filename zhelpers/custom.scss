@@ -3,6 +3,10 @@ $carousel-transition-duration:       .6s;
 
 /*-- scss:rules --*/
 
+// litera is serif by default: revert to san-serif
+p {
+  font-family: $font-family-sans-serif;
+}
 
 /* this adjusts chunk output look */
 /* use class-output: output in _metadata.yml */
