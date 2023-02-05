@@ -1,0 +1,268 @@
+---
+title: Pike Chain of Lakes Secchi Depths
+description: A depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.
+author: Derek H. Ogle
+date: 2/5/2023
+image: Eagle_Milfoil.jpg
+categories:
+  - Pike Chain
+  - Limnology
+  - Vis
+knitr:
+  opts_chunk:
+    fig.width: 6
+    fig.height: 4
+format: 
+  html:
+    df-print: kable
+---
+
+
+```{r}
+#| label: setup
+library(tidyverse)
+
+lakes <- c("Buskey Bay","Lake Millicent","Hart Lake","Twin Bear Lake",
+           "Muskellunge Lake","Eagle Lake","Flynn Lake")
+lakeid <- c("10020502","043086","043079","043127",
+            "043087","043077","043078")
+lks <- c("Buskey Bay"="#1b9e77","Lake Millicent"="#d95f02","Hart Lake"="#7570b3",
+         "Twin Bear Lake"="#e6ab02","Muskellunge Lake"="#a6761d",
+         "Eagle Lake"="#e7298a","Flynn Lake"="#66a61e")
+
+clrs <- c("BLUE"="blue","GREEN"="green3","YELLOW"="gold2",
+          "BROWN"="brown","MISSING"="gray")
+hbs <- c("NO"=21,"YES"=25,"MISSING"=22)
+
+plotSecchi <- function(d,maxdepth=NA,strip.fill="gray30") {
+  p <- ggplot(data=d,aes(x=date2,y=secchi)) +
+    geom_segment(aes(xend=date2,yend=0),color="gray70",linewidth=0.6) +
+    geom_point(aes(fill=color,shape=hit_bottom),size=2) +
+    scale_y_reverse(name="Secchi Depth (ft)",limits=c(maxdepth,0),
+                    expand=expansion(mult=c(0.05,0))) +
+    scale_x_date(name="Observation Date",breaks="months",
+                 date_labels="%b") +
+    scale_fill_manual(values=clrs,guide="none") +
+    scale_shape_manual(values=hbs,guide="none") +
+    facet_wrap(vars(year)) +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=90,vjust=0.5),
+          axis.title.x=element_blank(),
+          panel.grid.major.x=element_blank(),
+          panel.grid.minor.x=element_blank(),
+          panel.spacing=unit(1,unit="mm"),
+          strip.background=element_rect(fill=strip.fill,color="gray30"),
+          strip.text=element_text(color="white",face="bold",
+                                  margin=margin(t=0.5,b=0.5,r=0.5,l=0.5,
+                                                unit="mm")),
+          plot.background=element_rect(fill="#FEFCFF"))
+  p
+}
+```
+
+```{r}
+#| label: data-prep
+wq <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="Secchi") |>
+  select(lake=`Lake`,date=`Start Date`,secchi=`Secchi (Feet)`,
+         hit_bottom=`Secchi Hit Bottom?`,chl=`Chlorophyll(ug/l)`,
+         P=`Total Phosphorus(ug/l)`,TSI_secchi=`Secchi TSI`,
+         TSI_chl=`Chlorophyll TSI`,TSI_P=`Total Phosphorus TSI`,
+         lake_level=`Lake Level`,appearance=Appearance,color=Color,
+         perception=Perception) |>
+  mutate(lake=factor(lake,levels=lakes),
+         date=as.Date(date,format="%m/%d/%Y"),
+         year=lubridate::year(date),
+         month=lubridate::month(date),
+         day=lubridate::day(date),
+         date2=as.Date(paste0(month,"/",day,"/2020"),format="%m/%d/%Y"),
+         color=ifelse(color=="","MISSING",color),
+         color=factor(color,levels=c("BLUE","GREEN","YELLOW",
+                                     "BROWN","MISSING")),
+         hit_bottom=ifelse(is.na(hit_bottom),"MISSING",hit_bottom),
+         hit_bottom=factor(hit_bottom,levels=c("YES","NO","MISSING")))
+
+secchi <- wq |>
+  filter(!is.na(secchi))
+
+maxdep <- max(secchi$secchi)
+
+s_by_yr_lake <- secchi |>
+  filter(month>6,month<9) |>
+  filter(year>2004) |>
+  filter(lake!="Flynn Lake") |>
+  group_by(lake,year) |>
+  summarize(
+    nsecchi=n(),
+    mnsecchi=mean(secchi),
+    sdsecchi=sd(secchi))
+
+s_by_lake <- s_by_yr_lake |>
+  summarize(
+    nsecchi=n(),
+    mnsecchi=mean(mnsecchi)) |>
+  mutate(mnlbl=formatC(mnsecchi,format="f",digits=1))
+```
+
+## Introduction
+The Pike Chain of Lakes near Iron River, WI is a set of seven connected lakes. The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since [Eurasian watermilfoil](https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil) (@fig-EagleMilfoil) was introduced, volunteers have recorded various water quality parameters for the Pike Chain of lakes. Below I show the record of Secchi depth recordings that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://dnr.wisconsin.gov/topic/lakes/clmn).
+
+```{r}
+#| label: fig-EagleMilfoil
+#| fig-cap: Eurasion watermilfoil on Eagle Lake, early summer 2022.
+#| out-width: 67%
+knitr::include_graphics("Eagle_Milfoil.jpg")
+```
+
+A Secchi disk is an 8-inch disk painted in quadrants with black and white that is lowered into a lake to assess water clarity. The depth at which the disk is no longer visible is called the Secchi depth and is a measure of water transparency; the deeper the depth the more transparent the water. Water transparency can be a surrogate for water quality (more transparent generally means higher water quality) and can be an indicator of human activity on and around the lake. See [this](https://www.nalms.org/secchidipin/monitoring-methods/the-secchi-disk/what-is-a-secchi-disk/) and [this](https://www.youtube.com/watch?v=NmRCh21SlFg) for quick introductions to Secchi disks.
+
+&nbsp;
+
+:::{.callout-warning icon=false}
+# Summary
+
+- Data was inconsistently recorded across lakes.
+- Muskellunge Lake had the shallowest Secchi depth, whereas Lake Millicent and Hart Lake had the deepest (see @fig-bylake).
+- Average Secchi depth varied annually within each lake, with no clear trend of increasing or decreasing in most lakes (see @fig-yrbylake),
+:::
+
+&nbsp;
+
+## Lake Comparisons
+
+```{r}
+#| label: tbl-lakedata
+#| tbl-cap: Characteristics of each lake in the Pike Chain of Lakes.
+lakeinfo <- tibble::tribble(
+  ~Lake,~`Size (acres)`,~`Max. Depth (ft)`,~`Mean Depth (ft)`,
+  "Buskey Bay",88,51,15,
+  "Lake Millicent",183,53,26,
+  "Hart Lake",257,54,25,
+  "Twin Bear Lake",157,59,23,
+  "Muskellunge Lake",43,35,12,
+  "Eagle Lake",163,52,14,
+  "Flynn Lake",30,9,5
+)
+
+lakeinfo
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-bylake
+#| fig-cap: Mean Secchi depth for all July to August observations across all years by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.
+#| fig-width: 5
+ggplot(data=s_by_lake,aes(x=lake,y=mnsecchi)) +
+  geom_segment(aes(xend=lake,yend=0),color="gray70",linewidth=1) +
+  geom_point(aes(fill=lake),pch=21,size=3) +
+  geom_text(aes(label=mnlbl),vjust=1.75,size=3) +
+  scale_y_reverse(name="Mean Secchi Depth (ft)",limits=c(maxdep,0),
+                  expand=expansion(mult=c(0.05,0))) +
+  scale_fill_manual(values=lks,guide="none") +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=45,hjust=1),
+        axis.title.x=element_blank(),
+        panel.grid.major.x=element_blank(),
+        panel.grid.minor.x=element_blank(),
+        panel.spacing=unit(1,unit="mm"),
+        plot.background=element_rect(fill="#FEFCFF"))
+```
+
+```{r}
+#| label: fig-yrbylake
+#| fig-cap: Mean Secchi depth for all July to August observations by year and by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.
+#| fig-width: 7
+ggplot(s_by_yr_lake,aes(x=year,y=mnsecchi,color=lake)) +
+  geom_line(size=1.5) +
+  geom_point(size=2,pch=21,fill="white") +
+  scale_y_reverse(name="Mean Secchi Depth (ft)",limits=c(NA,0),
+                  expand=expansion(mult=c(0.05,0))) +
+  scale_x_continuous(breaks=2000:2025) +
+  scale_color_manual(values=lks) +
+  theme_bw() +
+  theme(panel.grid.major.x=element_blank(),
+        panel.grid.minor.x=element_blank(),
+        panel.spacing=unit(1,unit="mm"),
+        strip.background=element_rect(fill="gray30",color="gray30"),
+        strip.text=element_text(color="white",face="bold",
+                                margin=margin(t=0.5,b=0.5,r=0.5,l=0.5,
+                                              unit="mm")),
+        axis.title.x=element_blank(),
+        axis.text.x=element_text(angle=45,hjust=1),
+        legend.title=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF"))
+
+```
+
+
+&nbsp;
+
+## Individual Lakes
+
+```{r}
+#| label: fig-Sech1
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[1],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[1]),maxdepth=maxdep,strip.fill=lks[1])
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-Sech2
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[2],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[2]),maxdepth=maxdep,strip.fill=lks[2])
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-Sech3
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[3],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[3]),maxdepth=maxdep,strip.fill=lks[3])
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-Sech4
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[4],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[4]),maxdepth=maxdep,strip.fill=lks[4])
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-Sech5
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[5],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[5]),maxdepth=maxdep,strip.fill=lks[5])
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-Sech6
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[6],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[6]),maxdepth=maxdep,strip.fill=lks[6])
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-Sech7
+#| fig-cap: !expr paste0("Secchi depths for **",lakes[7],"**. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).")
+plotSecchi(filter(secchi,lake==lakes[7]),maxdepth=maxdep,strip.fill=lks[7])
+```
+
+&nbsp;
+
+## Data Sources
+
+```{r}
+#| label: show_sources
+#| results: asis
+for (i in seq_along(lakeid)) {
+  cat("- ",lakes[i],": [https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=",
+      lakeid[i],"](https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=",
+      lakeid[i],")\n",sep="")
+}
+```

@@ -26,7 +26,7 @@ source("../_helpers/iceHelpers.R")
 ```{r}
 #| label: data-prep
 dat <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Nebagamon")
-sum <- sumIceData(dat) %>%
+sum <- sumIceData(dat) |>
   mutate(inEarlyYr=dat$fyr[dat$inDay==inEarlyDay],
          inLateYr=dat$fyr[dat$inDay==inLateDay],
          outEarlyYr=dat$fyr[dat$outDay==outEarlyDay],
@@ -228,12 +228,12 @@ p_durat +
 #| label: tbl-durShort
 #| tbl-cap: !expr paste0("Winter seasons with the 10 **shortest** ice durations, 1943-",max(dat$fyr),".")
 
-tmp <- dat %>%
-  select(season,inDate,outDate,daysIced) %>%
+tmp <- dat |>
+  select(season,inDate,outDate,daysIced) |>
   mutate(inDate=format(inDate,"%b %e"),
          outDate=format(outDate,"%b %e"))
 
-tmp %>% slice_min(order_by=daysIced,n=10) %>%
+tmp |> slice_min(order_by=daysIced,n=10) |>
   rename("Season"=season,"In"=inDate,"Out"=outDate,"Duration"=daysIced)
 ```
 
@@ -243,7 +243,7 @@ tmp %>% slice_min(order_by=daysIced,n=10) %>%
 #| label: tbl-durLong
 #| tbl-cap: !expr paste0("Winter seasons with the 10 **longest** ice durations, 1943-",max(dat$fyr),".")
 
-tmp %>% slice_max(order_by=daysIced,n=10) %>%
+tmp |> slice_max(order_by=daysIced,n=10) |>
   rename("Season"=season,"In"=inDate,"Out"=outDate,"Duration"=daysIced)
 ```
 
