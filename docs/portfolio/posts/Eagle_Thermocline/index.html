@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Derek H. Ogle">
-<meta name="description" content="A depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.">
+<meta name="description" content="A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.">
 
-<title>Derek H. Ogle - Pike Chain of Lakes Secchi Depths</title>
+<title>Derek H. Ogle - Eagle Lake Thermocline</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,9 +54,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../zhelpers/styles.css">
-<meta property="og:title" content="Derek H. Ogle - Pike Chain of Lakes Secchi Depths">
-<meta property="og:description" content="A depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.">
-<meta property="og:image" content="https://derekogle.com/portfolio\posts\PikeChain_Secchi\Eagle_Milfoil.jpg">
+<meta property="og:title" content="Derek H. Ogle - Eagle Lake Thermocline">
+<meta property="og:description" content="A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.">
+<meta property="og:image" content="https://derekogle.com/portfolio\posts\Eagle_Thermocline\Eagle_Lake.jpg">
 <meta property="og:site-name" content="Derek H. Ogle">
 </head>
 
@@ -97,10 +97,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Pike Chain of Lakes Secchi Depths</h1>
+      <h1 class="title">Eagle Lake Thermocline</h1>
                   <div>
         <div class="description">
-          A depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.
+          A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Feb 5, 2023</p>
+        <p class="date">Feb 6, 2023</p>
       </div>
     </div>
     
@@ -147,9 +147,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#lake-comparisons" id="toc-lake-comparisons" class="nav-link" data-scroll-target="#lake-comparisons">Lake Comparisons</a></li>
-  <li><a href="#individual-lakes" id="toc-individual-lakes" class="nav-link" data-scroll-target="#individual-lakes">Individual Lakes</a></li>
-  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#temperature-profile-plot" id="toc-temperature-profile-plot" class="nav-link" data-scroll-target="#temperature-profile-plot">Temperature Profile Plot</a></li>
+  <li><a href="#seasonal-changes-in-temperature-profile" id="toc-seasonal-changes-in-temperature-profile" class="nav-link" data-scroll-target="#seasonal-changes-in-temperature-profile">Seasonal Changes in Temperature Profile</a></li>
+  <li><a href="#eagle-lake-temperature-profiles" id="toc-eagle-lake-temperature-profiles" class="nav-link" data-scroll-target="#eagle-lake-temperature-profiles">Eagle Lake Temperature Profiles</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -165,20 +166,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell" data-layout-align="center">
 
 </div>
-<section id="introduction" class="level2 page-columns page-full">
+<section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes (<a href="#fig-PikeChain">Figure&nbsp;1</a>). The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since <a href="https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil">Eurasian watermilfoil</a> was introduced, volunteers have recorded various water quality parameters for the Pike Chain of lakes. Below I show the record of Secchi depth recordings that are publicly available through the <a href="https://dnr.wisconsin.gov/topic/lakes/clmn">Wisconsin DNR Citizen Lake Monitoring Network</a>.</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-PikeChain" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="../_helpers/PikeChain.webp" class="img-fluid figure-img" style="width:67.0%"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Satellite image of the nine lakes that form the Pike Chain of Lakes.</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>A Secchi disk is an 8-inch disk painted in quadrants with black and white that is lowered into a lake to assess water clarity. The depth at which the disk is no longer visible is called the Secchi depth and is a measure of water transparency; the deeper the depth the more transparent the water. Water transparency can be a surrogate for water quality (more transparent generally means higher water quality) and can be an indicator of human activity on and around the lake. See <a href="https://www.nalms.org/secchidipin/monitoring-methods/the-secchi-disk/what-is-a-secchi-disk/">this</a> and <a href="https://www.youtube.com/watch?v=NmRCh21SlFg">this</a> for quick introductions to Secchi disks.</p>
+<p>The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes, seven of which have relatively consistent water quality data. The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since <a href="https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil">Eurasian watermilfoil</a> was introduced, volunteers have recorded various water quality parameters for the Pike Chain of Lakes. Below I show the record of temperature by depth recordings that are publicly available through the <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n">Wisconsin DNR Citizen Lake Monitoring Network</a>.</p>
 <p>&nbsp;</p>
 <div class="callout-warning callout callout-style-default no-icon callout-captioned">
 <div class="callout-header d-flex align-content-center">
@@ -191,196 +181,79 @@ Summary
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>Data was inconsistently recorded across lakes.</li>
-<li>Muskellunge Lake had the shallowest Secchi depth, whereas Lake Millicent and Hart Lake had the deepest (see <a href="#fig-bylake">Figure&nbsp;2</a>).</li>
-<li>Average Secchi depth varied annually within each lake, with no clear trend of increasing or decreasing in most lakes (see <a href="#fig-yrbylake">Figure&nbsp;3</a>),</li>
+<li>Multiple temperature profiles can be constructed for each year since 2012.</li>
+<li>The thermocline has begun to form by the earliest observations in May and is beginning to breakup in October (where those observations exist).</li>
+<li>The top of the thermocline is generally between 15-20 feet deep in mid to late summer.</li>
+<li>The bottom of the thermocline is generally betwen 25-30 feet deep in mid to late summer.</li>
 </ul>
 </div>
 </div>
 <p>&nbsp;</p>
 </section>
-<section id="lake-comparisons" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="lake-comparisons">Lake Comparisons</h2>
-<p>Only the seven lakes listed in <span class="citation" data-cites="tab-lakedata">@tab-lakedata</span> had reliable Secchi depth data.</p>
+<section id="temperature-profile-plot" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="temperature-profile-plot">Temperature Profile Plot</h2>
+<p>A temperature profile plot shows the water temperature at various depths through the water column (<a href="#fig-ex1991">Figure&nbsp;1</a>). Depth is shown with the water surface at the top and the lake bottom at the bottom of the <em>left</em> axis. Temperature increases from left to right on the <em>bottom</em> axis.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div class="kable-table page-columns page-full">
-<div id="tbl-lakedata" class="anchored page-columns page-full">
-<table class="table table-sm table-striped">
-
-<thead>
-<tr class="header">
-<th style="text-align: left;">Lake</th>
-<th style="text-align: right;">Size (acres)</th>
-<th style="text-align: right;">Max. Depth (ft)</th>
-<th style="text-align: right;">Mean Depth (ft)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Buskey Bay</td>
-<td style="text-align: right;">88</td>
-<td style="text-align: right;">51</td>
-<td style="text-align: right;">15</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Lake Millicent</td>
-<td style="text-align: right;">183</td>
-<td style="text-align: right;">53</td>
-<td style="text-align: right;">26</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Hart Lake</td>
-<td style="text-align: right;">257</td>
-<td style="text-align: right;">54</td>
-<td style="text-align: right;">25</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Twin Bear Lake</td>
-<td style="text-align: right;">157</td>
-<td style="text-align: right;">59</td>
-<td style="text-align: right;">23</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Muskellunge Lake</td>
-<td style="text-align: right;">43</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">12</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Eagle Lake</td>
-<td style="text-align: right;">163</td>
-<td style="text-align: right;">52</td>
-<td style="text-align: right;">14</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Flynn Lake</td>
-<td style="text-align: right;">30</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">5</td>
-</tr>
-</tbody>
-</table>
-<div class="quarto-table-caption margin-caption">Table&nbsp;1: Characteristics of the seven lakes in the Pike Chain of Lakes with consistent water quality data.</div></div>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-bylake" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<div id="fig-ex1991" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-bylake-1.png" class="img-fluid figure-img" width="480"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Mean Secchi depth for all July to August observations across all years by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.</figcaption><p></p>
+<p><img src="index_files/figure-html/fig-ex1991-1.png" class="img-fluid figure-img" width="384"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Temperature profile plot for August 1, 1991. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
+<p><a href="#fig-ex1991">Figure&nbsp;1</a> illustrates a typical mid-summer profile where the temperature is fairly and consistently warm near the surface (75-80<sup>o</sup>F from 0 to 15 ft) declines quickly over a fairly narrow depth range (drops from 75<sup>o</sup>F to 50<sup>o</sup>F from 15 to 30 ft) and then stays fairly and consistently cool at greater depths. &nbsp;</p>
+</section>
+<section id="seasonal-changes-in-temperature-profile" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="seasonal-changes-in-temperature-profile">Seasonal Changes in Temperature Profile</h2>
+<p>In winter (under the ice in northern Wisconsin) and at ice-out the water temperature will be a nearly constant 39<sup>o</sup>F from top to bottom (perhaps a little cooler at the ice-water interface). However, as spring progresses the surface water becomes warmer and moving into summer that warmer water will extend deeper into the lake. However, in most lakes in our area there will be a depth where the water temperature begins to decline dramatically over a fairly narrow depth range (see <a href="#fig-ex1991">Figure&nbsp;1</a>). Eventually there will be a depth where the water temperatures stays fairly and constantly cold below that depth. The transition zone of water temperatures quickly declining from warmer surface to cooler below-surface water is called the <em>thermocline</em>. As fall approaches the process is reversed such that the surface water will cool (and, thus, sink) until the water temperature is again fairly constant throughout the water column.</p>
+<p>On Eagle Lake we do not have water column temperature data very near the ice-out and ice-in dates. Thus, the seasonal phenomenon just described cannot be fully illustrated for Eagle Lake. However, <a href="#fig-ex2018">Figure&nbsp;2</a> shows the general trend of warmer surface water, the thermocline, and cooler water at deeper depths through the open-water months. The warming and then cooling of the surface water layer is also evident in <a href="#fig-ex2018">Figure&nbsp;2</a>.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-yrbylake" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<div id="fig-ex2018" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-yrbylake-1.png" class="img-fluid figure-img" width="672"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;3: Mean Secchi depth for all July to August observations by year and by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.</figcaption><p></p>
+<p><img src="index_files/figure-html/fig-ex2018-1.gif" class="img-fluid figure-img" style="width:50.0%"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Temperature profile plots for six dates throughout the open-water season in 2018.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>The dissolution of the thermocline in late fall was more evident in the data from 2020, where the temperature was almost constant throughout the water column on the last observation date of October 16 (<a href="#fig-ex2020">Figure&nbsp;3</a>).</p>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-ex2020" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="index_files/figure-html/fig-ex2020-1.gif" class="img-fluid figure-img" style="width:50.0%"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;3: Temperature profile plots for nine dates throughout the open-water season in 2020.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="eagle-lake-temperature-profiles" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="eagle-lake-temperature-profiles">Eagle Lake Temperature Profiles</h2>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-ELTP" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="index_files/figure-html/fig-ELTP-1.png" class="img-fluid figure-img" width="576"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;4: Temperature profiles for Eagle Lake separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <p>&nbsp;</p>
 </section>
-<section id="individual-lakes" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="individual-lakes">Individual Lakes</h2>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech1" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech1-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;4: Secchi depths for <strong>Buskey Bay</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech2-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;5: Secchi depths for <strong>Lake Millicent</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech3" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech3-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;6: Secchi depths for <strong>Hart Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech4" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech4-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;7: Secchi depths for <strong>Twin Bear Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech5" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech5-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;8: Secchi depths for <strong>Muskellunge Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech6" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech6-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;9: Secchi depths for <strong>Eagle Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-Sech7" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-Sech7-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;10: Secchi depths for <strong>Flynn Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-</section>
-<section id="data-sources" class="level2">
-<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
-<div class="cell" data-layout-align="center">
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <ul>
-<li>Buskey Bay: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=10020502">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=10020502</a></li>
-<li>Lake Millicent: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043086">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043086</a></li>
-<li>Hart Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043079">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043079</a></li>
-<li>Twin Bear Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043127">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043127</a></li>
-<li>Muskellunge Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043087">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043087</a></li>
-<li>Eagle Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077</a></li>
-<li>Flynn Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043078">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043078</a></li>
+<li><a href="https://www.nalms.org/secchidipin/monitoring-methods/temperature-and-oxygen/">Temperature and Oxygen</a> at North American Lake Management Society</li>
+<li><a href="https://www.canr.msu.edu/michiganlakes/lake_ecology/dissolved_oxygen_and_temperature">Dissolved Oxygen and Temperature</a> at Michigan State U.</li>
+<li><a href="https://www.britannica.com/science/lake/Currents">Vertical Mixing and Turnover</a> at Britannica.com</li>
+<li><a href="https://www.boatsafe.com/thermocline/">Thermocline</a> at BoatSafe.com</li>
 </ul>
-</div>
 
 
 </section>

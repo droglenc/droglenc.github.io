@@ -104,13 +104,13 @@ s_by_lake <- s_by_yr_lake |>
 ```
 
 ## Introduction
-The Pike Chain of Lakes near Iron River, WI is a set of seven connected lakes. The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since [Eurasian watermilfoil](https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil) (@fig-EagleMilfoil) was introduced, volunteers have recorded various water quality parameters for the Pike Chain of lakes. Below I show the record of Secchi depth recordings that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://dnr.wisconsin.gov/topic/lakes/clmn).
+The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes  (@fig-PikeChain). The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since [Eurasian watermilfoil](https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil) was introduced, volunteers have recorded various water quality parameters for the Pike Chain of lakes. Below I show the record of Secchi depth recordings that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://dnr.wisconsin.gov/topic/lakes/clmn).
 
 ```{r}
-#| label: fig-EagleMilfoil
-#| fig-cap: Eurasion watermilfoil on Eagle Lake, early summer 2022.
+#| label: fig-PikeChain
+#| fig-cap: Satellite image of the nine lakes that form the Pike Chain of Lakes.
 #| out-width: 67%
-knitr::include_graphics("Eagle_Milfoil.jpg")
+knitr::include_graphics("../_helpers/PikeChain.webp")
 ```
 
 A Secchi disk is an 8-inch disk painted in quadrants with black and white that is lowered into a lake to assess water clarity. The depth at which the disk is no longer visible is called the Secchi depth and is a measure of water transparency; the deeper the depth the more transparent the water. Water transparency can be a surrogate for water quality (more transparent generally means higher water quality) and can be an indicator of human activity on and around the lake. See [this](https://www.nalms.org/secchidipin/monitoring-methods/the-secchi-disk/what-is-a-secchi-disk/) and [this](https://www.youtube.com/watch?v=NmRCh21SlFg) for quick introductions to Secchi disks.
@@ -128,10 +128,11 @@ A Secchi disk is an 8-inch disk painted in quadrants with black and white that i
 &nbsp;
 
 ## Lake Comparisons
+Only the seven lakes listed in @tab-lakedata had reliable Secchi depth data.
 
 ```{r}
 #| label: tbl-lakedata
-#| tbl-cap: Characteristics of each lake in the Pike Chain of Lakes.
+#| tbl-cap: Characteristics of the seven lakes in the Pike Chain of Lakes with consistent water quality data.
 lakeinfo <- tibble::tribble(
   ~Lake,~`Size (acres)`,~`Max. Depth (ft)`,~`Mean Depth (ft)`,
   "Buskey Bay",88,51,15,
