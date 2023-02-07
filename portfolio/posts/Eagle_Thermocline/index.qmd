@@ -68,6 +68,7 @@ d <- d |>
 
 trng <- range(d$Temp)
 
+# specific examples used below
 d91 <- d |> filter(Year==1991)
 d18 <- d |> filter(Year==2018)
 d20 <- d |> filter(Year==2020)
@@ -94,7 +95,7 @@ A temperature profile plot shows the water temperature at various depths through
 
 ```{r}
 #| label: fig-ex1991
-#| fig-cap: !expr paste0('Temperature profile plot for ',format(d91$Date[1],format="%B %e, %Y"),'. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.')
+#| fig-cap: !expr str_glue('Temperature profile plot for {format(d91$Date[1],format="%B %e, %Y")}. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.')
 tp(d91)
 ```
 
@@ -108,7 +109,7 @@ On Eagle Lake we do not have water column temperature data very near the ice-out
 
 ```{r}
 #| label: fig-ex2018
-#| fig-cap: !expr paste("Temperature profile plots for",xfun::numbers_to_words(length(unique(d18$Date))),"dates throughout the open-water season in 2018.")
+#| fig-cap: !expr str_glue('Temperature profile plots for {xfun::numbers_to_words(length(unique(d18$Date)))} dates throughout the open-water season in 2018.')
 #| out-width: 50%
 tp(d18) +
   transition_states(Date,wrap=FALSE) +
@@ -124,7 +125,7 @@ The dissolution of the thermocline in late fall was more evident in the data fro
 
 ```{r}
 #| label: fig-ex2020
-#| fig-cap: !expr paste("Temperature profile plots for",xfun::numbers_to_words(length(unique(d20$Date))),"dates throughout the open-water season in 2020.")
+#| fig-cap: !expr str_glue('Temperature profile plots for {xfun::numbers_to_words(length(unique(d20$Date)))} dates throughout the open-water season in 2020.')
 #| out-width: 50%
 tp(d20) +
   transition_states(Date,wrap=FALSE) +
@@ -137,7 +138,7 @@ tp(d20) +
 ## Eagle Lake Temperature Profiles
 ```{r}
 #| label: fig-ELTP
-#| fig-cap: Temperature profiles for Eagle Lake separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall.
+#| fig-cap: Temperature profiles separated by year (panels) and observation dates. Profile colors start with blue for early May and then transitions through purple and pink to red for early July and then through orange and brown to green for late October.
 #| fig-height: 8
 #| fig-width: 6
 tp(d,show.pts=FALSE,trng=trng) +
@@ -148,7 +149,8 @@ tp(d,show.pts=FALSE,trng=trng) +
 
 ## Resources
 
+- [Lake Turnover](https://www.cleanlakesalliance.org/lake-turnover/) at the Clean Lakes Alliance
+- [Vertical Mixing and Turnover](https://www.britannica.com/science/lake/Currents) at Britannica.com
 - [Temperature and Oxygen](https://www.nalms.org/secchidipin/monitoring-methods/temperature-and-oxygen/) at North American Lake Management Society
 - [Dissolved Oxygen and Temperature](https://www.canr.msu.edu/michiganlakes/lake_ecology/dissolved_oxygen_and_temperature) at Michigan State U.
-- [Vertical Mixing and Turnover](https://www.britannica.com/science/lake/Currents) at Britannica.com
 - [Thermocline](https://www.boatsafe.com/thermocline/) at BoatSafe.com
