@@ -1,0 +1,169 @@
+---
+title: Eagle Lake Thermocline II
+description: A depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.
+author: Derek H. Ogle
+date: 2/8/2023
+image: Eagle_Lake.jpg
+categories:
+  - Pike Chain
+  - Limnology
+  - Vis
+knitr:
+  opts_chunk:
+    fig.width: 4
+    fig.height: 4
+format: 
+  html:
+    df-print: kable
+---
+
+
+```{r}
+#| label: setup
+library(tidyverse)
+library(gganimate)
+library(patchwork)
+
+tp <- function(d,show.pts=TRUE,trng=NULL) {
+  if (is.null(trng)) trng <- range(d$Temp)
+  pt <- ggplot(data=d,mapping=aes(x=Temp,y=Depth,color=tWeek,group=DOY)) +
+    geom_hline(aes(yintercept=0),linewidth=1,color="aquamarine") +
+    geom_path(linewidth=1) +
+    annotate(geom="rect",fill="slategray",
+             xmin=40,xmax=trng[2],ymin=52,ymax=53) +
+    scale_y_reverse(name="Depth (ft)",limits=c(NA,0),breaks=seq(0,50,10),
+                    expand=expansion(mult=c(0,0.01))) +
+    scale_x_continuous(name="Temperature (\u00b0F)",limits=c(40,NA),
+                       expand=expansion(mult=0.01)) +
+    scale_color_gradient2(low="blue3",
+                          mid="red2",midpoint=11,
+                          high="green3",guide="none") +
+    theme_minimal() +
+    theme(legend.position="none")
+  if (show.pts) pt <- pt + geom_point(pch=21,fill="white",size=1)
+  pt
+}
+
+op <- function(d,show.pts=TRUE,orng=NULL,righty=FALSE,show.tol=FALSE) {
+  if (is.null(orng)) orng <- range(d$DO)
+  po <- ggplot(data=d,mapping=aes(x=DO,y=Depth,color=tWeek,group=DOY)) +
+    geom_hline(aes(yintercept=0),linewidth=1,color="aquamarine") +
+    geom_path(linewidth=1) +
+    annotate(geom="rect",fill="slategray",
+             xmin=0,xmax=orng[2],ymin=52,ymax=53) +
+    scale_x_continuous(name="Dissolved Oxygen (mg/L)",limits=c(0,NA),
+                       expand=expansion(mult=0.01)) +
+    scale_color_gradient2(low="blue3",
+                          mid="red2",midpoint=11,
+                          high="green3",guide="none") +
+    theme_minimal() +
+    theme(legend.position="none")
+  if (show.pts) po <- po + geom_point(pch=21,fill="white",size=1)
+  if (show.tol) po <- po + geom_vline(xintercept=6,
+                                      linetype="dashed",color="red",alpha=0.5)
+  if (righty) {
+    po <- po + 
+      scale_y_reverse(name="Depth (ft)",limits=c(NA,0),breaks=seq(0,50,10),
+                      expand=expansion(mult=c(0,0.01)),
+                      position="right") +
+      theme(axis.title.y=element_blank())
+  } else {
+    po <- po + 
+      scale_y_reverse(name="Depth (ft)",limits=c(NA,0),breaks=seq(0,50,10),
+                      expand=expansion(mult=c(0,0.01)))
+  }
+  po
+}
+```
+
+```{r}
+#| label: data-prep
+d <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="DO") |>
+  filter(Lake=="Eagle Lake",!is.na(Temperature),!is.na(Depth)) |>
+  mutate(Depth=ifelse(`Depth Units`=="FEET",Depth,Depth*3.280839895),
+         Temperature=ifelse(`Temperature Units`=="DEGREES F",Temperature,
+                            Temperature*1.8+32)) |>
+  select(-contains("Units"),-Notes) |>
+  rename(Date=`Start Date`,Temp=Temperature,DO=`Dissolved Oxygen`) |>
+  mutate(Date=as.Date(Date,format="%m/%d/%Y"),
+         Year=lubridate::year(Date),
+         Month=lubridate::month(Date),
+         Day=lubridate::day(Date),
+         Week=lubridate::isoweek(Date),
+         tWeek=Week-min(Week),
+         DOY=lubridate::yday(Date),
+         fDate=stringr::str_squish(format(Date,format="%b %e")))
+
+# Removing two dates that seem to have erroneous data
+d <- d |>
+  filter(!Date %in% as.Date(c("2019-06-04","2020-09-22")))
+
+trng <- range(d$Temp)
+orng <- range(d$DO)
+
+# specific examples used below
+d91 <- d |> filter(Year==1991)
+d20 <- d |> filter(Year==2020)
+```
+
+## Introduction
+In a [previous post](../Eagle_Thermocline/) I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n). Here I explore dissolved oxygen data from the same source.
+
+&nbsp;
+
+:::{.callout-warning icon=false}
+# Summary
+
+- Multiple dissolved oxygen profiles can be constructed for each year since 2012.
+- Dissolved oxygen profiles closely match the temperature profiles relative to the thermocline.
+- Dissolved oxygen values above the thermocline were nearly always above 6 mg/L, which is considered to be good oxygen levels for warmwater fishes.
+:::
+
+&nbsp;
+
+## Temperature Oxygen Relationship & Seasonality
+As noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a faily well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depltion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperatue profile (@fig-ex1991).
+
+```{r}
+#| label: fig-ex1991
+#| fig-cap: !expr str_glue('Temperature and dissolved oxygen profile plots for {format(d91$Date[1],format="%B %e, %Y")}. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.')
+#| fig-width: 7
+tp(d91) + op(d91,right=TRUE)
+```
+
+&nbsp;
+
+The oxygen profile just described sets up quickly on our lakes following the spring turnover period. Our Eagle Lake data does not include samples from early enough in the year to show the vertical mixing throughout the water column. However, @fig-ex2020 shows the general pattern described above for all sample dates, but also shows the general tend that dissolved oxygen in the upper layer is higher in the early and late samples as cooler water can hold more dissolved oxygen.
+
+```{r}
+#| label: fig-ex2020
+#| fig-cap: !expr str_glue('Dissolved oxygen profile plots for {xfun::numbers_to_words(length(unique(d20$Date)))} dates throughout the open-water season in 2020.')
+#| out-width: 50%
+op(d20) +
+  transition_states(Date,wrap=FALSE) +
+  labs(title='{format(as.Date(closest_state),"%B %e, %Y")}') +
+  theme(plot.title=element_text(size=10)) +
+  enter_fade() + exit_fade()
+```
+
+&nbsp;
+
+## Eagle Lake DO Profiles
+```{r}
+#| label: fig-ELTP
+#| fig-cap: Dissolved oxygen profiles separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall. The vertical dashed red line is at 6 mg/L.
+#| fig-height: 8
+#| fig-width: 6
+op(d,orng=orng,show.pts=FALSE,show.tol=TRUE) +
+  facet_wrap(vars(Year),ncol=3)
+```
+
+&nbsp;
+
+## Resources
+
+- [Temperature and Oxygen](https://www.nalms.org/secchidipin/monitoring-methods/temperature-and-oxygen/) at North American Lake Management Society
+- [Dissolved Oxygen and Temperature](https://www.canr.msu.edu/michiganlakes/lake_ecology/dissolved_oxygen_and_temperature) at Michigan State U.
+- [Vertical Mixing and Turnover](https://www.britannica.com/science/lake/Currents) at Britannica.com
+- [Thermocline](https://www.boatsafe.com/thermocline/) at BoatSafe.com
+- [Water Quality Criteria](https://www.epa.gov/sites/default/files/2018-10/documents/quality-criteria-water-1986.pdf) from the EPA (see Table 1 on page 216 for DO concentrations)

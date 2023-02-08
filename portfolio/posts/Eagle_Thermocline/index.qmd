@@ -85,7 +85,7 @@ The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes, se
 - Multiple temperature profiles can be constructed for each year since 2012.
 - The thermocline has begun to form by the earliest observations in May and is beginning to breakup in October (where those observations exist).
 - The top of the thermocline is generally between 15-20 feet deep in mid to late summer.
-- The bottom of the thermocline is generally betwen 25-30 feet deep in mid to late summer.
+- The bottom of the thermocline is generally between 25-30 feet deep in mid to late summer.
 :::
 
 &nbsp;

@@ -578,7 +578,35 @@
     "href": "portfolio/index.html",
     "title": "Portfolio of Fun Analyses",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Published - Oldest\n        \n         \n          Published - Newest\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nEagle Lake Thermocline\n\n\n5 min\n\n\nA depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.\n\n\n\nFeb 6, 2023\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nPike Chain of Lakes Secchi Depths\n\n\n7 min\n\n\nA depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.\n\n\n\nFeb 5, 2023\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nLake Nebagamon Ice\n\n\n6 min\n\n\nAn analysis of ice-in and out data for Lake Nebagamon, WI since 1943.\n\n\n\nFeb 4, 2023\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Lake Ice-Out\n\n\n3 min\n\n\nAn analysis of ice-out data for Eagle Lake, WI since 1999.\n\n\n\nFeb 3, 2023\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nGas Data for my Truck\n\n\n8 min\n\n\nAn analysis of every tank of gas that I have put in my truck.\n\n\n\nFeb 2, 2023\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerek Ogle Lineage\n\n\n2 min\n\n\nMy patriarchical lineage for 29 generations.\n\n\n\nFeb 1, 2023\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Published - Oldest\n        \n         \n          Published - Newest\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nEagle Lake Thermocline II\n\n\n5 min\n\n\nA depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.\n\n\n\nFeb 8, 2023\n\n\n\n\n\nFeb 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Lake Thermocline\n\n\n5 min\n\n\nA depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.\n\n\n\nFeb 6, 2023\n\n\n\n\n\nFeb 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nPike Chain of Lakes Secchi Depths\n\n\n7 min\n\n\nA depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.\n\n\n\nFeb 5, 2023\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nLake Nebagamon Ice\n\n\n6 min\n\n\nAn analysis of ice-in and out data for Lake Nebagamon, WI since 1943.\n\n\n\nFeb 4, 2023\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Lake Ice-Out\n\n\n3 min\n\n\nAn analysis of ice-out data for Eagle Lake, WI since 1999.\n\n\n\nFeb 3, 2023\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nGas Data for my Truck\n\n\n8 min\n\n\nAn analysis of every tank of gas that I have put in my truck.\n\n\n\nFeb 2, 2023\n\n\n\n\n\nFeb 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerek Ogle Lineage\n\n\n2 min\n\n\nMy patriarchical lineage for 29 generations.\n\n\n\nFeb 1, 2023\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_DO/index.html#introduction",
+    "href": "portfolio/posts/Eagle_DO/index.html#introduction",
+    "title": "Eagle Lake Thermocline II",
+    "section": "Introduction",
+    "text": "Introduction\nIn a previous post I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the Wisconsin DNR Citizen Lake Monitoring Network. Here I explore dissolved oxygen data from the same source.\n \n\n\n\n\n\n\nSummary\n\n\n\n\nMultiple dissolved oxygen profiles can be constructed for each year since 2012.\nDissolved oxygen profiles closely match the temperature profiles relative to the thermocline.\nDissolved oxygen values above the thermocline were nearly always above 6 mg/L, which is considered to be good oxygen levels for warmwater fishes."
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_DO/index.html#temperature-oxygen-relationship-seasonality",
+    "href": "portfolio/posts/Eagle_DO/index.html#temperature-oxygen-relationship-seasonality",
+    "title": "Eagle Lake Thermocline II",
+    "section": "Temperature Oxygen Relationship & Seasonality",
+    "text": "Temperature Oxygen Relationship & Seasonality\nAs noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a faily well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depltion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperatue profile (Figure 1).\n\n\n\n\n\nFigure 1: Temperature and dissolved oxygen profile plots for August 1, 1991. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.\n\n\n\n\n \nThe oxygen profile just described sets up quickly on our lakes following the spring turnover period. Our Eagle Lake data does not include samples from early enough in the year to show the vertical mixing throughout the water column. However, Figure 2 shows the general pattern described above for all sample dates, but also shows the general tend that dissolved oxygen in the upper layer is higher in the early and late samples as cooler water can hold more dissolved oxygen.\n\n\n\n\n\nFigure 2: Dissolved oxygen profile plots for nine dates throughout the open-water season in 2020."
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_DO/index.html#eagle-lake-do-profiles",
+    "href": "portfolio/posts/Eagle_DO/index.html#eagle-lake-do-profiles",
+    "title": "Eagle Lake Thermocline II",
+    "section": "Eagle Lake DO Profiles",
+    "text": "Eagle Lake DO Profiles\n\n\n\n\n\nFigure 3: Dissolved oxygen profiles separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall. The vertical dashed red line is at 6 mg/L."
+  },
+  {
+    "objectID": "portfolio/posts/Eagle_DO/index.html#resources",
+    "href": "portfolio/posts/Eagle_DO/index.html#resources",
+    "title": "Eagle Lake Thermocline II",
+    "section": "Resources",
+    "text": "Resources\n\nTemperature and Oxygen at North American Lake Management Society\nDissolved Oxygen and Temperature at Michigan State U.\nVertical Mixing and Turnover at Britannica.com\nThermocline at BoatSafe.com\nWater Quality Criteria from the EPA (see Table 1 on page 216 for DO concentrations)"
   },
   {
     "objectID": "portfolio/posts/Eagle_IceOut/index.html#ice-out-dates",

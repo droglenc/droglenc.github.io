@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Derek H. Ogle">
-<meta name="description" content="A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.">
+<meta name="description" content="A depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.">
 
-<title>Derek H. Ogle - Eagle Lake Thermocline</title>
+<title>Derek H. Ogle - Eagle Lake Thermocline II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,9 +54,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../zhelpers/styles.css">
-<meta property="og:title" content="Derek H. Ogle - Eagle Lake Thermocline">
-<meta property="og:description" content="A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.">
-<meta property="og:image" content="https://derekogle.com/portfolio\posts\Eagle_Thermocline\Eagle_Lake.jpg">
+<meta property="og:title" content="Derek H. Ogle - Eagle Lake Thermocline II">
+<meta property="og:description" content="A depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.">
+<meta property="og:image" content="https://derekogle.com/portfolio\posts\Eagle_DO\Eagle_Lake.jpg">
 <meta property="og:site-name" content="Derek H. Ogle">
 </head>
 
@@ -97,10 +97,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Eagle Lake Thermocline</h1>
+      <h1 class="title">Eagle Lake Thermocline II</h1>
                   <div>
         <div class="description">
-          A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.
+          A depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Feb 6, 2023</p>
+        <p class="date">Feb 8, 2023</p>
       </div>
     </div>
     
@@ -147,9 +147,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#temperature-profile-plot" id="toc-temperature-profile-plot" class="nav-link" data-scroll-target="#temperature-profile-plot">Temperature Profile Plot</a></li>
-  <li><a href="#seasonal-changes-in-temperature-profile" id="toc-seasonal-changes-in-temperature-profile" class="nav-link" data-scroll-target="#seasonal-changes-in-temperature-profile">Seasonal Changes in Temperature Profile</a></li>
-  <li><a href="#eagle-lake-temperature-profiles" id="toc-eagle-lake-temperature-profiles" class="nav-link" data-scroll-target="#eagle-lake-temperature-profiles">Eagle Lake Temperature Profiles</a></li>
+  <li><a href="#temperature-oxygen-relationship-seasonality" id="toc-temperature-oxygen-relationship-seasonality" class="nav-link" data-scroll-target="#temperature-oxygen-relationship-seasonality">Temperature Oxygen Relationship &amp; Seasonality</a></li>
+  <li><a href="#eagle-lake-do-profiles" id="toc-eagle-lake-do-profiles" class="nav-link" data-scroll-target="#eagle-lake-do-profiles">Eagle Lake DO Profiles</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
@@ -168,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes, seven of which have relatively consistent water quality data. The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since <a href="https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil">Eurasian watermilfoil</a> was introduced, volunteers have recorded various water quality parameters for the Pike Chain of Lakes. Below I show the record of temperature by depth recordings that are publicly available through the <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n">Wisconsin DNR Citizen Lake Monitoring Network</a>.</p>
+<p>In a <a href="../Eagle_Thermocline/">previous post</a> I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n">Wisconsin DNR Citizen Lake Monitoring Network</a>. Here I explore dissolved oxygen data from the same source.</p>
 <p>&nbsp;</p>
 <div class="callout-warning callout callout-style-default no-icon callout-captioned">
 <div class="callout-header d-flex align-content-center">
@@ -181,65 +180,49 @@ Summary
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>Multiple temperature profiles can be constructed for each year since 2012.</li>
-<li>The thermocline has begun to form by the earliest observations in May and is beginning to breakup in October (where those observations exist).</li>
-<li>The top of the thermocline is generally between 15-20 feet deep in mid to late summer.</li>
-<li>The bottom of the thermocline is generally betwen 25-30 feet deep in mid to late summer.</li>
+<li>Multiple dissolved oxygen profiles can be constructed for each year since 2012.</li>
+<li>Dissolved oxygen profiles closely match the temperature profiles relative to the thermocline.</li>
+<li>Dissolved oxygen values above the thermocline were nearly always above 6 mg/L, which is considered to be good oxygen levels for warmwater fishes.</li>
 </ul>
 </div>
 </div>
 <p>&nbsp;</p>
 </section>
-<section id="temperature-profile-plot" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="temperature-profile-plot">Temperature Profile Plot</h2>
-<p>A temperature profile plot shows the water temperature at various depths through the water column (<a href="#fig-ex1991">Figure&nbsp;1</a>). Depth is shown with the water surface at the top and the lake bottom at the bottom of the <em>left</em> axis. Temperature increases from left to right on the <em>bottom</em> axis.</p>
+<section id="temperature-oxygen-relationship-seasonality" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="temperature-oxygen-relationship-seasonality">Temperature Oxygen Relationship &amp; Seasonality</h2>
+<p>As noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a faily well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depltion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperatue profile (<a href="#fig-ex1991">Figure&nbsp;1</a>).</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-ex1991" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-ex1991-1.png" class="img-fluid figure-img" width="384"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Temperature profile plot for August 1, 1991. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p><a href="#fig-ex1991">Figure&nbsp;1</a> illustrates a typical mid-summer profile where the temperature is fairly and consistently warm near the surface (75-80<sup>o</sup>F from 0 to 15 ft) declines quickly over a fairly narrow depth range (drops from 75<sup>o</sup>F to 50<sup>o</sup>F from 15 to 30 ft) and then stays fairly and consistently cool at greater depths. &nbsp;</p>
-</section>
-<section id="seasonal-changes-in-temperature-profile" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="seasonal-changes-in-temperature-profile">Seasonal Changes in Temperature Profile</h2>
-<p>In winter (under the ice in northern Wisconsin) and at ice-out the water temperature will be a nearly constant 39<sup>o</sup>F from top to bottom (perhaps a little cooler at the ice-water interface). However, as spring progresses the surface water becomes warmer and moving into summer that warmer water will extend deeper into the lake. However, in most lakes in our area there will be a depth where the water temperature begins to decline dramatically over a fairly narrow depth range (see <a href="#fig-ex1991">Figure&nbsp;1</a>). Eventually there will be a depth where the water temperatures stays fairly and constantly cold below that depth. The transition zone of water temperatures quickly declining from warmer surface to cooler below-surface water is called the <em>thermocline</em>. As fall approaches the process is reversed such that the surface water will cool (and, thus, sink) until the water temperature is again fairly constant throughout the water column.</p>
-<p>On Eagle Lake we do not have water column temperature data very near the ice-out and ice-in dates. Thus, the seasonal phenomenon just described cannot be fully illustrated for Eagle Lake. However, <a href="#fig-ex2018">Figure&nbsp;2</a> shows the general trend of warmer surface water, the thermocline, and cooler water at deeper depths through the open-water months. The warming and then cooling of the surface water layer is also evident in <a href="#fig-ex2018">Figure&nbsp;2</a>.</p>
-<div class="cell page-columns page-full" data-layout-align="center">
-<div class="cell-output-display page-columns page-full">
-<div id="fig-ex2018" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/fig-ex2018-1.gif" class="img-fluid figure-img" style="width:50.0%"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Temperature profile plots for six dates throughout the open-water season in 2018.</figcaption><p></p>
+<p><img src="index_files/figure-html/fig-ex1991-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Temperature and dissolved oxygen profile plots for August 1, 1991. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <p>&nbsp;</p>
-<p>The dissolution of the thermocline in late fall was more evident in the data from 2020, where the temperature was almost constant throughout the water column on the last observation date of October 16 (<a href="#fig-ex2020">Figure&nbsp;3</a>).</p>
+<p>The oxygen profile just described sets up quickly on our lakes following the spring turnover period. Our Eagle Lake data does not include samples from early enough in the year to show the vertical mixing throughout the water column. However, <a href="#fig-ex2020">Figure&nbsp;2</a> shows the general pattern described above for all sample dates, but also shows the general tend that dissolved oxygen in the upper layer is higher in the early and late samples as cooler water can hold more dissolved oxygen.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-ex2020" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-ex2020-1.gif" class="img-fluid figure-img" style="width:50.0%"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;3: Temperature profile plots for nine dates throughout the open-water season in 2020.</figcaption><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Dissolved oxygen profile plots for nine dates throughout the open-water season in 2020.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
+<p>&nbsp;</p>
 </section>
-<section id="eagle-lake-temperature-profiles" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="eagle-lake-temperature-profiles">Eagle Lake Temperature Profiles</h2>
+<section id="eagle-lake-do-profiles" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="eagle-lake-do-profiles">Eagle Lake DO Profiles</h2>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-ELTP" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-ELTP-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;4: Temperature profiles separated by year (panels) and observation dates. Profile colors start with blue for early May and then transitions through purple and pink to red for early July and then through orange and brown to green for late October.</figcaption><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;3: Dissolved oxygen profiles separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall. The vertical dashed red line is at 6 mg/L.</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -249,11 +232,11 @@ Summary
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <ul>
-<li><a href="https://www.cleanlakesalliance.org/lake-turnover/">Lake Turnover</a> at the Clean Lakes Alliance</li>
-<li><a href="https://www.britannica.com/science/lake/Currents">Vertical Mixing and Turnover</a> at Britannica.com</li>
 <li><a href="https://www.nalms.org/secchidipin/monitoring-methods/temperature-and-oxygen/">Temperature and Oxygen</a> at North American Lake Management Society</li>
 <li><a href="https://www.canr.msu.edu/michiganlakes/lake_ecology/dissolved_oxygen_and_temperature">Dissolved Oxygen and Temperature</a> at Michigan State U.</li>
+<li><a href="https://www.britannica.com/science/lake/Currents">Vertical Mixing and Turnover</a> at Britannica.com</li>
 <li><a href="https://www.boatsafe.com/thermocline/">Thermocline</a> at BoatSafe.com</li>
+<li><a href="https://www.epa.gov/sites/default/files/2018-10/documents/quality-criteria-water-1986.pdf">Water Quality Criteria</a> from the EPA (see Table 1 on page 216 for DO concentrations)</li>
 </ul>
 
 
