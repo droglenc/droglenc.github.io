@@ -46,11 +46,18 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 # Specific Hikes
 Specific hikes that we have enjoyed are highlighted below.
 
-- [Wave Cave, 2022](SW Wave Cave.html)
-- [Hieroglyphics Trail, 2022](SW Hieroglyphics Trail.html)
-- [Weaver's Needle (Peralta & Cave Trail Loop), 2022](SW Peralta Cave Trail.html)
-- [Black Top Mesa (from First Waters TH), 2022](SW Black Top Mesa FW TH.html)
-- [Massacre Grounds, 2022](SW Massacre Grounds.html)
+* **2023**
+  - [Broadway Cave & Monument Canyon Mine Shaft](SW Broadway Cave.html)
+  - [Peralta TH to Canyon Lake Marina](SW Peralta to Canyon Lake.html)
+  - [Hackbery Springs Loop](SW Hackberry Springs I.html)
+  - [Robber's Roost Loop](SW Robbers Roost I.html)
+  
+* **2022**
+  - [Wave Cave](SW Wave Cave.html)
+  - [Hieroglyphics Trail](SW Hieroglyphics Trail.html)
+  - [Peralta & Cave Trail Loop](SW Peralta Cave Trail.html)
+  - [Black Top Mesa (from First Waters TH)](SW Black Top Mesa FW TH.html)
+  - [Massacre Grounds](SW Massacre Grounds.html)
 
 &nbsp;
 
@@ -60,9 +67,9 @@ Specific hikes that we have enjoyed are highlighted below.
 * Superstition Wilderness Hiking Trails on [TrailForks](https://www.trailforks.com/region/superstition-wilderness-38267/)
 * Tonto National Forest on [TrailForks](https://www.trailforks.com/region/tonto-national-forest/map/?activitytype=6&z=10.2&lat=33.41031&lon=-111.27550) ... *largely the same as above*
 * Hikes in Tonto National Forest on [10 Adventures](https://www.10adventures.com/hikes/tonto-national-forest/) ... *search on "Superstition"*
+* [5 Epic Hikes in the Superstitions](https://wildpathsaz.com/five-epic-hikes-in-the-superstitions/)
 * [Best Hiking Trails in the Superstition Mountains](https://destinations.rei.com/local-tips/best-hiking-trails-in-the-superstition-mountains)
 * [20 Superstition Mountains Hiking Trails You Can’t Miss](https://www.territorysupply.com/superstition-mountains-hikes)
 * Superstition Wilderness Hikes on [HikeArizona.com](https://hikearizona.com/traildex.php?SHOW=YES&ID=34&sRID=65) ... *fairly dated*
-* [6 Superstition Mountain Hikes You Won't Want to Miss](https://www.outdoorproject.com/travel/6-superstition-mountain-hikes-you-wont-want-miss)
 * Superstition Wilderness on [AllTrails](https://www.alltrails.com/parks/us/arizona/superstition-wilderness) ... *need an account*
 * GPX files for Superstition Wilderness by [Michael Thorne](https://home.chpc.utah.edu/~thorne/personal.html)

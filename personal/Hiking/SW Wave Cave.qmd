@@ -14,7 +14,7 @@ clrs <- c("2022"="#CC0000","2023"="#CC6600")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
-walkID <- "SW_WAVECAVE"
+walkID <- "SW_Wave_Cave"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
@@ -22,44 +22,20 @@ trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"
 walkIDs <- c("WVCV01","WVCV02","WVCV03","WVCV04","WVCV04","WVCV03","WVCV02","WVCV01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
-# Write the walk out to a gpx file for downloading
-gpxhelpers::combineTracks2GPX(pin="c:/aaaPersonal/MAPPING/Tracks/Superstition Wilderness",
-                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
-                              fnm="SW_WaveCave_2022.gpx",
-                              IDs=unique(walkIDs))
-
 # Get photos
 pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
 walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
 npix <- nrow(walkPix)
 ```
 
-## Overview Map
-The extent of this walk is highlighted by the blue box in this map.
-
-```{r}
-#| label: overviewMap
-#| echo: false
-gpxhelpers::allTracksMap(trkdat,clrs,walk=awalk,verbose=FALSE,map_bufr=0.0004)
-```
-
-:::{.callout-info appearance="simple"}
-## Map Key
-See [Superstition Wilderness Overview page](Superstition Wilderness.html) for segment color coding key and description for use of controls.
-:::
-
 ## Walk-Specific Map
+See [Superstition Wilderness Overview page](Superstition Wilderness.html) for an overview map of all hikes.
+
 ```{r}
 #| label: walkMap
 #| echo: false
 gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 ```
-
-:::{.callout-note appearance="simple"}
-## Take Note
-- Click on a segment to get specific information.
-- Numeric labels correspond to the same labels in the elevation profile and summary information below.
-:::
 
 ## Elevation Profile
 ```{r}
@@ -105,5 +81,5 @@ cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```{r}
 #| label: walkSummary
 #| echo: false
-gpxhelpers::walkSummary(awalk)
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
 ```
