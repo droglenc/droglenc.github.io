@@ -1,0 +1,91 @@
+---
+title: "Robber's Roost Loop"
+subtitle: "Carney Springs to Cave Trail"
+---
+
+On February 25, 2023 I hiked to Robber's Roost via the Carney Springs Trail (starting at the Lost Goldmine East TH) and returning via the Cave Trail. The climb up the Carney Springs Canyon got my heart pumping (~1300 feet elevation gain in a little over a mile). Finding the path into Robber's Roost was difficult, but as I got closer I could hear voices and when I met the hikers outside of the Roost they offered to show me the "secret" passage into it (Thanks, Juan). It was amazing to stand in the Roost and the views out the fractures in the wall were beautiful. I returned through Fremont Saddle (a little less than a mile from the Roost) and down the Cave Trail, which had some navigational challenges as it did last year (I did not miss Geronimo's Cave this year, though!). This was a challenging (the climb and some route-finding), but beautiful (views from on top, the Roost) hike that I will do again (with Kim).
+
+```{r}
+#| label: setup
+#| include: false
+
+# Make vector of colors
+clrs <- c("2022"="#CC0000","2023"="#CC6600")
+
+# Read in CSV file will all track info needed for the map
+project <- "Superstition Wilderness"
+walkID <- "SW_Robbers_Roost_I"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("RBRR01","RBRR02","RBRR03","RBRR04","RBRR05","RBRR06","RBRR07","RBRR08","RBRR09","RBRR10","RBRR11","RBRR12","RBRR13")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+See [Superstition Wilderness Overview page](Superstition Wilderness.html) for an overview map of all hikes.
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+- See [Superstition Wilderness Overview page](Superstition Wilderness.html) for description of use of controls.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```
