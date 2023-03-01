@@ -1,25 +1,24 @@
 ---
-title: "Weaver's Needle"
-subtitle: "Peralta & Cave Trail Loop"
+title: "Hackberry Springs Loop"
 ---
 
-On March 8, 2022 Kim and I hiked out to see Weaver's Needle from Fremont Saddle. The Peralta Trail (102) portion is a moderately steep climb to Fremont Saddle for a great view of Weaver's Needle. We took a short walk out to a Pinon tree for a closer view of the Needle. The Cave Trail portion was a challenge to find and included some scrambling. A fun trail all around. Details are below.
+On February 24, 2023 Kim and I hiked the Hackberry Springs loop (from the First Water TH) on a beautiful sunny day. This loop was one of the first hikes we did five or so years ago. At that time we had very little experience and were navigating with a small map in a dated book. We completed the hike then but it was much more comfortable this time as we had more experience hiking in the desert and were using our Avenza. This is quite a beautiful trail, especially on the way down to and out of Hackberry Springs. My favorite part is the high bluffs along the stream.
 
 ```{r}
 #| label: setup
 #| include: false
 
-# Make vector of colors for Iron River Area
+# Make vector of colors
 clrs <- c("2022"="#CC0000","2023"="#CC6600")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
-walkID <- "SW_Peralta_Cave"
+walkID <- "SW_Hackberry_Springs_I"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("POCV01","POCV02","POCV03","POCV03","POCV04","POCV05","POCV06")
+walkIDs <- c("HKBY01","HKBY02","HKBY03","HKBY04","HKBY05","HKBY06","HKBY07","HKBY08","HKBY09","HKBY10","HKBY11")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
@@ -36,6 +35,13 @@ See [Superstition Wilderness Overview page](Superstition Wilderness.html) for an
 #| echo: false
 gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 ```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+- See [Superstition Wilderness Overview page](Superstition Wilderness.html) for description of use of controls.
+:::
 
 ## Elevation Profile
 ```{r}

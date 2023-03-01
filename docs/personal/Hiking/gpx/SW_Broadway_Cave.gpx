@@ -1046,7 +1046,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>BCMCM02</name>
-  <desc>Lost Goldmine Tr to leave Jacob's Crosscut Tr / start Monument Canyon Tr</desc>
+  <desc>Lost Goldmine Tr to leave Jacob's Crosscut Tr</desc>
   <trkseg>
   <trkpt lat="33.4103974104097" lon="-111.46722678873">
     <ele>613.469</ele>
@@ -2156,7 +2156,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>BCMCM03</name>
-  <desc>leave Jacob's Crosscut Tr / start Monument Canyon Tr to leave Monument Canyon Tr / start Broadway Cave Tr</desc>
+  <desc>start Monument Canyon Tr to leave Monument Canyon Tr</desc>
   <trkseg>
   <trkpt lat="33.4173558436394" lon="-111.462851055437">
     <ele>674.022</ele>
@@ -2962,7 +2962,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>BCMCM04</name>
-  <desc>leave Monument Canyon Tr / start Broadway Cave Tr to arrive Broadway Cave</desc>
+  <desc>start Broadway Cave Tr to arrive Broadway Cave</desc>
   <trkseg>
   <trkpt lat="33.421567952012616" lon="-111.45874863530749">
     <ele>731.606</ele>

@@ -4,7 +4,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <trk>
   <name>WVCV01</name>
-  <desc>Carney Springs TH parking to Dacite Cliff Mine Tr</desc>
+  <desc>Lost Goldmine East TH to Dacite Cliff Mine Tr</desc>
   <trkseg>
   <trkpt lat="33.3922454469213" lon="-111.354133478537">
     <ele>702.014</ele>
@@ -1234,7 +1234,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>WVCV02</name>
-  <desc>Dacite Cliff Mine Tr to merge W Boulder Canyon Tr</desc>
+  <desc>Dacite Cliff Mine Tr to leave Lost Goldmine Tr</desc>
   <trkseg>
   <trkpt lat="33.393370196514006" lon="-111.36360033525506">
     <ele>706.395</ele>
@@ -1784,7 +1784,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>WVCV03</name>
-  <desc>merge W Boulder Canyon Tr to exit W Boulder Canyon Tr</desc>
+  <desc>start Carney Springs Tr to leave Carney Springs Tr</desc>
   <trkseg>
   <trkpt lat="33.3933828090552" lon="-111.367772025">
     <ele>711.342</ele>
@@ -2082,7 +2082,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>WVCV04</name>
-  <desc>exit W Boulder Canyon Tr to arrive Wave Cave</desc>
+  <desc>start Wave Cave Tr to arrive Wave Cave</desc>
   <trkseg>
   <trkpt lat="33.3955135632355" lon="-111.368549312896">
     <ele>725.69</ele>

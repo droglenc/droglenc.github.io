@@ -3,8 +3,8 @@
 creator="Viking 1.10 -- http://viking.sf.net/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <trk>
-  <name>PFMT01</name>
-  <desc>leave Peralta TH parking to arrive Fremont Saddle</desc>
+  <name>POCV01</name>
+  <desc>Peralta TH to arrive Fremont Saddle / leave Peralta Tr (102)</desc>
   <trkseg>
   <trkpt lat="33.3976042969464" lon="-111.34782132703">
     <ele>735.158</ele>
@@ -4673,8 +4673,8 @@ creator="Viking 1.10 -- http://viking.sf.net/"
   </trkseg>
 </trk>
 <trk>
-  <name>CVFS01</name>
-  <desc>leave Peralta Tr (102) to leave Fremont Saddle</desc>
+  <name>POCV02</name>
+  <desc>start Cave Tr to leave Cave Tr</desc>
   <trkseg>
   <trkpt lat="33.41578045849179" lon="-111.36489660489494">
     <ele>1147.85</ele>
@@ -5047,8 +5047,8 @@ creator="Viking 1.10 -- http://viking.sf.net/"
   </trkseg>
 </trk>
 <trk>
-  <name>PNNT01</name>
-  <desc>leave Fremont Saddle to arrive Pinion Tree</desc>
+  <name>POCV03</name>
+  <desc>start to Pinon Tree to arrive Pinon Tree</desc>
   <trkseg>
   <trkpt lat="33.416836776246" lon="-111.362871050882">
     <ele>1161.24</ele>
@@ -5749,8 +5749,8 @@ creator="Viking 1.10 -- http://viking.sf.net/"
   </trkseg>
 </trk>
 <trk>
-  <name>CVFS02</name>
-  <desc>leave Fremont Saddle to merge Bluff Spring Tr (235)</desc>
+  <name>POCV04</name>
+  <desc>trail to Pinon Tree to leave Cave Tr</desc>
   <trkseg>
   <trkpt lat="33.41683606028722" lon="-111.36287187236482">
     <ele>1161.44</ele>
@@ -9883,8 +9883,8 @@ creator="Viking 1.10 -- http://viking.sf.net/"
   </trkseg>
 </trk>
 <trk>
-  <name>CVFS03</name>
-  <desc>merge Bluff Spring Tr (235) to merge Dutchman's Tr (104</desc>
+  <name>POCV05</name>
+  <desc>start Bluff Spring Tr (235) to leave Bluff Spring Tr (235)</desc>
   <trkseg>
   <trkpt lat="33.404892081236575" lon="-111.3461172720542">
     <ele>891.625</ele>
@@ -11393,8 +11393,8 @@ creator="Viking 1.10 -- http://viking.sf.net/"
   </trkseg>
 </trk>
 <trk>
-  <name>CVFS04</name>
-  <desc>merge Dutchman's Tr (104 to arrive Peralta TH</desc>
+  <name>POCV06</name>
+  <desc>start Dutchman's Tr (104) to arrive Peralta TH</desc>
   <trkseg>
   <trkpt lat="33.3980587490868" lon="-111.347377461811">
     <ele>738.98</ele>

@@ -4,7 +4,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v2 http://www.garmin.com/xmlschemas/TrackPointExtensionv2.xsd http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd">
 <trk>
   <name>BMSA01</name>
-  <desc>First Water TH parking to Second Water Tr (236)</desc>
+  <desc>First Water TH to Second Water Tr (236)</desc>
   <trkseg>
   <trkpt lat="33.4799287515074" lon="-111.443037819221">
     <ele>697.608</ele>
@@ -8042,7 +8042,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>BMSA06</name>
-  <desc>Boulder Canyon Tr (103) to leave Dutchman's Tr / start Bull Pass Tr</desc>
+  <desc>Boulder Canyon Tr (103) to leave Dutchman's Tr</desc>
   <trkseg>
   <trkpt lat="33.4603628435757" lon="-111.392293064449">
     <ele>703.105</ele>
@@ -8256,7 +8256,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>BMSA07</name>
-  <desc>leave Dutchman's Tr / start Bull Pass Tr to leave Bull Pass Tr / start Spanish Heiroglyphics Tr</desc>
+  <desc>start Bull Pass Tr to leave Bull Pass Tr</desc>
   <trkseg>
   <trkpt lat="33.4598339987768" lon="-111.390740230247">
     <ele>703.486</ele>
@@ -9570,7 +9570,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>BMSA08</name>
-  <desc>leave Bull Pass Tr / start Spanish Heiroglyphics Tr to Black Top Mesa</desc>
+  <desc>start Black Top Mesa Tr to arrive Black Top Mesa</desc>
   <trkseg>
   <trkpt lat="33.4599908170784" lon="-111.384085135496">
     <ele>832.567</ele>
@@ -11196,7 +11196,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>BMSA10</name>
-  <desc>leave Dutchman's Tr / start Black Mesa Tr to leave Black Mesa Tr / start Second Water Tr</desc>
+  <desc>start Black Mesa Tr to leave Black Mesa Tr</desc>
   <trkseg>
   <trkpt lat="33.46017991013563" lon="-111.394766888279">
     <ele>699.067</ele>
@@ -16918,7 +16918,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>BMSA11</name>
-  <desc>leave Black Mesa Tr / start Second Water Tr to Hackberry Springs Tr [North]</desc>
+  <desc>start Second Water Tr to Hackberry Springs Tr [North]</desc>
   <trkseg>
   <trkpt lat="33.4858523884882" lon="-111.427575580084">
     <ele>737.734</ele>
@@ -19318,7 +19318,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>BMSA13</name>
-  <desc>Hackberry Springs Tr [South] to Dutchman's Tr (104)</desc>
+  <desc>Hackberry Springs Tr [South] to leave Second Waters Tr</desc>
   <trkseg>
   <trkpt lat="33.4787372623726" lon="-111.436863707952">
     <ele>676.166</ele>

@@ -4,7 +4,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <trk>
   <name>HGPH01</name>
-  <desc>Heiroglphics TH parking to Lost Goldmine Tr East</desc>
+  <desc>Heiroglphics TH to Lost Goldmine Tr East</desc>
   <trkseg>
   <trkpt lat="33.3898373392028" lon="-111.424375894778">
     <ele>635.625</ele>

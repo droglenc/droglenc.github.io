@@ -4,7 +4,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <trk>
   <name>MSCR01</name>
-  <desc>Crosscut TH parking to Massacre Grounds Tr (Waterfall spur)</desc>
+  <desc>Crosscut TH to Massacre Grounds Tr (Waterfall spur)</desc>
   <trkseg>
   <trkpt lat="33.4715610703441" lon="-111.469129782316">
     <ele>645.558</ele>
