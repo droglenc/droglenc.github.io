@@ -1,6 +1,6 @@
 ---
-title: "Piedras Marcadas, Santa Fe, NM"
-subtitle: "In Petroglyph National Monument"
+title: "Piedras Marcadas Canyon"
+subtitle: "Petroglyph National Monument, Albuquerque, NM"
 ---
 
 :::{.callout-info appearance="simple"}

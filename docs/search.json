@@ -1017,16 +1017,16 @@
   {
     "objectID": "personal/Hiking/ON Piedras Marcadas.html",
     "href": "personal/Hiking/ON Piedras Marcadas.html",
-    "title": "Piedras Marcadas, Santa Fe, NM",
+    "title": "Piedras Marcadas Canyon",
     "section": "",
     "text": "Coming Soon"
   },
   {
     "objectID": "personal/Hiking/ON Boca Negra.html",
     "href": "personal/Hiking/ON Boca Negra.html",
-    "title": "Boca Negra, Santa Fe, NM",
+    "title": "Mesa Point Trail at Boca Negra Canyon",
     "section": "",
-    "text": "Coming Soon"
+    "text": "On February 20, 2023 Kim and I walked Mesa Point Trail in Boca Negra Canyon in Petroglyph National Monument just outside Albuquerque. This very short, paved walk had a large number of petroglyphs. Well worth the stop."
   },
   {
     "objectID": "personal/Hiking/ON Petrified Forest.html",
@@ -1034,5 +1034,40 @@
     "title": "Petrified Forest National Park, AZ",
     "section": "",
     "text": "Coming Soon"
+  },
+  {
+    "objectID": "personal/Hiking/ON Boca Negra.html#walk-specific-map",
+    "href": "personal/Hiking/ON Boca Negra.html#walk-specific-map",
+    "title": "Mesa Point Trail at Boca Negra Canyon",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\nSee Superstition Wilderness Overview page for an overview map of all hikes."
+  },
+  {
+    "objectID": "personal/Hiking/ON Boca Negra.html#elevation-profile",
+    "href": "personal/Hiking/ON Boca Negra.html#elevation-profile",
+    "title": "Mesa Point Trail at Boca Negra Canyon",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON Boca Negra.html#images",
+    "href": "personal/Hiking/ON Boca Negra.html#images",
+    "title": "Mesa Point Trail at Boca Negra Canyon",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nBNMP02: Petroglyph\n\n\n\n\n\n\n\nBNMP03: Petroglyph\n\n\n\n\n\n\n\nBNMP03: Petroglyph\n\n\n\n\n\n\n\nBNMP05: Petroglyph\n\n\n\n\n\n\n\nBNMP05: Petroglyph\n\n\n\n\n\n\n\nBNMP05: Petroglyph\n\n\n\n\n\n\n\nBNMP06: Petroglyph\n\n\n\n\n\n\n\nBNMP01: Petroglyph\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON Boca Negra.html#gpx-download",
+    "href": "personal/Hiking/ON Boca Negra.html#gpx-download",
+    "title": "Mesa Point Trail at Boca Negra Canyon",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON Boca Negra.html#summary-information",
+    "href": "personal/Hiking/ON Boca Negra.html#summary-information",
+    "title": "Mesa Point Trail at Boca Negra Canyon",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BNMP01 \n    Mesa Point TR in Boca Negra Canyon \n    Parking lot to Lower split in trail \n    0.03 \n    0.03 \n    17 \n  \n  \n    2 \n    BNMP02 \n    Mesa Point TR in Boca Negra Canyon \n    Lower split in trail to Upper split in trail \n    0.09 \n    0.12 \n    72 \n  \n  \n    3 \n    BNMP03 \n    Mesa Point TR in Boca Negra Canyon \n    Upper split in trail to Split for close-up view \n    0.01 \n    0.13 \n    5 \n  \n  \n    4 \n    BNMP04 \n    Mesa Point TR in Boca Negra Canyon \n    Split for close-up view to Peak \n    0.03 \n    0.16 \n    1 \n  \n  \n    5 \n    BNMP04 \n    Mesa Point TR in Boca Negra Canyon \n    Peak to Split for close-up view \n    0.03 \n    0.19 \n    -1 \n  \n  \n    6 \n    BNMP05 \n    Mesa Point TR in Boca Negra Canyon \n    Split for close-up view to Close-up view \n    0.00 \n    0.19 \n    4 \n  \n  \n    7 \n    BNMP05 \n    Mesa Point TR in Boca Negra Canyon \n    Close-up view to Split for close-up view \n    0.00 \n    0.20 \n    -4 \n  \n  \n    8 \n    BNMP03 \n    Mesa Point TR in Boca Negra Canyon \n    Split for close-up view to Upper split in trail \n    0.01 \n    0.21 \n    -5 \n  \n  \n    9 \n    BNMP06 \n    Mesa Point TR in Boca Negra Canyon \n    Upper split in trail to Lower split in trail \n    0.04 \n    0.25 \n    -71 \n  \n  \n    10 \n    BNMP01 \n    Mesa Point TR in Boca Negra Canyon \n    Lower split in trail to Parking lot \n    0.03 \n    0.29 \n    -17"
   }
 ]
