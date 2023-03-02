@@ -291,7 +291,7 @@
     "href": "personal/Hiking/Superstition Wilderness.html",
     "title": "Derek H. Ogle",
     "section": "",
-    "text": "Superstition Wilderness Hiking\n\n\n\n\n\nKim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. More information on some specific walks is in the next section.\n\n\n\n\n\n\n\n\n\n\n\n\nInteractions with Map\n\n\n\n\nRed were from 2022 and Orange is from 2023.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map.\n\n\n\n \n\n\nSpecific Hikes\nSpecific hikes that we have enjoyed are highlighted below.\n\n2023\n\nBroadway Cave & Monument Canyon Mine Shaft\nPeralta TH to Canyon Lake Marina\nHackbery Springs Loop\nRobber’s Roost Loop\n\n2022\n\nWave Cave\nHieroglyphics Trail\nPeralta & Cave Trail Loop\nBlack Top Mesa (from First Waters TH)\nMassacre Grounds\n\n\n \n\n\nOther Resources\n\nSuperstition (and Mazatzal) Wilderness on ArizonaHiking.org\nSuperstition Wilderness Hiking Trails on TrailForks\nTonto National Forest on TrailForks … largely the same as above\nHikes in Tonto National Forest on 10 Adventures … search on “Superstition”\n5 Epic Hikes in the Superstitions\nBest Hiking Trails in the Superstition Mountains\n20 Superstition Mountains Hiking Trails You Can’t Miss\nSuperstition Wilderness Hikes on HikeArizona.com … fairly dated\nSuperstition Wilderness on AllTrails … need an account\nGPX files for Superstition Wilderness by Michael Thorne"
+    "text": "Superstition Wilderness Hiking\n\n\n\n\n\nKim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. More information on some specific walks is in the next section.\n\n\n\n\n\n\n\n\n\n\n\n\nInteractions with Map\n\n\n\n\nRed were from 2022 and Orange is from 2023.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map.\n\n\n\n \n\n\nSpecific Hikes\nSpecific hikes that we have enjoyed are highlighted below.\n\n2023\n\nBroadway Cave & Monument Canyon Mine Shaft\nPeralta TH to Canyon Lake Marina\nHackbery Springs Loop\nRobber’s Roost Loop\n\n2022\n\nWave Cave\nHieroglyphics Trail\nPeralta & Cave Trail Loop\nBlack Top Mesa (from First Waters TH)\nMassacre Grounds\n\n\n \n\n\nOther Resources\n\nSuperstition (and Mazatzal) Wilderness on ArizonaHiking.org\nSuperstition Wilderness Hiking Trails on TrailForks\nTonto National Forest on TrailForks … largely the same as above\nHikes in Tonto National Forest on 10 Adventures … search on “Superstition”\n5 Epic Hikes in the Superstitions … with gpx/kml\nBest Hiking Trails in the Superstition Mountains\n10 Amazing Superstition Mountains Hikes\n20 Superstition Mountains Hiking Trails You Can’t Miss\nSuperstition Wilderness Hikes on HikeArizona.com … fairly dated\nSuperstition Wilderness on AllTrails … need an account\nGPX files for Superstition Wilderness by Michael Thorne"
   },
   {
     "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html",
@@ -964,5 +964,75 @@
     "title": "Peralta to Canyon Lake Marina",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    POCL01 \n    Peralta to Canyon Lake Hike (Peralta Tr 102) \n    Peralta TH to Fremont Saddle \n    2.31 \n    2.31 \n    1357 \n  \n  \n    2 \n    POCL02 \n    Peralta to Canyon Lake Hike (Peralta Tr 102) \n    Fremont Saddle to Weaver's Needle Tr \n    1.40 \n    3.71 \n    -546 \n  \n  \n    3 \n    POCL03 \n    Peralta to Canyon Lake Hike (Peralta Tr 102) \n    Weaver's Needle Tr to leave Peralta Tr \n    2.60 \n    6.31 \n    -726 \n  \n  \n    4 \n    POCL04 \n    Peralta to Canyon Lake Hike (Dutchman's Tr 104) \n    start Dutchman's Tr to Bull Pass Tr (129) \n    0.75 \n    7.06 \n    -177 \n  \n  \n    5 \n    POCL05 \n    Peralta to Canyon Lake Hike (Dutchman's Tr 104) \n    Bull Pass Tr (129) to leave Dutchman's Tr \n    0.12 \n    7.17 \n    -7 \n  \n  \n    6 \n    POCL06 \n    Peralta to Canyon Lake Hike (Boulder Canyon Tr 103) \n    start Boulder Canyon Tr to Cavalry Tr (239) \n    2.06 \n    9.23 \n    -238 \n  \n  \n    7 \n    POCL07 \n    Peralta to Canyon Lake Hike (Boulder Canyon Tr 103) \n    Cavalry Tr (239) to Second Water Tr (236) \n    1.62 \n    10.85 \n    -120 \n  \n  \n    8 \n    POCL08 \n    Peralta to Canyon Lake Hike (Boulder Canyon Tr 103) \n    Second Water Tr (236) to leave Boulder Canyon Tr \n    3.42 \n    14.27 \n    148 \n  \n  \n    9 \n    POCL09 \n    Peralta to Canyon Lake Hike (Boulder Canyon Tr ALT) \n    start Boulder Canyon Tr ALT to leave Boulder Canyon Tr ALT \n    0.46 \n    14.73 \n    -368 \n  \n  \n    10 \n    POCL10 \n    Peralta to Canyon Lake Hike (Boulder Canyon Tr 103) \n    start Boulder Canyon Tr to arrive Canyon Lake Marina \n    0.09 \n    14.82 \n    -40"
+  },
+  {
+    "objectID": "personal/Hiking/ON Picacho Peak.html",
+    "href": "personal/Hiking/ON Picacho Peak.html",
+    "title": "Picacho Peak, Santa Fe, NM",
+    "section": "",
+    "text": "On February 19, 2023 Kim and I hiked to Picacho Peak in Dale Ball North trail system in Santa Fe. The trail was well-marked and easy to follow, but snowy so we appreciated our YakTraks. The views were stunning which made for an awesome little hike that fit our time in Santa Fe well. [It was also crazy for us flat-landers to be above 8000 feet!!]"
+  },
+  {
+    "objectID": "personal/Hiking/ON Picacho Peak.html#walk-specific-map",
+    "href": "personal/Hiking/ON Picacho Peak.html#walk-specific-map",
+    "title": "Picacho Peak, Santa Fe, NM",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\nSee Superstition Wilderness Overview page for an overview map of all hikes."
+  },
+  {
+    "objectID": "personal/Hiking/ON Picacho Peak.html#elevation-profile",
+    "href": "personal/Hiking/ON Picacho Peak.html#elevation-profile",
+    "title": "Picacho Peak, Santa Fe, NM",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON Picacho Peak.html#images",
+    "href": "personal/Hiking/ON Picacho Peak.html#images",
+    "title": "Picacho Peak, Santa Fe, NM",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nPCHOP04: Me on the trail\n\n\n\n\n\n\n\nPCHOP05: At the peak\n\n\n\n\n\n\n\nPCHOP05: At the peak\n\n\n\n\n\n\n\nPCHOP08: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPCHOP02: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPCHOP02: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPCHOP03: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPCHOP03: Kim and I\n\n\n\n\n\n\n\nPCHOP04: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPCHOP05: Kim climbing to the peak\n\n\n\n\n\n\n\nPCHOP05: View from the peak\n\n\n\n\n\n\n\nPCHOP05: View from the peak\n\n\n\n\n\n\n\nPCHOP08: Kim on the trail\n\n\n\n\n\n\n\nPCHOP09: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPCHOP09: Typical scenery in Winter 2023\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON Picacho Peak.html#gpx-download",
+    "href": "personal/Hiking/ON Picacho Peak.html#gpx-download",
+    "title": "Picacho Peak, Santa Fe, NM",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON Picacho Peak.html#summary-information",
+    "href": "personal/Hiking/ON Picacho Peak.html#summary-information",
+    "title": "Picacho Peak, Santa Fe, NM",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    PCHOP01 \n    Pichaco Peak Hike \n    Santa Fe Canyon Preserve Parking to Marker 29 \n    0.09 \n    0.09 \n    29 \n  \n  \n    2 \n    PCHOP02 \n    Pichaco Peak Hike \n    Marker 29 to Marker 30 \n    0.68 \n    0.77 \n    407 \n  \n  \n    3 \n    PCHOP03 \n    Pichaco Peak Hike \n    Marker 30 to Marker 31 \n    0.25 \n    1.02 \n    74 \n  \n  \n    4 \n    PCHOP04 \n    Pichaco Peak Hike \n    Marker 31 to Marker 34 \n    0.89 \n    1.91 \n    647 \n  \n  \n    5 \n    PCHOP05 \n    Pichaco Peak Hike \n    Marker 34 to Pichaco Peak \n    0.12 \n    2.03 \n    100 \n  \n  \n    6 \n    PCHOP06 \n    Pichaco Peak Hike \n    Marker 34 to Marker 35 \n    0.22 \n    2.36 \n    -159 \n  \n  \n    7 \n    PCHOP07 \n    Pichaco Peak Hike \n    Marker 35 to Marker 41 \n    0.40 \n    2.76 \n    -233 \n  \n  \n    8 \n    PCHOP08 \n    Pichaco Peak Hike \n    Marker 41 to Marker 40 \n    0.27 \n    3.03 \n    -247 \n  \n  \n    9 \n    PCHOP09 \n    Pichaco Peak Hike \n    Marker 40 to Marker 32 \n    0.53 \n    3.56 \n    -46 \n  \n  \n    10 \n    PCHOP10 \n    Pichaco Peak Hike \n    Marker 32 to Marker 31 \n    0.04 \n    3.60 \n    21"
+  },
+  {
+    "objectID": "personal/Hiking/Other Notable.html",
+    "href": "personal/Hiking/Other Notable.html",
+    "title": "Derek H. Ogle",
+    "section": "",
+    "text": "Other Notable Hikes\n\n\n\n\n\nThis page is a catch-all for other hikes that we have done that are notable for one reason or another (usually their beauty or cultural significance).\n \n\n\n2023\n\nPicacho Peak, Santa Fe, NM\nPiedras Marcadas Canyon, Petrogylph National Monument, NM\nBoca Negra Canyon, Petrogylph National Monument, NM\nPetrified Forest National Park, AZ"
+  },
+  {
+    "objectID": "personal/Hiking/ON Piedras Marcadas.html",
+    "href": "personal/Hiking/ON Piedras Marcadas.html",
+    "title": "Piedras Marcadas, Santa Fe, NM",
+    "section": "",
+    "text": "Coming Soon"
+  },
+  {
+    "objectID": "personal/Hiking/ON Boca Negra.html",
+    "href": "personal/Hiking/ON Boca Negra.html",
+    "title": "Boca Negra, Santa Fe, NM",
+    "section": "",
+    "text": "Coming Soon"
+  },
+  {
+    "objectID": "personal/Hiking/ON Petrified Forest.html",
+    "href": "personal/Hiking/ON Petrified Forest.html",
+    "title": "Petrified Forest National Park, AZ",
+    "section": "",
+    "text": "Coming Soon"
   }
 ]

@@ -1,0 +1,16 @@
+---
+---
+
+# Other Notable Hikes
+![](../../zresources/img/ONhiking.webp){fig-align="center"}
+
+This page is a catch-all for other hikes that we have done that are notable for one reason or another (usually their beauty or cultural significance).
+
+&nbsp;
+
+# 2023
+
+- [Picacho Peak, Santa Fe, NM](ON Picacho Peak.html)
+- [Piedras Marcadas Canyon, Petrogylph National Monument, NM](ON Piedras Marcadas.html)
+- [Boca Negra Canyon, Petrogylph National Monument, NM](ON Boca Negra.html)
+- [Petrified Forest National Park, AZ](ON Petrified Forest.html)

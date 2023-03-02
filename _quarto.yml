@@ -48,6 +48,8 @@ website:
               href: personal/Hiking/Superstition Wilderness.qmd
             - text: "Iowa"
               href: personal/Hiking/Iowa.qmd
+            - text: "Other Notable"
+              href: personal/Hiking/Other Notable.qmd
         - text: "Shelties"
           href: personal/shelties.qmd
         - text: "Fishing"
