@@ -977,7 +977,7 @@
     "href": "personal/Hiking/ON Picacho Peak.html#walk-specific-map",
     "title": "Picacho Peak, Santa Fe, NM",
     "section": "Walk-Specific Map",
-    "text": "Walk-Specific Map\nSee Superstition Wilderness Overview page for an overview map of all hikes."
+    "text": "Walk-Specific Map"
   },
   {
     "objectID": "personal/Hiking/ON Picacho Peak.html#elevation-profile",
@@ -1017,9 +1017,9 @@
   {
     "objectID": "personal/Hiking/ON Piedras Marcadas.html",
     "href": "personal/Hiking/ON Piedras Marcadas.html",
-    "title": "Piedras Marcadas Canyon",
+    "title": "Piedra Marcadas Trail",
     "section": "",
-    "text": "Coming Soon"
+    "text": "On February 20, 2023 Kim and I also walked the Piedra Marcadas (North Rim and main) trail in Petroglyph National Monument just outside Albuquerque. The North Rim trail is basically a walk through a mesa, but once your drop down onto the main trail the ridge is covered with numerous petroglyphs. The trail starts behind a gas station (or was it a Wallgreens) so I did not have high hopes, but both parts of the trail were interesting, with the petroglyphs being especially neat."
   },
   {
     "objectID": "personal/Hiking/ON Boca Negra.html",
@@ -1040,7 +1040,7 @@
     "href": "personal/Hiking/ON Boca Negra.html#walk-specific-map",
     "title": "Mesa Point Trail at Boca Negra Canyon",
     "section": "Walk-Specific Map",
-    "text": "Walk-Specific Map\nSee Superstition Wilderness Overview page for an overview map of all hikes."
+    "text": "Walk-Specific Map"
   },
   {
     "objectID": "personal/Hiking/ON Boca Negra.html#elevation-profile",
@@ -1069,5 +1069,40 @@
     "title": "Mesa Point Trail at Boca Negra Canyon",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    BNMP01 \n    Mesa Point TR in Boca Negra Canyon \n    Parking lot to Lower split in trail \n    0.03 \n    0.03 \n    17 \n  \n  \n    2 \n    BNMP02 \n    Mesa Point TR in Boca Negra Canyon \n    Lower split in trail to Upper split in trail \n    0.09 \n    0.12 \n    72 \n  \n  \n    3 \n    BNMP03 \n    Mesa Point TR in Boca Negra Canyon \n    Upper split in trail to Split for close-up view \n    0.01 \n    0.13 \n    5 \n  \n  \n    4 \n    BNMP04 \n    Mesa Point TR in Boca Negra Canyon \n    Split for close-up view to Peak \n    0.03 \n    0.16 \n    1 \n  \n  \n    5 \n    BNMP04 \n    Mesa Point TR in Boca Negra Canyon \n    Peak to Split for close-up view \n    0.03 \n    0.19 \n    -1 \n  \n  \n    6 \n    BNMP05 \n    Mesa Point TR in Boca Negra Canyon \n    Split for close-up view to Close-up view \n    0.00 \n    0.19 \n    4 \n  \n  \n    7 \n    BNMP05 \n    Mesa Point TR in Boca Negra Canyon \n    Close-up view to Split for close-up view \n    0.00 \n    0.20 \n    -4 \n  \n  \n    8 \n    BNMP03 \n    Mesa Point TR in Boca Negra Canyon \n    Split for close-up view to Upper split in trail \n    0.01 \n    0.21 \n    -5 \n  \n  \n    9 \n    BNMP06 \n    Mesa Point TR in Boca Negra Canyon \n    Upper split in trail to Lower split in trail \n    0.04 \n    0.25 \n    -71 \n  \n  \n    10 \n    BNMP01 \n    Mesa Point TR in Boca Negra Canyon \n    Lower split in trail to Parking lot \n    0.03 \n    0.29 \n    -17"
+  },
+  {
+    "objectID": "personal/Hiking/ON Piedras Marcadas.html#walk-specific-map",
+    "href": "personal/Hiking/ON Piedras Marcadas.html#walk-specific-map",
+    "title": "Piedra Marcadas Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON Piedras Marcadas.html#elevation-profile",
+    "href": "personal/Hiking/ON Piedras Marcadas.html#elevation-profile",
+    "title": "Piedra Marcadas Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON Piedras Marcadas.html#images",
+    "href": "personal/Hiking/ON Piedras Marcadas.html#images",
+    "title": "Piedra Marcadas Trail",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nPDMC02: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPDMC02: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Typical scenery in Winter 2023\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n\n\nPDMC04: Petroglyph\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON Piedras Marcadas.html#gpx-download",
+    "href": "personal/Hiking/ON Piedras Marcadas.html#gpx-download",
+    "title": "Piedra Marcadas Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON Piedras Marcadas.html#summary-information",
+    "href": "personal/Hiking/ON Piedras Marcadas.html#summary-information",
+    "title": "Piedra Marcadas Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n \n  \n    NUM \n    trackID \n    Primary \n    Description \n    Distance \n    CumDist \n    DeltaElev \n  \n \n\n  \n    1 \n    PDMC01 \n    Piedras Marcadas Hike \n    Parking lot to Split in loop trail \n    0.06 \n    0.06 \n    19 \n  \n  \n    2 \n    PDMC02 \n    Piedras Marcadas Hike \n    Split in loop trail to Split to deadend trail \n    0.65 \n    0.71 \n    82 \n  \n  \n    3 \n    PDMC09 \n    Piedras Marcadas Hike \n    at Split to deadend trail \n    0.13 \n    0.85 \n    -21 \n  \n  \n    4 \n    PDMC09 \n    Piedras Marcadas Hike \n    at Split to deadend trail \n    0.13 \n    0.98 \n    21 \n  \n  \n    5 \n    PDMC03 \n    Piedras Marcadas Hike \n    Split to deadend trail to Neighborhood access trail \n    0.39 \n    1.37 \n    5 \n  \n  \n    6 \n    PDMC04 \n    Piedras Marcadas Hike \n    Neighborhood access trail to Split in loop trail \n    1.51 \n    2.88 \n    -87 \n  \n  \n    7 \n    PDMC01 \n    Piedras Marcadas Hike \n    Split in loop trail to Parking lot \n    0.06 \n    2.94 \n    -19"
   }
 ]

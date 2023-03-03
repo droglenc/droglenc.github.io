@@ -34,7 +34,6 @@ npix <- nrow(walkPix)
 ```
 
 ## Walk-Specific Map
-See [Superstition Wilderness Overview page](Superstition Wilderness.html) for an overview map of all hikes.
 
 ```{r}
 #| label: walkMap
