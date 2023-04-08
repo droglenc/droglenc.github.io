@@ -50,3 +50,5 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 Below are some specific hikes that we found interesting.
 
 - [Camp Nine Research Area East](IRA Camp 9 East.html)
+- [Rainbow Lakes - North Country Trail](IRA Rainbow Lakes NCT.html)
+- [Rainbow Lakes - Anderson Grade Trail](IRA Anderson Grade.html)
