@@ -1,6 +1,6 @@
 ---
 title: Eagle Lake Ice-Out
-description: An analysis of ice-out data for Eagle Lake, WI since 1999.
+description: Analysis of ice-out data for Eagle Lake, WI since 1999.
 author: Derek H. Ogle
 date: 2/3/2023
 image: Eagle_Ice.jpg
@@ -121,7 +121,7 @@ p_out +
 
 ## Comparison to Other Lakes
 
-[Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000) is much larger (986 acres) but with a similar maximum depth (56 ft) as Eagle Lake that is approximately 20 miles nearly straight west of Eagle Lake. With the exception of a few notable years, the ice-out dates between these two lakes are quite similar. [Lake Mendota](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=805400) is a very large (9781 acres) and deep (83 ft maximum) lake that is approximately 350 miles south of Eagle Lake. The ice-out dates for Mendota are always before those for Eagle Lake, but the very generally track together.
+[Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000) is much larger (986 acres) but with a similar maximum depth (56 ft) as Eagle Lake that is approximately 20 miles nearly straight west of Eagle Lake. With the exception of a few notable years, the ice-out dates between these two lakes are quite similar. [Lake Mendota](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=805400) is a very large (9781 acres) and deep (83 ft maximum) lake that is approximately 350 miles south of Eagle Lake. The ice-out dates for Mendota are always before those for Eagle Lake, but they very generally track together.
 
 ```{r}
 #| label: fig-compare
