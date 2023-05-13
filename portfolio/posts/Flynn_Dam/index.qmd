@@ -55,11 +55,12 @@ ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
   geom_hline(yintercept=basedep,linetype="dashed",size=1) +
   annotate(geom="text",x=min(dat$DateTime),y=1.92,label="Summer Baseline",
            hjust=0.1,vjust=-0.5) +
-  scale_x_datetime(breaks="1 day",date_labels="%B-%d") +
+  scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
+                   date_labels="%B-%d") +
   scale_y_continuous(name="Depth (ft)",expand=expansion(mult=0),
                      limits=c(1.8,2.5),breaks=scales::breaks_width(0.1)) +
   theme_minimal(base_size=12) +
-  theme(panel.grid.minor=element_blank(),
+  theme(panel.grid.minor.y=element_blank(),
         axis.title.x=element_blank())
 ```
 

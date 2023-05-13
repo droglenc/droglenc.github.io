@@ -1,5 +1,5 @@
 {
-  "hash": "dd254d01549199cbcb9ac8e1bbfdae9b",
+  "hash": "4450a17b8462e054de481494f97615d9",
   "result": {
     "markdown": "---\ntitle: Water Heights at Flynn Lake Dam\ndescription: Analysis of water heights at the Pike Chain outlet on Flynn Lake.\nauthor: Derek H. Ogle\ndate: 5/6/2023\nimage: Flynn_Dam.jpg\ncategories:\n  - Pike Chain\n  - Climate/Weather\n  - Limnology\n  - Vis\nknitr:\n  opts_chunk:\n    fig.width: 6\n    fig.height: 4\nformat: \n  html:\n    df-print: kable\n---\n\n::: {.cell layout-align=\"center\"}\n\n:::\n\n::: {.cell layout-align=\"center\"}\n\n:::\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](Flynn_Dam.jpg){fig-align='center' width=67%}\n:::\n:::\n\n\n:::{.callout-warning icon=false}\n# Summary\n\n- DATA COLLECTION IN PROGRESS\n:::\n\n&nbsp;\n\n## Water Depth at Dam\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Water depth at Flynn Lake dam, outlet for Pike Chain of Lakes, by date. Date ticks are shown at midnight.](index_files/figure-html/fig-depth_series-1.png){#fig-depth_series fig-align='center' width=576}\n:::\n:::\n",
     "supporting": [
