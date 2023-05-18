@@ -22,12 +22,14 @@ format:
 #| label: setup
 library(tidyverse)
 ```
-
 ```{r}
 #| label: data-prep
 dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3)
 
 basedep <- 1.92
+
+depvals <- 21:30
+deplbls <- paste0(floor(depvals/12),"' ",depvals-floor(depvals/12)*12,'"')
 ```
 
 ```{r}
@@ -57,8 +59,8 @@ ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
            hjust=0.1,vjust=-0.5) +
   scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
                    date_labels="%B-%d") +
-  scale_y_continuous(name="Depth (ft)",expand=expansion(mult=0),
-                     limits=c(1.8,2.5),breaks=scales::breaks_width(0.1)) +
+  scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
+                     limits=range(depvals/12),breaks=depvals/12,labels=deplbls) +
   theme_minimal(base_size=12) +
   theme(panel.grid.minor.y=element_blank(),
         axis.title.x=element_blank())
