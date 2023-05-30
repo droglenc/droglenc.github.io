@@ -21,15 +21,31 @@ format:
 ```{r}
 #| label: setup
 library(tidyverse)
-```
-```{r}
-#| label: data-prep
-dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3)
 
+## Set some constants
 basedep <- 1.92
 
 depvals <- 21:30
 deplbls <- paste0(floor(depvals/12),"' ",depvals-floor(depvals/12)*12,'"')
+
+rainlvls <- c("0 in","Tr-0.10 in","0.10-0.25 in","0.25-0.50 in","0.50-1.00 in",
+              "1.00-3.00 in","3.00-5.00 in",">5.00 in")
+```
+
+```{r}
+#| label: data-prep
+dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3) |>
+  mutate(Rain2=case_when(
+    Rain < 0.10 ~ "Tr-0.10 in",
+    Rain < 0.25 ~ "0.10-0.25 in",
+    Rain < 0.50 ~ "0.25-0.50 in",
+    Rain < 1.00 ~ "0.50-1.00 in",
+    Rain < 3.00 ~ "1.00-3.00 in",
+    Rain < 5.00 ~ "3.00-5.00 in",
+    Rain < 20.0 ~ ">5.00 in",
+    TRUE ~ "0 in"
+  ),
+  Rain2=factor(Rain2,levels=rainlvls))
 ```
 
 ```{r}
@@ -52,17 +68,46 @@ knitr::include_graphics("Flynn_Dam.jpg")
 #| label: fig-depth_series
 #| fig-cap: "Water depth at Flynn Lake dam, outlet for Pike Chain of Lakes, by date. Date ticks are shown at midnight."
 ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
-  geom_line(linewidth=2,color="blue4") +
-  geom_point(shape=21,fill="white",color="blue4",size=2) +
+  geom_line(linewidth=2,color="slategray") +
+  geom_point(shape=21,fill="white",color="black",size=2) +
   geom_hline(yintercept=basedep,linetype="dashed",size=1) +
   annotate(geom="text",x=min(dat$DateTime),y=1.92,label="Summer Baseline",
            hjust=0.1,vjust=-0.5) +
   scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%B-%d") +
+                   date_labels="%B-%d",expand=expansion(mult=c(0.1,0.025))) +
   scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
                      limits=range(depvals/12),breaks=depvals/12,labels=deplbls) +
   theme_minimal(base_size=12) +
   theme(panel.grid.minor.y=element_blank(),
+        panel.grid.minor.x=element_line(linetype="dashed"),
         axis.title.x=element_blank())
+```
+
+&nbsp;
+
+## Water Depth at Dam Relative to Recent Rain Events
+
+```{r}
+#| label: fig-depth_series_wrain
+#| fig-cap: "Water depth at Flynn Lake dam, outlet for Pike Chain of Lakes, by date, with points color coded by the amount of rain since the previous observation. Date ticks are shown at midnight."
+ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
+  geom_line(color="slategray",linewidth=2.5) +
+  geom_point(mapping=aes(color=Rain2),size=2.5) +
+  geom_hline(yintercept=basedep,linetype="dashed",size=1) +
+  annotate(geom="text",x=min(dat$DateTime),y=1.92,label="Summer Baseline",
+           hjust=0.1,vjust=-0.5) +
+  scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
+                   date_labels="%B-%d",expand=expansion(mult=c(0.1,0.025))) +
+  scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
+                     limits=range(depvals/12),breaks=depvals/12,labels=deplbls) +
+  scale_color_brewer(name="Rain Amount",palette="YlOrRd") +
+  theme_minimal(base_size=12) +
+  theme(panel.grid.minor.y=element_blank(),
+        panel.grid.minor.x=element_line(linetype="dashed"),
+        axis.title.x=element_blank(),
+        legend.position=c(1,1),
+        legend.justification=c(1.1,1.1),
+        legend.background=element_rect(fill="white",color="white"),
+        legend.title=element_text(size=11))
 ```
 
