@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -81,10 +81,12 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../zhelpers/styles.css">
 <meta property="og:title" content="Derek H. Ogle - Portfolio of Fun Analyses">
+<meta property="og:image" content="https://derekogle.com/portfolio/posts/Flynn_Dam/Flynn_Dam.jpg">
 <meta property="og:site-name" content="Derek H. Ogle">
 </head>
 
@@ -105,18 +107,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../professional/index.html">
+    <a class="nav-link" href="../professional/index.html" rel="" target="">
  <span class="menu-text">Professional</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../personal/index.html">
+    <a class="nav-link" href="../personal/index.html" rel="" target="">
  <span class="menu-text">Personal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../portfolio/index.html" aria-current="page">
+    <a class="nav-link active" href="../portfolio/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -175,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Pike Chain,Climate/Weather,Limnology,Vis" data-listing-date-sort="1683349200000" data-listing-file-modified-sort="1685481437478" data-listing-reading-time-sort="2.12">
+<div class="g-col-1" data-index="0" data-categories="Pike Chain,Climate/Weather,Limnology,Vis" data-listing-date-sort="1683349200000" data-listing-file-modified-sort="1686257295901" data-listing-date-modified-sort="1686257295000" data-listing-reading-time-sort="2">
 <a href="../portfolio/posts/Flynn_Dam/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -199,13 +203,13 @@ May 6, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>May 30, 2023</p>
+<p>Jun 8, 2023</p>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Pike Chain,Limnology,Vis" data-listing-date-sort="1675836000000" data-listing-file-modified-sort="1675869139344" data-listing-reading-time-sort="5.84">
+<div class="g-col-1" data-index="1" data-categories="Pike Chain,Limnology,Vis" data-listing-date-sort="1675836000000" data-listing-file-modified-sort="1675869139344" data-listing-date-modified-sort="1675869139000" data-listing-reading-time-sort="6">
 <a href="../portfolio/posts/Eagle_DO/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -216,7 +220,7 @@ May 6, 2023
 Eagle Lake Thermocline II
 </h5>
 <div class="listing-reading-time card-text text-muted">
-5 min
+6 min
 </div>
 <div class="card-text listing-description">
 A depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.
@@ -235,7 +239,7 @@ Feb 8, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Pike Chain,Limnology,Vis" data-listing-date-sort="1675663200000" data-listing-file-modified-sort="1675866810155" data-listing-reading-time-sort="5.165">
+<div class="g-col-1" data-index="2" data-categories="Pike Chain,Limnology,Vis" data-listing-date-sort="1675663200000" data-listing-file-modified-sort="1675866810155" data-listing-date-modified-sort="1675866810000" data-listing-reading-time-sort="6">
 <a href="../portfolio/posts/Eagle_Thermocline/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -246,7 +250,7 @@ Feb 8, 2023
 Eagle Lake Thermocline
 </h5>
 <div class="listing-reading-time card-text text-muted">
-5 min
+6 min
 </div>
 <div class="card-text listing-description">
 A depiction of temperature profiles for Eagle Lake that demonstrates the thermocline.
@@ -265,7 +269,7 @@ Feb 6, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Pike Chain,Limnology,Vis" data-listing-date-sort="1675576800000" data-listing-file-modified-sort="1675719103669" data-listing-reading-time-sort="7.715">
+<div class="g-col-1" data-index="3" data-categories="Pike Chain,Limnology,Vis" data-listing-date-sort="1675576800000" data-listing-file-modified-sort="1675719103669" data-listing-date-modified-sort="1675719103000" data-listing-reading-time-sort="8">
 <a href="../portfolio/posts/PikeChain_Secchi/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -276,7 +280,7 @@ Feb 6, 2023
 Pike Chain of Lakes Secchi Depths
 </h5>
 <div class="listing-reading-time card-text text-muted">
-7 min
+8 min
 </div>
 <div class="card-text listing-description">
 A depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.
@@ -295,7 +299,7 @@ Feb 5, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Climate/Weather,Limnology,Vis" data-listing-date-sort="1675490400000" data-listing-file-modified-sort="1675638439445" data-listing-reading-time-sort="6.86">
+<div class="g-col-1" data-index="4" data-categories="Climate/Weather,Limnology,Vis" data-listing-date-sort="1675490400000" data-listing-file-modified-sort="1675638439445" data-listing-date-modified-sort="1675638439000" data-listing-reading-time-sort="7">
 <a href="../portfolio/posts/Nebagamon_IceInOut/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -306,7 +310,7 @@ Feb 5, 2023
 Lake Nebagamon Ice
 </h5>
 <div class="listing-reading-time card-text text-muted">
-6 min
+7 min
 </div>
 <div class="card-text listing-description">
 An analysis of ice-in and out data for Lake Nebagamon, WI since 1943.
@@ -325,7 +329,7 @@ Feb 4, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Pike Chain,Climate/Weather,Limnology,Vis" data-listing-date-sort="1675404000000" data-listing-file-modified-sort="1683465533546" data-listing-reading-time-sort="3.46">
+<div class="g-col-1" data-index="5" data-categories="Pike Chain,Climate/Weather,Limnology,Vis" data-listing-date-sort="1675404000000" data-listing-file-modified-sort="1683465533546" data-listing-date-modified-sort="1683465533000" data-listing-reading-time-sort="4">
 <a href="../portfolio/posts/Eagle_IceOut/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -336,7 +340,7 @@ Feb 4, 2023
 Eagle Lake Ice-Out
 </h5>
 <div class="listing-reading-time card-text text-muted">
-3 min
+4 min
 </div>
 <div class="card-text listing-description">
 Analysis of ice-out data for Eagle Lake, WI since 1999.
@@ -355,7 +359,7 @@ Feb 3, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Gas,Vis" data-listing-date-sort="1675317600000" data-listing-file-modified-sort="1675959515911" data-listing-reading-time-sort="8.905">
+<div class="g-col-1" data-index="6" data-categories="Gas,Vis" data-listing-date-sort="1675317600000" data-listing-file-modified-sort="1675959515911" data-listing-date-modified-sort="1675959515000" data-listing-reading-time-sort="9">
 <a href="../portfolio/posts/Truck_Gas/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -366,7 +370,7 @@ Feb 3, 2023
 Gas Data for my Truck
 </h5>
 <div class="listing-reading-time card-text text-muted">
-8 min
+9 min
 </div>
 <div class="card-text listing-description">
 An analysis of every tank of gas that I have put in my truck.
@@ -385,7 +389,7 @@ Feb 2, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Genealogy,Vis" data-listing-date-sort="1675231200000" data-listing-file-modified-sort="1675457369835" data-listing-reading-time-sort="2.525">
+<div class="g-col-1" data-index="7" data-categories="Genealogy,Vis" data-listing-date-sort="1675231200000" data-listing-file-modified-sort="1675457369835" data-listing-date-modified-sort="1675457369000" data-listing-reading-time-sort="3">
 <a href="../portfolio/posts/Ogle_Lineage/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -396,7 +400,7 @@ Feb 2, 2023
 Derek Ogle Lineage
 </h5>
 <div class="listing-reading-time card-text text-muted">
-2 min
+3 min
 </div>
 <div class="card-text listing-description">
 My patriarchical lineage for 29 generations.
@@ -447,9 +451,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -514,6 +532,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -552,12 +656,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/derekogle\.com\//);
+      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -571,8 +675,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2023, Derek H. Ogle</div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">fishR</a>
   </li>  
@@ -580,7 +684,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="https://derekogle.com/IFAR/">IFAR</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
