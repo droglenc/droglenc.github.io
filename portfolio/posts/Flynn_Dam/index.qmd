@@ -23,7 +23,7 @@ format:
 library(tidyverse)
 
 ## Set some constants
-basedep <- 1.92
+basedep <- 1.90
 
 depvals <- 21:30
 deplbls <- paste0(floor(depvals/12),"' ",depvals-floor(depvals/12)*12,'"')
@@ -72,9 +72,9 @@ knitr::include_graphics("Flynn_Dam.jpg")
 ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
   geom_line(color="slategray",linewidth=2.5) +
   geom_point(mapping=aes(fill=Rain2),shape=21,color="slategray",size=2.5) +
-  geom_hline(yintercept=basedep,linetype="dashed",size=1) +
-  annotate(geom="text",x=min(dat$DateTime),y=1.92,label="Summer Baseline",
-           hjust=0.1,vjust=-0.5) +
+#  geom_hline(yintercept=basedep,linetype="dashed",size=1) +
+#  annotate(geom="text",x=min(dat$DateTime),y=basedep,label="Summer Baseline",
+#           hjust=0.1,vjust=-0.5) +
   scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
                    date_labels="%B-%d",expand=expansion(mult=c(0.1,0.025))) +
   scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
