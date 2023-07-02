@@ -1,0 +1,270 @@
+---
+title: Propane Prices
+description: An analysis of the price of propane.
+author: Derek H. Ogle
+date: 6/24/2023
+image: DHO_tank.jpg
+categories:
+  - Propane
+  - Vis
+knitr:
+  opts_chunk:
+    fig.width: 7
+    fig.height: 4.5
+---
+
+```{r}
+#| label: packages
+library(tidyverse)
+library(lubridate)
+```
+```{r}
+#| label: themes
+## Overall
+theme_main <- function() {
+  theme_minimal() %+replace%
+    theme(
+      axis.title=element_text(size=14),
+      axis.text=element_text(size=11,color="black"),
+      panel.grid.major=element_line(color="gray90",linetype=2),
+      panel.grid.minor=element_blank(),
+      plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"),
+      strip.background=element_rect(fill="beige",color="beige"),
+      strip.text=element_text(size=11,color="black")
+    )
+}
+```
+```{r}
+#| label: data-prep
+#| results: hide
+
+## Mont Belvieu data
+dMB <- readxl::read_xls("../_data/EER_EPLLPA_PF4_Y44MB_DPGd.xls",
+                      sheet="Data 1",skip=2) |>
+  rename(priceMB=2) |>
+  mutate(Date=as.Date(Date,format="%Y-%m-%d"),
+         cYear=year(Date),
+         hYear=floor(quarter(Date,with_year=TRUE,fiscal_start=7))-1,
+         hYearLbl=paste(hYear,str_sub(hYear+1,3),sep="-"),
+         fDate=as.Date(paste(ifelse(month(Date)<7,"1990","1989"),
+                             month(Date),day(Date),sep="-"),
+                       format="%Y-%m-%d"),
+         iWeek=isoweek(Date),
+         iDate=paste(cYear,iWeek))
+
+### Summarize by week to add to wholesale/residential data below
+dMBsum <- dMB |>
+  group_by(iDate) |>
+  summarize(priceMB=mean(priceMB))
+
+## Wholesale/Residential data
+dWS <- readxl::read_xls("../_data/PET_PRI_WFR_A_EPLLPA_PWR_DPGAL_W.xls",
+                      sheet="Data 1",skip=2)
+names(dWS) <- sub("Weekly ","",names(dWS))
+names(dWS) <- sub(" Propane.*","",names(dWS))
+dWS <- dWS |>
+  select(Date,U.S.,Minnesota,Wisconsin) |>
+  rename(wsUS=U.S.,wsMN=Minnesota,wsWI=Wisconsin)
+
+dRS <- readxl::read_xls("../_data/PET_PRI_WFR_A_EPLLPA_PRS_DPGAL_W.xls",
+                      sheet="Data 1",skip=2)
+names(dRS) <- sub("Weekly ","",names(dRS))
+names(dRS) <- sub(" Propane.*","",names(dRS))
+dRS <- dRS |>
+  select(Date,U.S.,Minnesota,Wisconsin) |>
+  rename(resUS=U.S.,resMN=Minnesota,resWI=Wisconsin)
+
+### used left_join as wholesale had fewer years than residential (2013+)
+dWRS <- left_join(dWS,dRS,by="Date") |>
+  mutate(Date=as.Date(Date,format="%Y-%m-%d"),
+         cYear=year(Date),
+         hYear=floor(quarter(Date,with_year=TRUE,fiscal_start=7))-1,
+         hYearLbl=paste(hYear,str_sub(hYear+1,3),sep="-"),
+         fDate=as.Date(paste(ifelse(month(Date)<7,"1990","1989"),
+                             month(Date),day(Date),sep="-"),
+                       format="%Y-%m-%d"),
+         iWeek=isoweek(Date),
+         iDate=paste(cYear,iWeek)) |>
+  relocate(cYear,hYear,hYearLbl,fDate,.after=Date) |>
+  left_join(dMBsum,by="iDate") |>
+  select(-iWeek,-iDate) |>
+  arrange(Date) |>
+  mutate(diffWSMB=wsWI-priceMB,
+         diffRESMB=resWI-priceMB,
+         diffRESWS=resWI-wsWI)
+
+dSum <- dWRS |>
+  group_by(hYear,hYearLbl) |>
+  summarize(n=n(),
+            mndiffWSMB=mean(diffWSMB),
+            mndiffRESMB=mean(diffRESMB),
+            mndiffRESWS=mean(diffRESWS)) |>
+  ungroup()
+
+WIHDD <- data.frame(hYear=2013:2022,
+                    HDD=c(8773,7983,6639,6570,7529,7897,7278,7183,7309,7142)) |>
+  mutate(hYearLbl=paste(hYear,str_sub(hYear+1,3),sep="-"))
+```
+
+Recently I have been considering the relative costs of propane and wood for heating our house. One of the considerations for propane is how the cost fluctuates from year-to-year and within a year. Most propane companies offer a "lock-in" price to protect against the supposedly inevitable increase in the cost of propane during the winter. I questioned whether this was a good investment or not (like many things, I suspected it was better for the propane company than me).
+
+The U.S. Energy Information Administration (EIA) has a website that shows the price per gallon of [propane in Mont Belvieu, TX](https://www.eia.gov/dnav/pet/hist/EER_EPLLPA_PF4_Y44MB_DPGD.htm), as well as the [wholesale and residential prices of propane](https://www.eia.gov/dnav/pet/pet_pri_wfr_a_EPLLPA_PWR_dpgal_w.htm) during the heating season for a variety of regions and states. Both pages provide an option to download the data, which I did to play with below.
+
+```{r}
+#| label: fig-tank
+#| fig-cap: My propane tank.
+#| out-width: 67%
+knitr::include_graphics("DHO_tank.jpg")
+```
+
+:::{.callout-warning}
+Note that I am neither an economist nor a commodities trader. These graphs are simply my exploration to develop some understanding of the costs of propane for heating my house.
+:::
+
+&nbsp;
+
+# Mont Belvieu
+## Complete Time Series
+Mont Belvieu is a large propane (and other gas) storage location in Texas and the primary pricing point for propane ([see this](https://blog.opisnet.com/propane-mont-belvieu)^[And [this](https://tankfarm.mymidnight.blog/blog/where-your-propane-was-before-it-got-to-you--mont-belvieu--texas/) for a brief but interesting note about propane storage in Mont Belvieu.]). Thus, examining the price of propane at Mont Belvieu may indicate the basis for current and future propane prices locally.
+
+@fig-DailyPrice shows the daily price per gallon of propane at Mont Belvieu. There was a clear increase in price throughout the 2000s. Since then prices have varied, somewhat dramatically at times. Prices have dropped in the last year or so.
+
+```{r}
+#| label: fig-DailyPrice
+#| fig-cap: Daily propane spot price (per gallon) at Mont Belvieu, TX.
+ggplot(dat=dMB,mapping=aes(x=Date,y=priceMB)) +
+  geom_line(linewidth=0.75,color="steelblue") +
+  geom_smooth(linewidth=0.5,color="blue4") +
+  scale_y_continuous(limits=c(0,2),expand=expansion(mult=0),
+                     labels=scales::label_dollar()) +
+  scale_x_date(date_breaks="1 year",date_labels="%Y",
+               expand=expansion(mult=0.01)) +
+  theme_main() +
+  theme(axis.text.x=element_text(angle=90,vjust=0.5),
+        axis.title=element_blank())
+```
+
+Boxplots of average annual heating year prices (i.e., July to June) show the same basic trends -- increase in the 2000s and more variability since then (@fig-AnnualPrice).
+
+```{r}
+#| label: fig-AnnualPrice
+#| fig-cap: Annual heating year (July to June) boxplots of daily propane spot price (per gallon) at Mont Belvieu, TX.
+ggplot(data=dMB,mapping=aes(x=hYearLbl,y=priceMB)) +
+  geom_boxplot() +
+  scale_y_continuous(limits=c(0,2),expand=expansion(mult=0),
+                     labels=scales::label_dollar()) +
+  scale_x_discrete(expand=expansion(mult=0.01)) +
+  theme_main() +
+  theme(axis.text.x=element_text(angle=90,vjust=0.5),
+        axis.title=element_blank())
+```
+
+## Inter-Annual Seasonal Trends
+My common thought (shared by many others, especially those selling propane to customers) is that propane prices would be higher in fall and winter than spring and summer. @fig-DailyPriceBySeason shows the daily prices (per gallon) separately for each of the last 14 heating years (July to June) to more easily see inter-annual trends. My thought was supported in years like 2016-17 and 2020-21, but was not supported in many other years. Furthermore, I don't see a consistent inter-annual trend among years.
+
+```{r}
+#| label: fig-DailyPriceBySeason
+#| fig-cap: Daily propane spot price (per gallon) at Mont Belvieu, TX separated by annual heating year (July to June). The horizontal gray lines are the heating year average and the light gray box is the approximate heating season (15-Nov to 15-Apr). Note that each plot has a different y-axis scale.
+#| fig-height: 9
+tmp <- filter(dMB,hYear>=2010)
+ggplot(data=tmp,mapping=aes(x=fDate,y=priceMB)) +
+  annotate(geom="rect",
+           xmin=as.Date("1989-11-15",format="%Y-%m-%d"),
+           xmax=as.Date("1990-4-15",format="%Y-%m-%d"),
+           ymin=-Inf,ymax=Inf,
+           fill="gray95",color="gray95") +
+  geom_line(linewidth=1,color="steelblue") +
+  geom_smooth(linewidth=0.5,color="blue4") +
+  scale_y_continuous(expand=expansion(mult=0.1),
+                     labels=scales::label_dollar()) +
+  scale_x_date(date_breaks="1 month",date_labels="%b",
+               expand=expansion(mult=0.01)) +
+  facet_wrap(vars(hYearLbl),scales="free_y",ncol=2,dir="v") +
+  theme_main() +
+  theme(axis.text.x=element_text(angle=90,vjust=0.3,hjust=1),
+        axis.title=element_blank())
+```
+
+
+# Wisconsin Wholesale/Residential Prices
+The EIA also provides "wholesale" and "residential" propane prices for the heating season (they define that as October to March) for broad geographical areas (called PADDs) and for individual states.^[Wisconsin is in PADD 2 (the "Midwest")] Wholesale and residential are as defined below by the EIA.
+
+- **Wholesale**: The rack price charged for propane; i.e., the price paid by customers who purchase propane free-on-board at a supplier's terminal and who provide their own transportation for the product.
+- **Residential**: The price charged for home delivery of consumer grade propane intended for use in space heating, cooking, or hot water heaters in residences.
+
+In my exploration, I interpret "residential" to be the price at which I buy propane from my local supplier and "wholesale" to be the price that my local supplier paid. From this, and probably too simplistically,^[For example, I don't account for a time lag between when my local supplier buys the gas and sells it to me.] I interpret the following:
+
+- **Difference between wholesale and Mont Belvieu price**: cost plus markup to get propane from Texas to Wisconsin.
+- **Difference between residential and wholesale price**: cost plus markup for my supplier to get that propane to my house.
+
+From @fig-WIbySeason it seems that residential prices stay fairly constant in some years (e.g., 2015-16, 2018-19, and 2022-23), but not others. In the other years it is common for the residential price to have a mid- late-winter peak (2016-17, 2017-18, 2020-21, and 2021-22).^[The 2013-14 heating year was anomalous and has been much discussed; e.g., [here](https://www.nytimes.com/2014/02/08/us/as-propane-prices-rise-worries-grow-for-millions-of-americans.html), [here](https://rbnenergy.com/winter-2014-propane-crisis-the-rest-of-the-story), [here](https://www.gasteconline.com/cause-2014-propane-shortage-means-2/), and [here](https://stateimpact.npr.org/oklahoma/2014/02/20/how-corn-cold-weather-and-a-nuclear-disaster-caused-propane-prices-to-explode/).]
+
+```{r}
+#| label: fig-WIbySeason
+#| fig-cap: Average weekly propane price (per gallon) at Mont Belvieu, TX (dark green) and for Wisconsin wholesale (blue) and residential (red) sales by heating season for the EIA-defined heating season (October to March).
+#| fig-height: 7
+ggplot(dat=dWRS,mapping=aes(x=fDate)) +
+  geom_line(mapping=aes(y=wsWI),linewidth=1,color="steelblue") +
+  geom_line(mapping=aes(y=resWI),linewidth=1,color="red4") +
+  geom_line(mapping=aes(y=priceMB),linewidth=1,color="green4") +
+  scale_y_continuous(expand=expansion(mult=0.1),
+                     labels=scales::label_dollar()) +
+  scale_x_date(date_breaks="1 month",date_labels="%b",
+               expand=expansion(mult=0.01)) +
+  facet_wrap(vars(hYearLbl),scales="free_y",ncol=2,dir="v") +
+  theme_main() +
+  theme(axis.text.x=element_text(angle=90,vjust=0.3,hjust=1),
+        axis.title=element_blank())
+```
+
+I suspected that the difference in these years may be due to demand, such that in relatively warm winters local suppliers may have had enough propane in storage to meet demand and not have to buy during the winter. However, this theory was not supported by overall heating degree days for the state of Wisconsin (@fig-WIHDD).^[Data from [here](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/degree_days/).]
+
+```{r}
+#| label: fig-WIHDD
+#| fig-cap: Cumulative heatin degree days (HDD) for Wisconsin by heating year (July to June) since 2013-14.
+ggplot(data=WIHDD,mapping=aes(x=hYearLbl,y=HDD)) +
+  geom_bar(stat="identity",fill="orange3",color="black") +
+  theme_main() +
+  theme(axis.text.x=element_text(angle=90,vjust=0.3,hjust=1),
+        axis.title.x=element_blank())
+```
+
+Finally, it appears that it cost roughly \$0.10 to get propane to Wisconsin in the late 2010s, but hat increased to approximately \$0.20 in the early 2000s. The cost to get from the supplier to a residence was roughly \$0.75 in the late 2010s, but became more variable and generally higher in the early 2020s. 
+
+```{r}
+#| label: fig-WIbreakdown
+#| fig-cap: Average difference in Wisconsin residential and Mont Belvieu propane prices (per gallon) separated by increase from Mont Belvieu to Wisconsin wholesale price (blue) and from Wisconsin wholesale to residential price (red) for EIA-defined heating seasons (October to March) since 2013-14.
+dSum2 <- dSum |>
+  select(hYearLbl,mndiffWSMB,mndiffRESWS) |>
+  pivot_longer(cols=-hYearLbl) |>
+  mutate(name=factor(name,levels=c("mndiffRESWS","mndiffWSMB"),
+                     labels=c("WI Wholesale to Residential","Mont Belvieu to WI Wholesale")))
+  
+
+ggplot(data=dSum2) +
+  geom_bar(data=dSum2,mapping=aes(y=hYearLbl,x=value,fill=name),stat="identity") +
+  geom_text(data=dSum,mapping=aes(x=ifelse(mndiffWSMB<=0.10,0.045,mndiffWSMB/2),
+                                  y=hYearLbl,
+                        label=paste0("$",formatC(mndiffWSMB,format="f",digits=2))),
+            size=3.5) +
+  geom_text(data=dSum,mapping=aes(x=mndiffWSMB+mndiffRESWS/2,y=hYearLbl,
+                        label=paste0("$",formatC(mndiffRESWS,format="f",digits=2))),
+            size=3.5,color="white") +
+  geom_text(data=dSum,mapping=aes(x=mndiffWSMB+mndiffRESWS,y=hYearLbl,
+                        label=paste0("$",formatC(mndiffWSMB+mndiffRESWS,
+                                                 format="f",digits=2))),
+            size=3.5,hjust=-0.05) +
+  scale_x_continuous(labels=scales::label_dollar(),
+                     expand=expansion(add=c(0,0.10))) +
+  scale_fill_manual(values=c("Mont Belvieu to WI Wholesale"="steelblue",
+                             "WI Wholesale to Residential"="red4"),
+                    limits=c("Mont Belvieu to WI Wholesale",
+                             "WI Wholesale to Residential")) +
+  theme_main() +
+  theme(axis.title=element_blank(),
+        axis.text.x=element_blank(),
+        legend.title=element_blank(),
+        legend.text=element_text(size=11),
+        legend.position="bottom")
+```
+
