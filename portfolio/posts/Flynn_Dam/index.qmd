@@ -35,21 +35,26 @@ rainlvls <- c("0 in","Tr-0.10 in","0.10-0.25 in","0.25-0.50 in","0.50-1.00 in",
 ```{r}
 #| label: data-prep
 dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3) |>
-  mutate(Rain2=case_when(
-    Rain < 0.10 ~ "Tr-0.10 in",
-    Rain < 0.25 ~ "0.10-0.25 in",
-    Rain < 0.50 ~ "0.25-0.50 in",
-    Rain < 1.00 ~ "0.50-1.00 in",
-    Rain < 3.00 ~ "1.00-3.00 in",
-    Rain < 5.00 ~ "3.00-5.00 in",
-    Rain < 20.0 ~ ">5.00 in",
-    TRUE ~ "0 in"
-  ),
-  Rain2=factor(Rain2,levels=rainlvls))
+  mutate(Date=as.Date(DateTime,format="%Y-%m-%d"),
+         Rain2=case_when(
+           Rain < 0.10 ~ "Tr-0.10 in",
+           Rain < 0.25 ~ "0.10-0.25 in",
+           Rain < 0.50 ~ "0.25-0.50 in",
+           Rain < 1.00 ~ "0.50-1.00 in",
+           Rain < 3.00 ~ "1.00-3.00 in",
+           Rain < 5.00 ~ "3.00-5.00 in",
+           Rain < 20.0 ~ ">5.00 in",
+           TRUE ~ "0 in"),
+         Rain2=factor(Rain2,levels=rainlvls))
+
+dat2 <- dat |>
+  mutate(dDepth=c(NA,diff(Depth))) |>
+  slice(-1) |>
+  select(-DateTime,-Notes)
 ```
 
 ```{r}
-#| label: EagleIce
+#| label: FlynnDam
 #| out-width: 67%
 knitr::include_graphics("Flynn_Dam.jpg")
 ```
@@ -72,20 +77,52 @@ knitr::include_graphics("Flynn_Dam.jpg")
 ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
   geom_line(color="slategray",linewidth=2.5) +
   geom_point(mapping=aes(fill=Rain2),shape=21,color="slategray",size=2.5) +
-#  geom_hline(yintercept=basedep,linetype="dashed",size=1) +
-#  annotate(geom="text",x=min(dat$DateTime),y=basedep,label="Summer Baseline",
-#           hjust=0.1,vjust=-0.5) +
   scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
                    date_labels="%B-%d",expand=expansion(mult=c(0.1,0.025))) +
   scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
-                     limits=range(depvals/12),breaks=depvals/12,labels=deplbls) +
+                     limits=range(depvals/12),breaks=depvals/12,labels=deplbls,
+                     minor_breaks=(rep(depvals,each=10)+seq(0,0.9,0.1))/12) +
   scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
   theme_minimal(base_size=12) +
-  theme(panel.grid.minor.y=element_blank(),
-        panel.grid.minor.x=element_line(linetype="dashed"),
+  theme(panel.grid.minor=element_line(linetype="dashed"),
         axis.title.x=element_blank(),
         legend.position=c(1,1),
         legend.justification=c(1.1,1.1),
+        legend.background=element_rect(fill="white",color="white"),
+        legend.title=element_text(size=11))
+```
+
+## Daily Change in Water Depth at Dam
+
+```{r}
+#| label: fig-delta_depth_series_wrain
+#| fig-cap: "Change from the previous day for water depth at Flynn Lake dam, outlet for Pike Chain of Lakes, by date, with points color coded by the amount of rain since the previous observation."
+#| fig-width: 8
+#| fig-height: 6
+
+dDepvals <- c(1,0.75,0.5,0.25,0,-0.25,-0.5)
+dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
+
+ggplot(data=dat2,mapping=aes(x=Date)) +
+  geom_hline(yintercept=0,linetype="dashed",linewidth=1) +
+  geom_segment(mapping=aes(y=0,yend=dDepth,xend=Date),
+               linewidth=1.25,color="slategray") +
+  geom_point(mapping=aes(y=dDepth,fill=Rain2),
+             shape=21,color="slategray",size=2.5) +
+  scale_x_date(date_breaks="1 week",date_minor_breaks="1 day",
+                   date_labels="%B-%d",expand=expansion(add=2)) +
+  scale_y_continuous(name="Change from Previous Day",expand=expansion(mult=0.02),
+                     limits=range(dDepvals/12),breaks=dDepvals/12,labels=dDeplbls) +
+  scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
+  annotate(geom="text",x=max(dat2$Date)+3,y=0.5/12,label="Rising",
+           angle=270,size=4) +
+  annotate(geom="text",x=max(dat2$Date)+3,y=-0.25/12,label="Falling",
+           angle=270,size=4) +
+  theme_minimal(base_size=12) +
+  theme(panel.grid.minor=element_line(linetype="dashed"),
+        axis.title.x=element_blank(),
+        legend.position=c(0.67,1),
+        legend.justification=c(0.5,1.1),
         legend.background=element_rect(fill="white",color="white"),
         legend.title=element_text(size=11))
 ```
