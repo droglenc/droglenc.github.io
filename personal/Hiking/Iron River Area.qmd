@@ -31,6 +31,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 #| echo: false
 #| fig.width: 7
 #| fig.height: 7
+#| fig.cap: "Hello"
 gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 ```
 
