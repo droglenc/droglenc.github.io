@@ -23,9 +23,7 @@ format:
 library(tidyverse)
 
 ## Set some constants
-basedep <- 1.87
-
-depvals <- 22:29
+depvals <- 21:29
 deplbls <- paste0(floor(depvals/12),"' ",depvals-floor(depvals/12)*12,'"')
 
 rainlvls <- c("0 in","Tr-0.10 in","0.10-0.25 in","0.25-0.50 in","0.50-1.00 in",
