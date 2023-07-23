@@ -119,7 +119,7 @@ ggplot(data=dat2,mapping=aes(x=Date)) +
   theme_minimal(base_size=12) +
   theme(panel.grid.minor=element_line(linetype="dashed"),
         axis.title.x=element_blank(),
-        legend.position=c(0.55,1),
+        legend.position=c(0.475,1),
         legend.justification=c(0.5,1.1),
         legend.background=element_rect(fill="white",color="white"),
         legend.title=element_text(size=11))
