@@ -28,6 +28,19 @@ deplbls <- paste0(floor(depvals/12),"' ",depvals-floor(depvals/12)*12,'"')
 
 rainlvls <- c("0 in","Tr-0.10 in","0.10-0.25 in","0.25-0.50 in","0.50-1.00 in",
               "1.00-3.00 in","3.00-5.00 in",">5.00 in")
+
+## Create and set theme
+theme_dam <- function() {
+  theme_minimal(base_size=12) +
+  theme(panel.grid.minor=element_line(linetype="dashed"),
+        axis.title.x=element_blank(),
+        axis.text.x=element_text(angle=270,hjust=0,vjust=0.25),
+        plot.title=element_text(size=14,margin=margin(0,0,20,0)),
+        plot.title.position="plot",
+        legend.background=element_rect(fill="white",color="white"),
+        legend.title=element_text(size=11)
+        )
+}
 ```
 
 ```{r}
@@ -65,38 +78,37 @@ knitr::include_graphics("Flynn_Dam.jpg")
 
 &nbsp;
 
-## Water Depth at Dam
-
 ```{r}
-#| label: fig-depth_series_wrain
-#| fig-cap: "Water depth at Flynn Lake dam, outlet for Pike Chain of Lakes, by date, with points color coded by the amount of rain since the previous observation. Date ticks are shown at midnight."
+#| label: depth_series_wrain
 #| fig-width: 8
 #| fig-height: 6
+tmp_title <- stringr::str_wrap("Water depth at Flynn Lake dam by date with points color coded by the amount of rain since the previous observation.",width=80)
+tmp_source <- "Source: Derek Ogle, personal observation"
+
 ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
   geom_line(color="slategray",linewidth=2.5) +
   geom_point(mapping=aes(fill=Rain2),shape=21,color="slategray",size=2.5) +
   scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%B-%d",expand=expansion(mult=c(0.1,0.025))) +
+                   date_labels="%b %e",expand=expansion(mult=c(0.1,0.025))) +
   scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
                      limits=range(depvals/12),breaks=depvals/12,labels=deplbls,
                      minor_breaks=(rep(depvals,each=10)+seq(0,0.9,0.1))/12) +
   scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
-  theme_minimal(base_size=12) +
-  theme(panel.grid.minor=element_line(linetype="dashed"),
-        axis.title.x=element_blank(),
-        legend.position=c(1,1),
-        legend.justification=c(1.1,1.1),
-        legend.background=element_rect(fill="white",color="white"),
-        legend.title=element_text(size=11))
+  labs(title=tmp_title,caption=tmp_source) +
+  theme_dam() +
+  theme(legend.position=c(1,1),
+        legend.justification=c(1.1,1.1))
 ```
 
-## Daily Change in Water Depth at Dam
+
+&nbsp;
 
 ```{r}
-#| label: fig-delta_depth_series_wrain
-#| fig-cap: "Change from the previous day for water depth at Flynn Lake dam, outlet for Pike Chain of Lakes, by date, with points color coded by the amount of rain since the previous observation."
+#| label: delta_depth_series_wrain
 #| fig-width: 8
 #| fig-height: 6
+
+tmp_title <- stringr::str_wrap("Change from the previous day for water depth at Flynn Lake dam by date with points color coded by the amount of rain since the previous observation.",width=80)
 
 dDepvals <- seq(2.5,-0.5,by=-0.25)
 dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
@@ -108,7 +120,7 @@ ggplot(data=dat2,mapping=aes(x=Date)) +
   geom_point(mapping=aes(y=dDepth,fill=Rain2),
              shape=21,color="slategray",size=2.5) +
   scale_x_date(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%B-%d",expand=expansion(add=2)) +
+                   date_labels="%b %e",expand=expansion(add=2)) +
   scale_y_continuous(name="Change from Previous Day",expand=expansion(mult=0.02),
                      limits=range(dDepvals/12),breaks=dDepvals/12,labels=dDeplbls) +
   scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
@@ -116,12 +128,9 @@ ggplot(data=dat2,mapping=aes(x=Date)) +
            angle=270,size=4) +
   annotate(geom="text",x=max(dat2$Date)+3,y=-0.25/12,label="Falling",
            angle=270,size=4) +
-  theme_minimal(base_size=12) +
-  theme(panel.grid.minor=element_line(linetype="dashed"),
-        axis.title.x=element_blank(),
-        legend.position=c(0.475,1),
-        legend.justification=c(0.5,1.1),
-        legend.background=element_rect(fill="white",color="white"),
-        legend.title=element_text(size=11))
+  labs(title=tmp_title,caption=tmp_source) +
+  theme_dam() +
+  theme(legend.position=c(0.475,1),
+        legend.justification=c(0.5,1.1))
 ```
 
