@@ -110,7 +110,7 @@ ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
 
 tmp_title <- stringr::str_wrap("Change from the previous day for water depth at Flynn Lake dam by date with points color coded by the amount of rain since the previous observation.",width=80)
 
-dDepvals <- seq(2.5,-0.5,by=-0.25)
+dDepvals <- seq(2.5,-0.75,by=-0.25)
 dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
 
 ggplot(data=dat2,mapping=aes(x=Date)) +
