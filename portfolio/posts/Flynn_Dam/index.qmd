@@ -89,7 +89,7 @@ ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
   geom_line(color="slategray",linewidth=2.5) +
   geom_point(mapping=aes(fill=Rain2),shape=21,color="slategray",size=2.5) +
   scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%b %e",expand=expansion(mult=c(0.1,0.025))) +
+                   date_labels="%b %e",expand=expansion(mult=0.025)) +
   scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
                      limits=range(depvals/12),breaks=depvals/12,labels=deplbls,
                      minor_breaks=(rep(depvals,each=10)+seq(0,0.9,0.1))/12) +
@@ -120,7 +120,7 @@ ggplot(data=dat2,mapping=aes(x=Date)) +
   geom_point(mapping=aes(y=dDepth,fill=Rain2),
              shape=21,color="slategray",size=2.5) +
   scale_x_date(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%b %e",expand=expansion(add=2)) +
+                   date_labels="%b %e",expand=expansion(mult=0.025)) +
   scale_y_continuous(name="Change from Previous Day",expand=expansion(mult=0.02),
                      limits=range(dDepvals/12),breaks=dDepvals/12,labels=dDeplbls) +
   scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
@@ -134,3 +134,10 @@ ggplot(data=dat2,mapping=aes(x=Date)) +
         legend.justification=c(0.5,1.1))
 ```
 
+&nbsp;
+
+:::{.callout-important icon=false}
+## Acknowledgments
+
+Thanks to Hal A, Ieuan A, and Joe R. for taking the measurements when I could not!!
+:::
