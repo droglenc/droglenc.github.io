@@ -183,5 +183,5 @@ ggplot(data=dat2,mapping=aes(x=Date)) +
 :::{.callout-important icon=false}
 ## Acknowledgments
 
-Thanks to Hal A, Ieuan A, Joe R., and Tim T. for taking the measurements when I could not!!
+Thanks to Hal A, Ieuan A, Joe R., Kevin S., and Tim T. for taking the measurements when I could not!!
 :::
