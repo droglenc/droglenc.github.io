@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -47,7 +47,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -56,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../zhelpers/styles.css">
 <meta property="og:title" content="Derek H. Ogle - Pike Chain of Lakes Secchi Depths">
 <meta property="og:description" content="A depiction of Secchi disk depths for lakes in the Pike Chain of Lakes near Iron River, WI.">
-<meta property="og:image" content="https://derekogle.com/portfolio\posts\PikeChain_Secchi\Eagle_Milfoil.jpg">
+<meta property="og:image" content="https://derekogle.com/portfolio/posts/PikeChain_Secchi/Eagle_Milfoil.jpg">
 <meta property="og:site-name" content="Derek H. Ogle">
 </head>
 
@@ -77,18 +78,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../professional/index.html">
+    <a class="nav-link" href="../../../professional/index.html" rel="" target="">
  <span class="menu-text">Professional</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../personal/index.html">
+    <a class="nav-link" href="../../../personal/index.html" rel="" target="">
  <span class="menu-text">Personal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../portfolio/index.html">
+    <a class="nav-link" href="../../../portfolio/index.html" rel="" target="">
  <span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">Feb 6, 2023</p>
+        <p class="date-modified">Dec 23, 2023</p>
       </div>
     </div>
       
@@ -173,19 +176,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="fig-PikeChain" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="../_helpers/PikeChain.webp" class="img-fluid figure-img" style="width:67.0%"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Satellite image of the nine lakes that form the Pike Chain of Lakes.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;1: Satellite image of the nine lakes that form the Pike Chain of Lakes.</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <p>A Secchi disk is an 8-inch disk painted in quadrants with black and white that is lowered into a lake to assess water clarity. The depth at which the disk is no longer visible is called the Secchi depth and is a measure of water transparency; the deeper the depth the more transparent the water. Water transparency can be a surrogate for water quality (more transparent generally means higher water quality) and can be an indicator of human activity on and around the lake. See <a href="https://www.nalms.org/secchidipin/monitoring-methods/the-secchi-disk/what-is-a-secchi-disk/">this</a> and <a href="https://www.youtube.com/watch?v=NmRCh21SlFg">this</a> for quick introductions to Secchi disks.</p>
 <p>&nbsp;</p>
-<div class="callout-warning callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Summary
 </div>
 </div>
@@ -201,12 +204,12 @@ Summary
 </section>
 <section id="lake-comparisons" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="lake-comparisons">Lake Comparisons</h2>
-<p>Only the seven lakes listed in <span class="citation" data-cites="tab-lakedata">@tab-lakedata</span> had reliable Secchi depth data.</p>
+<p>Only the seven lakes listed in <a href="#tbl-lakedata">Table&nbsp;1</a> had reliable Secchi depth data.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
 <div class="kable-table page-columns page-full">
 <div id="tbl-lakedata" class="anchored page-columns page-full">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 
 <thead>
 <tr class="header">
@@ -271,7 +274,7 @@ Summary
 <div id="fig-bylake" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-bylake-1.png" class="img-fluid figure-img" width="480"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Mean Secchi depth for all July to August observations across all years by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;2: Mean Secchi depth for all July to August observations across all years by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.</figcaption>
 </figure>
 </div>
 </div>
@@ -281,7 +284,7 @@ Summary
 <div id="fig-yrbylake" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-yrbylake-1.png" class="img-fluid figure-img" width="672"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;3: Mean Secchi depth for all July to August observations by year and by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;3: Mean Secchi depth for all July to August observations by year and by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.</figcaption>
 </figure>
 </div>
 </div>
@@ -295,7 +298,7 @@ Summary
 <div id="fig-Sech1" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech1-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;4: Secchi depths for <strong>Buskey Bay</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;4: Secchi depths for <strong>Buskey Bay</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -306,7 +309,7 @@ Summary
 <div id="fig-Sech2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech2-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;5: Secchi depths for <strong>Lake Millicent</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;5: Secchi depths for <strong>Lake Millicent</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -317,7 +320,7 @@ Summary
 <div id="fig-Sech3" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech3-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;6: Secchi depths for <strong>Hart Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;6: Secchi depths for <strong>Hart Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -328,7 +331,7 @@ Summary
 <div id="fig-Sech4" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech4-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;7: Secchi depths for <strong>Twin Bear Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;7: Secchi depths for <strong>Twin Bear Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -339,7 +342,7 @@ Summary
 <div id="fig-Sech5" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech5-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;8: Secchi depths for <strong>Muskellunge Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;8: Secchi depths for <strong>Muskellunge Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -350,7 +353,7 @@ Summary
 <div id="fig-Sech6" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech6-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;9: Secchi depths for <strong>Eagle Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;9: Secchi depths for <strong>Eagle Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -361,7 +364,7 @@ Summary
 <div id="fig-Sech7" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-Sech7-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;10: Secchi depths for <strong>Flynn Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;10: Secchi depths for <strong>Flynn Lake</strong>. Color of point represents observed color of water (gray is missing data) and a downward triangle means the Secchi disk hit the bottom before disappearing (a square means that it was not recorded if the bottom was hit).</figcaption>
 </figure>
 </div>
 </div>
@@ -372,20 +375,20 @@ Summary
 <h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
 <div class="cell" data-layout-align="center">
 <ul>
-<li>Buskey Bay: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=10020502">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=10020502</a></li>
-<li>Lake Millicent: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043086">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043086</a></li>
-<li>Hart Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043079">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043079</a></li>
-<li>Twin Bear Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043127">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043127</a></li>
-<li>Muskellunge Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043087">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043087</a></li>
-<li>Eagle Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077</a></li>
-<li>Flynn Lake: <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043078">https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043078</a></li>
+<li>Buskey Bay: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=10020502">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=10020502</a></li>
+<li>Lake Millicent: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043086">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043086</a></li>
+<li>Hart Lake: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043079">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043079</a></li>
+<li>Twin Bear Lake: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043127">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043127</a></li>
+<li>Muskellunge Lake: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043087">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043087</a></li>
+<li>Eagle Lake: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077</a></li>
+<li>Flynn Lake: <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043078">https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043078</a></li>
 </ul>
 </div>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -413,9 +416,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -480,6 +497,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -518,12 +621,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/derekogle\.com\//);
+      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -537,8 +640,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2023, Derek H. Ogle</div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">fishR</a>
   </li>  
@@ -546,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="https://derekogle.com/IFAR/">IFAR</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -47,7 +47,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -56,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../zhelpers/styles.css">
 <meta property="og:title" content="Derek H. Ogle - Eagle Lake Thermocline II">
 <meta property="og:description" content="A depiction of dissolved oxygen profiles for Eagle Lake as related to the thermocline.">
-<meta property="og:image" content="https://derekogle.com/portfolio\posts\Eagle_DO\Eagle_Lake.jpg">
+<meta property="og:image" content="https://derekogle.com/portfolio/posts/Eagle_DO/Eagle_Lake.jpg">
 <meta property="og:site-name" content="Derek H. Ogle">
 </head>
 
@@ -77,18 +78,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../professional/index.html">
+    <a class="nav-link" href="../../../professional/index.html" rel="" target="">
  <span class="menu-text">Professional</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../personal/index.html">
+    <a class="nav-link" href="../../../personal/index.html" rel="" target="">
  <span class="menu-text">Personal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../portfolio/index.html">
+    <a class="nav-link" href="../../../portfolio/index.html" rel="" target="">
  <span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">Feb 8, 2023</p>
+        <p class="date-modified">Dec 23, 2023</p>
       </div>
     </div>
       
@@ -167,14 +170,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>In a <a href="../Eagle_Thermocline/">previous post</a> I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the <a href="https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n">Wisconsin DNR Citizen Lake Monitoring Network</a>. Here I explore dissolved oxygen data from the same source.</p>
+<p>In a <a href="../Eagle_Thermocline/">previous post</a> I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the <a href="https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077">Wisconsin DNR Citizen Lake Monitoring Network</a>. Here I explore dissolved oxygen data from the same source.</p>
 <p>&nbsp;</p>
-<div class="callout-warning callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Summary
 </div>
 </div>
@@ -190,13 +193,13 @@ Summary
 </section>
 <section id="temperature-oxygen-relationship-seasonality" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="temperature-oxygen-relationship-seasonality">Temperature Oxygen Relationship &amp; Seasonality</h2>
-<p>As noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a faily well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depltion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperatue profile (<a href="#fig-ex1991">Figure&nbsp;1</a>).</p>
+<p>As noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a fairly well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depletion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperature profile (<a href="#fig-ex1991">Figure&nbsp;1</a>).</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
 <div id="fig-ex1991" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-ex1991-1.png" class="img-fluid figure-img" width="672"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Temperature and dissolved oxygen profile plots for August 1, 1991. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;1: Temperature and dissolved oxygen profile plots for August 1, 1991. The thin line at the top represents the water surface and the thicker line at the bottom represents the lake bottom.</figcaption>
 </figure>
 </div>
 </div>
@@ -208,11 +211,12 @@ Summary
 <div id="fig-ex2020" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-ex2020-1.gif" class="img-fluid figure-img" style="width:50.0%"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Dissolved oxygen profile plots for nine dates throughout the open-water season in 2020.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;2: Dissolved oxygen profile plots for nine dates throughout the open-water season in 2020.</figcaption>
 </figure>
 </div>
 </div>
 </div>
+<p>You may also notice a peak in DO just above the thermocline on many dates. This is the result of hypersaturation of oxygen at that depth due to the temperature cooling faster than the oxygen can be depleted. Thus, for a period of time when the top of thermocline is getting deeper, the oxygen from the once cooler water will be higher than the now warmer water would likely contain (thus, being over- or hyper-saturated).</p>
 <p>&nbsp;</p>
 </section>
 <section id="eagle-lake-do-profiles" class="level2 page-columns page-full">
@@ -222,7 +226,7 @@ Summary
 <div id="fig-ELTP" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/fig-ELTP-1.png" class="img-fluid figure-img" width="576"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;3: Dissolved oxygen profiles separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall. The vertical dashed red line is at 6 mg/L.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;3: Dissolved oxygen profiles separated by year (panels) and observation dates. Profile colors start with blue for early May transition through purple and pink to red for early July and then transition through orange and brown to green for late fall. The vertical dashed red line is at 6 mg/L.</figcaption>
 </figure>
 </div>
 </div>
@@ -242,7 +246,7 @@ Summary
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -270,9 +274,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -337,6 +355,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -375,12 +479,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/derekogle\.com\//);
+      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -394,8 +498,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2023, Derek H. Ogle</div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">fishR</a>
   </li>  
@@ -403,7 +507,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="https://derekogle.com/IFAR/">IFAR</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

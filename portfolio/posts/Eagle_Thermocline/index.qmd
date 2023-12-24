@@ -48,9 +48,9 @@ tp <- function(d,show.pts=TRUE,trng=NULL) {
 #| label: data-prep
 d <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="DO") |>
   filter(Lake=="Eagle Lake",!is.na(Temperature),!is.na(Depth)) |>
-  mutate(Depth=ifelse(`Depth Units`=="FEET",Depth,Depth*3.280839895),
-         Temperature=ifelse(`Temperature Units`=="DEGREES F",Temperature,
-                            Temperature*1.8+32)) |>
+  mutate(Depth=ifelse(`Depth Units`=="METERS",Depth*3.280839895,Depth),
+         Temperature=ifelse(`Temperature Units` %in% c("DEGREES C","C"),
+                            Temperature*1.8+32,Temperature)) |>
   select(-contains("Units"),-Notes) |>
   rename(Date=`Start Date`,Temp=Temperature,DO=`Dissolved Oxygen`) |>
   mutate(Date=as.Date(Date,format="%m/%d/%Y"),
@@ -70,12 +70,12 @@ trng <- range(d$Temp)
 
 # specific examples used below
 d91 <- d |> filter(Year==1991)
-d18 <- d |> filter(Year==2018)
 d20 <- d |> filter(Year==2020)
+d23 <- d |> filter(Year==2023)
 ```
 
 ## Introduction
-The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes, seven of which have relatively consistent water quality data. The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since [Eurasian watermilfoil](https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil) was introduced, volunteers have recorded various water quality parameters for the Pike Chain of Lakes. Below I show the record of temperature by depth recordings that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n).
+The Pike Chain of Lakes near Iron River, WI is a set of nine connected lakes, seven of which have relatively consistent water quality data. The Pike Chain is highly developed, has several public access locations, and is popular among anglers, boaters, snowmobilers, etc. year-round. Over the years, especially recently since [Eurasian watermilfoil](https://www.invasivespeciesinfo.gov/aquatic/plants/eurasian-watermilfoil) was introduced, volunteers have recorded various water quality parameters for the Pike Chain of Lakes. Below I show the record of temperature by depth recordings for one of the lakes (Eagle) that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077).
 
 &nbsp;
 
@@ -103,24 +103,9 @@ tp(d91)
 &nbsp;
 
 ## Seasonal Changes in Temperature Profile
-In winter (under the ice in northern Wisconsin) and at ice-out the water temperature will be a nearly constant 39<sup>o</sup>F from top to bottom (perhaps a little cooler at the ice-water interface). However, as spring progresses the surface water becomes warmer and moving into summer that warmer water will extend deeper into the lake. However, in most lakes in our area there will be a depth where the water temperature begins to decline dramatically over a fairly narrow depth range (see @fig-ex1991). Eventually there will be a depth where the water temperatures stays fairly and constantly cold below that depth. The transition zone of water temperatures quickly declining from warmer surface to cooler below-surface water is called the *thermocline*. As fall approaches the process is reversed such that the surface water will cool (and, thus, sink) until the water temperature is again fairly constant throughout the water column.
+In winter (under the ice in northern Wisconsin) and at ice-out the water temperature will be a nearly constant 39<sup>o</sup>F from top to bottom (perhaps a little cooler at the ice-water interface). However, as spring progresses the surface water becomes warmer and, moving into summer, that warmer water will extend deeper into the lake. However, in most lakes in our area there will be a depth where the water temperature begins to decline dramatically over a fairly narrow depth range (see @fig-ex1991). Eventually there will be a depth where the water temperatures stays fairly and constantly cold below that depth. The transition zone of water temperatures quickly declining from warmer surface to cooler below-surface water is called the *thermocline*. As fall approaches the process is reversed such that the surface water will cool (and, thus, sink) until the water temperature is again fairly constant throughout the water column.
 
-On Eagle Lake we do not have water column temperature data very near the ice-out and ice-in dates. Thus, the seasonal phenomenon just described cannot be fully illustrated for Eagle Lake. However, @fig-ex2018 shows the general trend of warmer surface water, the thermocline, and cooler water at deeper depths through the open-water months. The warming and then cooling of the surface water layer is also evident in @fig-ex2018.
-
-```{r}
-#| label: fig-ex2018
-#| fig-cap: !expr str_glue('Temperature profile plots for {xfun::numbers_to_words(length(unique(d18$Date)))} dates throughout the open-water season in 2018.')
-#| out-width: 50%
-tp(d18) +
-  transition_states(Date,wrap=FALSE) +
-  labs(title='{format(as.Date(closest_state),"%B %e, %Y")}') +
-  theme(plot.title=element_text(size=10)) +
-  enter_fade() + exit_fade()
-```
-
-&nbsp;
-
-The dissolution of the thermocline in late fall was more evident in the data from 2020, where the temperature was almost constant throughout the water column on the last observation date of `r format(max(d20$Date),"%B %e")` (@fig-ex2020).
+On Eagle Lake we do not have water column temperature data very near the ice-out and ice-in dates. Thus, the seasonal phenomenon just described cannot be fully illustrated for Eagle Lake. However, @fig-ex2020 shows the general trend of warmer surface water, the thermocline, and cooler water at deeper depths through the open-water months. The warming and then cooling of the surface water layer is also evident in @fig-ex2020. Finally, the dissolution of the thermocline in late fall was evident on the last observation date of `r format(max(d20$Date),"%B %e")` (@fig-ex2020).
 
 
 ```{r}

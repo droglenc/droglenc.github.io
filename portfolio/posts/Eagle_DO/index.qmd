@@ -80,9 +80,9 @@ op <- function(d,show.pts=TRUE,orng=NULL,righty=FALSE,show.tol=FALSE) {
 #| label: data-prep
 d <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="DO") |>
   filter(Lake=="Eagle Lake",!is.na(Temperature),!is.na(Depth)) |>
-  mutate(Depth=ifelse(`Depth Units`=="FEET",Depth,Depth*3.280839895),
-         Temperature=ifelse(`Temperature Units`=="DEGREES F",Temperature,
-                            Temperature*1.8+32)) |>
+  mutate(Depth=ifelse(`Depth Units`=="METERS",Depth*3.280839895,Depth),
+         Temperature=ifelse(`Temperature Units` %in% c("DEGREES C","C"),
+                            Temperature*1.8+32,Temperature)) |>
   select(-contains("Units"),-Notes) |>
   rename(Date=`Start Date`,Temp=Temperature,DO=`Dissolved Oxygen`) |>
   mutate(Date=as.Date(Date,format="%m/%d/%Y"),
@@ -107,7 +107,7 @@ d20 <- d |> filter(Year==2020)
 ```
 
 ## Introduction
-In a [previous post](../Eagle_Thermocline/) I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077n). Here I explore dissolved oxygen data from the same source.
+In a [previous post](../Eagle_Thermocline/) I introduced the Pike Chain of Lakes, explained temperature profile plots and the typical seasonality of temperature by depth data, and examined temperature by depth data that are publicly available through the [Wisconsin DNR Citizen Lake Monitoring Network](https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=043077). Here I explore dissolved oxygen data from the same source.
 
 &nbsp;
 
@@ -122,7 +122,7 @@ In a [previous post](../Eagle_Thermocline/) I introduced the Pike Chain of Lakes
 &nbsp;
 
 ## Temperature Oxygen Relationship & Seasonality
-As noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a faily well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depltion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperatue profile (@fig-ex1991).
+As noted in the previous post, deep lakes in our area develop a thermocline in the summer, with relatively warm water near the surface (to approximately 25-30 feet) and relatively cool water near the bottom of the lake, with a zone of rapidly decreasing temperature (the thermocline) in between. The colder deeper water is more dense then the warmer surface waters and the thermocline in between limits the ability of the water in these two zones to mix. Generally, all plant life and plant growth occurs in the warmer surface waters, thus, producing oxygen (in dissolved format) for this zone. In contrast, in the deeper zone, no new oxygen is being added and oxygen is being used by bacteria as organic matter is broken down. These processes result in a fairly well oxygenated zone above the thermocline and an area of (sometimes extreme) oxygen depletion below the thermocline. The result is that the dissolved oxygen profile tends to be very similar to the temperature profile (@fig-ex1991).
 
 ```{r}
 #| label: fig-ex1991
@@ -145,6 +145,8 @@ op(d20) +
   theme(plot.title=element_text(size=10)) +
   enter_fade() + exit_fade()
 ```
+
+You may also notice a peak in DO just above the thermocline on many dates. This is the result of hypersaturation of oxygen at that depth due to the temperature cooling faster than the oxygen can be depleted. Thus, for a period of time when the top of thermocline is getting deeper, the oxygen from the once cooler water will be higher than the now warmer water would likely contain (thus, being over- or hyper-saturated).
 
 &nbsp;
 

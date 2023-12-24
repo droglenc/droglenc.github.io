@@ -63,12 +63,11 @@ plotSecchi <- function(d,maxdepth=NA,strip.fill="gray30") {
 ```{r}
 #| label: data-prep
 wq <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="Secchi") |>
-  select(lake=`Lake`,date=`Start Date`,secchi=`Secchi (Feet)`,
-         hit_bottom=`Secchi Hit Bottom?`,chl=`Chlorophyll(ug/l)`,
-         P=`Total Phosphorus(ug/l)`,TSI_secchi=`Secchi TSI`,
-         TSI_chl=`Chlorophyll TSI`,TSI_P=`Total Phosphorus TSI`,
-         lake_level=`Lake Level`,appearance=Appearance,color=Color,
-         perception=Perception) |>
+  select(lake=`Lake`,date=`Date`,secchi=`Secchi depth (ft)`,
+         hit_bottom=`Secchi hit bottom`,chl=`Chlorophyll-a (ug/L)`,
+         P=`Total phosphorus (mg/L)`,TSI_secchi=`TSI_Secchi`,
+         TSI_chl=`TSI_Chla`,TSI_P=`TSI_TotalP`,
+         color=`Water color`,perception=`User perception`) |>
   mutate(lake=factor(lake,levels=lakes),
          date=as.Date(date,format="%m/%d/%Y"),
          year=lubridate::year(date),
@@ -128,7 +127,7 @@ A Secchi disk is an 8-inch disk painted in quadrants with black and white that i
 &nbsp;
 
 ## Lake Comparisons
-Only the seven lakes listed in @tab-lakedata had reliable Secchi depth data.
+Only the seven lakes listed in @tbl-lakedata had reliable Secchi depth data.
 
 ```{r}
 #| label: tbl-lakedata
@@ -262,8 +261,8 @@ plotSecchi(filter(secchi,lake==lakes[7]),maxdepth=maxdep,strip.fill=lks[7])
 #| label: show_sources
 #| results: asis
 for (i in seq_along(lakeid)) {
-  cat("- ",lakes[i],": [https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=",
-      lakeid[i],"](https://dnr.wi.gov/lakes/waterquality/Station.aspx?id=",
+  cat("- ",lakes[i],": [https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=",
+      lakeid[i],"](https://apps.dnr.wi.gov/lakes/waterquality/Station.aspx?id=",
       lakeid[i],")\n",sep="")
 }
 ```
