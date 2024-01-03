@@ -52,3 +52,5 @@ Below are some specific hikes that we found interesting.
 - [Camp Nine Research Area East](IRA Camp 9 East.html)
 - [Rainbow Lakes - North Country Trail](IRA Rainbow Lakes NCT.html)
 - [Rainbow Lakes - Anderson Grade Trail](IRA Anderson Grade.html)
+- [Moquah Barrens Loop 1 (FR423, FR448, FR449, FR818)](IRA MBarrens1.html)
+- [Camp Two Lake [North]](IRA Camp Two North.html)

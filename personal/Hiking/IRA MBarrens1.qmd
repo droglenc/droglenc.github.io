@@ -1,0 +1,104 @@
+---
+title: "Moquah Barrens Loop 1"
+---
+
+On 2-Jan-2024 [Cash](../shelties.html#cash) and I walked a long (for us) loop of forest "roads" in the Moquah Barrens. Our walk began with a short stint along FR423 before turning onto FR448. FR448 looks to be an old railroad grade that is typical barrens habitat for the first (western) half or so before entering an area with some nice large pines before ending (to the East) in a large area that had been recently logged. FR449 is largely in typical barrens terrain but passes a small pond and excellent high scenic overview. FR818 is more typical barrens terrain. Overall this was a beautiful hike with pretty easy walking (it could be driven with a good 4WD truck). Details are below.
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+
+# Make vector of colors for Iron River Area
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+project <- "Iron River Area"
+walkID <- "IRA_MBarrens1"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("FR42303","FR42304","FR42305","FR42306","FR44804","FR44805","FR44806","FR44807","FR44910","FR44909","FR44908","FR44907","FR81803","FR81802","FR81801")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Overview Map
+The extent of this walk is highlighted by the blue box in this map.
+
+```{r}
+#| label: overviewMap
+#| echo: false
+gpxhelpers::allTracksMap(trkdat,clrs,walk=awalk,verbose=FALSE,map_bufr=0.0008)
+```
+
+:::{.callout-info appearance="simple"}
+## Map Key
+See [Iron River Area Overview page](Iron River Area.html) for segment color coding key and description for use of controls.
+:::
+
+## Walk-Specific Map
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
+```
+

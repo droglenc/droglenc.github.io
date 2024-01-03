@@ -100,7 +100,7 @@ d <- readxl::read_xlsx("../_data/TRUCK_RECORDS.xlsx",sheet="GAS") |>
   # remove first two records (truck was bought, tank might not have been full)
   slice(-(1:2)) |>
   # removed incomplete year (assumes last year is incomplete ... comment if not)
-  filter(year<max(year)) |>
+  #filter(year<max(year)) |>
   # should be arranged, but just to make sure
   arrange(date)
 ```
