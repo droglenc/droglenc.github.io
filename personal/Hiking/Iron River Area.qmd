@@ -54,4 +54,5 @@ Below are some specific hikes that we found interesting.
 - [Rainbow Lakes - Anderson Grade Trail](IRA Anderson Grade.html)
 - [Moquah Barrens Loop 1 (FR423, FR448, FR449, FR818)](IRA MBarrens1.html)
 - [Moquah Barrens Loop 2 (FR242, FR407W, FR449, FR406)](IRA MBarrens2.html)
+- [Barnes Barrens Loop 1 (near Halfway and Moore Rds)](IRA BBarrens1.html)
 - [Camp Two Lake [North]](IRA Camp Two North.html)
