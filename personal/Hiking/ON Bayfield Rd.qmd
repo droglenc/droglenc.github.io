@@ -1,0 +1,98 @@
+---
+title: "Bayfield Rd Trail"
+subtitle: "Brule River State Forest, WI"
+---
+
+On February 7, 2024 [Cash](../shelties.html#cash) and I walked the Bayfield Road Hiking Trail ([official map](https://p.widencdn.net/zkvn0z/BayfieldRoad)) in the [Brule River State Forest](https://dnr.wisconsin.gov/topic/StateForests/bruleriver). The trails are combined for the first XX miles before the trails split with the Copper Range spur splits to the right. The Copper Range trail is partially on old road, railroad, or logging trail grades at times and "deer trails" in the woods at other times. The entire trail is well-marked (*almost too much*) with blue paint, blue markers, and some signs. The markings are easy to see but if you get in a groove walking one of the grades you may miss the turn back into the woods. The trail ultimately ends either at the Brule River or at a parking area at the end of Park Rd. There is a bridge on Park Rd so that you can access the campground on the opposite side of the river.
+
+After hiking back on the Copper Range Spur, we turned right to follow the Bayfield Hiking trail. Very quickly we came to a short spur to look down into the mine shaft, which is cordoned off with a fence for safety. Further along the trail is another short spur to an overlook with amazing views north towards Lake Superior. The trail back to the parking area passes by an old fire tower (which could be driven to as well).
+
+All-in-all a nice scenic trail through typical northern Wisconsin woods, but with some cultural attractions.
+
+*Note that I lost satellites during this hike, so there are portions of the trail that were not mapped properly.*
+
+```{r}
+#| label: setup
+#| include: false
+
+project <- "Wisconsin"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
+# Make vector of colors for Iron River Area
+clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "ON_Bayfield_Road"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("BRBFLD01","BRBFLD02","BRCPRS01","BRCPRS02","BRCPRS03","BRCPRS04",
+             "BRCPRS05","BRCPRS06","BRCPRS07","BRCPRS08","BRCPRS08","BRCPRS09",
+             "BRCPRS10","BRCPRS06","BRCPRS05","BRCPRS04","BRCPRS03","BRCPRS02",
+             "BRCPRS01","BRBFLD03","BRBFLD03a","BRBFLD03a","BRBFLD04","BRBFLD04a",
+             "BRBFLD04a","BRBFLD05","BRBFLD06","BRBFLD01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```
