@@ -1,9 +1,13 @@
 ---
-title: "South Kaibab Trail"
+title: "Hermit Trail to Santa Maria Spring"
 subtitle: "Grand Canyon National Park, AZ"
 ---
 
-Kim and I hiked the [South Kaibab Trail](https://www.nps.gov/grca/planyourvisit/upload/SouthKaibabTrail.pdf) of the Grand Canyon in [Grand Canyon National Park](https://www.nps.gov/grca/index.htm) from the rim to Cedar Ridge on Feb 14 2024. We wore our Yak-Trax as the first third of the hike was icy and the last two-thirds was muddy (with some ice). This is a beautiful winding trail that was our introduction into descending somewhat into the canyon. The trail was moderately busy with other people but we did not feel "crowded." The views were awesome!!
+Kim and I hiked the [Hermit Trail](https://www.nps.gov/grca/planyourvisit/upload/HermitTrail.pdf) of the Grand Canyon in [Grand Canyon National Park](https://www.nps.gov/grca/index.htm) from the rim to Santa Maria Spring on Feb 15 2024. The first third of the hike was snowy (but not too icy), but the remainder was mostly dry. The trail is more remote than the [South Kaibab Trail](ON GCSKAIBAB.html) that we did the previous day. The entire trail is beautiful but the last third after the junction with the Dripping Springs trail is especially gorgeous as it winds through a red canyon to the hut at Santa Maria Spring.
+
+We were also treated along the way to a Bighorn Sheep. We initially spotted a single antler on a "shelf" about 50 feet above us. After several pictures of the antler, the sheep stood up and gave us a long and majestic side view. For some reason, the animal then quickly descended from the shelf to stop in the trail about 20' ahead of us!! It stood there for a few minutes (as we slowly backed up) before moving across the trail to graze at the edge of a very high and sheer cliff. It was an amazing once-in-a-lifetime experience.
+
+This was a very fun hike!
 
 ```{r}
 #| label: setup
@@ -19,12 +23,12 @@ project <- "GCNP24"
 clrs <- c("2024"="#CC0000")
 
 # Read in CSV file will all track info needed for the map
-walkID <- "ON_GCSKBAB"
+walkID <- "ON_GCSANTAMSP"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("GCSKBAB01","GCSKBAB02","GCSKBAB02","GCSKBAB01")
+walkIDs <- c("GCHRMT01","GCHRMT02","GCHRMT03","GCHRMT03","GCHRMT02","GCHRMT01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
