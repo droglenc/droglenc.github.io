@@ -711,7 +711,7 @@
     "href": "personal/Hiking/Other Notable.html",
     "title": "Other Notable Hikes",
     "section": "",
-    "text": "Other Notable Hikes\n\n\n\n\n\nThis page is a catch-all for other hikes that we have done that are notable for one reason or another (usually their beauty or cultural significance).\n \n\n\n2024\n\nBayfield Rd Trail, Bruler River State Forest, WI\n\n\n\n2023\n\nPicacho Peak, Santa Fe, NM\nPiedras Marcadas Canyon, Petrogylph National Monument, NM\nBoca Negra Canyon, Petrogylph National Monument, NM\nSandia Peak Aerial Tram, Albuquerque, NM\nSouth Crest Trail, Albuquerque, NM\nPainted Desert Rim Trail, Petrified Forest National Park, AZ\nPuerco Pueblo Trail, Petrified Forest National Park, AZ\nBlue Mesa Trail, Petrified Forest National Park, AZ\nCrystal Forest Trail, Petrified Forest National Park, AZ\nLong Logs and Agate House Trails, Petrified Forest National Park, AZ"
+    "text": "Other Notable Hikes\n\n\n\n\n\nThis page is a catch-all for other hikes that we have done that are notable for one reason or another (usually their beauty or cultural significance).\n \n\n\n2024\n\nBayfield Rd Trail, Brule River State Forest, WI\nSouth Rim Trail, Grand Canyon National Park, AZ\nSouth Kaibab Trail (to Cedar Ridge), Grand Canyon National Park, AZ\nHermit Trail (to Santa Maria Spring), Grand Canyon National Park, AZ\n\n\n\n2023\n\nPicacho Peak, Santa Fe, NM\nPiedras Marcadas Canyon, Petrogylph National Monument, NM\nBoca Negra Canyon, Petrogylph National Monument, NM\nSandia Peak Aerial Tram, Albuquerque, NM\nSouth Crest Trail, Albuquerque, NM\nPainted Desert Rim Trail, Petrified Forest National Park, AZ\nPuerco Pueblo Trail, Petrified Forest National Park, AZ\nBlue Mesa Trail, Petrified Forest National Park, AZ\nCrystal Forest Trail, Petrified Forest National Park, AZ\nLong Logs and Agate House Trails, Petrified Forest National Park, AZ"
   },
   {
     "objectID": "personal/Hiking/Superstition Wilderness.html",
@@ -1797,5 +1797,89 @@
     "title": "Bayfield Rd Trail",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nBRBFLD01\nBayfield Road Hiking Trail\nleave Clevedon Rd parking lot to Bayfield Road Hiking Trail\n0.03\n0.03\n23\n\n\n2\nBRBFLD02\nBayfield Road Hiking Trail\nBayfield Road Hiking Trail to Arrive Copper Range Spur\n0.34\n0.37\n-7\n\n\n3\nBRCPRS01\nCopper Range Spur\nLeave Bayfield Road Hiking Trail to Enter old road grade\n0.15\n0.52\n-45\n\n\n4\nBRCPRS02\nCopper Range Spur\nEnter old road grade to Leave old road grade\n0.38\n0.90\n-75\n\n\n5\nBRCPRS03\nCopper Range Spur\nLeave old road grade to Enter old trail grade\n0.29\n1.19\n2\n\n\n6\nBRCPRS04\nCopper Range Spur\nEnter old trail grade to Enter old road grade\n0.06\n1.25\n-6\n\n\n7\nBRCPRS05\nCopper Range Spur\nEnter old road grade to Leave old road grade\n0.04\n1.29\n-11\n\n\n8\nBRCPRS06\nCopper Range Spur\nLeave old road grade to Cross hunter walking trail\n0.58\n1.86\n-38\n\n\n9\nBRCPRS07\nCopper Range Spur\nCross hunter walking trail to Fork to parking area or Brule River\n0.03\n1.89\n-5\n\n\n10\nBRCPRS08\nCopper Range Spur\nFork to parking area or Brule River to Arrive Brule River\n0.09\n1.98\n-40\n\n\n11\nBRCPRS08\nCopper Range Spur\nArrive Brule River to Fork to parking area or Brule River\n0.09\n2.07\n40\n\n\n12\nBRCPRS09\nCopper Range Spur\nFork to parking area or Brule River to Arrive Park Rd parking lot\n0.11\n2.18\n-26\n\n\n13\nBRCPRS10\nCopper Range Spur (hunter walking trail)\nLeave Park Rd parking lot to Arrive main Copper Range Spur\n0.11\n2.28\n57\n\n\n14\nBRCPRS06\nCopper Range Spur\nCross hunter walking trail to Leave old road grade\n0.58\n2.86\n38\n\n\n15\nBRCPRS05\nCopper Range Spur\nLeave old road grade to Enter old road grade\n0.04\n2.89\n11\n\n\n16\nBRCPRS04\nCopper Range Spur\nEnter old road grade to Enter old trail grade\n0.06\n2.95\n6\n\n\n17\nBRCPRS03\nCopper Range Spur\nEnter old trail grade to Leave old road grade\n0.29\n3.24\n-2\n\n\n18\nBRCPRS02\nCopper Range Spur\nLeave old road grade to Enter old road grade\n0.38\n3.62\n75\n\n\n19\nBRCPRS01\nCopper Range Spur\nEnter old road grade to Leave Bayfield Road Hiking Trail\n0.15\n3.77\n45\n\n\n20\nBRBFLD03\nBayfield Road Hiking Trail\nLeave Copper Range Spur to Arrive Percival Mine spur\n0.08\n3.86\n1\n\n\n21\nBRBFLD03a\nPercival Mine Spur\nArrive Percival Mine to Leave Bayfield Road Hiking Trail\n0.02\n3.87\n17\n\n\n22\nBRBFLD03a\nPercival Mine Spur\nLeave Bayfield Road Hiking Trail to Arrive Percival Mine\n0.02\n3.89\n-17\n\n\n23\nBRBFLD04\nBayfield Road Hiking Trail\nLeave Percival Mine spur to Arrive Lookout spur\n0.82\n4.70\n95\n\n\n24\nBRBFLD04a\nLookout Spur\nLeave Bayfield Road Hiking Trail to Arrive Lookout\n0.02\n4.72\n-2\n\n\n25\nBRBFLD04a\nLookout Spur\nArrive Lookout to Leave Bayfield Road Hiking Trail\n0.02\n4.74\n2\n\n\n26\nBRBFLD05\nBayfield Road Hiking Trail\nLeave Lookout spur to Arrive fire tower spur\n0.26\n4.99\n23\n\n\n27\nBRBFLD06\nBayfield Road Hiking Trail\nLeave fire tower spur to Bayfield Road Hiking Trail\n0.92\n5.92\n-69\n\n\n28\nBRBFLD01\nBayfield Road Hiking Trail\nBayfield Road Hiking Trail to leave Clevedon Rd parking lot\n0.03\n5.95\n-23"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSOUTHRIM.html",
+    "href": "personal/Hiking/ON GCSOUTHRIM.html",
+    "title": "Rim Trail",
+    "section": "",
+    "text": "The Rim Trail is a flat, mostly paved trail that runs for approximately 13 miles along the South Rim of the Grand Canyon in Grand Canyon National Park. Kim and I visited the Grand Canyon from Feb 12 to Feb 14 2024. The trail is an easy walk and provide a great and beautiful overview of the canyon. We actually walked from Mather Point to Bright Angel Trailhead on the first afternoon we arrived at the canyon and then walked from South Kaibab Trailhead to Mather Point after hiking the South Kaibab trail the next day. The track below puts these two walks together as if they were one walk."
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSOUTHRIM.html#walk-specific-map",
+    "href": "personal/Hiking/ON GCSOUTHRIM.html#walk-specific-map",
+    "title": "Rim Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSOUTHRIM.html#elevation-profile",
+    "href": "personal/Hiking/ON GCSOUTHRIM.html#elevation-profile",
+    "title": "Rim Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSOUTHRIM.html#images",
+    "href": "personal/Hiking/ON GCSOUTHRIM.html#images",
+    "title": "Rim Trail",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nGCSRIM01: Elk along trail\n\n\n\n\n\n\n\nGCSRIM01: Elk along trail\n\n\n\n\n\n\n\nGCSRIM02: Kim along the rim\n\n\n\n\n\n\n\nGCSRIM02: Canyon view\n\n\n\n\n\n\n\nGCSRIM02: Canyon view\n\n\n\n\n\n\n\nGCSRIM02: Canyon view\n\n\n\n\n\n\n\nGCSRIM02: Kim and I\n\n\n\n\n\n\n\nGCSRIM03: Canyon view\n\n\n\n\n\n\n\nGCSRIM03: Canyon view\n\n\n\n\n\n\n\nGCSRIM04: Canyon view\n\n\n\n\n\n\n\nGCSRIM04: Canyon view\n\n\n\n\n\n\n\nGCSRIM04: Canyon view\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSOUTHRIM.html#gpx-download",
+    "href": "personal/Hiking/ON GCSOUTHRIM.html#gpx-download",
+    "title": "Rim Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSOUTHRIM.html#summary-information",
+    "href": "personal/Hiking/ON GCSOUTHRIM.html#summary-information",
+    "title": "Rim Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nGCSRIM01\nSouth Rim Trail\nYaki Point to Mather Point\n2.57\n2.57\n-84\n\n\n2\nGCSRIM02\nSouth Rim Trail\nMather Point to Yavapai Point\n0.74\n3.32\n-34\n\n\n3\nGCSRIM03\nSouth Rim Trail\nYavapai Point to Grandeur Point\n0.34\n3.66\n-38\n\n\n4\nGCSRIM04\nSouth Rim Trail\nGrandeur Point to El Tovar Lodge\n1.57\n5.22\n-167\n\n\n5\nGCSRIM05\nSouth Rim Trail\nEl Tovar Lodge to Bright Angel Trailhead\n0.28\n5.50\n-29"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSKAIBAB.html",
+    "href": "personal/Hiking/ON GCSKAIBAB.html",
+    "title": "South Kaibab Trail",
+    "section": "",
+    "text": "Kim and I hiked the South Kaibab Trail in the Grand Canyon from the rim to Cedar Ridge on Feb 14 2024. We wore our Yak-Trax as the first third of the hike was icy and the last two-thirds was muddy (with some ice). This is a beautiful winding trail that was our introduction into descending somewhat into the canyon. The trail was moderately busy with other people but we did not feel “crowded.” The views were awesome!!"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSKAIBAB.html#walk-specific-map",
+    "href": "personal/Hiking/ON GCSKAIBAB.html#walk-specific-map",
+    "title": "South Kaibab Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSKAIBAB.html#elevation-profile",
+    "href": "personal/Hiking/ON GCSKAIBAB.html#elevation-profile",
+    "title": "South Kaibab Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSKAIBAB.html#images",
+    "href": "personal/Hiking/ON GCSKAIBAB.html#images",
+    "title": "South Kaibab Trail",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nGCSKBAB01: Trail view\n\n\n\n\n\n\n\nGCSKBAB01: Trail view\n\n\n\n\n\n\n\nGCSKBAB01: Kim on the trail\n\n\n\n\n\n\n\nGCSKBAB01: Trail view\n\n\n\n\n\n\n\nGCSKBAB01: Trail view\n\n\n\n\n\n\n\nGCSKBAB01: Ooh Aah Point sign\n\n\n\n\n\n\n\nGCSKBAB02: Prickly Pear Cactus\n\n\n\n\n\n\n\nGCSKBAB02: Canyon view\n\n\n\n\n\n\n\nGCSKBAB02: Trail view\n\n\n\n\n\n\n\nGCSKBAB02: Canyon view\n\n\n\n\n\n\n\nGCSKBAB02: Kim and I\n\n\n\n\n\n\n\nGCSKBAB02: Cedar Ridge sign\n\n\n\n\n\n\n\nGCSKBAB01: Kim on the trail\n\n\n\n\n\n\n\nGCSKBAB01: Canyon view\n\n\n\n\n\n\n\nGCSKBAB01: Kim on the trail\n\n\n\n\n\n\n\nGCSKBAB01: Kim on the trail\n\n\n\n\n\n\n\nGCSKBAB01: Kim on the trail\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSKAIBAB.html#gpx-download",
+    "href": "personal/Hiking/ON GCSKAIBAB.html#gpx-download",
+    "title": "South Kaibab Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON GCSKAIBAB.html#summary-information",
+    "href": "personal/Hiking/ON GCSKAIBAB.html#summary-information",
+    "title": "South Kaibab Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nGCSKBAB01\nSouth Kaibab Trail\nSouth Kaibab Trailhead to Ooh Aah Point\n0.87\n0.87\n-610\n\n\n2\nGCSKBAB02\nSouth Kaibab Trail\nOoh Aah Point to Cedar Ridge\n0.72\n1.59\n-580\n\n\n3\nGCSKBAB02\nSouth Kaibab Trail\nCedar Ridge to Ooh Aah Point\n0.72\n2.31\n580\n\n\n4\nGCSKBAB01\nSouth Kaibab Trail\nOoh Aah Point to South Kaibab Trailhead\n0.87\n3.18\n610"
   }
 ]
