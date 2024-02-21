@@ -1,0 +1,95 @@
+---
+title: "Lost Goldmine Trail"
+subtitle: "Broadway Ave TH to Cloudview Ave TH"
+---
+
+On February 15, 2024 Kim and I went for a quick in the desert on the Lost Goldmine Trail from the Broadway Ave Trailhead to the E Cloudview Ave "Trailhead." This trail is relatively flat, provides some beautiful views of cacti, but was somewhat irritating with the many grapefruit sized rocks in the trail that made walking difficult and the many (needless?) "switchbacks" in the trail (zoom in on my track to see them). It was nice to get out for a quick hike, but we probably won't do this one again (it is more interesting to hike up to the [Broadway Cave](SW Broadway Cave.html)).
+
+```{r}
+#| label: setup
+#| include: false
+
+# Make vector of colors
+clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+
+# Read in CSV file will all track info needed for the map
+project <- "Superstition Wilderness"
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
+walkID <- "SW_LGM_BW2CV"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("LGMN01","LGMN02","LGMN02","LGMN01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+See [Superstition Wilderness Overview page](Superstition Wilderness.html) for an overview map of all hikes.
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+- See [Superstition Wilderness Overview page](Superstition Wilderness.html) for description of use of controls.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```

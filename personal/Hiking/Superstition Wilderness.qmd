@@ -17,7 +17,7 @@ project <- "Superstition Wilderness"
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
 
 # Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
 
 # Read in CSV file will all track info needed for the map
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
@@ -46,11 +46,18 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 # Specific Hikes
 Specific hikes that we have enjoyed are highlighted below.
 
+* **2024**
+  - [Lost Goldmine (Hieroglyphics TH to Carney Springs)](SW LGM_HG2CS.html)
+  - [Lost Goldmine (Broadway TH to E Cloudview Ave)](SW LGM_BW2CV.html)
+  - [Weaver's Needle Cross Loop](SW Weavers Needle Cross.html)
+  - [Robber's Roost (via Fremont)](SW Robbers Roost II.html)
+  - [Hackberry Springs Loop II](SW Hackberry Springs II.html)
+
 * **2023**
   - [Broadway Cave & Monument Canyon Mine Shaft](SW Broadway Cave.html)
   - [Peralta TH to Canyon Lake Marina](SW Peralta to Canyon Lake.html)
   - [Hackbery Springs Loop](SW Hackberry Springs I.html)
-  - [Robber's Roost Loop](SW Robbers Roost I.html)
+  - [Robber's Roost Loop (Carney Springs to Peralta TH)](SW Robbers Roost I.html)
   
 * **2022**
   - [Wave Cave](SW Wave Cave.html)
