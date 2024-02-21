@@ -718,7 +718,7 @@
     "href": "personal/Hiking/Superstition Wilderness.html",
     "title": "Superstition Wilderness Hiking",
     "section": "",
-    "text": "Kim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. More information on some specific walks is in the next section.\n\n\n\n\n\n\n\n\n\nRed were from 2022 and Orange is from 2023.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
+    "text": "Kim’s Mom has a place near Superstition Mountain which we try to visit annually. In 2022 I started mapping hikes that we made in the Superstition Wilderness. Those hikes are shown below. More information on some specific walks is in the next section.\n\n\n\n\n\n\n\n\n\nred were from 2022, orange were from 2023, and gold were from 2024 (recent years overlap older years for some tracks).\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
   },
   {
     "objectID": "personal/Hiking/SW Black Top Mesa FW TH.html",
@@ -1971,7 +1971,7 @@
     "href": "personal/Hiking/Superstition Wilderness.html#interactions-with-map",
     "title": "Superstition Wilderness Hiking",
     "section": "",
-    "text": "Red were from 2022 and Orange is from 2023.\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
+    "text": "red were from 2022, orange were from 2023, and gold were from 2024 (recent years overlap older years for some tracks).\nHover on track to see track abbreviation.\nClick on track to get track information.\nUse +/- in upper-left to zoom.\nUse object in upper-right to change base map type.\nUse object in lower-left to make measurements on map."
   },
   {
     "objectID": "personal/Hiking/SW LGM_HG2CS.html",
@@ -2098,5 +2098,47 @@
     "title": "Robber’s Roost II",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nRBRR21\nRobber's Roost Hike (Peralta Tr)\nPeralta TH to Fremont Saddle\n2.31\n2.31\n1357\n\n\n2\nRBRR22\nRobber's Roost Hike (Robber's Roost Tr)\nFremont Saddle to Robber's Roost\n0.87\n3.18\n84\n\n\n3\nRBRR22\nRobber's Roost Hike (Robber's Roost Tr)\nRobber's Roost to Fremont Saddle\n0.87\n4.05\n-84\n\n\n4\nRBRR23\nPeralto-Cave Tr Hike (Cave Tr 233)\nFremont Saddle to Lone Tree trail\n0.17\n4.23\n44\n\n\n5\nRBRR24\nPeralto-Cave Tr Hike (Cave Tr 233)\nLone Tree trail to Bluff Spring Tr\n1.83\n6.06\n-885\n\n\n6\nRBRR25\nPeralto-Cave Tr Hike (Bluff Spring Tr 235)\nCave Tr to Dutchman's Tr\n0.70\n6.76\n-501\n\n\n7\nRBRR26\nPeralto-Cave Tr Hike (Dutchman's Tr 104)\nBluff Spring Tr to Peralta TH\n0.05\n6.81\n-11"
+  },
+  {
+    "objectID": "personal/Hiking/SW Weavers Needle Cross.html",
+    "href": "personal/Hiking/SW Weavers Needle Cross.html",
+    "title": "Weaver’s Needle Cross Loop",
+    "section": "",
+    "text": "I hiked a loop that included Weaver’s Needle Crosscut trail on February 11, 2024. The loop begins with the Dutchman’s Trail and Brush Spring Trail that forms the end of the Cave Trail loop. I continued on the Brush Spring Trail through a pass into Needle Canyon. I then hopped on the Terrapin Trail to Bluff Saddle where I began the Weaver’s Needle Crosscut Trail. The first half or so of the crosscut trail is easy to follow but the last half requires some scrambling before a fairly quick descent to the Peralta Trail. I don’t think I followed a typical path but I could see the Peralta Trail and just navigated my way down it. I then returned on the Peralta Trail through Fremont’s Saddle and down to the Peralta Trailhead. This was a beautiful day hike that I will definitely do again."
+  },
+  {
+    "objectID": "personal/Hiking/SW Weavers Needle Cross.html#walk-specific-map",
+    "href": "personal/Hiking/SW Weavers Needle Cross.html#walk-specific-map",
+    "title": "Weaver’s Needle Cross Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\nSee Superstition Wilderness Overview page for an overview map of all hikes.\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below.\nSee Superstition Wilderness Overview page for description of use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Weavers Needle Cross.html#elevation-profile",
+    "href": "personal/Hiking/SW Weavers Needle Cross.html#elevation-profile",
+    "title": "Weaver’s Needle Cross Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Weavers Needle Cross.html#images",
+    "href": "personal/Hiking/SW Weavers Needle Cross.html#images",
+    "title": "Weaver’s Needle Cross Loop",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nWVRC02: Looking south from Bluff Spring Trail\n\n\n\n\n\n\n\nWVRC02: Typical scenery in winter 2024\n\n\n\n\n\n\n\nWVRC03: Typical scenery in winter 2024\n\n\n\n\n\n\n\nWVRC03: Typical scenery in winter 2024\n\n\n\n\n\n\n\nWVRC03: Typical scenery in winter 2024\n\n\n\n\n\n\n\nWVRC04: Sign for Terrapin Tr\n\n\n\n\n\n\n\nWVRC04: Typical scenery in winter 2024\n\n\n\n\n\n\n\nWVRC05: An early look at Weaver’s Needle\n\n\n\n\n\n\n\nWVRC05: Me with Weaver’s Needle\n\n\n\n\n\n\n\nWVRC05: Trail view on Weaver’s Crosscut Tr\n\n\n\n\n\n\n\nWVRC05: Trail view on Weaver’s Crosscut Tr\n\n\n\n\n\n\n\nWVRC05: Trail view on Weaver’s Crosscut Tr\n\n\n\n\n\n\n\nWVRC05: Looking down to Peralta Tr from Crosscut Tr\n\n\n\n\n\n\n\nWVRC06: Cairn at Peralta Tr Crosscut Tr Junction\n\n\n\n\n\n\n\nWVRC06: A look back to Weaver’s Needle\n\n\n\n\n\n\n\nWVRC06: Some snow still on the trail\n\n\n\n\n\n\n\nWVRC07: Lots of water around\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Weavers Needle Cross.html#gpx-download",
+    "href": "personal/Hiking/SW Weavers Needle Cross.html#gpx-download",
+    "title": "Weaver’s Needle Cross Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Weavers Needle Cross.html#summary-information",
+    "href": "personal/Hiking/SW Weavers Needle Cross.html#summary-information",
+    "title": "Weaver’s Needle Cross Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nWVRC01\nWeaver's Needle Crosscut Loop (Dutchman's Tr)\nPeralta TH to Bluff Spring Tr\n0.05\n0.05\n13\n\n\n2\nWVRC02\nWeaver's Needle Crosscut Loop (Bluff Spring Tr)\nBluff Spring Tr to Cave Tr\n0.68\n0.73\n504\n\n\n3\nWVRC03\nWeaver's Needle Crosscut Loop (Bluff Spring Tr)\nCave Tr to Terrapin Tr\n1.66\n2.40\n217\n\n\n4\nWVRC04\nWeaver's Needle Crosscut Loop (Terrapin Tr)\nBluff Spring Tr to Weaver's Crosscut Tr\n0.85\n3.25\n200\n\n\n5\nWVRC05\nWeaver's Needle Crosscut Loop (Weaver's Crosscut Tr)\nTerrapin Tr to Peralta Tr\n1.07\n4.31\n-137\n\n\n6\nWVRC06\nWeaver's Needle Crosscut Loop (Peralta Tr)\nWeaver's Crosscut Tr to Fremont Saddle\n1.37\n5.69\n557\n\n\n7\nWVRC07\nWeaver's Needle Crosscut Loop (Peralta Tr)\nFremont Saddle to Peralta TH\n2.31\n8.00\n-1357"
   }
 ]

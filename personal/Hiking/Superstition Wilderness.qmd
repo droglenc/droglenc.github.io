@@ -33,7 +33,7 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 
 :::{.callout-tips appearance="simple"}
 ## Interactions with Map
-* <span style="color: #CC0000">Red</span> were from 2022 and <span style="color: #CC6600">Orange</span> is from 2023.
+* <span style="color: #CC0000">red</span> were from 2022, <span style="color: #CC6600">orange</span> were from 2023, and <span style="color: #CC9900">gold</span> were from 2024 (*recent years overlap older years for some tracks*).
 * Hover on track to see track abbreviation.
 * Click on track to get track information.
 * Use +/- in upper-left to zoom.
@@ -48,15 +48,15 @@ Specific hikes that we have enjoyed are highlighted below.
 
 * **2024**
   - [Lost Goldmine (Hieroglyphics TH to Carney Springs)](SW LGM_HG2CS.html)
-  - [Lost Goldmine (Broadway TH to E Cloudview Ave)](SW LGM_BW2CV.html)
   - [Weaver's Needle Cross Loop](SW Weavers Needle Cross.html)
-  - [Robber's Roost (via Fremont)](SW Robbers Roost II.html)
+  - [Lost Goldmine (Broadway TH to E Cloudview Ave)](SW LGM_BW2CV.html)
+  - [Robber's Roost (via Fremont Saddle)](SW Robbers Roost II.html)
   - [Hackberry Springs Loop II](SW Hackberry Springs II.html)
 
 * **2023**
   - [Broadway Cave & Monument Canyon Mine Shaft](SW Broadway Cave.html)
   - [Peralta TH to Canyon Lake Marina](SW Peralta to Canyon Lake.html)
-  - [Hackbery Springs Loop](SW Hackberry Springs I.html)
+  - [Hackbery Springs Loop I](SW Hackberry Springs I.html)
   - [Robber's Roost Loop (Carney Springs to Peralta TH)](SW Robbers Roost I.html)
   
 * **2022**
