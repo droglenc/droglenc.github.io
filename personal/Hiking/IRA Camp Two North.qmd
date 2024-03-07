@@ -20,7 +20,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("CMP210","CMP211","MNRL08","MNRL04","CMP213","CMP214","CMP215","CMP216","CMP218","CMP217","CMP215","CMP214","CMP220","ATV3126","RUTH03","RUTH04","RUTH05")
+walkIDs <- c("CMP210","CMP211","MNRL05","MNRL04","CMP213","CMP214","CMP215",
+             "CMP217","CMP216","CMP214","CMP220","ATV3124","RUTH03","RUTH04","RUTH05")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
@@ -88,10 +89,10 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 #| message: false
 #| results: asis
 fnm <- paste0(walkID,".gpx")
-gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
-                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
-                              fnm=fnm,
-                              IDs=unique(walkIDs))
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 

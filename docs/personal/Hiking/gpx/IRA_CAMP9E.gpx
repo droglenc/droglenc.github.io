@@ -4,7 +4,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <trk>
   <name>FR40007</name>
-  <desc>Beck Rd to Unnamed trail off FR400</desc>
+  <desc>Beck Rd to Unnamed off FR400</desc>
   <trkseg>
   <trkpt lat="46.4168461121891" lon="-91.3763773051702">
     <ele>386.597</ele>
@@ -638,7 +638,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
 </trk>
 <trk>
   <name>FR40008</name>
-  <desc>at Unnamed trail off FR400</desc>
+  <desc>at Unnamed off FR400</desc>
   <trkseg>
   <trkpt lat="46.4186086139412" lon="-91.3694597094085">
     <ele>388.596</ele>

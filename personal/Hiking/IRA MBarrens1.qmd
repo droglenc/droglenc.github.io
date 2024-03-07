@@ -2,7 +2,7 @@
 title: "Moquah Barrens Loop 1"
 ---
 
-On 2-Jan-2024 [Cash](../shelties.html#cash) and I walked a long (for us) loop of forest "roads" in the Moquah Barrens. Our walk began with a short stint along FR423 before turning onto FR448. FR448 looks to be an old railroad grade that is typical barrens habitat for the first (western) half or so before entering an area with some nice large pines before ending (to the East) in a large area that had been recently logged. FR449 is largely in typical barrens terrain but passes a small pond and excellent high scenic overview. FR818 is more typical barrens terrain. Overall this was a beautiful hike with pretty easy walking (it could be driven with a good 4WD truck). Details are below.
+On 2-Jan-2024 [Cash](../shelties.html#cash) and I walked a long (for us) loop of forest "roads" in the Moquah Barrens. Our walk began with a short stint along FR423 before turning onto FR448. FR448 looks to be an old railroad grade that is typical barrens habitat for the first (western) half or so before entering an area with some nice large pines before ending (to the East) in a large area that had been recently logged. FR449 is largely in typical barrens terrain but passes a small pond and an excellent high scenic overview. FR818 is more typical barrens terrain. Overall this was a beautiful hike with pretty easy walking (it could be driven with a good 4WD truck). Details are below.
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -20,7 +20,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("FR42303","FR42304","FR42305","FR42306","FR44804","FR44805","FR44806","FR44807","FR44910","FR44909","FR44908","FR44907","FR81803","FR81802","FR81801")
+walkIDs <- c("FR42303","FR42304","FR42305","FR42306","FR44802","FR44803",
+             "FR44804","FR44805","FR44906","FR44905","FR44904","FR81802","FR81801")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
@@ -88,10 +89,10 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 #| message: false
 #| results: asis
 fnm <- paste0(walkID,".gpx")
-gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
-                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
-                              fnm=fnm,
-                              IDs=unique(walkIDs))
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 

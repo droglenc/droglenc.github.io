@@ -955,7 +955,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
   </trkseg>
 </trk>
 <trk>
-  <name>MNRL08</name>
+  <name>MNRL05</name>
   <desc>Camp Two Lake trails [North] to Minor Lake trails</desc>
   <trkseg>
   <trkpt lat="46.50764955300635" lon="-91.40714507768386">
@@ -1825,59 +1825,55 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
     <time>2022-06-13T00:00:47Z</time>
   </trkpt>
   </trkseg>
-</trk>
-<trk>
-  <name>CMP215</name>
-  <desc>Camp Two Lake trails [North]</desc>
   <trkseg>
   <trkpt lat="46.5039223432571" lon="-91.4125921557593">
     <ele>370.331</ele>
-    <time>2022-06-13T00:00:01Z</time>
+    <time>2022-06-13T00:00:48Z</time>
   </trkpt>
   <trkpt lat="46.503928508545" lon="-91.4125493838462">
     <ele>370.072</ele>
-    <time>2022-06-13T00:00:02Z</time>
+    <time>2022-06-13T00:00:49Z</time>
   </trkpt>
   <trkpt lat="46.5039393180234" lon="-91.4125110652644">
     <ele>369.021</ele>
-    <time>2022-06-13T00:00:03Z</time>
+    <time>2022-06-13T00:00:50Z</time>
   </trkpt>
   <trkpt lat="46.5039581427705" lon="-91.4124412297003">
     <ele>368.573</ele>
-    <time>2022-06-13T00:00:04Z</time>
+    <time>2022-06-13T00:00:51Z</time>
   </trkpt>
   <trkpt lat="46.5039863668128" lon="-91.4123633580022">
     <ele>369.184</ele>
-    <time>2022-06-13T00:00:05Z</time>
+    <time>2022-06-13T00:00:52Z</time>
   </trkpt>
   <trkpt lat="46.5039861207973" lon="-91.4122989327288">
     <ele>369.502</ele>
-    <time>2022-06-13T00:00:06Z</time>
+    <time>2022-06-13T00:00:53Z</time>
   </trkpt>
   <trkpt lat="46.5039929014597" lon="-91.4122273624198">
     <ele>370.302</ele>
-    <time>2022-06-13T00:00:07Z</time>
+    <time>2022-06-13T00:00:54Z</time>
   </trkpt>
   <trkpt lat="46.5039703474994" lon="-91.4121463762413">
     <ele>370.076</ele>
-    <time>2022-06-13T00:00:08Z</time>
+    <time>2022-06-13T00:00:55Z</time>
   </trkpt>
   <trkpt lat="46.5039467315741" lon="-91.4121191777461">
     <ele>369.81</ele>
-    <time>2022-06-13T00:00:09Z</time>
+    <time>2022-06-13T00:00:56Z</time>
   </trkpt>
   <trkpt lat="46.5039181721787" lon="-91.412061024306">
     <ele>369.98</ele>
-    <time>2022-06-13T00:00:10Z</time>
+    <time>2022-06-13T00:00:57Z</time>
   </trkpt>
   <trkpt lat="46.5039128248435" lon="-91.4119911061463">
     <ele>369.554</ele>
-    <time>2022-06-13T00:00:11Z</time>
+    <time>2022-06-13T00:00:58Z</time>
   </trkpt>
   </trkseg>
 </trk>
 <trk>
-  <name>CMP216</name>
+  <name>CMP215</name>
   <desc>Camp Two Lake trails [North]</desc>
   <trkseg>
   <trkpt lat="46.5039128248435" lon="-91.4119911061463">
@@ -1919,7 +1915,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
   </trkseg>
 </trk>
 <trk>
-  <name>CMP218</name>
+  <name>CMP217</name>
   <desc>at Camp Two Lake</desc>
   <trkseg>
   <trkpt lat="46.5033533567413" lon="-91.4117529643112">
@@ -2033,7 +2029,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
   </trkseg>
 </trk>
 <trk>
-  <name>CMP217</name>
+  <name>CMP216</name>
   <desc>at Camp Two Lake</desc>
   <trkseg>
   <trkpt lat="46.5039125632065" lon="-91.41198993956851">
@@ -2513,7 +2509,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
   </trkseg>
 </trk>
 <trk>
-  <name>ATV3126</name>
+  <name>ATV3124</name>
   <desc>Ruth Lake Rd to Camp Two Lake trails [North]</desc>
   <trkseg>
   <trkpt lat="46.51465085755901" lon="-91.41029287938095">
