@@ -64,33 +64,8 @@ knitr::include_graphics("Eagle_Ice.jpg")
 ## Ice-Out Dates
 
 ```{r}
-#| label: fig-outhist
-#| fig-cap: !expr paste0("Eagle Lake ice out dates, ",min(dat$fyr),"-",max(dat$fyr),".")
-#| fig-width: 5
-#| fig-height: 4
-
-p_outhist <- ggplot(data=dat,mapping=aes(x=outDay)) +
-  geom_histogram(binwidth=5,boundary=0,fill=FSA::col2rgbt(outclr,0.5),color="black") +
-  scale_y_continuous(expand=expansion(mult=c(0,0.02))) +
-  scale_x_continuous(name="Day of Ice-Out",
-                     breaks=date_breaks2,labels=date_labels2) +
-  theme(axis.title.y=element_blank(),axis.text.y=element_blank(),
-        panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
-
-p_outhist +
-  annotate(geom="text",hjust="right",color=outclr,
-           x=92,y=3.5,label=paste0("Average (",sum$outAvgDate,")")) +
-  annotate(geom="curve",x=92.5,y=3.5,xend=sum$outAvgDay,yend=0,
-           linewidth=0.75,curvature=-0.1,color=outclr,
-           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
-```
-
-&nbsp;
-
-```{r}
 #| label: fig-out
-#| fig-cap: Eagle Lake ice out dates by year. Note no data for 2008.
+#| fig-cap: Eagle Lake ice out dates (gray line and points) by year (note no data for 2008). Solid red line is a loess trend line.
 
 p_out <- ggplot(data=dat,mapping=aes(x=fyr)) +
   geom_smooth(mapping=aes(y=outDay),se=FALSE,color=outclr) +
@@ -121,6 +96,31 @@ p_out +
   annotate(geom="text",hjust="left",color=outclr,
            x=2000,y=sum$outEarlyDay,
            label=paste0("Earliest Out (",sum$outEarlyDate,")"))
+```
+
+&nbsp;
+
+```{r}
+#| label: fig-outhist
+#| fig-cap: !expr paste0("Eagle Lake ice out dates, ",min(dat$fyr),"-",max(dat$fyr),".")
+#| fig-width: 5
+#| fig-height: 4
+
+p_outhist <- ggplot(data=dat,mapping=aes(x=outDay)) +
+  geom_histogram(binwidth=5,boundary=0,fill=FSA::col2rgbt(outclr,0.5),color="black") +
+  scale_y_continuous(name="Frequency of Years",
+                     expand=expansion(mult=c(0,0.02))) +
+  scale_x_continuous(name="Day of Ice-Out",
+                     breaks=date_breaks2,labels=date_labels2) +
+  theme(panel.grid.major.y=element_blank(),panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
+
+p_outhist +
+  annotate(geom="text",hjust="right",color=outclr,
+           x=92,y=3.5,label=paste0("Average (",sum$outAvgDate,")")) +
+  annotate(geom="curve",x=92.5,y=3.5,xend=sum$outAvgDay,yend=0,
+           linewidth=0.75,curvature=-0.1,color=outclr,
+           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
 ```
 
 &nbsp;
