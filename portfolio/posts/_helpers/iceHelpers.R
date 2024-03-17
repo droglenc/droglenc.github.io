@@ -33,6 +33,8 @@ prepIceData <- function(sheet,fn,skip=3) {
     mutate(lake=sheet,
            fyr=as.numeric(stringr::str_extract(season,"[^-]+")),
            wyr=fyr+1,
+           fleapyr=leap_year(fyr),
+           wleapyr=leap_year(wyr),
            inYr=ifelse(month(iceIn)>6,fyr,wyr),
            inDate=make_date(inYr,month(iceIn),day(iceIn)),
            inDay=as.numeric(inDate-make_date(wyr,1,1)),
@@ -40,7 +42,9 @@ prepIceData <- function(sheet,fn,skip=3) {
            outDate=make_date(outYr,month(iceOut),day(iceOut)),
            outDay=as.numeric(outDate-make_date(wyr,1,1)),
            daysIced=as.numeric(outDay-inDay)) %>%
-    select(lake,season,fyr,wyr,inDate,inYr,inDay,outDate,outYr,outDay,daysIced)
+    select(lake,season,fyr,wyr,fleapyr,wleapyr,
+           inDate,inYr,inDay,
+           outDate,outYr,outDay,daysIced)
   ## Identify years with two recordings (ice on, then off, and then on again) ...
   ##   keep the 2nd recording (so delete row before duplicate was identified)
   dups <- which(duplicated(tmp$season))-1

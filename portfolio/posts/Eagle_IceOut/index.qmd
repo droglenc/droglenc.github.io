@@ -21,20 +21,24 @@ format:
 ```{r}
 #| label: setup
 source("../_helpers/iceHelpers.R")
+leapyr_pchs <- c("TRUE"=24,"FALSE"=21)
 ```
 
 ```{r}
 #| label: data-prep
 dat <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Eagle")
-sum <- sumIceData(dat) |>
-  mutate(outEarlyYr=dat$fyr[which(dat$outDay==outEarlyDay)],
-         outLateYr=dat$fyr[which(dat$outDay==outLateDay)])
+sum <- sumIceData(dat)
+
+outEarly <- dat[dat$outDay==sum$outEarlyDay,]
+outEarly <- outEarly[!is.na(outEarly$season),]
+outLate <- dat[dat$outDay==sum$outLateDay,]
+outLate <- outLate[!is.na(outLate$season),]
 
 tmp1 <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Nebagamon")
 tmp2 <- prepIceData(fn="../_data/IceDates.xlsx",sheet="Mendota")
 
 dat2 <- bind_rows(dat,tmp1,tmp2) |>
-  select(lake,season,fyr,outDate,outDay) |>
+  select(lake,season,fyr,wleapyr,outDate,outDay) |>
   mutate(lake=factor(lake,levels=c("Eagle","Nebagamon","Mendota")))
 ```
 
@@ -50,8 +54,8 @@ knitr::include_graphics("Eagle_Ice.jpg")
 - [Eagle Lake, in Bayfield County](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2902900), is 163 acres with a maximum depth of 52 feet.
 - Ice-out dates recorded from `r min(dat$fyr)` to `r max(dat$fyr)`.
 - Average ice-out date is `r sum$outAvgDate`.
-- Range of ice-out dates is approximately eight weeks from `r sum$outEarlyDate` (in `r sum$outEarlyYr`) to `r sum$outLateDate` (in `r sum$outLateYr`)  (see @fig-outhist).
-- There are *weak* indications for a slightly later ice-out date in the last decade (see @fig-out).
+- Range of ice-out dates is approximately eight weeks from `r sum$outEarlyDate` (in `r paste(outEarly$fyr,collapse=", ")`) to `r sum$outLateDate` (in `r paste(outLate$fyr,collapse=", ")`)  (see @fig-outhist).
+- Ice-out dates have remained unchanged within the annual variability over this time period (see @fig-out).
 - Ice-out dates were mostly similar to those from a nearby similarly-sized lake (see @fig-compare).
 :::
 
@@ -61,7 +65,7 @@ knitr::include_graphics("Eagle_Ice.jpg")
 
 ```{r}
 #| label: fig-outhist
-#| fig-cap: !expr paste0("Eagle Lake ice out dates, 1999-",max(dat$fyr),".")
+#| fig-cap: !expr paste0("Eagle Lake ice out dates, ",min(dat$fyr),"-",max(dat$fyr),".")
 #| fig-width: 5
 #| fig-height: 4
 
@@ -86,35 +90,37 @@ p_outhist +
 
 ```{r}
 #| label: fig-out
-#| fig-cap: Eagle Lake ice out dates by year. Note no data for 1998.
+#| fig-cap: Eagle Lake ice out dates by year. Note no data for 2008.
 
 p_out <- ggplot(data=dat,mapping=aes(x=fyr)) +
   geom_smooth(mapping=aes(y=outDay),se=FALSE,color=outclr) +
   geom_line(mapping=aes(y=outDay),linewidth=main_lw,color=main_clr) +
-  geom_point(mapping=aes(y=outDay),size=1,shape=21,fill="white") +
-  scale_y_continuous(expand=expansion(mult=0.08),
+  geom_point(mapping=aes(y=outDay,shape=wleapyr),size=1.25,fill="white") +
+  scale_y_continuous(name="Day of Ice-Out",
+                     expand=expansion(mult=0.08),
                      breaks=date_breaks2,labels=date_labels2) +
   scale_x_continuous(name="Season Starting Year",
                      breaks=yr_breaks5,
                      expand=expansion(mult=0.01)) +
-  theme(axis.title.y=element_blank(),
-        panel.grid.minor.y=element_blank(),
-        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
+  scale_shape_manual(values=leapyr_pchs,guide="none") +
+  theme(panel.grid.minor.y=element_blank(),
+        plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"),
+        legend.position=NULL)
 
 p_out +
-  annotate(geom="text",vjust=1.5,color=outclr,
-           x=sum$outEarlyYr,y=sum$outEarlyDay,
-           label=paste0("Earliest (",sum$outEarlyDate,")")) +
-  annotate(geom="text",vjust=-0.5,color=outclr,
-           x=sum$outLateYr,y=sum$outLateDay,
-           label=paste0("Latest (",sum$outLateDate,")")) +
   annotate(geom="point",x=1998.5,y=sum$outAvgDay,
            shape="-",color=outclr,size=10) +
   annotate(geom="text",hjust="left",color=outclr,
-           x=2002,y=90,label=paste0("Average Out (",sum$outAvgDate,")")) +
-  annotate(geom="curve",x=2001.5,y=90,xend=1998.5,yend=sum$outAvgDay,
-           linewidth=0.75,curvature=-0.3,color=outclr,
-           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
+           x=2000,y=122,label=paste0("Average Out (",sum$outAvgDate,")")) +
+  annotate(geom="curve",x=1999.8,y=121,xend=1998.5,yend=sum$outAvgDay,
+           linewidth=0.75,curvature=0.2,color=outclr,
+           arrow=arrow(length=unit(3,"mm"),angle=30,type="closed")) +
+  annotate(geom="text",hjust="left",color=outclr,
+           x=2000,y=sum$outLateDay,
+           label=paste0("Latest Out (",sum$outLateDate,")")) +
+  annotate(geom="text",hjust="left",color=outclr,
+           x=2000,y=sum$outEarlyDay,
+           label=paste0("Earliest Out (",sum$outEarlyDate,")"))
 ```
 
 &nbsp;
@@ -129,17 +135,24 @@ p_out +
 
 ggplot(data=dat2,mapping=aes(x=fyr,color=lake)) +
   geom_line(mapping=aes(y=outDay),linewidth=main_lw) +
-  geom_point(mapping=aes(y=outDay),size=1,shape=21,fill="white") +
-  scale_y_continuous(breaks=date_breaks2,labels=date_labels2,
+  geom_point(mapping=aes(y=outDay,shape=wleapyr),size=1.25,fill="white") +
+  scale_y_continuous(name="Day of Ice-Out",
+                     breaks=date_breaks2,labels=date_labels2,
                      expand=expansion(mult=0.08)) +
   scale_x_continuous(name="Season Starting Year",
-                     limits=c(1999,2022),
+                     limits=c(1999,2024),
                      breaks=yr_breaks5,
                      expand=expansion(mult=0.01)) +
+  scale_shape_manual(values=leapyr_pchs,guide="none") +
   theme(panel.grid.minor.y=element_blank(),
-        axis.title.y=element_blank(),
         legend.position=c(0.1,0.90),
         legend.title=element_blank(),legend.text=element_text(size=10),
         plot.background=element_rect(fill="#FEFCFF",color="#FEFCFF"))
 ```
 
+&nbsp;
+
+## Data Notes
+These data were recorded by Gary Hagstrom. His general criterion was "complete ice out"; i.e., the lake completely devoid of ice with the exception of small remnants on north-facing shores.
+
+Dates show above have been adjusted for leap years to maintain consistency across years. For example, Gary recorded ice out in 2024, a leap year, as 14-Mar but it appears as 15-Mar above to account for the extra "leap day" in Feb. In other words, 14-Mar is later in the year in a leap year then it is in a non leap year, which is accounted for above. Leap years are shown with triangles (rather than circles) in the time series graphs above.
