@@ -1,0 +1,69 @@
+---
+---
+
+![](../../zresources/img/RLWA.jpg){fig-align="center"}
+
+# Background and Motivation
+
+I volunteer with the [Chequamegon Chapter of the North Country Tail Association](https://northcountrytrail.org/trail/wisconsin/che/) to help maintain a section of the [North Country Trail](https://northcountrytrail.org/) (NCT) in the [Rainbow Lake Wilderness Area](https://www.fs.usda.gov/recarea/cnnf/recarea/?recid=27843) (RLWA). The RLWA is approximately 7000 acres situated roughly between Drummond and Delta, WI and was designated as a wilderness area in 1975.
+
+The Forest Service touts the natural beauty of the landscape and animals of the RLWA, but also mentions "the numerous narrow gauge railroad grades that were used for log hauling in the early 1900s" as a unique feature. They further note that there are "several scenic lakes and bogs" in the RLWA "many of which can be accessed from old grades."
+
+Parts of the NCT through the RLWA are on these old grades as evidenced by characteristics that do not look "natural", such as the flat surfaces, clear cuts through hillsides and clear fills in low areas, and adjacent "holes" from which, I think, fill was excavated. However, these characteristics are also evident in areas that are not part of the NCT.
+
+While working on the NCT I became interested in these old grades and wondered how many and where they all were. The only online resource that I could find to help answer these questions was [a digitized topographic map](https://content.wisconsinhistory.org/digital/collection/maps/id/2234/rec/1) at the Wisconsin Historical Society that was marked up with railroad grades and camps by "civil engineer and historian James P. Kaysen" in 1971. However, the markings on this map seemed incomplete given my observations in the field.[^1] Given this, I set out to "map" as many of these old grades as I could find in the RLWA.
+
+[^1]: I acknowledge that I may be seeing features that are different than what Kaysen was marking.]
+
+&nbsp;
+
+# Map
+
+:::{.callout-warning appearance="simple"}
+## Work-in-Progress
+This map is incomplete; there are many more grades still to map.
+:::
+
+The map below shows the North Country Trail (NCT) in <span style="color: #CC0000">Red</span> with other trails that are fairly cleared for hiking in <span style="color: #663300">Brown</span>. The tracks shown in <span style="color: #CC6600">Orange</span> are old railroad or road grades that I mapped, but are generally overgrown, not very clear for general hiking, and may be difficult to discern.
+
+You can change the base map type with the object in the upper-right, use the +/- buttons in the upper-left to zoom, and click on a track to get some basic information (primarily length).
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+#| out.width: 90%
+
+project <- "RLWA"
+
+## Run following lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#tmp <- paste0("c:/aaaPersonal/MAPPING/Tracks/Iron River Area/aaaOriginals/",c("NCTBF031.gpx","NCTBF032.gpx","NCTBF033.gpx","NCTBF034.gpx","NCTBF035.gpx","NCTBF036.gpx","NCTBF037.gpx","NCTBF038.gpx","NCTBF039.gpx","NCTBF040.gpx","NCTBF041.gpx","ANDG01.gpx","ANDG02.gpx","ANDG03.gpx","ANDG04.gpx","ANDG05.gpx","ANDL01.gpx","BUFO01.gpx","BUFO02.gpx","CLAY01.gpx","RLFT01.gpx","RLFT02.gpx","TRND01.gpx","WSHB01.gpx"))
+#file.copy(tmp,"c:/aaaPersonal/MAPPING/Tracks/RLWA/aaaOriginals/",overwrite=TRUE)
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
+
+# Make vector of colors for Iron River Area
+clrs <- c("NCT"="#CC0000","Trail"="#663300","Grade"="#CC6600")
+
+# Read in CSV file will all track info needed for the map
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+```
+
+```{r}
+#| label: makeMap
+#| echo: false
+#| fig.width: 7
+#| fig.height: 7
+gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
+```
+
+:::{.callout-tips appearance="simple"}
+## Interactions with Map
+* <span style="color: #CC0000">Red</span> is the North Country Trail, <span style="color: #663300">Brown</span> is other (fairly clear) hiking trail, and <span style="color: #CC6600">Orange</span> is an old railroad or road grade that is generally overgrown and not very clear for hiking.
+* Hover on track to see track abbreviation.
+* Click on track to get track information.
+* Use +/- in upper-left to zoom.
+* Use object in upper-right to change base map type.
+* Use object in lower-left to make measurements on map.
+:::
+
+&nbsp;
