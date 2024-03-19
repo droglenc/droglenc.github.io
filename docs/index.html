@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -45,7 +45,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -53,7 +54,8 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="zhelpers/styles.css">
 <meta property="og:title" content="">
-<meta property="og:description" content="I was a fisheries and statistics professor at Northland College for 26 years until 2022, when I decided to pursue other interests.">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://derekogle.com/zresources/img/home/AIFishing1.jpg">
 <meta property="og:site-name" content="Derek H. Ogle">
 </head>
 
@@ -74,18 +76,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./professional/index.html">
+    <a class="nav-link" href="./professional/index.html" rel="" target="">
  <span class="menu-text">Professional</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./personal/index.html">
+    <a class="nav-link" href="./personal/index.html" rel="" target="">
  <span class="menu-text">Personal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio/index.html">
+    <a class="nav-link" href="./portfolio/index.html" rel="" target="">
  <span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -107,26 +111,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="carouselHomeCaptions" class="carousel slide w-75" data-bs-ride="carousel">
 <div class="carousel-inner">
 <div class="carousel-item active" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Ogle_Sign_UK.jpg" class="d-block w-100" alt="Ogle, Northumberland, England">
+<img src="zresources/img/home/AIFishing1.jpg" class="d-block w-100" alt="Trolling in the Apostle Islands, Lake Superior">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
-Ogle, Northumberland, England
+Trolling in the Apostle Islands, Lake Superior
 </h5>
 </div>
 </div>
 <div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/MeyersBeach2008.jpg" class="d-block w-100" alt="Ice Caves at Meyer's Beach, Lake Superior, 2008">
+<img src="zresources/img/home/Canyonlands.jpg" class="d-block w-100" alt="Canyonlands, Utah">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
-Ice Caves at Meyer’s Beach, Lake Superior, 2008
-</h5>
-</div>
-</div>
-<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Alaska2011b.jpg" class="d-block w-100" alt="Halibut Fishing, Homer, Alaska, 2011">
-<div class="carousel-caption d-none d-md-block">
-<h5 class="anchored">
-Halibut Fishing, Homer, Alaska, 2011
+Canyonlands, Utah
 </h5>
 </div>
 </div>
@@ -139,14 +135,6 @@ Lake Superior Storm, North Shore, MN, 2013
 </div>
 </div>
 <div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/AIFishing1.jpg" class="d-block w-100" alt="Trolling in the Apostle Islands, Lake Superior">
-<div class="carousel-caption d-none d-md-block">
-<h5 class="anchored">
-Trolling in the Apostle Islands, Lake Superior
-</h5>
-</div>
-</div>
-<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
 <img src="zresources/img/home/Muskeg_Winter.jpg" class="d-block w-100" alt="Muskeg Property, Oulu, WI">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
@@ -155,10 +143,50 @@ Muskeg Property, Oulu, WI
 </div>
 </div>
 <div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Canyonlands.jpg" class="d-block w-100" alt="Canyonlands, Utah">
+<img src="zresources/img/home/Arizona_2017a.jpg" class="d-block w-100" alt="Superstition Mountain, Apache Junction, AZ, 2017">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
-Canyonlands, Utah
+Superstition Mountain, Apache Junction, AZ, 2017
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+<img src="zresources/img/home/BayfieldCo2008.jpg" class="d-block w-100" alt="Road to Home, Bayfield County, WI, 2008">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+Road to Home, Bayfield County, WI, 2008
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+<img src="zresources/img/home/Banff2013b.jpg" class="d-block w-100" alt="Banff, Aberta, Canada, 2013">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+Banff, Aberta, Canada, 2013
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+<img src="zresources/img/home/MeyersBeach2008.jpg" class="d-block w-100" alt="Ice Caves at Meyer's Beach, Lake Superior, 2008">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+Ice Caves at Meyer’s Beach, Lake Superior, 2008
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+<img src="zresources/img/home/Ogle_Sign_UK.jpg" class="d-block w-100" alt="Ogle, Northumberland, England">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+Ogle, Northumberland, England
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+<img src="zresources/img/home/Home_2015.jpg" class="d-block w-100" alt="Home, Bayfield County, 2015">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+Home, Bayfield County, 2015
 </h5>
 </div>
 </div>
@@ -179,18 +207,18 @@ Kim and I at Weaver’s Needle, AZ, 2022
 </div>
 </div>
 <div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Iqaluit_Sunset_2016.jpg" class="d-block w-100" alt="Sunset over Iqaluit, Nunavut, 2016">
+<img src="zresources/img/home/Alaska2011b.jpg" class="d-block w-100" alt="Halibut Fishing, Homer, Alaska, 2011">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
-Sunset over Iqaluit, Nunavut, 2016
+Halibut Fishing, Homer, Alaska, 2011
 </h5>
 </div>
 </div>
 <div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Home_2015.jpg" class="d-block w-100" alt="Home, Bayfield County, 2015">
+<img src="zresources/img/home/Iqaluit_Sunset_2016.jpg" class="d-block w-100" alt="Sunset over Iqaluit, Nunavut, 2016">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
-Home, Bayfield County, 2015
+Sunset over Iqaluit, Nunavut, 2016
 </h5>
 </div>
 </div>
@@ -203,34 +231,10 @@ Kim and I on a glacier, Iceland, 2022
 </div>
 </div>
 <div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Banff2013b.jpg" class="d-block w-100" alt="Banff, Aberta, Canada, 2013">
-<div class="carousel-caption d-none d-md-block">
-<h5 class="anchored">
-Banff, Aberta, Canada, 2013
-</h5>
-</div>
-</div>
-<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/BayfieldCo2008.jpg" class="d-block w-100" alt="Road to Home, Bayfield County, WI, 2008">
-<div class="carousel-caption d-none d-md-block">
-<h5 class="anchored">
-Road to Home, Bayfield County, WI, 2008
-</h5>
-</div>
-</div>
-<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
 <img src="zresources/img/home/MuskegFlowers.jpg" class="d-block w-100" alt="Flowers at Muskeg Property, Oulu, WI">
 <div class="carousel-caption d-none d-md-block">
 <h5 class="anchored">
 Flowers at Muskeg Property, Oulu, WI
-</h5>
-</div>
-</div>
-<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
-<img src="zresources/img/home/Arizona_2017a.jpg" class="d-block w-100" alt="Superstition Mountain, Apache Junction, AZ, 2017">
-<div class="carousel-caption d-none d-md-block">
-<h5 class="anchored">
-Superstition Mountain, Apache Junction, AZ, 2017
 </h5>
 </div>
 </div>
@@ -274,9 +278,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -341,6 +359,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -379,12 +483,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/derekogle\.com\//);
+      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -398,8 +502,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2023, Derek H. Ogle</div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">fishR</a>
   </li>  
@@ -407,7 +511,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="https://derekogle.com/IFAR/">IFAR</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
