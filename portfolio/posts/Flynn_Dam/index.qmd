@@ -21,11 +21,13 @@ format:
 ```{r}
 #| label: setup
 library(tidyverse)
+library(gt)
 
 ## Helper to convert numeric inches to feet and inches label
 convIn2Ft <- function(x,dec=0) {
-  if (max(x)<12) paste0(round(x-floor(x/12)*12,dec),'"')
-  else paste0(floor(x/12),"' ",round(x-floor(x/12)*12,dec),'"') 
+  tmp <- paste0(formatC(x-floor(x/12)*12,format="f",digits=dec),'"')
+  if (max(x)>=12) tmp <- paste0(floor(x/12),"' ",tmp)
+  tmp
 }
 
 ## Helper to handle when max/min depth is on multiple days
@@ -37,6 +39,14 @@ lblMaxMinD <- function(x) {
   } else {
     str_glue("on {month(x,label=TRUE,abbr=FALSE)} {day(x)}")
   }
+}
+
+## Helper to make dates for x-axis scale limits below
+makeXScaleDates <- function(dys,yrs) {
+  if (missing(yrs)) yrs <- 2023:(lubridate::year(lubridate::today())+1)
+  tmp <- NULL
+  for (i in 1:(length(yrs)-1)) tmp <- rbind(tmp,paste(yrs[i:(i+1)],dys,sep="-"))
+  tmp
 }
 
 ## Set some constants
@@ -51,11 +61,14 @@ theme_dam <- function() {
   theme_minimal(base_size=12) +
   theme(panel.grid.minor=element_line(linetype="dashed"),
         axis.title.x=element_blank(),
-        axis.text.x=element_text(angle=270,hjust=0,vjust=0.25),
+#        axis.text.x=element_text(angle=270,hjust=0,vjust=0.25),
         plot.title=element_text(size=14,margin=margin(0,0,20,0)),
         plot.title.position="plot",
+        strip.background=element_rect(fill="gray90",color="gray90"),
+        strip.text=element_text(face="bold",color="gray10",margin=margin(2,0,2,0)),
         legend.background=element_rect(fill="white",color="white"),
-        legend.title=element_text(size=11)
+        legend.title=element_text(size=10),
+        legend.position="top"
         )
 }
 ```
@@ -64,6 +77,7 @@ theme_dam <- function() {
 #| label: data-prep
 dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3) |>
   mutate(Date=as.Date(DateTime,format="%Y-%m-%d"),
+         Season=forcats::fct_rev(Season),
          Rain2=case_when(
            Rain < 0.10 ~ "Tr-0.10 in",
            Rain < 0.25 ~ "0.10-0.25 in",
@@ -82,29 +96,12 @@ dat2 <- dat |>
 ```
 
 ```{r}
-#| label: data-sum
+#| label: data-datesum
 tmp <- min(dat$DateTime)
-dStart <- str_glue("{month(tmp,label=TRUE,abbr=FALSE)} {day(tmp)}")
+dStart <- str_glue("{month(tmp,label=TRUE,abbr=FALSE)} {day(tmp)}, {year(tmp)}")
 tmp <- max(dat$DateTime)  
-dEnd <- str_glue("{month(tmp,label=TRUE,abbr=FALSE)} {day(tmp)}")
-
-maxD <- max(dat$Depth)
-lblMaxD <- convIn2Ft(maxD*12,dec=1)
-dMaxD <- lblMaxMinD(dat$DateTime[dat$Depth==maxD])
-
-minD <- min(dat$Depth)
-lblMinD <- convIn2Ft(minD*12,dec=1)
-dMinD <- lblMaxMinD(dat$DateTime[dat$Depth==minD])
-
-rngD <- maxD-minD
-lblRngD <- convIn2Ft(rngD*12,dec=1)
-
-maxDD <- max(dat2$dDepth)
-lblMaxDD <- convIn2Ft(maxDD*12,dec=1)
-rainMaxDD <- dat2$Rain[dat2$dDepth==maxDD]
-dMaxDD <- lblMaxMinD(dat$DateTime[dat2$dDepth==maxDD])
+dEnd <- str_glue("{month(tmp,label=TRUE,abbr=FALSE)} {day(tmp)}, {year(tmp)}")
 ```
-
 
 ```{r}
 #| label: FlynnDam
@@ -112,76 +109,180 @@ dMaxDD <- lblMaxMinD(dat$DateTime[dat2$dDepth==maxDD])
 knitr::include_graphics("Flynn_Dam.jpg")
 ```
 
-:::{.callout-warning icon=false}
-# Summary
-- Stream gauge measurements (i.e., water levels) were made daily at the Flynn Lake dam (outlet of Pike Chain of Lakes) from `r dStart` to `r dEnd` 2023. Water flowed continuously over the dam during this period.
-- Water levels fluctuated `r lblRngD`, from a low of `r lblMinD` (`r dMinD`) to a high of `r lblMaxD` (`r dMaxD`).
-- The greatest daily change in water level was an increase of `r lblMaxDD` `r dMaxDD` following `r rainMaxDD`" of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates.
-- In the absence of rain, water levels generally dropped between 1/8" and 1/4" per day (for the water levels observed in this year).
-:::
+The winter of 2022-23 was exceptionally snowy in northern Wisconsin ([see this](https://www.weather.gov/dlh/seasonal-snowfall-records)). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as "beaches" and docks were under water. A relative depth gauge is affixed to a permanent "wall" a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see [Acknowledgments](#acknowledgments) below), I now have near daily water depth measurements at the gauge from `r dStart` to `r dEnd`. I hope these data will help us better understand both typical and atypical water heights on the lakes. My analysis and interpretation of these data are below. More information about the data collection is [further below](#data-collection).
+
 
 &nbsp;
+
+## Water Level
+The graph below shows the daily water depth at the gauge for each ice-out to ice-out season, with the current season (with on-going data collection) shown at the top. Additionally, points color coded by the amount of precipitation are shown for days where precipitation occurred (no point is shown for days without precipitation).
 
 ```{r}
 #| label: depth_series_wrain
 #| fig-width: 8
-#| fig-height: 6
-tmp_title <- stringr::str_wrap("Water depth at Flynn Lake dam by date with points color coded by the amount of rain since the previous observation.",width=80)
+#| fig-height: 8
+#| fig-cap: 'Daily water depth at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
 tmp_source <- "Source: Derek Ogle, personal observation"
 
-ggplot(data=dat,mapping=aes(x=DateTime,y=Depth)) +
-  geom_line(color="slategray",linewidth=2.5) +
-  geom_point(mapping=aes(fill=Rain2),shape=21,color="slategray",size=2.5) +
-  scale_x_datetime(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%b %e",expand=expansion(mult=0.025)) +
-  scale_y_continuous(name="Gauge Depth",expand=expansion(mult=0),
-                     limits=range(depvals/12),breaks=depvals/12,labels=deplbls,
-                     minor_breaks=(rep(depvals,each=10)+seq(0,0.9,0.1))/12) +
-  scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
-  labs(title=tmp_title,caption=tmp_source) +
-  theme_dam() +
-  theme(legend.position=c(1,1),
-        legend.justification=c(1.1,1.1))
+## Make matrix of dates for use with the multiple scale_x_datetime() below
+##   Change days so that they span range in each season
+##   Must add a new scale_x_datetime() each time a new season is created
+xDates <- makeXScaleDates(c("03-14","05-05"))
+
+ggplot() +
+  geom_line(data=dat,mapping=aes(x=DateTime,y=Depth),
+            color="slategray",linewidth=1.25) +
+  geom_point(data=filter(dat,!is.na(Rain)),
+             mapping=aes(x=DateTime,y=Depth,fill=Rain2),
+             shape=21,color="slategray",size=1.75) +
+  scale_y_continuous(name="Gauge Depth",expand=expansion(add=c(0.01,0)),
+                     limits=range(depvals/12),breaks=depvals/12,labels=deplbls) +
+  scale_fill_brewer(name="Precip:",palette="YlOrRd") +
+  facet_wrap(vars(Season),ncol=1,scales="free_x") +
+  ggh4x::facetted_pos_scales(x=list(
+    scale_x_datetime(limits=as.POSIXct(xDates[2,],format="%Y-%m-%d"),
+                     date_breaks="1 month",
+                     date_labels="%b",expand=expansion(mult=0.025)),
+    scale_x_datetime(limits=as.POSIXct(xDates[1,],format="%Y-%m-%d"),
+                     date_breaks="1 month",
+                     date_labels="%b",expand=expansion(mult=0.025))
+  )) + 
+  labs(caption=tmp_source) +
+  theme_dam()
 ```
 
+Without historical data it is difficult to state that the water level at the beginning of 2022-23 was atypically high. However, it was nearly 5" higher than the water level at ice-out in 2023-24 and was at least 3" higher than any other water level recorded in 2022-23 after the initial peak had subsided. Furthermore, the water level dropped rather quickly in spring of 2023 suggesting that there was excess water in the system that simply needed time to be flushed out.
+
+From 2022-23, it appears that, without any additional precipitation, lake water levels drop about 1/8" to 1/4" per day until a baseline level between 1' 9" and  1' 10" is approached. Near that baseline the drop in lake water level tends to be less. Lake water levels can increase substantially with precipitation but the actual rise does not always match the amount of precipitation, sometimes being more and sometimes being less than the precipitation amount.
 
 &nbsp;
+
+## Change in Water Level
+The graph below is the same data as that shown in the graph above but but it is displayed as a change in lake water level from the previous day. This presentation makes it easier to see how much water levels may change daily.
 
 ```{r}
 #| label: delta_depth_series_wrain
 #| fig-width: 8
-#| fig-height: 6
-
-tmp_title <- stringr::str_wrap("Change from the previous day for water depth at Flynn Lake dam by date with points color coded by the amount of rain since the previous observation.",width=80)
+#| fig-height: 8
+#| fig-cap: 'Change in daily water depth from the previous day at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
 
 dDepvals <- seq(2.5,-0.75,by=-0.25)
 dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
 
-ggplot(data=dat2,mapping=aes(x=Date)) +
+ggplot() +
   geom_hline(yintercept=0,linetype="dashed",linewidth=1) +
-  geom_segment(mapping=aes(y=0,yend=dDepth,xend=Date),
-               linewidth=1.25,color="slategray") +
-  geom_point(mapping=aes(y=dDepth,fill=Rain2),
-             shape=21,color="slategray",size=2.5) +
-  scale_x_date(date_breaks="1 week",date_minor_breaks="1 day",
-                   date_labels="%b %e",expand=expansion(mult=0.025)) +
+  geom_segment(data=dat2,mapping=aes(x=Date,y=0,yend=dDepth,xend=Date),
+               linewidth=1,color="slategray") +
+  geom_point(data=filter(dat2,!is.na(Rain)),
+             mapping=aes(x=Date,y=dDepth,fill=Rain2),
+             shape=21,color="slategray",size=1.75) +
   scale_y_continuous(name="Change from Previous Day",expand=expansion(mult=0.02),
                      limits=range(dDepvals/12),breaks=dDepvals/12,labels=dDeplbls) +
-  scale_fill_brewer(name="Rain Amount",palette="YlOrRd") +
-  annotate(geom="text",x=max(dat2$Date)+3,y=0.5/12,label="Rising",
-           angle=270,size=4) +
-  annotate(geom="text",x=max(dat2$Date)+3,y=-0.25/12,label="Falling",
-           angle=270,size=4) +
-  labs(title=tmp_title,caption=tmp_source) +
-  theme_dam() +
-  theme(legend.position=c(0,1),
-        legend.justification=c(-0.05,1.05))
+  scale_fill_brewer(name="Precip:",palette="YlOrRd") +
+  facet_wrap(vars(Season),ncol=1,scales="free_x") +
+  ggh4x::facetted_pos_scales(x=list(
+    scale_x_date(limits=as.Date(xDates[2,],format="%Y-%m-%d"),
+                 date_breaks="1 month",
+                 date_labels="%b",expand=expansion(mult=0.025)),
+    scale_x_date(limits=as.Date(xDates[1,],format="%Y-%m-%d"),
+                 date_breaks="1 month",
+                 date_labels="%b",expand=expansion(mult=0.025))
+  )) + 
+  labs(caption=tmp_source) +
+  theme_dam()
+```
+
+```{r}
+#| label: data-sum-maxDD
+maxDD <- max(dat2$dDepth)
+lblMaxDD <- convIn2Ft(maxDD*12,dec=1)
+rainMaxDD <- dat2$Rain[dat2$dDepth==maxDD]
+dMaxDD <- lblMaxMinD(dat$DateTime[dat2$dDepth==maxDD])
+```
+
+The greatest daily change in water level was an increase of `r lblMaxDD` `r dMaxDD` following `r rainMaxDD`" of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates.
+
+&nbsp;
+
+## Summary Table
+The following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.
+
+```{r}
+#| label: data-sum
+sum1a <- dat2 |>
+  group_by(Season) |>
+  summarize(minLvlD=abs(min(dDepth,na.rm=TRUE)),
+            maxLvlD=max(dDepth,na.rm=TRUE)) |>
+  mutate(across(ends_with("LvlD"),function(x) convIn2Ft(x*12,dec=1))) |>
+  ungroup()
+sum1 <- dat |>
+  group_by(Season) |>
+  summarize(sDate=format(min(Date),format="%b %e"),
+            eDate=format(max(Date),format="%b %e"),
+            sLvl=first(Depth),eLvl=last(Depth),
+            mdnLvl=median(Depth),
+            d1Lvl=quantile(Depth,prob=0.10),d9Lvl=quantile(Depth,prob=0.90),
+            minLvl=min(Depth),maxLvl=max(Depth),rngLvl=maxLvl-minLvl) |>
+  mutate(across(ends_with("Lvl"),function(x) convIn2Ft(x*12,dec=1))) |>
+  ungroup()
+sum1 <- sum1 |>
+  left_join(sum1a)
+
+sum2a <- dat2 |>
+  summarize(minLvlD=abs(min(dDepth,na.rm=TRUE)),
+            maxLvlD=max(dDepth,na.rm=TRUE)) |>
+  mutate(across(ends_with("LvlD"),function(x) convIn2Ft(x*12,dec=1)))
+sum2 <- dat |>
+  summarize(mdnLvl=median(Depth),
+            d1Lvl=quantile(Depth,prob=0.10),d9Lvl=quantile(Depth,prob=0.90),
+            minLvl=min(Depth),maxLvl=max(Depth),rngLvl=maxLvl-minLvl) |>
+  mutate(across(ends_with("Lvl"),function(x) convIn2Ft(x*12,dec=1)))
+sum2 <- bind_cols(sum2,sum2a) |>
+  mutate(Season="Overall")
+sum <- bind_rows(sum1,sum2)
+
+sum |>
+  gt() |>
+  cols_label(
+    sDate="Start",eDate="End",
+    sLvl="Start",eLvl="End",
+    mdnLvl="Median",d1Lvl="10%",d9Lvl="90%",
+    minLvl="Min",maxLvl="Max",rngLvl="Range",
+    minLvlD="Drop",maxLvlD="Rise"
+  ) |>
+  tab_spanner(
+    label=md("**Date**"),
+    columns=ends_with("Date")
+  ) |>
+  tab_spanner(
+    label=md("**Water Level**"),
+    columns=ends_with("Lvl")
+  ) |>
+  tab_spanner(
+    label=md("**Max Change**"),
+    columns=ends_with("LvlD")
+  ) |>
+  sub_missing() |>
+  tab_style(style=cell_fill(color="gray95"),
+            locations=cells_body(rows=3)) |> 
+  tab_style(style=cell_borders(sides="right",color="white",weight=px(8),style="solid"),
+            locations=cells_body(columns=c(3,11))) |> 
+  tab_style(style=cell_borders(sides="right",color="white",weight=px(8),style="solid"),
+            locations=cells_column_spanners()) |> 
+  tab_style(style=cell_borders(sides="right",color="white",weight=px(8),style="solid"),
+            locations=cells_column_labels(columns=c(3,11)))
 ```
 
 &nbsp;
 
-:::{.callout-important icon=false}
-## Acknowledgments
+## Data Collection
+Data collection is pretty straightforward for this project. I, or a friend, record the gauge depth to the nearest 0.01' each day (as possible) as close to noon as possible. On the few days where we could not make the reading, I linearly interpolated the gauge depth from the two adjacent readings. Surprisingly, it is harder to read the gauge then you would imagine. On a few days, we had multiple people read the gauge and from this I expect the "human error" of the readings to be about 0.01'.
 
-Thanks to Hal A, Ieuan A, Joe R., Kevin S., and Tim T. for taking the measurements when I could not!!
-:::
+The lake water level readings should be considered as "relative" values as it is not clear to me what the gauge is measuring from. In other words, a reading of 2' 1" is not meaningful in and of itself (i.e. 2' 1" from what?), but it does have meaning relative to another measurement of, say, 2' 4" (i.e., it is 3" lower).
+
+Precipitation measurements were from my data recorded for the [CoCoRaHS Network](https://dex.cocorahs.org/stations/WI-BY-51) at a location near the shore of Eagle Lake, the next lake upstream from Flynn Lake. Snow was converted to a "snow water equivalent" (SWE) to most closely compare with rain.
+
+&nbsp;
+
+## Acknowledgments
+Thanks to Hal A, Ieuan A, Joe R., Kevin S., Sjana S, and Tim T. for taking the measurements when I could not!!
