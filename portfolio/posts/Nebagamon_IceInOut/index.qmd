@@ -49,11 +49,11 @@ knitr::include_graphics("Ice.jpg")
 - [Lake Nebagamon](https://dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2865000), in Douglas County, is 986 acres with a maximum depth of 56 feet.
 - Ice-in and out dates recorded from `r min(dat$fyr)` to `r max(dat$fyr)`.
 - The average ice-in date is `r sum$inAvgDate` and the average ice-out date is `r sum$outAvgDate` (see @fig-inouthist).
-- The range for both ice-in (`r sum$inEarlyDate` to `r sum$inLateDate`) and ice-out (`r sum$outEarlyDate` to `r sum$outLateDate`) dates is considerable, at approximately six weeks for each (see @fig-inouthist).
+- The range for both ice-in (`r sum$inEarlyDate` to `r sum$inLateDate`) and ice-out (`r sum$outEarlyDate` to `r sum$outLateDate`) dates is considerable, at approximately six to eight weeks (see @fig-inouthist).
 - There are *weak* indications for a slightly later ice-in date and, *possibly*, a slightly earlier ice-out date in the last two decades (see @fig-inout).
 - Since 1943 the average days of ice coverage was `r sum$durAvg` days, though the range was considerable from `r sum$durShort` to `r sum$durLong` days (see @fig-durhist).
 - There is an indication that the length of ice duration has declined, on average, by a little over a week in the last two decades (see @fig-dur).
-- Seven of the ten shortest ice duration seasons have occurred since 2000 (see @tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (see @tbl-durLong).
+- Eight of the ten shortest ice duration seasons have occurred since 2000 (see @tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (see @tbl-durLong).
 - Data were provided by Gary Hagstrom who received it from XXX. The original data acknowledged J Arthur, G DeBrunye, W Kiefer, A Mack, M Laskkowski, J Snydle.
 :::
 
@@ -132,7 +132,7 @@ p_inout <- p_inout +
            x=sum$inLateYr-2,y=sum$inLateDay,
            label=paste0("Latest (",sum$inLateDate,")")) +
   annotate(geom="text",vjust=1.5,color=outclr,
-           x=sum$outEarlyYr,y=sum$outEarlyDay,
+           x=sum$outEarlyYr-8,y=sum$outEarlyDay,
            label=paste0("Earliest (",sum$outEarlyDate,")")) +
   annotate(geom="text",vjust=-0.5,color=outclr,
            x=sum$outLateYr,y=sum$outLateDay,
@@ -192,8 +192,8 @@ p_durat <- ggplot(data=dat,mapping=aes(x=inYr,y=daysIced)) +
   geom_line(linewidth=main_lw,color=main_clr) +
   geom_point(size=1,shape=21,fill="white") +
   scale_y_continuous(name="Days Ice Coverage",
-                     breaks=seq(110,180,10),
-                     limits=c(108,175),
+                     breaks=seq(100,180,10),
+                     limits=c(104,175),
                      expand=expansion(add=5)) +
   scale_x_continuous(name="Ice Season Start Year",
                      breaks=yr_breaks10,minor_breaks=yr_breaks5,
@@ -217,13 +217,13 @@ p_durat +
            arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
   annotate(geom="text",hjust="right",color="darkred",
            x=2000,y=sum$durShort,label=paste0("Shortest (",sum$durShort," days)")) +
+#  annotate(geom="curve",x=2000.5,y=sum$durShort,
+#           xend=sum$durShortYr1,yend=sum$durShort,
+#           linewidth=0.75,curvature=-0.2,color="darkred",
+#           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
   annotate(geom="curve",x=2000.5,y=sum$durShort,
            xend=sum$durShortYr1,yend=sum$durShort,
-           linewidth=0.75,curvature=-0.2,color="darkred",
-           arrow=arrow(length=unit(3,"mm"),angle=20,type="closed")) +
-  annotate(geom="curve",x=2000.5,y=sum$durShort,
-           xend=sum$durShortYr2,yend=sum$durShort,
-           linewidth=0.75,curvature=+0.2,color="darkred",
+           linewidth=0.75,curvature=+0,color="darkred",
            arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
 ```
 
