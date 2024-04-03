@@ -29,8 +29,20 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 # Specific Hikes
 Below are some specific hikes that we found interesting.
 
-- [Echo Valley Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html) - West Union
-- [Pulpit Rock](IA Pulpit Rock.html) - Decorah
-- [Dunning Springs Park](IA Dunning Springs.html) - Decorah
-- [Backbone SP North Gate Rd](IA BBSP_North Gate Road.html) - Dundee
+- Backbone State Park - Dundee
+  - [Backbone Trail](IA BBSP_Backbone.html)
+  - [North Gate Rd](IA BBSP_North Gate Road.html)
+  - [East Gate Rd](IA BBSP_East Gate Road.html)
+- Decorah Area
+  - [Dunning Springs Park](IA Dunning Springs.html)
+  - [Pulpit Rock](IA Pulpit Rock.html)
+- Echo Valley State Park - West Union
+  - [Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)
+  - [Glover's Creek Trail](IA Glovers.html)
+- Gilbertson Conservation Education Area - Elgin
+  - [Loop 1](IA Gilbertson I,html)
 - [Pony Hollow Trail I](IA Pony HOllow Trail.html) - Elkader
+- Volga River State Park - Wadena/Fayette
+  - [Depot Trail](IA Volga Depot.html)
+  - [Orchard Trail](IA Volga Orchard.html)
+  - [Ridge Trail](IA Volga Ridge.html)

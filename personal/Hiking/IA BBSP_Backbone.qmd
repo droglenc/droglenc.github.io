@@ -1,9 +1,9 @@
 ---
 title: "Backbone State Park"
-subitle: "North Gate Road"
+subitle: "The Backbone Trail"
 ---
 
-[Cash](../shelties.html#cash) and I walked "North Gate Road" in [Backbone State Park](https://www.iowadnr.gov/places-to-go/state-parks/iowa-state-parks/backbone-state-park) on 24-Jan-23. The park and gates were closed, but we walked in from the north gate to have the entire park to ourselves. The scenery was beautiful with a fairly fresh snow, Richmond Springs and the Maquoketa River running open, and dimming sunlight. Details are below.
+Kim, [Cash](../shelties.html#cash), and I walked "The Backbone" in [Backbone State Park](https://www.iowadnr.gov/places-to-go/state-parks/iowa-state-parks/backbone-state-park) on 14-Jan-23. This is a short trail with the first half traversing a narrow set of limestone outcrops that form the "backbone." This section is quite beautiful with steep dropoffs on both sides to forks of the Maquoketa River. The second half of the trail is a broad loop through a largely hardwood forest that offers further views of the river. This is a "must-see" trail if you are in the park!
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -16,13 +16,12 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iowa"
-walkID <- "IA_BBNGR"
+walkID <- "IA_BBBBT"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("BBNGR01","BBNGR02","BBNGR03","BBNGR04","BBNGR05",
-             "BBNGR05","BBNGR04","BBNGR03","BBNGR02","BBNGR01")
+walkIDs <- c("BBBBT01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

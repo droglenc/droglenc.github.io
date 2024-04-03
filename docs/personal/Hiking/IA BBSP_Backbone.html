@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Derek H. Ogle - Backbone State Park</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../../zresources/img/DerekOgle1.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-binding-2.2.1/leaflet.js"></script>
+<script src="../../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="../../site_libs/leaflet-providers-plugin-2.2.1/leaflet-providers-plugin.js"></script>
+<link href="../../site_libs/leaflet-measure-2.1.7/leaflet-measure.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-measure-2.1.7/leaflet-measure.min.js"></script>
+<script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../../zhelpers/styles.css">
+<meta property="og:title" content="Derek H. Ogle - Backbone State Park">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://derekogle.com/personal/Hiking/elevs/IA_BBBBT.png">
+<meta property="og:site-name" content="Derek H. Ogle">
+<meta property="og:image:height" content="1080">
+<meta property="og:image:width" content="1512">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Derek H. Ogle</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../professional/index.html" rel="" target="">
+ <span class="menu-text">Professional</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../personal/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Personal</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../portfolio/index.html" rel="" target="">
+ <span class="menu-text">Portfolio</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Backbone State Park</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Personal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Hiking/Walking</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/Hiking/Iron River Area.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Iron River Area</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/Hiking/Superstition Wilderness.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superstition Wilderness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/Hiking/Iowa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Iowa</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/Hiking/Rainbow Lake Wilderness Area.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rainbow Lake Wilderness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/Hiking/Other Notable.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Other Notable</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/shelties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Shelties</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/fishing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fishing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/music.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Live Music</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/oulu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oulu Property</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../personal/tv.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TV Appearances</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#walk-specific-map" id="toc-walk-specific-map" class="nav-link active" data-scroll-target="#walk-specific-map">Walk-Specific Map</a></li>
+  <li><a href="#elevation-profile" id="toc-elevation-profile" class="nav-link" data-scroll-target="#elevation-profile">Elevation Profile</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  <li><a href="#gpx-download" id="toc-gpx-download" class="nav-link" data-scroll-target="#gpx-download">GPX Download</a></li>
+  <li><a href="#summary-information" id="toc-summary-information" class="nav-link" data-scroll-target="#summary-information">Summary Information</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Backbone State Park</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Kim, <a href="../shelties.html#cash">Cash</a>, and I walked “The Backbone” in <a href="https://www.iowadnr.gov/places-to-go/state-parks/iowa-state-parks/backbone-state-park">Backbone State Park</a> on 14-Jan-23. This is a short trail with the first half traversing a narrow set of limestone outcrops that form the “backbone.” This section is quite beautiful with steep dropoffs on both sides to forks of the Maquoketa River. The second half of the trail is a broad loop through a largely hardwood forest that offers further views of the river. This is a “must-see” trail if you are in the park!</p>
+<section id="walk-specific-map" class="level2">
+<h2 class="anchored" data-anchor-id="walk-specific-map">Walk-Specific Map</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-a6e294e737b4baf11f7d" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-a6e294e737b4baf11f7d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"Default",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addProviderTiles","args":["OpenTopoMap",null,"Topo/Roads",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"Imagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.PositronNoLabels",null,"CartoDB",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addLayersControl","args":[["Default","Topo/Roads","Imagery","CartoDB"],[],{"collapsed":true,"autoZIndex":true,"position":"topright"}]},{"method":"addMeasure","args":[{"position":"bottomleft","primaryLengthUnit":"miles","primaryAreaUnit":"sqmiles","activeColor":"#ff4932","completedColor":"#e2365d","popupOptions":{"className":"leaflet-measure-resultpopup","autoPanPadding":[10,10]},"captureZIndex":10000,"localization":"en","decPoint":".","thousandsSep":","}]},{"method":"addPolylines","args":[[[[{"lng":[-91.5604940684547,-91.5604766340961,-91.560460540842,-91.5604456739741,-91.56043508301531,-91.56042949373369,-91.56042727388331,-91.56042133426929,-91.5604199222919,-91.5604288265227,-91.5604313784505,-91.560433982937,-91.5604361717795,-91.5604404242744,-91.5604417653789,-91.56044837875361,-91.5604607209404,-91.5604688466332,-91.56048008647861,-91.56048176649389,-91.56048796177259,-91.5604965875925,-91.5605093170285,-91.56051552612681,-91.5605134997803,-91.5605102857964,-91.5605031520939,-91.56049718645031,-91.560500559529,-91.56049306653919,-91.5604926512582,-91.5604967506637,-91.56050023780941,-91.5605066916641,-91.5605014785542,-91.5604943078571,-91.5605033377001,-91.56050747949971,-91.5605084052788,-91.56050747949971,-91.5605091664748,-91.560512730402,-91.5605094083089,-91.56051552612681,-91.5605199037704,-91.5605302782764,-91.5605325181445,-91.5605302782764,-91.5605235199826,-91.5605195494403,-91.56051263111659,-91.5604977822704,-91.5605034561862,-91.5605192243939,-91.5605493611216,-91.56055731939981,-91.5605536792789,-91.5605486935611,-91.5605396660079,-91.56053221824379,-91.5605309362404,-91.5605183174864,-91.5605205784497,-91.5605369837989,-91.5605439370247,-91.56055018606649,-91.5605427998488,-91.5605340562585,-91.5605316803794,-91.56054637153051,-91.56055839756991,-91.5605670208698,-91.5605812402477,-91.5605877177878,-91.560588197521,-91.56058663364981,-91.5605758758296,-91.5605641417973,-91.5605527963726,-91.560547712635,-91.56055299159119,-91.56056688122079,-91.5605685809272,-91.5605705114116,-91.5605708554542,-91.5605746895009,-91.5605749405966,-91.5605717350625,-91.5605695913077,-91.5605624647845,-91.5605599507758,-91.5605693427036,-91.56058303209031,-91.5605922648091,-91.5605984661898,-91.56059461289991,-91.56059242996101,-91.56060618951381,-91.5606182028439,-91.56062541069809,-91.5606373684562,-91.56064729751731,-91.5606536598911,-91.5606587687965,-91.5606685903675,-91.5606722903172,-91.5606737385575,-91.5606818230857,-91.5606876381198,-91.5606992574443,-91.56071376037239,-91.56073499631179,-91.5607542427291,-91.56076224967509,-91.5607649489623,-91.5607609482517,-91.5607481621022,-91.5607307630838,-91.5607201739397,-91.5607230904802,-91.5607393408783,-91.56076509540939,-91.5608042881795,-91.5608287513751,-91.5608539271457,-91.5608749421348,-91.5608807549564,-91.56089371759791,-91.560896779841,-91.5609024451183,-91.5608955094909,-91.56088791709151,-91.56088835317991,-91.5609055712515,-91.56093593663689,-91.56094670665399,-91.5609559644396,-91.56096613724129,-91.56098893601791,-91.5610202929261,-91.5610306402607,-91.56102514583959,-91.5610108330463,-91.56099698264499,-91.561000985032,-91.561030860164,-91.5610514339424,-91.56107389731081,-91.5610989065875,-91.5611153337082,-91.56112818397079,-91.5611324342002,-91.56111499984161,-91.56108855902249,-91.5610676260038,-91.5610519679298,-91.5610425801982,-91.5610488940559,-91.5610700034389,-91.5610856960059,-91.5610849148822,-91.56107879001991,-91.5610808017297,-91.5610757241827,-91.5610716492132,-91.5610694022884,-91.5610768044769,-91.56109220106499,-91.5611075889049,-91.5611164812757,-91.5611257780623,-91.5611377986182,-91.5611498685588,-91.5611562722309,-91.5611605373655,-91.56116789640571,-91.5611612928973,-91.56115188457569,-91.5611351164092,-91.5611218298729,-91.5611117026168,-91.561091479027,-91.5610734748584,-91.5610552962596,-91.56102989335599,-91.5610102178331,-91.5609774598108,-91.56096510607691,-91.5609678792465,-91.560993192974,-91.56103293801441,-91.5610694022884,-91.5611079080897,-91.5611341265999,-91.5611605973949,-91.5611741301657,-91.5611831902803,-91.5611771097001,-91.5611770526307,-91.5611687765777,-91.5611498685588,-91.56113625542871,-91.5611324342002,-91.5611343351661,-91.5611347647433,-91.5611416936849,-91.56114852745431,-91.56115258557649,-91.56115570866061,-91.5611522118527,-91.5611522959949,-91.5611451882869,-91.561125236493,-91.56110810991071,-91.56109907387,-91.5610941109079,-91.56108240215529,-91.5610680611839,-91.56106603004621,-91.56107752908351,-91.5611082943191,-91.5611364575137,-91.5611441890907,-91.56114117451899,-91.56112666118069,-91.5611303403323,-91.56115573037511,-91.56115858038309,-91.56114765994759,-91.5611297519912,-91.56112909034989,-91.56114316303631,-91.5611581141824,-91.5611808202581,-91.5611898078858,-91.5611727461233,-91.5611681923554,-91.5611713877812,-91.5611753495445,-91.5611719426397,-91.5611640371669,-91.5611610510356,-91.5611669803052,-91.5611692740442,-91.5611632342797,-91.5611471863498,-91.5611201682249,-91.5610962243785,-91.561074196468,-91.56105867345229,-91.56104985902979,-91.5610355399475,-91.561034872768,-91.5610324266617,-91.56101300428671,-91.5609962228795,-91.5609824743081,-91.5609824779911,-91.560996536739,-91.5609993369589,-91.56099992486619,-91.5609878647,-91.56098432345659,-91.5609808893909,-91.5609741924676,-91.560978245614,-91.5609794947619,-91.5609829592622,-91.56098587877619,-91.5609846592797,-91.56097936404051,-91.5609759192641,-91.56096728950961,-91.5609621139278,-91.5609561876271,-91.5609460206737,-91.56093317090721,-91.56092056866559,-91.56091323494741,-91.560876101465,-91.5608454378356,-91.5608057896678,-91.5607818071279,-91.56075746878911,-91.56073144395251,-91.5606985491887,-91.5606717719308,-91.5606373301671,-91.5605971116796,-91.5605638058891,-91.5605321916959,-91.5605073491125,-91.56046832008769,-91.56043204604509,-91.5603988500346,-91.56036311695151,-91.56031362138999,-91.5602794917335,-91.5602419408073,-91.56020307448151,-91.560169400307,-91.5601407070526,-91.5601156362963,-91.56008369047539,-91.5600608473874,-91.56002843891019,-91.5599938364734,-91.5599589677562,-91.5599270694189,-91.5599066646804,-91.55988387795659,-91.5598469165148,-91.5598079400575,-91.5597796686296,-91.55975226561389,-91.5597296388854,-91.55970210421479,-91.5596788912262,-91.5596468500499,-91.5596165563161,-91.5595714750429,-91.5595319335449,-91.5594924714778,-91.5594685941671,-91.5594441688628,-91.55940751015351,-91.5593718303393,-91.5593352087714,-91.55930899699329,-91.5592823932126,-91.55925156435499,-91.5592280657996,-91.5592026816477,-91.55917342824409,-91.5591401937771,-91.5591128641413,-91.5590773107774,-91.55903346807951,-91.5590071174983,-91.55896199842731,-91.55894106943499,-91.5589236350765,-91.55890754182241,-91.5588928665298,-91.55887503868399,-91.55884998896261,-91.5588257344474,-91.5588024865871,-91.5587833206267,-91.5587527449177,-91.5587345393409,-91.5587222192033,-91.55869430620569,-91.5586616886079,-91.5586340593115,-91.55860801592399,-91.5586006538387,-91.55860747382771,-91.55860749967501,-91.5586074060727,-91.5585901465513,-91.55856111327959,-91.5585296636399,-91.55851437151441,-91.5584995883908,-91.5584992285039,-91.5585117826073,-91.5585243882001,-91.5585449956309,-91.5585647242612,-91.5585732424758,-91.5585831828007,-91.5585933997463,-91.5586028679315,-91.55859853245011,-91.5585991396083,-91.55861159022361,-91.5586205454578,-91.5586267477984,-91.5586340691389,-91.5586530304428,-91.558666143011,-91.55869610019811,-91.5587244810426,-91.55876657718591,-91.55879592759329,-91.5588262306663,-91.5588455983206,-91.5588605626528,-91.55888127495081,-91.55889697436579,-91.5589158946251,-91.55892652673489,-91.5589504621407,-91.5589705737342,-91.5589898025592,-91.55899921148659,-91.5590016409036,-91.55899806496301,-91.55899471361531,-91.55899615456291,-91.5590006854642,-91.5590113966645,-91.5590207489701,-91.55902583667471,-91.5590312928469,-91.5590297453232,-91.55903628785509,-91.559043110129,-91.5590510400047,-91.55907249767679,-91.5590941537243,-91.5591113897075,-91.55911809523,-91.5591246439426,-91.5591395529021,-91.55916050136641,-91.5591855485815,-91.5592162653988,-91.5592502200001,-91.5592772590454,-91.559300485443,-91.55931557321981,-91.5593324006875,-91.5593582431617,-91.5593794274962,-91.55939287870019,-91.5594131382217,-91.5594272173086,-91.55944262886131,-91.55944800693889,-91.55945448374641,-91.55946483066811,-91.5594828756561,-91.5594948613941,-91.5595035315914,-91.5595241710116,-91.5595467087176,-91.55957419186051,-91.55960142442611,-91.5596263738384,-91.559649172615,-91.5596598292142,-91.5596729453349,-91.5596829055101,-91.5596983900769,-91.5597117762419,-91.5597271837147,-91.5597376855125,-91.5597578020801,-91.5597666918689,-91.5597822547128,-91.55979967887239,-91.5598168106784,-91.55983136674629,-91.5598405678561,-91.5598615036115,-91.5598901488022,-91.55991873462099,-91.5599414164797,-91.5599568892099,-91.5599859074251,-91.5600151259157,-91.5600367100173,-91.56005202588069,-91.5600655363703,-91.5600891578093,-91.5601215698841,-91.5601495536211,-91.5601631170436,-91.560185614418,-91.5601870211857,-91.5601950021495,-91.56021214094071,-91.5602338762728,-91.56025508041181,-91.56027552811599,-91.5602987267369,-91.5603227003382,-91.5603494490893,-91.5603716000689,-91.5603892649661,-91.56041396646479,-91.5604374296515,-91.5604480634415,-91.5604781914469,-91.5604957548347,-91.5605173898084,-91.5605487822335,-91.5605741038617,-91.56059719476509,-91.5606144410375,-91.5606266442681,-91.56063066097821,-91.56064000895191,-91.5606416199082,-91.5606449824916,-91.5606469388628,-91.5606574874873,-91.56067122934409,-91.5606791511605,-91.56069489192581,-91.5607248502651,-91.5607391842251,-91.56075532337179,-91.5607607068668,-91.56076640579521,-91.56076210185689,-91.5607574461247,-91.5607555838336,-91.56074383072441,-91.56073189483929,-91.5607214392204,-91.5607221589422,-91.5607195615063,-91.5607217364943,-91.5607166918029,-91.5607180329074,-91.560727420639,-91.56073412616151],"lat":[42.6143426035051,42.6143287861216,42.6143159556913,42.6143030978794,42.6142808087394,42.6142594432619,42.6142405720358,42.6142190671107,42.6141917421877,42.6141632449178,42.614142573294,42.6141223191773,42.6140925473862,42.6140662552527,42.6140475030054,42.6140293366852,42.6139998808202,42.6139781862132,42.6139533975514,42.6139197948797,42.6138951923519,42.6138670751065,42.6138448834996,42.6138234625609,42.6138053702311,42.6137853267956,42.6137546061558,42.6137335939751,42.6137082657821,42.6136705049945,42.6136483386824,42.6136270563989,42.6136054675165,42.6135727277923,42.6135474319127,42.6135262487696,42.6135008449674,42.6134799981132,42.61345902329,42.6134365714391,42.6134151515915,42.6133839082648,42.6133642287821,42.6133437961699,42.6133255495935,42.6133013563731,42.6132779358473,42.6132549686551,42.6132304855565,42.6132075939287,42.6131830824544,42.6131619523467,42.6131434405959,42.6131350842237,42.6131232151309,42.6131021266462,42.6130810729476,42.6130581958453,42.613031912337,42.6130039768713,42.6129781205073,42.6129584643668,42.6129376622569,42.6129184099216,42.6129007262178,42.6128776468331,42.6128593997501,42.6128383496314,42.6128070252074,42.6127910895746,42.6127694033542,42.6127520813767,42.6127269358128,42.6127095711293,42.612691399874,42.6126670679619,42.6126450162979,42.6126232641986,42.6126041525624,42.6125838233369,42.6125629939307,42.6125391931592,42.6125183918603,42.6124969687084,42.6124788051177,42.6124569027605,42.61242578914,42.6124077622693,42.6123784719722,42.6123528687167,42.612333011245,42.6123089505717,42.6122851051001,42.6122637798107,42.6122360374032,42.6122176165109,42.6121932678777,42.6121756632438,42.6121593503082,42.6121316563247,42.6121103850344,42.6120820172874,42.6120607197649,42.6120372606696,42.6120129731256,42.6119870815385,42.6119598790232,42.6119363586467,42.6119163169806,42.6118870089278,42.6118606352738,42.6118393761148,42.6118228542347,42.6118003444099,42.6117731663284,42.6117488295068,42.6117249379894,42.6116900514337,42.6116680023564,42.6116460583938,42.6116139225897,42.6115977617662,42.6115799093715,42.611570737467,42.6115613366012,42.611550442802,42.6115299003721,42.6115040537799,42.6114811523515,42.6114565774517,42.6114368082299,42.6114176574576,42.6113895615775,42.6113633049165,42.6113422869744,42.6113221651985,42.6112934332386,42.6112671731282,42.6112375629834,42.6112216954616,42.6111958602367,42.6111793296576,42.6111646445598,42.6111408364124,42.6111166384343,42.6111007960568,42.6110906819851,42.6110809058816,42.6110717459125,42.6110585015046,42.6110358420792,42.6110164734574,42.6110016683272,42.6109940590389,42.610977099293,42.6109552788963,42.6109355387025,42.6109181367684,42.6108974842781,42.610870011623,42.6108462156787,42.6108220324666,42.6107948657277,42.6107754281257,42.610748813638,42.6107253052502,42.610700779306,42.6106572013036,42.6106209663271,42.6106015932571,42.610571746346,42.6105486296406,42.6105170451213,42.6104908022428,42.6104717374676,42.6104451992534,42.6104263679385,42.6104047806822,42.6103867588099,42.6103686854574,42.6103443335253,42.6103265182299,42.6103079520359,42.6102958581336,42.61027299621,42.6102534962354,42.6102299435513,42.6102111090103,42.6101864086765,42.6101636188816,42.6101423751959,42.6101390166627,42.6101283675544,42.6101127252796,42.6100926265894,42.610059633988,42.6100366986498,42.6099979331443,42.6099594084751,42.6099361220374,42.6099179232372,42.6098941136355,42.6098715329992,42.609842196975,42.6098165773917,42.6097985851657,42.6097787524196,42.609758126305,42.609727706377,42.6097011216122,42.6096727007219,42.6096503419332,42.6096306398975,42.6096114241526,42.6095894591288,42.6095600751916,42.6095315569577,42.6095122542413,42.6094871583435,42.6094625981062,42.6094303304982,42.6093967713434,42.6093698952627,42.6093516285255,42.6093321453177,42.6093064945833,42.6092877137744,42.609268773445,42.6092389003877,42.6092289752981,42.6092087858939,42.6091964030722,42.6091885003576,42.6091661910313,42.609139725714,42.6091199133218,42.6090971916329,42.609072261163,42.609049334325,42.6090270683569,42.6089950174675,42.6089684816785,42.6089399825856,42.6089175661923,42.608899643043,42.6088785762165,42.6088629109957,42.6088598224072,42.6088481964517,42.6088321852044,42.6088105650079,42.6087858232871,42.6087677772429,42.6087423483148,42.6087157752347,42.6086928942633,42.6086757411136,42.6086478128824,42.6086269156054,42.6086013777443,42.6085812752508,42.6085565541685,42.6085236531898,42.6085015248622,42.6084802405051,42.6084610084728,42.6084382251865,42.6084172774908,42.6083969435168,42.608377581565,42.6083413595624,42.6083234838603,42.6082962230243,42.6082675939479,42.6082388228056,42.6082142931104,42.6081945071691,42.6081736926552,42.6081521498383,42.6081227764483,42.6081096654078,42.6080912146194,42.6080784429506,42.6080636209511,42.6080563644352,42.6080503397631,42.6080505159831,42.6080538995881,42.6080526999341,42.6080543903242,42.608063186881,42.6080698803814,42.6080788303714,42.6080843201525,42.6080899243122,42.6080976886794,42.6081010532321,42.6081096654078,42.6081165747898,42.608122657937,42.6081233102835,42.6081322624317,42.6081353590063,42.6081333547144,42.6081198838935,42.6081140058571,42.6081096654078,42.6081047301345,42.6080993609767,42.6081047301345,42.6081138472102,42.6081151732023,42.6081137782208,42.6081067774887,42.6081002663054,42.6080948595867,42.6080919460118,42.6081001342646,42.6081173123436,42.6081187916531,42.6081199428089,42.6081168531703,42.6081109057062,42.6080971998854,42.6080841233214,42.6080693529022,42.6080580818435,42.6080517584661,42.6080518490792,42.6080519338388,42.60806531394,42.6080721573207,42.6080779555009,42.6080825672238,42.6080936820645,42.6081000169725,42.6081053842489,42.608106874027,42.6081131163258,42.6081104150519,42.6081116395171,42.6081175618443,42.6081244712255,42.6081365024353,42.6081522404436,42.608165905058,42.6081748109791,42.608183366591,42.6081960681014,42.6082088136103,42.6082231765865,42.6082414773378,42.6082527881643,42.6082531986955,42.6082546161466,42.6082638987261,42.6082890663085,42.6083097509715,42.6083360259242,42.6083662587258,42.6083881745339,42.6084041621721,42.608410914509,42.608431531264,42.6084569885795,42.6084841593686,42.6085031962922,42.6085247056151,42.608543014614,42.6085691360762,42.6085873126315,42.608604705547,42.6086310894546,42.6086487951284,42.6086729521773,42.6086952209803,42.6087184803411,42.608751247611,42.6087784332107,42.6087979497297,42.60882102694,42.608838107463,42.6088549113067,42.6088635523903,42.608881415818,42.6089018992917,42.6089242469204,42.608944019633,42.6089755574832,42.6090055581895,42.6090313437432,42.6090531181804,42.6090730911147,42.6090939612563,42.6091085566808,42.6091281337334,42.6091508393673,42.6091801300275,42.6092094780373,42.6092309493714,42.6092507974852,42.6092779669336,42.6093126267973,42.6093321599112,42.6093579979983,42.6093819285024,42.6094096936251,42.6094283564304,42.6094484383945,42.6094717858993,42.6094935006225,42.6095153253796,42.6095329819178,42.6095507484926,42.6095652303351,42.6095813464706,42.6095912282223,42.6096099573254,42.6096264126145,42.609635502444,42.6096565197508,42.6096770884337,42.6096958237405,42.6097149782237,42.6097293381076,42.6097434303219,42.6097634051768,42.6097886226999,42.6098103170993,42.6098290641514,42.6098527794882,42.6098797863849,42.6098978642211,42.6099218713403,42.6099446965689,42.6099681792083,42.6099899828854,42.6099978345033,42.6100058207574,42.6100165094062,42.6100294570716,42.6100472235047,42.6100706533647,42.6100963691174,42.6101130170634,42.610134754649,42.6101533924518,42.6101824685253,42.6102031730895,42.610230809684,42.610246874557,42.6102722058223,42.610286103259,42.6103068102558,42.6103332601626,42.6103583159026,42.6103770115445,42.6103957773338,42.6104143953222,42.6104324404887,42.6104484358265,42.6104764050188,42.6104952426288,42.610505737108,42.610522429495,42.61054527787,42.6105612375896,42.6105652764634,42.6105719447989,42.6105902745871,42.6106226557942,42.6106470584162,42.6106779285988,42.6107014167078,42.6107204942083,42.61072986555,42.6107433210239,42.6107492599854,42.6107557971553,42.6107636677957,42.6107797869424,42.6107998730348,42.6108232036857,42.6108469573677,42.6108704909678,42.6108977466252,42.6109113819875,42.6109303392777,42.6109528646094,42.6109694623585,42.6109894366324,42.6110079948717,42.6110238215522,42.611056043925,42.6110772350112,42.6111011187325,42.6111244099801,42.6111453842815,42.6111746103574,42.6111974221427,42.6112188202588,42.6112365266531,42.6112600582987,42.6112814371167,42.6112959605361,42.6113152698622,42.6113371020684,42.6113634635215,42.6113827450564,42.611401405607,42.611417124577,42.6114341322543,42.6114599530628,42.6114789225497,42.6115026345978,42.6115300158771,42.611550442802,42.6115770917991,42.6115997927876,42.6116244677657]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#999933","weight":5,"opacity":0.8,"fill":false,"fillColor":"#999933","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BBBBT01<\/b><br/>Backbone SP - Backbone Tr<br/>East Gate Rd to <br/>Distance: 0.87 miles<br/>Cumulative: 0.87 miles<br/>",null,"BBBBT01",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addMarkers","args":[42.6143426035051,-91.5604940684547,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"1",{"interactive":false,"permanent":true,"direction":"left","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"fitBounds":[42.60634601774951,-91.55752736029348,42.61604717720924,-91.56216156847304,[]],"limits":{"lat":[42.6080503397631,42.6143426035051],"lng":[-91.5611898078858,-91.5584992285039]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Take Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Click on a segment to get specific information.</li>
+<li>Numeric labels correspond to the same labels in the elevation profile and summary information below.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="elevation-profile" class="level2">
+<h2 class="anchored" data-anchor-id="elevation-profile">Elevation Profile</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="elevs/IA_BBBBT.png" class="img-fluid" width="756"></p>
+</div>
+</div>
+</section>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<center>
+<div id="carouselWalkCaptions" class="carousel slide w-75" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-pause="hover" data-bs-interval="2500">
+&lt;img src=“https://github.com/droglenc/MAPPING/raw/main/Images/IMG_6790.jpg” class=“d-block w-100” alt=“BBBBT01: Typical view”over the edge”“&gt;
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+BBBBT01: Typical view “over the edge”
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+<img src="https://github.com/droglenc/MAPPING/raw/main/Images/IMG_6791.jpg" class="d-block w-100" alt="BBBBT01: Kim and Cash">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+BBBBT01: Kim and Cash
+</h5>
+</div>
+</div>
+<div class="carousel-item" data-bs-pause="hover" data-bs-interval="2500">
+&lt;img src=“https://github.com/droglenc/MAPPING/raw/main/Images/IMG_6797.jpg” class=“d-block w-100” alt=“BBBBT01: Kim on”The Backbone”“&gt;
+<div class="carousel-caption d-none d-md-block">
+<h5 class="anchored">
+BBBBT01: Kim on “The Backbone”
+</h5>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselWalkCaptions" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselWalkCaptions" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+</button>
+</div>
+</center>
+</section>
+<section id="gpx-download" class="level2">
+<h2 class="anchored" data-anchor-id="gpx-download">GPX Download</h2>
+<p>A sanitized GPX file of our hike <a href="gpx/IA_BBBBT.gpx">is here</a>.</p>
+</section>
+<section id="summary-information" class="level2">
+<h2 class="anchored" data-anchor-id="summary-information">Summary Information</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="lightable-classic table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th">NUM</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">trackID</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Primary</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Description</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Type</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Owner</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Distance</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">CumDist</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">DeltaElev</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">BBBBT01</td>
+<td style="text-align: left;">Backbone SP - Backbone Tr</td>
+<td style="text-align: left;">East Gate Rd to</td>
+<td style="text-align: left;">Trail</td>
+<td style="text-align: left;">Public</td>
+<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">-12</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Derek H. Ogle</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">fishR</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://derekogle.com/IFAR/">IFAR</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/droglenc/droglenc.github.io">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/DerekOgle51">
+      <i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

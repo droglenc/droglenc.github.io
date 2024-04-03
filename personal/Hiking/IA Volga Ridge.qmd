@@ -1,9 +1,9 @@
 ---
-title: "Backbone State Park"
-subitle: "North Gate Road"
+title: "Volga River State Park"
+subtitle: "Ridge Trail"
 ---
 
-[Cash](../shelties.html#cash) and I walked "North Gate Road" in [Backbone State Park](https://www.iowadnr.gov/places-to-go/state-parks/iowa-state-parks/backbone-state-park) on 24-Jan-23. The park and gates were closed, but we walked in from the north gate to have the entire park to ourselves. The scenery was beautiful with a fairly fresh snow, Richmond Springs and the Maquoketa River running open, and dimming sunlight. Details are below.
+[Cash](../shelties.html#cash) and I walked the Ridge Trail in [Volga River State Recreation Area](https://iowastateparks.reserveamerica.com/camping/volga-river-state-recreation-area/r/campgroundDetails.do?contractCode=IA&parkId=610134) on 16-Nov-24. This trail was largely through typical Northeast Iowa hardwoods, with some portions along corn fields and a recent logged area. I did not take any pictures.
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -16,19 +16,13 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iowa"
-walkID <- "IA_BBNGR"
+walkID <- "IA_VRRIDGE"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("BBNGR01","BBNGR02","BBNGR03","BBNGR04","BBNGR05",
-             "BBNGR05","BBNGR04","BBNGR03","BBNGR02","BBNGR01")
+walkIDs <- c("VRRDG01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
-
-# Get photos
-pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
-walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
-npix <- nrow(walkPix)
 ```
 
 ## Walk-Specific Map
@@ -60,15 +54,6 @@ dev.off()
 knitr::include_graphics(fnm)
 ```
 
-## Images
-```{r}
-#| echo: false
-#| results: asis
-gpxhelpers::makeCarousel(id="Walk",path="",
-                         imgs=walkPix$Photo,caps=walkPix$Caption,
-                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
-```
-
 ## GPX Download
 ```{r}
 #| label: gpxdownload
@@ -79,7 +64,7 @@ fnm <- paste0(walkID,".gpx")
 gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
                         pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
                         fnm=fnm,
-                        IDs=unique(walkIDs))
+                        IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 
@@ -87,5 +72,5 @@ cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```{r}
 #| label: walkSummary
 #| echo: false
-gpxhelpers::walkSummary(awalk)
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
 ```

@@ -1,9 +1,8 @@
 ---
-title: "Backbone State Park"
-subitle: "North Gate Road"
+title: "Gilbertson Conservation Education Center Loop 1"
 ---
 
-[Cash](../shelties.html#cash) and I walked "North Gate Road" in [Backbone State Park](https://www.iowadnr.gov/places-to-go/state-parks/iowa-state-parks/backbone-state-park) on 24-Jan-23. The park and gates were closed, but we walked in from the north gate to have the entire park to ourselves. The scenery was beautiful with a fairly fresh snow, Richmond Springs and the Maquoketa River running open, and dimming sunlight. Details are below.
+[Cash](../shelties.html#cash) and I explored some of the trails at the [Gilbertson Conservation Education Center](https://www.fayettecountyconservation.org/gilbertson-conservation-education-a) near [Elgin](https://www.elginia.com/) on 20-Mar-24. We created a large loop that took in many of the individual trails at the center. It was a nice mix of typical northeast Iowa hardwoods, some prairie land, and a stretch along the Volga River. All-in-all it was a very nice hike.
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -16,13 +15,12 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iowa"
-walkID <- "IA_BBNGR"
+walkID <- "IA_GPLOOP1"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("BBNGR01","BBNGR02","BBNGR03","BBNGR04","BBNGR05",
-             "BBNGR05","BBNGR04","BBNGR03","BBNGR02","BBNGR01")
+walkIDs <- c("GPLOOP01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
@@ -79,7 +77,7 @@ fnm <- paste0(walkID,".gpx")
 gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
                         pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
                         fnm=fnm,
-                        IDs=unique(walkIDs))
+                        IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 
@@ -87,5 +85,5 @@ cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```{r}
 #| label: walkSummary
 #| echo: false
-gpxhelpers::walkSummary(awalk)
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
 ```

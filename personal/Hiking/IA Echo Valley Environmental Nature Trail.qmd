@@ -1,5 +1,6 @@
 ---
-title: "Echo Valley Enviromental Nature Trail"
+title: "Echo Valley State Park"
+subtitle: "Enviromental Nature Trail"
 ---
 
 [Cash](../shelties.html#cash) and I walked the Echo Valley Environmental Nature Trail near Echo Valley State Park just outside of West Union once in Summer (3-Jul) 2022 and again in Winter (25-Jan) 2023. The trail starts in Echo Valley State Park and follow Otter Creek for approximately 1.5 miles. It is an easy flat trail on an old railroad (or road). The scenery was beautiful, especially in the winter. Details are below.
@@ -74,10 +75,10 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 #| message: false
 #| results: asis
 fnm <- paste0(walkID,".gpx")
-gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
-                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
-                              fnm=fnm,
-                              IDs=unique(walkIDs))
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 
