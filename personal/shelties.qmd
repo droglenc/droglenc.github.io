@@ -2,14 +2,22 @@
 ---
 
 # Cash
-We have had Cash since September 2020. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](hiking.html).
+We have had Cash since September 2020. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](hiking.html). The latest picture of Cash is below; [go here](Cash.html) to see a picture from (nearly) each week of his life.
 
 ```{r}
 #| echo: false
 #| results: asis
-gpxhelpers::makeCarousel(id="Cash",path="../zresources/img/Cash/",rev=TRUE,
-                         width=50,captions=TRUE,controls=FALSE,interval=2000)
+path <- "../zresources/img/Cash/"
+imgs <- rev(list.files(path=path))[1]
+caps <- stringr::str_replace(tools::file_path_sans_ext(imgs),"_"," ")
+cat('![',caps,'](',path,imgs,'){width=50%}',sep="")
 ```
+```{r}
+#| echo: false
+#| results: hide
+quarto::quarto_render(input="Cash.qmd")
+```
+
 
 &nbsp;
 

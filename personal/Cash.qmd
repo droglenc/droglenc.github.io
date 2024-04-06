@@ -1,0 +1,44 @@
+---
+title: "Cash"
+lightbox: true
+---
+
+```{r}
+#| echo: false
+makeThumbs <- function(id,path,imgs=NULL,caps=NULL,rev=FALSE) {
+  ## If imgs is NULL, use all files in path folder, otherwise given in imgs
+  if (is.null(imgs)) imgs <- list.files(path=path)
+  ## If caps is NULL, use filename as caps, otherwise given in caps
+  if (is.null(caps)) {
+    ## Remove extension and underscore in name
+    caps <- tools::file_path_sans_ext(imgs)
+    caps <- stringr::str_replace(caps,"_"," ")
+  }
+  ## Make sure imgs and caps is same length
+  if (length(imgs)!=length(caps)) stop("'imgs' and 'caps' not same length!",call.=FALSE)
+  
+  ## Reverse given order of imgs/caps if asked for
+  if (rev) {
+    imgs <- rev(imgs)
+    caps <- rev(caps)
+  }
+
+  tmp <-  NULL
+  for (i in seq_along(imgs)) {
+    tmp <- paste0(tmp,'![',caps[i],'](',path,imgs[i],'){group="',id,'"}')
+    tmp <- paste0(tmp,"\n\n")
+  }
+cat(tmp)
+}
+```
+
+Below are pictures of Cash from nearly every week of his life. Click on any thumbnail to see a larger version of the picture (and then use the "<" and ">" buttons to move through each picture).
+
+::: {layout-ncol=6}
+```{r}
+#| echo: false
+#| results: asis
+#imgs <- paste0("Week_",185:190,".jpg")
+makeThumbs(id="cash_gallery",path="../zresources/img/Cash/",rev=TRUE)
+```
+:::
