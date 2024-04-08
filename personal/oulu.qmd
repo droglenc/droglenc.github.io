@@ -8,3 +8,71 @@ title: "Oulu Property"
 I will be adding content.
 :::
 
+
+## Hike/Ski Trails
+```{r}
+#| name: setup
+#| echo: false
+#| results: hide
+#| message: false
+library(tidyverse)
+library(leaflet)
+```
+
+```{r}
+#| name: data
+#| echo: false
+#| results: hide
+## Property boundaries polygon corners (approximate)
+propbndry <- tribble(
+  ~Longitude, ~Latitude,
+  -91.47412778, 46.65521944,
+  -91.46886111, 46.65521944,
+  -91.46886111, 46.65174167,
+  -91.45973000, 46.65174167,
+  -91.45795833, 46.65000278,
+  -91.45795833, 46.64813333,
+  -91.46886111, 46.64813333,
+  -91.46886111, 46.65174167,
+  -91.47412778, 46.65174167
+)
+
+## Trail track data
+dat <- gpx::read_gpx("../zresources/property.gpx")$tracks
+trknms <- names(dat)
+dat <- do.call("rbind",dat) |>
+  mutate(Name=trknms[`Segment ID`],
+         Date=as.Date(Time,format="%Y-%m-%d")) |>
+  select(Name,Latitude,Longitude,Elevation,Date) |>
+  tibble::remove_rownames()
+```
+
+```{r}
+#| name: make_map
+#| echo: false
+map <- leaflet(dat) |>
+  addTiles(group="Default") |>
+  addProviderTiles(provider="Esri.WorldImagery",group="Imagery") |>
+  addLayersControl(
+    baseGroups=c("Imagery","Default"),
+    options=layersControlOptions(collapsed=TRUE)
+  ) |>
+  fitBounds(min(propbndry$Longitude),min(propbndry$Latitude),
+            max(propbndry$Longitude),max(propbndry$Latitude))
+
+map <- map |>
+  addPolygons(lng=propbndry$Longitude,
+              lat=propbndry$Latitude,
+              color="blue",fill=FALSE,weight=3)
+
+for (i in seq_along(trknms)) {
+  tmp <- dplyr::filter(dat,Name==trknms[i])
+  map <- map |>
+    addPolylines(data=tmp,
+                 lng=~Longitude,lat=~Latitude,
+                 color="yellow")
+}
+
+map
+```
+
