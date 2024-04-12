@@ -24,7 +24,7 @@ While working on the NCT I became interested in these old grades and wondered ho
 This map is incomplete; there are many more grades still to map.
 :::
 
-The map below shows the North Country Trail (NCT) in <span style="color: #CC0000">Red</span> with other trails that are fairly cleared for hiking in <span style="color: #663300">Brown</span>. The tracks shown in <span style="color: #CC6600">Orange</span> are old railroad or road grades that I mapped, but are generally overgrown, not very clear for general hiking, and may be difficult to discern.
+The map below shows the North Country Trail (NCT) in <span style="color: #CC0000">Red</span> with other trails that are fairly cleared for hiking in <span style="color: #663300">Brown</span>. The tracks shown in <span style="color: #CC6600">Orange</span> are old railroad or road grades that I mapped, but are generally overgrown, not very clear for general hiking, and may be difficult to discern. Tracks shown in <span style="color: #fdee00">Yellow</span> are forest roads that more-or-less mark the boundary of the Rainbow Lake Wilderness.
 
 You can change the base map type with the object in the upper-right, use the +/- buttons in the upper-left to zoom, and click on a track to get some basic information (primarily length).
 
@@ -37,12 +37,12 @@ project <- "RLWA"
 
 ## Run following lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
-#tmp <- paste0("c:/aaaPersonal/MAPPING/Tracks/Iron River Area/aaaOriginals/",c("NCTBF031.gpx","NCTBF032.gpx","NCTBF033.gpx","NCTBF034.gpx","NCTBF035.gpx","NCTBF036.gpx","NCTBF037.gpx","NCTBF038.gpx","NCTBF039.gpx","NCTBF040.gpx","NCTBF041.gpx","ANDG01.gpx","ANDG02.gpx","ANDG03.gpx","ANDG04.gpx","ANDG05.gpx","ANDL01.gpx","BUFO01.gpx","BUFO02.gpx","CLAY01.gpx","RLFT01.gpx","RLFT02.gpx","TRND01.gpx","WSHB01.gpx"))
+#tmp <- paste0("c:/aaaPersonal/MAPPING/Tracks/Iron River Area/aaaOriginals/",c("NCTBF031.gpx","NCTBF032.gpx","NCTBF033.gpx","NCTBF034.gpx","NCTBF035.gpx","NCTBF036.gpx","NCTBF037.gpx","NCTBF038.gpx","NCTBF039.gpx","NCTBF040.gpx","NCTBF041.gpx","ANDG01.gpx","ANDG02.gpx","ANDG03.gpx","ANDG04.gpx","ANDG05.gpx","ANDL01.gpx","BUFO01.gpx","BUFO02.gpx","CLAY01.gpx","RLFT01.gpx","RLFT02.gpx","TRND01.gpx","WSHB01.gpx","WDLT15.gpx","WDLT16.gpx","WDLT17.gpx","RKYR01.gpx","RKYR02.gpx","RKYR03.gpx","RKYR04.gpx","NDLT01.gpx","NDLT02.gpx","NDLT03.gpx","NDLT04.gpx","NDLT05.gpx","NDLT06.gpx","RYND01.gpx","RYND02.gpx","RYND03.gpx","RYND04.gpx","RYND05.gpx"))
 #file.copy(tmp,"c:/aaaPersonal/MAPPING/Tracks/RLWA/aaaOriginals/",overwrite=TRUE)
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
 
 # Make vector of colors for Iron River Area
-clrs <- c("NCT"="#CC0000","Trail"="#663300","Grade"="#CC6600")
+clrs <- c("NCT"="#CC0000","Trail"="#663300","Grade"="#CC6600","Gravel"="#fdee00")
 
 # Read in CSV file will all track info needed for the map
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
