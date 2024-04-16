@@ -37,7 +37,7 @@ project <- "RLWA"
 
 ## Run following lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
-#tmp <- paste0("c:/aaaPersonal/MAPPING/Tracks/Iron River Area/aaaOriginals/",c("NCTBF031.gpx","NCTBF032.gpx","NCTBF033.gpx","NCTBF034.gpx","NCTBF035.gpx","NCTBF036.gpx","NCTBF037.gpx","NCTBF038.gpx","NCTBF039.gpx","NCTBF040.gpx","NCTBF041.gpx","ANDG01.gpx","ANDG02.gpx","ANDG03.gpx","ANDG04.gpx","ANDG05.gpx","ANDL01.gpx","BUFO01.gpx","BUFO02.gpx","CLAY01.gpx","RLFT01.gpx","RLFT02.gpx","TRND01.gpx","WSHB01.gpx","WDLT15.gpx","WDLT16.gpx","WDLT17.gpx","RKYR01.gpx","RKYR02.gpx","RKYR03.gpx","RKYR04.gpx","NDLT01.gpx","NDLT02.gpx","NDLT03.gpx","NDLT04.gpx","NDLT05.gpx","NDLT06.gpx","RYND01.gpx","RYND02.gpx","RYND03.gpx","RYND04.gpx","RYND05.gpx"))
+#tmp <- paste0("c:/aaaPersonal/MAPPING/Tracks/Iron River Area/aaaOriginals/",c("NCTBF031.gpx","NCTBF032.gpx","NCTBF033.gpx","NCTBF034.gpx","NCTBF035.gpx","NCTBF036.gpx","NCTBF037.gpx","NCTBF038.gpx","NCTBF039.gpx","NCTBF040.gpx","NCTBF041.gpx","ANDG01.gpx","ANDG02.gpx","ANDG03.gpx","ANDG04.gpx","ANDG05.gpx","ANDL01.gpx","BUFO01.gpx","BUFO02.gpx","CLAY01.gpx","RLFT01.gpx","RLFT02.gpx","WSHB01.gpx","WDLT15.gpx","WDLT16.gpx","WDLT17.gpx","RKYR01.gpx","RKYR02.gpx","RKYR03.gpx","RKYR04.gpx","NDLT01.gpx","NDLT02.gpx","NDLT03.gpx","NDLT04.gpx","NDLT05.gpx","NDLT06.gpx","RYND01.gpx","RYND02.gpx","RYND03.gpx","RYND04.gpx","RYND05.gpx"))
 #file.copy(tmp,"c:/aaaPersonal/MAPPING/Tracks/RLWA/aaaOriginals/",overwrite=TRUE)
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
 
