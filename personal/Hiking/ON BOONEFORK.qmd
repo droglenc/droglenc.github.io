@@ -1,0 +1,88 @@
+---
+title: "Boone Fork Trail"
+subtitle: "Price Park Picnic Area, NC"
+---
+
+Kim and I were in North Carolina for my nephew Dillon's wedding to Emma. A couple of days after the wedding Emma lead my sister Pam, Kim, and I on the beautiful [Boone Fork Trail](https://www.exploreboone.com/outdoors/hiking/boone-fork-trail/) near Blowing Rock, NC. The trail was moderately challenging with a bit of elevation change (including a ladder), several crossings of Bee Tree Creek (including some rope lines), and a nice stretch along the Boone Fork river. The trail was primarily wooded (so lots of welcome shade) with several waterfall views. I think that this is the first time I have hiked with my sister since we were kids and the second time with Emma (last time was in Wisconsin). Overall it was a great hike and a fun time!
+
+```{r}
+#| label: setup
+#| include: false
+
+project <- "NCarolina"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
+# Make vector of colors for Iron River Area
+clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "ON_BOONEFORK"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("BOONEFORK")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```

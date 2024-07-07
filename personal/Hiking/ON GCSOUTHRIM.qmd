@@ -73,10 +73,10 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 #| message: false
 #| results: asis
 fnm <- paste0(walkID,".gpx")
-gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
-                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
-                              fnm=fnm,
-                              IDs=unique(walkIDs))
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 

@@ -73,7 +73,7 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 #| message: false
 #| results: asis
 fnm <- paste0(walkID,".gpx")
-gpxhelpers::combineTracks2GPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
                               pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
                               fnm=fnm,
                               IDs=unique(walkIDs))

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -44,47 +44,58 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 
-<script src="../../site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
-<script src="../../site_libs/jquery-1.12.4/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
 <link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+
 <script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+
 <link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+
 <script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+
 <script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+
 <link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="../../site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
-<script src="../../site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
-<script src="../../site_libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
+
+<script src="../../site_libs/leaflet-binding-2.2.1/leaflet.js"></script>
+
+<script src="../../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+
+<script src="../../site_libs/leaflet-providers-plugin-2.2.1/leaflet-providers-plugin.js"></script>
+
 <link href="../../site_libs/leaflet-measure-2.1.7/leaflet-measure.css" rel="stylesheet">
+
 <script src="../../site_libs/leaflet-measure-2.1.7/leaflet-measure.min.js"></script>
+
 <script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+
 <link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 
 <link rel="stylesheet" href="../../zhelpers/styles.css">
 <meta property="og:title" content="Derek H. Ogle - Mesa Point Trail at Boca Negra Canyon">
 <meta property="og:description" content="Petroglyph National Monument, Albuquerque, NM">
-<meta property="og:image" content="https://derekogle.com/personal/Hiking/elevs/ON_Boca_Negra.png">
-<meta property="og:site-name" content="Derek H. Ogle">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:width" content="1512">
+<meta property="og:site_name" content="Derek H. Ogle">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
 
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Derek H. Ogle</span>
     </a>
@@ -95,38 +106,38 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../professional/index.html" rel="" target="">
- <span class="menu-text">Professional</span></a>
+    <a class="nav-link" href="../../professional/index.html"> 
+<span class="menu-text">Professional</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../personal/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Personal</span></a>
+    <a class="nav-link active" href="../../personal/index.html" aria-current="page"> 
+<span class="menu-text">Personal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../portfolio/index.html" rel="" target="">
- <span class="menu-text">Portfolio</span></a>
+    <a class="nav-link" href="../../portfolio/index.html"> 
+<span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Mesa Point Trail at Boca Negra Canyon</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Mesa Point Trail at Boca Negra Canyon</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -209,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -243,15 +254,17 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>On February 20, 2023 Kim and I walked Mesa Point Trail in Boca Negra Canyon in Petroglyph National Monument just outside Albuquerque. This very short, paved walk had a large number of petroglyphs. Well worth the stop.</p>
 <section id="walk-specific-map" class="level2">
 <h2 class="anchored" data-anchor-id="walk-specific-map">Walk-Specific Map</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7e58685cedbc27032f4f" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-7e58685cedbc27032f4f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"Default",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["OpenTopoMap",null,"Topo/Roads",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"Imagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.PositronNoLabels",null,"CartoDB",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addLayersControl","args":[["Default","Topo/Roads","Imagery","CartoDB"],[],{"collapsed":true,"autoZIndex":true,"position":"topright"}]},{"method":"addMeasure","args":[{"position":"bottomleft","primaryLengthUnit":"miles","primaryAreaUnit":"sqmiles","activeColor":"#ff4932","completedColor":"#e2365d","popupOptions":{"className":"leaflet-measure-resultpopup","autoPanPadding":[10,10]},"captureZIndex":10000,"localization":"en","decPoint":".","thousandsSep":","}]},{"method":"addPolylines","args":[[[[{"lng":[-106.716527128692,-106.716480860586,-106.716433197164,-106.716403076525,-106.716372231121,-106.716359490628,-106.716334009643,-106.716316575284,-106.716297002017,-106.716266954417,-106.716238898056,-106.716205934162,-106.716181336789,-106.716156409997,-106.716132688038,-106.716117421265,-106.716110140603,-106.716101328011,-106.716087916966,-106.7160717362],"lat":[35.1609556653999,35.1609567618032,35.1609572087515,35.1609425085598,35.1609046826327,35.1608739833166,35.1608520552266,35.1608361573576,35.1608222227103,35.1608054580156,35.1608000759481,35.1607901083403,35.1607836817129,35.1607847677823,35.1607844788646,35.160798331381,35.1608189267301,35.1608279343206,35.160842187584,35.1608494319382]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP01<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Parking lot to Lower split in trail<br/>Distance: 0.03 miles<br/>Cumulative: 0.03 miles<br/>",null,"BNMP01",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.7160717362,-106.716042367439,-106.716016838427,-106.715987376065,-106.715960512037,-106.715933642436,-106.715907397477,-106.715882875121,-106.715861940856,-106.715835912082,-106.715812376058,-106.71577989313,-106.715754652496,-106.71572187331,-106.71569363224,-106.715668754848,-106.715638842292,-106.71561163351,-106.715587248954,-106.715562961006,-106.715537850543,-106.71551659688,-106.715505877609,-106.715500486885,-106.715504536505,-106.715521300311,-106.715542737078,-106.71555952179,-106.715546781297,-106.715526173727,-106.715504884819,-106.715489113803,-106.715481718627,-106.715483749385,-106.715467932427,-106.715432787414,-106.715409554407,-106.715388652132,-106.715367926109,-106.715353825432,-106.715336453731,-106.71532663955,-106.715312725688,-106.715304152831,-106.715295082274,-106.715287676779,-106.715295381083,-106.715322972598,-106.715333910237,-106.715345297955,-106.715364179049,-106.715385178204,-106.715400112878,-106.715416370979,-106.7154287641,-106.715438938915,-106.715453314509,-106.715474465219,-106.715497182801,-106.715515567822,-106.715523311968,-106.715532029147,-106.715541904417,-106.715564490247,-106.715576901374,-106.715587263417],"lat":[35.1608494319382,35.1608405491959,35.1608317717379,35.1608184266168,35.160801620597,35.160791987425,35.1607902658926,35.1607884105194,35.1607890119347,35.1607950433604,35.1607934968019,35.1607864050481,35.160783529907,35.1607794561339,35.1607774996761,35.1607779755189,35.1607761700378,35.1607730681858,35.1607710338583,35.1607663368616,35.1607671840334,35.1607755708641,35.1607857227181,35.160803209711,35.1608202594854,35.1608339645477,35.1608395207356,35.1608553444403,35.1608674048901,35.1608744095785,35.160883331701,35.1608920739863,35.1609080671956,35.1609266107084,35.1609363981502,35.160935381937,35.1609437324422,35.1609515429346,35.1609644465315,35.1609836068019,35.1610020407204,35.1610214445697,35.1610363767802,35.1610553659387,35.1610721064218,35.1610922139736,35.1611178669249,35.1611205193717,35.1611042824309,35.1610857455205,35.1610712520832,35.1610757214672,35.1610679693784,35.161053295893,35.1610472150194,35.1610406592471,35.1610223940432,35.161016622592,35.1610118216828,35.1610225713239,35.1610346063955,35.1610461186174,35.1610596434323,35.1610746529018,35.1610940600035,35.1611152565991]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP02<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Lower split in trail to Upper split in trail<br/>Distance: 0.09 miles<br/>Cumulative: 0.12 miles<br/>",null,"BNMP02",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715587263417,-106.715588042264,-106.715596257757,-106.71560972148,-106.715623340234,-106.715626187768,-106.715625194527,-106.715605789895],"lat":[35.1611152565991,35.1611386369384,35.1611648624375,35.1611806313527,35.1611979742224,35.1612200610374,35.1612407697112,35.1612577239346]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP03<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Upper split in trail to Split for close-up view<br/>Distance: 0.01 miles<br/>Cumulative: 0.13 miles<br/>",null,"BNMP03",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715605119343,-106.715577472247,-106.715553991586,-106.715530537942,-106.715508187701,-106.715487733631,-106.715463838129,-106.715442142669,-106.715418643876,-106.715387590267,-106.715353204836,-106.715331225936,-106.715321367616,-106.715316067228,-106.715332256914,-106.71536481044,-106.715381028119,-106.715407053439],"lat":[35.1612582721342,35.1612562184384,35.1612588610783,35.1612750998396,35.1612995796994,35.1613148281904,35.1613267069276,35.1613325124374,35.1613331506131,35.1613239468149,35.1613133204925,35.1613018050332,35.1612828521738,35.1612585541514,35.1612445279824,35.1612292796665,35.1612158222146,35.1611999911421]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP04<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Split for close-up view to Peak<br/>Distance: 0.03 miles<br/>Cumulative: 0.16 miles<br/>",null,"BNMP04",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715407053439,-106.715381028119,-106.71536481044,-106.715332256914,-106.715316067228,-106.715321367616,-106.715331225936,-106.715353204836,-106.715387590267,-106.715418643876,-106.715442142669,-106.715463838129,-106.715487733631,-106.715508187701,-106.715530537942,-106.715553991586,-106.715577472247,-106.715605119343],"lat":[35.1611999911421,35.1612158222146,35.1612292796665,35.1612445279824,35.1612585541514,35.1612828521738,35.1613018050332,35.1613133204925,35.1613239468149,35.1613331506131,35.1613325124374,35.1613267069276,35.1613148281904,35.1612995796994,35.1612750998396,35.1612588610783,35.1612562184384,35.1612582721342]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP04<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Peak to Split for close-up view<br/>Distance: 0.03 miles<br/>Cumulative: 0.19 miles<br/>",null,"BNMP04",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715606460447,-106.715607561542,-106.715603778238,-106.715585985862],"lat":[35.1612577239346,35.1612821233629,35.1613021280893,35.1613200924427]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP05<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Split for close-up view to Close-up view<br/>Distance: 0.00 miles<br/>Cumulative: 0.19 miles<br/>",null,"BNMP05",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715585985862,-106.715603778238,-106.715607561542,-106.715606460447],"lat":[35.1613200924427,35.1613021280893,35.1612821233629,35.1612577239346]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP05<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Close-up view to Split for close-up view<br/>Distance: 0.00 miles<br/>Cumulative: 0.20 miles<br/>",null,"BNMP05",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715605789895,-106.715625194527,-106.715626187768,-106.715623340234,-106.71560972148,-106.715596257757,-106.715588042264,-106.715587263417],"lat":[35.1612577239346,35.1612407697112,35.1612200610374,35.1611979742224,35.1611806313527,35.1611648624375,35.1611386369384,35.1611152565991]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP03<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Split for close-up view to Upper split in trail<br/>Distance: 0.01 miles<br/>Cumulative: 0.21 miles<br/>",null,"BNMP03",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715588355537,-106.715603107686,-106.715621882652,-106.715644849438,-106.715662737567,-106.715661250045,-106.71565202314,-106.715637976403,-106.715632184241,-106.715641999717,-106.715664991193,-106.715683363941,-106.715697655554,-106.715703253734,-106.715709820125,-106.715733596903,-106.715753311391,-106.715765381332,-106.715772702509,-106.715796474245,-106.715818338498,-106.71583996589,-106.715865418914,-106.71588692973,-106.715908994419,-106.715927290369,-106.71593766286,-106.715955553509,-106.715968797489,-106.715990558297,-106.716011600327,-106.716037625547,-106.716071823712],"lat":[35.1611162883173,35.1611250595255,35.1611332575701,35.1611357970282,35.1611244010618,35.161103458089,35.1610868395462,35.1610751732661,35.1610581049656,35.1610417330091,35.1610320285004,35.1610215772236,35.1610126783485,35.1610002576304,35.1609812297823,35.1609752262402,35.1609721114465,35.1609677258342,35.1609620169781,35.1609547881843,35.1609517853498,35.1609410804605,35.1609381460378,35.1609507001117,35.1609566749581,35.1609441873417,35.1609235302661,35.1609100162963,35.1608891363939,35.1608751677738,35.160860513388,35.160852603428,35.1608504106187]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP06<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Upper split in trail to Lower split in trail<br/>Distance: 0.04 miles<br/>Cumulative: 0.25 miles<br/>",null,"BNMP06",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.7160717362,-106.716087916966,-106.716101328011,-106.716110140603,-106.716117421265,-106.716132688038,-106.716156409997,-106.716181336789,-106.716205934162,-106.716238898056,-106.716266954417,-106.716297002017,-106.716316575284,-106.716334009643,-106.716359490628,-106.716372231121,-106.716403076525,-106.716433197164,-106.716480860586,-106.716527128692],"lat":[35.1608494319382,35.160842187584,35.1608279343206,35.1608189267301,35.160798331381,35.1607844788646,35.1607847677823,35.1607836817129,35.1607901083403,35.1608000759481,35.1608054580156,35.1608222227103,35.1608361573576,35.1608520552266,35.1608739833166,35.1609046826327,35.1609425085598,35.1609572087515,35.1609567618032,35.1609556653999]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP01<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Lower split in trail to Parking lot<br/>Distance: 0.03 miles<br/>Cumulative: 0.29 miles<br/>",null,"BNMP01",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addMarkers","args":[35.1609556653999,-106.716527128692,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"1",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1608494319382,-106.7160717362,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"2",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1611152565991,-106.715587263417,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"3",{"interactive":false,"permanent":true,"direction":"left","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1612582721342,-106.715605119343,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"4",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1611999911421,-106.715407053439,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"5",{"interactive":false,"permanent":true,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1612577239346,-106.715606460447,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"6",{"interactive":false,"permanent":true,"direction":"left","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1613200924427,-106.715585985862,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"7",{"interactive":false,"permanent":true,"direction":"right","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1612577239346,-106.715605789895,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"8",{"interactive":false,"permanent":true,"direction":"right","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1611162883173,-106.715588355537,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"9",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1608494319382,-106.7160717362,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"10",{"interactive":false,"permanent":true,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"fitBounds":[35.1593599062081,-106.712258467607,35.1627396039391,-106.719556288286,[]],"limits":{"lat":[35.1607663368616,35.1613331506131],"lng":[-106.716527128692,-106.715287676779]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-766789b3fb550f807fb6" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-766789b3fb550f807fb6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"Default",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addProviderTiles","args":["OpenTopoMap",null,"Topo/Roads",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"Imagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.PositronNoLabels",null,"CartoDB",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addLayersControl","args":[["Default","Topo/Roads","Imagery","CartoDB"],[],{"collapsed":true,"autoZIndex":true,"position":"topright"}]},{"method":"addMeasure","args":[{"position":"bottomleft","primaryLengthUnit":"miles","primaryAreaUnit":"sqmiles","activeColor":"#ff4932","completedColor":"#e2365d","popupOptions":{"className":"leaflet-measure-resultpopup","autoPanPadding":[10,10]},"captureZIndex":10000,"localization":"en","decPoint":".","thousandsSep":","}]},{"method":"addPolylines","args":[[[[{"lng":[-106.716527128692,-106.716480860586,-106.716433197164,-106.716403076525,-106.716372231121,-106.716359490628,-106.716334009643,-106.716316575284,-106.716297002017,-106.716266954417,-106.716238898056,-106.716205934162,-106.716181336789,-106.716156409997,-106.716132688038,-106.716117421265,-106.716110140603,-106.716101328011,-106.716087916966,-106.7160717362,-106.716527128692,-106.716480860586,-106.716433197164,-106.716403076525,-106.716372231121,-106.716359490628,-106.716334009643,-106.716316575284,-106.716297002017,-106.716266954417,-106.716238898056,-106.716205934162,-106.716181336789,-106.716156409997,-106.716132688038,-106.716117421265,-106.716110140603,-106.716101328011,-106.716087916966,-106.7160717362],"lat":[35.1609556653999,35.1609567618032,35.1609572087515,35.1609425085598,35.1609046826327,35.1608739833166,35.1608520552266,35.1608361573576,35.1608222227103,35.1608054580156,35.1608000759481,35.1607901083403,35.1607836817129,35.1607847677823,35.1607844788646,35.160798331381,35.1608189267301,35.1608279343206,35.160842187584,35.1608494319382,35.1609556653999,35.1609567618032,35.1609572087515,35.1609425085598,35.1609046826327,35.1608739833166,35.1608520552266,35.1608361573576,35.1608222227103,35.1608054580156,35.1608000759481,35.1607901083403,35.1607836817129,35.1607847677823,35.1607844788646,35.160798331381,35.1608189267301,35.1608279343206,35.160842187584,35.1608494319382]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP01<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Parking lot to Lower split in trail<br/>Distance: 0.09 miles<br/>Cumulative: 0.09 miles<br/>",null,"BNMP01",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.7160717362,-106.716042367439,-106.716016838427,-106.715987376065,-106.715960512037,-106.715933642436,-106.715907397477,-106.715882875121,-106.715861940856,-106.715835912082,-106.715812376058,-106.71577989313,-106.715754652496,-106.71572187331,-106.71569363224,-106.715668754848,-106.715638842292,-106.71561163351,-106.715587248954,-106.715562961006,-106.715537850543,-106.71551659688,-106.715505877609,-106.715500486885,-106.715504536505,-106.715521300311,-106.715542737078,-106.71555952179,-106.715546781297,-106.715526173727,-106.715504884819,-106.715489113803,-106.715481718627,-106.715483749385,-106.715467932427,-106.715432787414,-106.715409554407,-106.715388652132,-106.715367926109,-106.715353825432,-106.715336453731,-106.71532663955,-106.715312725688,-106.715304152831,-106.715295082274,-106.715287676779,-106.715295381083,-106.715322972598,-106.715333910237,-106.715345297955,-106.715364179049,-106.715385178204,-106.715400112878,-106.715416370979,-106.7154287641,-106.715438938915,-106.715453314509,-106.715474465219,-106.715497182801,-106.715515567822,-106.715523311968,-106.715532029147,-106.715541904417,-106.715564490247,-106.715576901374,-106.715587263417,-106.7160717362,-106.716042367439,-106.716016838427,-106.715987376065,-106.715960512037,-106.715933642436,-106.715907397477,-106.715882875121,-106.715861940856,-106.715835912082,-106.715812376058,-106.71577989313,-106.715754652496,-106.71572187331,-106.71569363224,-106.715668754848,-106.715638842292,-106.71561163351,-106.715587248954,-106.715562961006,-106.715537850543,-106.71551659688,-106.715505877609,-106.715500486885,-106.715504536505,-106.715521300311,-106.715542737078,-106.71555952179,-106.715546781297,-106.715526173727,-106.715504884819,-106.715489113803,-106.715481718627,-106.715483749385,-106.715467932427,-106.715432787414,-106.715409554407,-106.715388652132,-106.715367926109,-106.715353825432,-106.715336453731,-106.71532663955,-106.715312725688,-106.715304152831,-106.715295082274,-106.715287676779,-106.715295381083,-106.715322972598,-106.715333910237,-106.715345297955,-106.715364179049,-106.715385178204,-106.715400112878,-106.715416370979,-106.7154287641,-106.715438938915,-106.715453314509,-106.715474465219,-106.715497182801,-106.715515567822,-106.715523311968,-106.715532029147,-106.715541904417,-106.715564490247,-106.715576901374,-106.715587263417],"lat":[35.1608494319382,35.1608405491959,35.1608317717379,35.1608184266168,35.160801620597,35.160791987425,35.1607902658926,35.1607884105194,35.1607890119347,35.1607950433604,35.1607934968019,35.1607864050481,35.160783529907,35.1607794561339,35.1607774996761,35.1607779755189,35.1607761700378,35.1607730681858,35.1607710338583,35.1607663368616,35.1607671840334,35.1607755708641,35.1607857227181,35.160803209711,35.1608202594854,35.1608339645477,35.1608395207356,35.1608553444403,35.1608674048901,35.1608744095785,35.160883331701,35.1608920739863,35.1609080671956,35.1609266107084,35.1609363981502,35.160935381937,35.1609437324422,35.1609515429346,35.1609644465315,35.1609836068019,35.1610020407204,35.1610214445697,35.1610363767802,35.1610553659387,35.1610721064218,35.1610922139736,35.1611178669249,35.1611205193717,35.1611042824309,35.1610857455205,35.1610712520832,35.1610757214672,35.1610679693784,35.161053295893,35.1610472150194,35.1610406592471,35.1610223940432,35.161016622592,35.1610118216828,35.1610225713239,35.1610346063955,35.1610461186174,35.1610596434323,35.1610746529018,35.1610940600035,35.1611152565991,35.1608494319382,35.1608405491959,35.1608317717379,35.1608184266168,35.160801620597,35.160791987425,35.1607902658926,35.1607884105194,35.1607890119347,35.1607950433604,35.1607934968019,35.1607864050481,35.160783529907,35.1607794561339,35.1607774996761,35.1607779755189,35.1607761700378,35.1607730681858,35.1607710338583,35.1607663368616,35.1607671840334,35.1607755708641,35.1607857227181,35.160803209711,35.1608202594854,35.1608339645477,35.1608395207356,35.1608553444403,35.1608674048901,35.1608744095785,35.160883331701,35.1608920739863,35.1609080671956,35.1609266107084,35.1609363981502,35.160935381937,35.1609437324422,35.1609515429346,35.1609644465315,35.1609836068019,35.1610020407204,35.1610214445697,35.1610363767802,35.1610553659387,35.1610721064218,35.1610922139736,35.1611178669249,35.1611205193717,35.1611042824309,35.1610857455205,35.1610712520832,35.1610757214672,35.1610679693784,35.161053295893,35.1610472150194,35.1610406592471,35.1610223940432,35.161016622592,35.1610118216828,35.1610225713239,35.1610346063955,35.1610461186174,35.1610596434323,35.1610746529018,35.1610940600035,35.1611152565991]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP02<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Lower split in trail to Upper split in trail<br/>Distance: 0.21 miles<br/>Cumulative: 0.31 miles<br/>",null,"BNMP02",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715587263417,-106.715588042264,-106.715596257757,-106.71560972148,-106.715623340234,-106.715626187768,-106.715625194527,-106.715605789895,-106.715587263417,-106.715588042264,-106.715596257757,-106.71560972148,-106.715623340234,-106.715626187768,-106.715625194527,-106.715605789895],"lat":[35.1611152565991,35.1611386369384,35.1611648624375,35.1611806313527,35.1611979742224,35.1612200610374,35.1612407697112,35.1612577239346,35.1611152565991,35.1611386369384,35.1611648624375,35.1611806313527,35.1611979742224,35.1612200610374,35.1612407697112,35.1612577239346]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP03<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Upper split in trail to Split for close-up view<br/>Distance: 0.03 miles<br/>Cumulative: 0.34 miles<br/>",null,"BNMP03",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715605119343,-106.715577472247,-106.715553991586,-106.715530537942,-106.715508187701,-106.715487733631,-106.715463838129,-106.715442142669,-106.715418643876,-106.715387590267,-106.715353204836,-106.715331225936,-106.715321367616,-106.715316067228,-106.715332256914,-106.71536481044,-106.715381028119,-106.715407053439,-106.715605119343,-106.715577472247,-106.715553991586,-106.715530537942,-106.715508187701,-106.715487733631,-106.715463838129,-106.715442142669,-106.715418643876,-106.715387590267,-106.715353204836,-106.715331225936,-106.715321367616,-106.715316067228,-106.715332256914,-106.71536481044,-106.715381028119,-106.715407053439],"lat":[35.1612582721342,35.1612562184384,35.1612588610783,35.1612750998396,35.1612995796994,35.1613148281904,35.1613267069276,35.1613325124374,35.1613331506131,35.1613239468149,35.1613133204925,35.1613018050332,35.1612828521738,35.1612585541514,35.1612445279824,35.1612292796665,35.1612158222146,35.1611999911421,35.1612582721342,35.1612562184384,35.1612588610783,35.1612750998396,35.1612995796994,35.1613148281904,35.1613267069276,35.1613325124374,35.1613331506131,35.1613239468149,35.1613133204925,35.1613018050332,35.1612828521738,35.1612585541514,35.1612445279824,35.1612292796665,35.1612158222146,35.1611999911421]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP04<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Split for close-up view to Peak<br/>Distance: 0.07 miles<br/>Cumulative: 0.41 miles<br/>",null,"BNMP04",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715407053439,-106.715381028119,-106.71536481044,-106.715332256914,-106.715316067228,-106.715321367616,-106.715331225936,-106.715353204836,-106.715387590267,-106.715418643876,-106.715442142669,-106.715463838129,-106.715487733631,-106.715508187701,-106.715530537942,-106.715553991586,-106.715577472247,-106.715605119343,-106.715407053439,-106.715381028119,-106.71536481044,-106.715332256914,-106.715316067228,-106.715321367616,-106.715331225936,-106.715353204836,-106.715387590267,-106.715418643876,-106.715442142669,-106.715463838129,-106.715487733631,-106.715508187701,-106.715530537942,-106.715553991586,-106.715577472247,-106.715605119343],"lat":[35.1611999911421,35.1612158222146,35.1612292796665,35.1612445279824,35.1612585541514,35.1612828521738,35.1613018050332,35.1613133204925,35.1613239468149,35.1613331506131,35.1613325124374,35.1613267069276,35.1613148281904,35.1612995796994,35.1612750998396,35.1612588610783,35.1612562184384,35.1612582721342,35.1611999911421,35.1612158222146,35.1612292796665,35.1612445279824,35.1612585541514,35.1612828521738,35.1613018050332,35.1613133204925,35.1613239468149,35.1613331506131,35.1613325124374,35.1613267069276,35.1613148281904,35.1612995796994,35.1612750998396,35.1612588610783,35.1612562184384,35.1612582721342]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP04<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Peak to Split for close-up view<br/>Distance: 0.07 miles<br/>Cumulative: 0.47 miles<br/>",null,"BNMP04",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715606460447,-106.715607561542,-106.715603778238,-106.715585985862,-106.715606460447,-106.715607561542,-106.715603778238,-106.715585985862],"lat":[35.1612577239346,35.1612821233629,35.1613021280893,35.1613200924427,35.1612577239346,35.1612821233629,35.1613021280893,35.1613200924427]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP05<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Split for close-up view to Close-up view<br/>Distance: 0.01 miles<br/>Cumulative: 0.49 miles<br/>",null,"BNMP05",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715585985862,-106.715603778238,-106.715607561542,-106.715606460447,-106.715585985862,-106.715603778238,-106.715607561542,-106.715606460447],"lat":[35.1613200924427,35.1613021280893,35.1612821233629,35.1612577239346,35.1613200924427,35.1613021280893,35.1612821233629,35.1612577239346]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP05<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Close-up view to Split for close-up view<br/>Distance: 0.01 miles<br/>Cumulative: 0.50 miles<br/>",null,"BNMP05",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715605789895,-106.715625194527,-106.715626187768,-106.715623340234,-106.71560972148,-106.715596257757,-106.715588042264,-106.715587263417,-106.715605789895,-106.715625194527,-106.715626187768,-106.715623340234,-106.71560972148,-106.715596257757,-106.715588042264,-106.715587263417],"lat":[35.1612577239346,35.1612407697112,35.1612200610374,35.1611979742224,35.1611806313527,35.1611648624375,35.1611386369384,35.1611152565991,35.1612577239346,35.1612407697112,35.1612200610374,35.1611979742224,35.1611806313527,35.1611648624375,35.1611386369384,35.1611152565991]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP03<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Split for close-up view to Upper split in trail<br/>Distance: 0.03 miles<br/>Cumulative: 0.53 miles<br/>",null,"BNMP03",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.715588355537,-106.715603107686,-106.715621882652,-106.715644849438,-106.715662737567,-106.715661250045,-106.71565202314,-106.715637976403,-106.715632184241,-106.715641999717,-106.715664991193,-106.715683363941,-106.715697655554,-106.715703253734,-106.715709820125,-106.715733596903,-106.715753311391,-106.715765381332,-106.715772702509,-106.715796474245,-106.715818338498,-106.71583996589,-106.715865418914,-106.71588692973,-106.715908994419,-106.715927290369,-106.71593766286,-106.715955553509,-106.715968797489,-106.715990558297,-106.716011600327,-106.716037625547,-106.716071823712,-106.715588355537,-106.715603107686,-106.715621882652,-106.715644849438,-106.715662737567,-106.715661250045,-106.71565202314,-106.715637976403,-106.715632184241,-106.715641999717,-106.715664991193,-106.715683363941,-106.715697655554,-106.715703253734,-106.715709820125,-106.715733596903,-106.715753311391,-106.715765381332,-106.715772702509,-106.715796474245,-106.715818338498,-106.71583996589,-106.715865418914,-106.71588692973,-106.715908994419,-106.715927290369,-106.71593766286,-106.715955553509,-106.715968797489,-106.715990558297,-106.716011600327,-106.716037625547,-106.716071823712],"lat":[35.1611162883173,35.1611250595255,35.1611332575701,35.1611357970282,35.1611244010618,35.161103458089,35.1610868395462,35.1610751732661,35.1610581049656,35.1610417330091,35.1610320285004,35.1610215772236,35.1610126783485,35.1610002576304,35.1609812297823,35.1609752262402,35.1609721114465,35.1609677258342,35.1609620169781,35.1609547881843,35.1609517853498,35.1609410804605,35.1609381460378,35.1609507001117,35.1609566749581,35.1609441873417,35.1609235302661,35.1609100162963,35.1608891363939,35.1608751677738,35.160860513388,35.160852603428,35.1608504106187,35.1611162883173,35.1611250595255,35.1611332575701,35.1611357970282,35.1611244010618,35.161103458089,35.1610868395462,35.1610751732661,35.1610581049656,35.1610417330091,35.1610320285004,35.1610215772236,35.1610126783485,35.1610002576304,35.1609812297823,35.1609752262402,35.1609721114465,35.1609677258342,35.1609620169781,35.1609547881843,35.1609517853498,35.1609410804605,35.1609381460378,35.1609507001117,35.1609566749581,35.1609441873417,35.1609235302661,35.1609100162963,35.1608891363939,35.1608751677738,35.160860513388,35.160852603428,35.1608504106187]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP06<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Upper split in trail to Lower split in trail<br/>Distance: 0.12 miles<br/>Cumulative: 0.65 miles<br/>",null,"BNMP06",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addPolylines","args":[[[[{"lng":[-106.7160717362,-106.716087916966,-106.716101328011,-106.716110140603,-106.716117421265,-106.716132688038,-106.716156409997,-106.716181336789,-106.716205934162,-106.716238898056,-106.716266954417,-106.716297002017,-106.716316575284,-106.716334009643,-106.716359490628,-106.716372231121,-106.716403076525,-106.716433197164,-106.716480860586,-106.716527128692,-106.7160717362,-106.716087916966,-106.716101328011,-106.716110140603,-106.716117421265,-106.716132688038,-106.716156409997,-106.716181336789,-106.716205934162,-106.716238898056,-106.716266954417,-106.716297002017,-106.716316575284,-106.716334009643,-106.716359490628,-106.716372231121,-106.716403076525,-106.716433197164,-106.716480860586,-106.716527128692],"lat":[35.1608494319382,35.160842187584,35.1608279343206,35.1608189267301,35.160798331381,35.1607844788646,35.1607847677823,35.1607836817129,35.1607901083403,35.1608000759481,35.1608054580156,35.1608222227103,35.1608361573576,35.1608520552266,35.1608739833166,35.1609046826327,35.1609425085598,35.1609572087515,35.1609567618032,35.1609556653999,35.1608494319382,35.160842187584,35.1608279343206,35.1608189267301,35.160798331381,35.1607844788646,35.1607847677823,35.1607836817129,35.1607901083403,35.1608000759481,35.1608054580156,35.1608222227103,35.1608361573576,35.1608520552266,35.1608739833166,35.1609046826327,35.1609425085598,35.1609572087515,35.1609567618032,35.1609556653999]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#CC6600","weight":5,"opacity":0.8,"fill":false,"fillColor":"#CC6600","fillOpacity":0.2,"smoothFactor":1,"noClip":false},"<b>BNMP01<\/b><br/>Mesa Point TR in Boca Negra Canyon<br/>Lower split in trail to Parking lot<br/>Distance: 0.09 miles<br/>Cumulative: 0.74 miles<br/>",null,"BNMP01",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"blue"}]},{"method":"addMarkers","args":[35.1609556653999,-106.716527128692,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"1",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1608494319382,-106.7160717362,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"2",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1611152565991,-106.715587263417,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"3",{"interactive":false,"permanent":true,"direction":"left","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1612582721342,-106.715605119343,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"4",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1611999911421,-106.715407053439,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"5",{"interactive":false,"permanent":true,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1612577239346,-106.715606460447,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"6",{"interactive":false,"permanent":true,"direction":"left","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1613200924427,-106.715585985862,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"7",{"interactive":false,"permanent":true,"direction":"right","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1612577239346,-106.715605789895,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"8",{"interactive":false,"permanent":true,"direction":"right","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1611162883173,-106.715588355537,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"9",{"interactive":false,"permanent":true,"direction":"top","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[35.1608494319382,-106.7160717362,{"iconUrl":{"data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=","index":0},"iconWidth":1,"iconHeight":1},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"10",{"interactive":false,"permanent":true,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"fitBounds":[35.15935990620812,-106.7122584676068,35.16273960393913,-106.7195562882861,[]],"limits":{"lat":[35.1607663368616,35.1613331506131],"lng":[-106.716527128692,-106.715287676779]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -259,7 +272,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="elevation-profile">Elevation Profile</h2>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="elevs/ON_Boca_Negra.png" class="img-fluid" width="756"></p>
+<div>
+<figure class="figure">
+<p><img src="elevs/ON_Boca_Negra.png" class="img-fluid figure-img" width="756"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -350,6 +367,7 @@ BNMP01: Petroglyph
 <h2 class="anchored" data-anchor-id="summary-information">Summary Information</h2>
 <div class="cell">
 <div class="cell-output-display">
+<div>
 <table class="lightable-classic table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
@@ -368,8 +386,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP01</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Parking lot to Lower split in trail</td>
-<td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">0.09</td>
 <td style="text-align: right;">17</td>
 </tr>
 <tr class="even">
@@ -377,8 +395,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP02</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Lower split in trail to Upper split in trail</td>
-<td style="text-align: right;">0.09</td>
-<td style="text-align: right;">0.12</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.31</td>
 <td style="text-align: right;">72</td>
 </tr>
 <tr class="odd">
@@ -386,8 +404,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP03</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Upper split in trail to Split for close-up view</td>
-<td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.13</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.34</td>
 <td style="text-align: right;">5</td>
 </tr>
 <tr class="even">
@@ -395,8 +413,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP04</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Split for close-up view to Peak</td>
-<td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.16</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.41</td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr class="odd">
@@ -404,8 +422,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP04</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Peak to Split for close-up view</td>
-<td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.47</td>
 <td style="text-align: right;">-1</td>
 </tr>
 <tr class="even">
@@ -413,8 +431,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP05</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Split for close-up view to Close-up view</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.49</td>
 <td style="text-align: right;">4</td>
 </tr>
 <tr class="odd">
@@ -422,8 +440,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP05</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Close-up view to Split for close-up view</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.50</td>
 <td style="text-align: right;">-4</td>
 </tr>
 <tr class="even">
@@ -431,8 +449,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP03</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Split for close-up view to Upper split in trail</td>
-<td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.53</td>
 <td style="text-align: right;">-5</td>
 </tr>
 <tr class="odd">
@@ -440,8 +458,8 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP06</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Upper split in trail to Lower split in trail</td>
-<td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: right;">0.65</td>
 <td style="text-align: right;">-71</td>
 </tr>
 <tr class="even">
@@ -449,14 +467,15 @@ BNMP01: Petroglyph
 <td style="text-align: left;">BNMP01</td>
 <td style="text-align: left;">Mesa Point TR in Boca Negra Canyon</td>
 <td style="text-align: left;">Lower split in trail to Parking lot</td>
-<td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">0.74</td>
 <td style="text-align: right;">-17</td>
 </tr>
 </tbody>
 </table>
 
 
+</div>
 </div>
 </div>
 
@@ -543,10 +562,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -556,8 +597,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -569,7 +619,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -613,6 +786,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -638,6 +812,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -695,33 +895,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2023, Derek H. Ogle</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2023, Derek H. Ogle</p>
+</div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">fishR</a>
+    <a class="nav-link" href="https://fishr-core-team.github.io/fishR/">
+<p>fishR</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://derekogle.com/IFAR/">IFAR</a>
+    <a class="nav-link" href="https://derekogle.com/IFAR/">
+<p>IFAR</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -743,6 +935,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

@@ -134,7 +134,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>PDMC02</name>
-  <desc>Split in loop trail to Split to deadend trail</desc>
+  <desc>Split in loop trail to Split to Deadend</desc>
   <trkseg>
   <trkpt lat="35.188914966762" lon="-106.686813699288">
     <ele>1591.99</ele>
@@ -1252,7 +1252,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>PDMC09</name>
-  <desc>at Split to deadend trail</desc>
+  <desc>at Split to Deadend</desc>
   <trkseg>
   <trkpt lat="35.1871401693913" lon="-106.697571171529">
     <ele>1610.17</ele>
@@ -1498,7 +1498,7 @@ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmls
 </trk>
 <trk>
   <name>PDMC03</name>
-  <desc>Split to deadend trail to Neighborhood access trail</desc>
+  <desc>Split to Deadend to Neighborhood access trail</desc>
   <trkseg>
   <trkpt lat="35.188530093672" lon="-106.696396769552">
     <ele>1616.71</ele>
