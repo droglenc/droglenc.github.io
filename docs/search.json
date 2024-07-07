@@ -585,14 +585,14 @@
     "href": "personal/Hiking/ON SHORTOFF.html#walk-specific-map",
     "title": "Shortoff Mountain Trail",
     "section": "Walk-Specific Map",
-    "text": "Walk-Specific Map\nOnly one-way direction (i.e., walk out) is shown."
+    "text": "Walk-Specific Map"
   },
   {
     "objectID": "personal/Hiking/ON SHORTOFF.html#elevation-profile",
     "href": "personal/Hiking/ON SHORTOFF.html#elevation-profile",
     "title": "Shortoff Mountain Trail",
     "section": "Elevation Profile",
-    "text": "Elevation Profile"
+    "text": "Elevation Profile\nOnly one-way direction (i.e., walk out) is shown."
   },
   {
     "objectID": "personal/Hiking/ON SHORTOFF.html#images",
@@ -655,7 +655,7 @@
     "href": "personal/Hiking/ON RHODISS.html#summary-information",
     "title": "Rhodiss Lake Trail",
     "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nRHODISS\nRhodiss Lake Trail\nParking Lot to Parking Lot\n2.46\n2.46\n-4\n\n\n2\nRHODISS\nRhodiss Lake Trail\nParking Lot to Parking Lot\n2.46\n4.92\n4"
+    "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nRHODISS\nRhodiss Lake Trail\nParking Lot to Parking Lot\n2.46\n2.46\n4"
   },
   {
     "objectID": "personal/Hiking/ON Piedras Marcadas.html",
