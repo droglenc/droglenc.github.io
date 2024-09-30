@@ -50,7 +50,7 @@ makeXScaleDates <- function(dys,yrs) {
 }
 
 ## Set some constants
-depvals <- 21:29  # inches
+depvals <- 20:29  # inches
 deplbls <- convIn2Ft(depvals) #... OLD
 
 rainlvls <- c('0"','Tr-0.10"','0.10-0.25"','0.25-0.50"','0.50-1.00"',
