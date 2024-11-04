@@ -10,7 +10,7 @@ This page is a catch-all for other hikes that we have done that are notable for 
 
 # 2024
 
-- [Trading Post Trail, Red Rocks, CO](ON TPOST.html)
+- [Trading Post Trail, Red Rocks, CO](ON RRTPOST.html)
 - [Mt Falcon Ruins and Tower Trail, Indian Hills, CO](ON MTFRT.html)
 - [Dinosaur Ridge Trail to Trading Post, Red Rocks, CO](ON RRDINO.html)
 - [Geologic Trail, Red Rocks, CO](ON RRGLGC.html)
