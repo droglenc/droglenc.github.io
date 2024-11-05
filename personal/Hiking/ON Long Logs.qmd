@@ -3,7 +3,7 @@ title: "Long Logs and Agate House Trails"
 subtitle: "Petrified Forest National Park, AZ"
 ---
 
-On February 21, 2023 Kim and I visited Petrified Forest National Park on our way to Arizona. After the [Crystal Forest Trail](ON Crystal_Forest.html) we stopped at the Long Logs and Agate House Trails. The first part of the Long Logs Trail was on an old road. We turned off this to follow the Agate House Trail to the Agate house, which was both interesting and beautiful (see the pictures below). The rest of the Long Logs trail was neat, with many large petrified wood specimens.
+After the [Crystal Forest Trail](ON Crystal_Forest.html) we stopped at the Long Logs and Agate House Trails. The first part of the Long Logs Trail was on an old road. We turned off this to follow the Agate House Trail to the Agate house, which was both interesting and beautiful (see the pictures below). The rest of the Long Logs trail was neat, with many large petrified wood specimens.
 
 ```{r}
 #| label: setup

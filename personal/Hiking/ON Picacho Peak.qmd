@@ -2,7 +2,7 @@
 title: "Picacho Peak, Santa Fe, NM"
 ---
 
-On February 19, 2023 Kim and I hiked to Picacho Peak in Dale Ball North trail system in Santa Fe. The trail was well-marked and easy to follow, but snowy so we appreciated our YakTraks. The views were stunning which made for an awesome little hike that fit our time in Santa Fe well. [It was also crazy for us flat-landers to be above 8000 feet!!]
+On February 19, 2023 Kim and I hiked to Picacho Peak in the Dale Ball North trail system in Santa Fe. The trail was well-marked and easy to follow, but snowy so we appreciated our YakTraks. The views were stunning which made for an awesome little hike that fit our time in Santa Fe well. [It was also crazy for us flat-landers to be above 8000 feet!!]
 
 ```{r}
 #| label: setup

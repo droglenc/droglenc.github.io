@@ -3,7 +3,7 @@ title: "Rim Trail"
 subtitle: "Grand Canyon National Park, AZ"
 ---
 
-The [Rim Trail](https://www.nps.gov/grca/planyourvisit/upload/RimTrail.pdf) is a flat, mostly paved trail that runs for approximately 13 miles along the South Rim of the Grand Canyon in [Grand Canyon National Park](https://www.nps.gov/grca/index.htm). Kim and I visited the Grand Canyon from Feb 12 to Feb 14 2024. The trail is an easy walk and provide a great and beautiful overview of the canyon. We actually walked from Mather Point to Bright Angel Trailhead on the first afternoon we arrived at the canyon and then walked from South Kaibab Trailhead to Mather Point after hiking the [South Kaibab trail](ON GCSKAIBAB.html) the next day. The track below puts these two walks together as if they were one walk.
+The [Rim Trail](https://www.nps.gov/grca/planyourvisit/upload/RimTrail.pdf) is a flat, mostly paved trail that runs for approximately 13 miles along the South Rim of the Grand Canyon in [Grand Canyon National Park](https://www.nps.gov/grca/index.htm). The trail is an easy walk and provide a great and beautiful overview of the canyon. We actually walked from Mather Point to Bright Angel Trailhead on the first afternoon we arrived at the canyon and then walked from South Kaibab Trailhead to Mather Point after hiking the [South Kaibab trail](ON GCSKAIBAB.html) the next day. The track below puts these two walks together as if they were one walk.
 
 ```{r}
 #| label: setup

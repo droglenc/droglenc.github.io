@@ -3,7 +3,7 @@ title: "Red Rocks Trading Post Trail"
 subtitle: "Morrison, CO"
 ---
 
-Kim and I were in Colorado with our nieces Mallory and Marissa to see [Brandi Carlile](https://www.brandicarlile.com/) at [Red Rocks Amphitheater](https://www.redrocksonline.com/) (great shows, BTW). On September 6, we got in a quick hike before the concert on the Trading Post Trail in Red Rocks Park. This is one of our favorite trails in Red Rocks, and we try to hike it whenever we are there for a concert. It was fun to share it with Mallory and Marissa (though, they had done it previously with their Mom and Aunt Kim). We had a beautiful data for the beautiful hike.
+On September 6, we got in a quick hike before the concert on the Trading Post Trail in Red Rocks Park. This is one of our favorite trails in Red Rocks, and we try to hike it whenever we are there for a concert. It was fun to share it with Mallory and Marissa (though, they had done it previously with their Mom and Aunt Kim). We had a beautiful data for the beautiful hike.
 
 ```{r}
 #| label: setup

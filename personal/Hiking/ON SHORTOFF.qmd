@@ -3,7 +3,7 @@ title: "Shortoff Mountain Trail"
 subtitle: "Linville Gorge Wilderness Area, NC"
 ---
 
-Kim and I were in North Carolina for my nephew Dillon's wedding to Emma. A couple of days after the wedding Dillon and Emma lead Kim and I up the [Shortoff Mountain Trail](https://www.hikewnc.info/besthikes/linville-gorge/shortoff-mountain) in the Linville Gorge Wilderness Area. The trail started with a pretty steep ascent (~1100 ft) for about 1.75 miles, before leveling off on the edge of the gorge. The views back to Lake James and into the Linville Gorge were amazing (the pictures don't do them justice). This was a great hike with the newlyweds. Thanks Dillon and Emma for the great time and spending the first few days of your new marriage with us! Can't wait to do it again.
+A couple of days after the wedding Dillon and Emma lead Kim and I up the [Shortoff Mountain Trail](https://www.hikewnc.info/besthikes/linville-gorge/shortoff-mountain) in the Linville Gorge Wilderness Area. The trail started with a pretty steep ascent (~1100 ft) for about 1.75 miles, before leveling off on the edge of the gorge. The views back to Lake James and into the Linville Gorge were amazing (the pictures don't do them justice). This was a great hike with the newlyweds. Thanks Dillon and Emma for the great time and spending the first few days of your new marriage with us! Can't wait to do it again.
 
 ```{r}
 #| label: setup

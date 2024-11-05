@@ -3,7 +3,7 @@ title: "Painted Desert Rim Trail"
 subtitle: "Petrified Forest National Park, AZ"
 ---
 
-On February 21, 2023 Kim and I visited Petrified Forest National Park on our way to Arizona. After a quick stop at the visitor center we embarked on the short Painted Desert Rim Trail. The panoramic views were impressive and it was fun to see the Painted Desert Inn. Our next stop was the [Puerco Pueblo Trail](ON Puerco Pueblo.html).
+After a quick stop at the visitor center to Petrified Forest National Park we embarked on the short Painted Desert Rim Trail. The panoramic views were impressive and it was fun to see the Painted Desert Inn. Our next stop was the [Puerco Pueblo Trail](ON Puerco Pueblo.html).
 
 ```{r}
 #| label: setup

@@ -4,33 +4,52 @@
 # Other Notable Hikes
 ![](../../zresources/img/ONhiking.webp){fig-align="center"}
 
-This page is a catch-all for other hikes that we have done that are notable for one reason or another (usually their beauty or cultural significance).
+I commonly hike [near home](Iron River Area.html), [near my childhood home](Iowa.html), and in the [Superstition Mountains (AZ)](Supersition Wilderness.html), but we also like to hike in other areas while on day trips or vacations. These "one-off" hikes are listed below.
 
-&nbsp;
+# Vacations
+## Switzerland
 
-# 2024
+- Coming Soon
+
+## Red Rocks (CO) to see Brandi Carlile
+Kim and I were in Colorado on September 6-8, 2024 with nieces Mallory and Marissa to see [Brandi Carlile](https://www.brandicarlile.com/) at [Red Rocks Amphitheater](https://www.redrocksonline.com/) (great shows, BTW).
 
 - [Trading Post Trail, Red Rocks, CO](ON RRTPOST.html)
 - [Mt Falcon Ruins and Tower Trail, Indian Hills, CO](ON MTFRT.html)
 - [Dinosaur Ridge Trail to Trading Post, Red Rocks, CO](ON RRDINO.html)
 - [Geologic Trail, Red Rocks, CO](ON RRGLGC.html)
+
+## North Carolina for a Wedding
+Kim and I were in North Carolina on June 22-26, 2024 for my nephew Dillon's wedding to Emma. 
+
 - [Boone Fork Trail, Price Park Picnic Area, NC](ON BOONEFORK.html)
 - [Shortoff Mountain Trail, Linville Gorge Wilderness Area, NC](ON SHORTOFF.html)
 - [Rhodiss Lake Trail, Granite Falls, NC](ON RHODISS.html)
+
+## Grand Canyon
+Kim and I visited [Grand Canyon National Park](https://www.nps.gov/grca/index.htm) from February 12-14, 2024.
+
 - [South Rim Trail, Grand Canyon National Park, AZ](ON GCSOUTHRIM.html)
 - [South Kaibab Trail (to Cedar Ridge), Grand Canyon National Park, AZ](ON GCSKAIBAB.html)
 - [Hermit Trail (to Santa Maria Spring), Grand Canyon National Park, AZ](ON GCSANTAMSP.html)
-- [Bayfield Rd Trail, Brule River State Forest, WI](ON Bayfield Rd.html)
 
-# 2023
+## New Mexico and Arizona Roadtrip
+Kim and I drove to Arizona on February 17-21, 2023 with stops in Kansas City, Santa Fe, and Albuquerque. Along the way we hiked around Santa Fe and Albuquerque and visited [Petrogyph National Monument](https://www.nps.gov/petr/index.htm) and [Petrified Forest National Park](https://www.nps.gov/pefo/index.htm).
 
 - [Picacho Peak, Santa Fe, NM](ON Picacho Peak.html)
 - [Piedras Marcadas Canyon, Petrogylph National Monument, NM](ON Piedras Marcadas.html)
 - [Boca Negra Canyon, Petrogylph National Monument, NM](ON Boca Negra.html)
 - [Sandia Peak Aerial Tram, Albuquerque, NM](ON Sandia_Peak_Tram.html)
 - [South Crest Trail, Albuquerque, NM](ON South_Crest.html)
+
 - [Painted Desert Rim Trail, Petrified Forest National Park, AZ](ON Painted Rim.html)
 - [Puerco Pueblo Trail, Petrified Forest National Park, AZ](ON Puerco Pueblo.html)
 - [Blue Mesa Trail, Petrified Forest National Park, AZ](ON Blue Mesa.html)
 - [Crystal Forest Trail, Petrified Forest National Park, AZ](ON Crystal Forest.html)
 - [Long Logs and Agate House Trails, Petrified Forest National Park, AZ](ON Long Logs.html)
+
+
+
+# Notable Day or Weekend Trips
+
+- [Bayfield Rd Trail, Brule River State Forest, WI](ON Bayfield Rd.html)

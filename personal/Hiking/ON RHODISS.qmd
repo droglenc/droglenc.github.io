@@ -3,7 +3,7 @@ title: "Rhodiss Lake Trail"
 subtitle: "Granite Falls, NC"
 ---
 
-Kim and I were in North Carolina for my nephew Dillon's wedding to Emma. Before the post-wedding-day brunch we did a quick hike near Rhodiss Lake in Granite Falls, NC. The trail was easy to follow and walk, with beautiful views of Rhodiss Lake. It appears that the trails were from an Eagle Scout's project. Thanks!
+Before the post-wedding-day brunch we did a quick hike near Rhodiss Lake in Granite Falls, NC. The trail was easy to follow and walk, with beautiful views of Rhodiss Lake. It appears that the trails were from an Eagle Scout's project. Thanks!
 
 ```{r}
 #| label: setup

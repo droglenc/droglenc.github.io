@@ -3,7 +3,7 @@ title: "Puerco Pueblo Trail"
 subtitle: "Petrified Forest National Park, AZ"
 ---
 
-On February 21, 2023 Kim and I visited Petrified Forest National Park on our way to Arizona. After the [Painted Desert Rim Trail](ON Painted Rim.html) we stopped at the Puerco Pueblo Trail. It was interesting to see the "ruins" of this ancient community. Our next stop was the [Blue Mesa Trail](ON Blue Mesa.html).
+After the [Painted Desert Rim Trail](ON Painted Rim.html) we stopped at the Puerco Pueblo Trail. It was interesting to see the "ruins" of this ancient community. Our next stop was the [Blue Mesa Trail](ON Blue Mesa.html).
 
 ```{r}
 #| label: setup

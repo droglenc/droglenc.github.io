@@ -3,7 +3,7 @@ title: "Mt Falcon Ruins and Tower Trail"
 subtitle: "Indian Hills, CO"
 ---
 
-Kim and I were in Colorado with our nieces Mallory and Marissa to see [Brandi Carlile](https://www.brandicarlile.com/) at [Red Rocks Amphitheater](https://www.redrocksonline.com/) (great shows, BTW). On September 7, we managed to get in a hike at [Mt Falcon Park](https://www.jeffco.us/1332/Mount-Falcon-Park). We followed the wide graveled Castle Trail out to the Walker House ruins and then circled back along the more rustic Meadow, Old Ute, and Tower trails that wrapped around a 7700' peak and swung by the tower at Mt Falcon (at 7841') and the Eagle Eye shelter. It was an amazing day to stretch our legs between concerts in this beautiful area.
+On September 7, we managed to get in a hike at [Mt Falcon Park](https://www.jeffco.us/1332/Mount-Falcon-Park). We followed the wide graveled Castle Trail out to the Walker House ruins and then circled back along the more rustic Meadow, Old Ute, and Tower trails that wrapped around a 7700' peak and swung by the tower at Mt Falcon (at 7841') and the Eagle Eye shelter. It was an amazing day to stretch our legs between concerts in this beautiful area.
 
 ```{r}
 #| label: setup

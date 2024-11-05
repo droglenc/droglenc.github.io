@@ -3,7 +3,7 @@ title: "Sandia Peak Aerial Tramway"
 subtitle: "Albuquerque, NM"
 ---
 
-On February 20, 2023 Kim and I took the Sandia Peak tram to Sandia Peak. While this was not technically a "hike" I did map it to see that we climbed nearly 3800 feet to ~10300 feet. The change in temperature from the bottom to the top was striking, but the views from the tram and the peak were spectacular. At the top we hiked for a bit on the [South Crest Trail](ON_South_Crest.html).
+On February 20, 2023 Kim and I took the tram to Sandia Peak. While this was not technically a "hike" I did map it to see that we climbed nearly 3800 feet to ~10300 feet. The change in temperature from the bottom to the top was striking, but the views from the tram and the peak were spectacular. At the top we hiked for a bit on the [South Crest Trail](ON_South_Crest.html).
 
 ```{r}
 #| label: setup

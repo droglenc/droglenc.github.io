@@ -3,7 +3,7 @@ title: "Blue Mesa Trail"
 subtitle: "Petrified Forest National Park, AZ"
 ---
 
-On February 21, 2023 Kim and I visited Petrified Forest National Park on our way to Arizona. After the [Puerco Pueblo Trail](ON Puerco Pueblo.html) we stopped at the Blue Mesa Trail. The landforms here were simply amazing ... the pictures don't do them justice. Our next stop was the [Crystal Forest Trail](ON Crystal Forest.html).
+After the [Puerco Pueblo Trail](ON Puerco Pueblo.html) we stopped at the Blue Mesa Trail. The landforms here were simply amazing ... the pictures don't do them justice. Our next stop was the [Crystal Forest Trail](ON Crystal Forest.html).
 
 ```{r}
 #| label: setup

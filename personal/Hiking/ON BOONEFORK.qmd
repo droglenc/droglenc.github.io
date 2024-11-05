@@ -3,7 +3,7 @@ title: "Boone Fork Trail"
 subtitle: "Price Park Picnic Area, NC"
 ---
 
-Kim and I were in North Carolina for my nephew Dillon's wedding to Emma. A couple of days after the wedding Emma lead my sister Pam, Kim, and I on the beautiful [Boone Fork Trail](https://www.exploreboone.com/outdoors/hiking/boone-fork-trail/) near Blowing Rock, NC. The trail was moderately challenging with a bit of elevation change (including a ladder), several crossings of Bee Tree Creek (including some rope lines), and a nice stretch along the Boone Fork river. The trail was primarily wooded (so lots of welcome shade) with several waterfall views. I think that this is the first time I have hiked with my sister since we were kids and the second time with Emma (last time was in Wisconsin). Overall it was a great hike and a fun time!
+A couple of days after the wedding Emma lead my sister Pam, Kim, and I on the beautiful [Boone Fork Trail](https://www.exploreboone.com/outdoors/hiking/boone-fork-trail/) near Blowing Rock, NC. The trail was moderately challenging with a bit of elevation change (including a ladder), several crossings of Bee Tree Creek (including some rope lines), and a nice stretch along the Boone Fork river. The trail was primarily wooded (so lots of welcome shade) with several waterfall views. I think that this is the first time I have hiked with my sister since we were kids and the second time with Emma (last time was in Wisconsin). Overall it was a great hike and a fun time!
 
 ```{r}
 #| label: setup

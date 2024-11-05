@@ -3,7 +3,7 @@ title: "Crystal Forest Trail"
 subtitle: "Petrified Forest National Park, AZ"
 ---
 
-On February 21, 2023 Kim and I visited Petrified Forest National Park on our way to Arizona. After the [Blue Mesa Trail](ON Blue Mesa.html) we stopped at the Blue Mesa Trail. While we saw some petrified wood at the Blue Mesa Trail, this was the first trail with lots of wood. And the wood here was amazing ... see the pictures below. Our next stop was the [Long Logs and Agate House Trails](ON Long Logs.html).
+After the [Blue Mesa Trail](ON Blue Mesa.html) we stopped at the Crystal Forest Trail. While we saw some petrified wood at the Blue Mesa Trail, this was the first trail with lots of wood. And the wood here was amazing ... see the pictures below. Our next stop was the [Long Logs and Agate House Trails](ON Long Logs.html).
 
 ```{r}
 #| label: setup

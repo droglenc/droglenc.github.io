@@ -3,7 +3,7 @@ title: "Red Rocks Dinosaur Ridge to Trading Post Trail"
 subtitle: "Morrison, CO"
 ---
 
-Kim and I were in Colorado with our nieces Mallory and Marissa to see [Brandi Carlile](https://www.brandicarlile.com/) at [Red Rocks Amphitheater](https://www.redrocksonline.com/) (great shows, BTW). On September 7, I hiked most of the [Dinosaur Ridge Trail](https://dinoridge.org/visit-dinosaur-ridge/dinosaur-ridge-trail/) before heading into Red Rocks Park to meet Kim on the Trading Post Trail. The Dinosaur Ridge trail was along a closed paved road (though some buses still drove it) that lead to many "exhibits" of dinosaur bones, tracks, etc. The exhibits were interesting, though, honestly, some of them took more imagination to see than I had. The hike over to Red Rocks had some relief until the highway, after which it was fairly flat. All-in-all a fun hike, but I will probably spend my time on other trails when we return.
+On September 7, I hiked most of the [Dinosaur Ridge Trail](https://dinoridge.org/visit-dinosaur-ridge/dinosaur-ridge-trail/) before heading into Red Rocks Park to meet Kim on the Trading Post Trail. The Dinosaur Ridge trail was along a closed paved road (though some buses still drove it) that lead to many "exhibits" of dinosaur bones, tracks, etc. The exhibits were interesting, though, honestly, some of them took more imagination to see than I had. The hike over to Red Rocks had some relief until the highway, after which it was fairly flat. All-in-all a fun hike, but I will probably spend my time on other trails when we return.
 
 ```{r}
 #| label: setup
