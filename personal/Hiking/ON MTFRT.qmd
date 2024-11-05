@@ -1,5 +1,5 @@
 ---
-title: "Mt Falcon Ruins and Tower Trail"
+title: "Mt Falcon Ruins and Tower"
 subtitle: "Indian Hills, CO"
 ---
 
@@ -24,7 +24,10 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("MTFRT")
+walkIDs <- c("MFCSTL1","MFCSTL2","MFCSTL3","MFHOME1","MFHOME1",
+             "MFMDOW1","MFOUTE1","MFOUTE2","MFOUTE1","MFMDOW2",
+             "MFTOWR1","MFTOWR2","MFEGLE1","MFEGLE1","MFTOWR3",
+             "MFMDOW3","MFMDOW5","MFMDOW5","MFCSTL2","MFPRML1")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
