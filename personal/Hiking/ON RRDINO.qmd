@@ -1,5 +1,5 @@
 ---
-title: "Red Rocks Dinosaur Ridge to Trading Post Trail"
+title: "Dinosaur Ridge to Red Rocks Trading Post"
 subtitle: "Morrison, CO"
 ---
 
@@ -24,7 +24,10 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("RRDINO")
+walkIDs <- c("RRDINO1","RRDINO2","RRDINO3","RRDINO4","RRDINO5",
+             "RRDINO6","RRDINO7","RRDINO8","RRDINO8","RRDINO7",
+             "RRDKTR9","RRRRCK1","RRRRCK2","RRMTVC1","RRMTVC2",
+             "RRMTVC3","RRTPST5","RRTPST6")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
