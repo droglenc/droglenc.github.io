@@ -1924,7 +1924,7 @@
     "href": "personal/Hiking/Other Notable.html#switzerland",
     "title": "Other Notable Hikes",
     "section": "Switzerland",
-    "text": "Switzerland\n\nComing Soon",
+    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-12, 2024. Some of our hikes are listed below.\n\nRiffleberg to Gornergrat",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -1978,5 +1978,47 @@
       "Hiking/Walking",
       "Other Notable"
     ]
+  },
+  {
+    "objectID": "personal/Hiking/ON GORNERGRAT.html",
+    "href": "personal/Hiking/ON GORNERGRAT.html",
+    "title": "Riffelberg to Gornergrat",
+    "section": "",
+    "text": "On October 9, 2024, Kim and I took the Gornergrat Bahn to the Riffelberg station (8471’), hiked from there to the Gornergrat station (10132’), and took the train back to Zermatt. The hike from Riffelberg to Riffelsee Lake was beautiful with constant and amazing views of the Matterhorn and other “lesser” mountains. There were few people on this portion of the trail, though the area around Riffelsee Lake was busy with people walking down from the Rotenboden station. From Riffelsee Lake we decided to take a side trail rather then walk with all of the people on the trail from Rotenboden up to Gornergrat. This was a great decision as we did not see any people after Rotenboden until we got to Gornergrat and the scenery was breathtaking. Most of this trail was fairly flat along a steep mountainside above a valley carved out by a still existing glacier. The views of the glacier were especially spectacular as we started high enough to get the perspective of the entire glacier but ended up low enough to feel the awesomeness of it. Eventually we had to climb straight up (with the help of switchbacks) the mountainside to catch the ridge trail that led back to Gornergrat. This trail was challenging to both our lungs and legs, but eventually led us into fresh snow and offered views of several mountain goats. The ridge trail at the top was snow covered with amazing views in all directions. Overall, this was a highlight hike from our time in Switzerland."
+  },
+  {
+    "objectID": "personal/Hiking/ON GORNERGRAT.html#walk-specific-map",
+    "href": "personal/Hiking/ON GORNERGRAT.html#walk-specific-map",
+    "title": "Riffelberg to Gornergrat",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON GORNERGRAT.html#elevation-profile",
+    "href": "personal/Hiking/ON GORNERGRAT.html#elevation-profile",
+    "title": "Riffelberg to Gornergrat",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON GORNERGRAT.html#images",
+    "href": "personal/Hiking/ON GORNERGRAT.html#images",
+    "title": "Riffelberg to Gornergrat",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON GORNERGRAT.html#gpx-download",
+    "href": "personal/Hiking/ON GORNERGRAT.html#gpx-download",
+    "title": "Riffelberg to Gornergrat",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON GORNERGRAT.html#summary-information",
+    "href": "personal/Hiking/ON GORNERGRAT.html#summary-information",
+    "title": "Riffelberg to Gornergrat",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nGORNERGRAT1\nRiffelsee Trail\nRiffelberg Train Station to small pond\n0.38\n0.38\n254\n\n\n2\nGORNERGRAT2\nRiffelsee Trail\nsmall pond to Riffelsee Lake\n0.90\n1.28\n339\n\n\n3\nGORNERGRAT3\nRidge Trail\nRiffelsee Lake to Alpine Garden Trail (from Rotobaden)\n0.17\n1.45\n66\n\n\n4\nGORNERGRAT4\nRidge Trail\nAlpine Garden Trail (from Rotobaden) to Ridge Climb Crosscut Trail\n1.23\n2.68\n-262\n\n\n5\nGORNERGRAT5\nRidge Climb Crosscut Trail\nRidge Trail to Gornergrat Hohtalli Trail\n0.76\n3.44\n1284\n\n\n6\nGORNERGRAT6\nGornergrat Hohtalli Trail\nRidge Climb Crosscut Trail to Gornergrat Train Station\n0.28\n3.72\n106"
   }
 ]
