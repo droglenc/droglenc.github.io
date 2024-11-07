@@ -2062,5 +2062,47 @@
     "title": "Zmutt Loop",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nZMUTT1\nZen Steckenstrasse\nZen Steckenstrasse bridge to Zmuttweg\n0.02\n0.02\n-7\n\n\n2\nZMUTT2\nZmuttweg\nZen Steckenstrasse to Wigguhus\n1.36\n1.38\n894\n\n\n3\nZMUTT3\nZmuttweg\nWigguhus to Zmutt\n0.32\n1.70\n155\n\n\n4\nZMUTTA\nZmutt spur\nZmuttweg to Zmutt museum\n0.02\n1.72\n10\n\n\n5\nZMUTTA\nZmutt spur\nZmutt museum to Zmuttweg\n0.02\n1.74\n-10\n\n\n6\nZMUTT4\nZmuttweg\nZmutt to Abi Rd\n0.28\n2.02\n43\n\n\n7\nZMUTT5\nSki Run Trail\nAbi Rd to Abi Rd\n0.77\n2.80\n-207\n\n\n8\nZMUTT6\nAroleit Trail\nAbi Rd to Zum See\n0.46\n3.25\n-415\n\n\n9\nZMUTTB\nZmutt See spur\nAroleit Trail to Zmutt See restaurant\n0.03\n3.29\n33\n\n\n10\nZMUTTB\nZmutt See spur\nZmutt See restaurant to Aroleit Trail\n0.03\n3.32\n-33\n\n\n11\nZMUTT7\nAroleit Trail\nZum See to Blatten\n0.24\n3.56\n-96\n\n\n12\nZMUTT8\nAroleit Trail\nBlatten to Zen Steckenstrasse\n0.36\n3.92\n-311\n\n\n13\nZMUTT9\nZen Steckenstrasse\nAroleit Trail to Zmuttweg\n0.38\n4.30\n-68\n\n\n14\nZMUTT1\nZen Steckenstrasse\nZmuttweg to Zen Steckenstrasse bridge\n0.02\n4.31\n7"
+  },
+  {
+    "objectID": "personal/Hiking/ON GORGE.html",
+    "href": "personal/Hiking/ON GORGE.html",
+    "title": "Gorner Gorge Loop",
+    "section": "",
+    "text": "The rain let up after our Zmutt Loop hike so we decided to make the most of the day and hike through Gorner Gorge. After a short hike out of town, we paid a small fee (5.50 CHF) to enter the privately owned and maintained walkway through Gorner Gorge. The well-maintained wooden walkway is built into the side of the gorge. The hike through the gorge is short, but wonderful with several dramatic overhangs and sitelines that provide for great photos and movies. The views and feeling were well worth the admission price. After leaving the Gorge we had a short hike through the countryside and part of Zermatt proper to get back to our hotel. This was a nice cap to the day as we prepared for the Gornergrat hike the next day."
+  },
+  {
+    "objectID": "personal/Hiking/ON GORGE.html#walk-specific-map",
+    "href": "personal/Hiking/ON GORGE.html#walk-specific-map",
+    "title": "Gorner Gorge Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\nHint: Change map layer to “Imagery” using the object in the upper-right corner of the map below.\nNote: The track in the Gorge does not appear accurate as I think I lost satellite connections many times while recording the track."
+  },
+  {
+    "objectID": "personal/Hiking/ON GORGE.html#elevation-profile",
+    "href": "personal/Hiking/ON GORGE.html#elevation-profile",
+    "title": "Gorner Gorge Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON GORGE.html#images",
+    "href": "personal/Hiking/ON GORGE.html#images",
+    "title": "Gorner Gorge Loop",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nGORGE1: Matter Vispa in Zermatt\n\n\n\n\n\n\n\nGORGE3: Kim in Gorge\n\n\n\n\n\n\n\nGORGE3: Kim in Gorge\n\n\n\n\n\n\n\nGORGE3: The Gorge\n\n\n\n\n\n\n\nGORGE3: Kim and I in the Gorge\n\n\n\n\n\n\n\nGORGE3: The Gorge\n\n\n\n\n\n\n\nGORGE4: Kim walking back to town\n\n\n\n\n\n\n\nGORGE5: Zermatt\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON GORGE.html#gpx-download",
+    "href": "personal/Hiking/ON GORGE.html#gpx-download",
+    "title": "Gorner Gorge Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON GORGE.html#summary-information",
+    "href": "personal/Hiking/ON GORGE.html#summary-information",
+    "title": "Gorner Gorge Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nGORGE1\nZen Steckenstrasse\nZen Steckenstrasse bridge to Unnamed trail\n0.37\n0.37\n60\n\n\n2\nGORGE2\nUnnamed trail\nZen Steckenstrasse to Gorner Gorge Trail [Entrance]\n0.12\n0.48\n88\n\n\n3\nGORGE3\nGorner Gorge Trail\nUnnamed trail to Unnamed trail\n0.18\n0.67\n128\n\n\n4\nGORGE4\nUnnamed trail\nGorner Gorge Trail [Exit] to Staldenstrasse\n0.54\n1.20\n-132\n\n\n5\nGORGE5\nStaldenstrasse\nUnnamed trail to Winketmattenweg\n0.05\n1.25\n20\n\n\n6\nGORGE6\nWinketmattenweg\nStaldenstrasse to Schluhmattstrasse\n0.20\n1.46\n-93"
   }
 ]

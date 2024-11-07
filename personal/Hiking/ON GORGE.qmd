@@ -1,0 +1,92 @@
+---
+title: "Gorner Gorge Loop"
+subtitle: "Zermatt, Switzerland"
+---
+
+The rain let up after our [Zmutt Loop hike](ON ZMUTT.html) so we decided to make the most of the day and hike through [Gorner Gorge](https://www.myswitzerland.com/en-us/experiences/gorner-gorge/). After a short hike out of town, we paid a small fee (5.50 CHF) to enter the privately owned and maintained walkway through Gorner Gorge. The well-maintained wooden walkway is built into the side of the gorge. The hike through the gorge is short, but wonderful with several dramatic overhangs and sitelines that provide for great photos and movies. The views and feeling were well worth the admission price. After leaving the Gorge we had a short hike through the countryside and part of Zermatt proper to get back to our hotel. This was a nice cap to the day as we prepared for the [Gornergrat hike](ON GORNERGRAT.html) the next day.
+
+```{r}
+#| label: setup
+#| include: false
+
+project <- "Switzerland"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
+# Make vector of colors for Iron River Area
+clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "ON_GORGE"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("GORGE1","GORGE2","GORGE3","GORGE4","GORGE5","GORGE6")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+*Hint: Change map layer to "Imagery" using the object in the upper-right corner of the map below.*
+
+*Note: The track in the Gorge does not appear accurate as I think I lost satellite connections many times while recording the track.*
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```
