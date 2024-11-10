@@ -1924,7 +1924,7 @@
     "href": "personal/Hiking/Other Notable.html#switzerland",
     "title": "Other Notable Hikes",
     "section": "Switzerland",
-    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-12, 2024. Some of our hikes are listed below.\n\nChur: Coming Soon\nZermatt: Zmutt loop\nZermatt: Gorner Gorge\nZermatt: Riffleberg to Gornergrat\nLauterbrunnen: Coming Soon\nLucerne: Coming Soon",
+    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-12, 2024. Some of our hikes are listed below.\n\nChur: City Walk\nChur: St. Luzikapelle and Mittenberg Loop\nZermatt: Zmutt loop\nZermatt: Gorner Gorge\nZermatt: Riffleberg to Gornergrat\nLauterbrunnen: Coming Soon\nLucerne: Coming Soon",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2104,5 +2104,47 @@
     "title": "Gorner Gorge Loop",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nGORGE1\nZen Steckenstrasse\nZen Steckenstrasse bridge to Unnamed trail\n0.37\n0.37\n60\n\n\n2\nGORGE2\nUnnamed trail\nZen Steckenstrasse to Gorner Gorge Trail [Entrance]\n0.12\n0.48\n88\n\n\n3\nGORGE3\nGorner Gorge Trail\nUnnamed trail to Unnamed trail\n0.18\n0.67\n128\n\n\n4\nGORGE4\nUnnamed trail\nGorner Gorge Trail [Exit] to Staldenstrasse\n0.54\n1.20\n-132\n\n\n5\nGORGE5\nStaldenstrasse\nUnnamed trail to Winketmattenweg\n0.05\n1.25\n20\n\n\n6\nGORGE6\nWinketmattenweg\nStaldenstrasse to Schluhmattstrasse\n0.20\n1.46\n-93"
+  },
+  {
+    "objectID": "personal/Hiking/ON STLUZI.html",
+    "href": "personal/Hiking/ON STLUZI.html",
+    "title": "St. Luzikapelle and Mittenberg Loop",
+    "section": "",
+    "text": "On our second full day in Switzerland (October 6, 2024) we had made our way to the historic city of Chur, the oldest city in Switzerland. While we did make a city walk the next day, we were itching to get into the countryside. The trail we decided on started on the edge of town fairly near our hotel and quick climbed via several switchbacks through beautiful woods to St. Luzikapelle, a beautiful little chapel in a rock grotto. From there we continued to climb until we reached an alpine meadow near Mittenberg. This area screamed “Sound of Music”, and the overlook to the north and west was stunning. From there was a nice descent (with lots of switchbacks) back to Chur. This hike was a great introduction to the Swiss landscape, we are glad we did it."
+  },
+  {
+    "objectID": "personal/Hiking/ON STLUZI.html#walk-specific-map",
+    "href": "personal/Hiking/ON STLUZI.html#walk-specific-map",
+    "title": "St. Luzikapelle and Mittenberg Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON STLUZI.html#elevation-profile",
+    "href": "personal/Hiking/ON STLUZI.html#elevation-profile",
+    "title": "St. Luzikapelle and Mittenberg Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON STLUZI.html#images",
+    "href": "personal/Hiking/ON STLUZI.html#images",
+    "title": "St. Luzikapelle and Mittenberg Loop",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nSTLU02: Kim with Chur in the background\n\n\n\n\n\n\n\nSTLU04: Typical scenery\n\n\n\n\n\n\n\nSTLUA: St. Luzikapelle\n\n\n\n\n\n\n\nSTLUA: Inside St. Luzikapelle\n\n\n\n\n\n\n\nSTLU06: Overlooking Chur\n\n\n\n\n\n\n\nSTLU09: Kim on the trail\n\n\n\n\n\n\n\nSTLU10: Field near Mittenberg\n\n\n\n\n\n\n\nSTLU14: Typical scenery\n\n\n\n\n\n\n\nSTLU09: Kim and I\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON STLUZI.html#gpx-download",
+    "href": "personal/Hiking/ON STLUZI.html#gpx-download",
+    "title": "St. Luzikapelle and Mittenberg Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON STLUZI.html#summary-information",
+    "href": "personal/Hiking/ON STLUZI.html#summary-information",
+    "title": "St. Luzikapelle and Mittenberg Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nSTLU01\nHaldenweg\nSteinbruchstrasse to Alter Mittenbergweg\n0.11\n0.11\n65\n\n\n2\nSTLU02\nHaldenweg\nAlter Mittenbergweg to Lurlibadweg\n0.10\n0.21\n65\n\n\n3\nSTLU03\nLurlibadweg\nHaldenweg to Unnamed Trail\n0.07\n0.29\n56\n\n\n4\nSTLU04\nUnnamed Trail\nLurlibadweg to St. Luziweg\n0.31\n0.59\n167\n\n\n5\nSTLU05\nSt. Luziweg\nSt. Luziweg to St. Luzikapelle spur\n0.50\n1.09\n381\n\n\n6\nSTLUA\nSt. Luzikapelle spur\nSt. Luziweg to St, Luzikapelle\n0.01\n1.10\n5\n\n\n7\nSTLUA\nSt. Luzikapelle spur\nSt, Luzikapelle to St. Luziweg\n0.01\n1.10\n-5\n\n\n8\nSTLU06\nSt. Luziweg\nSt, Luzikapelle spur to Rotackerweg\n0.36\n1.46\n402\n\n\n9\nSTLU07\nRotackerweg\nSt. Luziweg to Unnamed Trail\n0.27\n1.73\n283\n\n\n10\nSTLU08\nUnnamed Trail\nRotackerweg to Kopfweg\n0.21\n1.94\n150\n\n\n11\nSTLU09\nKopfweg\nUnnamed Trail to Mittenbergweg\n0.10\n2.04\n90\n\n\n12\nSTLU10\nMittenbergweg\nKopfweg to Mittenbergweg Overlook Trail\n0.17\n2.21\n-19\n\n\n13\nSTLU11\nMittenbergweg Overlook Trail\nMittenbergweg to Mittenbergweg Overllook\n0.07\n2.28\n56\n\n\n14\nSTLU12\nMittenbergweg Overlook Trail\nMittenbergweg Overllook to Kopfweg\n0.17\n2.45\n-127\n\n\n15\nSTLU13\nKopfweg\nMittenbergweg Overlook Trail to Unnamed Trail\n0.59\n3.04\n-372\n\n\n16\nSTLU14\nUnnamed Trail\nKopfweg to Alter Mittenbergweg\n0.71\n3.75\n-518\n\n\n17\nSTLU15\nAlter Mittenbergweg\nUnnamed Trail to Haldenweg\n0.77\n4.52\n-591\n\n\n18\nSTLU01\nHaldenweg\nAlter Mittenbergweg to Steinbruchstrasse\n0.11\n4.63\n-65"
   }
 ]

@@ -1,0 +1,91 @@
+---
+title: "St. Luzikapelle and Mittenberg Loop"
+subtitle: "Chur, Switzerland"
+---
+
+On our second full day in Switzerland (October 6, 2024) we had made our way to the historic city of [Chur](https://www.chur.graubuenden.ch/en), the oldest city in Switzerland. While we did make a [city walk](ON_CHURCW.html) the next day, we were itching to get into the countryside. The trail we decided on started on the edge of town fairly near our hotel and quick climbed via several switchbacks through beautiful woods to [St. Luzikapelle](https://www.chur.graubuenden.ch/en/attractions/st-luzi-chapel-0), a beautiful little chapel in a rock grotto. From there we continued to climb until we reached an alpine meadow near Mittenberg. This area screamed "Sound of Music", and the overlook to the north and west was stunning. From there was a nice descent (with lots of switchbacks) back to Chur. This hike was a great introduction to the Swiss landscape, we are glad we did it.
+
+```{r}
+#| label: setup
+#| include: false
+
+project <- "Switzerland"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
+# Make vector of colors for Iron River Area
+clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "ON_STLUZI"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("STLU01","STLU02","STLU03","STLU04","STLU05",
+             "STLUA","STLUA","STLU06","STLU07","STLU08",
+             "STLU09","STLU10","STLU11","STLU12","STLU13",
+             "STLU14","STLU15","STLU01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```
