@@ -1,9 +1,9 @@
 ---
-title: "St. Luzikapelle and Mittenberg Loop"
-subtitle: "Chur, Switzerland"
+title: "Trummelbach Falls Loop"
+subtitle: "Lauterbrunnen, Switzerland"
 ---
 
-On our second full day in Switzerland (October 6, 2024) we had made our way to the historic city of [Chur](https://www.chur.graubuenden.ch/en), the oldest city in Switzerland. While we did  city walks ([I](ON_CHCW1.html), [II](ON_CHCW2.html)) the next day, we were itching to get into the countryside. The trail we decided on started on the edge of town fairly near our hotel and quickly climbed via several switchbacks through beautiful woods to [St. Luzikapelle](https://www.chur.graubuenden.ch/en/attractions/st-luzi-chapel-0), a pulchritudinous little chapel in a rock grotto. From there we continued to climb until we reached an alpine meadow near Mittenberg. This area screamed "Sound of Music", and the overlooks to the north and west were stunning. From there was a nice descent (with lots of switchbacks) back to Chur. This hike was a great introduction to the Swiss landscape, we are glad we did it.
+On our First day in [Lauterbrunnen](https://www.myswitzerland.com/en-us/destinations/lauterbrunnen/) (October 10, 2024) we left our [hotel](https://www.silberhorn.com/en/) to walk through the city and countryside to the [Trummelbach waterfalls](https://fullsuitcase.com/trummelbach-falls/). Lauterbrunnen is stunningly beautiful sitting in deep valley with steep walls. Thus, the hike to Trummelback was jaw-dropping gorgeous in every direction. We stopped along the way to view [Staubbach Falls](https://www.myswitzerland.com/en-us/experiences/staubbach-falls-free-falling-waters-with-a-mist-of-spray/) up close, as there is a side trail passing through a tunnel that gets you in the spray of this highest (297 m) free-falling waterfall in Switzerland! From there it is a leisurely walk on roads (not busy) or trails to the entrance to Trummelbach Falls. The Trummelbach waterfalls are Europe's largest subterranean water falls. The falls can be viewed from a number of different vantage points that are connected with underground paths, platforms, and a lift. Access to the falls was well worth the $15CHF entry fee. Following the falls we returned to the main town and our hotel using a slight different route that was less busy and mostly followed the river. This was a great hike and experience!!
 
 ```{r}
 #| label: setup
@@ -19,15 +19,14 @@ project <- "Switzerland"
 clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
 
 # Read in CSV file will all track info needed for the map
-walkID <- "ON_STLUZI"
+walkID <- "ON_TRUMMELBACH"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("STLU01","STLU02","STLU03","STLU04","STLU05",
-             "STLUA","STLUA","STLU06","STLU07","STLU08",
-             "STLU09","STLU10","STLU11","STLU12","STLU13",
-             "STLU14","STLU15","STLU01")
+walkIDs <- c("TRMBF01","TRMBF02","TRMBF03","TRMBF03","TRMBF04",
+             "TRMBF05","TRMBF06","TRMBF06","TRMBF05","TRMBF07",
+             "TRMBF01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

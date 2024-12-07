@@ -29,20 +29,27 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 # Specific Hikes
 Below are some specific hikes that we found interesting.
 
-- Backbone State Park - Dundee
-  - [Backbone Trail](IA BBSP_Backbone.html)
-  - [North Gate Rd](IA BBSP_North Gate Road.html)
-  - [East Gate Rd](IA BBSP_East Gate Road.html)
-- Decorah Area
-  - [Dunning Springs Park](IA Dunning Springs.html)
-  - [Pulpit Rock](IA Pulpit Rock.html)
-- Echo Valley State Park - West Union
-  - [Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)
-  - [Glover's Creek Trail](IA Glovers.html)
-- Gilbertson Conservation Education Area - Elgin
-  - [Loop 1](IA Gilbertson I,html)
-- [Pony Hollow Trail I](IA Pony HOllow Trail.html) - Elkader
-- Volga River State Park - Wadena/Fayette
-  - [Depot Trail](IA Volga Depot.html)
-  - [Orchard Trail](IA Volga Orchard.html)
-  - [Ridge Trail](IA Volga Ridge.html)
+- Allamakee County
+  - New Albin - [Fish Farm Mounds](IA Fish Farm Mounds.html)
+
+- Clayton County
+  - Elkader - [Pony Hollow Trail I](IA Pony Hollow Trail.html)
+
+- Delaware County
+  - Backbone State Park - [Backbone Trail](IA BBSP_Backbone.html)
+  - Backbone State Park - [North Gate Rd](IA BBSP_North Gate Road.html)
+  - Backbone State Park - [East Gate Rd](IA BBSP_East Gate Road.html)
+
+- Fayette County
+  - Brush Creek Canyon State Preserve - [Loop 1](IA Brush Creek Canyon.html)
+  - Echo Valley State Park - [Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)
+  - Echo Valley State Park - [Glover's Creek Trail](IA Glovers.html)
+  - Gilbertson Conservation Education Area - [Loop 1](IA Gilbertson I,html)
+  - Volga River State Park - [Depot Trail](IA Volga Depot.html)
+  - Volga River State Park - [Orchard Trail](IA Volga Orchard.html)
+  - Volga River State Park - [Ridge Trail](IA Volga Ridge.html)
+  - Dutton's Cave - [Lower Loop 1](IA Duttons Lower.html), [Upper Loop](IA Duttons Upper.html)
+
+- Winneshiek County
+  - Decorah - [Dunning Springs Park](IA Dunning Springs.html)
+  - Decorah - [Pulpit Rock](IA Pulpit Rock.html)
