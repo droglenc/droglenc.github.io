@@ -26,30 +26,27 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 ```
 
-# Specific Hikes
-Below are some specific hikes that we found interesting.
+- **Allamakee County**
+  - Fish Farm Mounds State Preserve - [Loop I](IA Fish Farm Mounds.html)
 
-- Allamakee County
-  - New Albin - [Fish Farm Mounds](IA Fish Farm Mounds.html)
-
-- Clayton County
+- **Clayton County**
   - Elkader - [Pony Hollow Trail I](IA Pony Hollow Trail.html)
 
-- Delaware County
+- **Delaware County**
   - Backbone State Park - [Backbone Trail](IA BBSP_Backbone.html)
   - Backbone State Park - [North Gate Rd](IA BBSP_North Gate Road.html)
   - Backbone State Park - [East Gate Rd](IA BBSP_East Gate Road.html)
 
-- Fayette County
-  - Brush Creek Canyon State Preserve - [Loop 1](IA Brush Creek Canyon.html)
+- **Fayette County**
+  - Brush Creek Canyon State Preserve - [Loop I](IA Brush Creek Canyon.html)
   - Echo Valley State Park - [Environmental Nature Trail](IA Echo Valley Environmental Nature Trail.html)
   - Echo Valley State Park - [Glover's Creek Trail](IA Glovers.html)
-  - Gilbertson Conservation Education Area - [Loop 1](IA Gilbertson I,html)
+  - Gilbertson Conservation Education Area - [Loop I](IA Gilbertson I,html)
   - Volga River State Park - [Depot Trail](IA Volga Depot.html)
   - Volga River State Park - [Orchard Trail](IA Volga Orchard.html)
   - Volga River State Park - [Ridge Trail](IA Volga Ridge.html)
   - Dutton's Cave - [Lower Loop 1](IA Duttons Lower.html), [Upper Loop](IA Duttons Upper.html)
 
-- Winneshiek County
+- **Winneshiek County**
   - Decorah - [Dunning Springs Park](IA Dunning Springs.html)
   - Decorah - [Pulpit Rock](IA Pulpit Rock.html)
