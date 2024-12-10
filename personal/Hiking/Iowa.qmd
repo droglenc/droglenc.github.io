@@ -45,7 +45,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Volga River State Park - [Depot Trail](IA Volga Depot.html)
   - Volga River State Park - [Orchard Trail](IA Volga Orchard.html)
   - Volga River State Park - [Ridge Trail](IA Volga Ridge.html)
-  - Dutton's Cave - [Lower Loop 1](IA Duttons Lower.html), [Upper Loop](IA Duttons Upper.html)
+  - Dutton's Cave County Park - [Lower Loop 1](IA Duttons Lower.html)
 
 - **Winneshiek County**
   - Decorah - [Dunning Springs Park](IA Dunning Springs.html)

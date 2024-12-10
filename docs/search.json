@@ -2362,7 +2362,7 @@
     "href": "personal/Hiking/Iowa.html",
     "title": "Iowa Hiking",
     "section": "",
-    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\n\nClayton County\n\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave - Lower Loop 1, Upper Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
+    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\n\nClayton County\n\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2452,5 +2452,47 @@
     "title": "Fish Farm Mounds State Preserve",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nOwner\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nFFMDS01\nFish Farm Mounds SP\nPicnic area to Mounds (start)\nTrail\nPublic\n0.05\n0.05\n35\n\n\n2\nFFMDS02\nFish Farm Mounds SP\nMounds (start) to Mounds (end)\nTrail\nPublic\n0.07\n0.12\n23\n\n\n3\nFFMDS03\nFish Farm Mounds SP\nMounds (end) to Hwy 26\nTrail\nPublic\n0.24\n0.37\n-92\n\n\n4\nFFMDS03\nFish Farm Mounds SP\nHwy 26 to Mounds (end)\nTrail\nPublic\n0.24\n0.61\n92\n\n\n5\nFFMDS02\nFish Farm Mounds SP\nMounds (end) to Mounds (start)\nTrail\nPublic\n0.07\n0.68\n-23\n\n\n6\nFFMDS01\nFish Farm Mounds SP\nMounds (start) to Picnic area\nTrail\nPublic\n0.05\n0.73\n-35\n\n\n7\nFFMDS05\nFish Farm Mounds SP\nto\nTrail\nPublic\n0.02\n0.75\n-6\n\n\n8\nFFMDS06\nFish Farm Mounds SP\nto\nTrail\nPublic\n0.99\n1.74\n125\n\n\n9\nFFMDS10\nFish Farm Mounds SP\nto\nTrail\nPublic\n0.31\n2.05\n56\n\n\n10\nFFMDS11\nFish Farm Mounds SP\nto\nTrail\nPublic\n1.15\n3.20\n2\n\n\n11\nFFMDS10\nFish Farm Mounds SP\nto\nTrail\nPublic\n0.31\n3.52\n-56\n\n\n12\nFFMDS07\nFish Farm Mounds SP\nto\nTrail\nPublic\n0.23\n3.75\n-95\n\n\n13\nFFMDS05\nFish Farm Mounds SP\nto\nTrail\nPublic\n0.02\n3.77\n6"
+  },
+  {
+    "objectID": "personal/Hiking/IA Duttons Lower.html",
+    "href": "personal/Hiking/IA Duttons Lower.html",
+    "title": "Dutton’s Cave County Park",
+    "section": "",
+    "text": "Cash and I visited Dutton’s Cave County Park near West Union on November 28, 2024. The park has two areas, an upper part that has a small primitive campground and a lower part that is primarily a picnic area with a playground. From the parking area on the lower part we walked a well-defined trail to the base of the cave. The cave is closed to humans to protect the bats from white-nose syndrome. From there we back-tracked to the picnic area and then walked up a ravine on what looked to be a maintained trail. However, the trail soon disappeared so we followed deer trails across the ravine and along the base of a number of limestone outcrops before emerging on the road that returned to the picnic area parking lot. [Here is some history about Dutton.]"
+  },
+  {
+    "objectID": "personal/Hiking/IA Duttons Lower.html#walk-specific-map",
+    "href": "personal/Hiking/IA Duttons Lower.html#walk-specific-map",
+    "title": "Dutton’s Cave County Park",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Duttons Lower.html#elevation-profile",
+    "href": "personal/Hiking/IA Duttons Lower.html#elevation-profile",
+    "title": "Dutton’s Cave County Park",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA Duttons Lower.html#images",
+    "href": "personal/Hiking/IA Duttons Lower.html#images",
+    "title": "Dutton’s Cave County Park",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nDTNCL02: Cave from observation point\n\n\n\n\n\n\n\nDTNCL04: Cash with ravine behind him\n\n\n\n\n\n\n\nDTNCL04: Ice on pool in ravine\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IA Duttons Lower.html#gpx-download",
+    "href": "personal/Hiking/IA Duttons Lower.html#gpx-download",
+    "title": "Dutton’s Cave County Park",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA Duttons Lower.html#summary-information",
+    "href": "personal/Hiking/IA Duttons Lower.html#summary-information",
+    "title": "Dutton’s Cave County Park",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nOwner\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nDTNCL01\nDutton's Cave CP (Lower)\nParking area to Trail to cave\nTrail\nPublic\n0.08\n0.08\n22\n\n\n2\nDTNCL02\nDutton's Cave CP (Lower)\nto Cave\nTrail\nPublic\n0.13\n0.21\n59\n\n\n3\nDTNCL02\nDutton's Cave CP (Lower)\nCave to\nTrail\nPublic\n0.13\n0.34\n-59\n\n\n4\nDTNCL03\nDutton's Cave CP (Lower)\nTrail to cave to Deer trail begins\nTrail\nPublic\n0.18\n0.52\n93\n\n\n5\nDTNCL04\nDutton's Cave CP (Lower)\nDeer trail begins to Road\nTrail\nPublic\n0.18\n0.70\n20\n\n\n6\nDTNCL05\nDutton's Cave CP (Lower)\nDeer trail ends to Parking area\nTrail\nPublic\n0.28\n0.98\n-133"
   }
 ]
