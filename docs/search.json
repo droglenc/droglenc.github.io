@@ -156,7 +156,7 @@
     "href": "portfolio/posts/Flynn_Dam/index.html",
     "title": "Water Heights at Flynn Lake Dam",
     "section": "",
-    "text": "The winter of 2022-23 was exceptionally snowy in northern Wisconsin (see this). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see Acknowledgments below), I now have near daily water level measurements at the gauge from May 2, 2023 to December 6, 2024. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is further below."
+    "text": "The winter of 2022-23 was exceptionally snowy in northern Wisconsin (see this). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see Acknowledgments below), I now have near daily water level measurements at the gauge from May 2, 2023 to December 16, 2024. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is further below."
   },
   {
     "objectID": "portfolio/posts/Flynn_Dam/index.html#water-level",
@@ -177,7 +177,7 @@
     "href": "portfolio/posts/Flynn_Dam/index.html#summary-table",
     "title": "Water Heights at Flynn Lake Dam",
     "section": "Summary Table",
-    "text": "Summary Table\nThe following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeason\n\nDate\n\n\nWater Level\n\n\nMax Change\n\n\n\nStart\nEnd\nStart\nEnd\nMedian\n10%\n90%\nMin\nMax\nRange\nDrop\nRise\n\n\n\n\n2024-25\nMar 14\nDec 6\n21.6\n22.6\n22.6\n21.2\n24.0\n20.3\n25.7\n5.4\n0.96\n1.92\n\n\n2023-24\nMay 2\nMar 13\n28.1\n21.8\n22.9\n22.1\n24.4\n21.6\n28.1\n6.5\n0.60\n2.40\n\n\nOverall\n—\n—\n—\n—\n22.8\n21.6\n24.2\n20.3\n28.1\n7.8\n0.96\n2.40"
+    "text": "Summary Table\nThe following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeason\n\nDate\n\n\nWater Level\n\n\nMax Change\n\n\n\nStart\nEnd\nStart\nEnd\nMedian\n10%\n90%\nMin\nMax\nRange\nDrop\nRise\n\n\n\n\n2024-25\nMar 14\nDec 16\n21.6\n22.6\n22.6\n21.2\n24.0\n20.3\n25.7\n5.4\n0.96\n1.92\n\n\n2023-24\nMay 2\nMar 13\n28.1\n21.8\n22.9\n22.1\n24.4\n21.6\n28.1\n6.5\n0.60\n2.40\n\n\nOverall\n—\n—\n—\n—\n22.8\n21.6\n24.2\n20.3\n28.1\n7.8\n0.96\n2.40"
   },
   {
     "objectID": "portfolio/posts/Flynn_Dam/index.html#data-collection",
@@ -1924,7 +1924,7 @@
     "href": "personal/Hiking/Other Notable.html#switzerland",
     "title": "Other Notable Hikes",
     "section": "Switzerland",
-    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-12, 2024. Some of our hikes are listed below.\n\nChur: St. Luzikapelle and Mittenberg Loop\nChur: City Walk I\nChur: City Walk II\nZermatt: Zmutt loop\nZermatt: Gorner Gorge\nZermatt: Riffleberg to Gornergrat\nLauterbrunnen: Trummelbach Falls\nLauterbrunnen: From Wengen\nLauterbrunnen: Panaramoweg Kleine-Scheidegg to Mannlichen\nLucerne: Coming Soon",
+    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-12, 2024. Some of our hikes are listed below.\n\nChur: St. Luzikapelle and Mittenberg Loop\nChur: City Walk I\nChur: City Walk II\nZermatt: Zmutt loop\nZermatt: Gorner Gorge\nZermatt: Riffleberg to Gornergrat\nLauterbrunnen: Trummelbach Falls\nLauterbrunnen: From Wengen\nLauterbrunnen: Panaramoweg Kleine-Scheidegg to Mannlichen\nLucerne: City Bridges Walk\nLucerne: City and Lake Walk\nLucerne: City and Musegg Wall Walk",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2494,5 +2494,89 @@
     "title": "Dutton’s Cave County Park",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nOwner\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nDTNCL01\nDutton's Cave CP (Lower)\nParking area to Trail to cave\nTrail\nPublic\n0.08\n0.08\n22\n\n\n2\nDTNCL02\nDutton's Cave CP (Lower)\nto Cave\nTrail\nPublic\n0.13\n0.21\n59\n\n\n3\nDTNCL02\nDutton's Cave CP (Lower)\nCave to\nTrail\nPublic\n0.13\n0.34\n-59\n\n\n4\nDTNCL03\nDutton's Cave CP (Lower)\nTrail to cave to Deer trail begins\nTrail\nPublic\n0.18\n0.52\n93\n\n\n5\nDTNCL04\nDutton's Cave CP (Lower)\nDeer trail begins to Road\nTrail\nPublic\n0.18\n0.70\n20\n\n\n6\nDTNCL05\nDutton's Cave CP (Lower)\nDeer trail ends to Parking area\nTrail\nPublic\n0.28\n0.98\n-133"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECLW.html",
+    "href": "personal/Hiking/ON LUCERNECLW.html",
+    "title": "City and Lake Walk",
+    "section": "",
+    "text": "Our last few days in Switzerland were in Lucerne. We had a great hotel right on the river and spent the two days exploring the city and lake shore. On October 12, wfter a short walk through the city to get breakfast, we did a “city walk” that led to the “Lion of Lucerne”, the Church of St. Leodegar, down to the lake to go past Lido Lucerne before turning to walk along the lake back to our hotel. This was a fun and leisurely hike."
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECLW.html#walk-specific-map",
+    "href": "personal/Hiking/ON LUCERNECLW.html#walk-specific-map",
+    "title": "City and Lake Walk",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECLW.html#elevation-profile",
+    "href": "personal/Hiking/ON LUCERNECLW.html#elevation-profile",
+    "title": "City and Lake Walk",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECLW.html#images",
+    "href": "personal/Hiking/ON LUCERNECLW.html#images",
+    "title": "City and Lake Walk",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nLCLW04: Lion of Lucerne\n\n\n\n\n\n\n\nLCLW04: Lion of Lucerne\n\n\n\n\n\n\n\nLCLW08: Lake Lucerne\n\n\n\n\n\n\n\nLCLW08: Ducks along trail\n\n\n\n\n\n\n\nLCLW10: Lake Lucerne\n\n\n\n\n\n\n\nLCLW10: Lake Lucerne\n\n\n\n\n\n\n\nLCLW09: Flowers with Lake Lucerne\n\n\n\n\n\n\n\nLCLW09: Geese along trail\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECLW.html#gpx-download",
+    "href": "personal/Hiking/ON LUCERNECLW.html#gpx-download",
+    "title": "City and Lake Walk",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECLW.html#summary-information",
+    "href": "personal/Hiking/ON LUCERNECLW.html#summary-information",
+    "title": "City and Lake Walk",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nLCLW01\nLucerne City-Lake Walk\nSeebrucke Bridge to\n0.06\n0.06\n-14\n\n\n2\nLCLW03\nLucerne City-Lake Walk\nto Hofstrasse-Lowenstrasse intersection\n0.28\n0.34\n21\n\n\n3\nLCLW04\nLucerne City-Lake Walk\nHofstrasse-Lowenstrasse intersection to Lion of Lucerne\n0.20\n0.54\n35\n\n\n4\nLCLW05\nLucerne City-Lake Walk\nLion of Lucerne to Hofstrasse-Lowenstrasse intersection\n0.21\n0.75\n-39\n\n\n5\nLCLW06\nLucerne City-Lake Walk\nHofstrasse-Lowenstrasse intersection to St. Leodegar im Hof\n0.18\n0.93\n20\n\n\n6\nLCLW07\nLucerne City-Lake Walk\nSt. Leodegar im Hof to Nationalquai\n0.37\n1.30\n-35\n\n\n7\nLCLW08\nLucerne City-Lake Walk\nto trail to dock\n0.97\n2.27\n-4\n\n\n8\nLCLW10\nLucerne City-Lake Walk\nGeneral-Guisan-Qai to Verhehrshaus-Lido\n0.06\n2.33\n-2\n\n\n9\nLCLW10\nLucerne City-Lake Walk\nVerhehrshaus-Lido to General-Guisan-Qai\n0.06\n2.39\n2\n\n\n10\nLCLW09\nLucerne City-Lake Walk\ntrail to dock to restroom!\n0.53\n2.92\n12\n\n\n11\nLCLW09\nLucerne City-Lake Walk\nrestroom! to trail to dock\n0.53\n3.44\n-12\n\n\n12\nLCLW08\nLucerne City-Lake Walk\ntrail to dock to\n0.97\n4.42\n4\n\n\n13\nLCLW02\nLucerne City-Lake Walk\nto\n0.48\n4.90\n-6\n\n\n14\nLCLW01\nLucerne City-Lake Walk\nto Seebrucke Bridge\n0.06\n4.96\n14"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECMW.html",
+    "href": "personal/Hiking/ON LUCERNECMW.html",
+    "title": "City and Musegg Wall Walk",
+    "section": "",
+    "text": "Also, on October 12, we explored the Musegg Wall and some of its nine towers. We left our hotel and meandered through town to reach the western gate at Schirmerturm, then explored several of the towers before exiting at Nölliturm to meander through town back to our hotel. Exploring the towers was pretty cool and offered amazing views of Lucerne."
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECMW.html#walk-specific-map",
+    "href": "personal/Hiking/ON LUCERNECMW.html#walk-specific-map",
+    "title": "City and Musegg Wall Walk",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECMW.html#elevation-profile",
+    "href": "personal/Hiking/ON LUCERNECMW.html#elevation-profile",
+    "title": "City and Musegg Wall Walk",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECMW.html#images",
+    "href": "personal/Hiking/ON LUCERNECMW.html#images",
+    "title": "City and Musegg Wall Walk",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nLCMW01: Zytturm\n\n\n\n\n\n\n\nLCMW01: Zytturm\n\n\n\n\n\n\n\nLCMW01: View from Zytturm\n\n\n\n\n\n\n\nLCMW01: View from Zytturm\n\n\n\n\n\n\n\nLCMW02: Wachturm\n\n\n\n\n\n\n\nLCMW02: Wachturm\n\n\n\n\n\n\n\nLCMW04: Mannliturm\n\n\n\n\n\n\n\nLCMW04: View from Mannliturm\n\n\n\n\n\n\n\nLCMW04: Mannliturm\n\n\n\n\n\n\n\nLCMW04: Kim & I at Mannlitturm\n\n\n\n\n\n\n\nLCMW04: Kim at Mannlitturm\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECMW.html#gpx-download",
+    "href": "personal/Hiking/ON LUCERNECMW.html#gpx-download",
+    "title": "City and Musegg Wall Walk",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECMW.html#summary-information",
+    "href": "personal/Hiking/ON LUCERNECMW.html#summary-information",
+    "title": "City and Musegg Wall Walk",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nLCMW01\nLucerne City-Musegg Wall Walk\nHotel Mr. Pickwick to Zytturm\n0.52\n0.52\n132\n\n\n2\nLCMW02\nLucerne City-Musegg Wall Walk\nZytturm to Wachturm\n0.07\n0.59\n-9\n\n\n3\nLCMW03\nLucerne City-Musegg Wall Walk\nWachturm to Mannliturm\n0.12\n0.71\n-50\n\n\n4\nLCMW04\nLucerne City-Musegg Wall Walk\nMannliturm to Geissmattbrucke\n0.15\n0.86\n-73\n\n\n5\nLCMW05\nLucerne City-Musegg Wall Walk\nGeissmattbrucke to Reussbrucke\n0.66\n1.52\n2\n\n\n6\nLCMW06\nLucerne City-Musegg Wall Walk\nReussbrucke to Hotel Mr. Pickwick\n0.23\n1.75\n8"
   }
 ]
