@@ -156,7 +156,7 @@
     "href": "portfolio/posts/Flynn_Dam/index.html",
     "title": "Water Heights at Flynn Lake Dam",
     "section": "",
-    "text": "The winter of 2022-23 was exceptionally snowy in northern Wisconsin (see this). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see Acknowledgments below), I now have near daily water level measurements at the gauge from May 2, 2023 to December 16, 2024. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is further below."
+    "text": "The winter of 2022-23 was exceptionally snowy in northern Wisconsin (see this). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see Acknowledgments below), I now have near daily water level measurements at the gauge from May 2, 2023 to December 19, 2024. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is further below."
   },
   {
     "objectID": "portfolio/posts/Flynn_Dam/index.html#water-level",
@@ -177,7 +177,7 @@
     "href": "portfolio/posts/Flynn_Dam/index.html#summary-table",
     "title": "Water Heights at Flynn Lake Dam",
     "section": "Summary Table",
-    "text": "Summary Table\nThe following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeason\n\nDate\n\n\nWater Level\n\n\nMax Change\n\n\n\nStart\nEnd\nStart\nEnd\nMedian\n10%\n90%\nMin\nMax\nRange\nDrop\nRise\n\n\n\n\n2024-25\nMar 14\nDec 16\n21.6\n22.6\n22.6\n21.2\n24.0\n20.3\n25.7\n5.4\n0.96\n1.92\n\n\n2023-24\nMay 2\nMar 13\n28.1\n21.8\n22.9\n22.1\n24.4\n21.6\n28.1\n6.5\n0.60\n2.40\n\n\nOverall\n—\n—\n—\n—\n22.8\n21.6\n24.2\n20.3\n28.1\n7.8\n0.96\n2.40"
+    "text": "Summary Table\nThe following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeason\n\nDate\n\n\nWater Level\n\n\nMax Change\n\n\n\nStart\nEnd\nStart\nEnd\nMedian\n10%\n90%\nMin\nMax\nRange\nDrop\nRise\n\n\n\n\n2024-25\nMar 14\nDec 19\n21.6\n22.6\n22.6\n21.2\n24.0\n20.3\n25.7\n5.4\n0.96\n1.92\n\n\n2023-24\nMay 2\nMar 13\n28.1\n21.8\n22.9\n22.1\n24.4\n21.6\n28.1\n6.5\n0.60\n2.40\n\n\nOverall\n—\n—\n—\n—\n22.8\n21.6\n24.2\n20.3\n28.1\n7.8\n0.96\n2.40"
   },
   {
     "objectID": "portfolio/posts/Flynn_Dam/index.html#data-collection",
@@ -1924,7 +1924,7 @@
     "href": "personal/Hiking/Other Notable.html#switzerland",
     "title": "Other Notable Hikes",
     "section": "Switzerland",
-    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-12, 2024. Some of our hikes are listed below.\n\nChur: St. Luzikapelle and Mittenberg Loop\nChur: City Walk I\nChur: City Walk II\nZermatt: Zmutt loop\nZermatt: Gorner Gorge\nZermatt: Riffleberg to Gornergrat\nLauterbrunnen: Trummelbach Falls\nLauterbrunnen: From Wengen\nLauterbrunnen: Panaramoweg Kleine-Scheidegg to Mannlichen\nLucerne: City Bridges Walk\nLucerne: City and Lake Walk\nLucerne: City and Musegg Wall Walk",
+    "text": "Switzerland\nKim and I vacationed in Switzerland on October 5-13, 2024. Some of our hikes are listed below.\n\nChur: St. Luzikapelle and Mittenberg Loop, City Walk I, City Walk II\nZermatt: Zmutt loop, Gorner Gorge, Riffleberg to Gornergrat\nLauterbrunnen: Trummelbach Falls, From Wengen, Panaramoweg Kleine-Scheidegg\nLucerne: Bridges Walk, City and Lake Walk, Musegg Wall Walk",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2578,5 +2578,47 @@
     "title": "City and Musegg Wall Walk",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nLCMW01\nLucerne City-Musegg Wall Walk\nHotel Mr. Pickwick to Zytturm\n0.52\n0.52\n132\n\n\n2\nLCMW02\nLucerne City-Musegg Wall Walk\nZytturm to Wachturm\n0.07\n0.59\n-9\n\n\n3\nLCMW03\nLucerne City-Musegg Wall Walk\nWachturm to Mannliturm\n0.12\n0.71\n-50\n\n\n4\nLCMW04\nLucerne City-Musegg Wall Walk\nMannliturm to Geissmattbrucke\n0.15\n0.86\n-73\n\n\n5\nLCMW05\nLucerne City-Musegg Wall Walk\nGeissmattbrucke to Reussbrucke\n0.66\n1.52\n2\n\n\n6\nLCMW06\nLucerne City-Musegg Wall Walk\nReussbrucke to Hotel Mr. Pickwick\n0.23\n1.75\n8"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECBW.html",
+    "href": "personal/Hiking/ON LUCERNECBW.html",
+    "title": "City Bridges Walk",
+    "section": "",
+    "text": "Soon after getting to Lucerne on October 11, 2024, we headed out to explore the city along the river near our hotel. We walked along the Reuss River, crossing the river first (and ultimately twice) at the beautiful wooden Spreurbrucke, then at the modern Geissmattbrucke, and finally at the iconic Kapelbrucke (aka Chapel Bridge). The Kapelbrucke is thought to be the oldest wooden bridge in Switzerland and is magnificent with its old wood, paintings, and flowers. I included a few pictures of Kapelbrucke at night, where it is even more beautiful."
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECBW.html#walk-specific-map",
+    "href": "personal/Hiking/ON LUCERNECBW.html#walk-specific-map",
+    "title": "City Bridges Walk",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECBW.html#elevation-profile",
+    "href": "personal/Hiking/ON LUCERNECBW.html#elevation-profile",
+    "title": "City Bridges Walk",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECBW.html#images",
+    "href": "personal/Hiking/ON LUCERNECBW.html#images",
+    "title": "City Bridges Walk",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nLBRDGS02: Kapelbrucke\n\n\n\n\n\n\n\nLBRDGS04: Kim at Spreurbrucke\n\n\n\n\n\n\n\nLBRDGS04: Shrine on Spreurbrucke\n\n\n\n\n\n\n\nLBRDGS05: Reuss River\n\n\n\n\n\n\n\nLBRDGS02: Kapelbrucke\n\n\n\n\n\n\n\nLBRDGS07: Hotel Mr. Pickwick\n\n\n\n\n\n\n\nLBRDGS02: Kapelbrucke\n\n\n\n\n\n\n\nLBRDGS08: Kim & I on Kapelbrucke\n\n\n\n\n\n\n\nLBRDGS05: Watchtower\n\n\n\n\n\n\n\nLBRDGS08: Kapelbrucke\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECBW.html#gpx-download",
+    "href": "personal/Hiking/ON LUCERNECBW.html#gpx-download",
+    "title": "City Bridges Walk",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON LUCERNECBW.html#summary-information",
+    "href": "personal/Hiking/ON LUCERNECBW.html#summary-information",
+    "title": "City Bridges Walk",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nLBRDGS01\nLucerne City Bridges Walk\nHotel Mr. Pickwick to Rathausquai\n0.04\n0.04\n-6\n\n\n2\nLBRDGS02\nLucerne City Bridges Walk\nKapellbrucke [North] to Josi-J-Meier Platz\n0.23\n0.27\n0\n\n\n3\nLBRDGS03\nLucerne City Bridges Walk\nJosi-J-Meier Platz to Spreuerubrucke [East]\n0.12\n0.40\n-2\n\n\n4\nLBRDGS04\nLucerne City Bridges Walk\nSpreuerubrucke [East] to Spreuerubrucke [West]\n0.07\n0.47\n-6\n\n\n5\nLBRDGS05\nLucerne City Bridges Walk\nSpreuerubrucke [West] to Geissmattbrucke\n0.18\n0.64\n6\n\n\n6\nLBRDGS06\nLucerne City Bridges Walk\nGeissmattbrucke to Spreuerubrucke [East]\n0.21\n0.85\n1\n\n\n7\nLBRDGS04\nLucerne City Bridges Walk\nSpreuerubrucke [East] to Spreuerubrucke [West]\n0.07\n0.92\n-6\n\n\n8\nLBRDGS07\nLucerne City Bridges Walk\nSpreuerubrucke [West] to Kapellbrucke [South]\n0.28\n1.20\n9\n\n\n9\nLBRDGS08\nLucerne City Bridges Walk\nKapellbrucke [South] to Kapellbrucke [North]\n0.14\n1.34\n-9\n\n\n10\nLBRDGS01\nLucerne City Bridges Walk\nRathausquai to Hotel Mr. Pickwick\n0.04\n1.38\n6"
   }
 ]
