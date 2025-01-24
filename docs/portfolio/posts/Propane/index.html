@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Derek H. Ogle">
 <meta name="description" content="An analysis of the price of propane.">
 
-<title>Derek H. Ogle - Propane Prices</title>
+<title>Propane Prices – Derek H. Ogle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,10 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-697306ee647f3aecb60be57249203282.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-971e553d09900157fd34d4876937bf1b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -56,7 +56,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../zhelpers/styles.css">
-<meta property="og:title" content="Derek H. Ogle - Propane Prices">
+<meta property="og:title" content="Propane Prices – Derek H. Ogle">
 <meta property="og:description" content="An analysis of the price of propane.">
 <meta property="og:image" content="https://derekogle.com/portfolio/posts/Propane/DHO_tank.jpg">
 <meta property="og:site_name" content="Derek H. Ogle">
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Derek H. Ogle</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -165,20 +165,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="cell" data-layout-align="center">
-
-</div>
-<div class="cell" data-layout-align="center">
-
-</div>
-<div class="cell" data-layout-align="center">
-
-</div>
 <p>Recently I have been considering the relative costs of propane and wood for heating our house. One of the considerations for propane is how the cost fluctuates from year-to-year and within a year. Most propane companies offer a “lock-in” price to protect against the supposedly inevitable increase in the cost of propane during the winter. I questioned whether this was a good investment or not (like many things, I suspected it was better for the propane company than me).</p>
 <p>The U.S. Energy Information Administration (EIA) has a website that shows the price per gallon of <a href="https://www.eia.gov/dnav/pet/hist/EER_EPLLPA_PF4_Y44MB_DPGD.htm">propane in Mont Belvieu, TX</a>, as well as the <a href="https://www.eia.gov/dnav/pet/pet_pri_wfr_a_EPLLPA_PWR_dpgal_w.htm">wholesale and residential prices of propane</a> during the heating season for a variety of regions and states. Both pages provide an option to download the data, which I did to play with below.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-tank" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-tank" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-tank-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="DHO_tank.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:67.0%">
@@ -212,7 +203,7 @@ Warning
 <div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;And <a href="https://tankfarm.mymidnight.blog/blog/where-your-propane-was-before-it-got-to-you--mont-belvieu--texas/">this</a> for a brief but interesting note about propane storage in Mont Belvieu.</p></div></div><p><a href="#fig-DailyPrice" class="quarto-xref">Figure&nbsp;2</a> shows the daily price per gallon of propane at Mont Belvieu. There was a clear increase in price throughout the 2000s. Since then prices have varied, somewhat dramatically at times. Prices have dropped in the last year or so.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-DailyPrice" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-DailyPrice" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-DailyPrice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-DailyPrice-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
@@ -227,7 +218,7 @@ Figure&nbsp;2: Daily propane spot price (per gallon) at Mont Belvieu, TX.
 <p>Boxplots of average annual heating year prices (i.e., July to June) show the same basic trends – increase in the 2000s and more variability since then (<a href="#fig-AnnualPrice" class="quarto-xref">Figure&nbsp;3</a>).</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-AnnualPrice" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-AnnualPrice" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-AnnualPrice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-AnnualPrice-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
@@ -245,7 +236,7 @@ Figure&nbsp;3: Annual heating year (July to June) boxplots of daily propane spot
 <p>My common thought (shared by many others, especially those selling propane to customers) is that propane prices would be higher in fall and winter than spring and summer. <a href="#fig-DailyPriceBySeason" class="quarto-xref">Figure&nbsp;4</a> shows the daily prices (per gallon) separately for each of the last 14 heating years (July to June) to more easily see inter-annual trends. My thought was supported in years like 2016-17 and 2020-21, but was not supported in many other years. Furthermore, I don’t see a consistent inter-annual trend among years.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-DailyPriceBySeason" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-DailyPriceBySeason" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-DailyPriceBySeason-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-DailyPriceBySeason-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
@@ -274,7 +265,7 @@ Figure&nbsp;4: Daily propane spot price (per gallon) at Mont Belvieu, TX separat
 <p>From <a href="#fig-WIbySeason" class="quarto-xref">Figure&nbsp;5</a> it seems that residential prices stay fairly constant in some years (e.g., 2015-16, 2018-19, and 2022-23), but not others. In the other years it is common for the residential price to have a mid- late-winter peak (2016-17, 2017-18, 2020-21, and 2021-22).<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
 <div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;The 2013-14 heating year was anomalous and has been much discussed; e.g., <a href="https://www.nytimes.com/2014/02/08/us/as-propane-prices-rise-worries-grow-for-millions-of-americans.html">here</a>, <a href="https://rbnenergy.com/winter-2014-propane-crisis-the-rest-of-the-story">here</a>, <a href="https://www.gasteconline.com/cause-2014-propane-shortage-means-2/">here</a>, and <a href="https://stateimpact.npr.org/oklahoma/2014/02/20/how-corn-cold-weather-and-a-nuclear-disaster-caused-propane-prices-to-explode/">here</a>.</p></div></div><div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-WIbySeason" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-WIbySeason" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-WIbySeason-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-WIbySeason-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
@@ -289,7 +280,7 @@ Figure&nbsp;5: Average weekly propane price (per gallon) at Mont Belvieu, TX (da
 <p>I suspected that the difference in these years may be due to demand, such that in relatively warm winters local suppliers may have had enough propane in storage to meet demand and not have to buy during the winter. However, this theory was not supported by overall heating degree days for the state of Wisconsin (<a href="#fig-WIHDD" class="quarto-xref">Figure&nbsp;6</a>).<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
 <div class="no-row-height column-margin column-container"><div id="fn5"><p><sup>5</sup>&nbsp;Data from <a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/degree_days/">here</a>.</p></div></div><div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-WIHDD" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-WIHDD" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-WIHDD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-WIHDD-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
@@ -304,7 +295,7 @@ Figure&nbsp;6: Cumulative heatin degree days (HDD) for Wisconsin by heating year
 <p>Finally, it appears that it cost roughly $0.10 to get propane to Wisconsin in the late 2010s, but hat increased to approximately $0.20 in the early 2000s. The cost to get from the supplier to a residence was roughly $0.75 in the late 2010s, but became more variable and generally higher in the early 2020s.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-WIbreakdown" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full" data-fig-align="center">
+<div id="fig-WIbreakdown" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-WIbreakdown-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-WIbreakdown-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
@@ -357,18 +348,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -400,7 +380,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/derekogle\.com\/");
@@ -408,7 +408,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -510,7 +510,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

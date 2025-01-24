@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Blue Mesa.html</loc>
-    <lastmod>2024-11-05T20:43:23.920Z</lastmod>
-  </url>
-  <url>
     <loc>https://derekogle.com/professional/software.html</loc>
     <lastmod>2023-01-18T21:27:46.128Z</lastmod>
   </url>
@@ -77,8 +73,24 @@
     <lastmod>2025-01-23T19:39:48.163Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON SHORTOFF.html</loc>
-    <lastmod>2024-11-05T20:31:57.622Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON ZCTY.html</loc>
+    <lastmod>2024-12-23T01:48:28.317Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON TRUMMELBACH.html</loc>
+    <lastmod>2024-12-05T23:59:54.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON South_Crest.html</loc>
+    <lastmod>2024-07-07T02:43:27.645Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON Sandia_Peak_Tram.html</loc>
+    <lastmod>2024-11-05T20:53:59.129Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON RRGLGC.html</loc>
+    <lastmod>2024-11-05T23:39:22.689Z</lastmod>
   </url>
   <url>
     <loc>https://derekogle.com/personal/Hiking/ON RHODISS.html</loc>
@@ -89,36 +101,224 @@
     <lastmod>2024-07-07T02:43:27.632Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Painted Rim.html</loc>
-    <lastmod>2024-11-05T20:42:50.551Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON PANARAMOWEG.html</loc>
+    <lastmod>2024-12-06T16:02:41.076Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON GCSOUTHRIM.html</loc>
-    <lastmod>2024-11-05T20:34:56.469Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON MTFRT.html</loc>
+    <lastmod>2024-11-05T22:17:31.832Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON GCSANTAMSP.html</loc>
-    <lastmod>2024-07-07T02:43:27.571Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON LUCERNECLW.html</loc>
+    <lastmod>2024-12-13T21:16:32.404Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON BOONEFORK.html</loc>
-    <lastmod>2024-11-05T20:31:40.187Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON Long Logs.html</loc>
+    <lastmod>2024-11-05T20:43:58.576Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Boca Negra.html</loc>
-    <lastmod>2024-07-07T02:43:27.537Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Crystal Forest.html</loc>
-    <lastmod>2024-11-05T20:43:44.374Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON GORGE.html</loc>
+    <lastmod>2024-11-07T20:26:48.726Z</lastmod>
   </url>
   <url>
     <loc>https://derekogle.com/personal/Hiking/ON GCSKAIBAB.html</loc>
     <lastmod>2024-07-07T02:43:27.583Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Long Logs.html</loc>
-    <lastmod>2024-11-05T20:43:58.576Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON Crystal Forest.html</loc>
+    <lastmod>2024-11-05T20:43:44.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON CHCW1.html</loc>
+    <lastmod>2024-12-04T16:12:29.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON Boca Negra.html</loc>
+    <lastmod>2024-07-07T02:43:27.537Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON Bayfield Rd.html</loc>
+    <lastmod>2024-07-07T02:43:27.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Tettegouche Shovel Point.html</loc>
+    <lastmod>2025-01-24T20:27:37.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Split Rock River.html</loc>
+    <lastmod>2025-01-24T23:31:04.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Grand Portage.html</loc>
+    <lastmod>2025-01-24T14:34:48.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN ElyPeak ShortLine.html</loc>
+    <lastmod>2025-01-23T23:37:25.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/Iron River Area.html</loc>
+    <lastmod>2024-03-06T15:25:08.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA MBarrens2.html</loc>
+    <lastmod>2024-03-07T14:42:50.221Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA Camp Two North.html</loc>
+    <lastmod>2024-03-07T14:51:48.138Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA BBarrens1.html</loc>
+    <lastmod>2024-03-07T14:46:57.554Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/Iowa.html</loc>
+    <lastmod>2024-12-10T15:43:38.781Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Volga Orchard.html</loc>
+    <lastmod>2024-04-03T20:55:55.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Pulpit Rock.html</loc>
+    <lastmod>2024-07-07T02:43:27.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Glovers.html</loc>
+    <lastmod>2024-04-03T21:22:42.573Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Fish Farm Mounds.html</loc>
+    <lastmod>2024-12-09T15:26:07.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Duttons Lower.html</loc>
+    <lastmod>2024-12-10T16:26:22.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Brush Creek Canyon.html</loc>
+    <lastmod>2024-12-07T22:53:51.695Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA BBSP_East Gate Road.html</loc>
+    <lastmod>2024-04-03T20:54:30.443Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/fishing.html</loc>
+    <lastmod>2023-01-18T21:45:18.865Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/index.html</loc>
+    <lastmod>2024-01-17T19:52:22.611Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Cash.html</loc>
+    <lastmod>2024-04-07T14:15:47.816Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA BBSP_Backbone.html</loc>
+    <lastmod>2024-04-03T21:12:27.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA BBSP_North Gate Road.html</loc>
+    <lastmod>2024-04-03T21:12:52.996Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Dunning Springs.html</loc>
+    <lastmod>2024-07-07T02:43:27.466Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Echo Valley Environmental Nature Trail.html</loc>
+    <lastmod>2024-04-03T20:59:23.479Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Gilbertson I.html</loc>
+    <lastmod>2024-04-03T15:14:47.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Pony Hollow Trail.html</loc>
+    <lastmod>2024-07-07T02:43:27.480Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Volga Depot.html</loc>
+    <lastmod>2024-04-03T20:55:51.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IA Volga Ridge.html</loc>
+    <lastmod>2024-04-03T20:55:53.567Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA Anderson Grade.html</loc>
+    <lastmod>2024-03-07T14:44:22.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA Camp 9 East.html</loc>
+    <lastmod>2024-03-07T14:31:32.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA MBarrens1.html</loc>
+    <lastmod>2024-03-07T14:38:05.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/IRA Rainbow Lakes NCT.html</loc>
+    <lastmod>2024-03-07T14:27:05.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/Minnesota.html</loc>
+    <lastmod>2025-01-24T23:16:45.567Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Fantasia.html</loc>
+    <lastmod>2025-01-23T23:36:54.951Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Kadunce.html</loc>
+    <lastmod>2025-01-24T16:30:09.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Temperance Loop.html</loc>
+    <lastmod>2025-01-24T15:53:08.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/MN Waabizheshikana.html</loc>
+    <lastmod>2025-01-23T23:37:05.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON Blue Mesa.html</loc>
+    <lastmod>2024-11-05T20:43:23.920Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON BOONEFORK.html</loc>
+    <lastmod>2024-11-05T20:31:40.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON CHCW2.html</loc>
+    <lastmod>2024-12-04T16:12:00.023Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON GCSANTAMSP.html</loc>
+    <lastmod>2024-07-07T02:43:27.571Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON GCSOUTHRIM.html</loc>
+    <lastmod>2024-11-05T20:34:56.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON GORNERGRAT.html</loc>
+    <lastmod>2024-11-07T15:02:20.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON LUCERNECBW.html</loc>
+    <lastmod>2024-12-20T14:58:55.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON LUCERNECMW.html</loc>
+    <lastmod>2024-12-17T17:12:16.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON Painted Rim.html</loc>
+    <lastmod>2024-11-05T20:42:50.551Z</lastmod>
   </url>
   <url>
     <loc>https://derekogle.com/personal/Hiking/ON Picacho Peak.html</loc>
@@ -129,12 +329,28 @@
     <lastmod>2024-11-05T20:43:08.132Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Sandia_Peak_Tram.html</loc>
-    <lastmod>2024-11-05T20:53:59.129Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON RRDINO.html</loc>
+    <lastmod>2024-11-05T23:55:27.271Z</lastmod>
   </url>
   <url>
-    <loc>https://derekogle.com/personal/Hiking/ON South_Crest.html</loc>
-    <lastmod>2024-07-07T02:43:27.645Z</lastmod>
+    <loc>https://derekogle.com/personal/Hiking/ON RRTPOST.html</loc>
+    <lastmod>2024-11-05T22:39:25.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON SHORTOFF.html</loc>
+    <lastmod>2024-11-05T20:31:57.622Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON STLUZI.html</loc>
+    <lastmod>2024-12-04T16:05:44.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON WENGEN.html</loc>
+    <lastmod>2024-12-06T02:54:47.978Z</lastmod>
+  </url>
+  <url>
+    <loc>https://derekogle.com/personal/Hiking/ON ZMUTT.html</loc>
+    <lastmod>2024-11-07T15:01:03.291Z</lastmod>
   </url>
   <url>
     <loc>https://derekogle.com/personal/Hiking/Rainbow Lake Wilderness Area.html</loc>
@@ -203,133 +419,5 @@
   <url>
     <loc>https://derekogle.com/professional/publications.html</loc>
     <lastmod>2023-01-09T16:10:42.584Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/Iron River Area.html</loc>
-    <lastmod>2024-03-06T15:25:08.652Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Cash.html</loc>
-    <lastmod>2024-04-07T14:15:47.816Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON MTFRT.html</loc>
-    <lastmod>2024-11-05T22:17:31.832Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON RRTPOST.html</loc>
-    <lastmod>2024-11-05T22:39:25.667Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON RRDINO.html</loc>
-    <lastmod>2024-11-05T23:55:27.271Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON RRGLGC.html</loc>
-    <lastmod>2024-11-05T23:39:22.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON GORNERGRAT.html</loc>
-    <lastmod>2024-11-07T15:02:20.630Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON ZMUTT.html</loc>
-    <lastmod>2024-11-07T15:01:03.291Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON GORGE.html</loc>
-    <lastmod>2024-11-07T20:26:48.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON STLUZI.html</loc>
-    <lastmod>2024-12-04T16:05:44.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON CHCW1.html</loc>
-    <lastmod>2024-12-04T16:12:29.174Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON CHCW2.html</loc>
-    <lastmod>2024-12-04T16:12:00.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON TRUMMELBACH.html</loc>
-    <lastmod>2024-12-05T23:59:54.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON WENGEN.html</loc>
-    <lastmod>2024-12-06T02:54:47.978Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON PANARAMOWEG.html</loc>
-    <lastmod>2024-12-06T16:02:41.076Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/Iowa.html</loc>
-    <lastmod>2024-12-10T15:43:38.781Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/IA Brush Creek Canyon.html</loc>
-    <lastmod>2024-12-07T22:53:51.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/IA Fish Farm Mounds.html</loc>
-    <lastmod>2024-12-09T15:26:07.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/IA Duttons Lower.html</loc>
-    <lastmod>2024-12-10T16:26:22.043Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON LUCERNECLW.html</loc>
-    <lastmod>2024-12-13T21:16:32.404Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON LUCERNECMW.html</loc>
-    <lastmod>2024-12-17T17:12:16.288Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON LUCERNECBW.html</loc>
-    <lastmod>2024-12-20T14:58:55.359Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON ZCTY.html</loc>
-    <lastmod>2024-12-23T01:48:28.317Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/ON Bayfield Rd.html</loc>
-    <lastmod>2024-07-07T02:43:27.512Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN Fantasia.html</loc>
-    <lastmod>2025-01-23T23:36:54.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN Waabizheshikana.html</loc>
-    <lastmod>2025-01-23T23:37:05.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/Minnesota.html</loc>
-    <lastmod>2025-01-24T20:03:53.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN ElyPeak ShortLine.html</loc>
-    <lastmod>2025-01-23T23:37:25.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN Grand Portage.html</loc>
-    <lastmod>2025-01-24T14:34:48.713Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN Kadunce.html</loc>
-    <lastmod>2025-01-24T16:30:09.046Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN Temperance Loop.html</loc>
-    <lastmod>2025-01-24T15:53:08.183Z</lastmod>
-  </url>
-  <url>
-    <loc>https://derekogle.com/personal/Hiking/MN Tettegouche Shovel Point.html</loc>
-    <lastmod>2025-01-24T20:27:37.380Z</lastmod>
   </url>
 </urlset>
