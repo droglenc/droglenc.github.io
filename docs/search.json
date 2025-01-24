@@ -2780,7 +2780,7 @@
     "href": "personal/Hiking/Minnesota.html",
     "title": "Minnesota Hiking",
     "section": "",
-    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nEly’s Peak via Short Line Trail\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nTemperance River loop",
+    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nEly’s Peak via Short Line Trail\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nTemperance River loop\nTettegouche SP and Shovel Point",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2961,5 +2961,47 @@
     "title": "Temperance River Loop",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNTMPR01\nTemperance River spur\nHwy 61 to Gitchi-Gami State Trail\nTrail\n0.20\n0.20\n71\n\n\n2\nMNTMPR02\nSuperior Hiking Trail\nGitchi-Gami State Trail to Temperance River loop trail\nTrail\n0.18\n0.38\n33\n\n\n3\nMNTMPR03\nSuperior Hiking Trail\nTemperance River loop trail to Temperance River loop trail\nTrail\n0.66\n1.04\n120\n\n\n4\nMNTMPR04\nTemperance River loop trail\nSuperior Hiking Trail to\nTrail\n0.37\n1.41\n-86\n\n\n5\nMNTMPR05\nTemperance River loop trail\nto\nTrail\n0.29\n1.70\n-42\n\n\n6\nMNTMPR06\nTemperance River loop trail\nto Superior Hiking Trail\nTrail\n0.15\n1.86\n-9\n\n\n7\nMNTMPR02\nSuperior Hiking Trail\nTemperance River loop trail to Gitchi-Gami State Trail\nTrail\n0.18\n2.03\n-33\n\n\n8\nMNTMPR01\nTemperance River spur\nGitchi-Gami State Trail to Hwy 61\nTrail\n0.20\n2.23\n-71"
+  },
+  {
+    "objectID": "personal/Hiking/MN Tettegouche Shovel Point.html",
+    "href": "personal/Hiking/MN Tettegouche Shovel Point.html",
+    "title": "Temperance River Loop",
+    "section": "",
+    "text": "A favorite stop on our anniversary trips is Tettegouche State Park. A favorite hike here is to head out to Shovel Point, with several stops at the overlooks, and then over to the mouth of the Baptism River. We have hiked the trails inland in the past but I did not record tracks."
+  },
+  {
+    "objectID": "personal/Hiking/MN Tettegouche Shovel Point.html#walk-specific-map",
+    "href": "personal/Hiking/MN Tettegouche Shovel Point.html#walk-specific-map",
+    "title": "Temperance River Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Tettegouche Shovel Point.html#elevation-profile",
+    "href": "personal/Hiking/MN Tettegouche Shovel Point.html#elevation-profile",
+    "title": "Temperance River Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Tettegouche Shovel Point.html#images",
+    "href": "personal/Hiking/MN Tettegouche Shovel Point.html#images",
+    "title": "Temperance River Loop",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nMNSHVLP09: South towards Palisades Head\n\n\n\n\n\n\n\nMNTGCH09: North towards Shovel Point\n\n\n\n\n\n\n\nMNSHVLP02: South towards Palisades Head\n\n\n\n\n\n\n\nMNSHVLP02: Cash at First Overlook\n\n\n\n\n\n\n\nMNSHVLP02: Cash and I on Shovel Point\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/MN Tettegouche Shovel Point.html#gpx-download",
+    "href": "personal/Hiking/MN Tettegouche Shovel Point.html#gpx-download",
+    "title": "Temperance River Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Tettegouche Shovel Point.html#summary-information",
+    "href": "personal/Hiking/MN Tettegouche Shovel Point.html#summary-information",
+    "title": "Temperance River Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNSHVLP01\nShovel Point Trail\nTettegouche SP Visitor Center to Overlook spur\nTrail\n0.20\n0.20\n-47\n\n\n2\nMNSHVLP09\nShovel Point Trail (Overlook spur)\nto Shovel Point Trail\nTrail\n0.01\n0.20\n2\n\n\n3\nMNSHVLP09\nShovel Point Trail (Overlook spur)\nShovel Point Trail to\nTrail\n0.01\n0.21\n-2\n\n\n4\nMNSHVLP02\nShovel Point Trail\nOverlook spur to Shovel Point Observation Deck\nTrail\n0.44\n0.66\n3\n\n\n5\nMNSHVLP02\nShovel Point Trail\nShovel Point Observation Deck to Overlook spur\nTrail\n0.44\n1.10\n-3\n\n\n6\nMNSHVLP01\nShovel Point Trail\nOverlook spur to Tettegouche SP Visitor Center\nTrail\n0.20\n1.30\n47\n\n\n7\nMNTGCH01\nTettegouche Trail\nTettegouche SP Visitor Center to Overlook spur\nTrail\n0.17\n1.46\n-65\n\n\n8\nMNTGCH09\nTettegouche Trail (Overlook spur)\nTettegouche Trail to Baptism River Overlook\nTrail\n0.01\n1.47\n-8\n\n\n9\nMNTGCH09\nTettegouche Trail (Overlook spur)\nBaptism River Overlook to Tettegouche Trail\nTrail\n0.01\n1.48\n8\n\n\n10\nMNTGCH01\nTettegouche Trail\nOverlook spur to Tettegouche SP Visitor Center\nTrail\n0.17\n1.64\n65"
   }
 ]
