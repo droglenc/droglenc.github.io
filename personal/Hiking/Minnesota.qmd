@@ -1,0 +1,35 @@
+---
+---
+
+# Minnesota Hiking
+![](../../zresources/img/MNhiking.jpg){fig-align="center"}
+
+Kim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.
+
+```{r}
+#| label: setup
+#| include: false
+#| out.width: 90%
+
+project <- "Minnesota"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
+
+# Make vector of colors for Iowa
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+```
+
+- **Duluth Area**
+  - [Ely's Peak via Short Line Trail](MN ElyPeak ShortLine.html)
+  - [Waabizheshikana Trail Loop](MN Waabizheshikana.html)
+
+- **North Shore**
+  - [Fantasia Overlook (Silver Bay)](MN Fantasia.html)
+  - [High and Middle Falls (Grand Portage SP)](MN Grand Portage.html)
