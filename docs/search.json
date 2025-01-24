@@ -2918,7 +2918,7 @@
     "href": "personal/Hiking/MN Kadunce.html#summary-information",
     "title": "Kadunce River Trail",
     "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNKDNC01\nKadunce River trail\nHwy 61 to Superior Hiking Trail\nTrail\n0.64\n0.64\n205"
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNKDNC01\nKadunce River trail\nSuperior Hiking Trail to Hwy 61\nTrail\n0.64\n0.64\n-205\n\n\n2\nMNKDNC01\nKadunce River trail\nHwy 61 to Superior Hiking Trail\nTrail\n0.64\n1.28\n205"
   },
   {
     "objectID": "personal/Hiking/MN Temperance Loop.html",
