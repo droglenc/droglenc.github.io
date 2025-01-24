@@ -2780,7 +2780,7 @@
     "href": "personal/Hiking/Minnesota.html",
     "title": "Minnesota Hiking",
     "section": "",
-    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nEly’s Peak via Short Line Trail\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nHigh and Middle Falls (Grand Portage SP)",
+    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nEly’s Peak via Short Line Trail\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nTemperance River loop",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2884,5 +2884,82 @@
     "title": "High and Middle Falls",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNGPFT01\nFalls Trail\nVisitor Center to High Falls / Middle Falls Trail\nTrail\n0.41\n0.41\n214\n\n\n2\nMNGPHF01\nHigh Falls Trail\nFalls Trail / Middle Falls Trail to First Overlook spur\nTrail\n0.08\n0.49\n26\n\n\n3\nMNGPHF03\nHigh Falls Trail\nFirst Overlook to Second Overlook spur\nTrail\n0.02\n0.51\n21\n\n\n4\nMNGPHF03\nHigh Falls Trail\nSecond Overlook spur to First Overlook\nTrail\n0.02\n0.53\n-21\n\n\n5\nMNGPHF02\nHigh Falls Trail\nFirst Overlook spur to Second Overlook\nTrail\n0.04\n0.57\n2\n\n\n6\nMNGPHF02\nHigh Falls Trail\nSecond Overlook to First Overlook spur\nTrail\n0.04\n0.61\n-2\n\n\n7\nMNGPHF01\nHigh Falls Trail\nFirst Overlook spur to Falls Trail / Middle Falls Trail\nTrail\n0.08\n0.69\n-26\n\n\n8\nMNGPMF01\nMiddle Falls Trail\nFalls Trail / High Falls Trail to Peak Overlook spur\nTrail\n0.70\n1.39\n313\n\n\n9\nMNGPMF07\nPeak Overlook Spur\nMiddle Falls Trail to Peak Overlook\nTrail\n0.05\n1.45\n39\n\n\n10\nMNGPMF07\nPeak Overlook Spur\nPeak Overlook to Middle Falls Trail\nTrail\n0.05\n1.50\n-39\n\n\n11\nMNGPMF02\nMiddle Falls Trail\nPeak spur to Loop return\nTrail\n0.68\n2.19\n-109\n\n\n12\nMNGPMF03\nMiddle Falls Trail\nLoop retun to High Falls Overlook\nTrail\n0.35\n2.54\n-71\n\n\n13\nMNGPMF09\nMiddle Falls Overlook Spur\nHigh Falls Overlook to Middle Falls Trail\nTrail\n0.01\n2.55\n-9\n\n\n14\nMNGPMF09\nMiddle Falls Overlook Spur\nMiddle Falls Trail to High Falls Overlook\nTrail\n0.01\n2.56\n9\n\n\n15\nMNGPMF04\nMiddle Falls Trail\nHigh Falls Overlook spur to Loop start\nTrail\n0.71\n3.27\n70\n\n\n16\nMNGPMF02\nMiddle Falls Trail\nLoop return to Peak spur\nTrail\n0.68\n3.95\n109\n\n\n17\nMNGPMF01\nMiddle Falls Trail\nPeak Overlook spur to Falls Trail / High Falls Trail\nTrail\n0.70\n4.65\n-313\n\n\n18\nMNGPFT01\nFalls Trail\nHigh Falls / Middle Falls Trail to Visitor Center\nTrail\n0.41\n5.06\n-214"
+  },
+  {
+    "objectID": "personal/Hiking/MN Kadunce.html",
+    "href": "personal/Hiking/MN Kadunce.html",
+    "title": "Kadunce River Trail",
+    "section": "",
+    "text": "Kim, Cash and I stopped at the Kadunce River wayside and hiked the trail along the river until we reached the bridge across the river on the Superior Hiking Trail. This is a nice short trail that leads to the SHT, which we will probably explore further sometime. We did not take any pictures."
+  },
+  {
+    "objectID": "personal/Hiking/MN Kadunce.html#walk-specific-map",
+    "href": "personal/Hiking/MN Kadunce.html#walk-specific-map",
+    "title": "Kadunce River Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Kadunce.html#elevation-profile",
+    "href": "personal/Hiking/MN Kadunce.html#elevation-profile",
+    "title": "Kadunce River Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Kadunce.html#gpx-download",
+    "href": "personal/Hiking/MN Kadunce.html#gpx-download",
+    "title": "Kadunce River Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Kadunce.html#summary-information",
+    "href": "personal/Hiking/MN Kadunce.html#summary-information",
+    "title": "Kadunce River Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNKDNC01\nKadunce River trail\nHwy 61 to Superior Hiking Trail\nTrail\n0.64\n0.64\n205"
+  },
+  {
+    "objectID": "personal/Hiking/MN Temperance Loop.html",
+    "href": "personal/Hiking/MN Temperance Loop.html",
+    "title": "Temperance River Loop",
+    "section": "",
+    "text": "On January 12, 2024, Kim, Cash and I hiked along the Temperance River (in the Temperance River State Park) from the parking area on Highway 61. The beginning portion of the trail along the river is gorgeous with several falls and swirling plunge pools. Parts of the trail are right on the edge of the river. Upstream from all of the falls is still beautiful, just not as awe inspiring. Eventually we turned away from the river and generally walked south once the [Superior Hiking Trail]((https://superiorhiking.org/) turned north towards Carlton Peak. This portion of the trail was a very nice walk through the woods, though we were laboring some in the snow (we could have used our snow shoes). Eventually we returned to the SHT along the river where we turned back towards the parking lot. We had a very nice hike!"
+  },
+  {
+    "objectID": "personal/Hiking/MN Temperance Loop.html#walk-specific-map",
+    "href": "personal/Hiking/MN Temperance Loop.html#walk-specific-map",
+    "title": "Temperance River Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Temperance Loop.html#elevation-profile",
+    "href": "personal/Hiking/MN Temperance Loop.html#elevation-profile",
+    "title": "Temperance River Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Temperance Loop.html#images",
+    "href": "personal/Hiking/MN Temperance Loop.html#images",
+    "title": "Temperance River Loop",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nMNTMPR01: Bridge over Temperance River\n\n\n\n\n\n\n\nMNTMPR02: Temperance River\n\n\n\n\n\n\n\nMNTMPR02: Kim and Cash on the trail\n\n\n\n\n\n\n\nMNTMPR02: Cash on the trail\n\n\n\n\n\n\n\nMNTMPR02: Cash and I on the trail\n\n\n\n\n\n\n\nMNTMPR05: Kim and Cash on the trail\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/MN Temperance Loop.html#gpx-download",
+    "href": "personal/Hiking/MN Temperance Loop.html#gpx-download",
+    "title": "Temperance River Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Temperance Loop.html#summary-information",
+    "href": "personal/Hiking/MN Temperance Loop.html#summary-information",
+    "title": "Temperance River Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNTMPR01\nTemperance River spur\nHwy 61 to Gitchi-Gami State Trail\nTrail\n0.20\n0.20\n71\n\n\n2\nMNTMPR02\nSuperior Hiking Trail\nGitchi-Gami State Trail to Temperance River loop trail\nTrail\n0.18\n0.38\n33\n\n\n3\nMNTMPR03\nSuperior Hiking Trail\nTemperance River loop trail to Temperance River loop trail\nTrail\n0.66\n1.04\n120\n\n\n4\nMNTMPR04\nTemperance River loop trail\nSuperior Hiking Trail to\nTrail\n0.37\n1.41\n-86\n\n\n5\nMNTMPR05\nTemperance River loop trail\nto\nTrail\n0.29\n1.70\n-42\n\n\n6\nMNTMPR06\nTemperance River loop trail\nto Superior Hiking Trail\nTrail\n0.15\n1.86\n-9\n\n\n7\nMNTMPR02\nSuperior Hiking Trail\nTemperance River loop trail to Gitchi-Gami State Trail\nTrail\n0.18\n2.03\n-33\n\n\n8\nMNTMPR01\nTemperance River spur\nGitchi-Gami State Trail to Hwy 61\nTrail\n0.20\n2.23\n-71"
   }
 ]

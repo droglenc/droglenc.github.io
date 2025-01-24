@@ -33,3 +33,5 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 - **North Shore**
   - [Fantasia Overlook (Silver Bay)](MN Fantasia.html)
   - [High and Middle Falls (Grand Portage SP)](MN Grand Portage.html)
+  - [Kadunce River trail](MN Kadunce.html)
+  - [Temperance River loop](MN Temperance Loop.html)
