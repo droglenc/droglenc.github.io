@@ -28,6 +28,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 
 - **Duluth Area**
   - [Ely's Peak via Short Line Trail](MN ElyPeak ShortLine.html)
+  - [Enger Park Tower - Observation Hill](MN_Enger_Observation.html)
   - [Waabizheshikana Trail Loop](MN Waabizheshikana.html)
 
 - **North Shore**
