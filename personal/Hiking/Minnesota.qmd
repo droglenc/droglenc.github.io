@@ -27,12 +27,14 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 ```
 
 - **Duluth Area**
+  - [Chester Creek Ravine](MN Chester Creek.html)
   - [Ely's Peak via Short Line Trail](MN ElyPeak ShortLine.html)
   - [Enger Park Tower - Observation Hill](MN Enger_Observation.html)
   - [Waabizheshikana Trail Loop](MN Waabizheshikana.html)
 
 - **North Shore**
   - [Fantasia Overlook (Silver Bay)](MN Fantasia.html)
+  - [Goosebery Falls to Lake Trail](MN Goosebery_Lake.html)
   - [High and Middle Falls (Grand Portage SP)](MN Grand Portage.html)
   - [Kadunce River trail](MN Kadunce.html)
   - [Split Rock River](MN Split Rock River.html)
