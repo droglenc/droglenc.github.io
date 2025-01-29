@@ -34,7 +34,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 
 - **North Shore**
   - [Fantasia Overlook (Silver Bay)](MN Fantasia.html)
-  - [Goosebery Falls to Lake Trail](MN Goosebery_Lake.html)
+  - [Goosebery Falls to Lake Trail](MN Gooseberry_Lake.html)
   - [High and Middle Falls (Grand Portage SP)](MN Grand Portage.html)
   - [Kadunce River trail](MN Kadunce.html)
   - [Split Rock River](MN Split Rock River.html)
