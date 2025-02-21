@@ -9,7 +9,7 @@ On February 22, 2023 Kim and I hiked up to Broadway Cave on a windy (and dusty) 
 #| include: false
 
 # Make vector of colors
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -18,7 +18,9 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("BCMCM01","BCMCM02","BCMCM03","BCMCM04","BCMCM04","BCMCM05","BCMCM06","BCMCM06","BCMCM05","BCMCM03","BCMCM02","BCMCM01")
+walkIDs <- c("JCBCUT15","JCBCUT14","MNMTCN01","BRDWCV01","BRDWCV01",
+             "MNMTCN02","MNMTCN03","MNMTCN03","MNMTCN02","MNMTCN01",
+             "JCBCUT14","JCBCUT15")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

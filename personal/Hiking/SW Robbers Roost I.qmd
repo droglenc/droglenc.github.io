@@ -10,7 +10,7 @@ On February 25, 2023 I hiked to Robber's Roost via the Carney Springs Trail (sta
 #| include: false
 
 # Make vector of colors
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -19,7 +19,9 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("RBRR01","RBRR02","RBRR03","RBRR04","RBRR05","RBRR06","RBRR07","RBRR08","RBRR09","RBRR10","RBRR11","RBRR12","RBRR13")
+walkIDs <- c("LGLDMN13","LGLDMN12","CRNYSP03","CRNYSP04","CRNYSP05",
+             "RDGLIN02","RBRRST01","RBRRST01","RDGLIN01","GERCAV03",
+             "GERCAV02","GERCAV01","BLUFSP01","DTCHMN01","EPRLTR01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

@@ -1,16 +1,16 @@
 ---
-title: "Lost Goldmine Trail"
+title: "Goldmine Trail"
 subtitle: "Broadway Ave TH to Cloudview Ave TH"
 ---
 
-On February 15, 2024 Kim and I went for a quick in the desert on the Lost Goldmine Trail from the Broadway Ave Trailhead to the E Cloudview Ave "Trailhead." This trail is relatively flat, provides some beautiful views of cacti, but was somewhat irritating with the many grapefruit sized rocks in the trail that made walking difficult and the many (needless?) "switchbacks" in the trail (zoom in on my track to see them). It was nice to get out for a quick hike, but we probably won't do this one again (it is more interesting to hike up to the [Broadway Cave](SW Broadway Cave.html)).
+On February 15, 2024 Kim and I went for a quick hike in the desert on the Goldmine Trail from the Broadway Ave Trailhead to the E Cloudview Ave "Trailhead." This trail is relatively flat, provides some beautiful views of cacti, but was somewhat irritating with the many grapefruit sized rocks in the trail that made walking difficult and the many (needless?) "switchbacks" in the trail (zoom in on my track to see them). It was nice to get out for a quick hike, but we probably won't do this one again (it is more interesting to hike up to the [Broadway Cave](SW Broadway Cave.html)).
 
 ```{r}
 #| label: setup
 #| include: false
 
 # Make vector of colors
-clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -18,12 +18,12 @@ project <- "Superstition Wilderness"
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
 
-walkID <- "SW_LGM_BW2CV"
+walkID <- "SW_Goldmine"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("LGMN01","LGMN02","LGMN02","LGMN01")
+walkIDs <- c("JCBCUT15","GLDMIN01","GLDMIN01","JCBCUT15")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

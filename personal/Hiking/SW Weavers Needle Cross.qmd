@@ -2,14 +2,14 @@
 title: "Weaver's Needle Cross Loop"
 ---
 
-I hiked a loop that included Weaver's Needle Crosscut trail on February 11, 2024. The loop begins with the Dutchman's Trail and Brush Spring Trail that forms the end of the [Cave Trail loop](SW Peralta Cave Trail.html). I continued on the Brush Spring Trail through a pass into Needle Canyon. I then hopped on the Terrapin Trail to Bluff Saddle where I began the Weaver's Needle Crosscut Trail. The first half or so of the crosscut trail is easy to follow but the last half requires some scrambling before a fairly quick descent to the Peralta Trail. I don't think I followed a typical path but I could see the Peralta Trail and just navigated my way down it. I then returned on the Peralta Trail through Fremont's Saddle and down to the Peralta Trailhead. This was a beautiful day hike that I will definitely do again.
+I hiked a loop that included Weaver's Needle Crosscut trail on February 11, 2024. The loop begins with the Dutchman's Trail and Brush Spring Trail that forms the end of the [Cave Trail loop](SW Peralta Cave Trail.html). I continued on the Brush Spring Trail through a pass into Needle Canyon. I then hopped on the Terrapin Trail to Bluff Saddle where I began the Weaver's Needle Crosscut Trail. The first half or so of the crosscut trail is easy to follow but the last half requires some scrambling before a fairly quick descent to the Peralta Canyon Trail. I don't think I followed a typical path but I could see the Peralta Canyon Trail and just navigated my way down it. I then returned on the Peralta Canyon Trail through Fremont's Saddle and down to the Peralta Trailhead. This was a beautiful day hike that I will definitely do again.
 
 ```{r}
 #| label: setup
 #| include: false
 
 # Make vector of colors
-clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -22,7 +22,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("WVRC01","WVRC02","WVRC03","WVRC04","WVRC05","WVRC06","WVRC07")
+walkIDs <- c("DTCHMN01","BLUFSP01","BLUFSP02","TERRAP01","WVRCUT01",
+             "PRLTCN02","PRLTCN01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

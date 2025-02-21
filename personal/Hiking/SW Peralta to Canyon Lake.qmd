@@ -2,14 +2,14 @@
 title: "Peralta to Canyon Lake Marina"
 ---
 
-On February 23, 2023 Kim and I embarked on our first walk-through hike in the Superstition Mountains. Our "support team" dropped us off at the Peralta TH about 7am when it was 45<sup>o</sup>F. It was a pretty easy hike to Fremont Saddle, which we had done before. We then dropped over the saddle and continued on the Peralta Trail past the Needle to the Boulder Canyon Trail. It was neat to be so close to the Needle during this part of the trail. The Boulder Canyon Trail proved to be a bit challenging because the stream was fairly full of water and we had to cross it 25 times. Most crossings were pretty straight-forward, but there were several where we had to search up or downstream to find rocks close enough for both of us to cross. After our final crossing we climbed pretty steeply out of the canyon to get our first view of Canyon Lake and an awesome view back to the south of the terrain we had covered. A downhill hike to Canyon Lake Marina where our "support team" picked us up. We then went to Tortilla Flats for a beer and burger! My favorite part of this trail was seeing Weaver's Needle from many different perspectives. All-in-all a fun trail that was 14.8 miles long and took us about 8.5 hours to complete.
+On February 23, 2023 Kim and I embarked on our first walk-through hike in the Superstition Mountains. Our "support team" dropped us off at the Peralta TH about 7am when it was 45<sup>o</sup>F. It was a pretty easy hike to Fremont Saddle, which we had done before. We then dropped over the saddle and continued on the Peralta Canyon Trail past Weaver's Needle to the Boulder Canyon Trail. It was neat to be so close to the Needle during this part of the trail. The Boulder Canyon Trail proved to be a bit challenging because the stream was fairly full of water and we had to cross it 25 times. Most crossings were pretty straight-forward, but there were several where we had to search up or downstream to find rocks close enough for both of us to cross. After our final crossing we climbed pretty steeply out of the canyon to get our first view of Canyon Lake and an awesome view back to the south of the terrain we had covered. A downhill hike to Canyon Lake Marina where our "support team" picked us up. We then went to Tortilla Flats for a beer and burger! My favorite part of this trail was seeing Weaver's Needle from many different perspectives. All-in-all a fun trail that was 14.8 miles long and took us about 8.5 hours to complete.
 
 ```{r}
 #| label: setup
 #| include: false
 
 # Make vector of colors
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -18,7 +18,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("POCL01","POCL02","POCL03","POCL04","POCL05","POCL06","POCL07","POCL08","POCL09","POCL10")
+walkIDs <- c("PRLTCN01","PRLTCN02","PRLTCN03","DTCHMN50","DTCHMN51",
+             "BLDR01","BLDR02","BLDRCN01","BLDRCN02","BLDRCN03")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

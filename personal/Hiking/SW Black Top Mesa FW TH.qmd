@@ -3,14 +3,14 @@ title: "Black Top Mesa from First Water TH"
 subtitle: "Dutchman's & Second Water Trail Loop"
 ---
 
-On March 9, 2022 Kim and I hiked to Black Top Mesa from the First Water trailhead via Dutchman's and Bull Pass trails. This was a long walk for us (~12.5 mi) but offered stunning views of Weaver's Needle from the north, which we had not seen before. The climb up to the top was steep but the trail was fairly easy to navigate. We returned to the trailhead via the Black Mesa and Second Water trails. There were many more cacti no the trail back. Fun hike. Details are below.
+On March 9, 2022 Kim and I hiked to Black Top Mesa from the First Water trailhead via Dutchman's and Bull Pass trails. This was a long walk for us (~12.5 mi) but offered stunning views of Weaver's Needle from the north, which we had not seen before. The climb up to the top was steep but the trail was fairly easy to navigate. We returned to the trailhead via the Black Mesa and Second Water trails. There were many more cacti on the trail back. Fun hike. Details are below.
 
 ```{r}
 #| label: setup
 #| include: false
 
 # Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -19,9 +19,10 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("BMSA01","BMSA02","BMSA03","BMSA04","BMSA05","BMSA06","BMSA07","BMSA08",
-             "BMSA08","BMSA07","BMSA06","BMSA05","BMSA10","BMSA11","BMSA12","BMSA13",
-             "BMSA01")
+walkIDs <- c("DTCHMN56","DTCHMN55","DTCHMN54","DTCHMN53","DTCHMN52",
+             "DTCHMN51","BULLPS01","BTPMSA01","BTPMSA01","BULLPS01",
+             "DTCHMN51","DTCHMN52","BLKMSA01","SCDWTR03","SCDWTR02",
+             "SCDWTR01","DTCHMN56")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

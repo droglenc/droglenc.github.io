@@ -3,14 +3,14 @@ title: "Weaver's Needle"
 subtitle: "Peralta & Cave Trail Loop"
 ---
 
-On March 8, 2022 Kim and I hiked out to see Weaver's Needle from Fremont Saddle. The Peralta Trail (102) portion is a moderately steep climb to Fremont Saddle for a great view of Weaver's Needle. We took a short walk out to a Pinon tree for a closer view of the Needle. The Cave Trail portion was a challenge to find and included some scrambling. A fun trail all around. Details are below.
+On March 8, 2022 Kim and I hiked out to see Weaver's Needle from Fremont Saddle. The Peralta Trail Canyon (102) portion is a moderately steep climb to Fremont Saddle for a great view of Weaver's Needle. We took a short walk out to a Pinon tree for a closer view of the Needle. The Cave Trail portion was a challenge to find and included some scrambling. A fun trail all around. Details are below.
 
 ```{r}
 #| label: setup
 #| include: false
 
-# Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+# Make vector of colors
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -19,7 +19,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("POCV01","POCV02","POCV03","POCV03","POCV04","POCV05","POCV06")
+walkIDs <- c("PRLTCN01","GERCAV03","PNYNTR01","PNYNTR01","GERCAV02",
+             "GERCAV01","BLUFSP01","DTCHMN01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

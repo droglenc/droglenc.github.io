@@ -9,8 +9,8 @@ On March 10, 2022 Kim and I hiked the Massacre Grounds trail to an impressive cl
 #| label: setup
 #| include: false
 
-# Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+# Make vector of colors
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -19,7 +19,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("MSCR01","MSCR02","MSCR02","MSCR03","MSCR03","MSCR01")
+walkIDs <- c("MSCRFL01","MSCRFL03","MSCRFL03","MSCRFL02","MSCRFL02","MSCRFL01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

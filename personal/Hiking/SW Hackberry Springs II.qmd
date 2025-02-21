@@ -9,7 +9,7 @@ On February 17, 2024 Kim and I hiked the Hackberry Springs trail from the First 
 #| include: false
 
 # Make vector of colors
-clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -22,7 +22,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("HKBY21","HKBY22","HKBY23","HKBY24","HKBY25","HKBY26","HKBY27","HKBY21")
+walkIDs <- c("HKBYSP35","HKBYSP15","HKBYSP02","HKBYSP10","HKBYSP20",
+             "HKBYSP04","HKBYSP30","HKBYSP35")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

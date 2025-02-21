@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <gpx version="1.1"
 creator="Viking 1.10 -- http://viking.sf.net/"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v2 http://www.garmin.com/xmlschemas/TrackPointExtensionv2.xsd http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd">
 <trk>
-  <name>MSCR01</name>
-  <desc>Crosscut TH to Massacre Grounds Tr (Waterfall spur)</desc>
+  <name>MSCRFL01</name>
+  <desc>Massacre Falls TH to Overlook spur</desc>
   <trkseg>
   <trkpt lat="33.4715610703441" lon="-111.469129782316">
     <ele>645.558</ele>
@@ -26,7 +26,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>645.806</ele>
     <time>2022-03-11T00:00:05Z</time>
   </trkpt>
-  <trkpt lat="33.4715482201707" lon="-111.468976816362">
+  <trkpt lat="33.471542052521905" lon="-111.46898226082018">
     <ele>645.662</ele>
     <time>2022-03-11T00:00:06Z</time>
   </trkpt>
@@ -98,7 +98,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>647.165</ele>
     <time>2022-03-11T00:00:23Z</time>
   </trkpt>
-  <trkpt lat="33.471656846385" lon="-111.468262944573">
+  <trkpt lat="33.4716427350625" lon="-111.4682647699087">
     <ele>647.674</ele>
     <time>2022-03-11T00:00:24Z</time>
   </trkpt>
@@ -118,7 +118,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>649.081</ele>
     <time>2022-03-11T00:00:28Z</time>
   </trkpt>
-  <trkpt lat="33.471612663396" lon="-111.468055165275">
+  <trkpt lat="33.47162259856374" lon="-111.46805958091906">
     <ele>649.277</ele>
     <time>2022-03-11T00:00:29Z</time>
   </trkpt>
@@ -158,7 +158,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>651.604</ele>
     <time>2022-03-11T00:00:38Z</time>
   </trkpt>
-  <trkpt lat="33.4715648906272" lon="-111.467702696039">
+  <trkpt lat="33.47155883295344" lon="-111.46771089374712">
     <ele>652.395</ele>
     <time>2022-03-11T00:00:39Z</time>
   </trkpt>
@@ -190,11 +190,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>654.661</ele>
     <time>2022-03-11T00:00:46Z</time>
   </trkpt>
-  <trkpt lat="33.4714616121103" lon="-111.467451488446">
+  <trkpt lat="33.471454794225416" lon="-111.46746278941325">
     <ele>655.075</ele>
     <time>2022-03-11T00:00:47Z</time>
   </trkpt>
-  <trkpt lat="33.4714654205833" lon="-111.467429565096">
+  <trkpt lat="33.47145143813533" lon="-111.46743864953211">
     <ele>655.475</ele>
     <time>2022-03-11T00:00:48Z</time>
   </trkpt>
@@ -630,11 +630,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>672.583</ele>
     <time>2022-03-11T00:02:36Z</time>
   </trkpt>
-  <trkpt lat="33.4693956566129" lon="-111.46385026291">
+  <trkpt lat="33.46937846832836" lon="-111.46386728822878">
     <ele>673.332</ele>
     <time>2022-03-11T00:02:37Z</time>
   </trkpt>
-  <trkpt lat="33.4693712811419" lon="-111.463807908904">
+  <trkpt lat="33.46936280619828" lon="-111.4638351017206">
     <ele>673.81</ele>
     <time>2022-03-11T00:02:38Z</time>
   </trkpt>
@@ -658,7 +658,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>672.013</ele>
     <time>2022-03-11T00:02:43Z</time>
   </trkpt>
-  <trkpt lat="33.4691444576449" lon="-111.463760770532">
+  <trkpt lat="33.46914129862703" lon="-111.46377877533129">
     <ele>671.722</ele>
     <time>2022-03-11T00:02:44Z</time>
   </trkpt>
@@ -678,7 +678,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>672.741</ele>
     <time>2022-03-11T00:02:48Z</time>
   </trkpt>
-  <trkpt lat="33.4689688174614" lon="-111.463690108843">
+  <trkpt lat="33.46896901456915" lon="-111.46370233237437">
     <ele>672.544</ele>
     <time>2022-03-11T00:02:49Z</time>
   </trkpt>
@@ -698,7 +698,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>673.698</ele>
     <time>2022-03-11T00:02:53Z</time>
   </trkpt>
-  <trkpt lat="33.4687896260987" lon="-111.463600930805">
+  <trkpt lat="33.468793373975764" lon="-111.46359236180476">
     <ele>673.272</ele>
     <time>2022-03-11T00:02:54Z</time>
   </trkpt>
@@ -734,7 +734,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>675.117</ele>
     <time>2022-03-11T00:03:02Z</time>
   </trkpt>
-  <trkpt lat="33.4685363596153" lon="-111.463322799545">
+  <trkpt lat="33.46854501533171" lon="-111.46331743538073">
     <ele>675.301</ele>
     <time>2022-03-11T00:03:03Z</time>
   </trkpt>
@@ -762,11 +762,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>675.74</ele>
     <time>2022-03-11T00:03:09Z</time>
   </trkpt>
-  <trkpt lat="33.4683320720307" lon="-111.463118243399">
+  <trkpt lat="33.46834476167254" lon="-111.46310554086855">
     <ele>675.451</ele>
     <time>2022-03-11T00:03:10Z</time>
   </trkpt>
-  <trkpt lat="33.4683141732296" lon="-111.463080840094">
+  <trkpt lat="33.468327980618646" lon="-111.4630787187784">
     <ele>675.915</ele>
     <time>2022-03-11T00:03:11Z</time>
   </trkpt>
@@ -778,7 +778,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>675.962</ele>
     <time>2022-03-11T00:03:13Z</time>
   </trkpt>
-  <trkpt lat="33.4682728261309" lon="-111.462962341561">
+  <trkpt lat="33.46826197510843" lon="-111.46297411262682">
     <ele>677.025</ele>
     <time>2022-03-11T00:03:14Z</time>
   </trkpt>
@@ -982,7 +982,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>681.017</ele>
     <time>2022-03-11T00:04:04Z</time>
   </trkpt>
-  <trkpt lat="33.4676901173415" lon="-111.461099894946">
+  <trkpt lat="33.467683585690715" lon="-111.46110058962992">
     <ele>680.215</ele>
     <time>2022-03-11T00:04:05Z</time>
   </trkpt>
@@ -990,7 +990,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>680.023</ele>
     <time>2022-03-11T00:04:06Z</time>
   </trkpt>
-  <trkpt lat="33.4676769498973" lon="-111.46101712799">
+  <trkpt lat="33.46766568576322" lon="-111.46102951109103">
     <ele>679.604</ele>
     <time>2022-03-11T00:04:07Z</time>
   </trkpt>
@@ -1018,7 +1018,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>677.266</ele>
     <time>2022-03-11T00:04:13Z</time>
   </trkpt>
-  <trkpt lat="33.4676260761929" lon="-111.460782309091">
+  <trkpt lat="33.467641073356866" lon="-111.46078677117518">
     <ele>677.132</ele>
     <time>2022-03-11T00:04:14Z</time>
   </trkpt>
@@ -1146,7 +1146,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>688.716</ele>
     <time>2022-03-11T00:04:45Z</time>
   </trkpt>
-  <trkpt lat="33.4672894340724" lon="-111.459848877813">
+  <trkpt lat="33.46729426143331" lon="-111.45985068022898">
     <ele>689.465</ele>
     <time>2022-03-11T00:04:46Z</time>
   </trkpt>
@@ -1178,7 +1178,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>693.798</ele>
     <time>2022-03-11T00:04:53Z</time>
   </trkpt>
-  <trkpt lat="33.4673855166865" lon="-111.459572983165">
+  <trkpt lat="33.4673938301598" lon="-111.45958245932749">
     <ele>694.077</ele>
     <time>2022-03-11T00:04:54Z</time>
   </trkpt>
@@ -1254,7 +1254,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>697.674</ele>
     <time>2022-03-11T00:05:12Z</time>
   </trkpt>
-  <trkpt lat="33.4675971541279" lon="-111.458979103024">
+  <trkpt lat="33.46758849228336" lon="-111.45898566782168">
     <ele>698.232</ele>
     <time>2022-03-11T00:05:13Z</time>
   </trkpt>
@@ -1286,7 +1286,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>695.373</ele>
     <time>2022-03-11T00:05:20Z</time>
   </trkpt>
-  <trkpt lat="33.467412271826" lon="-111.458697289016">
+  <trkpt lat="33.467399423905036" lon="-111.4587000125616">
     <ele>694.697</ele>
     <time>2022-03-11T00:05:21Z</time>
   </trkpt>
@@ -1322,7 +1322,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>693.551</ele>
     <time>2022-03-11T00:05:29Z</time>
   </trkpt>
-  <trkpt lat="33.4672784460509" lon="-111.458344062768">
+  <trkpt lat="33.46726853017073" lon="-111.45834998428515">
     <ele>694.227</ele>
     <time>2022-03-11T00:05:30Z</time>
   </trkpt>
@@ -1346,11 +1346,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>695.17</ele>
     <time>2022-03-11T00:05:35Z</time>
   </trkpt>
-  <trkpt lat="33.4672471964498" lon="-111.458085729975">
+  <trkpt lat="33.46722489888199" lon="-111.45808176338366">
     <ele>695.389</ele>
     <time>2022-03-11T00:05:36Z</time>
   </trkpt>
-  <trkpt lat="33.4672376684615" lon="-111.458038456441">
+  <trkpt lat="33.46722154262809" lon="-111.45804689466647">
     <ele>694.768</ele>
     <time>2022-03-11T00:05:37Z</time>
   </trkpt>
@@ -1398,7 +1398,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>694.577</ele>
     <time>2022-03-11T00:05:48Z</time>
   </trkpt>
-  <trkpt lat="33.4672655153098" lon="-111.457542990428">
+  <trkpt lat="33.46727859892648" lon="-111.45754129826716">
     <ele>694.62</ele>
     <time>2022-03-11T00:05:49Z</time>
   </trkpt>
@@ -1458,7 +1458,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>696.01</ele>
     <time>2022-03-11T00:06:03Z</time>
   </trkpt>
-  <trkpt lat="33.4671851999251" lon="-111.456939364601">
+  <trkpt lat="33.46718126757131" lon="-111.4569552355974">
     <ele>696.631</ele>
     <time>2022-03-11T00:06:04Z</time>
   </trkpt>
@@ -1490,7 +1490,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>696.264</ele>
     <time>2022-03-11T00:06:11Z</time>
   </trkpt>
-  <trkpt lat="33.4669123007414" lon="-111.456890254396">
+  <trkpt lat="33.466909410448565" lon="-111.45687745153597">
     <ele>697.268</ele>
     <time>2022-03-11T00:06:12Z</time>
   </trkpt>
@@ -1506,7 +1506,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>697.607</ele>
     <time>2022-03-11T00:06:15Z</time>
   </trkpt>
-  <trkpt lat="33.4667643724871" lon="-111.456879085183">
+  <trkpt lat="33.466762853374334" lon="-111.45687074601344">
     <ele>698.173</ele>
     <time>2022-03-11T00:06:16Z</time>
   </trkpt>
@@ -1518,7 +1518,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>698.54</ele>
     <time>2022-03-11T00:06:18Z</time>
   </trkpt>
-  <trkpt lat="33.4666722048303" lon="-111.456787749551">
+  <trkpt lat="33.46666664019848" lon="-111.45679832637003">
     <ele>698.747</ele>
     <time>2022-03-11T00:06:19Z</time>
   </trkpt>
@@ -1630,7 +1630,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>703.404</ele>
     <time>2022-03-11T00:06:46Z</time>
   </trkpt>
-  <trkpt lat="33.4656190569024" lon="-111.456618147114">
+  <trkpt lat="33.465631782426975" lon="-111.45661727726153">
     <ele>703.884</ele>
     <time>2022-03-11T00:06:47Z</time>
   </trkpt>
@@ -1694,7 +1694,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>706.014</ele>
     <time>2022-03-11T00:07:02Z</time>
   </trkpt>
-  <trkpt lat="33.4651607060285" lon="-111.456231804518">
+  <trkpt lat="33.4651540655361" lon="-111.45624445020846">
     <ele>706.442</ele>
     <time>2022-03-11T00:07:03Z</time>
   </trkpt>
@@ -1754,7 +1754,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>706.198</ele>
     <time>2022-03-11T00:07:17Z</time>
   </trkpt>
-  <trkpt lat="33.4647479786178" lon="-111.455981249658">
+  <trkpt lat="33.464743473036414" lon="-111.45598561703852">
     <ele>707.825</ele>
     <time>2022-03-11T00:07:18Z</time>
   </trkpt>
@@ -1874,11 +1874,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>715.55</ele>
     <time>2022-03-11T00:07:47Z</time>
   </trkpt>
-  <trkpt lat="33.4637776903878" lon="-111.455455431532">
+  <trkpt lat="33.463777957668945" lon="-111.4554411286085">
     <ele>715.765</ele>
     <time>2022-03-11T00:07:48Z</time>
   </trkpt>
-  <trkpt lat="33.4637414260414" lon="-111.455435334889">
+  <trkpt lat="33.46374215619709" lon="-111.45541967093638">
     <ele>715.748</ele>
     <time>2022-03-11T00:07:49Z</time>
   </trkpt>
@@ -1946,7 +1946,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>724.337</ele>
     <time>2022-03-11T00:08:05Z</time>
   </trkpt>
-  <trkpt lat="33.4632642114722" lon="-111.455145616708">
+  <trkpt lat="33.46327002290379" lon="-111.4551353567808">
     <ele>725.34</ele>
     <time>2022-03-11T00:08:06Z</time>
   </trkpt>
@@ -1954,7 +1954,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>726.209</ele>
     <time>2022-03-11T00:08:07Z</time>
   </trkpt>
-  <trkpt lat="33.4632186717146" lon="-111.45511313053">
+  <trkpt lat="33.46321296396669" lon="-111.45512194573573">
     <ele>727.052</ele>
     <time>2022-03-11T00:08:08Z</time>
   </trkpt>
@@ -1970,7 +1970,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>729.378</ele>
     <time>2022-03-11T00:08:11Z</time>
   </trkpt>
-  <trkpt lat="33.4631371117115" lon="-111.455034356859">
+  <trkpt lat="33.46313352891328" lon="-111.4550441616743">
     <ele>730.418</ele>
     <time>2022-03-11T00:08:12Z</time>
   </trkpt>
@@ -2030,7 +2030,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>740.146</ele>
     <time>2022-03-11T00:08:26Z</time>
   </trkpt>
-  <trkpt lat="33.4628950998161" lon="-111.454638290516">
+  <trkpt lat="33.4628929857019" lon="-111.45463244259051">
     <ele>740.045</ele>
     <time>2022-03-11T00:08:27Z</time>
   </trkpt>
@@ -2050,11 +2050,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>742.233</ele>
     <time>2022-03-11T00:08:31Z</time>
   </trkpt>
-  <trkpt lat="33.4627875953108" lon="-111.454533967898">
+  <trkpt lat="33.462799005847266" lon="-111.4545224720209">
     <ele>743.326</ele>
     <time>2022-03-11T00:08:32Z</time>
   </trkpt>
-  <trkpt lat="33.4627701498789" lon="-111.454511611274">
+  <trkpt lat="33.46278110491107" lon="-111.45450235545329">
     <ele>743.955</ele>
     <time>2022-03-11T00:08:33Z</time>
   </trkpt>
@@ -2086,7 +2086,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>749.177</ele>
     <time>2022-03-11T00:08:40Z</time>
   </trkpt>
-  <trkpt lat="33.4626292914134" lon="-111.454258109283">
+  <trkpt lat="33.4626233527506" lon="-111.4542703443735">
     <ele>750.041</ele>
     <time>2022-03-11T00:08:41Z</time>
   </trkpt>
@@ -2214,7 +2214,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>763.148</ele>
     <time>2022-03-11T00:09:12Z</time>
   </trkpt>
-  <trkpt lat="33.4618290804378" lon="-111.453653651091">
+  <trkpt lat="33.46182787471706" lon="-111.45366148292712">
     <ele>763.403</ele>
     <time>2022-03-11T00:09:13Z</time>
   </trkpt>
@@ -2246,11 +2246,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>762.309</ele>
     <time>2022-03-11T00:09:20Z</time>
   </trkpt>
-  <trkpt lat="33.4615992747817" lon="-111.453592238616">
+  <trkpt lat="33.46160187259404" lon="-111.4535863810747">
     <ele>761.718</ele>
     <time>2022-03-11T00:09:21Z</time>
   </trkpt>
-  <trkpt lat="33.4615722503843" lon="-111.453573496985">
+  <trkpt lat="33.461576139641686" lon="-111.45356358229807">
     <ele>762.367</ele>
     <time>2022-03-11T00:09:22Z</time>
   </trkpt>
@@ -2290,7 +2290,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>758.556</ele>
     <time>2022-03-11T00:09:31Z</time>
   </trkpt>
-  <trkpt lat="33.4613826358142" lon="-111.453409462798">
+  <trkpt lat="33.461384820495475" lon="-111.45343081295184">
     <ele>757.838</ele>
     <time>2022-03-11T00:09:32Z</time>
   </trkpt>
@@ -2454,7 +2454,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>757.261</ele>
     <time>2022-03-11T00:10:12Z</time>
   </trkpt>
-  <trkpt lat="33.4601170566115" lon="-111.452634246086">
+  <trkpt lat="33.46012277484707" lon="-111.45263017356089">
     <ele>757.481</ele>
     <time>2022-03-11T00:10:13Z</time>
   </trkpt>
@@ -2466,7 +2466,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>758.289</ele>
     <time>2022-03-11T00:10:15Z</time>
   </trkpt>
-  <trkpt lat="33.460045932154" lon="-111.452586263365">
+  <trkpt lat="33.460045574649946" lon="-111.4525778704851">
     <ele>757.996</ele>
     <time>2022-03-11T00:10:16Z</time>
   </trkpt>
@@ -2478,7 +2478,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>758.006</ele>
     <time>2022-03-11T00:10:18Z</time>
   </trkpt>
-  <trkpt lat="33.4599639175285" lon="-111.452534748968">
+  <trkpt lat="33.4599661366942" lon="-111.45252154409579">
     <ele>759.021</ele>
     <time>2022-03-11T00:10:19Z</time>
   </trkpt>
@@ -2486,7 +2486,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>758.451</ele>
     <time>2022-03-11T00:10:20Z</time>
   </trkpt>
-  <trkpt lat="33.4599298475427" lon="-111.452447912225">
+  <trkpt lat="33.45992809595721" lon="-111.45246924102">
     <ele>758.766</ele>
     <time>2022-03-11T00:10:21Z</time>
   </trkpt>
@@ -2562,7 +2562,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>766.259</ele>
     <time>2022-03-11T00:10:39Z</time>
   </trkpt>
-  <trkpt lat="33.4594049763614" lon="-111.451892838182">
+  <trkpt lat="33.45940223700058" lon="-111.45190731823138">
     <ele>766.411</ele>
     <time>2022-03-11T00:10:40Z</time>
   </trkpt>
@@ -2586,11 +2586,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>769.084</ele>
     <time>2022-03-11T00:10:45Z</time>
   </trkpt>
-  <trkpt lat="33.459276982608" lon="-111.451781823745">
+  <trkpt lat="33.45928475743605" lon="-111.45177723109416">
     <ele>769.91</ele>
     <time>2022-03-11T00:10:46Z</time>
   </trkpt>
-  <trkpt lat="33.4592632376515" lon="-111.451761035809">
+  <trkpt lat="33.45927133118997" lon="-111.45175845563105">
     <ele>769.383</ele>
     <time>2022-03-11T00:10:47Z</time>
   </trkpt>
@@ -2622,7 +2622,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>770.134</ele>
     <time>2022-03-11T00:10:54Z</time>
   </trkpt>
-  <trkpt lat="33.4591054115529" lon="-111.451530681259">
+  <trkpt lat="33.45910909721884" lon="-111.45152108013323">
     <ele>770.759</ele>
     <time>2022-03-11T00:10:55Z</time>
   </trkpt>
@@ -2662,11 +2662,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>774.184</ele>
     <time>2022-03-11T00:11:04Z</time>
   </trkpt>
-  <trkpt lat="33.4588071509839" lon="-111.451368186246">
+  <trkpt lat="33.45879469810714" lon="-111.45137892305544">
     <ele>772.91</ele>
     <time>2022-03-11T00:11:05Z</time>
   </trkpt>
-  <trkpt lat="33.4587760717359" lon="-111.451343341935">
+  <trkpt lat="33.458773439763064" lon="-111.4513534420698">
     <ele>772.635</ele>
     <time>2022-03-11T00:11:06Z</time>
   </trkpt>
@@ -2678,7 +2678,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>773.932</ele>
     <time>2022-03-11T00:11:08Z</time>
   </trkpt>
-  <trkpt lat="33.4587491675324" lon="-111.451233565204">
+  <trkpt lat="33.458743230528306" lon="-111.45123676597765">
     <ele>774.434</ele>
     <time>2022-03-11T00:11:09Z</time>
   </trkpt>
@@ -2758,11 +2758,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>775.811</ele>
     <time>2022-03-11T00:11:28Z</time>
   </trkpt>
-  <trkpt lat="33.4584543124348" lon="-111.450790878616">
+  <trkpt lat="33.45843889987247" lon="-111.45078883707217">
     <ele>774.784</ele>
     <time>2022-03-11T00:11:29Z</time>
   </trkpt>
-  <trkpt lat="33.4584444089395" lon="-111.450766782633">
+  <trkpt lat="33.45842659236023" lon="-111.45076737940005">
     <ele>774.142</ele>
     <time>2022-03-11T00:11:30Z</time>
   </trkpt>
@@ -2770,7 +2770,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>774.345</ele>
     <time>2022-03-11T00:11:31Z</time>
   </trkpt>
-  <trkpt lat="33.4583966415077" lon="-111.450701759587">
+  <trkpt lat="33.45838631321707" lon="-111.45071373521975">
     <ele>774.397</ele>
     <time>2022-03-11T00:11:32Z</time>
   </trkpt>
@@ -2806,7 +2806,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>777.391</ele>
     <time>2022-03-11T00:11:40Z</time>
   </trkpt>
-  <trkpt lat="33.4582379201441" lon="-111.450461334388">
+  <trkpt lat="33.45824645493579" lon="-111.45045087873629">
     <ele>777.5</ele>
     <time>2022-03-11T00:11:41Z</time>
   </trkpt>
@@ -2830,7 +2830,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>780.702</ele>
     <time>2022-03-11T00:11:46Z</time>
   </trkpt>
-  <trkpt lat="33.4582169121959" lon="-111.450199379287">
+  <trkpt lat="33.45820841344427" lon="-111.4502000921934">
     <ele>780.365</ele>
     <time>2022-03-11T00:11:47Z</time>
   </trkpt>
@@ -2882,7 +2882,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>783.165</ele>
     <time>2022-03-11T00:11:59Z</time>
   </trkpt>
-  <trkpt lat="33.458080086275" lon="-111.449693635844">
+  <trkpt lat="33.458087575654595" lon="-111.44969986021212">
     <ele>784.479</ele>
     <time>2022-03-11T00:12:00Z</time>
   </trkpt>
@@ -2894,7 +2894,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>785.612</ele>
     <time>2022-03-11T00:12:02Z</time>
   </trkpt>
-  <trkpt lat="33.4581034720434" lon="-111.449575154501">
+  <trkpt lat="33.45809428886954" lon="-111.44958452522448">
     <ele>785.327</ele>
     <time>2022-03-11T00:12:03Z</time>
   </trkpt>
@@ -2982,7 +2982,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>793.315</ele>
     <time>2022-03-11T00:12:24Z</time>
   </trkpt>
-  <trkpt lat="33.4577666003656" lon="-111.448823577951">
+  <trkpt lat="33.45775415199111" lon="-111.44884021222285">
     <ele>793.484</ele>
     <time>2022-03-11T00:12:25Z</time>
   </trkpt>
@@ -2994,11 +2994,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>794.064</ele>
     <time>2022-03-11T00:12:27Z</time>
   </trkpt>
-  <trkpt lat="33.4577353081107" lon="-111.448765812336">
+  <trkpt lat="33.45772729902282" lon="-111.44876376926592">
     <ele>794.487</ele>
     <time>2022-03-11T00:12:28Z</time>
   </trkpt>
-  <trkpt lat="33.4577344271957" lon="-111.448726551736">
+  <trkpt lat="33.45772841789667" lon="-111.44873024165324">
     <ele>794.983</ele>
     <time>2022-03-11T00:12:29Z</time>
   </trkpt>
@@ -3018,7 +3018,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>796.896</ele>
     <time>2022-03-11T00:12:33Z</time>
   </trkpt>
-  <trkpt lat="33.4576785263182" lon="-111.448537594697">
+  <trkpt lat="33.45767694968487" lon="-111.44854785144022">
     <ele>797.468</ele>
     <time>2022-03-11T00:12:34Z</time>
   </trkpt>
@@ -3090,7 +3090,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>808.551</ele>
     <time>2022-03-11T00:12:51Z</time>
   </trkpt>
-  <trkpt lat="33.457269217493" lon="-111.448130499479">
+  <trkpt lat="33.457269678409645" lon="-111.44812272131136">
     <ele>809.594</ele>
     <time>2022-03-11T00:12:52Z</time>
   </trkpt>
@@ -3106,7 +3106,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>809.027</ele>
     <time>2022-03-11T00:12:55Z</time>
   </trkpt>
-  <trkpt lat="33.4572649993641" lon="-111.447992467693">
+  <trkpt lat="33.45725625185152" lon="-111.44799933969668">
     <ele>809.81</ele>
     <time>2022-03-11T00:12:56Z</time>
   </trkpt>
@@ -3118,7 +3118,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>810.62</ele>
     <time>2022-03-11T00:12:58Z</time>
   </trkpt>
-  <trkpt lat="33.4572170354513" lon="-111.447938026504">
+  <trkpt lat="33.457207021120595" lon="-111.44794703662089">
     <ele>810.946</ele>
     <time>2022-03-11T00:12:59Z</time>
   </trkpt>
@@ -3146,7 +3146,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>813.996</ele>
     <time>2022-03-11T00:13:05Z</time>
   </trkpt>
-  <trkpt lat="33.457089126897" lon="-111.447691491053">
+  <trkpt lat="33.457077230877694" lon="-111.4476975911825">
     <ele>812.941</ele>
     <time>2022-03-11T00:13:06Z</time>
   </trkpt>
@@ -3162,7 +3162,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>814.564</ele>
     <time>2022-03-11T00:13:09Z</time>
   </trkpt>
-  <trkpt lat="33.4570009696339" lon="-111.447594973647">
+  <trkpt lat="33.45699667131893" lon="-111.44760907828501">
     <ele>814.903</ele>
     <time>2022-03-11T00:13:10Z</time>
   </trkpt>
@@ -3246,7 +3246,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>819.102</ele>
     <time>2022-03-11T00:13:30Z</time>
   </trkpt>
-  <trkpt lat="33.456763074817" lon="-111.447273886175">
+  <trkpt lat="33.456757229966314" lon="-111.44727111994914">
     <ele>819.28</ele>
     <time>2022-03-11T00:13:31Z</time>
   </trkpt>
@@ -3262,7 +3262,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>820.037</ele>
     <time>2022-03-11T00:13:34Z</time>
   </trkpt>
-  <trkpt lat="33.4567536311698" lon="-111.447181042309">
+  <trkpt lat="33.45674492221537" lon="-111.44719065367869">
     <ele>819.927</ele>
     <time>2022-03-11T00:13:35Z</time>
   </trkpt>
@@ -3270,7 +3270,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>819.304</ele>
     <time>2022-03-11T00:13:36Z</time>
   </trkpt>
-  <trkpt lat="33.4567379050413" lon="-111.447136788565">
+  <trkpt lat="33.45674268444228" lon="-111.4471396917074">
     <ele>819.723</ele>
     <time>2022-03-11T00:13:37Z</time>
   </trkpt>
@@ -3374,11 +3374,11 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>831.774</ele>
     <time>2022-03-11T00:14:02Z</time>
   </trkpt>
-  <trkpt lat="33.4570864525248" lon="-111.446644331463">
+  <trkpt lat="33.4570794686422" lon="-111.44663945972613">
     <ele>832.22</ele>
     <time>2022-03-11T00:14:03Z</time>
   </trkpt>
-  <trkpt lat="33.4571142601781" lon="-111.4466235806">
+  <trkpt lat="33.457105202929256" lon="-111.44662470757655">
     <ele>833.601</ele>
     <time>2022-03-11T00:14:04Z</time>
   </trkpt>
@@ -3406,7 +3406,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>835.05</ele>
     <time>2022-03-11T00:14:10Z</time>
   </trkpt>
-  <trkpt lat="33.4572945727339" lon="-111.446437019571">
+  <trkpt lat="33.45728534272478" lon="-111.44644097625903">
     <ele>835.898</ele>
     <time>2022-03-11T00:14:11Z</time>
   </trkpt>
@@ -3474,7 +3474,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>838.461</ele>
     <time>2022-03-11T00:14:27Z</time>
   </trkpt>
-  <trkpt lat="33.4572227859761" lon="-111.445966604639">
+  <trkpt lat="33.457217091044996" lon="-111.44597829520396">
     <ele>838.439</ele>
     <time>2022-03-11T00:14:28Z</time>
   </trkpt>
@@ -3538,7 +3538,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>842.037</ele>
     <time>2022-03-11T00:14:43Z</time>
   </trkpt>
-  <trkpt lat="33.4568368705404" lon="-111.445826372609">
+  <trkpt lat="33.456832195320686" lon="-111.4458227270811">
     <ele>842.892</ele>
     <time>2022-03-11T00:14:44Z</time>
   </trkpt>
@@ -3550,7 +3550,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>844.135</ele>
     <time>2022-03-11T00:14:46Z</time>
   </trkpt>
-  <trkpt lat="33.4567674344369" lon="-111.445838692717">
+  <trkpt lat="33.456759467739005" lon="-111.44583345591715">
     <ele>845.386</ele>
     <time>2022-03-11T00:14:47Z</time>
   </trkpt>
@@ -3558,7 +3558,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>845.335</ele>
     <time>2022-03-11T00:14:48Z</time>
   </trkpt>
-  <trkpt lat="33.4566991495992" lon="-111.445849186881">
+  <trkpt lat="33.45669681008125" lon="-111.4458415025442">
     <ele>846.332</ele>
     <time>2022-03-11T00:14:49Z</time>
   </trkpt>
@@ -3598,7 +3598,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>852.235</ele>
     <time>2022-03-11T00:14:58Z</time>
   </trkpt>
-  <trkpt lat="33.4564634657537" lon="-111.445739915422">
+  <trkpt lat="33.456465200131774" lon="-111.44575969516924">
     <ele>853.284</ele>
     <time>2022-03-11T00:14:59Z</time>
   </trkpt>
@@ -3634,7 +3634,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>857.21</ele>
     <time>2022-03-11T00:15:07Z</time>
   </trkpt>
-  <trkpt lat="33.4562771863346" lon="-111.445674322342">
+  <trkpt lat="33.45627275081431" lon="-111.44566581785372">
     <ele>857.167</ele>
     <time>2022-03-11T00:15:08Z</time>
   </trkpt>
@@ -3654,7 +3654,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>858.781</ele>
     <time>2022-03-11T00:15:12Z</time>
   </trkpt>
-  <trkpt lat="33.4561723376651" lon="-111.445575315993">
+  <trkpt lat="33.456177644889266" lon="-111.44559205710581">
     <ele>859.349</ele>
     <time>2022-03-11T00:15:13Z</time>
   </trkpt>
@@ -3758,7 +3758,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>870.492</ele>
     <time>2022-03-11T00:15:38Z</time>
   </trkpt>
-  <trkpt lat="33.4556350753034" lon="-111.445328448678">
+  <trkpt lat="33.455632741872506" lon="-111.44534663498095">
     <ele>871.476</ele>
     <time>2022-03-11T00:15:39Z</time>
   </trkpt>
@@ -3782,7 +3782,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>873.856</ele>
     <time>2022-03-11T00:15:44Z</time>
   </trkpt>
-  <trkpt lat="33.455458387557" lon="-111.445397336464">
+  <trkpt lat="33.45546378767488" lon="-111.44538955032519">
     <ele>873.469</ele>
     <time>2022-03-11T00:15:45Z</time>
   </trkpt>
@@ -3842,7 +3842,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>880.61</ele>
     <time>2022-03-11T00:15:59Z</time>
   </trkpt>
-  <trkpt lat="33.4550688136277" lon="-111.445440377746">
+  <trkpt lat="33.455067695086605" lon="-111.44543380677393">
     <ele>881.154</ele>
     <time>2022-03-11T00:16:00Z</time>
   </trkpt>
@@ -3870,7 +3870,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>884.763</ele>
     <time>2022-03-11T00:16:06Z</time>
   </trkpt>
-  <trkpt lat="33.4548808406557" lon="-111.445417860554">
+  <trkpt lat="33.45488307504168" lon="-111.44543112456492">
     <ele>884.75</ele>
     <time>2022-03-11T00:16:07Z</time>
   </trkpt>
@@ -3902,7 +3902,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>887.927</ele>
     <time>2022-03-11T00:16:14Z</time>
   </trkpt>
-  <trkpt lat="33.4546616470835" lon="-111.445378829125">
+  <trkpt lat="33.45465817372863" lon="-111.44538955032519">
     <ele>889.383</ele>
     <time>2022-03-11T00:16:15Z</time>
   </trkpt>
@@ -3970,7 +3970,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>896.293</ele>
     <time>2022-03-11T00:16:31Z</time>
   </trkpt>
-  <trkpt lat="33.4542858928262" lon="-111.445489955074">
+  <trkpt lat="33.454286693665345" lon="-111.44549683868578">
     <ele>896.485</ele>
     <time>2022-03-11T00:16:32Z</time>
   </trkpt>
@@ -4010,7 +4010,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>899.08</ele>
     <time>2022-03-11T00:16:41Z</time>
   </trkpt>
-  <trkpt lat="33.4541021571046" lon="-111.445585584629">
+  <trkpt lat="33.454089763829714" lon="-111.4455893748968">
     <ele>899.398</ele>
     <time>2022-03-11T00:16:42Z</time>
   </trkpt>
@@ -4030,7 +4030,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>900.048</ele>
     <time>2022-03-11T00:16:46Z</time>
   </trkpt>
-  <trkpt lat="33.453948965455" lon="-111.44567474952">
+  <trkpt lat="33.453947660772855" lon="-111.44568325221232">
     <ele>899.446</ele>
     <time>2022-03-11T00:16:47Z</time>
   </trkpt>
@@ -4054,7 +4054,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>901.538</ele>
     <time>2022-03-11T00:16:52Z</time>
   </trkpt>
-  <trkpt lat="33.4537669776778" lon="-111.445699713241">
+  <trkpt lat="33.4537719897429" lon="-111.44568593442133">
     <ele>900.544</ele>
     <time>2022-03-11T00:16:53Z</time>
   </trkpt>
@@ -4078,635 +4078,631 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>904.107</ele>
     <time>2022-03-11T00:16:58Z</time>
   </trkpt>
-  <trkpt lat="33.4536707057947" lon="-111.445582237346">
-    <ele>903.347</ele>
-    <time>2022-03-11T00:16:59Z</time>
-  </trkpt>
   <trkpt lat="33.4536509071702" lon="-111.445588928463">
     <ele>903.834</ele>
-    <time>2022-03-11T00:17:00Z</time>
+    <time>2022-03-11T00:16:59Z</time>
   </trkpt>
   <trkpt lat="33.4536316293488" lon="-111.44556332999">
     <ele>904.331</ele>
-    <time>2022-03-11T00:17:01Z</time>
+    <time>2022-03-11T00:17:00Z</time>
   </trkpt>
   <trkpt lat="33.4536151218334" lon="-111.445540970329">
     <ele>904.663</ele>
-    <time>2022-03-11T00:17:02Z</time>
+    <time>2022-03-11T00:17:01Z</time>
   </trkpt>
   <trkpt lat="33.4535886606294" lon="-111.445518733566">
     <ele>905.265</ele>
-    <time>2022-03-11T00:17:03Z</time>
+    <time>2022-03-11T00:17:02Z</time>
   </trkpt>
   <trkpt lat="33.4535629611279" lon="-111.445506337341">
     <ele>906.047</ele>
-    <time>2022-03-11T00:17:04Z</time>
+    <time>2022-03-11T00:17:03Z</time>
   </trkpt>
   <trkpt lat="33.4535349592661" lon="-111.445493461064">
     <ele>905.98</ele>
-    <time>2022-03-11T00:17:05Z</time>
+    <time>2022-03-11T00:17:04Z</time>
   </trkpt>
-  <trkpt lat="33.4535009483005" lon="-111.445489053375">
+  <trkpt lat="33.45350792306648" lon="-111.4454820865362">
     <ele>907.772</ele>
-    <time>2022-03-11T00:17:06Z</time>
+    <time>2022-03-11T00:17:05Z</time>
   </trkpt>
   <trkpt lat="33.4534857587741" lon="-111.445461992943">
     <ele>906.015</ele>
-    <time>2022-03-11T00:17:07Z</time>
+    <time>2022-03-11T00:17:06Z</time>
   </trkpt>
   <trkpt lat="33.453465678374" lon="-111.445446459592">
     <ele>907.198</ele>
-    <time>2022-03-11T00:17:08Z</time>
+    <time>2022-03-11T00:17:07Z</time>
   </trkpt>
   <trkpt lat="33.4534308520028" lon="-111.445441527946">
     <ele>907.594</ele>
-    <time>2022-03-11T00:17:09Z</time>
+    <time>2022-03-11T00:17:08Z</time>
   </trkpt>
   <trkpt lat="33.4533984544584" lon="-111.445430481209">
     <ele>907.258</ele>
-    <time>2022-03-11T00:17:10Z</time>
+    <time>2022-03-11T00:17:09Z</time>
   </trkpt>
   <trkpt lat="33.4533814301212" lon="-111.445403128548">
     <ele>907.823</ele>
-    <time>2022-03-11T00:17:11Z</time>
+    <time>2022-03-11T00:17:10Z</time>
   </trkpt>
   <trkpt lat="33.453360345966" lon="-111.445380859017">
     <ele>908.174</ele>
-    <time>2022-03-11T00:17:12Z</time>
+    <time>2022-03-11T00:17:11Z</time>
   </trkpt>
   <trkpt lat="33.4533399128015" lon="-111.44536150881">
     <ele>908.787</ele>
-    <time>2022-03-11T00:17:13Z</time>
+    <time>2022-03-11T00:17:12Z</time>
   </trkpt>
   <trkpt lat="33.4533189240682" lon="-111.445340810518">
     <ele>908.279</ele>
-    <time>2022-03-11T00:17:14Z</time>
+    <time>2022-03-11T00:17:13Z</time>
   </trkpt>
-  <trkpt lat="33.4533032731992" lon="-111.445311082635">
+  <trkpt lat="33.45330092108417" lon="-111.44532115399531">
     <ele>908.759</ele>
-    <time>2022-03-11T00:17:15Z</time>
+    <time>2022-03-11T00:17:14Z</time>
   </trkpt>
   <trkpt lat="33.4532726669123" lon="-111.445296829021">
     <ele>909.166</ele>
-    <time>2022-03-11T00:17:16Z</time>
+    <time>2022-03-11T00:17:15Z</time>
   </trkpt>
   <trkpt lat="33.4532469008877" lon="-111.445270842376">
     <ele>909.947</ele>
-    <time>2022-03-11T00:17:17Z</time>
+    <time>2022-03-11T00:17:16Z</time>
   </trkpt>
   <trkpt lat="33.4532411446491" lon="-111.445243633921">
     <ele>910.871</ele>
-    <time>2022-03-11T00:17:18Z</time>
+    <time>2022-03-11T00:17:17Z</time>
   </trkpt>
   <trkpt lat="33.4532240205808" lon="-111.445207748004">
     <ele>910.521</ele>
-    <time>2022-03-11T00:17:19Z</time>
+    <time>2022-03-11T00:17:18Z</time>
   </trkpt>
   <trkpt lat="33.4532186070217" lon="-111.445173636526">
     <ele>911.111</ele>
-    <time>2022-03-11T00:17:20Z</time>
+    <time>2022-03-11T00:17:19Z</time>
   </trkpt>
   <trkpt lat="33.4532168266706" lon="-111.445135152461">
     <ele>911.717</ele>
-    <time>2022-03-11T00:17:21Z</time>
+    <time>2022-03-11T00:17:20Z</time>
   </trkpt>
   <trkpt lat="33.4532233910588" lon="-111.445099203899">
     <ele>911.366</ele>
-    <time>2022-03-11T00:17:22Z</time>
+    <time>2022-03-11T00:17:21Z</time>
   </trkpt>
   <trkpt lat="33.4532204234513" lon="-111.445054729548">
     <ele>912.146</ele>
-    <time>2022-03-11T00:17:23Z</time>
+    <time>2022-03-11T00:17:22Z</time>
   </trkpt>
   <trkpt lat="33.4531983634993" lon="-111.445025347021">
     <ele>912.68</ele>
-    <time>2022-03-11T00:17:24Z</time>
+    <time>2022-03-11T00:17:23Z</time>
   </trkpt>
   <trkpt lat="33.4531818851651" lon="-111.445010773256">
     <ele>913.855</ele>
-    <time>2022-03-11T00:17:25Z</time>
+    <time>2022-03-11T00:17:24Z</time>
   </trkpt>
   <trkpt lat="33.4531653877055" lon="-111.444994237055">
     <ele>913.983</ele>
-    <time>2022-03-11T00:17:26Z</time>
+    <time>2022-03-11T00:17:25Z</time>
   </trkpt>
   <trkpt lat="33.4531450966883" lon="-111.444966353652">
     <ele>915.087</ele>
-    <time>2022-03-11T00:17:27Z</time>
+    <time>2022-03-11T00:17:26Z</time>
   </trkpt>
   <trkpt lat="33.4531326774491" lon="-111.444947935426">
     <ele>914.588</ele>
-    <time>2022-03-11T00:17:28Z</time>
+    <time>2022-03-11T00:17:27Z</time>
   </trkpt>
   <trkpt lat="33.4531280559711" lon="-111.444917463474">
     <ele>915.818</ele>
-    <time>2022-03-11T00:17:29Z</time>
+    <time>2022-03-11T00:17:28Z</time>
   </trkpt>
   <trkpt lat="33.4531296777391" lon="-111.444893494796">
     <ele>915.65</ele>
-    <time>2022-03-11T00:17:30Z</time>
+    <time>2022-03-11T00:17:29Z</time>
   </trkpt>
   <trkpt lat="33.4531352927003" lon="-111.44485979794">
     <ele>916.646</ele>
-    <time>2022-03-11T00:17:31Z</time>
+    <time>2022-03-11T00:17:30Z</time>
   </trkpt>
   <trkpt lat="33.4531392733623" lon="-111.444823370318">
     <ele>916.936</ele>
-    <time>2022-03-11T00:17:32Z</time>
+    <time>2022-03-11T00:17:31Z</time>
   </trkpt>
   <trkpt lat="33.4531347157804" lon="-111.444793996682">
     <ele>917.217</ele>
-    <time>2022-03-11T00:17:33Z</time>
+    <time>2022-03-11T00:17:32Z</time>
   </trkpt>
   <trkpt lat="33.4531211138005" lon="-111.444778208869">
     <ele>917.82</ele>
-    <time>2022-03-11T00:17:34Z</time>
+    <time>2022-03-11T00:17:33Z</time>
   </trkpt>
   <trkpt lat="33.4531121533832" lon="-111.444743416041">
     <ele>918.054</ele>
-    <time>2022-03-11T00:17:35Z</time>
+    <time>2022-03-11T00:17:34Z</time>
   </trkpt>
-  <trkpt lat="33.4530904669167" lon="-111.444713743216">
+  <trkpt lat="33.453100632209356" lon="-111.44471631586245">
     <ele>918.886</ele>
-    <time>2022-03-11T00:17:36Z</time>
+    <time>2022-03-11T00:17:35Z</time>
   </trkpt>
   <trkpt lat="33.4530977293946" lon="-111.444687989829">
     <ele>919.295</ele>
-    <time>2022-03-11T00:17:37Z</time>
+    <time>2022-03-11T00:17:36Z</time>
   </trkpt>
   <trkpt lat="33.4530872875002" lon="-111.444649458123">
     <ele>919.734</ele>
-    <time>2022-03-11T00:17:38Z</time>
+    <time>2022-03-11T00:17:37Z</time>
   </trkpt>
   <trkpt lat="33.4530883421901" lon="-111.444617101418">
     <ele>919.877</ele>
-    <time>2022-03-11T00:17:39Z</time>
+    <time>2022-03-11T00:17:38Z</time>
   </trkpt>
   <trkpt lat="33.4530825200062" lon="-111.444581508543">
     <ele>920.255</ele>
-    <time>2022-03-11T00:17:40Z</time>
+    <time>2022-03-11T00:17:39Z</time>
   </trkpt>
   <trkpt lat="33.4530723712254" lon="-111.44455180566">
     <ele>920.67</ele>
+    <time>2022-03-11T00:17:40Z</time>
+  </trkpt>
+  <trkpt lat="33.45306146952614" lon="-111.44453258454493">
+    <ele>920.187</ele>
     <time>2022-03-11T00:17:41Z</time>
   </trkpt>
-  <trkpt lat="33.4530729363009" lon="-111.444524535518">
-    <ele>920.187</ele>
-    <time>2022-03-11T00:17:42Z</time>
-  </trkpt>
-  <trkpt lat="33.4530581479461" lon="-111.444490538267">
+  <trkpt lat="33.45305028018482" lon="-111.44451246797732">
     <ele>921.433</ele>
-    <time>2022-03-11T00:17:43Z</time>
+    <time>2022-03-11T00:17:42Z</time>
   </trkpt>
   <trkpt lat="33.4530400857292" lon="-111.444491520306">
     <ele>921.085</ele>
-    <time>2022-03-11T00:17:44Z</time>
+    <time>2022-03-11T00:17:43Z</time>
   </trkpt>
   <trkpt lat="33.4530366595057" lon="-111.444466342606">
     <ele>920.508</ele>
-    <time>2022-03-11T00:17:45Z</time>
+    <time>2022-03-11T00:17:44Z</time>
   </trkpt>
   <trkpt lat="33.4530287357523" lon="-111.444439475346">
     <ele>921.198</ele>
-    <time>2022-03-11T00:17:46Z</time>
+    <time>2022-03-11T00:17:45Z</time>
   </trkpt>
   <trkpt lat="33.4530238212526" lon="-111.444408857812">
     <ele>922.684</ele>
-    <time>2022-03-11T00:17:47Z</time>
+    <time>2022-03-11T00:17:46Z</time>
   </trkpt>
   <trkpt lat="33.4530335063303" lon="-111.444384469189">
     <ele>922.636</ele>
-    <time>2022-03-11T00:17:48Z</time>
+    <time>2022-03-11T00:17:47Z</time>
   </trkpt>
   <trkpt lat="33.4530511923987" lon="-111.444376159919">
     <ele>922.779</ele>
-    <time>2022-03-11T00:17:49Z</time>
+    <time>2022-03-11T00:17:48Z</time>
   </trkpt>
   <trkpt lat="33.4530567895756" lon="-111.444355033026">
     <ele>923.363</ele>
-    <time>2022-03-11T00:17:50Z</time>
+    <time>2022-03-11T00:17:49Z</time>
   </trkpt>
   <trkpt lat="33.4530512707367" lon="-111.444320712332">
     <ele>924.461</ele>
-    <time>2022-03-11T00:17:51Z</time>
+    <time>2022-03-11T00:17:50Z</time>
   </trkpt>
   <trkpt lat="33.4530405748594" lon="-111.444300175395">
     <ele>925.067</ele>
-    <time>2022-03-11T00:17:52Z</time>
+    <time>2022-03-11T00:17:51Z</time>
   </trkpt>
   <trkpt lat="33.4530392858244" lon="-111.444270014666">
     <ele>925.243</ele>
-    <time>2022-03-11T00:17:53Z</time>
+    <time>2022-03-11T00:17:52Z</time>
   </trkpt>
   <trkpt lat="33.4530599553825" lon="-111.444257083262">
     <ele>924.965</ele>
-    <time>2022-03-11T00:17:54Z</time>
+    <time>2022-03-11T00:17:53Z</time>
   </trkpt>
-  <trkpt lat="33.4530919540858" lon="-111.444248020435">
+  <trkpt lat="33.45308161033678" lon="-111.44424290597132">
     <ele>925.174</ele>
-    <time>2022-03-11T00:17:55Z</time>
+    <time>2022-03-11T00:17:54Z</time>
   </trkpt>
   <trkpt lat="33.4530965153783" lon="-111.444217952936">
     <ele>924.732</ele>
-    <time>2022-03-11T00:17:56Z</time>
+    <time>2022-03-11T00:17:55Z</time>
   </trkpt>
   <trkpt lat="33.4531112810021" lon="-111.444193412739">
     <ele>925.641</ele>
-    <time>2022-03-11T00:17:57Z</time>
+    <time>2022-03-11T00:17:56Z</time>
   </trkpt>
   <trkpt lat="33.4531343571038" lon="-111.444184966316">
     <ele>924.736</ele>
-    <time>2022-03-11T00:17:58Z</time>
+    <time>2022-03-11T00:17:57Z</time>
   </trkpt>
-  <trkpt lat="33.4531603133419" lon="-111.444162474593">
+  <trkpt lat="33.45316553033111" lon="-111.44417048632792">
     <ele>925.473</ele>
-    <time>2022-03-11T00:17:59Z</time>
+    <time>2022-03-11T00:17:58Z</time>
   </trkpt>
   <trkpt lat="33.4531902418921" lon="-111.444153873512">
     <ele>925.346</ele>
-    <time>2022-03-11T00:18:00Z</time>
+    <time>2022-03-11T00:17:59Z</time>
   </trkpt>
   <trkpt lat="33.4532103867893" lon="-111.44413087594">
     <ele>925.415</ele>
-    <time>2022-03-11T00:18:01Z</time>
+    <time>2022-03-11T00:18:00Z</time>
   </trkpt>
   <trkpt lat="33.4532091198683" lon="-111.444102475587">
     <ele>925.879</ele>
-    <time>2022-03-11T00:18:02Z</time>
+    <time>2022-03-11T00:18:01Z</time>
   </trkpt>
   <trkpt lat="33.453224218883" lon="-111.444079933118">
     <ele>927.354</ele>
-    <time>2022-03-11T00:18:03Z</time>
+    <time>2022-03-11T00:18:02Z</time>
   </trkpt>
   <trkpt lat="33.4532478386978" lon="-111.444049750209">
     <ele>927.125</ele>
-    <time>2022-03-11T00:18:04Z</time>
+    <time>2022-03-11T00:18:03Z</time>
   </trkpt>
   <trkpt lat="33.4532473388585" lon="-111.444019980974">
     <ele>926.718</ele>
-    <time>2022-03-11T00:18:05Z</time>
+    <time>2022-03-11T00:18:04Z</time>
   </trkpt>
   <trkpt lat="33.453238632412" lon="-111.443970537691">
     <ele>927.359</ele>
-    <time>2022-03-11T00:18:06Z</time>
+    <time>2022-03-11T00:18:05Z</time>
   </trkpt>
   <trkpt lat="33.4532227104824" lon="-111.443940260381">
     <ele>927.136</ele>
-    <time>2022-03-11T00:18:07Z</time>
+    <time>2022-03-11T00:18:06Z</time>
   </trkpt>
   <trkpt lat="33.4532115400894" lon="-111.443898468797">
     <ele>927.426</ele>
-    <time>2022-03-11T00:18:08Z</time>
+    <time>2022-03-11T00:18:07Z</time>
   </trkpt>
   <trkpt lat="33.4532185984377" lon="-111.443866143598">
     <ele>928.577</ele>
-    <time>2022-03-11T00:18:09Z</time>
+    <time>2022-03-11T00:18:08Z</time>
   </trkpt>
   <trkpt lat="33.4532129148073" lon="-111.443838264924">
     <ele>929.464</ele>
-    <time>2022-03-11T00:18:10Z</time>
+    <time>2022-03-11T00:18:09Z</time>
   </trkpt>
   <trkpt lat="33.4532024175877" lon="-111.443808849943">
     <ele>929.336</ele>
-    <time>2022-03-11T00:18:11Z</time>
+    <time>2022-03-11T00:18:10Z</time>
   </trkpt>
   <trkpt lat="33.4531908505597" lon="-111.44379019976">
     <ele>929.528</ele>
-    <time>2022-03-11T00:18:12Z</time>
+    <time>2022-03-11T00:18:11Z</time>
   </trkpt>
   <trkpt lat="33.4531799500297" lon="-111.443762266571">
     <ele>929.898</ele>
-    <time>2022-03-11T00:18:13Z</time>
+    <time>2022-03-11T00:18:12Z</time>
   </trkpt>
   <trkpt lat="33.453155765245" lon="-111.443742908696">
     <ele>929.729</ele>
-    <time>2022-03-11T00:18:14Z</time>
+    <time>2022-03-11T00:18:13Z</time>
   </trkpt>
   <trkpt lat="33.4531540942221" lon="-111.443711676027">
     <ele>931.167</ele>
-    <time>2022-03-11T00:18:15Z</time>
+    <time>2022-03-11T00:18:14Z</time>
   </trkpt>
   <trkpt lat="33.4531568257792" lon="-111.443685419807">
     <ele>932.042</ele>
-    <time>2022-03-11T00:18:16Z</time>
+    <time>2022-03-11T00:18:15Z</time>
   </trkpt>
-  <trkpt lat="33.4531481164905" lon="-111.44365985788">
+  <trkpt lat="33.45315769780175" lon="-111.44366086661509">
     <ele>931.946</ele>
-    <time>2022-03-11T00:18:17Z</time>
+    <time>2022-03-11T00:18:16Z</time>
   </trkpt>
   <trkpt lat="33.4531679773194" lon="-111.443634766669">
     <ele>932.127</ele>
-    <time>2022-03-11T00:18:18Z</time>
+    <time>2022-03-11T00:18:17Z</time>
   </trkpt>
   <trkpt lat="33.4531742025014" lon="-111.443613857255">
     <ele>931.643</ele>
-    <time>2022-03-11T00:18:19Z</time>
+    <time>2022-03-11T00:18:18Z</time>
   </trkpt>
   <trkpt lat="33.4531649634497" lon="-111.443571400209">
     <ele>931.733</ele>
-    <time>2022-03-11T00:18:20Z</time>
+    <time>2022-03-11T00:18:19Z</time>
   </trkpt>
   <trkpt lat="33.4531676759521" lon="-111.44354215868">
     <ele>930.915</ele>
-    <time>2022-03-11T00:18:21Z</time>
+    <time>2022-03-11T00:18:20Z</time>
   </trkpt>
   <trkpt lat="33.4531806481863" lon="-111.443519755472">
     <ele>932.059</ele>
-    <time>2022-03-11T00:18:22Z</time>
+    <time>2022-03-11T00:18:21Z</time>
   </trkpt>
   <trkpt lat="33.4531939836848" lon="-111.443495090942">
     <ele>932.741</ele>
-    <time>2022-03-11T00:18:23Z</time>
+    <time>2022-03-11T00:18:22Z</time>
   </trkpt>
   <trkpt lat="33.4531909043421" lon="-111.443460211106">
     <ele>932.617</ele>
-    <time>2022-03-11T00:18:24Z</time>
+    <time>2022-03-11T00:18:23Z</time>
   </trkpt>
   <trkpt lat="33.4531790606642" lon="-111.443420791095">
     <ele>933.066</ele>
-    <time>2022-03-11T00:18:25Z</time>
+    <time>2022-03-11T00:18:24Z</time>
   </trkpt>
   <trkpt lat="33.4531761695694" lon="-111.443389669268">
     <ele>933.438</ele>
-    <time>2022-03-11T00:18:26Z</time>
+    <time>2022-03-11T00:18:25Z</time>
   </trkpt>
   <trkpt lat="33.4531709195753" lon="-111.443342201773">
     <ele>933.471</ele>
-    <time>2022-03-11T00:18:27Z</time>
+    <time>2022-03-11T00:18:26Z</time>
   </trkpt>
   <trkpt lat="33.4531716490411" lon="-111.443309731385">
     <ele>934.281</ele>
-    <time>2022-03-11T00:18:28Z</time>
+    <time>2022-03-11T00:18:27Z</time>
   </trkpt>
   <trkpt lat="33.4531557778472" lon="-111.443264533015">
     <ele>934.901</ele>
-    <time>2022-03-11T00:18:29Z</time>
+    <time>2022-03-11T00:18:28Z</time>
   </trkpt>
   <trkpt lat="33.4531505362816" lon="-111.443226435275">
     <ele>936.163</ele>
-    <time>2022-03-11T00:18:30Z</time>
+    <time>2022-03-11T00:18:29Z</time>
   </trkpt>
   <trkpt lat="33.4531451688014" lon="-111.443186493074">
     <ele>935.98</ele>
-    <time>2022-03-11T00:18:31Z</time>
+    <time>2022-03-11T00:18:30Z</time>
   </trkpt>
   <trkpt lat="33.4531264550015" lon="-111.443144204537">
     <ele>937.352</ele>
-    <time>2022-03-11T00:18:32Z</time>
+    <time>2022-03-11T00:18:31Z</time>
   </trkpt>
   <trkpt lat="33.4531188842706" lon="-111.443115799922">
     <ele>936.604</ele>
-    <time>2022-03-11T00:18:33Z</time>
+    <time>2022-03-11T00:18:32Z</time>
   </trkpt>
   <trkpt lat="33.4531057956314" lon="-111.44307883579">
     <ele>937.289</ele>
-    <time>2022-03-11T00:18:34Z</time>
+    <time>2022-03-11T00:18:33Z</time>
   </trkpt>
   <trkpt lat="33.4530772191486" lon="-111.443047820444">
     <ele>937.917</ele>
-    <time>2022-03-11T00:18:35Z</time>
+    <time>2022-03-11T00:18:34Z</time>
   </trkpt>
   <trkpt lat="33.4530527696061" lon="-111.443020905138">
     <ele>938.309</ele>
-    <time>2022-03-11T00:18:36Z</time>
+    <time>2022-03-11T00:18:35Z</time>
   </trkpt>
   <trkpt lat="33.4530278646655" lon="-111.442992492882">
     <ele>939.124</ele>
-    <time>2022-03-11T00:18:37Z</time>
+    <time>2022-03-11T00:18:36Z</time>
   </trkpt>
   <trkpt lat="33.4530048321877" lon="-111.442959612251">
     <ele>939.292</ele>
-    <time>2022-03-11T00:18:38Z</time>
+    <time>2022-03-11T00:18:37Z</time>
   </trkpt>
   <trkpt lat="33.4529931069846" lon="-111.442924925021">
     <ele>939.565</ele>
-    <time>2022-03-11T00:18:39Z</time>
+    <time>2022-03-11T00:18:38Z</time>
   </trkpt>
   <trkpt lat="33.4530008506305" lon="-111.442887760425">
     <ele>939.915</ele>
-    <time>2022-03-11T00:18:40Z</time>
+    <time>2022-03-11T00:18:39Z</time>
   </trkpt>
   <trkpt lat="33.4529933366262" lon="-111.442853912851">
     <ele>940.25</ele>
-    <time>2022-03-11T00:18:41Z</time>
+    <time>2022-03-11T00:18:40Z</time>
   </trkpt>
   <trkpt lat="33.4529691820619" lon="-111.442813895765">
     <ele>940.235</ele>
-    <time>2022-03-11T00:18:42Z</time>
+    <time>2022-03-11T00:18:41Z</time>
   </trkpt>
   <trkpt lat="33.4529598521769" lon="-111.442777808913">
     <ele>941.022</ele>
-    <time>2022-03-11T00:18:43Z</time>
+    <time>2022-03-11T00:18:42Z</time>
   </trkpt>
   <trkpt lat="33.4529379412238" lon="-111.442748620774">
     <ele>942.114</ele>
-    <time>2022-03-11T00:18:44Z</time>
+    <time>2022-03-11T00:18:43Z</time>
   </trkpt>
   <trkpt lat="33.4529228107603" lon="-111.442723172594">
     <ele>942.646</ele>
-    <time>2022-03-11T00:18:45Z</time>
+    <time>2022-03-11T00:18:44Z</time>
   </trkpt>
   <trkpt lat="33.4529145321662" lon="-111.442686365817">
     <ele>942.567</ele>
-    <time>2022-03-11T00:18:46Z</time>
+    <time>2022-03-11T00:18:45Z</time>
   </trkpt>
-  <trkpt lat="33.4529046193936" lon="-111.442650953185">
+  <trkpt lat="33.452896986063315" lon="-111.44266174375704">
     <ele>942.764</ele>
-    <time>2022-03-11T00:18:47Z</time>
+    <time>2022-03-11T00:18:46Z</time>
   </trkpt>
   <trkpt lat="33.4528767521682" lon="-111.442639184954">
     <ele>943.408</ele>
-    <time>2022-03-11T00:18:48Z</time>
+    <time>2022-03-11T00:18:47Z</time>
   </trkpt>
-  <trkpt lat="33.4528539737298" lon="-111.442625389722">
+  <trkpt lat="33.45285894222477" lon="-111.4426174873083">
     <ele>943.238</ele>
-    <time>2022-03-11T00:18:49Z</time>
+    <time>2022-03-11T00:18:48Z</time>
   </trkpt>
   <trkpt lat="33.4528451664716" lon="-111.442595310656">
     <ele>944.363</ele>
-    <time>2022-03-11T00:18:50Z</time>
+    <time>2022-03-11T00:18:49Z</time>
   </trkpt>
   <trkpt lat="33.4528192733002" lon="-111.442553762066">
     <ele>944.773</ele>
-    <time>2022-03-11T00:18:51Z</time>
+    <time>2022-03-11T00:18:50Z</time>
   </trkpt>
-  <trkpt lat="33.4527926068527" lon="-111.442524372847">
+  <trkpt lat="33.45279963856086" lon="-111.44251690447024">
     <ele>945.488</ele>
-    <time>2022-03-11T00:18:52Z</time>
+    <time>2022-03-11T00:18:51Z</time>
   </trkpt>
   <trkpt lat="33.4527850173997" lon="-111.442487361025">
     <ele>946.205</ele>
-    <time>2022-03-11T00:18:53Z</time>
+    <time>2022-03-11T00:18:52Z</time>
   </trkpt>
   <trkpt lat="33.452763118786" lon="-111.442470069119">
     <ele>945.565</ele>
-    <time>2022-03-11T00:18:54Z</time>
+    <time>2022-03-11T00:18:53Z</time>
   </trkpt>
   <trkpt lat="33.4527311591985" lon="-111.442448940436">
     <ele>946.673</ele>
-    <time>2022-03-11T00:18:55Z</time>
+    <time>2022-03-11T00:18:54Z</time>
   </trkpt>
   <trkpt lat="33.4526941712445" lon="-111.442457525776">
     <ele>946.613</ele>
-    <time>2022-03-11T00:18:56Z</time>
+    <time>2022-03-11T00:18:55Z</time>
   </trkpt>
   <trkpt lat="33.4526654861257" lon="-111.442453876107">
     <ele>947.364</ele>
-    <time>2022-03-11T00:18:57Z</time>
+    <time>2022-03-11T00:18:56Z</time>
   </trkpt>
   <trkpt lat="33.4526305207809" lon="-111.442457516818">
     <ele>948.428</ele>
-    <time>2022-03-11T00:18:58Z</time>
+    <time>2022-03-11T00:18:57Z</time>
   </trkpt>
   <trkpt lat="33.4526031279371" lon="-111.442460744551">
     <ele>948.692</ele>
-    <time>2022-03-11T00:18:59Z</time>
+    <time>2022-03-11T00:18:58Z</time>
   </trkpt>
-  <trkpt lat="33.452575050206796" lon="-111.442473538856">
+  <trkpt lat="33.4525747318443" lon="-111.44246728360346">
     <ele>948.676</ele>
-    <time>2022-03-11T00:19:00Z</time>
+    <time>2022-03-11T00:18:59Z</time>
   </trkpt>
   <trkpt lat="33.4525426357133" lon="-111.442454747853">
     <ele>949.435</ele>
-    <time>2022-03-11T00:19:01Z</time>
+    <time>2022-03-11T00:19:00Z</time>
   </trkpt>
   <trkpt lat="33.4525222083447" lon="-111.442432102016">
     <ele>951.124</ele>
-    <time>2022-03-11T00:19:02Z</time>
+    <time>2022-03-11T00:19:01Z</time>
   </trkpt>
   <trkpt lat="33.4525136432019" lon="-111.442387001423">
     <ele>951.421</ele>
-    <time>2022-03-11T00:19:03Z</time>
+    <time>2022-03-11T00:19:02Z</time>
   </trkpt>
   <trkpt lat="33.452502555832" lon="-111.442349732866">
     <ele>952.514</ele>
-    <time>2022-03-11T00:19:04Z</time>
+    <time>2022-03-11T00:19:03Z</time>
   </trkpt>
   <trkpt lat="33.4524725721705" lon="-111.442313733578">
     <ele>953.75</ele>
-    <time>2022-03-11T00:19:05Z</time>
+    <time>2022-03-11T00:19:04Z</time>
   </trkpt>
   <trkpt lat="33.4524507203099" lon="-111.442283465229">
     <ele>955.018</ele>
-    <time>2022-03-11T00:19:06Z</time>
+    <time>2022-03-11T00:19:05Z</time>
   </trkpt>
   <trkpt lat="33.4524328362338" lon="-111.442255699947">
     <ele>955.594</ele>
-    <time>2022-03-11T00:19:07Z</time>
+    <time>2022-03-11T00:19:06Z</time>
   </trkpt>
   <trkpt lat="33.452422705242" lon="-111.442223817875">
     <ele>957.119</ele>
-    <time>2022-03-11T00:19:08Z</time>
+    <time>2022-03-11T00:19:07Z</time>
   </trkpt>
   <trkpt lat="33.4524030950091" lon="-111.442192817322">
     <ele>957.873</ele>
-    <time>2022-03-11T00:19:09Z</time>
+    <time>2022-03-11T00:19:08Z</time>
   </trkpt>
   <trkpt lat="33.4523821502066" lon="-111.442179153771">
     <ele>958.181</ele>
-    <time>2022-03-11T00:19:10Z</time>
+    <time>2022-03-11T00:19:09Z</time>
   </trkpt>
   <trkpt lat="33.4523610613465" lon="-111.442172632203">
     <ele>958.293</ele>
-    <time>2022-03-11T00:19:11Z</time>
+    <time>2022-03-11T00:19:10Z</time>
   </trkpt>
   <trkpt lat="33.452341876436" lon="-111.442199136461">
     <ele>958.872</ele>
-    <time>2022-03-11T00:19:12Z</time>
+    <time>2022-03-11T00:19:11Z</time>
   </trkpt>
   <trkpt lat="33.4523275547481" lon="-111.442213946503">
     <ele>959.323</ele>
-    <time>2022-03-11T00:19:13Z</time>
+    <time>2022-03-11T00:19:12Z</time>
   </trkpt>
   <trkpt lat="33.4523092864263" lon="-111.442213539177">
     <ele>959.757</ele>
-    <time>2022-03-11T00:19:14Z</time>
+    <time>2022-03-11T00:19:13Z</time>
   </trkpt>
   <trkpt lat="33.452288714805" lon="-111.442213316664">
     <ele>959.478</ele>
-    <time>2022-03-11T00:19:15Z</time>
+    <time>2022-03-11T00:19:14Z</time>
   </trkpt>
   <trkpt lat="33.4522563776773" lon="-111.442235160637">
     <ele>960.209</ele>
-    <time>2022-03-11T00:19:16Z</time>
+    <time>2022-03-11T00:19:15Z</time>
   </trkpt>
   <trkpt lat="33.4522253919784" lon="-111.442249357274">
     <ele>959.913</ele>
-    <time>2022-03-11T00:19:17Z</time>
+    <time>2022-03-11T00:19:16Z</time>
   </trkpt>
   <trkpt lat="33.4521989685296" lon="-111.442245675848">
     <ele>960.267</ele>
-    <time>2022-03-11T00:19:18Z</time>
+    <time>2022-03-11T00:19:17Z</time>
   </trkpt>
-  <trkpt lat="33.4521782699706" lon="-111.442252839542">
+  <trkpt lat="33.452184220786535" lon="-111.44223795473269">
     <ele>960.854</ele>
-    <time>2022-03-11T00:19:19Z</time>
+    <time>2022-03-11T00:19:18Z</time>
   </trkpt>
   <trkpt lat="33.4521678671224" lon="-111.442220449644">
     <ele>960.812</ele>
-    <time>2022-03-11T00:19:20Z</time>
+    <time>2022-03-11T00:19:19Z</time>
   </trkpt>
   <trkpt lat="33.4521573677717" lon="-111.442196328866">
     <ele>960.824</ele>
-    <time>2022-03-11T00:19:21Z</time>
+    <time>2022-03-11T00:19:20Z</time>
   </trkpt>
   <trkpt lat="33.452146751575" lon="-111.442169722308">
     <ele>961.201</ele>
-    <time>2022-03-11T00:19:22Z</time>
+    <time>2022-03-11T00:19:21Z</time>
   </trkpt>
   <trkpt lat="33.45213688" lon="-111.442144282717">
     <ele>961.165</ele>
-    <time>2022-03-11T00:19:23Z</time>
+    <time>2022-03-11T00:19:22Z</time>
   </trkpt>
   <trkpt lat="33.4521117951311" lon="-111.442120823652">
     <ele>960.557</ele>
-    <time>2022-03-11T00:19:24Z</time>
+    <time>2022-03-11T00:19:23Z</time>
   </trkpt>
   <trkpt lat="33.4520974733748" lon="-111.44210139008">
     <ele>960.687</ele>
-    <time>2022-03-11T00:19:25Z</time>
+    <time>2022-03-11T00:19:24Z</time>
   </trkpt>
   <trkpt lat="33.4520849712256" lon="-111.442081011774">
     <ele>960.764</ele>
-    <time>2022-03-11T00:19:26Z</time>
+    <time>2022-03-11T00:19:25Z</time>
   </trkpt>
-  <trkpt lat="33.4520665948678" lon="-111.442047396111">
+  <trkpt lat="33.45207232617653" lon="-111.44205020010165">
     <ele>960.758</ele>
-    <time>2022-03-11T00:19:27Z</time>
+    <time>2022-03-11T00:19:26Z</time>
   </trkpt>
   <trkpt lat="33.4520661101877" lon="-111.442010630226">
     <ele>960.835</ele>
-    <time>2022-03-11T00:19:28Z</time>
+    <time>2022-03-11T00:19:27Z</time>
   </trkpt>
-  <trkpt lat="33.4520630601424" lon="-111.441980957735">
+  <trkpt lat="33.4520566609196" lon="-111.44199119150332">
     <ele>960.866</ele>
-    <time>2022-03-11T00:19:29Z</time>
+    <time>2022-03-11T00:19:28Z</time>
   </trkpt>
   <trkpt lat="33.4520317361219" lon="-111.441959631212">
     <ele>961.813</ele>
-    <time>2022-03-11T00:19:30Z</time>
+    <time>2022-03-11T00:19:29Z</time>
   </trkpt>
   <trkpt lat="33.4520105771295" lon="-111.4419432294">
     <ele>961.356</ele>
-    <time>2022-03-11T00:19:31Z</time>
+    <time>2022-03-11T00:19:30Z</time>
   </trkpt>
   <trkpt lat="33.4519963627585" lon="-111.441917830978">
     <ele>961.157</ele>
-    <time>2022-03-11T00:19:32Z</time>
+    <time>2022-03-11T00:19:31Z</time>
   </trkpt>
   <trkpt lat="33.4519948479694" lon="-111.441890845016">
     <ele>961.312</ele>
-    <time>2022-03-11T00:19:33Z</time>
+    <time>2022-03-11T00:19:32Z</time>
   </trkpt>
   <trkpt lat="33.4519839613329" lon="-111.44185949959">
     <ele>961.32</ele>
-    <time>2022-03-11T00:19:34Z</time>
+    <time>2022-03-11T00:19:33Z</time>
   </trkpt>
   </trkseg>
 </trk>
 <trk>
-  <name>MSCR02</name>
-  <desc>Massacre Grounds Tr (Waterfall spur) to Massacre Grounds Peak</desc>
+  <name>MSCRFL03</name>
+  <desc>Overlook spur to Massacre Falls</desc>
   <trkseg>
   <trkpt lat="33.4519839613329" lon="-111.44185949959">
     <ele>961.32</ele>
@@ -4732,7 +4728,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>962.516</ele>
     <time>2022-03-11T00:00:06Z</time>
   </trkpt>
-  <trkpt lat="33.451938611927986" lon="-111.44172230004958">
+  <trkpt lat="33.45194252824807" lon="-111.44172699391535">
     <ele>962.845</ele>
     <time>2022-03-11T00:00:07Z</time>
   </trkpt>
@@ -4780,7 +4776,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>974.206</ele>
     <time>2022-03-11T00:00:18Z</time>
   </trkpt>
-  <trkpt lat="33.4519259979067" lon="-111.441360757774">
+  <trkpt lat="33.45193581455683" lon="-111.44136221348933">
     <ele>974.892</ele>
     <time>2022-03-11T00:00:19Z</time>
   </trkpt>
@@ -4799,8 +4795,8 @@ creator="Viking 1.10 -- http://viking.sf.net/"
   </trkseg>
 </trk>
 <trk>
-  <name>MSCR03</name>
-  <desc>Massacre Grounds Tr to Massacre Grounds Waterfall</desc>
+  <name>MSCRFL02</name>
+  <desc>Massacre Falls Tr to Overlook</desc>
   <trkseg>
   <trkpt lat="33.45198336985821" lon="-111.44185909270934">
     <ele>964.61</ele>
@@ -4914,7 +4910,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>959.267</ele>
     <time>2022-03-11T00:00:28Z</time>
   </trkpt>
-  <trkpt lat="33.4519372690687" lon="-111.442752397958">
+  <trkpt lat="33.45192574401897" lon="-111.44275427996806">
     <ele>959.153</ele>
     <time>2022-03-11T00:00:29Z</time>
   </trkpt>
@@ -4938,7 +4934,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>956.652</ele>
     <time>2022-03-11T00:00:34Z</time>
   </trkpt>
-  <trkpt lat="33.4518463485215" lon="-111.442753631931">
+  <trkpt lat="33.45184406072445" lon="-111.44276366769961">
     <ele>956.193</ele>
     <time>2022-03-11T00:00:35Z</time>
   </trkpt>
@@ -4966,7 +4962,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>958.376</ele>
     <time>2022-03-11T00:00:41Z</time>
   </trkpt>
-  <trkpt lat="33.4516445689608" lon="-111.4427940539">
+  <trkpt lat="33.451640411627714" lon="-111.44278512537173">
     <ele>958.887</ele>
     <time>2022-03-11T00:00:42Z</time>
   </trkpt>
@@ -4990,7 +4986,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>960.679</ele>
     <time>2022-03-11T00:00:47Z</time>
   </trkpt>
-  <trkpt lat="33.4514624189238" lon="-111.4428253691">
+  <trkpt lat="33.45146249801447" lon="-111.44283742844752">
     <ele>961.396</ele>
     <time>2022-03-11T00:00:48Z</time>
   </trkpt>
@@ -5006,7 +5002,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>962.807</ele>
     <time>2022-03-11T00:00:51Z</time>
   </trkpt>
-  <trkpt lat="33.4513552539329" lon="-111.442823716344">
+  <trkpt lat="33.451359554121886" lon="-111.44281060635737">
     <ele>963.586</ele>
     <time>2022-03-11T00:00:52Z</time>
   </trkpt>
@@ -5026,7 +5022,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>967.431</ele>
     <time>2022-03-11T00:00:56Z</time>
   </trkpt>
-  <trkpt lat="33.4512281560637" lon="-111.44278935134">
+  <trkpt lat="33.45123311199963" lon="-111.44279987752131">
     <ele>968.763</ele>
     <time>2022-03-11T00:00:57Z</time>
   </trkpt>
@@ -5058,7 +5054,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>970.632</ele>
     <time>2022-03-11T00:01:04Z</time>
   </trkpt>
-  <trkpt lat="33.4511606857345" lon="-111.442884365493">
+  <trkpt lat="33.451153665970054" lon="-111.44289107262782">
     <ele>970.675</ele>
     <time>2022-03-11T00:01:05Z</time>
   </trkpt>
@@ -5070,7 +5066,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>970.532</ele>
     <time>2022-03-11T00:01:07Z</time>
   </trkpt>
-  <trkpt lat="33.4511272329031" lon="-111.442959086883">
+  <trkpt lat="33.451135762629406" lon="-111.44297288000277">
     <ele>970.693</ele>
     <time>2022-03-11T00:01:08Z</time>
   </trkpt>
@@ -5154,7 +5150,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>984.579</ele>
     <time>2022-03-11T00:01:28Z</time>
   </trkpt>
-  <trkpt lat="33.4506800546488" lon="-111.443044530074">
+  <trkpt lat="33.450681464123704" lon="-111.44303054749659">
     <ele>985.151</ele>
     <time>2022-03-11T00:01:29Z</time>
   </trkpt>
@@ -5186,7 +5182,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>988.899</ele>
     <time>2022-03-11T00:01:36Z</time>
   </trkpt>
-  <trkpt lat="33.4505067987132" lon="-111.443162094346">
+  <trkpt lat="33.45050466751026" lon="-111.44315258800677">
     <ele>989.964</ele>
     <time>2022-03-11T00:01:37Z</time>
   </trkpt>
@@ -5202,7 +5198,7 @@ creator="Viking 1.10 -- http://viking.sf.net/"
     <ele>993.338</ele>
     <time>2022-03-11T00:01:40Z</time>
   </trkpt>
-  <trkpt lat="33.4504444359734" lon="-111.443207743427">
+  <trkpt lat="33.45043752946137" lon="-111.44320220887354">
     <ele>995.361</ele>
     <time>2022-03-11T00:01:41Z</time>
   </trkpt>

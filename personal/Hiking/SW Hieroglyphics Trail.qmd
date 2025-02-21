@@ -3,14 +3,14 @@ title: "Hieroglphyics Canyon"
 subtitle: "Hieroglyphics Trail"
 ---
 
-On March 7, 2022 Kim and I hiked the Heiroglyphics Trail. This is a popular trail that goes to Heiroglyphics Canyon. A variety of petroglyhs can be seen on the canyon walls. Details are below.
+On March 7, 2022 Kim and I hiked the Hieroglyphics Trail. This is a popular trail that goes to Hieroglyphics Canyon. A variety of petroglyhs can be seen on the canyon walls. Details are below.
 
 ```{r}
 #| label: setup
 #| include: false
 
-# Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600")
+# Make vector of colors
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 project <- "Superstition Wilderness"
@@ -19,7 +19,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("HGPH01","HGPH02","HGPH02","HGPH01")
+walkIDs <- c("HRGPH01","HRGPH02","HRGPH02","HRGPH01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

@@ -17,7 +17,7 @@ project <- "Superstition Wilderness"
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
 
 # Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
@@ -33,7 +33,7 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 
 :::{.callout-tips appearance="simple"}
 ## Interactions with Map
-* <span style="color: #CC0000">red</span> were from 2022, <span style="color: #CC6600">orange</span> were from 2023, and <span style="color: #CC9900">gold</span> were from 2024 (*recent years overlap older years for some tracks*).
+* <span style="color: #CC0000">red</span> are roads, <span style="color: #CC6600">orange</span> are trails numbered by the Forest Service, <span style="color: #CC9900">gold</span> are named (but not numbered) trails, and <span style="color: #663300">brown</span> are unnamed (nor numbered) trails.
 * Hover on track to see track abbreviation.
 * Click on track to get track information.
 * Use +/- in upper-left to zoom.
@@ -46,10 +46,16 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 # Specific Hikes
 Specific hikes that we have enjoyed are highlighted below.
 
+* **2025**
+  - Praying Hands (from First Water Rd)
+  - Siphon Draw (from E Singletree Rd)
+  - Superstition Ridgeline (Hieroglyphics TH to Siphon Draw Tr)
+  - Jacob's Crosscut (Broadway TH to E Singletree Rd)
+  
 * **2024**
   - [Lost Goldmine (Hieroglyphics TH to Carney Springs)](SW LGM_HG2CS.html)
   - [Weaver's Needle Cross Loop](SW Weavers Needle Cross.html)
-  - [Lost Goldmine (Broadway TH to E Cloudview Ave)](SW LGM_BW2CV.html)
+  - [Goldmine (Broadway TH to E Cloudview Ave)](SW Goldmine.html)
   - [Robber's Roost (via Fremont Saddle)](SW Robbers Roost II.html)
   - [Hackberry Springs Loop II](SW Hackberry Springs II.html)
 
@@ -64,7 +70,7 @@ Specific hikes that we have enjoyed are highlighted below.
   - [Hieroglyphics Trail](SW Hieroglyphics Trail.html)
   - [Peralta & Cave Trail Loop](SW Peralta Cave Trail.html)
   - [Black Top Mesa (from First Waters TH)](SW Black Top Mesa FW TH.html)
-  - [Massacre Grounds](SW Massacre Grounds.html)
+  - [Massacre Falls](SW Massacre Grounds.html)
 
 &nbsp;
 
