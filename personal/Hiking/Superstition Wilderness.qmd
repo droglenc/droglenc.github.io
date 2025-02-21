@@ -47,10 +47,10 @@ gpxhelpers::allTracksMap(trkdat,clrs=clrs,verbose=FALSE)
 Specific hikes that we have enjoyed are highlighted below.
 
 * **2025**
-  - Praying Hands (from First Water Rd)
-  - Siphon Draw (from E Singletree Rd)
-  - Superstition Ridgeline (Hieroglyphics TH to Siphon Draw Tr)
-  - Jacob's Crosscut (Broadway TH to E Singletree Rd)
+  - [Praying Hands (from First Water Rd)](SW Praying Hands.html)
+  - [Siphon Draw (from E Singletree Rd)](SW Siphon Draw.html)
+  - [Superstition Ridgeline (Hieroglyphics TH to Siphon Draw Tr)](SW Ridgeline H2SD.html)
+  - [Jacob's Crosscut (Broadway TH to E Singletree Rd)](SW Jacobs B2ES.html)
   
 * **2024**
   - [Lost Goldmine (Hieroglyphics TH to Carney Springs)](SW LGM_HG2CS.html)
