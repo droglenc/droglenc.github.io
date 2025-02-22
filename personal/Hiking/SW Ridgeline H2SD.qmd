@@ -3,7 +3,7 @@ title: "Superstition Ridgeline West"
 subtitle: "Hieroglyphics TH to Siphon Draw"
 ---
 
-On February 10, 2025 Kim and I hiked the western portion of the Superstition Ridgeline. We climbed to the Ridgeline trail via Hieroglypics Trail and then turned west to Siphon Draw which we descended. We had a little trouble finding the trail at first (in retrospect, not sure how we missed it) and a few other places we had to search a little, but otherwise it was pretty easy to follow. The views were simply amazing, in all directions!! The only downside is that Siphon Draw is a tough descent when your legs are tired. This was a half of a bucket-list hike; we hope to do the East end (and visit Superstition Peak) next year.
+On February 10, 2025 Kim and I hiked the western portion of the Superstition Ridgeline. We climbed to the Ridgeline trail via Hieroglyphics Trail and then turned west to Siphon Draw which we descended. We had a little trouble finding the trail at first (in retrospect, not sure how we missed it) and a few other places we had to search a little, but otherwise it was pretty easy to follow. The views were simply amazing, in all directions!! The only downside is that Siphon Draw is a tough descent when your legs are tired. This was a half of a bucket-list hike; we hope to do the East end (and visit Superstition Peak) next year.
 
 ```{r}
 #| label: setup
