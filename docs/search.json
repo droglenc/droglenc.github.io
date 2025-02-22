@@ -4232,5 +4232,47 @@
     "title": "Jacob’s Crosscut",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nJCBCUT15\nJacob's Crosscut Tr (58)\nBroadway Ave TH to Goldmine Tr\n0.62\n0.62\n130\n\n\n2\nJCBCUT14\nJacob's Crosscut Tr (58)\nGoldmine Tr to Monument Canyon Tr\n0.60\n1.22\n199\n\n\n3\nJCBCUT13\nJacob's Crosscut Tr (58)\nMonument Canyon Tr to Connector from E Singletree St\n2.68\n3.90\n25\n\n\n4\nJCBCUT13\nJacob's Crosscut Tr (58)\nConnector from E Singletree St to Monument Canyon Tr\n2.68\n6.58\n-25\n\n\n5\nMNMTCN01\nMonument Canyon Tr\nJacob's Crosscut Tr to Broadway Cave Tr\n0.40\n6.98\n189\n\n\n6\nBRDWCV01\nBroadway Cave Tr\nMonument Canyon Tr to Broadway Cave\n0.28\n7.26\n399\n\n\n7\nBRDWCV01\nBroadway Cave Tr\nBroadway Cave to Monument Canyon Tr\n0.28\n7.54\n-399\n\n\n8\nMNMTCN01\nMonument Canyon Tr\nBroadway Cave Tr to Jacob's Crosscut Tr\n0.40\n7.94\n-189\n\n\n9\nJCBCUT14\nJacob's Crosscut Tr (58)\nMonument Canyon Tr to Goldmine Tr\n0.60\n8.54\n-199\n\n\n10\nJCBCUT15\nJacob's Crosscut Tr (58)\nGoldmine Tr to Broadway Ave TH\n0.62\n9.16\n-130"
+  },
+  {
+    "objectID": "personal/Hiking/SW Ridgeline H2SD.html",
+    "href": "personal/Hiking/SW Ridgeline H2SD.html",
+    "title": "Superstition Ridgeline West",
+    "section": "",
+    "text": "On February 10, 2025 Kim and I hiked the western portion of the Superstition Ridgeline. We climbed to the Ridgeline trail via Hieroglypics Trail and then turned west to Siphon Draw which we descended. We had a little trouble finding the trail at first (in retrospect, not sure how we missed it) and a few other places we had to search a little, but otherwise it was pretty easy to follow. The views were simply amazing, in all directions!! The only downside is that Siphon Draw is a tough descent when your legs are tired. This was a half of a bucket-list hike; we hope to do the East end (and visit Superstition Peak) next year."
+  },
+  {
+    "objectID": "personal/Hiking/SW Ridgeline H2SD.html#walk-specific-map",
+    "href": "personal/Hiking/SW Ridgeline H2SD.html#walk-specific-map",
+    "title": "Superstition Ridgeline West",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\nSee Superstition Wilderness Overview page for an overview map of all hikes.\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below.\nSee Superstition Wilderness Overview page for description of use of controls."
+  },
+  {
+    "objectID": "personal/Hiking/SW Ridgeline H2SD.html#elevation-profile",
+    "href": "personal/Hiking/SW Ridgeline H2SD.html#elevation-profile",
+    "title": "Superstition Ridgeline West",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/SW Ridgeline H2SD.html#images",
+    "href": "personal/Hiking/SW Ridgeline H2SD.html#images",
+    "title": "Superstition Ridgeline West",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nHRGPH01: Trail sign (with some petroglyphs)\n\n\n\n\n\n\n\nHRGPH02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nHRGPH02: Petroglyphs\n\n\n\n\n\n\n\nHRGPH02: Petroglyphs\n\n\n\n\n\n\n\nHRGPH02: Petroglyphs\n\n\n\n\n\n\n\nHRGPH02: Looking further up the canyon\n\n\n\n\n\n\n\nHRGPH02: Kim and I in the canyon\n\n\n\n\n\n\n\nHRGPH02: Petroglyphs\n\n\n\n\n\n\n\nHRGPH02: Petroglyphs\n\n\n\n\n\n\n\nHRGPH02: Petroglyphs\n\n\n\n\n\n\n\nHRGPH02: Saguaro Cactus\n\n\n\n\n\n\n\nHRGPH02: Old-man Cactus (?)\n\n\n\n\n\n\n\nHRGPH02: Typical scenery in Spring 2022\n\n\n\n\n\n\n\nHRGPH02: Blooming something(?)\n\n\n\n\n\n\n\nHRGPH02: Ocotillo\n\n\n\n\n\n\n\nHRGPH02: Prickly Pear Cactus\n\n\n\n\n\n\n\nHRGPH02: Old-man Cactus (?)\n\n\n\n\n\n\n\nHRGPH02: Blooming Poppy spp.\n\n\n\n\n\n\n\nSPHNDR10: View up the Draw\n\n\n\n\n\n\n\nSPHNDR10: View up the Draw\n\n\n\n\n\n\n\nSPHNDR10: View down the Draw\n\n\n\n\n\n\n\nSPHNDR10: View down the Draw\n\n\n\n\n\n\n\nSPHNDR10: Kim in the Draw\n\n\n\n\n\n\n\nSPHNDR10: Kim scrambling\n\n\n\n\n\n\n\nSPHNDR10: Bighorn Sheep\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/SW Ridgeline H2SD.html#gpx-download",
+    "href": "personal/Hiking/SW Ridgeline H2SD.html#gpx-download",
+    "title": "Superstition Ridgeline West",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/SW Ridgeline H2SD.html#summary-information",
+    "href": "personal/Hiking/SW Ridgeline H2SD.html#summary-information",
+    "title": "Superstition Ridgeline West",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nHRGPH01\nHeiroglyphics Tr (101)\nHeiroglyphics TH to Lost Goldmine Tr\n0.13\n0.13\n37\n\n\n2\nHRGPH02\nHeiroglyphics Tr (101)\nLost Goldmine Tr to Heiroglyphics Canyon\n1.35\n1.48\n531\n\n\n3\nHRGPH03\nHeiroglyphics Tr (101)\nHeiroglyphics Canyon to Superstition Ridgeline Tr\n1.50\n2.97\n1707\n\n\n4\nRDGLIN21\nSuperstition Ridgeline Tr (Alt)\nHeiroglyphics Tr to\n0.14\n3.11\n98\n\n\n5\nRDGLIN22\nSuperstition Ridgeline Tr\nto Siphon Draw Tr\n3.97\n7.08\n140\n\n\n6\nSPHNDR10\nSiphon Draw Tr (153)\nSuperstition Ridgeline Tr / Flatiron Tr to Jacob's Crosscut Tr\n1.85\n8.93\n-2411\n\n\n7\nJCBCUT12\nJacob's Crosscut Tr (58)\nSiphon Draw Tr to Connector from E Singletree St\n0.48\n9.41\n31\n\n\n8\nCNJCUT10\nConnector to Jacob's Crosscut Tr\nJacob's Crosscut Tr to E Singletree St\n0.20\n9.61\n-74"
   }
 ]
