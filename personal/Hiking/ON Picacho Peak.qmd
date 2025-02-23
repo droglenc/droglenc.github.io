@@ -14,7 +14,7 @@ project <- "NMAZ23"
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
 
-# Make vector of colors for Iron River Area
+# Make vector of colors
 clrs <- c("2022"="#CC0000","2023"="#CC6600")
 
 # Read in CSV file will all track info needed for the map
@@ -24,7 +24,8 @@ trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"
 
 # Make the walk
 walkIDs <- c("PCHOP01","PCHOP02","PCHOP03","PCHOP04","PCHOP05",
-             "PCHOP06","PCHOP07","PCHOP08","PCHOP09","PCHOP10")
+             "PCHOP05","PCHOP06","PCHOP07","PCHOP08","PCHOP09",
+             "PCHOP10","PCHOP03","PCHOP02","PCHOP01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
