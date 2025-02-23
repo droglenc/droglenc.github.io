@@ -1,28 +1,32 @@
 ---
-title: "Black Top Mesa from First Water TH"
-subtitle: "Dutchman's & Second Water Trail Loop"
+title: "Wasson Peak Loop"
+subtitle: "Saguaro National Park, Tucson, AZ"
 ---
 
-On March 9, 2022 Kim and I hiked to Black Top Mesa from the First Water trailhead via Dutchman's and Bull Pass trails. This was a long walk for us (~12.5 mi) but offered stunning views of Weaver's Needle from the north, which we had not seen before. The climb up to the top was steep but the trail was fairly easy to navigate. We returned to the trailhead via the Black Mesa and Second Water trails. There were many more cacti on the trail back. Fun hike. Details are below.
+On February 13, 2025 Kim and I hiked to Wasson Peak in Saguaro National Park [West]. We hiked clockwise starting on the Gould Mine Trail, continuing on the Sendero Esperanza Trail, before taking the Hugh Norris Trail all the way to the peak. On the way back we followed the King Canyon trail into the King Canyon wash back to the parking lot. The trail was very easy to follow with a nice tread. There was some elevation change but the views, especially from Wasson Peak, were beautiful. The petroglyphs in the wash were a nice treat on the way back.
 
 ```{r}
 #| label: setup
 #| include: false
 
+project <- "Tucson"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
+
 # Make vector of colors
 clrs <- c("Road"="#CC0000","Numbered"="#CC6600","Named"="#CC9900","Unnamed"="#663300")
 
 # Read in CSV file will all track info needed for the map
-project <- "Superstition Wilderness"
-walkID <- "SW_Black_Top_Mesa"
+walkID <- "ON_WassonPeak"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("DTCHMN56","DTCHMN55","DTCHMN54","DTCHMN53","DTCHMN52",
-             "DTCHMN51","BULLPS01","BTPMSA01","BTPMSA01","BULLPS01",
-             "DTCHMN51","DTCHMN52","BLKMSA01","SCDWTR03","SCDWTR02",
-             "SCDWTR01","DTCHMN56")
+walkIDs <- c("WSSNPK01","WSSNPK02","WSSNPK03","WSSNPK04","WSSNPK05",
+             "WSSNPK06","WSSNPK06","WSSNPK07","WSSNPK08","WSSNPK09",
+             "WSSNPK10","WSSNPK11","WSSNPK12","WSSNPK01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
@@ -32,7 +36,6 @@ npix <- nrow(walkPix)
 ```
 
 ## Walk-Specific Map
-See [Superstition Wilderness Overview page](Superstition Wilderness.html) for an overview map of all hikes.
 
 ```{r}
 #| label: walkMap
