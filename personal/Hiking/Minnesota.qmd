@@ -27,9 +27,15 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 ```
 
 - **Duluth Area**
+  - [Brewer Park Loop](MN Brewer Park.html)
   - [Chester Creek Ravine](MN Chester Creek.html)
   - [Ely's Peak via Short Line Trail](MN ElyPeak ShortLine.html)
   - [Enger Park Tower - Observation Hill](MN Enger_Observation.html)
+  - [Hartley Nature Center Loop I](MN Hartley I.html)
+  - [Hawk Ridge and Snively Loop](MN Hawk Ridge Snively.html)
+  - [Lester Park Loop I](MN Lester Park I.html)
+  - [Lester Park Loop II](MN Lester Park II.html)
+  - [Munger & Carlton Trails near Jay Cooke SP](MN Munger Carlton.html)
   - [Waabizheshikana Trail Loop](MN Waabizheshikana.html)
 
 - **North Shore**

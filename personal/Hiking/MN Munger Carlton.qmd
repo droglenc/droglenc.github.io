@@ -1,0 +1,76 @@
+---
+title: "Munger & Carlton Trails"
+subtitle: "Jay Cooke State Park, Carlton, MN"
+---
+
+On April 14, 2024, Kim, [Cash](../shelties.html#cash), and I made a quick hike on the [Willard Munger State Trail]() near [Jay Cooke State Park](). The Munger Trail is a straight, flat, paved trail with a near bridge over the St. Louis River. Soon after the bridge, we left the Munger Trail on the Carlton Trail which generally follows along the St. Louis River. We did not have much time so we did a quick spur to the banks of the river and then followed the same trail back to the parking area. The trail along the river was very beautiful in places.
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+
+# Make vector of colors for Iron River Area
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+project <- "Minnesota"
+walkID <- "MN_MungerCarlton"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("WMNGR50","CARLTN01","CARLTN91","CARLTN91","CARLTN01","WMNGR50")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+```
+
+## Walk-Specific Map
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
+```

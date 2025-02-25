@@ -2526,7 +2526,7 @@
     "href": "personal/Hiking/Minnesota.html",
     "title": "Minnesota Hiking",
     "section": "",
-    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nChester Creek Ravine\nEly’s Peak via Short Line Trail\nEnger Park Tower - Observation Hill\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nGoosebery Falls to Lake Trail\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nSplit Rock River\nTemperance River loop\nTettegouche SP and Shovel Point",
+    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nBrewer Park Loop\nChester Creek Ravine\nEly’s Peak via Short Line Trail\nEnger Park Tower - Observation Hill\nHartley Nature Center Loop I\nHawk Ridge and Snively Loop\nLester Park Loop I\nLester Park Loop II\nMunger & Carlton Trails near Jay Cooke SP\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nGoosebery Falls to Lake Trail\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nSplit Rock River\nTemperance River loop\nTettegouche SP and Shovel Point",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -4424,5 +4424,215 @@
       "Hiking/Walking",
       "Other Notable"
     ]
+  },
+  {
+    "objectID": "personal/Hiking/MN Brewer Park.html",
+    "href": "personal/Hiking/MN Brewer Park.html",
+    "title": "Brewer Park Loop",
+    "section": "",
+    "text": "Kim, Cash and I did a quick hike on the Superior Hiking Trail through Brewer Park in Duluth, MN. A nice hike in the “middle” of the city. We did not take any pictures."
+  },
+  {
+    "objectID": "personal/Hiking/MN Brewer Park.html#walk-specific-map",
+    "href": "personal/Hiking/MN Brewer Park.html#walk-specific-map",
+    "title": "Brewer Park Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Brewer Park.html#elevation-profile",
+    "href": "personal/Hiking/MN Brewer Park.html#elevation-profile",
+    "title": "Brewer Park Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Brewer Park.html#gpx-download",
+    "href": "personal/Hiking/MN Brewer Park.html#gpx-download",
+    "title": "Brewer Park Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Brewer Park.html#summary-information",
+    "href": "personal/Hiking/MN Brewer Park.html#summary-information",
+    "title": "Brewer Park Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNBRWR01\nParking lot connector\nHaines Rd parking lot to Duluth Cross City West Snowmobile Trail\nTrail\n0.06\n0.06\n14\n\n\n2\nMNBRWR02\nDuluth Cross City West Snowmobile Trail\nParking lot connector to Superior Hiking Trail\nTrail\n0.09\n0.14\n-5\n\n\n3\nMNBRWR03\nSuperior Hiking Trail\nDuluth Cross City West Snowmobile Trail to Superior Hiking Trail Loop\nTrail\n0.22\n0.36\n126\n\n\n4\nMNBRWR04\nSuperior Hiking Trail Loop\nSuperior Hiking Trail to Superior Hiking Trail\nTrail\n0.96\n1.32\n-34\n\n\n5\nMNBRWR05\nSuperior Hiking Trail\nSuperior Hiking Trail Loop to Superior Hiking Trail Loop\nTrail\n1.45\n2.77\n46\n\n\n6\nMNBRWR03\nSuperior Hiking Trail\nSuperior Hiking Trail Loop to Duluth Cross City West Snowmobile Trail\nTrail\n0.22\n2.99\n-126\n\n\n7\nMNBRWR02\nDuluth Cross City West Snowmobile Trail\nSuperior Hiking Trail to Parking lot connector\nTrail\n0.09\n3.07\n5\n\n\n8\nMNBRWR01\nParking lot connector\nDuluth Cross City West Snowmobile Trail to Haines Rd parking lot\nTrail\n0.06\n3.13\n-14"
+  },
+  {
+    "objectID": "personal/Hiking/MN Hawk Ridge Snively.html",
+    "href": "personal/Hiking/MN Hawk Ridge Snively.html",
+    "title": "Hawk Ridge Snively Loop",
+    "section": "",
+    "text": "On November 22, 2022, Cash and I made a loop out of a hike along Hawk Ridge by coming back on the Snively Trail (via Colby Rd). This was a nice hike in the “middle” of the city. We did not take any pictures."
+  },
+  {
+    "objectID": "personal/Hiking/MN Hawk Ridge Snively.html#walk-specific-map",
+    "href": "personal/Hiking/MN Hawk Ridge Snively.html#walk-specific-map",
+    "title": "Hawk Ridge Snively Loop",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Hawk Ridge Snively.html#elevation-profile",
+    "href": "personal/Hiking/MN Hawk Ridge Snively.html#elevation-profile",
+    "title": "Hawk Ridge Snively Loop",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Hawk Ridge Snively.html#gpx-download",
+    "href": "personal/Hiking/MN Hawk Ridge Snively.html#gpx-download",
+    "title": "Hawk Ridge Snively Loop",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Hawk Ridge Snively.html#summary-information",
+    "href": "personal/Hiking/MN Hawk Ridge Snively.html#summary-information",
+    "title": "Hawk Ridge Snively Loop",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nHWKRDG91\nE Skyline Pkwy\nE Skyline Pkwy parking area to Cutoff to E Skyline Pkwy\nPaved\n0.20\n0.20\n17\n\n\n2\nHWKRDG92\nE Skyline Pkwy\nCutoff to E Skyline Pkwy to Hawk Ridge Tr\nPaved\n0.04\n0.23\n-4\n\n\n3\nHWKRDG03\nHawk Ridge Trail (Duluth Traverse)\nE Skyline Pkwy to Amity West Tr\nTrail\n1.93\n2.16\n-97\n\n\n4\nHWKRDG04\nHawk Ridge Trail (Duluth Traverse)\nAmity West Tr to Snively Tr\nTrail\n0.05\n2.21\n-9\n\n\n5\nSNIVLY01\nSnively Tr\nHawk Ridge Tr to Colby Ave\nTrail\n1.90\n4.11\n133\n\n\n6\nCLBYAV01\nColby Ave\nSnively Tr to Hawk Ridge Tr\nPaved\n0.16\n4.27\n7\n\n\n7\nHWKRDG01\nHawk Ridge Trail (Duluth Traverse)\nColby Ave to Cutoff to E Skyline Pkwy\nTrail\n0.58\n4.85\n-2\n\n\n8\nHWKRDG93\nCutoff to E Skyline Pkwy\nHawk Ridge Tr to E Skyline Pkwy\nTrail\n0.06\n4.90\n-25\n\n\n9\nHWKRDG91\nE Skyline Pkwy\nCutoff to E Skyline Pkwy to E Skyline Pkwy parking area\nPaved\n0.20\n5.10\n-17"
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park I.html",
+    "href": "personal/Hiking/MN Lester Park I.html",
+    "title": "Lester Park Loop I",
+    "section": "",
+    "text": "On January 15, 2023, Kim, Cash, and I made a nice loop hike in Lester Park. We went “out” on the Amity East trail and came back “in” on the Amity West trail. This was a nice long(ish) hike in Lester Park. We did not take any pictures."
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park I.html#walk-specific-map",
+    "href": "personal/Hiking/MN Lester Park I.html#walk-specific-map",
+    "title": "Lester Park Loop I",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park I.html#elevation-profile",
+    "href": "personal/Hiking/MN Lester Park I.html#elevation-profile",
+    "title": "Lester Park Loop I",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park I.html#gpx-download",
+    "href": "personal/Hiking/MN Lester Park I.html#gpx-download",
+    "title": "Lester Park Loop I",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park I.html#summary-information",
+    "href": "personal/Hiking/MN Lester Park I.html#summary-information",
+    "title": "Lester Park Loop I",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nAMITYE01\nParking lot connector\nLester River Rd parking lot to Lester River Tr / Amity East Tr\nTrail\n0.02\n0.02\n1\n\n\n2\nAMITYE02\nAmity East Tr\nLester River Tr / Amity East Tr [ALT] to Amity East Tr [ALT]\nTrail\n0.33\n0.35\n66\n\n\n3\nAMITYE03\nAmity East Tr\nAmity East Tr [ALT] to Amity West Tr\nTrail\n0.41\n0.77\n55\n\n\n4\nAMITYE04\nAmity East Tr\nAmity West Tr to Spur to Seven Bridges Rd\nTrail\n0.78\n1.55\n59\n\n\n5\nAMITYE91\nSpur to Seven Bridges Rd\nAmity East Tr to Seven Bridges Rd\nTrail\n0.02\n1.57\n-9\n\n\n6\nAMITYE91\nSpur to Seven Bridges Rd\nSeven Bridges Rd to Amity East Tr\nTrail\n0.02\n1.60\n9\n\n\n7\nAMITYE05\nAmity East Tr\nSpur to Seven Bridges Rd to Spur to Seven Bridges Rd\nTrail\n0.43\n2.03\n65\n\n\n8\nAMITYE92\nSpur to Seven Bridges Rd\nAmity East Tr to Seven Bridges Rd\nTrail\n0.02\n2.05\n-4\n\n\n9\nAMITYE92\nSpur to Seven Bridges Rd\nSeven Bridges Rd to Amity East Tr\nTrail\n0.02\n2.07\n4\n\n\n10\nAMITYE06\nAmity East Tr\nSpur to Seven Bridges Rd to Lester River Tr / Hawk Ridge Tr\nTrail\n0.44\n2.51\n66\n\n\n11\nHWKRDG06\nHawk Ridge Trail (Duluth Traverse)\nAmity East Tr / Lester River Tr to Duluth Cross City E Snowmobilie Tr\nTrail\n0.05\n2.56\n-19\n\n\n12\nHWKRDG05\nHawk Ridge Trail (Duluth Traverse)\nDuluth Cross City E Snowmobilie Tr to Snively Tr\nTrail\n0.32\n2.88\n13\n\n\n13\nHWKRDG04\nHawk Ridge Trail (Duluth Traverse)\nSnively Tr to Amity West Tr\nTrail\n0.05\n2.93\n9\n\n\n14\nAMITYW01\nAmity West Tr\nHawk Ridge Tr to Amity East Tr\nTrail\n2.02\n4.95\n-186\n\n\n15\nAMITYE03\nAmity East Tr\nAmity West Tr to Amity East Tr [ALT]\nTrail\n0.41\n5.36\n-55\n\n\n16\nAMITYE09\nAmity East Tr [ALT]\nAmity East Tr to Lester River Tr / Amity East Tr\nTrail\n0.39\n5.75\n-58\n\n\n17\nAMITYE01\nParking lot connector\nLester River Tr / Amity East Tr to Lester River Rd parking lot\nTrail\n0.02\n5.77\n-1"
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park II.html",
+    "href": "personal/Hiking/MN Lester Park II.html",
+    "title": "Lester Park Loop II",
+    "section": "",
+    "text": "On December 28, 2023, Kim, Cash, and I made a nice loop hike in Lester Park. We went “out” on the Amity East trail and came back “in” on the Lester River trail. This was a very nice long(ish) hike in Lester Park. We did not take any pictures."
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park II.html#walk-specific-map",
+    "href": "personal/Hiking/MN Lester Park II.html#walk-specific-map",
+    "title": "Lester Park Loop II",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park II.html#elevation-profile",
+    "href": "personal/Hiking/MN Lester Park II.html#elevation-profile",
+    "title": "Lester Park Loop II",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park II.html#gpx-download",
+    "href": "personal/Hiking/MN Lester Park II.html#gpx-download",
+    "title": "Lester Park Loop II",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Lester Park II.html#summary-information",
+    "href": "personal/Hiking/MN Lester Park II.html#summary-information",
+    "title": "Lester Park Loop II",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nAMITYE01\nParking lot connector\nLester River Rd parking lot to Lester River Tr / Amity East Tr\nTrail\n0.02\n0.02\n1\n\n\n2\nAMITYE02\nAmity East Tr\nLester River Tr / Amity East Tr [ALT] to Amity East Tr [ALT]\nTrail\n0.33\n0.35\n66\n\n\n3\nAMITYE03\nAmity East Tr\nAmity East Tr [ALT] to Amity West Tr\nTrail\n0.41\n0.77\n55\n\n\n4\nAMITYE04\nAmity East Tr\nAmity West Tr to Spur to Seven Bridges Rd\nTrail\n0.78\n1.55\n59\n\n\n5\nAMITYE05\nAmity East Tr\nSpur to Seven Bridges Rd to Spur to Seven Bridges Rd\nTrail\n0.43\n1.98\n65\n\n\n6\nAMITYE06\nAmity East Tr\nSpur to Seven Bridges Rd to Lester River Tr / Hawk Ridge Tr\nTrail\n0.44\n2.43\n66\n\n\n7\nLESTRV04\nLester River Tr\nAmity East Tr / Hawk Ridge Tr to Lester River Tr spur\nTrail\n2.85\n5.28\n-196\n\n\n8\nLESTRV92\nLester River Tr spur\nLester River Tr to Lester River\nTrail\n0.02\n5.30\n-1\n\n\n9\nLESTRV92\nLester River Tr spur\nLester River to Lester River Tr\nTrail\n0.02\n5.31\n1\n\n\n10\nLESTRV03\nLester River Tr\nLester River Tr spur to Lester River Tr spur\nTrail\n0.15\n5.46\n-27\n\n\n11\nLESTRV91\nLester River Tr spur\nLester River Tr to Lester River Tr\nTrail\n0.09\n5.55\n-13\n\n\n12\nLESTRV01\nLester River Tr\nLester River Tr spur to Amity East Tr\nTrail\n0.34\n5.88\n-72\n\n\n13\nAMITYE01\nParking lot connector\nLester River Tr / Amity East Tr to Lester River Rd parking lot\nTrail\n0.02\n5.91\n-1"
+  },
+  {
+    "objectID": "personal/Hiking/MN Hartley I.html",
+    "href": "personal/Hiking/MN Hartley I.html",
+    "title": "Hartley Nature Center Loop I",
+    "section": "",
+    "text": "On November 15, 2024, Kim, Cash, and I made a nice loop hike at the Hartley Nature Center property. We started out on the Superior Hiking Trail through the park but ventured off onto the “local” trails"
+  },
+  {
+    "objectID": "personal/Hiking/MN Hartley I.html#walk-specific-map",
+    "href": "personal/Hiking/MN Hartley I.html#walk-specific-map",
+    "title": "Hartley Nature Center Loop I",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Hartley I.html#elevation-profile",
+    "href": "personal/Hiking/MN Hartley I.html#elevation-profile",
+    "title": "Hartley Nature Center Loop I",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Hartley I.html#gpx-download",
+    "href": "personal/Hiking/MN Hartley I.html#gpx-download",
+    "title": "Hartley Nature Center Loop I",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Hartley I.html#summary-information",
+    "href": "personal/Hiking/MN Hartley I.html#summary-information",
+    "title": "Hartley Nature Center Loop I",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nHRTLY01\nConnector from parking lot\nNature Center parking lot to Superior Hiking Tr / Old Hartley Rd\nTrail\n0.02\n0.02\n-6\n\n\n2\nHRTLY02\nSuperior Hiking Tr\nOld Hartley Rd to Old Hartley Rd / Old Tunnel Tr\nTrail\n0.31\n0.32\n14\n\n\n3\nHRTLY04\nSuperior Hiking Tr\nSuperior Hiking Tr / Old Tunnel Tr / Old Hartley Rd to Old Hartley Rd\nTrail\n1.09\n1.41\n-26\n\n\n4\nHRTLY40\nOld Hartley Rd\nSuperior Hiking Tr to Superior Hiking Tr\nTrail\n0.04\n1.45\n-5\n\n\n5\nHRTLY50\nSuperior Hiking Tr / Duluth Traverse\nOld Hartley Rd to Root Canal Tr\nTrail\n0.06\n1.52\n2\n\n\n6\nHRTLY60\nRoot Canal Tr\nSuperior Hiking Tr to Wet Meadow Tr\nTrail\n0.54\n2.05\n67\n\n\n7\nHRTLY70\nWet Meadow Tr\nRoot Canal Tr to The Pines Tr\nTrail\n0.49\n2.54\n-25\n\n\n8\nHRTLY21\nThe Pines Tr\nWet Meadow Tr to Rhamnus Tr / Fisherman Tr\nTrail\n0.12\n2.66\n6\n\n\n9\nHRTLY35\nFisherman Tr\nThe Pines Tr / Rhamnus Tr to Rhamnus Tr\nTrail\n0.44\n3.09\n17\n\n\n10\nHRTLY30\nRhamnus Tr\nFisherman Tr to The Pines Tr / Fisherman Tr\nTrail\n0.41\n3.50\n-8\n\n\n11\nHRTLY20\nThe Pines Tr\nRhamnus Tr / Fisherman Tr to Old Tunnel Tr\nTrail\n0.11\n3.62\n1\n\n\n12\nHRTLY10\nOld Tunnel Tr\nThe Pines Tr to Old Hartley Rd / Old Tunnerl Tr\nTrail\n0.33\n3.94\n-22\n\n\n13\nHRTLY03\nOld Hartley Rd\nSuperior Hiking Tr / Old Tunnel Tr to Superior Hiking Tr\nTrail\n0.24\n4.18\n-2\n\n\n14\nHRTLY90\nConnector from parking lot\nSuperior Hiking Tr / Old Hartley Rd to Nature Center parking lot\nTrail\n0.04\n4.23\n23"
+  },
+  {
+    "objectID": "personal/Hiking/MN Munger Carlton.html",
+    "href": "personal/Hiking/MN Munger Carlton.html",
+    "title": "Munger & Carlton Trails",
+    "section": "",
+    "text": "On April 14, 2024, Kim, Cash, and I made a quick hike on the Willard Munger State Trail near Jay Cooke State Park. The Munger Trail is a straight, flat, paved trail with a near bridge over the St. Louis River. Soon after the bridge, we left the Munger Trail on the Carlton Trail which generally follows along the St. Louis River. We did not have much time so we did a quick spur to the banks of the river and then followed the same trail back to the parking area. The trail along the river was very beautiful in places."
+  },
+  {
+    "objectID": "personal/Hiking/MN Munger Carlton.html#walk-specific-map",
+    "href": "personal/Hiking/MN Munger Carlton.html#walk-specific-map",
+    "title": "Munger & Carlton Trails",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Munger Carlton.html#elevation-profile",
+    "href": "personal/Hiking/MN Munger Carlton.html#elevation-profile",
+    "title": "Munger & Carlton Trails",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Munger Carlton.html#gpx-download",
+    "href": "personal/Hiking/MN Munger Carlton.html#gpx-download",
+    "title": "Munger & Carlton Trails",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Munger Carlton.html#summary-information",
+    "href": "personal/Hiking/MN Munger Carlton.html#summary-information",
+    "title": "Munger & Carlton Trails",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nWMNGR50\nWillard Munger State Tr\nHwy 210 parking area to Carlton Tr\nTrail\n0.69\n0.69\n28\n\n\n2\nCARLTN01\nCarlton Tr\nMunger Tr to Carlton Tr spur\nTrail\n1.10\n1.79\n-64\n\n\n3\nCARLTN91\nCarlton Tr spur\nCarlton Tr to St. Louis River\nTrail\n0.03\n1.82\n-23\n\n\n4\nCARLTN91\nCarlton Tr spur\nSt. Louis River to Carlton Tr\nTrail\n0.03\n1.85\n23\n\n\n5\nCARLTN01\nCarlton Tr\nCarlton Tr spur to Munger Tr\nTrail\n1.10\n2.95\n64\n\n\n6\nWMNGR50\nWillard Munger State Tr\nCarlton Tr to Hwy 210 parking area\nTrail\n0.69\n3.64\n-28"
   }
 ]
