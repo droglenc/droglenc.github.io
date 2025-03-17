@@ -9,7 +9,7 @@ Our last few days in Switzerland were in Lucerne. We had a great hotel right on 
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

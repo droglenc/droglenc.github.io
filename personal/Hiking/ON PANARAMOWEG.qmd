@@ -9,7 +9,7 @@ Kim and I took the train from Lauterbrunnen to [Kleine Scheidegg](https://en.wik
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

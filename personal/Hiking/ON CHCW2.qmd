@@ -9,7 +9,7 @@ On our second day in Chur (October 7, 2024) we made a couple of walks around tow
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

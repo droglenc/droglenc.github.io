@@ -9,7 +9,7 @@ On October 9, 2024, Kim and I took the Gornergrat Bahn to the Riffelberg station
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

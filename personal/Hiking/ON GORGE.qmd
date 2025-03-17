@@ -9,7 +9,7 @@ The rain let up after our [Zmutt Loop hike](ON ZMUTT.html) so we decided to make
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

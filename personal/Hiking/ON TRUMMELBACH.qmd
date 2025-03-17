@@ -9,7 +9,7 @@ On our First day in [Lauterbrunnen](https://www.myswitzerland.com/en-us/destinat
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

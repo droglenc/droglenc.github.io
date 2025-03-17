@@ -9,7 +9,7 @@ After the [Trummelbach Falls hike](ON Trummelbach.html) we took the train from L
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

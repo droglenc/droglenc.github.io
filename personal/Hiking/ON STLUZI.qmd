@@ -9,7 +9,7 @@ On our second full day in Switzerland (October 6, 2024) we had made our way to t
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

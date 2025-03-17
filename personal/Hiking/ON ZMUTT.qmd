@@ -9,7 +9,7 @@ Out first full day in Zermatt (October 8, 2024) was mostly cloudy and rainy. As 
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

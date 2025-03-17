@@ -9,7 +9,7 @@ Soon after getting to Lucerne on October 11, 2024, we headed out to explore the 
 #| label: setup
 #| include: false
 
-project <- "Switzerland"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
