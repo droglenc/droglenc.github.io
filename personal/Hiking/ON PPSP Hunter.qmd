@@ -8,7 +8,7 @@ On February 11, 2025 Kim and I hiked the Hunter Trail to Picacho Peak in Picacho
 #| label: setup
 #| include: false
 
-project <- "Tucson"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

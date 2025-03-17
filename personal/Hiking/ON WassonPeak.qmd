@@ -9,7 +9,7 @@ On February 13, 2025 Kim and I hiked to Wasson Peak in Saguaro National Park [We
 #| label: setup
 #| include: false
 
-project <- "Tucson"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

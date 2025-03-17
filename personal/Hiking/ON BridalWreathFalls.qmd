@@ -9,7 +9,7 @@ On February 12, 2025 Kim and I hiked the Douglas Springs Trail out to Bridal Wre
 #| label: setup
 #| include: false
 
-project <- "Tucson"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
