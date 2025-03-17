@@ -9,7 +9,7 @@ Kim and I hiked the [South Kaibab Trail](https://www.nps.gov/grca/planyourvisit/
 #| label: setup
 #| include: false
 
-project <- "GCNP24"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

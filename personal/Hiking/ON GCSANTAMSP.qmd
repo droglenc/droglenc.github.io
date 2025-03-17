@@ -13,7 +13,7 @@ This was a very fun hike!
 #| label: setup
 #| include: false
 
-project <- "GCNP24"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
