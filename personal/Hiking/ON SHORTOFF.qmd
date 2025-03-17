@@ -9,7 +9,7 @@ A couple of days after the wedding Dillon and Emma lead Kim and I up the [Shorto
 #| label: setup
 #| include: false
 
-project <- "NCarolina"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

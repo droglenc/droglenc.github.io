@@ -9,7 +9,7 @@ Before the post-wedding-day brunch we did a quick hike near Rhodiss Lake in Gran
 #| label: setup
 #| include: false
 
-project <- "NCarolina"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
