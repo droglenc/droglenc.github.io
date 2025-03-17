@@ -9,7 +9,7 @@ On February 20, 2023 Kim and I hiked part of the South Crest Trail on Sandia Pea
 #| label: setup
 #| include: false
 
-project <- "NMAZ23"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

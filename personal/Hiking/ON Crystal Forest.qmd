@@ -9,7 +9,7 @@ After the [Blue Mesa Trail](ON Blue Mesa.html) we stopped at the Crystal Forest 
 #| label: setup
 #| include: false
 
-project <- "NMAZ23"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
