@@ -9,7 +9,7 @@ On September 6, we got in a quick hike before the concert on the Trading Post Tr
 #| label: setup
 #| include: false
 
-project <- "Colorado"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

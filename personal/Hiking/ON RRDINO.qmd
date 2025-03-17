@@ -9,7 +9,7 @@ On September 7, I hiked most of the [Dinosaur Ridge Trail](https://dinoridge.org
 #| label: setup
 #| include: false
 
-project <- "Colorado"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

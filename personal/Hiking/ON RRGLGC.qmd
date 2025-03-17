@@ -9,7 +9,7 @@ On September 8, we all hiked the Geologic Trail in Red Rocks before leaving for 
 #| label: setup
 #| include: false
 
-project <- "Colorado"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")

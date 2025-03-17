@@ -9,7 +9,7 @@ On September 7, we managed to get in a hike at [Mt Falcon Park](https://www.jeff
 #| label: setup
 #| include: false
 
-project <- "Colorado"
+project <- "Other"
 
 ## Run following two lines if new tracks have been added since last update
 #source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
