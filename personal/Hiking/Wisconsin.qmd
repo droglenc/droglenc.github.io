@@ -21,10 +21,10 @@ project <- "Wisconsin"
 - **Northern WI**
   - Amnicon Falls SP
   - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)
-  - Bear Creek Trail, Superior
-  - Houghton Falls, Washburn
+  - [Houghton Falls, Washburn](WI Houghton_Falls.html)
   - [Little Manitou Falls, Pattison SP](WI Little_Manitou.html)
-  - Twin Falls Park, Port Wing
+  - [Makwa Ziibiins Miikana Trail, Superior](WI Makwa_Ziibiins.html)
+  - [Twin Falls Park, Port Wing](WI Twin_Falls.html)
   
 - **Door County**
   - [Bayshore CP](WI Bayshore.html)

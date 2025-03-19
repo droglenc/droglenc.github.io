@@ -1,0 +1,89 @@
+---
+title: "Houghton Falls Area"
+subtitle: "Washburn, WI"
+---
+
+We often hike the trails at the [Houghton Falls Nature Preserve](https://lakesuperiorcircletour.info/location/houghton-falls-trail/) just outside of Washburn, WI. The main trail heads from an access parking lot through a beautiful area to a nice sandstone "cliff" on Lake Superior (i.e,. Houghton Point). However, there are a few side trails that go down into the sandstone "dells" that are fun, especially if there is some water in the creek. The trails shown below are from a full day of exploring with [Cash](../shelties.html#cash) and include a side trail on the "other side" of the creek and an old road this is likely a snowmobile trail in the winter. Houghton Falls/Point is always a fun, quick hike.
+
+```{r}
+#| label: setup
+#| include: false
+## Run code in "Wisconsin.qmd" if tracks have been updated
+project <- "Wisconsin"
+
+# Make vector of colors
+clrs <- c("Highway"="#CC0000","Paved"="#336666","Gravel"="#CC6600",
+          "Offroad"="#CC9900","Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "WI_Houghton_Falls"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("WIHGTNF01","WIHGTNF02","WIHGTNF04","WIHGTNF06","WIHGTNF07",
+             "WIHGTNF07","WIHGTNRD02","WIHGTNF11","WIHGTNF12","WIHGTNF12",
+             "WIHGTNF13","WIHGTNF13","WIHGTNF11","WIHGTNRD03","WIHGTNRD03",
+             "WIHGTNRD02","WIHGTNRD01","WIHGTNRD01","WIHGTNF06","WIHGTNF05",
+             "WIHGTNF04","WIHGTNF03","WIHGTNF01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```
