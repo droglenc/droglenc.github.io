@@ -1,8 +1,8 @@
 {
-  "hash": "b8f71af817d70e58f1bcf770e87c5d52",
+  "hash": "28202b23fac3b613580f878d3200663f",
   "result": {
     "engine": "knitr",
-    "markdown": "---\n---\n\n\n\n\n# Wisconsin Hiking\n![](../../zresources/img/MNhiking.jpg){fig-align=\"center\"}\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are [here](Iron River Area.html)\n\n\n\n\n\n\n\n\n\n- **Northern WI**\n  - Amnicon Falls SP\n  - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)\n  - Pattison SP\n  \n- **Door County**\n  - [Bayshore CP](WI Bayshore.html)\n  - [Death's Door Bluff CP](WI Deaths_Door.html)\n  - [Ellison Bluff CP](WI Ellison.html)\n  - [Newport SP](WI Newport.html)\n  - [Potawatomi SP](WI Potawatomi.html)\n  - [Whitefish Dunes SP](WI Whitefish_Dunes.html)\n  \n",
+    "markdown": "---\n---\n\n\n\n# Wisconsin Hiking\n![](../../zresources/img/WIhiking1.jpg){fig-align=\"center\"}\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are [here](Iron River Area.html)\n\n\n\n\n\n\n\n- **Northern WI**\n  - Amnicon Falls SP\n  - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)\n  - Bear Creek Trail, Superior\n  - Houghton Falls, Washburn\n  - [Little Manitou Falls, Pattison SP](WI Little_Manitou.html)\n  - Twin Falls Park, Port Wing\n  \n- **Door County**\n  - [Bayshore CP](WI Bayshore.html)\n  - [Death's Door Bluff CP](WI Deaths_Door.html)\n  - [Ellison Bluff CP](WI Ellison.html)\n  - [Newport SP](WI Newport.html)\n  - [Potawatomi SP](WI Potawatomi.html)\n  - [Whitefish Dunes SP](WI Whitefish_Dunes.html)\n  \n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

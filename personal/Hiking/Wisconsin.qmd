@@ -2,7 +2,7 @@
 ---
 
 # Wisconsin Hiking
-![](../../zresources/img/MNhiking.jpg){fig-align="center"}
+![](../../zresources/img/WIhiking1.jpg){fig-align="center"}
 
 Kim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are [here](Iron River Area.html)
 
@@ -21,7 +21,10 @@ project <- "Wisconsin"
 - **Northern WI**
   - Amnicon Falls SP
   - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)
-  - Pattison SP
+  - Bear Creek Trail, Superior
+  - Houghton Falls, Washburn
+  - [Little Manitou Falls, Pattison SP](WI Little_Manitou.html)
+  - Twin Falls Park, Port Wing
   
 - **Door County**
   - [Bayshore CP](WI Bayshore.html)
