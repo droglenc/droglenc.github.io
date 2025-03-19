@@ -1,0 +1,33 @@
+---
+---
+
+# Wisconsin Hiking
+![](../../zresources/img/MNhiking.jpg){fig-align="center"}
+
+Kim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are [here](Iron River Area.html)
+
+```{r}
+#| label: setup
+#| include: false
+#| out.width: 90%
+
+project <- "Wisconsin"
+
+## Run following two lines if new tracks have been added since last update
+#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
+#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
+```
+
+- **Northern WI**
+  - Amnicon Falls SP
+  - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)
+  - Pattison SP
+  
+- **Door County**
+  - [Bayshore CP](WI Bayshore.html)
+  - [Death's Door Bluff CP](WI Deaths_Door.html)
+  - [Ellison Bluff CP](WI Ellison.html)
+  - [Newport SP](WI Newport.html)
+  - [Potawatomi SP](WI Potawatomi.html)
+  - [Whitefish Dunes SP](WI Whitefish_Dunes.html)
+  

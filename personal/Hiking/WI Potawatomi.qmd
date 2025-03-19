@@ -1,0 +1,84 @@
+---
+title: "Potawatomi State Park"
+---
+
+On the way home from Door County on April 17, 2023, Kim, [Cash](../shelties.html#cash) and I stopped at [Potawatomi State Park](https://dnr.wisconsin.gov/topic/parks/potawatomi) to get in one more hike, even though the weather had changed dramatically (it was now snowing!). We parked between the two campgrounds and followed the Tower Trail out to the tower and the Old Ski Hill Overlook. We returned inland mostly on the Tower Trail though we got off on a couple of ski trails and the Ancients Shorelines Trail. This was a nice hike, though the first portion along the lake was our favorite.
+
+```{r}
+#| label: setup
+#| include: false
+## Run code in "Wisconsin.qmd" if tracks have been updated
+project <- "Wisconsin"
+
+# Make vector of colors
+clrs <- c("Highway"="#CC0000","Paved"="#336666","Gravel"="#CC6600",
+          "Offroad"="#CC9900","Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "WI_Potawatomi"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("DCPTTWR01","DCPTTWR02","DCPTTWR03","DCPTUNMD01","DCPTANSL01","DCPTSNWY01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```

@@ -44,14 +44,16 @@ website:
           contents:
             - text: "Iron River Area"
               href: personal/Hiking/Iron River Area.qmd
-            - text: "Superstition Wilderness"
-              href: personal/Hiking/Superstition Wilderness.qmd
-            - text: "Iowa"
-              href: personal/Hiking/Iowa.qmd
+            - text: "Wisconsin"
+              href: personal/Hiking/Wisconsin.qmd
             - text: "Minnesota"
               href: personal/Hiking/Minnesota.qmd
+            - text: "Iowa"
+              href: personal/Hiking/Iowa.qmd
             - text: "Rainbow Lake Wilderness"
               href: personal/Hiking/Rainbow Lake Wilderness Area.qmd
+            - text: "Superstition Wilderness"
+              href: personal/Hiking/Superstition Wilderness.qmd
             - text: "Other Notable"
               href: personal/Hiking/Other Notable.qmd
         - text: "Shelties"

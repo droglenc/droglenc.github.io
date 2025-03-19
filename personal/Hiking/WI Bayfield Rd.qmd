@@ -14,18 +14,15 @@ All-in-all a nice scenic trail through typical northern Wisconsin woods, but wit
 ```{r}
 #| label: setup
 #| include: false
-
+## Run code in "Wisconsin.qmd" if tracks have been updated
 project <- "Wisconsin"
 
-## Run following two lines if new tracks have been added since last update
-#source("c:/aaaPersonal/MAPPING/Scripts/dataPrepHelper.R")
-#dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING/")
-
-# Make vector of colors for Iron River Area
-clrs <- c("2022"="#CC0000","2023"="#CC6600","2024"="#CC9900")
+# Make vector of colors
+clrs <- c("Highway"="#CC0000","Paved"="#336666","Gravel"="#CC6600",
+          "Offroad"="#CC9900","Trail"="#999933", "ATV"="#663300")
 
 # Read in CSV file will all track info needed for the map
-walkID <- "ON_Bayfield_Road"
+walkID <- "WI_Bayfield_Road"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
