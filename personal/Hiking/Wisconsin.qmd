@@ -33,4 +33,6 @@ project <- "Wisconsin"
   - [Newport SP](WI Newport.html)
   - [Potawatomi SP](WI Potawatomi.html)
   - [Whitefish Dunes SP](WI Whitefish_Dunes.html)
-  
+
+- **Other**
+  - [Paper Mill Trail and Whiting Park, Stevens Pt](WI Paper_Mill.html)

@@ -1,0 +1,87 @@
+---
+title: "Paper Mill Trail and Whiting Park Loop"
+subtitle: "Stevens Point, WI"
+---
+
+[Cash](../shelties.html#cash) and I were in Stevens Point to pick up a part for the boat. For a break we hiked the Paper Mill Trail of the [Green Circle Trail]() and looped around Whiting Park. The Paper Mill Trail was fairly flat and well-maintained. It provide nice views of the river and was quite nice, besides a short section that felt very (old) industrial. The loop in the park was very nice and a little more "rugged" (less-maintained), with the only down-side needing to walk along Water St to make the loop. All-in-all this was a nice hike for a break.
+
+```{r}
+#| label: setup
+#| include: false
+## Run code in "Wisconsin.qmd" if tracks have been updated
+project <- "Wisconsin"
+
+# Make vector of colors
+clrs <- c("Highway"="#CC0000","Paved"="#336666","Gravel"="#CC6600",
+          "Offroad"="#CC9900","Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+walkID <- "WI_PaperMill"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("WIGCPPRM01","WIGCPPRM02","WIGCPPRM03","WIGCPPRM04","WIGCPPRM05",
+             "WIGCPPRM03","WIGCPPRM11","WIGCPPRM12","WIGCPPRM12","WIGCPPRM10",
+             "WIGCPPRM01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                              fnm=fnm,
+                              IDs=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+```
