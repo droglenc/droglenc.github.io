@@ -28,6 +28,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 
 - **Allamakee County**
   - Fish Farm Mounds State Preserve - [Loop I](IA Fish Farm Mounds.html)
+  - Pikes Peak State Park - [Loop 1](IA Pikes_Peak_I.html)
 
 - **Clayton County**
   - Elkader - [Pony Hollow Trail I](IA Pony Hollow Trail.html)

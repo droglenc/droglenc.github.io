@@ -1,29 +1,28 @@
 ---
-title: "Paper Mill Trail and Whiting Park Loop"
-subtitle: "Stevens Point, WI"
+title: "Pikes Peak State Park Loop 1"
+subtitle: "McGregor, IA"
 ---
 
-[Cash](../shelties.html#cash) and I were in Stevens Point to pick up a part for the boat. For a break we hiked the Paper Mill Trail of the [Green Circle Trail](https://greencircletrail.org/) and looped around Whiting Park. The Paper Mill Trail was fairly flat and well-maintained. It provide nice views of the river and was quite nice, besides a short section that felt very (old) industrial. The loop in the park was very nice and a little more "rugged" (less-maintained), with the only down-side needing to walk along Water St to make the loop. All-in-all this was a nice hike for a break.
+On our trips to Iowas we will often stop at [Pikes Peak State Park](https://www.iowadnr.gov/locations/pikes-peak-state-park) to let [Cash](../shelties.html#cash) stretch his legs. One of my favorite loops is to start at the overlook of the Mississippi River and take Bridal Veil Falls Trail (I still haven't seen the falls with water yet) to East Hickory Ridge Trail which we take out to another overlook of the river. We then follow the West Hickory Ridge Trail to the Weeping Rock Trail back to the parking lot. It is interesting that on the Bridal Falls and Hickory Ridge trails your can see (from a rspectful dstance) effigy mounds created by indigenous peoples.
 
-```{r}
+```{r setup, include=FALSE}
 #| label: setup
 #| include: false
-## Run code in "Wisconsin.qmd" if tracks have been updated
-project <- "Wisconsin"
 
 # Make vector of colors
-clrs <- c("Highway"="#CC0000","Paved"="#336666","Gravel"="#CC6600",
-          "Offroad"="#CC9900","Trail"="#999933", "ATV"="#663300")
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
 
 # Read in CSV file will all track info needed for the map
-walkID <- "WI_PaperMill"
+project <- "Iowa"
+walkID <- "IA_PIKESPEAK1"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("WIGCPPRM01","WIGCPPRM02","WIGCPPRM03","WIGCPPRM04","WIGCPPRM05",
-             "WIGCPPRM03","WIGCPPRM11","WIGCPPRM12","WIGCPPRM12","WIGCPPRM10",
-             "WIGCPPRM01")
+walkIDs <- c("PKSBRDL02","PKSHKRYE02","PKSHKRYE03","PKSHKRYE03","PKSHKRYW01",
+             "PKSWPNGR02","PKSWPNGR01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
@@ -33,12 +32,17 @@ npix <- nrow(walkPix)
 ```
 
 ## Walk-Specific Map
-
 ```{r}
 #| label: walkMap
 #| echo: false
 gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 ```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
 
 ## Elevation Profile
 ```{r}
@@ -73,9 +77,9 @@ gpxhelpers::makeCarousel(id="Walk",path="",
 #| results: asis
 fnm <- paste0(walkID,".gpx")
 gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
-                              pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
-                              fnm=fnm,
-                              IDs=unique(walkIDs))
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 
@@ -83,5 +87,5 @@ cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```{r}
 #| label: walkSummary
 #| echo: false
-gpxhelpers::walkSummary(awalk,dropType=TRUE,dropOwner=TRUE)
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
 ```
