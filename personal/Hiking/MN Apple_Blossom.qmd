@@ -1,9 +1,9 @@
 ---
-title: "Fantasia Overlook"
-subtitle: "Superior Hiking Trail"
+title: "Apple Blossom Overlook Park"
+subtitle: "La Crescent, MN"
 ---
 
-Kim, [Cash](../shelties.html#cash) and I walked the [Fantasia Overlook](https://northshorevisitor.com/things-todo/fantasia-overlook-hiking-trail/) portion of the [Superior Hiking Trail](https://superiorhiking.org/) near Silver Bay on January 10, 2025, while on our anniversary vacation. There had not been much snow yet this year so the hike was fairly easy on a crunchy snow pack. The view out to Lake Superior was beautiful as was the look inland over the small lake. This was a nice short out-and-back hike to get us "going" on our trip.
+On the way to Iowa on October 25, 2024, we stopped to stretch our legs and get [Cash](../shelties.html#cash) some exercise on the trail in [Apple Blossom Overlook Park](http://www.minnesotaseasons.com/Destinations/Apple_Blossom_Overlook_Park.html) just outside of La Crescent, MN. This was a nice little trail in a mix of open "prairie" uplands and mixed hardwood forest. The overlook looked down on the town of La Crescent and over the Mississippi River to La Crosse.
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -16,18 +16,14 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Minnesota"
-walkID <- "MN_FNTSIA"
+walkID <- "MN_Apple_Blossom"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("MNFTSIA01","MNFTSIA02","MNFTSIA02","MNFTSIA01")
+walkIDs <- c("MNABOP01","MNABOP02","MNABOP02","MNABOP03","MNABOP04",
+             "MNABOP05","MNABOP05","MNABOP06","MNABOP07")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
-
-# Get photos
-pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
-walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
-npix <- nrow(walkPix)
 ```
 
 ## Walk-Specific Map
@@ -57,15 +53,6 @@ dev.off()
 #| label: walkElevation
 #| echo: false
 knitr::include_graphics(fnm)
-```
-
-## Images
-```{r}
-#| echo: false
-#| results: asis
-gpxhelpers::makeCarousel(id="Walk",path="",
-                         imgs=walkPix$Photo,caps=walkPix$Caption,
-                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
 ```
 
 ## GPX Download

@@ -21,9 +21,6 @@ project <- "Minnesota"
 clrs <- c("Highway"="#CC0000","Paved"="#336666",
           "Gravel"="#CC6600","Offroad"="#CC9900",
           "Trail"="#999933", "ATV"="#663300")
-
-# Read in CSV file will all track info needed for the map
-trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 ```
 
 - **Duluth Area**
@@ -46,3 +43,6 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - [Split Rock River](MN Split Rock River.html)
   - [Temperance River loop](MN Temperance Loop.html)
   - [Tettegouche SP and Shovel Point](MN Tettegouche Shovel Point.html)
+
+- **Other**
+  - [Apple Blossom Overlook Park (La Crescent)](MN Apple_Blossom.html)

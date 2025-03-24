@@ -114,7 +114,7 @@
     "href": "portfolio/posts/Flynn_Dam/index.html",
     "title": "Water Heights at Flynn Lake Dam",
     "section": "",
-    "text": "The winter of 2022-23 was exceptionally snowy in northern Wisconsin (see this). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see Acknowledgments below), I now have near daily water level measurements at the gauge from May 2, 2023 to March 20, 2025. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is further below."
+    "text": "The winter of 2022-23 was exceptionally snowy in northern Wisconsin (see this). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see Acknowledgments below), I now have near daily water level measurements at the gauge from May 2, 2023 to March 23, 2025. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is further below."
   },
   {
     "objectID": "portfolio/posts/Flynn_Dam/index.html#water-level",
@@ -135,7 +135,7 @@
     "href": "portfolio/posts/Flynn_Dam/index.html#summary-table",
     "title": "Water Heights at Flynn Lake Dam",
     "section": "Summary Table",
-    "text": "Summary Table\nThe following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeason\n\nDate\n\n\nWater Level\n\n\nMax Change\n\n\n\nStart\nEnd\nStart\nEnd\nMedian\n10%\n90%\nMin\nMax\nRange\nDrop\nRise\n\n\n\n\n2024-25\nFeb 2\nMar 20\n21.6\n22.8\n22.6\n21.5\n23.8\n20.3\n25.7\n5.4\n0.96\n1.92\n\n\n2023-24\nMay 2\nMar 13\n28.1\n21.8\n22.9\n22.1\n24.4\n21.6\n28.1\n6.5\n0.60\n2.40\n\n\nOverall\n—\n—\n—\n—\n22.7\n21.7\n24.0\n20.3\n28.1\n7.8\n0.96\n2.40"
+    "text": "Summary Table\nThe following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeason\n\nDate\n\n\nWater Level\n\n\nMax Change\n\n\n\nStart\nEnd\nStart\nEnd\nMedian\n10%\n90%\nMin\nMax\nRange\nDrop\nRise\n\n\n\n\n2024-25\nFeb 2\nMar 23\n21.6\n22.6\n22.6\n21.5\n23.8\n20.3\n25.7\n5.4\n0.96\n1.92\n\n\n2023-24\nMay 2\nMar 13\n28.1\n21.8\n22.9\n22.1\n24.4\n21.6\n28.1\n6.5\n0.60\n2.40\n\n\nOverall\n—\n—\n—\n—\n22.7\n21.7\n24.0\n20.3\n28.1\n7.8\n0.96\n2.40"
   },
   {
     "objectID": "portfolio/posts/Flynn_Dam/index.html#data-collection",
@@ -1948,7 +1948,7 @@
     "href": "personal/Hiking/Minnesota.html",
     "title": "Minnesota Hiking",
     "section": "",
-    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nBrewer Park Loop\nChester Creek Ravine\nEly’s Peak via Short Line Trail\nEnger Park Tower - Observation Hill\nHartley Nature Center Loop I\nHawk Ridge and Snively Loop\nLester Park Loop I\nLester Park Loop II\nMunger & Carlton Trails near Jay Cooke SP\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nGoosebery Falls to Lake Trail\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nSplit Rock River\nTemperance River loop\nTettegouche SP and Shovel Point",
+    "text": "Minnesota Hiking\n\n\n\n\n\nKim and I often go to Minnesota for long weekend vacations. We primarily hike and eat good food and drink craft beer on these trips. Below are some of our hikes.\n\nDuluth Area\n\nBrewer Park Loop\nChester Creek Ravine\nEly’s Peak via Short Line Trail\nEnger Park Tower - Observation Hill\nHartley Nature Center Loop I\nHawk Ridge and Snively Loop\nLester Park Loop I\nLester Park Loop II\nMunger & Carlton Trails near Jay Cooke SP\nWaabizheshikana Trail Loop\n\nNorth Shore\n\nFantasia Overlook (Silver Bay)\nGoosebery Falls to Lake Trail\nHigh and Middle Falls (Grand Portage SP)\nKadunce River trail\nSplit Rock River\nTemperance River loop\nTettegouche SP and Shovel Point\n\nOther\n\nApple Blossom Overlook Park (La Crescent)",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -3120,7 +3120,7 @@
     "href": "personal/Hiking/MN Fantasia.html#summary-information",
     "title": "Fantasia Overlook",
     "section": "Summary Information",
-    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNFTSIA01\nFantasia Overlook\nMN Hwy 2 to Fantasia Overlook Spur\nTrail\n0.96\n0.96\n428\n\n\n2\nMNFTSIA02\nFantasia Overlook\nSuperior Hiking Trail to Fantasia Overlook\nTrail\n0.45\n1.42\n125\n\n\n3\nMNFTSIA02\nFantasia Overlook\nFantasia Overlook to Superior Hiking Trail\nTrail\n0.45\n1.87\n-125\n\n\n4\nMNFTSIA01\nFantasia Overlook\nFantasia Overlook Spur to MN Hwy 2\nTrail\n0.96\n2.83\n-428"
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNFTSIA01\nSuperior Hiking Trail\nMN Hwy 2 to Fantasia Overlook Spur\nTrail\n0.96\n0.96\n428\n\n\n2\nMNFTSIA02\nSuperior Hiking Trail (Fantasia spur)\nSuperior Hiking Trail to Fantasia Overlook\nTrail\n0.45\n1.42\n125\n\n\n3\nMNFTSIA02\nSuperior Hiking Trail (Fantasia spur)\nFantasia Overlook to Superior Hiking Trail\nTrail\n0.45\n1.87\n-125\n\n\n4\nMNFTSIA01\nSuperior Hiking Trail\nFantasia Overlook Spur to MN Hwy 2\nTrail\n0.96\n2.83\n-428"
   },
   {
     "objectID": "personal/Hiking/MN Grand Portage.html",
@@ -5101,5 +5101,47 @@
     "title": "Makwa Ziibiins Miikana Trail",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nWIMZM01\nMakwa Ziibiins Miikana Tr\nParking area to Osaugie Tr\n0.04\n0.04\n-6\n\n\n2\nWIMZM02\nMakwa Ziibiins Miikana Tr\nOsaugie Tr to Wisconsin Point Rd\n2.15\n2.19\n-8\n\n\n3\nWIMZM03\nMakwa Ziibiins Miikana Tr\nWisconsin Point Rd to wetlands\n0.45\n2.64\n-34\n\n\n4\nWIMZM03\nMakwa Ziibiins Miikana Tr\nwetlands to Wisconsin Point Rd\n0.45\n3.08\n34\n\n\n5\nWIMZM02\nMakwa Ziibiins Miikana Tr\nWisconsin Point Rd to Osaugie Tr\n2.15\n5.23\n8\n\n\n6\nWIMZM01\nMakwa Ziibiins Miikana Tr\nOsaugie Tr to Parking area\n0.04\n5.27\n6"
+  },
+  {
+    "objectID": "personal/Hiking/MN Apple_Blossom.html",
+    "href": "personal/Hiking/MN Apple_Blossom.html",
+    "title": "Apple Blossom Overlook Park",
+    "section": "",
+    "text": "On the way to Iowa on October 25, 2024, we stopped to stretch our legs and get Cash some exercise on the trail in Apple Blossom Overlook Park just outside of La Crescent, MN. This was a nice little trail in a mix of open “prairie” uplands and mixed hardwood forest. The overlook looked down on the town of La Crescent and over the Mississippi River to La Crosse."
+  },
+  {
+    "objectID": "personal/Hiking/MN Apple_Blossom.html#walk-specific-map",
+    "href": "personal/Hiking/MN Apple_Blossom.html#walk-specific-map",
+    "title": "Apple Blossom Overlook Park",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/MN Apple_Blossom.html#elevation-profile",
+    "href": "personal/Hiking/MN Apple_Blossom.html#elevation-profile",
+    "title": "Apple Blossom Overlook Park",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/MN Apple_Blossom.html#images",
+    "href": "personal/Hiking/MN Apple_Blossom.html#images",
+    "title": "Apple Blossom Overlook Park",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/MN Apple_Blossom.html#gpx-download",
+    "href": "personal/Hiking/MN Apple_Blossom.html#gpx-download",
+    "title": "Apple Blossom Overlook Park",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/MN Apple_Blossom.html#summary-information",
+    "href": "personal/Hiking/MN Apple_Blossom.html#summary-information",
+    "title": "Apple Blossom Overlook Park",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNABOP01\nApple Blossom Overlook Park\nto\nTrail\n0.56\n0.56\n-47\n\n\n2\nMNABOP02\nApple Blossom Overlook Park Overlook Spur\nto Overook\nTrail\n0.05\n0.61\n-20\n\n\n3\nMNABOP02\nApple Blossom Overlook Park Overlook Spur\nOverook to\nTrail\n0.05\n0.66\n20\n\n\n4\nMNABOP03\nApple Blossom Overlook Park\nto\nTrail\n0.14\n0.80\n5\n\n\n5\nMNABOP04\nApple Blossom Overlook Park\nto\nTrail\n0.06\n0.86\n-20\n\n\n6\nMNABOP05\nApple Blossom Overlook Park Spur\nto TBC\nTrail\n0.03\n0.89\n-16\n\n\n7\nMNABOP05\nApple Blossom Overlook Park Spur\nTBC to\nTrail\n0.03\n0.92\n16\n\n\n8\nMNABOP06\nApple Blossom Overlook Park\nto\nTrail\n0.32\n1.25\n27\n\n\n9\nMNABOP07\nApple Blossom Overlook Park\nto\nTrail\n0.13\n1.37\n25"
   }
 ]
