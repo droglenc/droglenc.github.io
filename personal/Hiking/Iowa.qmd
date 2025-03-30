@@ -31,6 +31,8 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Pikes Peak State Park - [Loop 1](IA Pikes_Peak_I.html)
 
 - **Clayton County**
+  - Elkader - Osborne Park I
+  - Elkader - Osborne Park II
   - Elkader - [Pony Hollow Trail I](IA Pony Hollow Trail.html)
 
 - **Delaware County**
@@ -47,6 +49,9 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Volga River State Park - [Orchard Trail](IA Volga Orchard.html)
   - Volga River State Park - [Ridge Trail](IA Volga Ridge.html)
   - Dutton's Cave County Park - [Lower Loop 1](IA Duttons Lower.html)
+  
+- **Linn County**
+  - Pinicon Ridge County Park - River Loop
 
 - **Winneshiek County**
   - Decorah - [Dunning Springs Park](IA Dunning Springs.html)
