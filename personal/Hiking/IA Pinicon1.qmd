@@ -1,0 +1,77 @@
+---
+title: "Pinicon Ridge County Park"
+subtitle: "River and City Loop"
+---
+
+My sister Pam met [Cash](../shelties.html#cash) and I for a nice walk through [Pinicon Ridge County Park](https://www.linncountyiowa.gov/965/Pinicon-Ridge-Park). We started at the "Elk pen" parking area on the west side of the Wapsipinicon River, walked through the park on the west side to join the Wapsi River Nature Trail. We followed this across the river via the the [Mary Lundby Bridge](https://www.news8000.com/news/iowa-news/pedestrian-bridge-at-park-honors-former-legislator/article_f297674d-0d02-51de-baee-b7246fbe81dd.html) through the campgrounds on the east side before connecting with the Central City Trail at Highway 13. We followed this into town to connect with streets and roads to loop back to the original parking lot. We used to camp here often when we were kids, so it was fun to re-visit the area.
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+
+# Make vector of colors for Iron River Area
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+project <- "Iowa"
+walkID <- "IA_PINICON1"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("IAPNCRDG01","IAPNCRDG03","IAPNCRDG04","IAPNCRDG05","IAPNCRDG06",
+             "IAPNCRDG07","IAPNCRDG08","IAPNCRDG09")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+```
+
+## Walk-Specific Map
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
+```

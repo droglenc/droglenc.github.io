@@ -51,7 +51,7 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Dutton's Cave County Park - [Lower Loop 1](IA Duttons Lower.html)
   
 - **Linn County**
-  - Pinicon Ridge County Park - River Loop
+  - Pinicon Ridge County Park - [River & City Loop](IA Pinicon1.html)
 
 - **Winneshiek County**
   - Decorah - [Dunning Springs Park](IA Dunning Springs.html)

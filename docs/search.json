@@ -2804,7 +2804,7 @@
     "href": "personal/Hiking/Iowa.html",
     "title": "Iowa Hiking",
     "section": "",
-    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nElkader - Osborne Park I\nElkader - Osborne Park II\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nPinicon Ridge County Park - River Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
+    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nElkader - Osborne Park I\nElkader - Osborne Park II\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nPinicon Ridge County Park - River & City Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -5269,5 +5269,40 @@
     "title": "Northern Great Lakes Visitor Center",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nNGLVC01\nNGLVC\nto\n0.40\n0.40\n4\n\n\n2\nNGLVC02\nNGLVC\nto\n0.05\n0.45\n14\n\n\n3\nNGLVC06\nNGLVC\nto\n0.10\n0.54\n-5\n\n\n4\nNGLVC07\nNGLVC\nto\n0.28\n0.82\n-14\n\n\n5\nNGLVC10\nNGLVC\nto\n0.35\n1.17\n-4\n\n\n6\nNGLVC11\nNGLVC\nto\n0.14\n1.31\n2\n\n\n7\nNGLVC12\nNGLVC\nto\n0.41\n1.72\n-7\n\n\n8\nNGLVC10\nNGLVC\nto\n0.35\n2.07\n4\n\n\n9\nNGLVC07\nNGLVC\nto\n0.28\n2.35\n14\n\n\n10\nNGLVC05\nNGLVC\nto\n0.06\n2.41\n-8\n\n\n11\nNGLVC02\nNGLVC\nto\n0.05\n2.46\n14\n\n\n12\nNGLVC03\nNGLVC\nto\n0.10\n2.56\n4"
+  },
+  {
+    "objectID": "personal/Hiking/IA Pinicon1.html",
+    "href": "personal/Hiking/IA Pinicon1.html",
+    "title": "Pinicon Ridge County Park",
+    "section": "",
+    "text": "My sister Pam met Cash and I for a nice walk through Pinicon Ridge County Park. We started at the “Elk pen” parking area on the west side of the Wapsipinicon River, walked through the park on the west side to join the Wapsi River Nature Trail. We followed this across the river via the the Mary Lundby Bridge through the campgrounds on the east side before connecting with the Central City Trail at Highway 13. We followed this into town to connect with streets and roads to loop back to the original parking lot. We used to camp here often when we were kids, so it was fun to re-visit the area."
+  },
+  {
+    "objectID": "personal/Hiking/IA Pinicon1.html#walk-specific-map",
+    "href": "personal/Hiking/IA Pinicon1.html#walk-specific-map",
+    "title": "Pinicon Ridge County Park",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Pinicon1.html#elevation-profile",
+    "href": "personal/Hiking/IA Pinicon1.html#elevation-profile",
+    "title": "Pinicon Ridge County Park",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA Pinicon1.html#gpx-download",
+    "href": "personal/Hiking/IA Pinicon1.html#gpx-download",
+    "title": "Pinicon Ridge County Park",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA Pinicon1.html#summary-information",
+    "href": "personal/Hiking/IA Pinicon1.html#summary-information",
+    "title": "Pinicon Ridge County Park",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nIAPNCRDG01\nHorseshoe Falls Rd\nWildlife Viewing parking area to Picnic Area Spur\nPaved\n0.05\n0.05\n-3\n\n\n2\nIAPNCRDG03\nHorseshoe Falls Rd\nPicnic Area Spur to Wapsi River Nature Tr\nPaved\n0.75\n0.80\n-52\n\n\n3\nIAPNCRDG04\nWapsi River Nature Tr\nHorseshoe Falls Rd to Central City Tr\nTrail\n1.76\n2.56\n1\n\n\n4\nIAPNCRDG05\nCentral City Tr\nWapsi River Nature Tr to Main St\nTrail\n0.54\n3.11\n8\n\n\n5\nIAPNCRDG06\nMain St\nCentral City Tr to W Maple St\nPaved\n0.13\n3.23\n15\n\n\n6\nIAPNCRDG07\nW Maple St\nMain St to Maine Ridge Rd\nPaved\n0.18\n3.41\n22\n\n\n7\nIAPNCRDG08\nMaine Ridge Rd\nW Maple St to Horseshoe Falls Rd\nPaved\n0.16\n3.57\n35\n\n\n8\nIAPNCRDG09\nHorseshoe Falls Rd\nMaine Ridge Rd to Wildlife Viewing parking area\nPaved\n0.10\n3.67\n-29"
   }
 ]
