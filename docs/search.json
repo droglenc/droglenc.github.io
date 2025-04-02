@@ -2804,7 +2804,7 @@
     "href": "personal/Hiking/Iowa.html",
     "title": "Iowa Hiking",
     "section": "",
-    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nElkader - Osborne Park I\nElkader - Osborne Park II\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nPinicon Ridge County Park - River & City Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
+    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nOsborne County Park - South\nOsborne County Park - North Loop I\nPony Hollow Trail I, Elkader\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nPinicon Ridge County Park - River & City Loop\n\nWinneshiek County\n\nDunning Springs Park, Decorah\nPulpit Rock, Decorah",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -5304,5 +5304,96 @@
     "title": "Pinicon Ridge County Park",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nIAPNCRDG01\nHorseshoe Falls Rd\nWildlife Viewing parking area to Picnic Area Spur\nPaved\n0.05\n0.05\n-3\n\n\n2\nIAPNCRDG03\nHorseshoe Falls Rd\nPicnic Area Spur to Wapsi River Nature Tr\nPaved\n0.75\n0.80\n-52\n\n\n3\nIAPNCRDG04\nWapsi River Nature Tr\nHorseshoe Falls Rd to Central City Tr\nTrail\n1.76\n2.56\n1\n\n\n4\nIAPNCRDG05\nCentral City Tr\nWapsi River Nature Tr to Main St\nTrail\n0.54\n3.11\n8\n\n\n5\nIAPNCRDG06\nMain St\nCentral City Tr to W Maple St\nPaved\n0.13\n3.23\n15\n\n\n6\nIAPNCRDG07\nW Maple St\nMain St to Maine Ridge Rd\nPaved\n0.18\n3.41\n22\n\n\n7\nIAPNCRDG08\nMaine Ridge Rd\nW Maple St to Horseshoe Falls Rd\nPaved\n0.16\n3.57\n35\n\n\n8\nIAPNCRDG09\nHorseshoe Falls Rd\nMaine Ridge Rd to Wildlife Viewing parking area\nPaved\n0.10\n3.67\n-29"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_South.html",
+    "href": "personal/Hiking/IA Osborne_South.html",
+    "title": "Osborne County Park",
+    "section": "",
+    "text": "Cash and I walked from the Osborne Nature Center parking area along the Volga River, returning mostly along a ridge above the river. The trail was short, but nice. We could not walk some of the trails on this side of the river as they went through a wildlife viewing area that prohibited pets. It was a warm March day (83F), with some kids playing in the river!"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_South.html#walk-specific-map",
+    "href": "personal/Hiking/IA Osborne_South.html#walk-specific-map",
+    "title": "Osborne County Park",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_South.html#elevation-profile",
+    "href": "personal/Hiking/IA Osborne_South.html#elevation-profile",
+    "title": "Osborne County Park",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_South.html#gpx-download",
+    "href": "personal/Hiking/IA Osborne_South.html#gpx-download",
+    "title": "Osborne County Park",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_South.html#summary-information",
+    "href": "personal/Hiking/IA Osborne_South.html#summary-information",
+    "title": "Osborne County Park",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nIAOSBS01\nOsborne Park South\nVisitor Center parking area to\nTrail\n0.15\n0.15\n-32\n\n\n2\nIAOSBS02\nOsborne Park South\nto\nTrail\n0.17\n0.32\n-12\n\n\n3\nIAOSBS03\nOsborne Park South\nto\nTrail\n0.19\n0.51\n12\n\n\n4\nIAOSBS05\nOsborne Park South\nto\nTrail\n0.26\n0.77\n25\n\n\n5\nIAOSBS04\nOsborne Park South\nto\nTrail\n0.06\n0.83\n-28\n\n\n6\nIAOSBS09\nOsborne Park South\nto Volga River\nTrail\n0.03\n0.86\n-8\n\n\n7\nIAOSBS09\nOsborne Park South\nVolga River to\nTrail\n0.03\n0.89\n8\n\n\n8\nIAOSBS02\nOsborne Park South\nto\nTrail\n0.17\n1.06\n12\n\n\n9\nIAOSBS01\nOsborne Park South\nto Visitor Center parking area\nTrail\n0.15\n1.22\n32"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_North_1.html",
+    "href": "personal/Hiking/IA Osborne_North_1.html",
+    "title": "Osborne County Park",
+    "section": "",
+    "text": "After walking the short trails along the Volga River in the south side of Osborne Park, Cash and I decided to walk the trails on the north side that wound through a disc golf course, archery range, an old quary, and an old cemetary. This was a nice mix of prairie, hardwoods, river bottoms, and area around a constructed pond. Overall, a nice hike with still more trails to explore. It was a very warm March day (83F)!"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_North_1.html#walk-specific-map",
+    "href": "personal/Hiking/IA Osborne_North_1.html#walk-specific-map",
+    "title": "Osborne County Park",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_North_1.html#elevation-profile",
+    "href": "personal/Hiking/IA Osborne_North_1.html#elevation-profile",
+    "title": "Osborne County Park",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_North_1.html#gpx-download",
+    "href": "personal/Hiking/IA Osborne_North_1.html#gpx-download",
+    "title": "Osborne County Park",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_North_1.html#summary-information",
+    "href": "personal/Hiking/IA Osborne_North_1.html#summary-information",
+    "title": "Osborne County Park",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nIAOSBN01\nOsborne Park North\nNorth parking area to\nTrail\n0.09\n0.09\n-16\n\n\n2\nIAOSBN03\nOsborne Park North\nto\nTrail\n0.11\n0.20\n32\n\n\n3\nIAOSBN04\nOsborne Park North\nto\nTrail\n0.17\n0.37\n-7\n\n\n4\nIAOSBN06\nOsborne Park North\nto\nTrail\n0.03\n0.40\n-5\n\n\n5\nIAOSBN07\nOsborne Park North\nto\nTrail\n0.11\n0.51\n-30\n\n\n6\nIAOSBN99\nOsborne Park North\nto Old quarry\nTrail\n0.03\n0.54\n-17\n\n\n7\nIAOSBN99\nOsborne Park North\nOld quarry to\nTrail\n0.03\n0.57\n17\n\n\n8\nIAOSBN09\nOsborne Park North\nto\nTrail\n0.21\n0.78\n-39\n\n\n9\nIAOSBN98\nOsborne Park North\nto Cord Cemetary\nTrail\n0.03\n0.82\n15\n\n\n10\nIAOSBN98\nOsborne Park North\nCord Cemetary to\nTrail\n0.03\n0.85\n-15\n\n\n11\nIAOSBN08\nOsborne Park North\nto\nTrail\n0.30\n1.15\n61\n\n\n12\nIAOSBN06\nOsborne Park North\nto\nTrail\n0.03\n1.19\n5\n\n\n13\nIAOSBN05\nOsborne Park North\nto\nTrail\n0.11\n1.30\n5\n\n\n14\nIAOSBN03\nOsborne Park North\nto\nTrail\n0.11\n1.41\n-32\n\n\n15\nIAOSBN02\nOsborne Park North\nto North parking area\nTrail\n0.25\n1.66\n-1"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_North_1.html#images",
+    "href": "personal/Hiking/IA Osborne_North_1.html#images",
+    "title": "Osborne County Park",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nIAOSBN98: Old quarry\n\n\n\n\n\n\n\nIAOSBN08: Typical scenery Winter 2025\n\n\n\n\n\n\n\nIAOSBN07: Cash\n\n\n\n\n\n\n\nIAOSBN07: Typical scenery Winter 2025\n\n\n\n\n\n\n\nIAOSBN05: Typical scenery Winter 2025\n\n\n\n\n\n\n\nIAOSBN02: Typical scenery Winter 2025\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IA Osborne_South.html#images",
+    "href": "personal/Hiking/IA Osborne_South.html#images",
+    "title": "Osborne County Park",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nIAOSBS02: Typical scenery Winter 2025\n\n\n\n\n\n\n\nIAOSBS03: Typical scenery Winter 2025\n\n\n\n\n\n\n\nIAOSBS05: Typical scenery Winter 2025\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/IA Pinicon1.html#images",
+    "href": "personal/Hiking/IA Pinicon1.html#images",
+    "title": "Pinicon Ridge County Park",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nIAPNCRDG01: Elk\n\n\n\n\n\n Previous\n\n\n Next"
   }
 ]

@@ -1,9 +1,9 @@
 ---
-title: "Pinicon Ridge County Park"
-subtitle: "River and City Loop"
+title: "Osborne County Park"
+subtitle: "North Side"
 ---
 
-My sister Pam met [Cash](../shelties.html#cash) and I for a nice walk through [Pinicon Ridge County Park](https://www.linncountyiowa.gov/965/Pinicon-Ridge-Park). We started at the "Elk pen" parking area on the west side of the Wapsipinicon River, walked through the park on the west side to join the Wapsi River Nature Trail. We followed this across the river via the the [Mary Lundby Bridge](https://www.news8000.com/news/iowa-news/pedestrian-bridge-at-park-honors-former-legislator/article_f297674d-0d02-51de-baee-b7246fbe81dd.html) through the campgrounds on the east side before connecting with the Central City Trail at Highway 13. We followed this into town to connect with streets and roads to loop back to the original parking lot. We used to camp here often when we were kids, so it was fun to re-visit the area.
+After walking the short trails along the Volga River in the south side of [Osborne Park](https://www.mycountyparks.com/county/Clayton/Park/Osborne-Park), [Cash](../shelties.html#cash) and I decided to walk the trails on the north side that wound through a disc golf course, archery range, an old quary, and an old cemetary. This was a nice mix of prairie, hardwoods, river bottoms, and area around a constructed pond. Overall, a nice hike with still more trails to explore. It was a very warm March day (83F)!
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -16,13 +16,14 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iowa"
-walkID <- "IA_PINICON1"
+walkID <- "IA_OSBORNEN1"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("IAPNCRDG01","IAPNCRDG03","IAPNCRDG04","IAPNCRDG05","IAPNCRDG06",
-             "IAPNCRDG07","IAPNCRDG08","IAPNCRDG09")
+walkIDs <- c("IAOSBN01","IAOSBN03","IAOSBN04","IAOSBN06","IAOSBN07",
+             "IAOSBN99","IAOSBN99","IAOSBN09","IAOSBN98","IAOSBN98",
+             "IAOSBN08","IAOSBN06","IAOSBN05","IAOSBN03","IAOSBN02")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

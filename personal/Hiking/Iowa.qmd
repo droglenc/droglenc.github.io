@@ -31,9 +31,9 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Pikes Peak State Park - [Loop 1](IA Pikes_Peak_I.html)
 
 - **Clayton County**
-  - Elkader - Osborne Park I
-  - Elkader - Osborne Park II
-  - Elkader - [Pony Hollow Trail I](IA Pony Hollow Trail.html)
+  - Osborne County Park - [South](IA Osborne_South.html)
+  - Osborne County Park - [North Loop I](IA Osborne_North_1.html)
+  - [Pony Hollow Trail I](IA Pony Hollow Trail.html), Elkader
 
 - **Delaware County**
   - Backbone State Park - [Backbone Trail](IA BBSP_Backbone.html)
@@ -54,5 +54,5 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Pinicon Ridge County Park - [River & City Loop](IA Pinicon1.html)
 
 - **Winneshiek County**
-  - Decorah - [Dunning Springs Park](IA Dunning Springs.html)
-  - Decorah - [Pulpit Rock](IA Pulpit Rock.html)
+  - [Dunning Springs Park](IA Dunning Springs.html), Decorah
+  - [Pulpit Rock](IA Pulpit Rock.html), Decorah
