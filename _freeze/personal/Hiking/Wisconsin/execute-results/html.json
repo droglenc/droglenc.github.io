@@ -1,11 +1,9 @@
 {
-  "hash": "f37397aa6f9ca56950c27b55639895d1",
+  "hash": "c97b5f4c95b753dd9a73d5fa3ddd3625",
   "result": {
     "engine": "knitr",
-    "markdown": "---\n---\n\n\n\n\n\n# Wisconsin Hiking\n![](../../zresources/img/WIhiking1.jpg){fig-align=\"center\"}\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are [here](Iron River Area.html)\n\n\n\n\n\n\n\n\n\n\n\n- **Northern WI**\n  - Amnicon Falls SP\n  - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)\n  - [Houghton Falls, Washburn](WI Houghton_Falls.html)\n  - [Little Manitou Falls, Pattison SP](WI Little_Manitou.html)\n  - [Makwa Ziibiins Miikana Trail, Superior](WI Makwa_Ziibiins.html)\n  - [Twin Falls Park, Port Wing](WI Twin_Falls.html)\n  \n- **Door County**\n  - [Bayshore CP](WI Bayshore.html)\n  - [Death's Door Bluff CP](WI Deaths_Door.html)\n  - [Ellison Bluff CP](WI Ellison.html)\n  - [Newport SP](WI Newport.html)\n  - [Potawatomi SP](WI Potawatomi.html)\n  - [Whitefish Dunes SP](WI Whitefish_Dunes.html)\n\n- **Other**\n  - [Paper Mill Trail and Whiting Park, Stevens Pt](WI Paper_Mill.html)\n",
-    "supporting": [
-      "Wisconsin_files"
-    ],
+    "markdown": "---\n---\n\n\n\n# Wisconsin Hiking\n![](../../zresources/img/WIhiking1.jpg){fig-align=\"center\"}\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are [here](Iron River Area.html)\n\n\n\n\n\n\n\n- **Ashland County**\n\n- **Bayfield County**\n  - Brule River SF - [Bayfield Rd Trail](WI Bayfield Rd.html)\n  - Washburn - [Houghton Falls](WI Houghton_Falls.html)\n  - Northern Great Lakes Visitor Center - [Loop I](WI NGLVC1.html)\n  - Port Wing - [Twin Falls Park](WI Twin_Falls.html)\n\n- **Door County**\n  - [Bayshore CP](WI Bayshore.html)\n  - [Death's Door Bluff CP](WI Deaths_Door.html)\n  - [Ellison Bluff CP](WI Ellison.html)\n  - [Newport SP](WI Newport.html)\n  - [Potawatomi SP](WI Potawatomi.html)\n  - [Whitefish Dunes SP](WI Whitefish_Dunes.html)\n\n- **Douglas County**\n  - Amnicon Falls SP\n  - Pattison SP - [Little Manitou Falls](WI Little_Manitou.html)\n  - Superior - [Makwa Ziibiins Miikana Trail](WI Makwa_Ziibiins.html)\n\n- **Other**\n  - Stevens Pt - [Paper Mill Trail and Whiting Park](WI Paper_Mill.html)\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

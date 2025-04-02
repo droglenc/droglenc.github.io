@@ -206,7 +206,7 @@
     "href": "personal/Hiking/Wisconsin.html",
     "title": "Wisconsin Hiking",
     "section": "",
-    "text": "Wisconsin Hiking\n\n\n\n\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are here\n\nNorthern WI\n\nAmnicon Falls SP\nBayfield Rd Trail, Brule River SF\nHoughton Falls, Washburn\nLittle Manitou Falls, Pattison SP\nMakwa Ziibiins Miikana Trail, Superior\nTwin Falls Park, Port Wing\n\nDoor County\n\nBayshore CP\nDeath’s Door Bluff CP\nEllison Bluff CP\nNewport SP\nPotawatomi SP\nWhitefish Dunes SP\n\nOther\n\nPaper Mill Trail and Whiting Park, Stevens Pt",
+    "text": "Wisconsin Hiking\n\n\n\n\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are here\n\nAshland County\nBayfield County\n\nBrule River SF - Bayfield Rd Trail\nWashburn - Houghton Falls\nNorthern Great Lakes Visitor Center - Loop I\nPort Wing - Twin Falls Park\n\nDoor County\n\nBayshore CP\nDeath’s Door Bluff CP\nEllison Bluff CP\nNewport SP\nPotawatomi SP\nWhitefish Dunes SP\n\nDouglas County\n\nAmnicon Falls SP\nPattison SP - Little Manitou Falls\nSuperior - Makwa Ziibiins Miikana Trail\n\nOther\n\nStevens Pt - Paper Mill Trail and Whiting Park",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -2804,7 +2804,7 @@
     "href": "personal/Hiking/Iowa.html",
     "title": "Iowa Hiking",
     "section": "",
-    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
+    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nElkader - Osborne Park I\nElkader - Osborne Park II\nElkader - Pony Hollow Trail I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nPinicon Ridge County Park - River Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Pulpit Rock",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -5227,5 +5227,47 @@
     "title": "Pikes Peak State Park Loop 1",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nPKSBRDL02\nBridal Veil Falls Tr\nMississippi River Overlook to E Hickory Ridge Tr\nTrail\n0.40\n0.40\n-31\n\n\n2\nPKSHKRYE02\nE Hickory Ridge Tr\nBridal Veil Falls Tr to Spur to Hickory Ridge Overlook\nTrail\n0.23\n0.63\n-44\n\n\n3\nPKSHKRYE03\nE Hickory Ridge Tr\nW Hickory Ridge Tr to Hickory Ridge Overlook\nTrail\n0.03\n0.66\n-7\n\n\n4\nPKSHKRYE03\nE Hickory Ridge Tr\nHickory Ridge Overlook to W Hickory Ridge Tr\nTrail\n0.03\n0.70\n7\n\n\n5\nPKSHKRYW01\nW Hickory Ridge Tr\nSpur to Hickory Ridge Overlook to Weeping Rock Tr\nTrail\n0.58\n1.28\n71\n\n\n6\nPKSWPNGR02\nWeeping Rock Tr\nW Hickory Ridge Tr to E Hickory Ridge Tr\nTrail\n0.19\n1.47\n10\n\n\n7\nPKSWPNGR01\nWeeping Rock Tr\nE Hickory Ridge Tr to Parking area\nTrail\n0.27\n1.73\n-2"
+  },
+  {
+    "objectID": "personal/Hiking/WI NGLVC1.html",
+    "href": "personal/Hiking/WI NGLVC1.html",
+    "title": "Northern Great Lakes Visitor Center",
+    "section": "",
+    "text": "Cash and I walked the trails at the Northern Great Lakes Visitor Center near Ashland on 3-Feb-25. We started in the Aldo Leopold parking lot, looped around before crossing over to the visitor center, and the looped around the boardwalks and wetlands near the visitor center before returning to the parking lot. This is a nice short hike."
+  },
+  {
+    "objectID": "personal/Hiking/WI NGLVC1.html#walk-specific-map",
+    "href": "personal/Hiking/WI NGLVC1.html#walk-specific-map",
+    "title": "Northern Great Lakes Visitor Center",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/WI NGLVC1.html#elevation-profile",
+    "href": "personal/Hiking/WI NGLVC1.html#elevation-profile",
+    "title": "Northern Great Lakes Visitor Center",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/WI NGLVC1.html#images",
+    "href": "personal/Hiking/WI NGLVC1.html#images",
+    "title": "Northern Great Lakes Visitor Center",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nNGLVC01: Fish Creek\n\n\n\n\n\n\n\nNGLVC10: Typical scenery Winter 2025\n\n\n\n\n\n\n\nNGLVC11: Typical scenery Winter 2025\n\n\n\n\n\n\n\nNGLVC11: Visitor Center\n\n\n\n\n\n\n\nNGLVC10: Typical scenery Winter 2025\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/WI NGLVC1.html#gpx-download",
+    "href": "personal/Hiking/WI NGLVC1.html#gpx-download",
+    "title": "Northern Great Lakes Visitor Center",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/WI NGLVC1.html#summary-information",
+    "href": "personal/Hiking/WI NGLVC1.html#summary-information",
+    "title": "Northern Great Lakes Visitor Center",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nNGLVC01\nNGLVC\nto\n0.40\n0.40\n4\n\n\n2\nNGLVC02\nNGLVC\nto\n0.05\n0.45\n14\n\n\n3\nNGLVC06\nNGLVC\nto\n0.10\n0.54\n-5\n\n\n4\nNGLVC07\nNGLVC\nto\n0.28\n0.82\n-14\n\n\n5\nNGLVC10\nNGLVC\nto\n0.35\n1.17\n-4\n\n\n6\nNGLVC11\nNGLVC\nto\n0.14\n1.31\n2\n\n\n7\nNGLVC12\nNGLVC\nto\n0.41\n1.72\n-7\n\n\n8\nNGLVC10\nNGLVC\nto\n0.35\n2.07\n4\n\n\n9\nNGLVC07\nNGLVC\nto\n0.28\n2.35\n14\n\n\n10\nNGLVC05\nNGLVC\nto\n0.06\n2.41\n-8\n\n\n11\nNGLVC02\nNGLVC\nto\n0.05\n2.46\n14\n\n\n12\nNGLVC03\nNGLVC\nto\n0.10\n2.56\n4"
   }
 ]

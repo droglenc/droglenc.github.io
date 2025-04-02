@@ -18,14 +18,14 @@ project <- "Wisconsin"
 #dat <- dataPrepHelper(project=project,basedir="c:/aaaPersonal/MAPPING")
 ```
 
-- **Northern WI**
-  - Amnicon Falls SP
-  - [Bayfield Rd Trail, Brule River SF](WI Bayfield Rd.html)
-  - [Houghton Falls, Washburn](WI Houghton_Falls.html)
-  - [Little Manitou Falls, Pattison SP](WI Little_Manitou.html)
-  - [Makwa Ziibiins Miikana Trail, Superior](WI Makwa_Ziibiins.html)
-  - [Twin Falls Park, Port Wing](WI Twin_Falls.html)
-  
+- **Ashland County**
+
+- **Bayfield County**
+  - Brule River SF - [Bayfield Rd Trail](WI Bayfield Rd.html)
+  - Washburn - [Houghton Falls](WI Houghton_Falls.html)
+  - Northern Great Lakes Visitor Center - [Loop I](WI NGLVC1.html)
+  - Port Wing - [Twin Falls Park](WI Twin_Falls.html)
+
 - **Door County**
   - [Bayshore CP](WI Bayshore.html)
   - [Death's Door Bluff CP](WI Deaths_Door.html)
@@ -34,5 +34,10 @@ project <- "Wisconsin"
   - [Potawatomi SP](WI Potawatomi.html)
   - [Whitefish Dunes SP](WI Whitefish_Dunes.html)
 
+- **Douglas County**
+  - Amnicon Falls SP
+  - Pattison SP - [Little Manitou Falls](WI Little_Manitou.html)
+  - Superior - [Makwa Ziibiins Miikana Trail](WI Makwa_Ziibiins.html)
+
 - **Other**
-  - [Paper Mill Trail and Whiting Park, Stevens Pt](WI Paper_Mill.html)
+  - Stevens Pt - [Paper Mill Trail and Whiting Park](WI Paper_Mill.html)
