@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">Sep 26, 2024</p>
+        <p class="date-modified">Apr 16, 2025</p>
       </div>
     </div>
       
@@ -154,9 +154,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#water-level" id="toc-water-level" class="nav-link active" data-scroll-target="#water-level">Water Level</a></li>
   <li><a href="#change-in-water-level" id="toc-change-in-water-level" class="nav-link" data-scroll-target="#change-in-water-level">Change in Water Level</a></li>
-  <li><a href="#summary-table" id="toc-summary-table" class="nav-link" data-scroll-target="#summary-table">Summary Table</a></li>
   <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a></li>
   <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a>
+  <ul class="collapse">
+  <li><a href="#water-level-1" id="toc-water-level-1" class="nav-link" data-scroll-target="#water-level-1">Water Level</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -176,63 +179,67 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>The winter of 2022-23 was exceptionally snowy in northern Wisconsin (<a href="https://www.weather.gov/dlh/seasonal-snowfall-records">see this</a>). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see <a href="#acknowledgments">Acknowledgments</a> below), I now have near daily water level measurements at the gauge from May 2, 2023 to April 4, 2025. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is <a href="#data-collection">further below</a>.</p>
+<p>The winter of 2022-23 was exceptionally snowy in northern Wisconsin (<a href="https://www.weather.gov/dlh/seasonal-snowfall-records">see this</a>). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as “beaches” and docks were under water. A relative depth gauge is affixed to a permanent “wall” a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see <a href="#acknowledgments">Acknowledgments</a> below), I now have near daily water level measurements at the gauge from May 2, 2023 to April 16, 2025. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is <a href="#data-collection">further below</a>.</p>
 <p>&nbsp;</p>
 <section id="water-level" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="water-level">Water Level</h2>
-<p>The graph below shows the daily water level at the gauge for each ice-out to ice-out season, with the current season (with on-going data collection) shown at the top. Additionally, points color coded by the amount of precipitation are shown for days where precipitation occurred (no point is shown for days without precipitation).</p>
+<p>It is difficult to make definitive conclusions from only two complete ice-out to ice-out seasons. However, a few preliminary thoughts are:</p>
+<ul>
+<li>Median water levels over the season appear to be around 22.5-23.0” (<a href="#fig-depth_distribution" class="quarto-xref">Figure&nbsp;2</a>; <a href="#tbl-depth_summary" class="quarto-xref">Table&nbsp;1</a>).</li>
+<li>There is considerable year-to-year variability (<a href="#fig-depth_series" class="quarto-xref">Figure&nbsp;1</a>; <a href="#fig-depth_distribution" class="quarto-xref">Figure&nbsp;2</a>), even during the middle of “summer” or “winter” when I expected the levels to be fairly consistent across years.</li>
+<li>Water levels are dependent on rainfall (not surprisingly!). The levels at the start of the 2023-24 season were elevated due to near record snowfalls the previous winter, whereas the lowest recordings (thusfar) were at the end of the summer for the 2024-25 season when we experience near drought-like conditions (<a href="#fig-depth_series" class="quarto-xref">Figure&nbsp;1</a>).</li>
+<li>The water level at the beginning of 2023-24 (i.e., end of 2022-23 winter) may have been atypically high as it was at least 5” higher than the water level at ice-out in 2024-25, 4” higher than the water level at ice-out in 2025-26, and 3” higher than any other water level recorded in 2023-24 after the initial peak had subsided (<a href="#fig-depth_series" class="quarto-xref">Figure&nbsp;1</a>; <a href="#tbl-depth_summary" class="quarto-xref">Table&nbsp;1</a>). Furthermore, the water level dropped rather quickly in spring of 2023 suggesting that there was excess water in the system that simply needed time to be flushed out (<a href="#fig-depth_series" class="quarto-xref">Figure&nbsp;1</a>).</li>
+</ul>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/depth_series_wrain-1.png" class="img-fluid figure-img" width="768"></p>
-<figcaption class="margin-caption">Daily water level at Flynn Lake dam by “ice-out to ice-out season.” Points represent precipitation events since the previous observation color coded by the amount of precipitation.</figcaption>
+<div id="fig-depth_series" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-depth_series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-depth_series-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-depth_series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Daily water level at Flynn Lake dam by “ice-out to ice-out season.”
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Without historical data it is difficult to state that the water level at the beginning of 2022-23 was atypically high. However, it was nearly 5” higher than the water level at ice-out in 2023-24 and was at least 3” higher than any other water level recorded in 2022-23 after the initial peak had subsided. Furthermore, the water level dropped rather quickly in spring of 2023 suggesting that there was excess water in the system that simply needed time to be flushed out.</p>
-<p>From 2022-23, it appears that, without any additional precipitation, lake water levels drop about 1/8” to 1/4” per day until a baseline level between 21” and 22” is approached. Near that baseline the drop in lake water level tends to be less. Lake water levels can increase substantially with precipitation but the actual rise does not always match the amount of precipitation, sometimes being more and sometimes being less than the precipitation amount.</p>
-<p>&nbsp;</p>
-</section>
-<section id="change-in-water-level" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="change-in-water-level">Change in Water Level</h2>
-<p>The graph below is the same data as that shown in the graph above but it is displayed as a change in lake water level from the previous day. This presentation makes it easier to see how much water levels change daily.</p>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="index_files/figure-html/delta_depth_series_wrain-1.png" class="img-fluid figure-img" width="768"></p>
-<figcaption class="margin-caption">Change in water level from the previous day at Flynn Lake dam by “ice-out to ice-out season.” Points represent precipitation events since the previous observation color coded by the amount of precipitation.</figcaption>
+<div id="fig-depth_distribution" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-depth_distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-depth_distribution-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-depth_distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Distribution of daily water level at Flynn Lake dam by “ice-out to ice-out season.” Ends of white box are the 25th and 75th percentiles and the horizontal line is the median (50th percentile). The distribution for the current season will look odd when few data exist early in the season.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>The greatest daily change in water level was an increase of 2.4 on July 27, 2023 following 1.16” of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates.</p>
-<p>&nbsp;</p>
-</section>
-<section id="summary-table" class="level2">
-<h2 class="anchored" data-anchor-id="summary-table">Summary Table</h2>
-<p>The following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.</p>
-<div class="cell" data-layout-align="center">
+<div class="cell page-columns page-full" data-layout-align="center">
+<div id="tbl-depth_summary" class="cell quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-layout-align="center">
+<figure class="quarto-float quarto-float-tbl figure page-columns page-full">
+<div aria-describedby="tbl-depth_summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="zjcgvmlhnv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#zjcgvmlhnv table {
+<div id="hngmpdehdc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#hngmpdehdc table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#zjcgvmlhnv thead, #zjcgvmlhnv tbody, #zjcgvmlhnv tfoot, #zjcgvmlhnv tr, #zjcgvmlhnv td, #zjcgvmlhnv th {
+#hngmpdehdc thead, #hngmpdehdc tbody, #hngmpdehdc tfoot, #hngmpdehdc tr, #hngmpdehdc td, #hngmpdehdc th {
   border-style: none;
 }
 
-#zjcgvmlhnv p {
+#hngmpdehdc p {
   margin: 0;
   padding: 0;
 }
 
-#zjcgvmlhnv .gt_table {
+#hngmpdehdc .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -258,12 +265,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_caption {
+#hngmpdehdc .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#zjcgvmlhnv .gt_title {
+#hngmpdehdc .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -275,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#zjcgvmlhnv .gt_subtitle {
+#hngmpdehdc .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -287,7 +294,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#zjcgvmlhnv .gt_heading {
+#hngmpdehdc .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -299,13 +306,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_bottom_border {
+#hngmpdehdc .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_col_headings {
+#hngmpdehdc .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -320,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_col_heading {
+#hngmpdehdc .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -340,7 +347,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#zjcgvmlhnv .gt_column_spanner_outer {
+#hngmpdehdc .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -352,15 +359,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#zjcgvmlhnv .gt_column_spanner_outer:first-child {
+#hngmpdehdc .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#zjcgvmlhnv .gt_column_spanner_outer:last-child {
+#hngmpdehdc .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#zjcgvmlhnv .gt_column_spanner {
+#hngmpdehdc .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -372,11 +379,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#zjcgvmlhnv .gt_spanner_row {
+#hngmpdehdc .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#zjcgvmlhnv .gt_group_heading {
+#hngmpdehdc .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -402,7 +409,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#zjcgvmlhnv .gt_empty_group_heading {
+#hngmpdehdc .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -417,15 +424,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#zjcgvmlhnv .gt_from_md > :first-child {
+#hngmpdehdc .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zjcgvmlhnv .gt_from_md > :last-child {
+#hngmpdehdc .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zjcgvmlhnv .gt_row {
+#hngmpdehdc .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -444,7 +451,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#zjcgvmlhnv .gt_stub {
+#hngmpdehdc .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -457,7 +464,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zjcgvmlhnv .gt_stub_row_group {
+#hngmpdehdc .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -471,15 +478,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#zjcgvmlhnv .gt_row_group_first td {
+#hngmpdehdc .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#zjcgvmlhnv .gt_row_group_first th {
+#hngmpdehdc .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#zjcgvmlhnv .gt_summary_row {
+#hngmpdehdc .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -489,16 +496,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zjcgvmlhnv .gt_first_summary_row {
+#hngmpdehdc .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_first_summary_row.thick {
+#hngmpdehdc .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#zjcgvmlhnv .gt_last_summary_row {
+#hngmpdehdc .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -508,7 +515,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_grand_summary_row {
+#hngmpdehdc .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -518,7 +525,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zjcgvmlhnv .gt_first_grand_summary_row {
+#hngmpdehdc .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -528,7 +535,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_last_grand_summary_row_top {
+#hngmpdehdc .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -538,11 +545,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_striped {
+#hngmpdehdc .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#zjcgvmlhnv .gt_table_body {
+#hngmpdehdc .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -551,7 +558,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_footnotes {
+#hngmpdehdc .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -565,7 +572,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_footnote {
+#hngmpdehdc .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -574,7 +581,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zjcgvmlhnv .gt_sourcenotes {
+#hngmpdehdc .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -588,7 +595,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#zjcgvmlhnv .gt_sourcenote {
+#hngmpdehdc .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -596,77 +603,77 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#zjcgvmlhnv .gt_left {
+#hngmpdehdc .gt_left {
   text-align: left;
 }
 
-#zjcgvmlhnv .gt_center {
+#hngmpdehdc .gt_center {
   text-align: center;
 }
 
-#zjcgvmlhnv .gt_right {
+#hngmpdehdc .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zjcgvmlhnv .gt_font_normal {
+#hngmpdehdc .gt_font_normal {
   font-weight: normal;
 }
 
-#zjcgvmlhnv .gt_font_bold {
+#hngmpdehdc .gt_font_bold {
   font-weight: bold;
 }
 
-#zjcgvmlhnv .gt_font_italic {
+#hngmpdehdc .gt_font_italic {
   font-style: italic;
 }
 
-#zjcgvmlhnv .gt_super {
+#hngmpdehdc .gt_super {
   font-size: 65%;
 }
 
-#zjcgvmlhnv .gt_footnote_marks {
+#hngmpdehdc .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#zjcgvmlhnv .gt_asterisk {
+#hngmpdehdc .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#zjcgvmlhnv .gt_indent_1 {
+#hngmpdehdc .gt_indent_1 {
   text-indent: 5px;
 }
 
-#zjcgvmlhnv .gt_indent_2 {
+#hngmpdehdc .gt_indent_2 {
   text-indent: 10px;
 }
 
-#zjcgvmlhnv .gt_indent_3 {
+#hngmpdehdc .gt_indent_3 {
   text-indent: 15px;
 }
 
-#zjcgvmlhnv .gt_indent_4 {
+#hngmpdehdc .gt_indent_4 {
   text-indent: 20px;
 }
 
-#zjcgvmlhnv .gt_indent_5 {
+#hngmpdehdc .gt_indent_5 {
   text-indent: 25px;
 }
 
-#zjcgvmlhnv .katex-display {
+#hngmpdehdc .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#zjcgvmlhnv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#hngmpdehdc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 
-<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table do-not-create-environment cell table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <colgroup>
 <col style="width: 7%">
 <col style="width: 7%">
@@ -712,21 +719,6 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
-<td class="gt_row gt_left" headers="Season">2024-25</td>
-<td class="gt_row gt_left" headers="sDate">Feb 2</td>
-<td class="gt_row gt_left" headers="eDate" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">Apr 4</td>
-<td class="gt_row gt_right" headers="sLvl">21.6</td>
-<td class="gt_row gt_right" headers="eLvl">23.8</td>
-<td class="gt_row gt_right" headers="mdnLvl">22.6</td>
-<td class="gt_row gt_right" headers="d1Lvl">21.5</td>
-<td class="gt_row gt_right" headers="d9Lvl">23.8</td>
-<td class="gt_row gt_right" headers="minLvl">20.3</td>
-<td class="gt_row gt_right" headers="maxLvl">25.7</td>
-<td class="gt_row gt_right" headers="rngLvl" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">5.4</td>
-<td class="gt_row gt_right" headers="minLvlD">0.96</td>
-<td class="gt_row gt_right" headers="maxLvlD">1.92</td>
-</tr>
-<tr class="even">
 <td class="gt_row gt_left" headers="Season">2023-24</td>
 <td class="gt_row gt_left" headers="sDate">May 2</td>
 <td class="gt_row gt_left" headers="eDate" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">Mar 13</td>
@@ -741,20 +733,50 @@ ul.task-list li input[type="checkbox"] {
 <td class="gt_row gt_right" headers="minLvlD">0.60</td>
 <td class="gt_row gt_right" headers="maxLvlD">2.40</td>
 </tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Season">2024-25</td>
+<td class="gt_row gt_left" headers="sDate">Mar 14</td>
+<td class="gt_row gt_left" headers="eDate" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">Apr 14</td>
+<td class="gt_row gt_right" headers="sLvl">21.6</td>
+<td class="gt_row gt_right" headers="eLvl">23.5</td>
+<td class="gt_row gt_right" headers="mdnLvl">22.6</td>
+<td class="gt_row gt_right" headers="d1Lvl">21.5</td>
+<td class="gt_row gt_right" headers="d9Lvl">23.8</td>
+<td class="gt_row gt_right" headers="minLvl">20.3</td>
+<td class="gt_row gt_right" headers="maxLvl">25.7</td>
+<td class="gt_row gt_right" headers="rngLvl" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">5.4</td>
+<td class="gt_row gt_right" headers="minLvlD">0.96</td>
+<td class="gt_row gt_right" headers="maxLvlD">1.92</td>
+</tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="Season" style="background-color: #F2F2F2">Overall</td>
-<td class="gt_row gt_left" headers="sDate" style="background-color: #F2F2F2">—</td>
-<td class="gt_row gt_left" headers="eDate" style="background-color: #F2F2F2; border-right-width: 8px; border-right-style: solid; border-right-color: white">—</td>
-<td class="gt_row gt_right" headers="sLvl" style="background-color: #F2F2F2">—</td>
-<td class="gt_row gt_right" headers="eLvl" style="background-color: #F2F2F2">—</td>
-<td class="gt_row gt_right" headers="mdnLvl" style="background-color: #F2F2F2">22.7</td>
-<td class="gt_row gt_right" headers="d1Lvl" style="background-color: #F2F2F2">21.7</td>
+<td class="gt_row gt_left" headers="Season" style="background-color: #F2F2F2">2025-26</td>
+<td class="gt_row gt_left" headers="sDate" style="background-color: #F2F2F2">Apr 15</td>
+<td class="gt_row gt_left" headers="eDate" style="background-color: #F2F2F2; border-right-width: 8px; border-right-style: solid; border-right-color: white">Apr 16</td>
+<td class="gt_row gt_right" headers="sLvl" style="background-color: #F2F2F2">24.0</td>
+<td class="gt_row gt_right" headers="eLvl" style="background-color: #F2F2F2">23.8</td>
+<td class="gt_row gt_right" headers="mdnLvl" style="background-color: #F2F2F2">23.9</td>
+<td class="gt_row gt_right" headers="d1Lvl" style="background-color: #F2F2F2">23.8</td>
 <td class="gt_row gt_right" headers="d9Lvl" style="background-color: #F2F2F2">24.0</td>
-<td class="gt_row gt_right" headers="minLvl" style="background-color: #F2F2F2">20.3</td>
-<td class="gt_row gt_right" headers="maxLvl" style="background-color: #F2F2F2">28.1</td>
-<td class="gt_row gt_right" headers="rngLvl" style="background-color: #F2F2F2; border-right-width: 8px; border-right-style: solid; border-right-color: white">7.8</td>
-<td class="gt_row gt_right" headers="minLvlD" style="background-color: #F2F2F2">0.96</td>
-<td class="gt_row gt_right" headers="maxLvlD" style="background-color: #F2F2F2">2.40</td>
+<td class="gt_row gt_right" headers="minLvl" style="background-color: #F2F2F2">23.8</td>
+<td class="gt_row gt_right" headers="maxLvl" style="background-color: #F2F2F2">24.0</td>
+<td class="gt_row gt_right" headers="rngLvl" style="background-color: #F2F2F2; border-right-width: 8px; border-right-style: solid; border-right-color: white">0.2</td>
+<td class="gt_row gt_right" headers="minLvlD" style="background-color: #F2F2F2">0.24</td>
+<td class="gt_row gt_right" headers="maxLvlD" style="background-color: #F2F2F2">0.48</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Season">Overall</td>
+<td class="gt_row gt_left" headers="sDate">—</td>
+<td class="gt_row gt_left" headers="eDate" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">—</td>
+<td class="gt_row gt_right" headers="sLvl">—</td>
+<td class="gt_row gt_right" headers="eLvl">—</td>
+<td class="gt_row gt_right" headers="mdnLvl">22.7</td>
+<td class="gt_row gt_right" headers="d1Lvl">21.7</td>
+<td class="gt_row gt_right" headers="d9Lvl">24.0</td>
+<td class="gt_row gt_right" headers="minLvl">20.3</td>
+<td class="gt_row gt_right" headers="maxLvl">28.1</td>
+<td class="gt_row gt_right" headers="rngLvl" style="border-right-width: 8px; border-right-style: solid; border-right-color: white">7.8</td>
+<td class="gt_row gt_right" headers="minLvlD">0.96</td>
+<td class="gt_row gt_right" headers="maxLvlD">2.40</td>
 </tr>
 </tbody>
 </table>
@@ -762,6 +784,65 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-tbl margin-caption" id="tbl-depth_summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Summarized, for each season, the starting and ending dates for the season; water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of water levels; and the maximum daily drop and rise in water levels.
+</figcaption>
+</figure>
+</div>
+</div>
+<p>&nbsp;</p>
+</section>
+<section id="change-in-water-level" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="change-in-water-level">Change in Water Level</h2>
+<p>As seen in <a href="#fig-depth_series" class="quarto-xref">Figure&nbsp;1</a> and <a href="#tbl-depth_summary" class="quarto-xref">Table&nbsp;1</a>, there can be considerable day-to-day variability in water level at the Flynn dam. Of course, the large increases are due to precipitation and the extended periods of decline in water level are due to lack of precipitation. Here are some preliminary thoughts about the daily changes in water level.</p>
+<ul>
+<li>The greatest daily change in water level was an increase of 2.4 on July 27, 2023 following 1.16” of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates (<a href="#fig-delta_depth_series" class="quarto-xref">Figure&nbsp;3</a>).</li>
+<li>It appears that, without any additional precipitation, lake water levels generally drop about 1/8” to 1/4” per day (<a href="#fig-delta_depth_distribution" class="quarto-xref">Figure&nbsp;4</a>; <a href="#fig-delta_depth_distribution_wrain" class="quarto-xref">Figure&nbsp;5</a>) until a baseline level between 21” and 22” is approached (<a href="#fig-depth_series" class="quarto-xref">Figure&nbsp;1</a>; <a href="#fig-delta_depth_series" class="quarto-xref">Figure&nbsp;3</a>). Near that baseline the drop in lake water level tends to be less.</li>
+<li>Lake water levels can increase substantially with precipitation (<a href="#fig-delta_depth_distribution_wrain" class="quarto-xref">Figure&nbsp;5</a>) but the actual rise does not always match the amount of precipitation, sometimes being more and sometimes being less than the precipitation amount (<a href="#fig-delta_depth_series" class="quarto-xref">Figure&nbsp;3</a>; <a href="#fig-delta_depth_distribution" class="quarto-xref">Figure&nbsp;4</a>).</li>
+</ul>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-delta_depth_series" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-delta_depth_series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-delta_depth_series-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-delta_depth_series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Change in water level from the previous day at Flynn Lake dam by “ice-out to ice-out season.” Points represent precipitation events since the previous observation color coded by the amount of precipitation.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-delta_depth_distribution" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-delta_depth_distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-delta_depth_distribution-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-delta_depth_distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Distribution of the change from the previous day in daily water level at Flynn Lake dam by “ice-out to ice-out season.” Ends of white box are the 25th and 75th percentiles and the horizontal line is the median (50th percentile). The distribution for the current season will look odd when few data exist early in the season.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-delta_depth_distribution_wrain" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-delta_depth_distribution_wrain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-delta_depth_distribution_wrain-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="480">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-delta_depth_distribution_wrain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Distribution of the change from the previous day in daily water level at Flynn Lake dam by categories of rain prior to the measurement. Dots represent observations, though there is considerable over-plotting at the lower rain amounts.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 </section>
 <section id="data-collection" class="level2">
@@ -774,8 +855,31 @@ ul.task-list li input[type="checkbox"] {
 <section id="acknowledgments" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
 <p>Thanks to Hal A, Ieuan A, Joe R., Kevin S., Sjana S, and Tim T. for taking the measurements when I could not!!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</section>
+<section id="appendix" class="level1 page-columns page-full">
+<h1>Appendix</h1>
+<section id="water-level-1" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="water-level-1">Water Level</h2>
+<p>The graph below shows the daily water level at the gauge for each ice-out to ice-out season with points color coded by the amount of precipitation for days where precipitation occurred (no point is shown for days without precipitation).</p>
+<div class="cell page-columns page-full" data-layout-align="center">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-depth_series_2" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-depth_series_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-depth_series_2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-depth_series_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Daily water level at Flynn Lake dam by “ice-out to ice-out season.” Points represent precipitation events since the previous observation color coded by the amount of precipitation.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->

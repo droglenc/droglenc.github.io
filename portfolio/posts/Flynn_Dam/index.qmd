@@ -23,6 +23,8 @@ format:
 library(tidyverse)
 library(gt)
 
+tmp_source <- "Source: Derek Ogle, personal observation"
+
 ## Helper to convert numeric inches to feet and inches label ... OLD
 convIn2Ft <- function(x,dec=0) {
   tmp <- paste0(formatC(x-floor(x/12)*12,format="f",digits=dec),'"')
@@ -51,8 +53,6 @@ makeXScaleDates <- function(dys,yrs) {
 
 ## Set some constants
 depvals <- 20:29  # inches
-deplbls <- convIn2Ft(depvals) #... OLD
-
 rainlvls <- c('0"','Tr-0.10"','0.10-0.25"','0.25-0.50"','0.50-1.00"',
               '1.00-3.00"','3.00-5.00"','>5.00"')
 
@@ -78,8 +78,13 @@ theme_dam <- function() {
 ```{r}
 #| label: data-prep
 dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3) |>
-  mutate(Date=as.Date(DateTime,format="%Y-%m-%d"),
-         Season=forcats::fct_rev(Season),
+  mutate(DateTime2=case_when(
+           Season=="2024-25" ~ DateTime %m-% years(1),
+           Season=="2025-26" ~ DateTime %m-% years(2),
+           TRUE ~ DateTime),
+         Date=as.Date(DateTime,format="%Y-%m-%d"),
+         Date2=as.Date(DateTime2,format="%Y-%m-%d"),
+         currSeason=ifelse(Season==last(Season),"YES","no"),
          Depth=Depth*12,
          Rain2=case_when(
            Rain < 0.10 ~ 'Tr-0.10"',
@@ -114,105 +119,52 @@ knitr::include_graphics("Flynn_Dam.jpg")
 
 The winter of 2022-23 was exceptionally snowy in northern Wisconsin ([see this](https://www.weather.gov/dlh/seasonal-snowfall-records)). Landowners around the Pike Lake Chain expressed concerns about high water levels on the lakes soon after ice-out that year as "beaches" and docks were under water. A relative depth gauge is affixed to a permanent "wall" a few feet upstream from the dam on Flynn Lake (i.e., the outlet of the Pike Lake Chain). With the help of some friends (see [Acknowledgments](#acknowledgments) below), I now have near daily water level measurements at the gauge from `r dStart` to `r dEnd`. I hope these data will help us better understand both typical and atypical water levels on the lakes. My analysis and interpretation of these data are below. More information about the data collection is [further below](#data-collection).
 
-
 &nbsp;
 
 ## Water Level
-The graph below shows the daily water level at the gauge for each ice-out to ice-out season, with the current season (with on-going data collection) shown at the top. Additionally, points color coded by the amount of precipitation are shown for days where precipitation occurred (no point is shown for days without precipitation).
+It is difficult to make definitive conclusions from only `r FSA::kCounts(length(unique(dat$Season))-1)` complete ice-out to ice-out seasons. However, a few preliminary thoughts are:
+
+- Median water levels over the season appear to be around 22.5-23.0" (@fig-depth_distribution; @tbl-depth_summary).
+- There is considerable year-to-year variability (@fig-depth_series; @fig-depth_distribution), even during the middle of "summer" or "winter" when I expected the levels to be fairly consistent across years.
+- Water levels are dependent on rainfall (not surprisingly!). The levels at the start of the 2023-24 season were elevated due to near record snowfalls the previous winter, whereas the lowest recordings (thusfar) were at the end of the summer for the 2024-25 season when we experience near drought-like conditions (@fig-depth_series).
+- The water level at the beginning of 2023-24 (i.e., end of 2022-23 winter) may have been atypically high as it was at least 5" higher than the water level at ice-out in 2024-25, 4" higher than the water level at ice-out in 2025-26, and 3" higher than any other water level recorded in 2023-24 after the initial peak had subsided (@fig-depth_series; @tbl-depth_summary). Furthermore, the water level dropped rather quickly in spring of 2023 suggesting that there was excess water in the system that simply needed time to be flushed out (@fig-depth_series).
 
 ```{r}
-#| label: depth_series_wrain
+#| label: fig-depth_series
 #| fig-width: 8
-#| fig-height: 8
-#| fig-cap: 'Daily water level at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
-tmp_source <- "Source: Derek Ogle, personal observation"
-
-## Make matrix of dates for use with the multiple scale_x_datetime() below
-##   Change days so that they span range in each season
-##   Must add a new scale_x_datetime() each time a new season is created
-xDates <- makeXScaleDates(c("03-14","05-05"))
-
-ggplot() +
-  geom_line(data=dat,mapping=aes(x=DateTime,y=Depth),
-            color="slategray",linewidth=1.25) +
-  geom_point(data=filter(dat,!is.na(Rain)),
-             mapping=aes(x=DateTime,y=Depth,fill=Rain2),
-             shape=21,color="slategray",size=1.75) +
+#| fig-height: 5
+#| fig-cap: 'Daily water level at Flynn Lake dam by "ice-out to ice-out season."'
+ggplot(data=dat,mapping=aes(x=DateTime2,y=Depth,color=Season)) +
+  geom_line(aes(linewidth=currSeason),alpha=0.9) +
+  scale_x_datetime(limits=as.POSIXct(c("2023-3-10","2024-5-5"),format="%Y-%m-%d"),
+                     date_breaks="1 month",
+                     date_labels="%b",expand=expansion(mult=0.025)) +
   scale_y_continuous(name="Water Level (in.)",expand=expansion(add=c(0.01,0)),
                      limits=range(depvals),breaks=depvals) +
-  scale_fill_brewer(name="Precipitation:",palette="YlOrRd") +
-  facet_wrap(vars(Season),ncol=1,scales="free_x") +
-  ggh4x::facetted_pos_scales(x=list(
-    scale_x_datetime(limits=as.POSIXct(xDates[2,],format="%Y-%m-%d"),
-                     date_breaks="1 month",
-                     date_labels="%b",expand=expansion(mult=0.025)),
-    scale_x_datetime(limits=as.POSIXct(xDates[1,],format="%Y-%m-%d"),
-                     date_breaks="1 month",
-                     date_labels="%b",expand=expansion(mult=0.025))
-  )) + 
-  labs(caption=tmp_source) +
-  theme_dam()
-```
-
-Without historical data it is difficult to state that the water level at the beginning of 2022-23 was atypically high. However, it was nearly 5" higher than the water level at ice-out in 2023-24 and was at least 3" higher than any other water level recorded in 2022-23 after the initial peak had subsided. Furthermore, the water level dropped rather quickly in spring of 2023 suggesting that there was excess water in the system that simply needed time to be flushed out.
-
-From 2022-23, it appears that, without any additional precipitation, lake water levels drop about 1/8" to 1/4" per day until a baseline level between 21" and  22" is approached. Near that baseline the drop in lake water level tends to be less. Lake water levels can increase substantially with precipitation but the actual rise does not always match the amount of precipitation, sometimes being more and sometimes being less than the precipitation amount.
-
-&nbsp;
-
-## Change in Water Level
-The graph below is the same data as that shown in the graph above but it is displayed as a change in lake water level from the previous day. This presentation makes it easier to see how much water levels change daily.
-
-```{r}
-#| label: delta_depth_series_wrain
-#| fig-width: 8
-#| fig-height: 8
-#| fig-cap: 'Change in water level from the previous day at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
-
-dDepvals <- seq(2.5,-0.75,by=-0.25)
-dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
-
-ggplot() +
-  geom_hline(yintercept=0,linetype="dashed",linewidth=1) +
-  geom_segment(data=dat2,mapping=aes(x=Date,y=0,yend=dDepth,xend=Date),
-               linewidth=1,color="slategray") +
-  geom_point(data=filter(dat2,!is.na(Rain)),
-             mapping=aes(x=Date,y=dDepth,fill=Rain2),
-             shape=21,color="slategray",size=1.75) +
-  scale_y_continuous(name="Change in Water Level from Previous Day (in)",
-                     expand=expansion(mult=0.02),
-                     limits=range(dDepvals),breaks=dDepvals,labels=dDeplbls) +
-  scale_fill_brewer(name="Precipitation:",palette="YlOrRd") +
-  facet_wrap(vars(Season),ncol=1,scales="free_x") +
-  ggh4x::facetted_pos_scales(x=list(
-    scale_x_date(limits=as.Date(xDates[2,],format="%Y-%m-%d"),
-                 date_breaks="1 month",
-                 date_labels="%b",expand=expansion(mult=0.025)),
-    scale_x_date(limits=as.Date(xDates[1,],format="%Y-%m-%d"),
-                 date_breaks="1 month",
-                 date_labels="%b",expand=expansion(mult=0.025))
-  )) + 
+  scale_color_brewer(palette="Dark2",guide=guide_legend(override.aes=list(linewidth=1.5))) +
+  scale_discrete_manual(aesthetic="linewidth",values=c("YES"=2,"no"=1),guide="none") +
   labs(caption=tmp_source) +
   theme_dam()
 ```
 
 ```{r}
-#| label: data-sum-maxDD
-maxDD <- max(dat2$dDepth)
-lblMaxDD <- formatC(maxDD,format="f",digits=1)
-rainMaxDD <- dat2$Rain[dat2$dDepth==maxDD]
-dMaxDD <- format(dat$DateTime[dat2$dDepth==maxDD],format="%B %e, %Y")
+#| label: fig-depth_distribution
+#| fig-width: 5
+#| fig-height: 5
+#| fig-cap: 'Distribution of daily water level at Flynn Lake dam by "ice-out to ice-out season." Ends of white box are the 25th and 75th percentiles and the horizontal line is the median (50th percentile). The distribution for the current season will look odd when few data exist early in the season.'
+ggplot(data=dat,mapping=aes(y=Depth,x=Season,fill=Season)) +
+  geom_violin(aes(fill=Season),alpha=0.9,scale="width") +
+  geom_boxplot(fill="white",size=0.7,width=0.2,outlier.shape=NA,coef=0) +
+  scale_y_continuous(name="Water Level (in.)",limits=range(depvals),breaks=depvals) +
+  scale_fill_brewer(palette="Dark2") +
+  labs(caption=tmp_source) +
+  theme_dam() +
+  theme(legend.position="none")
 ```
 
-The greatest daily change in water level was an increase of `r lblMaxDD` on `r dMaxDD` following `r rainMaxDD`" of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates.
-
-&nbsp;
-
-## Summary Table
-The following table summarizes, for each season, the starting and ending dates for the season; the lake water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of lake water levels; and the maximum daily drop and rise in lake water levels.
-
 ```{r}
-#| label: data-sum
+#| label: tbl-depth_summary
+#| tbl-cap: Summarized, for each season, the starting and ending dates for the season; water level at the start and end of the season; the median, lowest 10%, lowest 90% (i.e., 10% higher), minimum, maximum, and range of water levels; and the maximum daily drop and rise in water levels.
 sum1a <- dat2 |>
   group_by(Season) |>
   summarize(minLvlD=abs(min(dDepth,na.rm=TRUE)),
@@ -279,6 +231,88 @@ sum |>
 
 &nbsp;
 
+## Change in Water Level
+
+```{r}
+#| label: data-sum-maxDD
+maxDD <- max(dat2$dDepth)
+lblMaxDD <- formatC(maxDD,format="f",digits=1)
+rainMaxDD <- dat2$Rain[dat2$dDepth==maxDD]
+dMaxDD <- format(dat$DateTime[dat2$dDepth==maxDD],format="%B %e, %Y")
+```
+
+As seen in @fig-depth_series and @tbl-depth_summary, there can be considerable day-to-day variability in water level at the Flynn dam. Of course, the large increases are due to precipitation and the extended periods of decline in water level are due to lack of precipitation. Here are some preliminary thoughts about the daily changes in water level.
+
+- The greatest daily change in water level was an increase of `r lblMaxDD` on `r dMaxDD` following `r rainMaxDD`" of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates (@fig-delta_depth_series).
+- It appears that, without any additional precipitation, lake water levels generally drop about 1/8" to 1/4" per day (@fig-delta_depth_distribution; @fig-delta_depth_distribution_wrain) until a baseline level between 21" and  22" is approached (@fig-depth_series; @fig-delta_depth_series). Near that baseline the drop in lake water level tends to be less.
+- Lake water levels can increase substantially with precipitation (@fig-delta_depth_distribution_wrain) but the actual rise does not always match the amount of precipitation, sometimes being more and sometimes being less than the precipitation amount (@fig-delta_depth_series; @fig-delta_depth_distribution).
+
+```{r}
+#| label: fig-delta_depth_series
+#| fig-width: 8
+#| fig-height: 8
+#| fig-cap: 'Change in water level from the previous day at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
+
+dDepvals <- seq(-0.5,2.5,0.5)
+dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
+
+ggplot() +
+  geom_hline(yintercept=0,linetype="dashed") +
+  geom_segment(data=dat2,mapping=aes(x=Date2,y=0,yend=dDepth,xend=Date2),
+               linewidth=1,color="slategray") +
+  geom_point(data=filter(dat2,!is.na(Rain)),
+             mapping=aes(x=Date2,y=dDepth,fill=Rain2),
+             shape=21,color="slategray",size=1.75) +
+  scale_y_continuous(name="Change in Water Level from Previous Day (in)",
+                     expand=expansion(mult=0.02),
+                     limits=c(-0.75,2.5),breaks=dDepvals,labels=dDeplbls) +
+  scale_fill_brewer(name="Precipitation:",palette="YlOrRd") +
+  facet_wrap(vars(Season),ncol=1,strip.position="right") +
+  scale_x_date(limits=as.Date(c("2023-3-14","2024-5-5"),format="%Y-%m-%d"),
+                     date_breaks="1 month",
+                     date_labels="%b",expand=expansion(mult=0.025)) + 
+  labs(caption=tmp_source) +
+  theme_dam()
+```
+
+```{r}
+#| label: fig-delta_depth_distribution
+#| fig-width: 5
+#| fig-height: 5
+#| fig-cap: 'Distribution of the change from the previous day in daily water level at Flynn Lake dam by "ice-out to ice-out season." Ends of white box are the 25th and 75th percentiles and the horizontal line is the median (50th percentile). The distribution for the current season will look odd when few data exist early in the season.'
+ggplot(data=dat2,mapping=aes(y=dDepth,x=Season,fill=Season)) +
+  geom_hline(yintercept=0,linetype="dashed") +
+  geom_violin(aes(fill=Season),bw=0.05,alpha=0.9) +
+  geom_boxplot(fill="white",size=0.7,width=0.2,outlier.shape=NA,coef=0) +
+  scale_y_continuous(name="Change in Water Level from Previous Day (in)",
+                     limits=c(-0.75,2.5),breaks=dDepvals,labels=dDeplbls) +
+  scale_fill_brewer(palette="Dark2") +
+  labs(caption=tmp_source) +
+  theme_dam() +
+  theme(legend.position="none")
+```
+
+```{r}
+#| label: fig-delta_depth_distribution_wrain
+#| fig-width: 5
+#| fig-height: 5
+#| fig-cap: 'Distribution of the change from the previous day in daily water level at Flynn Lake dam by categories of rain prior to the measurement. Dots represent observations, though there is considerable over-plotting at the lower rain amounts.'
+ggplot(data=dat2,mapping=aes(y=dDepth,x=Rain2,fill=Rain2)) +
+  geom_hline(yintercept=0,linetype="dashed") +
+  geom_violin(aes(fill=Rain2),bw=0.1) +
+  ggdist::geom_dots(size=2,color="black",alpha=0.5,layout="swarm",side="both") +
+  scale_y_continuous(name="Change in Water Level from Previous Day (in)",
+                     limits=c(-0.75,2.5),breaks=dDepvals,labels=dDeplbls) +
+  scale_fill_brewer(palette="Set3") +
+  labs(caption=tmp_source) +
+  theme_dam() +
+  theme(legend.position="none")
+```
+
+&nbsp;
+
+&nbsp;
+
 ## Data Collection
 Data collection is pretty straightforward for this project. I, or a friend, record the water level at the gauge to the nearest 0.01' each day (as possible) as close to noon as possible. On the few days where we could not make the reading, I linearly interpolated the water level from the two adjacent readings. Surprisingly, it is harder to read the gauge then you would imagine. On a few days, we had multiple people read the gauge and from this I expect the "human error" of the readings to be about 0.01'.
 
@@ -290,3 +324,34 @@ Precipitation measurements are from my data recorded for the [CoCoRaHS Network](
 
 ## Acknowledgments
 Thanks to Hal A, Ieuan A, Joe R., Kevin S., Sjana S, and Tim T. for taking the measurements when I could not!!
+
+&nbsp;
+
+&nbsp;
+
+# Appendix
+
+## Water Level
+The graph below shows the daily water level at the gauge for each ice-out to ice-out season with points color coded by the amount of precipitation for days where precipitation occurred (no point is shown for days without precipitation).
+
+```{r}
+#| label: fig-depth_series_2
+#| fig-width: 8
+#| fig-height: 12
+#| fig-cap: 'Daily water level at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
+ggplot() +
+  geom_line(data=dat,mapping=aes(x=DateTime2,y=Depth),
+            color="slategray",linewidth=1.25) +
+  scale_y_continuous(name="Water Level (in.)",expand=expansion(add=c(0.01,0)),
+                     limits=range(depvals),breaks=depvals) +
+  scale_fill_brewer(name="Precipitation:",palette="YlOrRd") +
+  geom_point(data=filter(dat,!is.na(Rain)),
+             mapping=aes(x=DateTime2,y=Depth,fill=Rain2),
+             shape=21,color="slategray",size=1.75) +
+  facet_wrap(vars(fct_rev(Season)),ncol=1,strip.position="right") +
+  scale_x_datetime(limits=as.POSIXct(c("2023-3-14","2024-5-5"),format="%Y-%m-%d"),
+                     date_breaks="1 month",
+                     date_labels="%b",expand=expansion(mult=0.025)) +
+  labs(caption=tmp_source) +
+  theme_dam()
+```
