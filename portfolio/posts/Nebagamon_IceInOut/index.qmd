@@ -53,8 +53,8 @@ knitr::include_graphics("Ice.jpg")
 - There are *weak* indications for a slightly later ice-in date and, *possibly*, a slightly earlier ice-out date in the last two decades (see @fig-inout).
 - Since 1943 the average days of ice coverage was `r sum$durAvg` days, though the range was considerable from `r sum$durShort` to `r sum$durLong` days (see @fig-durhist).
 - There is an indication that the length of ice duration has declined, on average, by a little over a week in the last two decades (see @fig-dur).
-- Eight of the ten shortest ice duration seasons have occurred since 2000 (see @tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (see @tbl-durLong).
-- Data were provided by Gary Hagstrom who received it from XXX. The original data acknowledged J Arthur, G DeBrunye, W Kiefer, A Mack, M Laskkowski, J Snydle.
+- Eight of the eleven shortest ice duration seasons have occurred since 2000 (see @tbl-durShort), whereas only one of the ten longest ice duration seasons have occurred in that same time period (see @tbl-durLong).
+- Data were provided by G Hagstrom who received it from C Bergsten. The original data acknowledged J Arthur, G DeBrunye, W Kiefer, A Mack, M Laskkowski, and J Snydle.
 :::
 
 &nbsp;
@@ -135,7 +135,7 @@ p_inout <- p_inout +
            x=sum$outEarlyYr-8,y=sum$outEarlyDay,
            label=paste0("Earliest (",sum$outEarlyDate,")")) +
   annotate(geom="text",vjust=-0.5,color=outclr,
-           x=sum$outLateYr,y=sum$outLateDay,
+           x=sum$outLateYr+0.5,y=sum$outLateDay,
            label=paste0("Latest (",sum$outLateDate,")")) +
   annotate(geom="point",x=1942.5,y=sum$outAvgDay,
            shape="-",color=outclr,size=10) +
@@ -177,8 +177,8 @@ p_durhist <- ggplot(data=dat,mapping=aes(x=daysIced)) +
 
 p_durhist +
   annotate(geom="text",hjust="left",
-           x=155,y=13,label=paste0("Average (",sum$durAvg," days)")) +
-  annotate(geom="curve",x=154.5,y=13,xend=sum$durAvg,yend=0,
+           x=155,y=14,label=paste0("Average (",sum$durAvg," days)")) +
+  annotate(geom="curve",x=154.5,y=14,xend=sum$durAvg,yend=0,
            linewidth=0.75,curvature=0.2,
            arrow=arrow(length=unit(3,"mm"),angle=20,type="closed"))
 ```
