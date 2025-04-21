@@ -8,8 +8,9 @@ dumdate <- as.Date("1-Jan-2025",format="%d-%b-%Y")
 inclr <- "darkblue"
 outclr <- "darkred"
 icefillclr <- FSA::col2rgbt("#95d0fc",0.35)
-main_lw <- 1.5
-main_clr <- "gray30"
+main_lw <- 1
+main_clr <- "gray40"
+main_type <- "solid"
 yr_breaks10 <- seq(1800,2100,10)
 yr_breaks5 <- seq(1800,2100,5)
 

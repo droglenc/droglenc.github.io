@@ -69,7 +69,7 @@ knitr::include_graphics("Eagle_Ice.jpg")
 
 p_out <- ggplot(data=dat,mapping=aes(x=fyr)) +
   geom_smooth(mapping=aes(y=outDay),se=FALSE,color=outclr) +
-  geom_line(mapping=aes(y=outDay),linewidth=main_lw,color=main_clr) +
+  geom_line(mapping=aes(y=outDay),linewidth=main_lw,color=main_clr,linetype=main_type) +
   geom_point(mapping=aes(y=outDay,shape=wleapyr),size=1.25,fill="white") +
   scale_y_continuous(name="Day of Ice-Out",
                      expand=expansion(mult=0.08),

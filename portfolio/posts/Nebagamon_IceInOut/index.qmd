@@ -189,7 +189,7 @@ p_durhist +
 
 p_durat <- ggplot(data=dat,mapping=aes(x=inYr,y=daysIced)) +
   geom_smooth(color="darkred",se=FALSE) +
-  geom_line(linewidth=main_lw,color=main_clr) +
+  geom_line(linewidth=main_lw,color=main_clr,linetype=main_type) +
   geom_point(size=1,shape=21,fill="white") +
   scale_y_continuous(name="Days Ice Coverage",
                      breaks=seq(100,180,10),
