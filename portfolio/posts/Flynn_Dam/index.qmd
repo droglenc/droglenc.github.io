@@ -332,7 +332,6 @@ Thanks to Hal A, Ieuan A, Joe R., Kevin S., Sjana S, and Tim T. for taking the m
 
 # Appendix
 
-## Water Level
 The graph below shows the daily water level at the gauge for each ice-out to ice-out season with points color coded by the amount of precipitation for days where precipitation occurred (no point is shown for days without precipitation).
 
 ```{r}
