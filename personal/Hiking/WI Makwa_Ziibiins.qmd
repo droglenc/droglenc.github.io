@@ -21,7 +21,9 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("WIMZM01","WIMZM02","WIMZM03","WIMZM03","WIMZM02","WIMZM01")
+walkIDs <- c("WIMZM01","WIMZM02","WIMZM03","WIMZM04","WIMZM04",
+             "WIMZM05","WIMZM06","WIMZM06","WIMZM05","WIMZM03",
+             "WIMZM02","WIMZM01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos
