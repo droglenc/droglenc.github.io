@@ -2,7 +2,7 @@
 ---
 
 # Cash
-We have had Cash since September 2020. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](hiking.html). The latest picture of Cash is below; [go here](Cash.html) to see a picture from (nearly) each week of his life.
+We have had Cash since September 2020. He is a spirited "big pony" who loves to be outside, especially on [walks/hikes](Hiking/Iron River Area.html). The latest picture of Cash is below; [go here](Cash.html) to see a picture from (nearly) each week of his life.
 
 ```{r}
 #| echo: false
