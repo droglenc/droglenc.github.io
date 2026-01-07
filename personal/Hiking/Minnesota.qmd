@@ -42,7 +42,10 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
   - [Goosebery Falls to Lake Trail](MN Gooseberry_Lake.html)
   - [High and Middle Falls (Grand Portage SP)](MN Grand Portage.html)
   - [Kadunce River trail](MN Kadunce.html)
+  - [Lookout Mountain (Cascae River SP)](MN Lookout Mountain.html)
+  - [Pincushion Mountain Overlook (Grand Marais)](MN Pincusion Overlook.html)
   - [Split Rock River](MN Split Rock River.html)
+  - [Split Rock shore to Day Hill Loop](MN Split Rock Day Hill.html)
   - [Temperance River loop](MN Temperance Loop.html)
   - [Tettegouche SP and Shovel Point](MN Tettegouche Shovel Point.html)
 
