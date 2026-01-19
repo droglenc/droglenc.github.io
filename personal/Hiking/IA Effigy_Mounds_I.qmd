@@ -1,0 +1,93 @@
+---
+title: "Effigy Mounds National Monument"
+subtitle: "Mounds Main Trail"
+---
+
+Kim, [Cash](../shelties.html#cash), and I explored the "Main Mounds Trail" at [Effigy Mounds National Monument](https://www.nps.gov/efmo/index.htm) on 27-Oct-25. This is an area that I have known about since I was a kid, but have never visited. The government was on shutdown so the Visitor Center was not open but the flags from the indigenous nations represented in this area were displayed outside and set a tone of respect for the culture we were about to experience. The trail begins with a steep climb to a "plateau" with several beautiful overlooks of the Mississippi River as well as impressive animal shaped burial mounds. We did not quite hit peak fall colors but it was still a beautiful hike through the hardwoods. We hope to come back when the Visitor Center is open, the colors are at peak, and we have enough time to explore the other trails. Note that, out of respect, I do not show any pictures of the mounds
+
+```{r setup, include=FALSE}
+#| label: setup
+#| include: false
+
+# Make vector of colors for Iron River Area
+clrs <- c("Highway"="#CC0000","Paved"="#336666",
+          "Gravel"="#CC6600","Offroad"="#CC9900",
+          "Trail"="#999933", "ATV"="#663300")
+
+# Read in CSV file will all track info needed for the map
+project <- "Iowa"
+walkID <- "IA_EFFMNDS1"
+trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
+trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
+
+# Make the walk
+walkIDs <- c("IAEFFM01","IAEFFM02","IAEFFM03","IAEFFM04","IAEFFM06",
+             "IAEFFM07","IAEFFM08","IAEFFM08A","IAEFFM08A","IAEFFM08B",
+             "IAEFFM08B","IAEFFM08","IAEFFM09","IAEFFM10","IAEFFM10",
+             "IAEFFM09","IAEFFM07","IAEFFM06","IAEFFM05","IAEFFM01")
+awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
+
+# Get photos
+pix <- readxl::read_excel("c:/aaaPersonal/MAPPING/Data/Trail Mapping Info.xlsx",sheet="Photos")
+walkPix <- gpxhelpers::walkGetPhotos(pix,walkIDs,"https://github.com/droglenc/MAPPING/raw/main/Images")
+npix <- nrow(walkPix)
+```
+
+## Walk-Specific Map
+```{r}
+#| label: walkMap
+#| echo: false
+gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
+```
+
+:::{.callout-note appearance="simple"}
+## Take Note
+- Click on a segment to get specific information.
+- Numeric labels correspond to the same labels in the elevation profile and summary information below.
+:::
+
+## Elevation Profile
+```{r}
+#| label: walkElevationConstruct
+#| echo: false
+#| results: hide
+fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
+png(fnm,width=7,height=5,units="in",res=216)
+gpxhelpers::walkElevation(awalk)
+dev.off()
+```
+```{r}
+#| label: walkElevation
+#| echo: false
+knitr::include_graphics(fnm)
+```
+
+## Images
+```{r}
+#| echo: false
+#| results: asis
+gpxhelpers::makeCarousel(id="Walk",path="",
+                         imgs=walkPix$Photo,caps=walkPix$Caption,
+                         width=75,captions=TRUE,controls=TRUE,indicators=FALSE)
+```
+
+## GPX Download
+```{r}
+#| label: gpxdownload
+#| echo: false
+#| message: false
+#| results: asis
+fnm <- paste0(walkID,".gpx")
+gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
+                        pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
+                        fnm=fnm,
+                        IDs2Add=unique(walkIDs))
+cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
+```
+
+## Summary Information
+```{r}
+#| label: walkSummary
+#| echo: false
+gpxhelpers::walkSummary(awalk,dropOwner=TRUE)
+```
