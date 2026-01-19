@@ -206,7 +206,7 @@
     "href": "personal/Hiking/Wisconsin.html",
     "title": "Wisconsin Hiking",
     "section": "",
-    "text": "Wisconsin Hiking\n\n\n\n\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are here\n\nAshland County\nBayfield County\n\nBrule River SF - Bayfield Rd Trail\nWashburn - Houghton Falls\nNorthern Great Lakes Visitor Center - Loop I\nPort Wing - Twin Falls Park\n\nDoor County\n\nBayshore CP\nDeath’s Door Bluff CP\nEllison Bluff CP\nNewport SP\nPotawatomi SP\nWhitefish Dunes SP\n\nDouglas County\n\nAmnicon Falls SP\nPattison SP - Little Manitou Falls\nSuperior - Makwa Ziibiins Miikana Trail\n\nOther\n\nStevens Pt - Paper Mill Trail and Whiting Park",
+    "text": "Wisconsin Hiking\n\n\n\n\n\nKim, Cash, and I often end up in other places in Wisconsin for a day or, sometimes, long weekends. Below are some of our hikes from these trips. Hikes from the Iron River area of Bayfield County are here\n\nAshland County\nBayfield County\n\nBrule River SF - Bayfield Rd Trail\nCornucopia - Meyer’s Beach Lakeshore Trail\nNorthern Great Lakes Visitor Center - Loop I\nPort Wing - Twin Falls Park\nWashburn - Houghton Falls\n\nDoor County\n\nBayshore CP\nDeath’s Door Bluff CP\nEllison Bluff CP\nNewport SP\nPotawatomi SP\nWhitefish Dunes SP\n\nDouglas County\n\nAmnicon Falls SP\nPattison SP - Little Manitou Falls\nSuperior - Makwa Ziibiins Miikana Trail\n\nOther\n\nHayward - Hatchery Creek Trail - Loop I\nStevens Pt - Paper Mill Trail and Whiting Park",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -5605,5 +5605,82 @@
     "title": "Lookout Mountain Overlook",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nMNCASCLO01\nLookout Mountain Overlook\nHwy 61 parking lot to Superior Hiking Tr\nTrail\n0.06\n0.06\n45\n\n\n2\nMNCASCLO02\nLookout Mountain Overlook\nSpur to parking lot to\nTrail\n0.13\n0.19\n70\n\n\n3\nMNCASCLO03\nLookout Mountain Overlook\nto\nTrail\n0.38\n0.57\n121\n\n\n4\nMNCASCLO04\nLookout Mountain Overlook\nto Overlook\nTrail\n0.92\n1.49\n335\n\n\n5\nMNCASCLO04\nLookout Mountain Overlook\nOverlook to\nTrail\n0.92\n2.41\n-335\n\n\n6\nMNCASCLO03\nLookout Mountain Overlook\nto\nTrail\n0.38\n2.79\n-121\n\n\n7\nMNCASCLO02\nLookout Mountain Overlook\nto Spur to parking lot\nTrail\n0.13\n2.92\n-70\n\n\n8\nMNCASCLO01\nLookout Mountain Overlook\nSuperior Hiking Tr to Hwy 61 parking lot\nTrail\n0.06\n2.98\n-45"
+  },
+  {
+    "objectID": "personal/Hiking/WI Hatchery_Creek_I.html",
+    "href": "personal/Hiking/WI Hatchery_Creek_I.html",
+    "title": "Hatchery Creek Trail I",
+    "section": "",
+    "text": "Cash and I made a quick loop in the Hatchery Creek system of trails just outside of Hayward when we were traveling south in Fall 2025. The rolling and upland woods trail was quite pretty with a decent amount of relief. I think much of the trail was a bike trail so some of the switchbacks were getting kind of old. However, all-in-all a nice hike."
+  },
+  {
+    "objectID": "personal/Hiking/WI Hatchery_Creek_I.html#walk-specific-map",
+    "href": "personal/Hiking/WI Hatchery_Creek_I.html#walk-specific-map",
+    "title": "Hatchery Creek Trail I",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/WI Hatchery_Creek_I.html#elevation-profile",
+    "href": "personal/Hiking/WI Hatchery_Creek_I.html#elevation-profile",
+    "title": "Hatchery Creek Trail I",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/WI Hatchery_Creek_I.html#gpx-download",
+    "href": "personal/Hiking/WI Hatchery_Creek_I.html#gpx-download",
+    "title": "Hatchery Creek Trail I",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/WI Hatchery_Creek_I.html#summary-information",
+    "href": "personal/Hiking/WI Hatchery_Creek_I.html#summary-information",
+    "title": "Hatchery Creek Trail I",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nWIHATCR01\nHatchery Creek Trail\nParking area to Parking area\n4.3\n4.3\n1"
+  },
+  {
+    "objectID": "personal/Hiking/WI Meyers_Beach_I.html",
+    "href": "personal/Hiking/WI Meyers_Beach_I.html",
+    "title": "Meyers Beach Lake Shore Trail",
+    "section": "",
+    "text": "One of our favorite hikes is the Lake Shore Trail at Meyers Beach in the Apostle Islands National Lakeshore. While often quite busy with other hikers it is still a nice hike above the sea caves along the Lake Superior shore. The views of The Crevasse, pillars, and The Bowl are always great."
+  },
+  {
+    "objectID": "personal/Hiking/WI Meyers_Beach_I.html#walk-specific-map",
+    "href": "personal/Hiking/WI Meyers_Beach_I.html#walk-specific-map",
+    "title": "Meyers Beach Lake Shore Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/WI Meyers_Beach_I.html#elevation-profile",
+    "href": "personal/Hiking/WI Meyers_Beach_I.html#elevation-profile",
+    "title": "Meyers Beach Lake Shore Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/WI Meyers_Beach_I.html#gpx-download",
+    "href": "personal/Hiking/WI Meyers_Beach_I.html#gpx-download",
+    "title": "Meyers Beach Lake Shore Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/WI Meyers_Beach_I.html#summary-information",
+    "href": "personal/Hiking/WI Meyers_Beach_I.html#summary-information",
+    "title": "Meyers Beach Lake Shore Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nWIMYRSLS01\nMeyer's Beach Lakeshore Tr\nParking area to Crevasse West\n1.73\n1.73\n14\n\n\n2\nWIMYRSLS02\nMeyer's Beach Lakeshore Tr\nCrevasse West to Crevasse East\n0.12\n1.85\n13\n\n\n3\nWIMYRSLS03\nMeyer's Beach Lakeshore Tr\nCrevasse East to The Bowl\n0.17\n2.02\n-4\n\n\n4\nWIMYRSLS03\nMeyer's Beach Lakeshore Tr\nThe Bowl to Crevasse East\n0.17\n2.20\n4\n\n\n5\nWIMYRSLS02\nMeyer's Beach Lakeshore Tr\nCrevasse East to Crevasse West\n0.12\n2.32\n-13\n\n\n6\nWIMYRSLS01\nMeyer's Beach Lakeshore Tr\nCrevasse West to Parking area\n1.73\n4.05\n-14"
+  },
+  {
+    "objectID": "personal/Hiking/WI Meyers_Beach_I.html#images",
+    "href": "personal/Hiking/WI Meyers_Beach_I.html#images",
+    "title": "Meyers Beach Lake Shore Trail",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nWIMYRSLS01: Typical scenery Fall 2025\n\n\n\n\n\n\n\nWIMYRSLS01: Typical scenery Fall 2025\n\n\n\n\n\n\n\nWIMYRSLS02: The Crevasse\n\n\n\n\n\n\n\nWIMYRSLS02: Typical scenery Fall 2025\n\n\n\n\n\n\n\nWIMYRSLS03: The Bowl\n\n\n\n\n\n\n\nWIMYRSLS03: The Bowl\n\n\n\n\n\n Previous\n\n\n Next"
   }
 ]

@@ -22,9 +22,10 @@ project <- "Wisconsin"
 
 - **Bayfield County**
   - Brule River SF - [Bayfield Rd Trail](WI Bayfield Rd.html)
-  - Washburn - [Houghton Falls](WI Houghton_Falls.html)
+  - Cornucopia - [Meyer's Beach Lakeshore Trail](WI Meyers_Beach_I.html)
   - Northern Great Lakes Visitor Center - [Loop I](WI NGLVC1.html)
   - Port Wing - [Twin Falls Park](WI Twin_Falls.html)
+  - Washburn - [Houghton Falls](WI Houghton_Falls.html)
 
 - **Door County**
   - [Bayshore CP](WI Bayshore.html)
@@ -40,4 +41,5 @@ project <- "Wisconsin"
   - Superior - [Makwa Ziibiins Miikana Trail](WI Makwa_Ziibiins.html)
 
 - **Other**
+  - Hayward - [Hatchery Creek Trail - Loop I](WI Hatchery_Creek_I.html)
   - Stevens Pt - [Paper Mill Trail and Whiting Park](WI Paper_Mill.html)
