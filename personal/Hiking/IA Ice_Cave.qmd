@@ -1,9 +1,9 @@
 ---
-title: "Dunning Springs Trail & Connector"
+title: "Ice Cave City Loop"
 subitle: "Decorah"
 ---
 
-[Cash](../shelties.html#cash) and I explored [Dunning Springs Park](https://visitdecorah.com/trail/dunnings-spring-park/) in [Decorah](https://visitdecorah.com/) on 27-Jan-23. The trail to the springs is easy (and paved). The springs emanate from a limestone bluff and immediately cascade over a beautiful falls. You can walk right up to the falls or see them from above, along with the opening in the bluff, via wooded steps and an observation platform. There is also a steeply-ascending trail, the Dunning Springs Connector, that connects this area to the broader [set of trails](https://parks.decorahia.org/wp-content/uploads/2022/11/Parks-Trail-Guide.pdf) behind the [Decorah Ice Cave](https://worldofcaves.com/ultimate-guide-to-decorah-ice-cave-iowa-tours-pricing-history-map/).
+A number of times while passing through [Decorah](https://visitdecorah.com/) we will take some sort of hike on the numerous nice trails in the city. Several times we start near Phelps Park on the Oneonta Trail and create a loop on the Ice Cave Rd by [Ice Cave State Preserve](https://www.iowadnr.gov/places-go/state-preserves/decorah-ice-cave-state-preserve) and [Dunning Springs Park](https://visitdecorah.com/trail/dunnings-spring-park/) circling back through town to our car. This is a pretty hike that is mostly along the river, though some woods, with fun sights at the cave and springs.
 
 ```{r setup, include=FALSE}
 #| label: setup
@@ -16,12 +16,14 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
 
 # Read in CSV file will all track info needed for the map
 project <- "Iowa"
-walkID <- "IA_DNGSPRNGS"
+walkID <- "IA_ICECAVELOOP"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
 # Make the walk
-walkIDs <- c("DNGSP01","DNGSP02","DNGSP02","DNGSP03","DNGSP03","DNGSC01","DNGSC01","DNGSP01")
+walkIDs <- c("IADCRHONE01","IADCRHONE02","IADCRHFTH99","IADCRHICV01","IADCRHICV09",
+             "IADCRHICV09","IADCRHICV02","DNGSP01","DNGSP02","DNGSP02",
+             "DNGSP01","IADCRHICV03","IADCRHCLG99","IADCRHONE09","IADCRHONE01")
 awalk <- gpxhelpers::walkMaker(trkdat,trkinfo,walkIDs,findOrder=FALSE)
 
 # Get photos

@@ -55,5 +55,6 @@ trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
   - Pinicon Ridge County Park - [River & City Loop](IA Pinicon1.html)
 
 - **Winneshiek County**
-  - [Dunning Springs Park](IA Dunning Springs.html), Decorah
-  - [Pulpit Rock](IA Pulpit Rock.html), Decorah
+  - Decorah - [Dunning Springs Park](IA Dunning Springs.html)
+  - Decorah - [Ice Cave Loop](IA Ice_Cave.html)
+  - Decorah - [Pulpit Rock](IA Pulpit Rock.html)
