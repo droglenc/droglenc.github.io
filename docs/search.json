@@ -2804,7 +2804,7 @@
     "href": "personal/Hiking/Iowa.html",
     "title": "Iowa Hiking",
     "section": "",
-    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nEffigy Mounds National Monument - Mounds Trail\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nOsborne County Park - South\nOsborne County Park - North Loop I\nPony Hollow Trail I, Elkader\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nPinicon Ridge County Park - River & City Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Ice Cave Loop\nDecorah - Pulpit Rock",
+    "text": "Iowa Hiking\n\n\n\n\n\nI was born and raised in Iowa. When I return home now to see family, we try to explore some of the beautiful areas in Northeast (and some in East) Iowa. Below are some of our hikes.\n\nAllamakee County\n\nEffigy Mounds National Monument - Mounds Trail\nFish Farm Mounds State Preserve - Loop I\nPikes Peak State Park - Loop 1\n\nClayton County\n\nElkader - Pony Hollow Trail I\nOsborne County Park - South\nOsborne County Park - North Loop I\n\nDelaware County\n\nBackbone State Park - Backbone Trail\nBackbone State Park - North Gate Rd\nBackbone State Park - East Gate Rd\n\nFayette County\n\nBrush Creek Canyon State Preserve - Loop I\nEcho Valley State Park - Environmental Nature Trail\nEcho Valley State Park - Glover’s Creek Trail\nGilbertson Conservation Education Area - Loop I\nVolga River State Park - Depot Trail\nVolga River State Park - Orchard Trail\nVolga River State Park - Ridge Trail\nDutton’s Cave County Park - Lower Loop 1\n\nLinn County\n\nCedar Valley Nature Trail - County Home Rd to W Main St\nPinicon Ridge County Park - River & City Loop\n\nWinneshiek County\n\nDecorah - Dunning Springs Park\nDecorah - Ice Cave Loop\nDecorah - Pulpit Rock",
     "crumbs": [
       "Professional",
       "Hiking/Walking",
@@ -5766,5 +5766,40 @@
     "title": "Ice Cave City Loop",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nOwner\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nIADCRHONE01\nOneonta Tr\nOneonta Dr parking to Oneonta Tr (Alt)\nTrail\nPublic\n0.62\n0.62\n-18\n\n\n2\nIADCRHONE02\nOneonta Tr\nOneonta Tr (Alt) to Fifth St\nTrail\nPublic\n1.30\n1.92\n-12\n\n\n3\nIADCRHFTH99\nFifth St\nOneonta Tr to Ice Cave Rd\nPaved\nPublic\n0.10\n2.02\n-8\n\n\n4\nIADCRHICV01\nIce Cave Rd\nFifth St to Ice Cave Spur\nPaved\nPublic\n0.29\n2.31\n58\n\n\n5\nIADCRHICV09\nIce Cave Spur\nIce Cave Rd to Ice Cave\nTrail\nPublic\n0.01\n2.32\n19\n\n\n6\nIADCRHICV09\nIce Cave Spur\nIce Cave to Ice Cave Rd\nTrail\nPublic\n0.01\n2.34\n-19\n\n\n7\nIADCRHICV02\nIce Cave Rd\nIce Cave Spur to Dunning Springs Rd\nPaved\nPublic\n0.61\n2.95\n-79\n\n\n8\nDNGSP01\nDunning Springs Tr\nIce Cave Rd to Dunning Springs Connector\nPaved\nPublic\n0.14\n3.09\n32\n\n\n9\nDNGSP02\nDunning Springs Tr\nDunning Springs Connector to Dunning Springs\nTrail\nPublic\n0.03\n3.12\n22\n\n\n10\nDNGSP02\nDunning Springs Tr\nDunning Springs to Dunning Springs Connector\nTrail\nPublic\n0.03\n3.15\n-22\n\n\n11\nDNGSP01\nDunning Springs Tr\nDunning Springs Connector to Ice Cave Rd\nPaved\nPublic\n0.14\n3.28\n-32\n\n\n12\nIADCRHICV03\nIce Cave Rd\nDunning Springs Rd to College St\nPaved\nPublic\n0.27\n3.55\n-3\n\n\n13\nIADCRHCLG99\nCollege St\nIce Cave Rd to Oneonta Tr (Alt)\nPaved\nPublic\n0.24\n3.79\n2\n\n\n14\nIADCRHONE09\nOneonta Tr (Alt)\nCollege St to Oneonta Tr\nTrail\nPublic\n0.20\n3.99\n0\n\n\n15\nIADCRHONE01\nOneonta Tr\nOneonta Tr (Alt) to Oneonta Dr parking\nTrail\nPublic\n0.62\n4.61\n18"
+  },
+  {
+    "objectID": "personal/Hiking/IA CVNT1.html",
+    "href": "personal/Hiking/IA CVNT1.html",
+    "title": "Cedar Valley Nature Trail",
+    "section": "",
+    "text": "While home for a family reunion, Kim, Cash, my sister Pam, and I walked the Cedar Valley Nature Trail from County Home Rd to W Main St near Cedar Rapids. The trail was flat, paved, and straight primarily going through ag land and private houses with a wooded buffer along the trail. It was a nice day to “get out.”"
+  },
+  {
+    "objectID": "personal/Hiking/IA CVNT1.html#walk-specific-map",
+    "href": "personal/Hiking/IA CVNT1.html#walk-specific-map",
+    "title": "Cedar Valley Nature Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map\n\n\n\n\n\n\n\n\n\n\n\n\nTake Note\n\n\n\n\nClick on a segment to get specific information.\nNumeric labels correspond to the same labels in the elevation profile and summary information below."
+  },
+  {
+    "objectID": "personal/Hiking/IA CVNT1.html#elevation-profile",
+    "href": "personal/Hiking/IA CVNT1.html#elevation-profile",
+    "title": "Cedar Valley Nature Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/IA CVNT1.html#gpx-download",
+    "href": "personal/Hiking/IA CVNT1.html#gpx-download",
+    "title": "Cedar Valley Nature Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/IA CVNT1.html#summary-information",
+    "href": "personal/Hiking/IA CVNT1.html#summary-information",
+    "title": "Cedar Valley Nature Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nType\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nIACVNT51\nCedar Valley Nature Tr\nW Main St to County Home Rd\nTrail\n1.45\n1.45\n17\n\n\n2\nIACVNT51\nCedar Valley Nature Tr\nCounty Home Rd to W Main St\nTrail\n1.45\n2.90\n-17"
   }
 ]
