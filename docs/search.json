@@ -5939,5 +5939,47 @@
     "title": "Tanawha Trail - Beacon Heights to Rough Ridge",
     "section": "Summary Information",
     "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nNCTNWHA90\nTanawha Tr Spur\nBeacon Ridge parking area to Tanawha Tr\n0.02\n0.02\n3\n\n\n2\nNCTNWHA01\nTanawha Tr\nSpur from Beacon Ridge parking area to US 221 Crossing\n0.32\n0.34\n-41\n\n\n3\nNCTNWHA02\nTanawha Tr\nUS 221 Crossing to spur from Standing Rock parking area\n0.57\n0.91\n91\n\n\n4\nNCTNWHA03\nTanawha Tr\nspur from Standing Rock parking area to Linn Cove Visitor Center\n0.62\n1.53\n18\n\n\n5\nNCTNWHA04\nTanawha Tr\nLinn Cove Visitor Center to Blue Ridge Parkway tunnel\n0.23\n1.77\n57\n\n\n6\nNCTNWHA05\nTanawha Tr\nBlue Ridge Parkway tunnel to spur to Rough Ridge Overlook\n1.73\n3.49\n325\n\n\n7\nNCTNWHA91\nTanawha Tr Spur\nTanawha Tr to Rough Ridge Overlook\n0.02\n3.51\n-2\n\n\n8\nNCTNWHA91\nTanawha Tr Spur\nRough Ridge Overlook to Tanawha Tr\n0.02\n3.53\n2\n\n\n9\nNCTNWHA05\nTanawha Tr\nspur to Rough Ridge Overlook to Blue Ridge Parkway tunnel\n1.73\n5.26\n-325\n\n\n10\nNCTNWHA04\nTanawha Tr\nBlue Ridge Parkway tunnel to Linn Cove Visitor Center\n0.23\n5.49\n-57\n\n\n11\nNCTNWHA03\nTanawha Tr\nLinn Cove Visitor Center to spur from Standing Rock parking area\n0.62\n6.12\n-18\n\n\n12\nNCTNWHA02\nTanawha Tr\nspur from Standing Rock parking area to US 221 Crossing\n0.57\n6.68\n-91\n\n\n13\nNCTNWHA01\nTanawha Tr\nUS 221 Crossing to Spur from Beacon Ridge parking area\n0.32\n7.00\n41\n\n\n14\nNCTNWHA90\nTanawha Tr Spur\nTanawha Tr to Beacon Ridge parking area\n0.02\n7.03\n-3"
+  },
+  {
+    "objectID": "personal/Hiking/ON Umstead.html",
+    "href": "personal/Hiking/ON Umstead.html",
+    "title": "Company Mill Trail",
+    "section": "",
+    "text": "On October 4, 2025, Kim and I hiked the Company Mill Trail and a portion of the Sycamore Trail in William B. Umstead State Park near Raleigh, NC. This was a nice hike through low areas along Crabtree and Sycamore creeks and upland areas in-between the creeks. We detoured up to the dam that forms Sycamore Lake and then rock-hopped across Sycamore Creek to get back on the Company Mill Trail. It was a fun day!"
+  },
+  {
+    "objectID": "personal/Hiking/ON Umstead.html#walk-specific-map",
+    "href": "personal/Hiking/ON Umstead.html#walk-specific-map",
+    "title": "Company Mill Trail",
+    "section": "Walk-Specific Map",
+    "text": "Walk-Specific Map"
+  },
+  {
+    "objectID": "personal/Hiking/ON Umstead.html#elevation-profile",
+    "href": "personal/Hiking/ON Umstead.html#elevation-profile",
+    "title": "Company Mill Trail",
+    "section": "Elevation Profile",
+    "text": "Elevation Profile"
+  },
+  {
+    "objectID": "personal/Hiking/ON Umstead.html#images",
+    "href": "personal/Hiking/ON Umstead.html#images",
+    "title": "Company Mill Trail",
+    "section": "Images",
+    "text": "Images\n\n\n\n\n\n\n\nNCUMSTD01: Sign at start of trail\n\n\n\n\n\n\n\nNCUMSTD03: Kim on Trail\n\n\n\n\n\n\n\nNCUMSTD03: Us on Crabtree Creek Bridge\n\n\n\n\n\n\n\nNCUMSTD04: Great Blue Heron\n\n\n\n\n\n\n\nNCUMSTD07: Kim on Trail\n\n\n\n\n\n Previous\n\n\n Next"
+  },
+  {
+    "objectID": "personal/Hiking/ON Umstead.html#gpx-download",
+    "href": "personal/Hiking/ON Umstead.html#gpx-download",
+    "title": "Company Mill Trail",
+    "section": "GPX Download",
+    "text": "GPX Download\nA sanitized GPX file of our hike is here."
+  },
+  {
+    "objectID": "personal/Hiking/ON Umstead.html#summary-information",
+    "href": "personal/Hiking/ON Umstead.html#summary-information",
+    "title": "Company Mill Trail",
+    "section": "Summary Information",
+    "text": "Summary Information\n\n\n\n\n\nNUM\ntrackID\nPrimary\nDescription\nDistance\nCumDist\nDeltaElev\n\n\n\n\n1\nNCUMSTD01\nUmstead Park\nParking area to Company Mill Tr [Alt]\n0.11\n0.11\n-18\n\n\n2\nNCUMSTD02\nUmstead Park\nCompany Mill Tr [Alt] to Company Mill Tr [Alt]\n0.05\n0.16\n-21\n\n\n3\nNCUMSTD03\nUmstead Park\nCompany Mill Tr [Alt] to Crabtree Cr Bridge\n0.84\n0.99\n-126\n\n\n4\nNCUMSTD04\nUmstead Park\nCrabtree Cr Bridge to Sycamore Tr\n1.56\n2.55\n31\n\n\n5\nNCUMSTD05\nUmstead Park\nCompany Mill Tr to Sycamore Cr Crossing\n0.33\n2.89\n-11\n\n\n6\nNCUMSTD09\nUmstead Park\nSycamore Cr Crossing to Sycamore Lake dam\n0.58\n3.47\n1\n\n\n7\nNCUMSTD09\nUmstead Park\nSycamore Lake dam to Sycamore Cr Crossing\n0.58\n4.05\n-1\n\n\n8\nNCUMSTD06\nUmstead Park\nSycamore Tr to Company Mill Tr\n0.12\n4.17\n79\n\n\n9\nNCUMSTD07\nUmstead Park\nSycamore Cr Crossing to Crabtree Cr Bridge\n2.48\n6.66\n-118\n\n\n10\nNCUMSTD03\nUmstead Park\nCrabtree Cr Bridge to Company Mill Tr [Alt]\n0.84\n7.49\n126\n\n\n11\nNCUMSTD02A\nUmstead Park\nCompany Mill Tr to Company Mill Tr\n0.05\n7.54\n31\n\n\n12\nNCUMSTD01\nUmstead Park\nCompany Mill Tr [Alt] to Parking area\n0.11\n7.65\n18"
   }
 ]
