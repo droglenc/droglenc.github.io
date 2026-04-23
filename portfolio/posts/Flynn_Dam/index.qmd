@@ -81,6 +81,7 @@ dat <- readxl::read_excel("../_data/Flynn_Dam_Heights.xlsx",skip=3) |>
   mutate(DateTime2=case_when(
            Season=="2024-25" ~ DateTime %m-% years(1),
            Season=="2025-26" ~ DateTime %m-% years(2),
+           Season=="2026-27" ~ DateTime %m-% years(3),
            TRUE ~ DateTime),
          Date=as.Date(DateTime,format="%Y-%m-%d"),
          Date2=as.Date(DateTime2,format="%Y-%m-%d"),
