@@ -3,7 +3,7 @@ title: "Maunawili Falls"
 subtitle: "Oahu, HI"
 ---
 
-On April 7, 2026 ...
+On April 7, 2026 Kim and I started the hike from the wayside along the main highway to Maunawili Falls. Unfortunately, we did not realize there was an alternative starting point as parking was limited to two hours at the wayside ([see this](https://noahlangphotography.com/blog/maunawili-falls-trail-oahu-hawaii)). Thus, we did not make it to the falls. However, the walk through the "jungle" was pretty and was a nice start to our hiking away from Honolulu.
 
 ```{r}
 #| label: setup
@@ -78,7 +78,7 @@ fnm <- paste0(walkID,".gpx")
 gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
                               pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
                               fnm=fnm,
-                              IDs=unique(walkIDs))
+                              IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 

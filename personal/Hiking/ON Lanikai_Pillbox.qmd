@@ -3,7 +3,7 @@ title: "Lanikai Pillbox via Ka'iwa Ridge"
 subtitle: "Kailua, Oahu, HI"
 ---
 
-On April 7, 2026 ...
+On April 7, 2026 Kim and I hiked the [Ka'iwa Ridge trail to the Lanikai Pillbox](https://www.thehikinghi.com/lanikai-pillboxes). This was a moderately rugged trail that climbs fairly steeply in places, but is not difficult as attested by the number of other hikers on the trail. The views from the top were beautiful and well worth the effort. The trail appeared to continue after the second pillbox, but it was not clear that the trail was "open" so we descended and went for a swim in the ocean! 
 
 ```{r}
 #| label: setup
@@ -78,7 +78,7 @@ fnm <- paste0(walkID,".gpx")
 gpxhelpers::makeWalkGPX(pin=paste0("c:/aaaPersonal/MAPPING/Tracks/",project),
                               pout="c:/aaaWork/Web/droglenc.github.io/personal/Hiking/gpx",
                               fnm=fnm,
-                              IDs=unique(walkIDs))
+                              IDs2Add=unique(walkIDs))
 cat("A sanitized GPX file of our hike [is here](gpx/",fnm,").",sep="")
 ```
 
