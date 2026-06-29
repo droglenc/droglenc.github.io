@@ -3,7 +3,7 @@ title: "Ka'iwi Shoreline (to Pele's Chair)"
 subtitle: "Oahu, HI"
 ---
 
-On XXX Kapaliokamoa
+On April 8, 2026, we hiked to [Kapaliokamoa](https://www.to-hawaii.com/oahu/ancient-sites/peles-chair-kapaliokamoa/) (AKA Pele's Chair) on common use trails from a pullout on the main road. The hike started with a visit to tidal pools before winding through some lowland area (with some swampy areas) before coming out at [Alan Davis Beach](https://www.journeyera.com/alan-davis-beach-oahu-hawaii/). We crossed the small creek (i.e., a stepover) to climb up on Pele's Chair for some amazing views. We looped back to the car via other common use trails. This was a fun and secluded (we only saw two other people, both coming from the Makapu'u Point direction) trail.
 
 ```{r}
 #| label: setup

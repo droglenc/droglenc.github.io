@@ -3,7 +3,7 @@ title: "Makapu'u Point Lighthouse"
 subtitle: "Oahu, HI"
 ---
 
-On XXX
+On April 8, 2026 Kim and I walked the mostly paved trail from the parking area to the overlook at [Makapu'u Point](https://www.gohawaii.com/islands/oahu/regions/windward-coast/makapuu-point-lighthouse). The trail was busy but the views were amazing, especially of the lighthouse at the overlook and the breaching whales and several of the stops along the way. After the overlook we went off the paved trail to view the pillbox and bunker at Makapu'u Head. Fun hike!
 
 ```{r}
 #| label: setup

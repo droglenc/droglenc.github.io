@@ -3,7 +3,7 @@ title: "Koko Crater Botanical Gardens"
 subtitle: "Honolulu, Oahu, HI"
 ---
 
-On XXX Kapaliokamoa
+On April 8, 2026, Kim and I visited the [Koko Crater Botanical Gardens](https://storymaps.arcgis.com/stories/e8a53fc2a55e481aaacfc1f42d0f145c). We had a nice hike through the garden which is located inside of an old volcanic crater. Unfortunately, some of the grounds were closed or under construction from recent flooding. Regardless, it was a nice visit, especially to see the plumeria. 
 
 ```{r}
 #| label: setup
