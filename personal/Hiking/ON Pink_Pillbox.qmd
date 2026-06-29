@@ -3,7 +3,7 @@ title: "Pu'u O Hulu (Pink Pillbox)"
 subtitle: "Waianae, Oahu, HI"
 ---
 
-On XXX
+On April 11, 2026, Kim and I
 
 ```{r}
 #| label: setup

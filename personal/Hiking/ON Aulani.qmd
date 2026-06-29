@@ -3,7 +3,7 @@ title: "Aulani Beach Trail"
 subtitle: "Ko Olina, Oahu, HI"
 ---
 
-On XXX
+On April 10, 2026, Kim and I
 
 ```{r}
 #| label: setup
