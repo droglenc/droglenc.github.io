@@ -3,7 +3,7 @@ title: "Ka'Ena Point Natural Area"
 subtitle: "Oahu, HI"
 ---
 
-On XXX
+On April 9, 2026, Kim and I hiked to the [Ka'Ena Point Natural area](https://dlnr.hawaii.gov/ecosystems/nars/oahu/kaena/) from the north shore parking area. This was a [beautiful and remote hike](https://noahlangphotography.com/blog/kaena-point-trail-north-shore-oahu-hawaii) (we saw only two other people). The first portion of the hike is mostly the "Coastal Hiking Trail" that weaves just inland from the beach with a high mountain ridge away from the water. Eventually we reach a predator-proof fence with a gate that allowed us to enter the reserve area. Here we saw many birds, including [Laysan Albatross](https://www.allaboutbirds.org/guide/Laysan_Albatross/overview), up close before reaching the strongly wind-swept coral beach at the very tip of the point. This was a great and fun wilderness-feeling hike on a coolish windy day (with rainstorms staying at bay).
 
 ```{r}
 #| label: setup

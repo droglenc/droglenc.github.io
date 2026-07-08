@@ -3,7 +3,7 @@ title: "Aulani Beach Trail"
 subtitle: "Ko Olina, Oahu, HI"
 ---
 
-On April 10, 2026, Kim and I
+On April 11 & 12, 2026, Kim had a conference at the [Aulani Disney Resort](https://www.disneyaulani.com/). In addition to lots of time in the hot tubs, good food, and swimming in the ocean, we walked the ocean-side trails from the resort. Nothing fancy, but still fun, especially getting to see a [Monk Seal](https://www.fisheries.noaa.gov/species/hawaiian-monk-seal).
 
 ```{r}
 #| label: setup

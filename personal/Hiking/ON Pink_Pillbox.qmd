@@ -3,7 +3,7 @@ title: "Pu'u O Hulu (Pink Pillbox)"
 subtitle: "Waianae, Oahu, HI"
 ---
 
-On April 11, 2026, Kim and I
+On April 11, 2026, Kim and I were going to hike to [Ka'Ena Point Natural area](https://dlnr.hawaii.gov/ecosystems/nars/oahu/kaena/) from the south but the road to trailhead was closed due to a washout from recent storms. Instead we [hiked Pu'U O Hulu](https://www.journeyera.com/pink-pillbox-hike/) (AKA, the Pink Pillbox) trail near Waianae. This turned out to be a great trail that steeply ascended to begin before traversing across the side of the mountain to a ridge with several pillboxes, including the Pink Pillbox. The trail after the pillboxes was along the very narrow ridgeline (only a few feet wide) that provided for an exhilirating hike. The views from the top were amazing. Really glad that we did this hike.
 
 ```{r}
 #| label: setup

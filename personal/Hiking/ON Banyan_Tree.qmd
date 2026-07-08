@@ -3,7 +3,7 @@ title: "Banyan Tree Loop"
 subtitle: "Turtle Bay, Oahu, HI"
 ---
 
-On XXX Kapaliokamoa
+On April 9, 2026 Kim and I stopped at [Turtle Bay Resort](http://www.turtlebayresort.com/) on the North Shore of Oahu (near Kahuku) to get in a quick hike. We chose the [Banyan Tree Loop](https://www.alltrails.com/trail/hawaii/oahu/banyan-tree-route) which traversed through some of the resort area to a pillbox, then to [the famous Banyan Tree](https://petergreenberg.com/2014/07/26/movies-tv-shows-filmed-turtle-bay/), before looping back to the resort. It was an easy flat hike in the rain, but fun nevertheless.
 
 ```{r}
 #| label: setup
@@ -21,7 +21,7 @@ clrs <- c("Highway"="#CC0000","Paved"="#336666",
           "Trail"="#999933", "ATV"="#663300")
 
 # Read in CSV file will all track info needed for the map
-walkID <- "ON_MakapuPoint"
+walkID <- "ON_BanyanTree"
 trkdat <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkdat.csv"))
 trkinfo <- read.csv(paste0("c:/aaaPersonal/MAPPING/Data/",project,"_trkinfo.csv"))
 
@@ -53,7 +53,7 @@ gpxhelpers::walkMap(awalk,clrs,verbose=FALSE)
 #| results: hide
 fnm <- paste0("c:/aaaWork/Web/droglenc.github.io/personal/Hiking/elevs/",walkID,".png") 
 png(fnm,width=7,height=5,units="in",res=216)
-gpxhelpers::walkElevation(awalk)
+gpxhelpers::walkElevation(awalk,elev_bufr=0.1)
 dev.off()
 ```
 ```{r}
