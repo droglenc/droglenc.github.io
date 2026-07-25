@@ -52,7 +52,7 @@ makeXScaleDates <- function(dys,yrs) {
 }
 
 ## Set some constants
-depvals <- 20:29  # inches
+depvals <- 20:28  # inches
 rainlvls <- c('0"','Tr-0.10"','0.10-0.25"','0.25-0.50"','0.50-1.00"',
               '1.00-3.00"','3.00-5.00"','>5.00"')
 
@@ -141,8 +141,8 @@ ggplot(data=dat,mapping=aes(x=DateTime2,y=Depth,color=Season)) +
   scale_x_datetime(limits=as.POSIXct(c("2023-3-10","2024-5-5"),format="%Y-%m-%d"),
                      date_breaks="1 month",
                      date_labels="%b",expand=expansion(mult=0.025)) +
-  scale_y_continuous(name="Water Level (in.)",expand=expansion(add=c(0.01,0)),
-                     limits=range(depvals),breaks=depvals) +
+  scale_y_continuous(name="Water Level (in.)",expand=expansion(add=c(0.25,0.25)),
+                     breaks=depvals) +
   scale_color_brewer(palette="Dark2",guide=guide_legend(override.aes=list(linewidth=1.5))) +
 #  scale_discrete_manual(aesthetic="linewidth",values=c("YES"=2,"no"=1),guide="none") +
   labs(caption=tmp_source) +
@@ -157,7 +157,7 @@ ggplot(data=dat,mapping=aes(x=DateTime2,y=Depth,color=Season)) +
 ggplot(data=dat,mapping=aes(y=Depth,x=Season,fill=Season)) +
   geom_violin(aes(fill=Season),alpha=0.9,scale="width") +
   geom_boxplot(fill="white",size=0.7,width=0.2,outlier.shape=NA,coef=0) +
-  scale_y_continuous(name="Water Level (in.)",limits=range(depvals),breaks=depvals) +
+  scale_y_continuous(name="Water Level (in.)",breaks=depvals) +
   scale_fill_brewer(palette="Dark2") +
   labs(caption=tmp_source) +
   theme_dam() +
@@ -343,8 +343,8 @@ The graph below shows the daily water level at the gauge for each ice-out to ice
 ggplot() +
   geom_line(data=dat,mapping=aes(x=DateTime2,y=Depth),
             color="slategray",linewidth=1.25) +
-  scale_y_continuous(name="Water Level (in.)",expand=expansion(add=c(0.01,0)),
-                     limits=range(depvals),breaks=depvals) +
+  scale_y_continuous(name="Water Level (in.)",expand=expansion(add=c(0.25,0.25)),
+                     breaks=depvals) +
   scale_fill_brewer(name="Precipitation:",palette="YlOrRd") +
   geom_point(data=filter(dat,!is.na(Rain)),
              mapping=aes(x=DateTime2,y=Depth,fill=Rain2),
