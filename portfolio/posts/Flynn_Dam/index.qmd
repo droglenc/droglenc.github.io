@@ -52,7 +52,7 @@ makeXScaleDates <- function(dys,yrs) {
 }
 
 ## Set some constants
-depvals <- 20:28  # inches
+depvals <- 19:28  # inches
 rainlvls <- c('0"','Tr-0.10"','0.10-0.25"','0.25-0.50"','0.50-1.00"',
               '1.00-3.00"','3.00-5.00"','>5.00"')
 
@@ -125,9 +125,9 @@ The winter of 2022-23 was exceptionally snowy in northern Wisconsin ([see this](
 ## Water Level
 It is difficult to make definitive conclusions from only `r FSA::kCounts(length(unique(dat$Season))-1)` complete ice-out to ice-out seasons. However, a few preliminary thoughts are:
 
-- Median water levels over the season appear to be around 22.5-23.0" (@fig-depth_distribution; @tbl-depth_summary).
+- Median water levels over the season appear to be around 22.0-23.0" (@fig-depth_distribution; @tbl-depth_summary).
 - There is considerable year-to-year variability (@fig-depth_series; @fig-depth_distribution), even during the middle of "summer" or "winter" when I expected the levels to be fairly consistent across years.
-- Water levels are dependent on rainfall (not surprisingly!). The levels at the start of the 2023-24 season were elevated due to near record snowfalls the previous winter, whereas the lowest recordings (thusfar) were at the end of the summer for the 2024-25 season when we experience near drought-like conditions (@fig-depth_series).
+- Water levels are dependent on rainfall (not surprisingly!). The levels at the start of the 2023-24 season were elevated due to near record snowfalls the previous winter, whereas the lowest recordings (thusfar) were in the middle of summer for the 2026-27 season when we experienced an extended periods of little to no rain and above-average temperatures (@fig-depth_series).
 - The water level at the beginning of 2023-24 (i.e., end of 2022-23 winter) may have been atypically high as it was at least 5" higher than the water level at ice-out in 2024-25, 4" higher than the water level at ice-out in 2025-26, and 3" higher than any other water level recorded in 2023-24 after the initial peak had subsided (@fig-depth_series; @tbl-depth_summary). Furthermore, the water level dropped rather quickly in spring of 2023 suggesting that there was excess water in the system that simply needed time to be flushed out (@fig-depth_series).
 
 ```{r}
@@ -240,13 +240,12 @@ sum |>
 maxDD <- max(dat2$dDepth)
 lblMaxDD <- formatC(maxDD,format="f",digits=1)
 rainMaxDD <- dat2$Rain[dat2$dDepth==maxDD]
-dMaxDD <- format(dat$DateTime[dat2$dDepth==maxDD],format="%B %e, %Y")
+dMaxDD <- format(dat2$Date[dat2$dDepth==maxDD],format="%B %e, %Y")
 ```
 
 As seen in @fig-depth_series and @tbl-depth_summary, there can be considerable day-to-day variability in water level at the Flynn dam. Of course, the large increases are due to precipitation and the extended periods of decline in water level are due to lack of precipitation. Here are some preliminary thoughts about the daily changes in water level.
 
 - The greatest daily change in water level was an increase of `r lblMaxDD` on `r dMaxDD` following `r rainMaxDD`" of rain. Interestingly lower daily water level increases were observed following greater amounts of rain on other dates (@fig-delta_depth_series).
-- It appears that, without any additional precipitation, lake water levels generally drop about 1/8" to 1/4" per day (@fig-delta_depth_distribution; @fig-delta_depth_distribution_wrain) until a baseline level between 21" and  22" is approached (@fig-depth_series; @fig-delta_depth_series). Near that baseline the drop in lake water level tends to be less.
 - Lake water levels can increase substantially with precipitation (@fig-delta_depth_distribution_wrain) but the actual rise does not always match the amount of precipitation, sometimes being more and sometimes being less than the precipitation amount (@fig-delta_depth_series; @fig-delta_depth_distribution).
 
 ```{r}
@@ -255,22 +254,22 @@ As seen in @fig-depth_series and @tbl-depth_summary, there can be considerable d
 #| fig-height: 8
 #| fig-cap: 'Change in water level from the previous day at Flynn Lake dam by "ice-out to ice-out season." Points represent precipitation events since the previous observation color coded by the amount of precipitation.'
 
-dDepvals <- seq(-0.5,2.5,0.5)
+dDepvals <- seq(-1,2.5,0.5)
 dDeplbls <- paste0(formatC(dDepvals,format="f",digits=2),'"')
 
 ggplot() +
   geom_hline(yintercept=0,linetype="dashed") +
   geom_segment(data=dat2,mapping=aes(x=Date2,y=0,yend=dDepth,xend=Date2),
                linewidth=1,color="slategray") +
-  geom_point(data=filter(dat2,!is.na(Rain)),
+  geom_point(data=filter(dat2,!is.na(dat2$Rain)),
              mapping=aes(x=Date2,y=dDepth,fill=Rain2),
              shape=21,color="slategray",size=1.75) +
   scale_y_continuous(name="Change in Water Level from Previous Day (in)",
                      expand=expansion(mult=0.02),
-                     limits=c(-0.75,2.5),breaks=dDepvals,labels=dDeplbls) +
+                     limits=c(-1,2.6),breaks=dDepvals,labels=dDeplbls) +
   scale_fill_brewer(name="Precipitation:",palette="YlOrRd") +
   facet_wrap(vars(Season),ncol=1,strip.position="right") +
-  scale_x_date(limits=as.Date(c("2023-3-14","2024-5-5"),format="%Y-%m-%d"),
+  scale_x_date(limits=as.Date(c("2023-3-14","2024-4-20"),format="%Y-%m-%d"),
                      date_breaks="1 month",
                      date_labels="%b",expand=expansion(mult=0.025)) + 
   labs(caption=tmp_source) +
@@ -287,7 +286,7 @@ ggplot(data=dat2,mapping=aes(y=dDepth,x=Season,fill=Season)) +
   geom_violin(aes(fill=Season),bw=0.05,alpha=0.9) +
   geom_boxplot(fill="white",size=0.7,width=0.2,outlier.shape=NA,coef=0) +
   scale_y_continuous(name="Change in Water Level from Previous Day (in)",
-                     limits=c(-0.75,2.5),breaks=dDepvals,labels=dDeplbls) +
+                     limits=c(-1,2.6),breaks=dDepvals,labels=dDeplbls) +
   scale_fill_brewer(palette="Dark2") +
   labs(caption=tmp_source) +
   theme_dam() +
@@ -304,7 +303,7 @@ ggplot(data=dat2,mapping=aes(y=dDepth,x=Rain2,fill=Rain2)) +
   geom_violin(aes(fill=Rain2),bw=0.1) +
   ggdist::geom_dots(size=2,color="black",alpha=0.5,layout="swarm",side="both") +
   scale_y_continuous(name="Change in Water Level from Previous Day (in)",
-                     limits=c(-0.75,2.5),breaks=dDepvals,labels=dDeplbls) +
+                     limits=c(-1,2.6),breaks=dDepvals,labels=dDeplbls) +
   scale_fill_brewer(palette="Set3") +
   labs(caption=tmp_source) +
   theme_dam() +
