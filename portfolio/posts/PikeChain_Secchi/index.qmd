@@ -22,10 +22,10 @@ format:
 #| label: setup
 library(tidyverse)
 
-lakes <- c("Buskey Bay","Lake Millicent","Hart Lake","Twin Bear Lake",
-           "Muskellunge Lake","Eagle Lake","Flynn Lake")
-lakeid <- c("10020502","043086","043079","043127",
-            "043087","043077","043078")
+lakeid <- c("Buskey Bay"="10020502","Lake Millicent"="043086","Hart Lake"="043079",
+            "Twin Bear Lake"="043127","Muskellunge Lake"="043087",
+            "Eagle Lake"="043077","Flynn Lake"="043078")
+lakes <- names(lakeid)
 lks <- c("Buskey Bay"="#1b9e77","Lake Millicent"="#d95f02","Hart Lake"="#7570b3",
          "Twin Bear Lake"="#e6ab02","Muskellunge Lake"="#a6761d",
          "Eagle Lake"="#e7298a","Flynn Lake"="#66a61e")
@@ -62,14 +62,18 @@ plotSecchi <- function(d,maxdepth=NA,strip.fill="gray30") {
 
 ```{r}
 #| label: data-prep
-wq <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="Secchi") |>
-  select(lake=`Lake`,date=`Date`,secchi=`Secchi depth (ft)`,
+files <- paste0("../_data/",lakeid,".csv")
+names(files) <- names(lakeid)
+
+wq <- read_csv(files,col_types="cncnnnnnccc_",na=c("","NA","ND"),id="fn") |>
+  select(lake=fn,date=`Date`,secchi=`Secchi depth (ft)`,
          hit_bottom=`Secchi hit bottom`,chl=`Chlorophyll-a (ug/L)`,
          P=`Total phosphorus (mg/L)`,TSI_secchi=`TSI_Secchi`,
          TSI_chl=`TSI_Chla`,TSI_P=`TSI_TotalP`,
          color=`Water color`,perception=`User perception`) |>
-  mutate(lake=factor(lake,levels=lakes),
-         date=as.Date(date,format="%m/%d/%Y"),
+  mutate(lake=recode_values(lake,from=files,to=names(files)),
+         lake=factor(lake,levels=lakes),
+         date=as.Date(date,format="%Y-%m-%d"),
          year=lubridate::year(date),
          month=lubridate::month(date),
          day=lubridate::day(date),
@@ -77,8 +81,13 @@ wq <- readxl::read_excel("../_data/Pike_Chain_WQ_Data.xlsx",sheet="Secchi") |>
          color=ifelse(color=="","MISSING",color),
          color=factor(color,levels=c("BLUE","GREEN","YELLOW",
                                      "BROWN","MISSING")),
-         hit_bottom=ifelse(is.na(hit_bottom),"MISSING",hit_bottom),
-         hit_bottom=factor(hit_bottom,levels=c("YES","NO","MISSING")))
+         hit_bottom=case_when(
+           hit_bottom=="TRUE" ~ "YES",
+           is.na(hit_bottom) & !is.na(secchi) ~ "NO",
+           is.na(hit_bottom) & is.na(secchi) ~ "MISSING"
+         ),
+         hit_bottom=factor(hit_bottom,levels=c("YES","NO","MISSING"))) |>
+  as.data.frame()
 
 secchi <- wq |>
   filter(!is.na(secchi))
@@ -93,7 +102,8 @@ s_by_yr_lake <- secchi |>
   summarize(
     nsecchi=n(),
     mnsecchi=mean(secchi),
-    sdsecchi=sd(secchi))
+    sdsecchi=sd(secchi),
+    .groups = "drop_last")
 
 s_by_lake <- s_by_yr_lake |>
   summarize(
@@ -173,11 +183,11 @@ ggplot(data=s_by_lake,aes(x=lake,y=mnsecchi)) +
 #| fig-cap: Mean Secchi depth for all July to August observations by year and by lake. Flynn Lake not shown as the Secchi disk usually hit bottom before disappearing.
 #| fig-width: 7
 ggplot(s_by_yr_lake,aes(x=year,y=mnsecchi,color=lake)) +
-  geom_line(size=1.5) +
+  geom_line(linewidth=1.5) +
   geom_point(size=2,pch=21,fill="white") +
   scale_y_reverse(name="Mean Secchi Depth (ft)",limits=c(NA,0),
                   expand=expansion(mult=c(0.05,0))) +
-  scale_x_continuous(breaks=2000:2025) +
+  scale_x_continuous(breaks=2000:2026) +
   scale_color_manual(values=lks) +
   theme_bw() +
   theme(panel.grid.major.x=element_blank(),

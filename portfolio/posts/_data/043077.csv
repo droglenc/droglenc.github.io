@@ -1,0 +1,192 @@
+"Date","Secchi depth (ft)","Secchi hit bottom","TSI_Secchi","Total phosphorus (mg/L)","TSI_TotalP","Chlorophyll-a (ug/L)","TSI_Chla","Water color","Water clarity","User perception","year"
+2026-08-14,"16.50",,"37",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2026
+2026-08-05,"16.00",,"37",,,,,"BROWN","CLEAR","2-Very minor aesthetic problems",2026
+2026-07-24,"18.00",,"35","0.017","50","0.79","33","YELLOW","CLEAR","2-Very minor aesthetic problems",2026
+2026-07-17,"14.00",,"39",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2026
+2026-06-28,"15.00",,"38",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2026
+2026-06-21,"14.00",,"39",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2026
+2026-06-14,,,,"0.020","51","3.07","43",,,,2026
+2025-09-07,"14.00",,"39","0.015","49","3.17","44","GREEN","CLEAR","2-Very minor aesthetic problems",2025
+2025-07-29,,,,"0.013","48","1.51","38",,,,2025
+2025-07-28,"16.50",,"37",,,,,"YELLOW","CLEAR","1-Beautiful, could not be nicer",2025
+2025-06-23,"14.00",,"39","0.016","50","2.80","43","BLUE","CLEAR","1-Beautiful, could not be nicer",2025
+2025-05-19,,,,"0.023","52",,,,,,2025
+2024-09-27,"19.50",,"34",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2024
+2024-09-16,"18.00",,"35",,,,,"YELLOW","CLEAR","1-Beautiful, could not be nicer",2024
+2024-09-09,"18.50",,"35","0.014","49","4.16","46","YELLOW","CLEAR","1-Beautiful, could not be nicer",2024
+2024-08-28,"15.00",,"38",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2024
+2024-07-29,"16.50",,"37","0.014","49","2.80","43","YELLOW","CLEAR","2-Very minor aesthetic problems",2024
+2024-07-12,"16.50",,"37",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2024
+2024-06-11,"17.00",,"36","0.013","48","2.74","42","BLUE","CLEAR","1-Beautiful, could not be nicer",2024
+2023-10-07,"14.50",,"39",,,,,"YELLOW","CLEAR","1-Beautiful, could not be nicer",2023
+2023-09-26,"18.50",,"35",,,,,"YELLOW","CLEAR","1-Beautiful, could not be nicer",2023
+2023-09-21,"17.00",,"36",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2023
+2023-09-05,"15.50",,"38",,,,,"YELLOW","CLEAR","1-Beautiful, could not be nicer",2023
+2023-08-29,"16.50",,"37",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2023
+2023-08-27,,,,"0.014","49","2.17","41",,,,2023
+2023-08-03,"17.50",,"36",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2023
+2023-07-26,"16.00",,"37",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2023
+2023-07-24,,,,"0.013","48","2.37","41",,,,2023
+2023-07-03,"19.50",,"34",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2023
+2023-06-26,,,,"0.013","48","1.44","38",,,,2023
+2023-06-15,"20.00",,"34",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2023
+2023-06-01,"21.00",,"33",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2023
+2023-05-16,"10.00",,"44","0.015","49",,,"GREEN","CLEAR","2-Very minor aesthetic problems",2023
+2022-09-06,"19.00",,"35","0.017","50","3.27","44","YELLOW","CLEAR","2-Very minor aesthetic problems",2022
+2022-08-25,"17.00",,"36",,,,,"YELLOW",,"2-Very minor aesthetic problems",2022
+2022-08-10,"18.00",,"35",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2022
+2022-07-29,"18.00",,"35",,,,,,"CLEAR","2-Very minor aesthetic problems",2022
+2022-07-18,,,,"0.015","49","2.54","42",,,,2022
+2022-07-15,"19.00",,"35",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2022
+2022-07-02,"21.00",,"33",,,,,,"CLEAR","2-Very minor aesthetic problems",2022
+2022-06-22,"19.00",,"35","0.014","49","4.49","46","YELLOW",,"2-Very minor aesthetic problems",2022
+2022-06-12,"20.00",,"34",,,,,,"CLEAR","2-Very minor aesthetic problems",2022
+2021-09-17,"16.00",,"37",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2021
+2021-09-06,"19.00",,"35",,,,,,"CLEAR","2-Very minor aesthetic problems",2021
+2021-08-30,"19.00",,"35",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2021
+2021-08-17,"17.00",,"36","0.014","49","3.33","44","GREEN","CLEAR","2-Very minor aesthetic problems",2021
+2021-07-30,"14.00",,"39",,,,,"GREEN",,"2-Very minor aesthetic problems",2021
+2021-07-19,"16.00",,"37","0.013","48","2.55","42","GREEN","CLEAR","2-Very minor aesthetic problems",2021
+2021-07-09,"17.00",,"36",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2021
+2021-07-08,"14.00",,"39",,,,,"BROWN","CLEAR","2-Very minor aesthetic problems",2021
+2021-07-05,"14.00",,"39",,,,,"GREEN","MURKY","2-Very minor aesthetic problems",2021
+2021-06-25,"18.00",,"35",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2021
+2021-06-15,"20.00",,"34","0.018","51","2.16","41","BLUE","CLEAR","1-Beautiful, could not be nicer",2021
+2021-06-15,,,,"ND","39",,,,,,2021
+2021-05-03,"17.00",,"36","0.017","50",,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2021
+2020-10-16,"13.00",,"40",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-10-04,"18.00",,"35",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-09-22,"19.00",,"35",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-09-05,"15.00",,"38",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-08-26,"15.00",,"38",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-08-17,"14.00",,"39","0.016","50","2.53","42","GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-08-04,"14.00",,"39",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2020
+2020-07-20,"13.00",,"40","0.019","51","2.87","43","GREEN","CLEAR","2-Very minor aesthetic problems",2020
+2020-06-22,"24.00",,"31","0.044","57","1.74","39",,"CLEAR","1-Beautiful, could not be nicer",2020
+2020-05-19,"23.00",,"32",,,,,,"CLEAR","1-Beautiful, could not be nicer",2020
+2019-08-26,"21.00",,"33","0.022","52","2.20","41","YELLOW","CLEAR","2-Very minor aesthetic problems",2019
+2019-08-08,"23.00","TRUE","32",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2019
+2019-08-08,"9.00",,"45",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2019
+2019-07-23,,,,"0.011","47","1.88","40",,,,2019
+2019-07-22,"20.00",,"34",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2019
+2019-07-14,"21.00",,"33",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2019
+2019-06-25,"19.00",,"35","0.016","50","2.34","41","BLUE","CLEAR","2-Very minor aesthetic problems",2019
+2019-06-04,"24.00","TRUE","31","0.019","51",,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2019
+2019-06-04,"9.00",,"45",,,,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2019
+2018-09-10,"20.00",,"34","0.016","50","1.90","40",,"CLEAR","1-Beautiful, could not be nicer",2018
+2018-09-10,"9.00",,"45",,,,,,"CLEAR","2-Very minor aesthetic problems",2018
+2018-07-21,"20.00",,"34",,,,,,"CLEAR","2-Very minor aesthetic problems",2018
+2018-07-16,"19.00",,"35","0.011","47","1.78","39",,"CLEAR","2-Very minor aesthetic problems",2018
+2018-06-30,"13.00","TRUE","40",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2018
+2018-06-30,"9.00",,"45",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2018
+2018-06-26,,,,"0.018","51","2.26","41",,,,2018
+2018-06-05,"21.00","TRUE","33","0.023","52",,,"BROWN","CLEAR","1-Beautiful, could not be nicer",2018
+2018-06-05,"9.00",,"45",,,,,"BROWN","CLEAR","1-Beautiful, could not be nicer",2018
+2018-05-08,"12.00",,"41",,,,,"BROWN","MURKY","2-Very minor aesthetic problems",2018
+2017-09-21,"22.00",,"33",,,,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2017
+2017-09-04,"21.00",,"33",,,,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2017
+2017-08-28,,,,"2.690","89","3.07","43",,,,2017
+2017-07-24,"25.00","TRUE","31","0.017","50","2.88","43","BLUE","CLEAR","2-Very minor aesthetic problems",2017
+2017-07-24,"9.00",,"45",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2017
+2017-07-10,"25.00","TRUE","31",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2017
+2017-07-10,"9.00",,"45",,,,,"BLUE",,"2-Very minor aesthetic problems",2017
+2017-06-27,"19.00",,"35",,,,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2017
+2017-06-20,,,,"0.023","52","3.71","45",,,,2017
+2017-06-19,"16.00",,"37",,,,,"BLUE","CLEAR","1-Beautiful, could not be nicer",2017
+2017-06-12,"21.00",,"33",,,,,"YELLOW","CLEAR","2-Very minor aesthetic problems",2017
+2016-08-23,"16.50",,"37","0.012","47","3.33","44","GREEN","CLEAR","2-Very minor aesthetic problems",2016
+2016-07-27,"18.00",,"35","0.015","49","2.11","40","GREEN","CLEAR","2-Very minor aesthetic problems",2016
+2016-06-27,,,,"0.019","51","3.44","44",,,,2016
+2016-06-06,"23.00",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2016
+2015-09-21,"19.00",,"35",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2015-09-04,"19.50",,"34",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2015-08-26,"19.50",,"34","0.018","51","4.53","46","GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2015-08-12,"18.00",,"35",,,,,"GREEN","MURKY","2-Very minor aesthetic problems",2015
+2015-07-27,"20.50",,"34","0.012","47","1.94","40","GREEN","CLEAR","2-Very minor aesthetic problems",2015
+2015-07-14,"20.50",,"34",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2015-07-07,"18.00",,"35",,,,,"GREEN","MURKY","2-Very minor aesthetic problems",2015
+2015-06-23,"26.00",,"30","0.009","45","1.39","37","GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2015-06-12,"28.00",,"29",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2015-05-30,"27.00",,"30",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2015
+2014-08-31,"18.50",,"35",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-08-20,"21.50",,"33","0.018","51","2.82","43","GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-08-15,"21.50",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-08-04,"21.50",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-07-28,"20.50",,"34","0.012","47","1.92","40","GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-07-22,"21.00",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-07-16,"20.50",,"34",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-07-07,"20.50",,"34",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-06-26,"21.00",,"33","0.012","47","2.99","43","GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-06-22,"22.50",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-06-13,"21.50",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2014-05-28,"20.00",,"34","0.013","48",,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2014
+2013-09-23,"20.50",,"34",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2013
+2013-09-07,"19.50",,"34",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2013
+2013-08-26,"21.50",,"33","0.018","51","1.53","38","GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-08-20,"23.00",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-08-12,"23.00",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-08-01,"22.50",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-07-24,"22.50",,"32","0.009","45","1.81","39","GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-07-16,"28.00",,"29",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-07-06,"27.50",,"29",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-06-24,"30.00",,"28","0.010","46","0.90","34","GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-06-11,"19.00",,"35",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2013-06-01,"17.50",,"36",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2013
+2012-08-27,"17.00",,"36","0.011","47","3.77","45","GREEN","CLEAR","2-Very minor aesthetic problems",2012
+2012-08-20,"16.00",,"37",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2012
+2012-08-04,"15.00",,"38",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2012
+2012-07-24,"17.00",,"36","0.013","48","2.16","41","GREEN","CLEAR","2-Very minor aesthetic problems",2012
+2012-07-17,"16.00",,"37",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2012
+2012-07-03,"22.00",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2012
+2012-06-24,"23.00",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2012
+2012-06-12,"24.00",,"31",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2012
+2012-05-31,"22.00",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2012
+2011-08-30,"22.50",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2011
+2011-08-23,"21.50",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2011
+2011-08-14,"16.50",,"37",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2011
+2011-08-02,"21.50",,"33",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2011
+2011-07-22,"19.50",,"34",,,,,"GREEN","CLEAR","3-Enjoyment somewhat impaired (algae)",2011
+2011-07-12,"21.50",,"33",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2011
+2011-07-04,"23.00",,"32",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2011
+2011-06-27,"20.50",,"34",,,,,"GREEN","CLEAR","3-Enjoyment somewhat impaired (algae)",2011
+2011-06-11,"22.50",,"32",,,,,"GREEN","CLEAR","3-Enjoyment somewhat impaired (algae)",2011
+2010-09-22,"17.00",,"36",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-09-09,"17.50",,"36",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-08-28,"16.50",,"37",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-08-17,"18.50",,"35",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-07-27,"19.50",,"34",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-07-20,"20.00",,"34",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2010
+2010-07-03,"19.00",,"35",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-06-24,"23.00",,"32",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-06-15,"21.50",,"33",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2010-06-03,"25.00",,"31",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2010
+2009-09-20,"22.00",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2009
+2009-09-08,"23.00",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2009
+2009-08-30,"24.50",,"31",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2009
+2009-08-18,"20.50",,"34",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2009
+2009-08-11,"22.00",,"33",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2009
+2009-07-27,"18.50",,"35",,,,,"GREEN","CLEAR","3-Enjoyment somewhat impaired (algae)",2009
+2009-07-21,"17.00",,"36",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2009
+2009-07-10,"23.00",,"32",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2009
+2009-06-30,"23.00",,"32",,,,,"GREEN","CLEAR","1-Beautiful, could not be nicer",2009
+2009-06-17,"24.00",,"31",,,,,"GREEN","CLEAR","3-Enjoyment somewhat impaired (algae)",2009
+2009-06-10,"25.50",,"30",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2009
+2009-05-31,"23.00",,"32",,,,,"GREEN","CLEAR","2-Very minor aesthetic problems",2009
+2008-02-21,"11.70",,"42","0.012","47",,,,,,2008
+2007-11-08,"12.10",,"41","0.011","47","6.33","49",,,,2007
+2007-08-28,"12.20",,"41","0.013","48","4.46","46",,,,2007
+2007-07-24,"13.90",,"39","0.010","46","0.84","33",,,,2007
+2007-06-25,"17.70",,"36","0.006","42","1.10","36",,,,2007
+2007-04-25,"18.20",,"35","0.013","48","1.26","37",,,,2007
+2004-09-23,"18.75",,"35",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-08-29,"16.75",,"37",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-08-15,"16.50",,"37",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-08-03,"18.50",,"35",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-07-28,"19.00",,"35",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-07-19,"20.25",,"34",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-07-11,"20.00",,"34",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2004-06-30,"15.00",,"38",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2004
+2003-10-04,"14.50",,"39",,,,,"BLUE","CLEAR","2-Very minor aesthetic problems",2003
+1997-08-07,"22.31",,"32","0.009","45",,,,,,1997
+1997-05-28,"25.26",,"31","0.037","56",,,,,,1997
+1991-08-01,"15.75",,"37","0.009","45",,,"GREEN","CLEAR","1-Beautiful, could not be nicer",1991
